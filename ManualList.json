@@ -1,0 +1,25 @@
+
+{
+"Manual" = [
+  { 
+    id: "M75L.md", 
+    name: "M75L o M75",
+    description: "Strumento per verifiche di sicurezza CEI 64-8 con funzioni multimetro TRMS"
+  },
+  { 
+    id: "IRONMETER.md", 
+    name: "Ironmeter Measurement Device",
+    description: "A device for precise measurements of ferrous materials. Keywords: Ironmeter, measurement, ferrous, metal detector, calibration."
+  },
+  { 
+    id: "SUPERCOMBIs.md", 
+    name: "SUPERCOMBIs ",
+    description: "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8, verifica sulle stazioni di ricarica EVSE, e analisi di rete."
+  },
+  {
+    id: "EASYTEST.md",
+    name: "EASYTEST strumento di misura",
+    description: "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8."
+  }
+]
+}
