@@ -1,25 +1,74 @@
-
 {
   "manuals": [
-    { 
-      "id": "M75L.md", 
-      "name": "M75L o M75",
-      "description": "Strumento per verifiche di sicurezza CEI 64-8 con funzioni multimetro TRMS"
-    },
-    { 
-      "id": "IRONMETER.md", 
-      "name": "IRONMETER",
-      "description": "è un multimetro portatile TRMS AC/DC"
-    },
-    { 
-      "id": "SUPERCOMBIs.md", 
-      "name": "SUPERCOMBIs",
-      "description": "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8, verifica sulle stazioni di ricarica EVSE, e analisi di rete."
+    {
+      "id": "COMBI519.md",
+      "name": "COMBI519",
+      "description": "Manuale per lo strumento multifunzione per verifiche di sicurezza e analisi di rete COMBI519."
     },
     {
       "id": "EASYTEST.md",
       "name": "EASYTEST",
       "description": "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8."
+    },
+    {
+      "id": "FULLTEST3.md",
+      "name": "FULLTEST3",
+      "description": "Manuale per lo strumento multifunzione per verifiche di sicurezza e test avanzati FULLTEST3."
+    },
+    {
+      "id": "HT6050N.md",
+      "name": "HT6050N",
+      "description": "Manuale per il luxmetro digitale di precisione HT6050N per la misura dell'illuminamento."
+    },
+    {
+      "id": "HT79.md",
+      "name": "HT79",
+      "description": "Manuale per la pinza amperometrica TRMS per misure di corrente AC/DC HT79."
+    },
+    {
+      "id": "IRONMETER.md",
+      "name": "IRONMETER",
+      "description": "Manuale per il multimetro portatile TRMS AC/DC IRONMETER."
+    },
+    {
+      "id": "IV600.md",
+      "name": "I-V 600",
+      "description": "Manuale per il tracciacurve I-V per la manutenzione e ricerca guasti su impianti fotovoltaici IV600."
+    },
+    {
+      "id": "M75L.md",
+      "name": "M75L o M75",
+      "description": "Strumento per verifiche di sicurezza CEI 64-8 con funzioni multimetro TRMS."
+    },
+    {
+      "id": "MACROTESTG3.md",
+      "name": "MACROTEST G3",
+      "description": "Manuale per lo strumento multifunzione avanzato per verifiche di sicurezza globali MACROTEST G3."
+    },
+    {
+      "id": "NEPTUNE.md",
+      "name": "NEPTUNE",
+      "description": "Manuale per lo strumento multifunzione per verifiche su quadri elettrici e macchinari industriali NEPTUNE."
+    },
+    {
+      "id": "PQA820.md",
+      "name": "PQA820",
+      "description": "Manuale per l'analizzatore di qualità dell'energia e dei consumi PQA820."
+    },
+    {
+      "id": "PVISOTEST.md",
+      "name": "PV-ISOTEST",
+      "description": "Manuale per lo strumento di misura di isolamento e continuità su impianti fotovoltaici PV-ISOTEST."
+    },
+    {
+      "id": "SOLAR300N.md",
+      "name": "SOLAR 300N",
+      "description": "Manuale per lo strumento di collaudo e analisi di impianti fotovoltaici monofase e trifase SOLAR 300N."
+    },
+    {
+      "id": "SUPERCOMBIs.md",
+      "name": "SUPERCOMBIs",
+      "description": "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8, verifica sulle stazioni di ricarica EVSE, e analisi di rete."
     }
   ]
 }
