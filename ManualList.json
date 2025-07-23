@@ -74,6 +74,11 @@
       "id": "PVCHECKs.md",
       "name": "PVCHECKs",
       "description": "Manuale per lo strumento di collaudo e analisi di impianti fotovoltaici."
+    },
+    {
+      "id": "PVCHECKsPRO.md",
+      "name": "PVCHECKs PRO",
+      "description": "Manuale per lo strumento di collaudo e analisi di impianti fotovoltaici grandi."
     }
   ]
 }
