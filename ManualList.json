@@ -69,6 +69,11 @@
       "id": "SUPERCOMBIs.md",
       "name": "SUPERCOMBIs",
       "description": "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8, verifica sulle stazioni di ricarica EVSE, e analisi di rete."
+    },
+    {
+      "id": "PVCHECKs.md",
+      "name": "PVCHECKs",
+      "description": "Manuale per lo strumento di collaudo e analisi di impianti fotovoltaici."
     }
   ]
 }
