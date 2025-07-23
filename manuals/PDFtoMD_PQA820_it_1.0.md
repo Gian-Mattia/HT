@@ -1,0 +1,1156 @@
+# PQA820
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-32 -->
+© Copyright HT ITALIA 2024 Versione IT 4.0 1 - 16/07/2024 **PQA819 – PQA820 Manuale d’uso**
+
+**PQA819 - PQA820 IT – 1**
+
+# INDICE
+
+1.  PRECAUZIONI E MISURE DI SICUREZZA
+    1.1. Istruzioni preliminari
+    1.2. Durante l’uso
+    1.3. Dopo l’uso
+    1.4. Definizione di categoria di misura (sovratensione)
+2.  DESCRIZIONE GENERALE
+    2.1. Introduzione
+    2.2. funzionalità dello strumento
+3.  PREPARAZIONE ALL’UTILIZZO
+    3.1. Controlli iniziali
+    3.2. Alimentazione dello strumento
+    3.3. Conservazione
+4.  NOMENCLATURA
+    4.1. Descrizione dello strumento
+    4.2. Descrizione della tastiera
+    4.3. Descrizione deI LED indicatori
+5.  IMPOSTAZIONI INIZIALI
+    5.1. Impostazione sistema elettrico
+    5.2. Impostazione tipo pinza
+    5.3. Impostazione fondo scala pinza
+    5.4. Impostazione rapporto di trasformazione TV esterni
+    5.5. Impostazione limiti per anomalie di tensione
+    5.6. Impostazione del periodo di integrazione
+    5.7. Impostazione di un avvio ed arresto programmato
+    5.8. Impostazione data e ora dello strumento
+6.  PROCEDURE DI MISURA
+    6.1. Collegamento in un Sistema Monofase
+    6.2. Collegamento in un Sistema Trifase 3 - fili
+    6.3. Collegamento in un Sistema Trifase 4 - fili
+7.  REGISTRAZIONE DEI PARAMETRI ELETTRICI
+    7.1. Avvio di una registrazione
+    7.2. Durante una registrazione
+    7.3. Arresto di una registrazione
+8.  OPERAZIONI CON MEMORIA
+    8.1. Cancellazione della memoria
+9.  TRASFERIMENTO DATI AL SOFTWARE DI GESTIONE
+    9.1. Trasferimento dati tramite porta USB
+    9.2. Trasferimento dati tramite collegamento WiFi
+    9.3. Collegamento a dispositivi iOS/Android in connessione WiFi
+10. MANUTENZIONE
+    10.1. Generalità
+    10.2. Pulizia dello Strumento
+    10.3. Fine vita
+11. SPECIFICHE TECNICHE
+    11.1. Caratteristiche tecniche
+    11.2. Normative di riferimento
+    11.3. Caratteristiche generali
+    11.4. Ambiente
+        11.4.1. Condizioni ambientali di utilizzo
+    11.5. Accessori
+12. APPENDICE – CENNI TEORICI
+    12.1. Anomalie di tensione
+
+**PQA819 - PQA820 IT – 2**
+
+    12.2. Armoniche di Tensione e Corrente
+        12.2.1. Valori limite per le armoniche
+        12.2.2. Cause della presenza di armoniche
+        12.2.3. Conseguenza della presenza di armoniche
+    12.3. Definizioni di Potenza e Fattore di Potenza
+        12.3.1. Convenzioni sulle potenze e fattori di potenza
+    12.4. Cenni sul Metodo di Misura
+        12.4.1. Periodo di integrazione
+        12.4.2. Calcolo del fattore di potenza
+13. ASSISTENZA
+    13.1. Condizioni di Garanzia
+    13.2. Assistenza
+
+**PQA819 - PQA820 IT – 3**
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in accordo alla direttiva IEC/EN61010-1, relativa agli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo **!**.
+
+Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+
+*   Non effettuare misure di tensione o corrente in ambienti umidi.
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi.
+*   Evitare contatti con il circuito in esame se non si stanno effettuando misure.
+*   Evitare contatti con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+**!** : Attenzione: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti
+**!** : Pericolo Alta Tensione: rischi di shock elettrici
+**□□** : Strumento con doppio isolamento
+**~** : Tensione o Corrente AC
+**⏚** : Le tensioni indicate a sinistra di questo simbolo si intendono riferite verso terra
+
+## 1.1. Istruzioni preliminari
+
+*   Questo strumento è stato progettato per un utilizzo in un ambiente con livello di inquinamento 2.
+*   Può essere utilizzato per misure di **TENSIONE** e **CORRENTE** su installazioni con categoria di sovratensione **CAT IV 300V AC** verso terra e tensione nominale fra gli ingressi 415V AC.
+*   La invitiamo a seguire le normali regole di sicurezze orientate alla protezione contro correnti pericolose e a proteggere lo strumento contro un utilizzo errato.
+*   Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+*   Non effettuare misure su circuiti che superano i limiti di corrente e tensione specificati.
+*   Prima di collegare i cavi, i coccodrilli e le pinze al circuito in esame, controllare che sia selezionata la configurazione desiderata.
+
+**PQA819 - PQA820 IT – 4**
+
+## 1.2. Durante l’uso
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+**ATTENZIONE**
+La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+
+*   Quando lo strumento è connesso al circuito in esame non toccare mai un qualunque terminale inutilizzato.
+*   Durante la misura di correnti, ogni altra corrente localizzata in prossimità delle pinze può influenzare la precisione della misura.
+*   Durante la misura di corrente posizionare sempre il conduttore il più possibile al centro del toroide in modo da ottenere una lettura più accurata.
+
+## 1.3. Dopo l’uso
+
+*   Quando le misure sono terminate, spegnere lo strumento tramite il tasto **ON/OFF**.
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo attenersi alle prescrizioni descritte al § 3.3.
+
+## 1.4. Definizione di categoria di misura (sovratensione)
+
+La norma "IEC/EN61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali", definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § 6.7.4: Circuiti di misura, essa recita: i circuiti sono suddivisi nelle seguenti categorie di misura:
+
+*   La **Categoria di misura IV** serve per le misure effettuate su una sorgente di un’installazione a bassa tensione.
+    Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle sovracorrenti e sulle unità di regolazione dell’ondulazione.
+*   La **Categoria di misura III** serve per le misure effettuate in installazioni all’interno di edifici.
+    Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli apparecchi destinati all’impiego industriale e altre apparecchiature, per esempio i motori fissi con collegamento ad impianto fisso.
+*   La **Categoria di misura II** serve per le misure effettuate su circuiti collegati direttamente all’installazione a bassa tensione.
+    Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari.
+*   La **Categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE.
+    Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura.
+
+**PQA819 - PQA820 IT – 5**
+
+# 2. DESCRIZIONE GENERALE
+
+## 2.1. Introduzione
+
+Questo manuale si riferisce ai modelli **PQA819** e **PQA820**. Nel seguito del manuale con la parola “strumento” si intende genericamente il modello PQA820 salvo notazione specifica all’occorrenza indicata. Lo strumento permette un approccio totalmente nuovo al mondo delle misure elettriche. Infatti l'uso di strumenti assistiti da **PC** consente di analizzare una enorme mole di dati con una semplicità ed una velocità impossibili da ottenere con qualunque altro sistema.
+
+Le differenze tra i modelli sono elencate nella seguente Tabella 1.
+
+| Descrizione funzioni                                              | PQA819    | PQA820    |
+| :---------------------------------------------------------------- | :-------- | :-------- |
+| Registrazione corrente di neutro                                  |           | •         |
+| Registrazione anomalie di tensione (buchi, picchi)                |           | •         |
+| Registrazione dissimmetria tensioni                               |           | •         |
+| Registrazione armoniche tensione/corrente fino al 49° ordine      |           | •         |
+| Registrazione Potenza Apparente                                   |           | •         |
+| Registrazione Potenze/Energie assorbite/generate                  | • (assorbite) | •         |
+| Registrazione Fattore di potenza / Cos  assorbito/generato       | • (assorbito) | •         |
+| Numero di grandezze selezionabili                                 | 44 (fisso) | 383 (fisso) |
+| Autonomia registrazione (giorni)                                  | > 230 (@ PI=15min) | > 30 (@ PI=10min) |
+
+Tabella 1: Differenze tra i modelli PQA819 e PQA820
+
+## 2.2. funzionalità dello strumento
+
+Lo strumento esegue:
+
+*   La **Visualizzazione** in tempo reale (con collegamento a PC e/o dispositivi iOS/Android tramite APP **HTAnalysis**) dei valori delle grandezze elettriche di un impianto Monofase o Trifase con o senza neutro e dell'analisi armonica delle tensioni e correnti.
+*   La **Registrazione** (tramite opportuna impostazione) nel tempo dei valori delle tensioni AC/DC, dissimmetria tensioni (**PQA820**), anomalie di tensione (buchi, picchi) con risoluzione 10ms (**PQA820**), correnti AC/DC, corrente di neutro (**PQA820**) armoniche di tensione/corrente (**PQA820**), valore THD% tensioni/correnti, potenze attive, reattive, apparenti (**PQA820**), fattori di potenza e cos , energie attive, reattive intendendo con registrazione il salvataggio nella memoria dello strumento dei valori assunti dalle grandezze elettriche nel tempo.
+
+**ATTENZIONE**
+I suddetti termini verranno più volte utilizzati nel corso del presente manuale. Si invita pertanto l'utente a cercare di focalizzare fin da subito le distinzioni fra le definizioni sopra elencate.
+
+**PQA819 - PQA820 IT – 6**
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+
+## 3.1. Controlli iniziali
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, comunque, di controllare sommariamente lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 11.5. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 13.
+
+## 3.2. Alimentazione dello strumento
+
+Lo strumento può essere alimentato nei modi seguenti:
+
+*   Alimentazione esterna: terminali rosso e giallo (campo tensione nominale: 100  415V, 50/60Hz)
+*   Alimentazione interna: batteria interna ricaricabile tramite i terminali rosso e giallo
+
+**ATTENZIONE**
+
+*   Se si intende effettuare una registrazione si consiglia di utilizzare **SEMPRE** l'alimentazione esterna.
+*   In mancanza dell’alimentazione esterna, lo strumento passa automaticamente all’alimentazione interna fornita dalla batteria ricaricabile.
+*   Se la misura prevede l'utilizzo di TV, gli ingressi di alimentazione rosso e giallo devono essere connessi ad una fonte di alimentazione esterna.
+
+## 3.3. Conservazione
+
+Per garantire misure precise, dopo un lungo periodo di immagazzinamento in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 11.4.1).
+
+**PQA819 - PQA820 IT – 7**
+
+# 4. NOMENCLATURA
+
+## 4.1. Descrizione dello strumento
+
+**LEGENDA:**
+1.  LED indicatori
+2.  Legenda LED indicatori
+3.  Connettore USB
+4.  Ingressi di tensione e corrente
+5.  Tastiera
+
+Fig. 1: Descrizione dello strumento
+
+## 4.2. Descrizione della tastiera
+
+La tastiera è costituita dai seguenti tasti:
+
+*   **ON/OFF**: la pressione di questo tasto accende lo strumento. Tenere premuto circa 2s il tasto per spegnere lo strumento. In caso di mancato spegnimento tenere premuto il tasto per almeno 5s.
+*   **START/STOP**: avvio/arresto manuale della registrazione (vedere § 7 e § 7.3).
+*   **SYSTEM**: consente la selezione del sistema elettrico (Monofase, Trifase 3 fili e 4 fili).
+*   **WiFi/RF**: consente la selezione del modo di comunicazione WiFi oppure RF (Radio Frequenza – solo per comunicazione con altri strumenti HT).
+
+## 4.3. Descrizione deI LED indicatori
+
+| LED         | DESCRIZIONE                                                                                                                                                                                                                                                            |
+| :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| POWER       | Descrive lo stato di accensione e modalità di alimentazione dello strumento:                                                                                                                                                                                           |
+|             | Spento: Strumento spento                                                                                                                                                                                                                                               |
+|             | Lampeggiante verde: Strumento acceso alimentato tramite batterie interne                                                                                                                                                                                               |
+|             | Lampeggiante rosso: Carica delle batterie interne prossima all’esaurimento                                                                                                                                                                                           |
+| STATUS      | Descrive lo stato dello strumento:                                                                                                                                                                                                                                     |
+|             | Spento: Nessuna registrazione in corso                                                                                                                                                                                                                               |
+|             | Lampeggiante verde: Registrazione in corso                                                                                                                                                                                                                           |
+|             | Verde: Strumento in attesa di avviare la registrazione. La registrazione partirà sempre all’inizio del minuto successivo alla pressione del tasto START / ricezione del comando di avvio registrazione                                                                  |
+|             | Lampeggiante rosso: Memoria piena                                                                                                                                                                                                                                      |
+|             | Rosso: Errore interno – utilizzare il software di gestione per individuare il tipo di malfunzionamento. Alcuni di essi potrebbero essere anche bloccanti la registrazione.                                                                                                 |
+| RF/WiFi     | Descrive quale modalità di comunicazione è correntemente impostata nello strumento:                                                                                                                                                                                  |
+|             | Lampeggiante verde: Modalità WiFi                                                                                                                                                                                                                                      |
+|             | Acceso fisso: Modalità RF (solo per collegamento con altri strumenti HT).                                                                                                                                                                                              |
+| CONNECTION  | Indica se è attivo o meno un collegamento WiFi o RF (in relazione alla modalità di comunicazione impostata).                                                                                                                                                            |
+| SYSTEM      | Indica il sistema elettrico correntemente impostato:                                                                                                                                                                                                                   |
+|             | Spento: Modalità Monofase                                                                                                                                                                                                                                              |
+|             | Lampeggiante verde: Modalità Trifase senza neutro                                                                                                                                                                                                                      |
+|             | Verde: Modalità Trifase con Neutro                                                                                                                                                                                                                                     |
+| ERROR       | Indica eventuali possibili errori di collegamento:                                                                                                                                                                                                                       |
+|             | Spento: Nessuna errore rilevato                                                                                                                                                                                                                                      |
+|             | Lampeggiante rosso: Senso ciclico delle tensioni non corretto                                                                                                                                                                                                        |
+|             | Rosso: Una delle potenze attive misurate dallo strumento è negativa                                                                                                                                                                                                  |
+
+Tabella 2: Descrizione dei LED indicatori
+
+**PQA819 - PQA820 IT – 8**
+
+# 5. IMPOSTAZIONI INIZIALI
+
+**ATTENZIONE**
+Le impostazioni dello strumento possono essere eseguite solo tramite il corrispondente software di gestione fatto salvo la selezione del sistema elettrico che può anche essere effettuata tramite il tasto SYSTEM presente nella tastiera dello strumento stesso.
+
+## 5.1. Impostazione sistema elettrico
+
+E’ possibile selezionare il sistema elettrico tramite il tasto **SYSTEM** presente sulla tastiera dello strumento stesso. Sono disponibili le seguenti configurazioni:
+
+*   Sistema Monofase
+*   Sistema Trifase senza neutro (3 - fili)
+*   Sistema Trifase con neutro (4 - fili)
+
+Ad ogni sistema elettrico corrisponde un elenco di parametri registrati automaticamente dallo strumento (non modificabile). Fare riferimento alle Tabelle seguenti.
+
+| SIMBOLO                              | DESCRIZIONE                                                                                   |
+| :----------------------------------- | :-------------------------------------------------------------------------------------------- |
+| V1                                   | Valore Efficace della Tensione di Fase 1 o DC                                                 |
+| freq                                 | Frequenza di Rete                                                                             |
+| I1                                   | Valore Efficace della Corrente di Fase 1 o DC                                                 |
+| THDV1%, DCV1, Har1V1, ..,Har49V1     | Fattore Percentuale di distorsione armonica della Tensione Fase1 (PQA820)                     |
+| THDI1%, DCI1, Har1I1, ..,Har49I1     | Fattore Percentuale di distorsione armonica della Corrente Fase1 (PQA820)                     |
+| P1+                                  | Potenza Attiva assorbita Fase1                                                                |
+| Ea1+                                 | Energia Attiva assorbita Fase1                                                                |
+| Q1i+                                 | Potenza Reattiva Induttiva assorbita Fase1                                                    |
+| Er1i+                                | Energia Reattiva Induttiva assorbita Fase1                                                    |
+| Q1c+                                 | Potenza Reattiva Capacitiva assorbita, Fase1                                                  |
+| Er1c+                                | Energia Reattiva Capacitiva assorbita, Fase1                                                  |
+| S1+                                  | Potenza Apparente assorbita, della Fase1 (PQA820)                                             |
+| Es1+                                 | Energia Apparente assorbita, Fase1 (PQA820)                                                   |
+| Pf1i+                                | Valore del Fattore di Potenza induttivo assorbito della Fase 1                                |
+| dPf1i+                               | Valore del cos  induttivo assorbito della Fase 1                                             |
+| Pf1c+                                | Valore del Fattore di Potenza capacitivo assorbito della Fase 1                               |
+| dPf1c+                               | Valore del cos  capacitivo assorbito della Fase 1                                            |
+| P1-                                  | Potenza Attiva generata Fase1 (PQA820)                                                        |
+| Ea1-                                 | Energia Attiva generata Fase1 (PQA820)                                                        |
+| Q1i-                                 | Potenza Reattiva Induttiva generata Fase1 (PQA820)                                            |
+| Er1i-                                | Energia Reattiva Induttiva generata Fase1 (PQA820)                                            |
+| Q1c-                                 | Potenza Reattiva Capacitiva generata, Fase1 (PQA820)                                          |
+| Er1c-                                | Energia Reattiva Capacitiva generata, Fase1 (PQA820)                                          |
+| S1-                                  | Potenza Apparente generata, della Fase1 (PQA820)                                              |
+| Es1-                                 | Energia Apparente generata, Fase1 (PQA820)                                                    |
+| Pf1i-                                | Valore del Fattore di Potenza induttivo generato della Fase 1 (PQA820)                        |
+| dPf1i-                               | Valore del cos  induttivo generato della Fase 1 (PQA820)                                     |
+| Pf1c-                                | Valore del Fattore di Potenza capacitivo generato della Fase 1 (PQA820)                       |
+| dPf1c-                               | Valore del cos  capacitivo generato della Fase 1 (PQA820)                                    |
+
+Tabella 3: Elenco delle grandezze automaticamente registrate per il sistema Monofase
+
+**PQA819 - PQA820 IT – 9**
+
+| SIMBOLO                                                                  | DESCRIZIONE                                                                                                                                                                                             |
+| :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| V1PE, V2PE, V3PE                                                         | Valore Efficace della Tensione di Fase 1, Fase 2, Fase 3 rispetto al PE                                                                                                                                 |
+| V12, V23, V31                                                            | Valore Efficace delle tensioni concatenate                                                                                                                                                              |
+| freq                                                                     | Frequenza di Rete                                                                                                                                                                                       |
+| I1, I2, I3                                                               | Valore Efficace della Corrente di Fase 1, Fase 2, Fase 3                                                                                                                                                  |
+| THDV1%, THDV2%, THDV3%                                                   | Fattore Percentuale di distorsione armonica della Tensione Fase1, Fase2, Fase3                                                                                                                          |
+| DCVx, Har1Vx, ..,Har49Vx (x=1,2,3)                                       | - Armoniche di Tensione della Fase 1, Fase2, Fase3 (PQA820)                                                                                                                                               |
+| THDI1%, THDI2%, THDI3%                                                   | Fattore Percentuale di distorsione armonica della Corrente Fase1, Fase2, Fase3                                                                                                                          |
+| DCIx, Har1Ix, ..,Har49Ix (x=1,2,3)                                       | - Armoniche di Corrente della Fase1, Fase2, Fase3 (PQA820)                                                                                                                                               |
+| u2, uo                                                                   | Dissimmetria della Tensioni - Percentuale della Terna inversa (PQA820)                                                                                                                                  |
+| uo                                                                       | Dissimmetria della Tensioni - Percentuale della Terna omopolare (PQA820)                                                                                                                                |
+| Pt+, P1+, P2+, P3+                                                       | Potenza Attiva assorbita Totale, Fase1, Fase2, Fase3.                                                                                                                                                   |
+| Eat+,Ea1+, Ea2+, Ea3+                                                    | Energia Attiva assorbita Totale, Fase1, Fase2, Fase3.                                                                                                                                                   |
+| Qti+, Q1i+, Q2i+, Q3i+                                                   | Potenza Reattiva Induttiva assorbita Totale, Fase1, Fase 2, Fase 3                                                                                                                                      |
+| Erti+,Er1i+, Er2i+, Er3i+                                                | Energia Reattiva Induttiva assorbita Totale, Fase1, Fase2, Fase3                                                                                                                                        |
+| Qtc+, Q1c+, Q2c+, Q3c+                                                   | Potenza Reattiva Capacitiva assorbita Totale, Fase1, Fase 2, Fase 3                                                                                                                                     |
+| Ertc+,Er1c+, Er2c+, Er3c+                                                | Energia Reattiva Capacitiva assorbita Totale, Fase1, Fase2, Fase3                                                                                                                                       |
+| St+, S1+, S2+, S3+                                                       | Potenza Apparente assorbita Totale, della Fase1, Fase 2, Fase 3 (PQA820)                                                                                                                                |
+| Est+,Es1+, Es2+, Es3+                                                    | Energia Apparente assorbita Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                                        |
+| Pfti+, Pf1i+, Pf2i+, Pf3i+                                               | Valori dei Fattori di Potenza induttivi assorbiti totale, della Fase 1, Fase 2, Fase 3                                                                                                                  |
+| dPfti+, dPf1i+,d Pf2i+, dPf3i+                                           | Valori dei cos  induttivi assorbiti totale, della Fase 1, Fase 2, Fase 3                                                                                                                                |
+| Pftc+, Pf1c+, Pf2c+, Pf3c+                                               | Valori dei Fattori di Potenza capacitivi assorbiti totale, della Fase 1, Fase 2, Fase 3                                                                                                                   |
+| dPftc+, dPf1c+, dPf2c+, dPf3c+                                           | Valori dei cos  capacitivi assorbiti totale, della Fase 1, Fase 2, Fase 3                                                                                                                               |
+| Pt-, P1-, P2-, P3-                                                       | Potenza Attiva generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                                             |
+| Eat-,Ea1-, Ea2-, Ea3-                                                    | Energia Attiva generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                                            |
+| Qti-, Q1i-, Q2i-, Q3i-                                                   | Potenza Reattiva Induttiva generata Totale, Fase1, Fase 2, Fase 3 (PQA820)                                                                                                                              |
+| Erti-,Er1i-, Er2i-, Er3i-                                                | Energia Reattiva Induttiva generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                               |
+| Qtc-, Q1c-, Q2c-, Q3c-                                                   | Potenza Reattiva Capacitiva generata Totale, Fase1, Fase 2, Fase 3 (PQA820)                                                                                                                            |
+| Ertc-,Er1c-, Er2c-, Er3c-                                                | Energia Reattiva Capacitiva generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                              |
+| St-, S1-, S2-, S3-                                                       | Potenza Apparente generata Totale, della Fase1, Fase 2, Fase 3 (PQA820)                                                                                                                                 |
+| Est-,Es1-, Es2-, Es3-                                                    | Energia Apparente generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                                         |
+| Pfti-, Pf1i-, Pf2i-, Pf3i-                                               | Fattori di Potenza induttivi generati totale, della Fase 1, Fase 2, Fase 3 (PQA820)                                                                                                                     |
+| dPfti-, dPf1i-,d Pf2i-, dPf3i-                                           | Cos  induttivi generati totale, della Fase 1, Fase 2, Fase 3 (PQA820)                                                                                                                                   |
+| Pftc-, Pf1c-, Pf2c-, Pf3c-                                               | Fattori di Potenza capacitivi generati totale, della Fase 1, Fase 2, Fase 3 (PQA820)                                                                                                                    |
+| dPftc-, dPf1c-, dPf2c-, dPf3c-                                           | Cos  capacitivi generati totale, della Fase 1, Fase 2, Fase 3 (PQA820)                                                                                                                                  |
+
+Tabella 4: Elenco delle grandezze automaticamente registrate per il sistema Trifase 3 - fili
+
+**PQA819 - PQA820 IT – 10**
+
+| SIMBOLO                                                              | DESCRIZIONE                                                                                                                                                                                             |
+| :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| V1, V2, V3                                                             | Valore Efficace della Tensione di Fase 1, Fase 2, Fase 3.                                                                                                                                               |
+| V12, V23, V31                                                          | Valore Efficace delle tensioni concatenate                                                                                                                                                              |
+| freq                                                                   | Frequenza di Rete                                                                                                                                                                                       |
+| I1, I2, I3                                                             | Valore Efficace della Corrente di Fase 1, Fase 2, Fase 3                                                                                                                                                  |
+| IN                                                                     | Valore Efficace della Corrente di Neutro (PQA820)                                                                                                                                                         |
+| THDV1%, THDV2%, THDV3%                                                 | Fattore Percentuale di distorsione armonica della Tensione Fase1, Fase2, Fase3                                                                                                                          |
+| DCVx, Har1Vx, ..,Har49Vx (x=1,2,3)                                     | - Armoniche di Tensione della Fase 1, Fase2, Fase3 (PQA820)                                                                                                                                               |
+| THDI1%, THDI2%, THDI3%                                                 | Fattore Percentuale di distorsione armonica della Corrente Fase1, Fase2, Fase3                                                                                                                          |
+| DCIx, Har1Ix, ..,Har49Ix (x=1,2,3)                                     | - Armoniche di Corrente della Fase1, Fase2, Fase3 (PQA820)                                                                                                                                               |
+| u2, uo                                                                 | Dissimmetria della Tensioni - Percentuale della Terna inversa (PQA820)                                                                                                                                  |
+| uo                                                                     | Dissimmetria della Tensioni - Percentuale della Terna omopolare (PQA820)                                                                                                                                |
+| Pt+, P1+, P2+, P3+                                                     | Potenza Attiva assorbita Totale, Fase1, Fase2, Fase3.                                                                                                                                                   |
+| Eat+,Ea1+, Ea2+, Ea3+                                                  | Energia Attiva assorbita Totale, Fase1, Fase2, Fase3.                                                                                                                                                   |
+| Qti+, Q1i+, Q2i+, Q3i+                                                 | Potenza Reattiva Induttiva assorbita Totale, Fase1, Fase 2, Fase 3                                                                                                                                      |
+| Erti+,Er1i+, Er2i+, Er3i+                                              | Energia Reattiva Induttiva assorbita Totale, Fase1, Fase2, Fase3                                                                                                                                        |
+| Qtc+, Q1c+, Q2c+, Q3c+                                                 | Potenza Reattiva Capacitiva assorbita Totale, Fase1, Fase 2, Fase 3                                                                                                                                     |
+| Ertc+,Er1c+, Er2c+, Er3c+                                              | Energia Reattiva Capacitiva assorbita Totale, Fase1, Fase2, Fase3                                                                                                                                       |
+| St+, S1+, S2+, S3+                                                     | Potenza Apparente assorbita Totale, della Fase1, Fase 2, Fase 3 (PQA820)                                                                                                                                |
+| Est+,Es1+, Es2+, Es3+                                                  | Energia Apparente assorbita Totale, Fase1, Fase2, Fase3                                                                                                                                                 |
+| Pfti+, Pf1i+, Pf2i+, Pf3i+                                             | Valori dei Fattori di Potenza induttivi assorbiti totale, della Fase 1, Fase 2, Fase 3                                                                                                                  |
+| dPfti+, dPf1i+,d Pf2i+, dPf3i+                                         | Valori dei cos  induttivi assorbiti totale, della Fase 1, Fase 2, Fase 3                                                                                                                                |
+| Pftc+, Pf1c+, Pf2c+, Pf3c+                                             | Valori dei Fattori di Potenza capacitivi assorbiti totale, della Fase 1, Fase 2, Fase 3                                                                                                                   |
+| dPftc+, dPf1c+, dPf2c+, dPf3c+                                         | Valori dei cos  capacitivi assorbiti totale, della Fase 1, Fase 2, Fase 3                                                                                                                               |
+| Pt-, P1-, P2-, P3-                                                     | Potenza Attiva generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                                             |
+| Eat-,Ea1-, Ea2-, Ea3-                                                  | Energia Attiva generata Totale, Fase1, Fase2, Fase3. (PQA820)                                                                                                                                            |
+| Qti-, Q1i-, Q2i-, Q3i-                                                 | Potenza Reattiva Induttiva generata Totale, Fase1, Fase 2, Fase 3 (PQA820)                                                                                                                              |
+| Erti-,Er1i-, Er2i-, Er3i-                                              | Energia Reattiva Induttiva generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                               |
+| Qtc-, Q1c-, Q2c-, Q3c-                                                 | Potenza Reattiva Capacitiva generata Totale, Fase1, Fase 2, Fase 3 (PQA820)                                                                                                                            |
+| Ertc-,Er1c-, Er2c-, Er3c-                                              | Energia Reattiva Capacitiva generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                              |
+| St-, S1-, S2-, S3-                                                     | Potenza Apparente generata Totale, della Fase1, Fase 2, Fase 3 (PQA820)                                                                                                                                 |
+| Est-,Es1-, Es2-, Es3-                                                  | Energia Apparente generata Totale, Fase1, Fase2, Fase3 (PQA820)                                                                                                                                         |
+| Pfti-, Pf1i-, Pf2i-, Pf3i-                                             | Fattori di Potenza induttivi generati totale, della Fase 1, Fase 2, Fase 3 (PQA820)                                                                                                                     |
+| dPfti-, dPf1i-,d Pf2i-, dPf3i-                                         | Cos  induttivi generati totale, della Fase 1, Fase 2, Fase 3 (PQA820)                                                                                                                                   |
+| Pftc-, Pf1c-, Pf2c-, Pf3c-                                             | Fattori di Potenza capacitivi generati totale, della Fase 1, Fase 2, Fase 3 (PQA820)                                                                                                                    |
+| dPftc-, dPf1c-, dPf2c-, dPf3c-                                         | Cos  capacitivi generati totale, della Fase 1, Fase 2, Fase 3 (PQA820)                                                                                                                                  |
+
+Tabella 5: Elenco delle grandezze automaticamente registrate per il sistema Trifase 4 - fili
+
+**ATTENZIONE**
+Le connessioni agli ingressi dello strumento dovranno essere coerenti con il tipo di sistema selezionato. Per ulteriori dettagli sulle impostazioni di questo parametro si faccia riferimento alla guida in linea del software di gestione.
+
+**PQA819 - PQA820 IT – 11**
+
+## 5.2. Impostazione tipo pinza
+
+Lo strumento è in grado di gestire due tipi di trasduttori a pinza:
+
+*   **STD**: pinza standard con nucleo in ferro
+*   **Flex**: pinza a toroide flessibile
+
+E’ inoltre possibile differenziare le tipologie di pinze utilizzate per le correnti di fase e per la corrente di neutro con impostazione indipendente dei fondo scala utilizzati.
+Il tipo di pinza selezionato deve essere sempre coerente con la tipologia di pinza effettivamente utilizzato. Per ulteriori dettagli sulle impostazioni di questo parametro si faccia riferimento alla guida in linea del software di gestione.
+
+## 5.3. Impostazione fondo scala pinza
+
+Questo parametro consente la selezione del fondo scala delle pinze utilizzate. E’ possibile differenziare il fondo scala delle pinze utilizzate per la misura della corrente di fase e di neutro. Per la tipologia di pinza “**Flex**” è possibile selezionare solo i valori **100A** e **1000A**.
+Il fondo scala selezionato deve essere sempre coerente con il fondo scala effettivamente utilizzato. Per ulteriori dettagli sulle impostazioni di questo parametro si faccia riferimento alla guida in linea del software di gestione.
+
+## 5.4. Impostazione rapporto di trasformazione TV esterni
+
+Lo strumento consente l'interfacciamento anche con eventuali trasformatori di tensione (TV) presenti nell'impianto in esame visualizzando il valore delle tensioni presenti sul primario dei trasformatori stessi. A tal fine è necessario impostare il valore del rapporto di trasformazione dei trasformatori voltmetrici presenti con valore compreso tra **1  3999**.
+Per ulteriori dettagli sulle impostazioni di questo parametro si faccia riferimento alla guida in linea del software di gestione.
+
+## 5.5. Impostazione limiti per anomalie di tensione
+
+Lo strumento permette la registrazione delle anomalie di tensione (buchi, picchi) previa programmazione del valore della tensione nominale (dipendente dal tipo di sistema selezionato) e delle soglie limite inferiore e superiore con valori percentuali compresi tra **1%** e **30%**.
+Per ulteriori dettagli sulle impostazioni di questo parametro si faccia riferimento alla guida in linea del software di gestione e al § 12.1.
+
+## 5.6. Impostazione del periodo di integrazione
+
+Il valore di questo parametro determina ogni quanto tempo saranno archiviati nella memoria dello strumento i valori di tutte le grandezze selezionate (vedere § 12.4).
+Valori disponibili: **5s, 10s, 30s, 1min, 2min, 5min, 10min, 15min, 60min**.
+Per ulteriori dettagli sulle impostazioni di questo parametro si faccia riferimento alla guida in linea del software di gestione.
+
+**PQA819 - PQA820 IT – 12**
+
+## 5.7. Impostazione di un avvio ed arresto programmato
+
+Tramite questi parametri è possibile impostare le modalità di avvio e arresto di una registrazione. In particolare:
+
+*   **START:MAN**: La registrazione di tutte le grandezze selezionate è avviata all'inizio del **primo minuto successivo** alla pressione del tasto **START/STOP** (vedere § 7).
+*   **STOP:MAN**: La registrazione di tutte le grandezze selezionate è arrestata **manualmente** alla pressione del tasto **START/STOP** (vedere § 7.3).
+*   **START:AUTO STOP:AUTO**: La registrazione di tutte le grandezze selezionate è avviata/arrestata alla **data e ora** impostate. Per avviare la registrazione l'operatore dovrà comunque premere il tasto **START/STOP** per porre lo strumento in attesa della data/ora di avvio impostate (vedere § 7).
+
+Per ulteriori dettagli sulle impostazioni di questo parametro si faccia riferimento alla guida in linea del software di gestione.
+
+## 5.8. Impostazione data e ora dello strumento
+
+E’ possibile impostare la data e ora dello strumento inviandogli la data e ora del dispositivo su cui è installato il software di gestione. Per ulteriori dettagli sulle impostazioni di questo parametro si faccia riferimento alla guida in linea del software di gestione.
+
+**PQA819 - PQA820 IT – 13**
+
+# 6. PROCEDURE DI MISURA
+
+## 6.1. Collegamento in un Sistema Monofase
+
+**ATTENZIONE**
+
+*   La massima tensione nominale fra gli ingressi è 415V AC, CAT IV 300V verso terra. Non collegare lo strumento a tensioni che eccedono i limiti indicati in questo manuale.
+*   La tensione nominale di alimentazione dello strumento (terminali rosso - giallo) deve essere compresa nel campo: 100  415V, 50/60Hz.
+
+Fig. 2: Collegamento dello strumento in un sistema Monofase
+
+**ATTENZIONE**
+Ove possibile togliere alimentazione al sistema elettrico in esame prima di effettuare il collegamento dello strumento.
+
+1.  Controllare ed eventualmente modificare le impostazioni di base dello strumento (vedere § 5). In particolare impostare la modalità **Monofase**.
+2.  Collegare i terminali di alimentazione (rosso e giallo) rispettando le connessioni indicate in Fig. 2.
+3.  Collegare i cavi della tensione **L1 - N** rispettando le connessioni indicate in Fig. 2.
+4.  Se si intende effettuare rilevazioni di corrente e potenza, collegare la pinza amperometrica sul conduttore di fase rispettando il verso indicato sulla pinza e le connessioni indicate in Fig. 2.
+5.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio per il collegamento dello strumento.
+6.  Verificare che il LED **Error** sia spento. Nel caso sia acceso verificare che la pinza amperometrica sia connessa rispettando il verso indicato.
+7.  Nel caso sia attivo un collegamento USB o WiFi (vedere § 9) con un dispositivo su cui sia installato un software di gestione, i valori delle grandezze elettriche disponibili saranno visualizzate sul display del dispositivo stesso. Per ulteriori dettagli si faccia riferimento alla guida in linea del software di gestione.
+8.  Se si intende effettuare una registrazione:
+    *   Controllare ed eventualmente modificare i valori dei parametri di base (vedere § 5).
+    *   Per avviare la registrazione premere il tasto **START/STOP** (vedere § 7).
+
+**PQA819 - PQA820 IT – 14**
+
+## 6.2. Collegamento in un Sistema Trifase 3 - fili
+
+**ATTENZIONE**
+
+*   La massima tensione nominale fra gli ingressi è 415V AC, CAT IV 300V verso terra. Non collegare lo strumento a tensioni che eccedono i limiti indicati in questo manuale.
+*   La tensione nominale di alimentazione dello strumento (terminali rosso - giallo) deve essere compresa nel campo: 100  415V, 50/60Hz.
+
+Fig. 3: Collegamento dello strumento in un sistema Trifase 3 - fili
+
+**ATTENZIONE**
+Ove possibile togliere alimentazione al sistema elettrico in esame prima di effettuare il collegamento dello strumento.
+
+1.  Controllare ed eventualmente modificare le impostazioni di base dello strumento (vedere § 5). In particolare impostare la modalità **Trifase 3 - fili**.
+2.  Collegare i terminali di alimentazione (rosso e giallo) rispettando le connessioni indicate in Fig. 3.
+3.  Collegare i cavi delle tensioni **L1, L2 e L3** rispettando le connessioni indicate in Fig. 3. Collegare il cavo blu sul conduttore di protezione PE.
+4.  Se si intende effettuare rilevazioni di corrente e potenza collegare le pinze amperometriche sui conduttori di fase rispettando il verso indicato sulle pinze e le connessioni indicate in Fig. 3.
+5.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio.
+6.  Verificare che il LED **Error** sia spento. Nel caso in cui sia:
+    *   Acceso lampeggiante → verificare che le tensioni rispettino il senso ciclico corretto.
+    *   Acceso fisso → verificare che la pinza amperometrica sia connessa rispettando il verso indicato.
+7.  Nel caso sia attivo un collegamento USB o WiFi (vedere § 9) con un dispositivo su cui sia installato un software di gestione, i valori delle grandezze elettriche disponibili saranno visualizzate sul display del dispositivo stesso. Per ulteriori dettagli si faccia riferimento alla guida in linea del software di gestione.
+8.  Se si intende effettuare una registrazione:
+    *   Controllare ed eventualmente modificare i valori dei parametri di base (vedere § 5).
+    *   Per avviare la registrazione premere il tasto **START/STOP** (vedere § 7).
+
+**PQA819 - PQA820 IT – 15**
+
+## 6.3. Collegamento in un Sistema Trifase 4 - fili
+
+**ATTENZIONE**
+
+*   La massima tensione nominale fra gli ingressi è 415V AC, CAT IV 300V verso terra. Non collegare lo strumento a tensioni che eccedono i limiti indicati in questo manuale.
+*   La tensione nominale di alimentazione dello strumento (terminali rosso - giallo) deve essere compresa nel campo 100  415V, 50/60Hz.
+
+Fig. 4: Collegamento dello strumento in un sistema Trifase 4 - fili
+
+**ATTENZIONE**
+Ove possibile togliere alimentazione al sistema elettrico in esame prima di effettuare il collegamento dello strumento.
+
+1.  Controllare ed eventualmente modificare le impostazioni di base dello strumento (vedere § 5). In particolare impostare la modalità **Trifase 4 - fili**.
+2.  Collegare i terminali di alimentazione (rosso e giallo) rispettando le connessioni indicate in Fig. 4.
+3.  Collegare i cavi delle tensioni **L1, L2 e L3** rispettando le connessioni indicate in Fig. 4.
+4.  Collegare il cavo blu sul neutro del sistema.
+5.  Se si intende effettuare rilevazioni di corrente e potenza collegare le pinze amperometriche sui conduttori di fase rispettando il verso indicato sulla pinza e le connessioni indicate in Fig. 4.
+6.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio.
+7.  Verificare che il LED **Error** sia spento. Nel caso in cui sia:
+    *   Acceso lampeggiante → verificare che le tensioni rispettino il senso ciclico corretto.
+    *   Acceso fisso → verificare che la pinza amperometrica sia connessa rispettando il verso indicato.
+8.  Nel caso sia attivo un collegamento USB o WiFi (vedere § 9) con un dispositivo su cui sia installato un software di gestione, i valori delle grandezze elettriche disponibili saranno visualizzate sul display del dispositivo stesso. Per ulteriori dettagli si faccia riferimento alla guida in linea del software di gestione.
+9.  Se si intende effettuare una registrazione:
+    *   Controllare ed eventualmente modificare i valori dei parametri di base (vedere § 5).
+    *   Per avviare la registrazione premere il tasto **START/STOP** (vedere § 7).
+
+**PQA819 - PQA820 IT – 16**
+
+# 7. REGISTRAZIONE DEI PARAMETRI ELETTRICI
+
+## 7.1. Avvio di una registrazione
+
+L'avvio di una registrazione può essere impostato in modo MANUALE o AUTOMATICO. Terminata la fase di impostazione lo strumento avvia la registrazione seguendo la logica di seguito illustrata:
+
+*   ✓ MANUALE: La registrazione si avvia all'inizio del **minuto successivo** alla pressione del tasto **START/STOP**.
+*   ✓ AUTO: Qualora l'operatore abbia premuto il tasto START/STOP lo strumento rimarrà in stato di attesa fino al raggiungimento dalla data/ora impostate per poi avviare la registrazione. Se non si preme il tasto START/STOP invece la registrazione non si avvierà.
+
+In attesa di raggiungere la data/ora di avvio lo strumento accende in Verde il LED **Status**.
+
+**ATTENZIONE**
+Se si intende effettuare una registrazione si consiglia di utilizzare SEMPRE l'alimentazione esterna.
+
+*   ➢ Prima di effettuare l'avvio della registrazione si dovrebbe effettuare una valutazione preliminare in tempo reale della situazione dell'impianto, decidere cosa registrare ed impostare coerentemente lo strumento.
+*   ➢ Per agevolare l'utente nelle fasi di impostazione si è deciso di fornire lo strumento pre-impostato con una configurazione generale **4 - fili** che dovrebbe adattarsi alla maggior parte dei casi di utilizzo dello strumento stesso.
+*   ➢ La pressione del tasto **START/STOP** avvia la registrazione delle grandezze selezionate secondo le modalità impostate (vedere § 5.7).
+*   ➢ Poiché il valore di default del periodo di integrazione è impostato a **15min** lo strumento accumula internamente dati nella memoria temporanea per tale tempo. Trascorso tale periodo lo strumento elabora i risultati memorizzati nella memoria temporanea e salva nella memoria definitiva dello strumento la prima serie di valori relativi alla registrazione.
+*   ➢ Supponendo di aver impostato un periodo di integrazione di 15min, la durata della registrazione deve essere **almeno di 15 minuti** per produrre una serie di valori registrati e quindi trasferibili al software di gestione.
+*   ➢ Interrompendo invece la registrazione prima che il periodo di integrazione selezionato sia totalmente trascorso i dati accumulati nella memoria temporanea non verranno elaborati e la serie di dati ad essi relativi non saranno posti nella memoria definitiva.
+
+## 7.2. Durante una registrazione
+
+Durante una registrazione è possibile visualizzare tramite il software di gestione:
+
+*   ➢ Data/Ora di avvio della registrazione
+*   ➢ Valore del periodo di integrazione
+*   ➢ Numero dei periodi di integrazione trascorsi
+*   ➢ Autonomia di registrazione
+*   ➢ Numero delle anomalie di tensione rilevate
+
+## 7.3. Arresto di una registrazione
+
+Premere il tasto **START/STOP** per arrestare la registrazione in corso. La registrazione sarà automaticamente salvata nella memoria dello strumento.
+
+**PQA819 - PQA820 IT – 17**
+
+# 8. OPERAZIONI CON MEMORIA
+
+Lo strumento dispone di circa **8 MB** per i valori delle grandezze registrate. Tramite il software di gestione è possibile ricevere informazioni circa l’autonomia residua di registrazione compatibile con lo spazio di memoria residuo e le impostazioni effettuate sullo strumento stesso.
+Per ulteriori dettagli su questo argomento si faccia riferimento alla guida in linea del software di gestione.
+
+**ATTENZIONE**
+Tutti i dati memorizzati sono visualizzabili solo tramite trasferimento dati ad un PC tramite il software di gestione.
+
+## 8.1. Cancellazione della memoria
+
+E’ possibile cancellare l’intera memoria dello strumento tramite la seguente procedura:
+
+*   ➢ Spegnere lo strumento con il tasto **ON/OFF**.
+*   ➢ Premere e mantenere il tasto **SYSTEM** mentre si riaccende lo strumento tramite il tasto **ON/OFF**.
+
+Lo strumento emette un segnale acustico di conferma dell’avvenuta cancellazione della memoria.
+
+**PQA819 - PQA820 IT – 18**
+
+# 9. TRASFERIMENTO DATI AL SOFTWARE DI GESTIONE
+
+La connessione fra strumento e software di gestione può avvenire tramite:
+
+*   ➢ Porta USB tramite collegamento con cavo USB in dotazione.
+*   ➢ Collegamento senza fili tramite connessione WiFi.
+
+**ATTENZIONE**
+
+*   Non è possibile eseguire il trasferimento dati durante una registrazione.
+*   La porta selezionata NON deve essere gestita da altri dispositivi o applicazioni (es. mouse, modem, ecc.).
+*   Prima di effettuare il collegamento è necessario selezionare sul software di gestione la comunicazione WiFi o la porta COM utilizzata.
+
+## 9.1. Trasferimento dati tramite porta USB
+
+1.  Accendere lo strumento.
+2.  Collegare la porta USB dello strumento con una porta USB del PC su cui è installato il software di gestione.
+3.  Avviare il software di gestione e selezionare la modalità di trasferimento dati (per ulteriori dettagli su questo argomento si faccia riferimento alla guida in linea del software di gestione).
+
+## 9.2. Trasferimento dati tramite collegamento WiFi
+
+**ATTENZIONE**
+Il collegamento presuppone l’uso di un PC dotato di collegamento WiFi attivo e funzionante (del tipo integrato all’interno del PC oppure con l’installazione di un adattatore USB - WiFi reperibile sul mercato e non fornibile in nessun caso da HT ITALIA).
+
+1.  Nel PC, attivare la connessione WiFi sul PC di destinazione (ex: tramite uso di una chiavetta WiFi installata e collegata ad una porta USB, aprire “Connessione a una rete” facendo clic sull'icona della rete nell'area di notifica (tipicamente in basso a destra nella videata del PC), selezionare la rete “PQA820 - xx”, cliccare su “Connetti” ed attendere la conferma della connessione).
+2.  Accendere lo strumento.
+3.  Premere il tasto **WiFi/RF** sullo strumento in modo da attivare la comunicazione (LED RF/WiFi lampeggiante).
+4.  Avviare il software di gestione e selezionare la modalità di collegamento WiFi (per ulteriori dettagli su questo argomento si faccia riferimento alla guida in linea del software di gestione).
+
+## 9.3. Collegamento a dispositivi iOS/Android in connessione WiFi
+
+Lo strumento può essere collegato tramite connessione WiFi a dispositivi smartphone e/o tablet Android/iOS per il trasferimento dei dati delle misure con l’uso della APP **HT Analysis**. Operare nel modo seguente:
+
+1.  Scaricare e installare la **HT Analysis** sul dispositivo mobile (Android/iOS) desiderato.
+2.  Porre lo strumento in modo trasferimento dati a PC (vedere § 9.2).
+3.  Fare riferimento alle istruzioni dell’APP **HT Analysis** per la gestione dell’operazione.
+
+**PQA819 - PQA820 IT – 19**
+
+# 10. MANUTENZIONE
+
+## 10.1. Generalità
+
+Durante l’utilizzo e la conservazione dello strumento rispettare le raccomandazioni elencate di seguito al fine di evitare danni o possibili pericoli durante l’utilizzo:
+
+*   ➢ Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata.
+*   ➢ Non esporre direttamente alla luce del sole.
+*   ➢ Spegnere sempre lo strumento dopo l’utilizzo.
+
+## 10.2. Pulizia dello Strumento
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+## 10.3. Fine vita
+
+**ATTENZIONE**: il simbolo riportato sullo strumento indica che l'apparecchiatura ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+**PQA819 - PQA820 IT – 20**
+
+# 11. SPECIFICHE TECNICHE
+
+## 11.1. Caratteristiche tecniche
+
+Incertezza indicata come  [% lettura + (num. cifre *risoluzione)] a 23°C ± 5°C, < 75%HR
+
+**Tensione DC [Fase (+) – Neutro (-)]**
+
+| Campo [V]     | Risoluzione [V] | Incertezza              |
+| :------------ | :-------------- | :---------------------- |
+| 10.0  265.0  | 0.1             |  (0.7  lettura + 0.4V) |
+
+Valori di tensione < 10.0V sono azzerati
+
+**Tensione AC TRMS (Fase - Neutro, Fase - PE)**
+
+| Campo [V]    | Frequenza [Hz] | Risoluzione [V] | Incertezza             |
+| :----------- | :------------- | :-------------- | :--------------------- |
+| 10.0  265.0 | 42.5  65.0    | 0.1             |  (0.5  lettura + 0.2V) |
+
+Massimo Fattore di Cresta=1.5, Valori di tensione < 10.0V sono azzerati
+
+**Tensione AC TRMS (Fase - Fase)**
+
+| Campo [V]   | Frequenza [Hz] | Risoluzione [V] | Incertezza             |
+| :---------- | :------------- | :-------------- | :--------------------- |
+| 50.0  460  | 42.5  65.0    | 0.1             |  (1.0  lettura + 0.2V) |
+
+Massimo Fattore di Cresta=1.5, Massimo Fattore di Cresta=1.5, Valori di tensione < 10.0V sono azzerati
+
+**Anomalie di Tensione (Fase - Neutro, Fase - PE)** (solo PQA820)
+
+| Campo [V]    | Risoluzione [V] | Risoluzione [ms] | Incertezza [V]         | Incertezza [ms] |
+| :----------- | :-------------- | :--------------- | :--------------------- | :-------------- |
+| 15.0  265.0 | 0.2             | 10ms             |  (1.0  lett. + 2 cifre) |  ½ cycle       |
+
+**Corrente DC – Pinze Standard (STD)**
+
+| Campo [mV]   | Risoluzione [mV] | Incertezza               | Protezione contro sovraccarichi |
+| :----------- | :--------------- | :----------------------- | :------------------------------ |
+| 5.0  219.9  | 1                |  (0.7  lettura. + 1mV) | 10V                             |
+| 220.0  999.9|                  |  0.7  lettura          |                                 |
+
+Valori di corrente corrispondenti ad una tensione <5mV sono azzerati
+
+**Corrente AC TRMS – Pinze Standard (STD)**
+
+| Campo [mV]   | Frequenza [Hz] | Risoluzione [mV] | Incertezza             |
+| :----------- | :------------- | :--------------- | :--------------------- |
+| 5.0  219.9  | 42.5  65.0    | 1                |  (0.5  lettura + 0.6mV) |
+| 220.0  999.9|                |                  |  0.5  lettura          |
+
+Valori di corrente corrispondenti ad una tensione <5mV sono azzerati
+
+**Corrente AC TRMS – Pinze Flex (100A AC Campo – 85 V/A)**
+
+| Campo [mV]   | Frequenza [Hz] | Risoluzione   | Incertezza               | Protezione contro sovraccarichi |
+| :----------- | :------------- | :------------ | :----------------------- | :------------------------------ |
+| 0.085  8.50 | 42.5  65.0    | 8.5 V        |  (0.5  lettura+0.007mV) | 10V                             |
+
+Fattore di Cresta  1.5.Valori di corrente <1A sono azzerati
+
+**Corrente AC – Pinze Flex (1000A AC Campo – 85 V/A)**
+
+| Campo [mV]    | Frequenza [Hz] | Risoluzione | Incertezza              | Protezione contro sovraccarichi |
+| :------------ | :------------- | :---------- | :---------------------- | :------------------------------ |
+| 0.425  85.0  | 42.5  65.0    | 85 V       |  (0.5  lettura+0.15mV) | 10V                             |
+
+Fattore di Cresta  1.5.Valori di corrente <5A sono azzerati
+
+**Frequenza**
+
+| Campo [Hz]  | Risoluzione [Hz] | Incertezza              |
+| :---------- | :--------------- | :---------------------- |
+| 42.5  65.0 | 0.1              |  (0.2  lettura + 0.1Hz) |
+
+**Potenza DC – (Vmis > 200V)**
+
+| FS Pinza [A]   | Campo [W]        | Risoluzione [W] | Incertezza             |
+| :------------- | :--------------- | :-------------- | :--------------------- |
+| 1< FS  10     | 0.000k  9.999k  | 0.001k          |  (1.0  lettura + 5W) |
+|                | 10.00k  99.99k  | 0.01k           |  (1.0  lettura+50W)  |
+| 10< FS  200   | 0.00k  99.99k   | 0.01k           |  (1.0  lettura+50W)  |
+|                | 100.0k  999.9k  | 0.1k            |  (1.0  lettura+500W) |
+| 200<FS  1000  | 0.0k  999.9k    | 0.1k            |  (1.0  lettura+0.5kW)|
+|                | 1000k  9999k    | 1k              |  (1.0  lettura+5kW)  |
+
+Vmis = Tensione a cui è misurata la potenza
+
+**PQA819 - PQA820 IT – 21**
+
+**Potenza/Energia AC – (Vmis > 200V, Pf=1)**
+
+| FS Pinza [A]   | Campo [W] [Wh]   | Risoluzione [W] [Wh] | Incertezza                  |
+| :------------- | :--------------- | :------------------- | :-------------------------- |
+| 1< FS  10     | 0.000k  9.999k  | 0.001k               |  (0.7  lettura + 3W/Wh)   |
+|                | 10.00k  99.99k  | 0.01k                |  (0.7  lettura+30W/Wh)  |
+| 10< FS  200   | 0.00k  99.99k   | 0.01k                |  (0.7  lettura+30W/Wh)  |
+|                | 100.0k  999.9k  | 0.1k                 |  (0.7  lettura+300W/Wh) |
+| 200< FS  1000 | 0.0k  999.9k    | 0.1k                 |  (0.7  lettura+0.3kW/kWh)|
+|                | 1000k  9999k    | 1k                   |  (0.7  lettura+3kW/kWh)  |
+
+Vmis = Tensione a cui è misurata la potenza
+
+**Fattore di Potenza e Cos **
+
+| Campo       | Risoluzione (°) | Incertezza (°) |
+| :---------- | :-------------- | :------------- |
+| 0.20  0.50 | 0.01            | 0.6            |
+| 0.50  0.80 |                 | 0.7            |
+| 0.80  1.00 |                 | 1.0            |
+
+**Armoniche Tensione /Corrente** (registrazione solo PQA820)
+
+| Campo            | Risoluzione massima      | Incertezza             |
+| :--------------- | :----------------------- | :--------------------- |
+| DC  25 th       | 0.3 V / 0.1 %FS pinza    |  (5.0  lettura + 2 cifre) |
+| 26 th  33 th    |                          |  (10  lettura + 2 cifre)|
+| 34 th  49 th    |                          |  (15  lettura + 2 cifre)|
+
+Le armoniche sono azzerate nelle seguenti condizioni:
+
+*   ➢ DC: se il valore della DC < 0.5 % del valore della fondamentale o se il valore DC < 0.5 % del FS Pinza
+*   ➢ 1° Armonica: se valore della 1° Armonica < 0.5 % del FS Pinza
+*   ➢ 2a  49a Armonica: se valore dell’Armonica < 0.5 % del valore della fondamentale o se < 0.5 % FS Pinza
+
+## 11.2. Normative di riferimento
+
+*   Sicurezza / EMC: IEC/EN61010-1 / IECEN61326-1
+*   Qualità tensione di alimentazione: EN50160 (tensione e THDV%) e armoniche (PQA820)
+*   Isolamento: doppio isolamento
+*   Livello di Inquinamento: 2
+*   Max altitudine di utilizzo: 2000m
+*   Categoria di misura: CAT IV 300V AC (verso terra) Max 460V fra ingressi
+
+## 11.3. Caratteristiche generali
+
+**Caratteristiche meccaniche**
+
+*   Dimensioni (L x La x H) / Peso: 245 x 210 x 110 mm / 1.5kg
+*   Protezione meccanica: IP65
+
+**Alimentazione**
+
+*   Alimentazione interna (batteria ricaricabile): >6 ore (WiFi on); >15 ore (WiFi off)
+*   Alimentazione esterna: Ingr. Rosso - Giallo: 100 - 415V, 50/60Hz, 45mA@100V, 30mA@230V, 20mA@415V
+
+**Misura, Memoria e Interfaccia comunicazione**
+
+*   Numero di campioni per periodo: 128 (64 in connessione “Real Time”)
+*   Max parametri registrabili simultaneamente: 383 (PQA820), 44 (PQA819)
+*   Max anomalie tensione registrabili: 65530 (PQA820)
+*   Periodo di Integrazione: 5, 10, 30s, 1, 2, 5, 10, 15, 60min.
+*   Autonomia di registrazione: > 30 giorni (@ PI = 10 minuti) (PQA820), > 230 giorni (@ PI = 15 minuti) (PQA819)
+*   Memoria: 8Mbyte
+*   Interfaccia di comunicazione (PC/Tablets): USB (solo PC) / WiFi
+
+## 11.4. Ambiente
+
+### 11.4.1. Condizioni ambientali di utilizzo
+
+*   Temperatura di riferimento: 23°C ± 5°C
+*   Temperatura di utilizzo: 0°C ÷ 40°C
+*   Umidità relativa ammessa: < 80% RH
+*   Temperatura di conservazione: -10°C ÷ 60°C
+*   Umidità di conservazione: <80% RH
+
+Strumento conforme ai requisiti della Direttiva 2014/35/EU (LVD) e della Direttiva EMC 2014/30/EU
+Strumento conforme ai requisiti della direttiva 2011/65/EU (RoHS) e della direttiva 2012/19/EU (WEEE)
+
+## 11.5. Accessori
+
+Utilizzare solo gli accessori di serie e opzionali presenti nella packing list allegata.
+
+**PQA819 - PQA820 IT – 22**
+
+# 12. APPENDICE – CENNI TEORICI
+
+## 12.1. Anomalie di tensione
+
+Lo strumento cataloga come anomalie di tensione (buchi, picchi) tutti quei valori efficaci, calcolati ogni 10ms (@ 50Hz), oltre le soglie impostate in fase di programmazione da  1% a  30% rispetto al valore nominale della tensione fissato come riferimento con passo dello 1%.
+Per evitare la registrazione di eventi attribuibili al solo rumore elettrico è inoltre presente una soglia di isteresi dell’1%. Questi limiti restano invariati durante tutto il periodo di registrazione.
+
+Il valore della tensione di riferimento va impostato come:
+
+*   ➢ Tensione nominale Fase - Neutro: per sistemi Monofase e Trifase 4 - fili.
+*   ➢ Tensione nominale Fase - Terra: per sistemi Trifase 3 - fili.
+
+Esempio: sistema Trifase 4 - fili
+Vref = 230V, LIM(+) = 10%, LIM(-) = 10%, Isteresi 1% =>
+Lim Sup = 230 + 23 = 253V, Lim Inf = 230 - 23 = 207V
+
+**Registrazione picco**
+Lo strumento apre la registrazione dell’evento se la tensione supera i 253V e chiude la registrazione dell’evento quando la tensione scende sotto i 253 – 2.53 = 250.5 V.
+
+**Registrazione buco**
+Lo strumento apre la registrazione dell’evento se la tensione scende sotto i 207V e chiude la registrazione dell’evento quando la tensione risale sopra i 207 + 2.07 = 209.1 V.
+
+Per ogni fenomeno lo strumento registra i seguenti dati:
+
+*   • Il numero corrispondente alla fase in cui si è verificata l’anomalia.
+*   • La “direzione” dell’anomalia: “UP” e “DN” identificano rispettivamente picchi e buchi di tensione.
+*   • La data e l'ora di inizio del fenomeno nella forma giorno, mese, anno, ore, minuti, secondi, centesimi di secondo.
+*   • La durata del fenomeno, in secondi con risoluzione pari a 10ms.
+*   • Il valore minimo (o massimo) della tensione durante il fenomeno.
+
+**PQA819 - PQA820 IT – 23**
+
+## 12.2. Armoniche di Tensione e Corrente
+
+Qualsiasi onda periodica non sinusoidale può essere rappresentata tramite una somma di onde sinusoidali ciascuna con frequenza multipla intera della fondamentale secondo la relazione:
+v(t) = V0 +  V k sin( k  t +  k )
+
+k=1
+
+dove:
+V0 = Valore medio di v(t)
+V1 = Ampiezza della fondamentale di v(t)
+Vk = Ampiezza della k - esima armonica di v(t)
+
+Nel caso della tensione di rete la fondamentale ha frequenza 50 Hz, la seconda armonica ha frequenza 100 Hz, la terza armonica ha frequenza 150 Hz e così via. La distorsione armonica è un problema costante e non deve essere confuso con fenomeni di breve durata quali picchi, diminuzioni o fluttuazioni. Si può osservare come nella (1) l’indice della sommatoria vada da 1 a infinito. Quello che accade in realtà è che ogni segnale non ha un numero di armoniche illimitato: esiste sempre un numero d’ordine oltre il quale il valore delle armoniche è trascurabile.
+
+**LEGENDA:**
+1. Fondamentale
+2. Terza armonica
+3. Onda distorta somma delle due componenti precedenti
+
+Fig. 5: Effetto della somma di 2 frequenze multiple.
+
+La normativa EN50160 suggerisce di troncare la sommatoria nell’espressione (1) alla 40a armonica. Un indice fondamentale per rilevare la presenza di armoniche è il THD definito come:
+THDv = (  Vh² )½ / V1
+40
+h=2
+
+Tale indice tiene conto della presenza di tutte le armoniche ed è tanto più elevato quanto più è distorta la forma d'onda.
+
+**PQA819 - PQA820 IT – 24**
+
+### 12.2.1. Valori limite per le armoniche
+
+La normativa EN50160 fissa i limiti per le tensioni armoniche che l'ente fornitore può immettere nella rete.
+
+*   ➢ In condizioni normali di esercizio, durante qualsiasi periodo di una settimana, il 95% dei valori efficaci di ogni tensione armonica, mediati sui 10 minuti, dovrà essere minore o uguale rispetto ai valori indicati in nella seguente Tabella 6.
+*   ➢ La distorsione armonica globale (THD) della tensione di alimentazione (includendo tutte le armoniche fino al 40° ordine) deve essere minore o uguale all’8%.
+
+| Armoniche Dispari                                     | Armoniche Pari              |
+| :-------------------- | :---------------------- | :-------------------------- |
+| Non multiple di 3     | Multiple di 3           |                             |
+| Ordine h | Tensione relativa %Max | Ordine h | Tensione relativa % Max | Ordine h | Tensione relativa % Max |
+| 5      | 6                      | 3        | 5                       | 2        | 2                       |
+| 7      | 5                      | 9        | 1,5                     | 4        | 1                       |
+| 11     | 3,5                    | 15       | 0,5                     | 6..24    | 0,5                     |
+| 13     | 3                      | 21       | 0,5                     |          |                         |
+| 17     | 2                      |          |                         |          |                         |
+| 19     | 1,5                    |          |                         |          |                         |
+| 23     | 1,5                    |          |                         |          |                         |
+| 25     | 1,5                    |          |                         |          |                         |
+
+Tabella 6: Tabella valori massimi armoniche di tensione in accordo alla EN50160
+
+Questi limiti, teoricamente applicabili solo per gli enti fornitori di energia elettrica, forniscono comunque una serie di valori di riferimento entro cui contenere anche le armoniche immesse in rete dagli utilizzatori.
+
+### 12.2.2. Cause della presenza di armoniche
+
+*   ➢ Qualsiasi apparecchiatura che alteri l'onda sinusoidale o usi soltanto una parte di detta onda causa distorsioni alla sinusoide e quindi armoniche.
+*   ➢ Tutti i segnali di corrente risultano in qualche modo virtualmente distorti. La più comune è la distorsione armonica causata da carichi non lineari quali elettrodomestici, PC o regolatori di velocità per motori. La distorsione armonica genera correnti significative a frequenze che sono multipli interi della frequenza di rete. Le correnti armoniche hanno un notevole effetto sui conduttori di neutro degli impianti elettrici.
+*   ➢ Nella maggior parte dei paesi la tensione di rete in uso è trifase 50/60Hz erogata da un trasformatore con primario collegato a triangolo e secondario collegato a stella. Il secondario generalmente produce 230V AC tra fase e neutro e 400V AC fase e fase. Equilibrare i carichi per ciascuna fase ha sempre rappresentato un rompicapo per i progettisti di impianti elettrici.
+*   ➢ Fino a qualche decina di anni or sono, in un sistema ben equilibrato, la somma vettoriale delle correnti nel neutro era zero o comunque piuttosto bassa (data la difficoltà di raggiungere l’equilibrio perfetto). Le apparecchiature collegate erano lampade a incandescenza, piccoli motori ed altri dispositivi che presentavano carichi lineari. Il risultato era una corrente essenzialmente sinusoidale in ciascuna fase ed una corrente con valore di neutro basso ad una frequenza di 50/60Hz. Dispositivi “moderni” quali televisori, lampade fluorescenti, apparecchi video e forni a microonde normalmente assorbono corrente solo per una frazione di ciascun ciclo causando carichi non lineari e di conseguenza correnti non lineari.
+
+**PQA819 - PQA820 IT – 25**
+
+*   ➢ Ciò genera strane armoniche della frequenza di linea di 50/60Hz. Per questo motivo, allo stato odierno, la corrente nei trasformatori delle cabine di distribuzione contiene non solo una componente 50Hz (o 60Hz) ma anche una componente 150Hz (o 180Hz), una componente 250Hz (o 300Hz) e altre componenti significative di armonica fino a 750Hz (o 900Hz) ed oltre.
+*   ➢ Il valore della somma vettoriale delle correnti in un sistema correttamente bilanciato che alimenta carichi non lineari può essere ancora piuttosto basso. Tuttavia la somma non elimina tutte le correnti armoniche. I multipli dispari della terza armonica (chiamati i “TRIPLENS”) si sommano algebricamente nel neutro e quindi possono causare surriscaldamenti del medesimo anche con carichi bilanciati.
+
+### 12.2.3. Conseguenza della presenza di armoniche
+
+*   ➢ In generale le armoniche d'ordine pari, 2a, 4a ecc. non sono causa di problemi. Le armoniche triple, multipli dispari di tre, si sommano sul neutro (invece di annullarsi) creando così una situazione di surriscaldamento del conduttore stesso potenzialmente pericolosa.
+*   ➢ I progettisti devono considerare i tre punti di seguito elencati nella progettazione di un sistema di distribuzione di energia contenente correnti di armoniche:
+    1.  Il conduttore del neutro deve essere sufficientemente dimensionato.
+    2.  Il trasformatore di distribuzione deve avere un sistema di raffreddamento ausiliario per continuare il funzionamento alla sua capacità nominale se non è adatto alle armoniche. Ciò è necessario perché la corrente armonica nel neutro del circuito secondario circola nel primario collegato a triangolo. Questa corrente di armonica in circolazione porta ad un surriscaldamento del trasformatore.
+    3.  Le correnti armoniche della fase vengono riflesse sul circuito primario e ritornano alla fonte. Ciò può causare distorsione dell’onda di tensione in modo tale che qualsiasi condensatore di rifasamento sulla linea può essere facilmente sovraccaricato.
+*   ➢ La 5a e l'11a armonica si oppongono al flusso della corrente attraverso i motori rendendone più difficile il funzionamento e riducendone la vita media.
+*   ➢ In generale più è elevato il numero d'ordine della armonica e minore è la sua energia e quindi minore l'impatto che avrà sulle apparecchiature (fatta eccezione per i trasformatori).
+
+**PQA819 - PQA820 IT – 26**
+
+## 12.3. Definizioni di Potenza e Fattore di Potenza
+
+In un generico sistema elettrico alimentato da una terna di tensioni sinusoidali si definiscono:
+
+*   Potenza Attiva di fase: (n=1,2,3) Pn = VnN  In  cos(n)
+*   Potenza Apparente di fase: (n=1,2,3) Sn = VnN  In
+*   Potenza Reattiva di fase: (n=1,2,3) Qn = (Sn² - Pn²)½
+*   Fattore di Potenza di fase: (n=1,2,3) PPFn = Pn / Sn
+*   Potenza Attiva Totale: PTOT = P1 + P2 + P3
+*   Potenza Reattiva totale: QTOT = Q1 + Q2 + Q3
+*   Potenza Apparente Totale: STOT = (PTOT² + QTOT²)½
+*   Fattore di Potenza Totale: PPFTOT = PTOT / STOT
+
+dove:
+VnN = Valore efficace della tensione fra la fase n ed il Neutro.
+In = Valore efficace della corrente della fase n.
+fn = Angolo di sfasamento tra la tensione e la corrente della fase n.
+
+In presenza di tensioni e correnti distorte le precedenti relazioni si modificano come segue:
+
+*   Potenza Attiva di fase: (n=1,2,3) Pn =  Vk n Ik n cos(k n)
+    
+    k=0
+*   Potenza Apparente di fase: (n=1,2,3) Sn = VnN  In
+*   Potenza Reattiva di fase: (n=1,2,3) Qn = (Sn² - Pn²)½
+*   Fattore di Potenza di fase: (n=1,2,3) PPFn = Pn / Sn
+*   Fattore di Potenza depurato (n=1,2,3) dPFn =cos f1n = sfasamento fra le fondamentali di tensione e corrente della fase n.
+*   Potenza Attiva Totale: PTOT = P1 + P2 + P3
+*   Potenza Reattiva Totale: QTOT = Q1 + Q2 + Q3
+*   Potenza Apparente Totale: STOT = (PTOT² + QTOT²)½
+*   Fattore di Potenza Totale: PPFTOT = PTOT / STOT
+
+dove:
+Vkn = Valore efficace della k - esima armonica di tensione fra la fase n ed il Neutro.
+Ikn = Valore efficace della k - esima armonica di corrente della fase n.
+fkn = Angolo di sfasamento tra la k - esima armonica di tensione e la k - esima armonica di corrente della fase n.
+
+**PQA819 - PQA820 IT – 27**
+
+NOTE
+
+*   ➢ Va osservato che a rigore l’espressione della potenza reattiva di fase in regime non sinusoidale non sarebbe corretta. Per intuire il perché può essere utile pensare che sia la presenza di armoniche che la presenza di potenza reattiva producono, tra i vari effetti, un incremento delle perdite di potenza in linea dovuto all’aumentare del valore efficace della corrente.
+*   ➢ Con la relazione sopra il termine di incremento di perdite di potenza dovuto alle armoniche viene sommato algebricamente a quello introdotto dalla presenza di potenza reattiva. In realtà, anche se i due fenomeni concorrono a causare un aumento di perdite in linea, non è affatto vero in generale che queste cause di perdita di potenza siano in fase fra loro e quindi sommabili algebricamente.
+*   ➢ La relazione sopra è giustificata dalla relativa semplicità di calcolo della stessa e dalla relativa discrepanza fra il valore ottenuto utilizzando questa relazione ed il valore reale.
+*   ➢ Va osservato inoltre come nel caso di sistema elettrico con armoniche, venga individuato l’ulteriore parametro denominato fattore di potenza depurato (dPF). In pratica questo parametro rappresenta il valore limite teorico raggiungibile dal fattore di potenza qualora si riuscissero ad eliminare completamente tutte le armoniche dal sistema elettrico.
+
+### 12.3.1. Convenzioni sulle potenze e fattori di potenza
+
+Per quanto riguarda il riconoscimento del tipo di potenza reattiva, del tipo di fattore di potenza e del verso della potenza attiva si applicano le convenzioni riportate nel seguente schema dove gli angoli indicati sono quelli di sfasamento della corrente rispetto alla tensione (Ex: nel 1° quadrante la corrente è in ritardo da 0° a 90° rispetto alla tensione):
+
+```mermaid
+graph LR
+    A[II Quadrante] -- Q --> B[I Quadrante]
+    B -- P --> C[IV Quadrante]
+    C -- Q --> D[III Quadrante]
+    D -- P --> A
+
+    subgraph Angles
+        I(0°) --"to 90°"--> Q
+        Q --"to 180°"--> II
+        II --"to 270°"--> P
+        P --"to 360°/0°"--> I
+    end
+
+    subgraph Quadrant I
+        direction LR
+        P_plus_I1[P+ = P]
+        Pfc_plus_I1[Pfc+= +1]
+        Pfi_plus_I1[Pfi+ = Pf]
+        Qc_plus_I1[Qc+ = 0]
+        Qi_plus_I1[Qi+ = Q]
+        P_minus_I1[P- = 0]
+        Pfc_minus_I1[Pfc- = -1]
+        Pfi_minus_I1[Pfi- = -1]
+        Qc_minus_I1[Qc- = 0]
+        Qi_minus_I1[Qi- = 0]
+    end
+
+    subgraph Quadrant II
+        direction LR
+        P_plus_II[P+ = 0]
+        Pfc_plus_II[Pfc+ = -1]
+        Pfi_plus_II[Pfi+ = -1]
+        Qc_plus_II[Qc+ = 0]
+        Qi_plus_II[Qi+ = 0]
+        P_minus_II[P- = P]
+        Pfc_minus_II[Pfc- = Pf]
+        Pfi_minus_II[Pfi- = +1]
+        Qc_minus_II[Qc- = 0]
+        Qi_minus_II[Qi- = Q]
+    end
+
+    subgraph Quadrant III
+        direction LR
+        P_plus_III[P+ = 0]
+        Pfc_plus_III[Pfc+ = -1]
+        Pfi_plus_III[Pfi+ = -1]
+        Qc_plus_III[Qc+ = 0]
+        Qi_plus_III[Qi+ = 0]
+        P_minus_III[P- = P]
+        Pfc_minus_III[Pfc- = +1]
+        Pfi_minus_III[Pfi- = Pf]
+        Qc_minus_III[Qc- = 0]
+        Qi_minus_III[Qi- = -Q]
+    end
+
+    subgraph Quadrant IV
+        direction LR
+        P_plus_IV[P+ = P]
+        Pfc_plus_IV[Pfc+= Pf]
+        Pfi_plus_IV[Pfi+ = +1]
+        Qc_plus_IV[Qc+ = Q]
+        Qi_plus_IV[Qi+ = 0]
+        P_minus_IV[P- = 0]
+        Pfc_minus_IV[Pfc- = -1]
+        Pfi_minus_IV[Pfi- = -1]
+        Qc_minus_IV[Qc- = 0]
+        Qi_minus_IV[Qi- = 0]
+    end
+
+    I --> "Generatore Capacitivo"
+    II --> "Carico induttivo"
+    III --> "Generatore Induttivo"
+    IV --> "Carico Capacitivo"
+
+    I -- I1 --> Quadrant I
+    II -- I2 --> Quadrant II
+    III -- I3 --> Quadrant III
+    IV -- I4 --> Quadrant IV
+
+    style I fill:#fff,stroke:#000
+    style II fill:#fff,stroke:#000
+    style III fill:#fff,stroke:#000
+    style IV fill:#fff,stroke:#000
+    style Q fill:#fff,stroke:#000
+    style P fill:#fff,stroke:#000
+
+    linkStyle 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,800,801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,886,887,888,889,890,891,892,893,894,895,896,897,898,899,900,901,902,903,904,905,906,907,908,909,910,911,912,913,914,915,916,917,918,919,920,921,922,923,924,925,926,927,928,929,930,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,960,961,962,963,964,965,966,967,968,969,970,971,972,973,974,975,976,977,978,979,980,981,982,983,984,985,986,987,988,989,990,991,992,993,994,995,996,997,998,999,1000,1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1018,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1033,1034,1035,1036,1037,1038,1039,1040,1041,143[P+ = P],144[Pfc+= Pf],145[Pfi+ = +1],146[Qc+ = Q],147[Qi+ = 0],148[P- = 0],149[Pfc- = -1],150[Pfi- = -1],151[Qc- = 0],152[Qi- = 0],153[P+ = 0],154[Pfc+ = -1],155[Pfi+ = -1],156[Qc+ = 0],157[Qi+ = 0],158[P- = P],159[Pfc- = Pf],160[Pfi- = +1],161[Qc- = 0],162[Qi- = Q],163[P+ = 0],164[Pfc+ = -1],165[Pfi+ = -1],166[Qc+ = 0],167[Qi+ = 0],168[P- = P],169[Pfc- = +1],170[Pfi- = Pf],171[Qc- = 0],172[Qi- = -Q],173[P+ = P],174[Pfc+= +1],175[Pfi+ = Pf],176[Qc+ = 0],177[Qi+ = Q],178[P- = 0],179[Pfc- = -1],180[Pfi- = -1],181[Qc- = 0],182[Qi- = 0] stroke:#000
+
+```
+
+Il significato dei simboli utilizzati e dei valori da essi assunti nello schema sopra rappresentato è riportato nelle seguenti tabelle:
+
+| SIMBOLO | SIGNIFICATO                          | NOTE                       |
+| :------ | :----------------------------------- | :------------------------- |
+| P+      | Valore della Potenza Attiva +        | Grandezze positive (Utente Utilizzatore) |
+| Pfc+    | Fattore di potenza Capacitivo +      |                            |
+| Pfi+    | Fattore di potenza Induttivo +       |                            |
+| Qc+     | Valore della Potenza Reattiva Capacitiva + |                            |
+| Qi+     | Valore della Potenza Reattiva Induttiva +  |                            |
+| P-      | Valore della Potenza Attiva -        | Grandezze negative (Utente Generatore) |
+| Pfc-    | Fattore di potenza Capacitivo -      |                            |
+| Pfi-    | Fattore di potenza Induttivo -       |                            |
+| Qc-     | Valore della Potenza Reattiva Capacitiva - |                            |
+| Qi-     | Valore della Potenza Reattiva Induttiva -  |                            |
+
+| VALORE | SIGNIFICATO                                                                                                                                                                                                                                                                                             |
+| :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P      | La potenza Attiva (positiva o negativa) relativa è definita nel quadrante in esame e pertanto assume il valore della Potenza Attiva in quell’istante.                                                                                                                                                    |
+| Q      | La potenza Reattiva (induttiva o capacitiva, positiva o negativa) relativa è definita nel quadrante in esame e pertanto assume il valore della Potenza Reattiva in quell’istante.                                                                                                                     |
+| Pf     | Il Fattore di potenza (induttivo o capacitivo, positivo o negativo) relativo è definito nel quadrante in esame e pertanto assume il valore del Fattore di Potenza in quell’istante.                                                                                                                      |
+| 0      | La potenza Attiva (positiva o negativa) o la potenza Reattiva (induttiva o capacitiva, positiva o negativa) relativa NON è definita nel quadrante in esame e pertanto assume valore nullo.                                                                                                                |
+| -1     | Il Fattore di potenza (induttivo o capacitivo, positivo o negativo) relativo NON è definito nel quadrante in esame.                                                                                                                                                                                      |
+
+**PQA819 - PQA820 IT – 29**
+
+## 12.4. Cenni sul Metodo di Misura
+
+Lo strumento è in grado di misurare: tensioni, correnti, potenze/energie attive, potenze/energie reattive capacitive ed induttive, potenze/energie apparenti, fattori di potenza capacitivi ed induttivi. Tutte queste grandezze sono analizzate in maniera totalmente digitale: di ogni fase (tensione e corrente), vengono acquisiti 128 campioni per periodo, ripetendo poi tale operazione per 18 periodi consecutivi.
+
+### 12.4.1. Periodo di integrazione
+
+Il salvataggio di tutti i dati di una registrazione, richiederebbe una capacità di memoria notevolissima e non praticabile. Si è pertanto cercato un metodo di memorizzazione che, pur fornendo dati significativi, permettesse la compressione delle informazioni da memorizzare.
+Il metodo scelto è stato quello della integrazione: trascorso un periodo di tempo denominato **periodo di integrazione**, impostabile in fase di programmazione da 5 secondi a 60 minuti, lo strumento estrae dai valori campionati di ogni grandezza da memorizzare i seguenti valori:
+
+*   • Valore minimo della grandezza nel periodo d’integrazione (armoniche escluse).
+*   • Valore medio della grandezza (inteso come media aritmetica di tutti i valori registrati nel periodo di integrazione).
+*   • Valore massimo della grandezza nel periodo di integrazione (armoniche escluse).
+
+Solamente queste tre informazioni (ripetute per ogni grandezza da memorizzare) sono salvate in memoria insieme all'ora e alla data di inizio del periodo.
+Una volta memorizzati questi dati lo strumento ricomincia ad acquisire misure per un nuovo periodo.
+
+### 12.4.2. Calcolo del fattore di potenza
+
+*   ➢ Il fattore di potenza medio, secondo le specifiche, non può essere calcolato come media dei fattori di potenza istantanei, deve invece essere ricavato dai valori medi di potenza attiva e reattiva.
+*   ➢ Ogni singolo fattore di potenza medio, di fase o totale, viene quindi calcolato, alla fine di ogni periodo di integrazione, dal valore medio delle relative potenze indipendentemente dal fatto che queste debbano essere registrate oppure no.
+*   ➢ Inoltre per poter meglio analizzare il tipo di carico presente sulla linea ed avere dei termini di riscontro nell'analisi della fatturazione del "basso cos " da parte degli enti erogatori i valori di cos  induttivo e di cos  capacitivo vengono trattati come due grandezze indipendenti.
+
+**PQA819 - PQA820 IT – 30**
+
+# 13. ASSISTENZA
+
+## 13.1. Condizioni di Garanzia
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+
+*   • Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia).
+*   • Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   • Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   • Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   • Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   • Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+## 13.2. Assistenza
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato dei cavi e delle pinze e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà in, ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
+
+**WHERE WE ARE**
+
+**HT ITALIA SRL**
+Via della Boaria, 40
+48018 – Faenza (RA) – Italy
+T +39 0546 621002 | F +39 0546 621144
+M info@ht-instruments.com | www.ht-instruments.it
+
+**HT INSTRUMENTS SL**
+C/ Legalitat, 89
+08024 Barcelona – Spain
+T +34 93 408 17 77 | F +34 93 408 36 30
+M info@htinstruments.es | www.ht-instruments.com/es-es/
+
+**HT INSTRUMENTS GmbH**
+Am Waldfriedhof 1b
+D - 41352 Korschenbroich – Germany
+T +49 (0) 2161 564 581 | F +49 (0) 2161 564 583
+M info@htinstruments.de | www.ht-instruments.de

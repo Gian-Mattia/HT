@@ -1,0 +1,544 @@
+# HT79
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-21 -->
+Copyright HT ITALIA 2024 Release .0 - / /2024
+
+Indice generale General index Índice general Inhalt Table des matiéres Índice
+ITALIANO .......................... IT - 1
+ENGLISH ..........................EN - 1
+ESPAÑOL ........................ ES - 1
+DEUTSCH ........................DE - 1
+FRAN Ç AIS ....................... FR - 1
+PORTUGUÊS .................... PT - 1
+
+Copyright HT ITALIA 2024 Versione IT 3.0 - ITALIANO uso
+HT79 IT - 1
+
+Indice:
+1. PRECAUZIONI E MISURE DI SICUREZZA .................................................................2
+1.1. Istruzioni preliminari......................................................................................................... 2
+1.2. .............................................................................................................. 3
+1.3. .................................................................................................................. 3
+1.4. Definizione di Categoria di misura (Sovratensione) ......................................................... 3
+2. DESCRIZIONE GENERALE.........................................................................................4
+2.1. Strumenti di misura a Valore medio e in Vero Valore Efficace ......................................... 4
+2.2. Definizione di Vero Valore Efficace e fattore di cresta ..................................................... 4
+3. ..................................................................................5
+3.1. Controlli iniziali ................................................................................................................ 5
+3.2. Alimentazione dello strumento......................................................................................... 5
+3.3. Conservazione ................................................................................................................ 5
+4. NOMENCLATURA........................................................................................................6
+4.1. Descrizione dello strumento ............................................................................................ 6
+4.1.1. Barriera paramano...................................................................................................................... 6
+4.2. Descrizione dei simboli a display ..................................................................................... 7
+4.3. Descrizione dei Tasti funzione ......................................................................................... 7
+4.3.1. Tasto HOLD................................................................................................................................ 7
+4.3.2. Tasto MIN/MAX .......................................................................................................................... 7
+4.3.3. Tasto ZERO................................................proseguire................................................................ 7
+4.3.4. Tasto ..................................................................................................................................... 7
+4.3.5. Funzione Autospegnimento........................................................................................................ 7
+5. ISTRUZIONI OPERATIVE............................................................................................8
+5.1. Misura Tensione DC........................................................................................................ 8
+5.2. Misura Tensione AC ........................................................................................................ 9
+5.3. Misura di Resistenza ..................................................................................................... 10
+5.4. Test continuità ............................................................................................................... 11
+5.5. Misura Corrente DC....................................................................................................... 12
+5.6. Misura Corrente AC....................................................................................................... 13
+5.7. Misura Corrente di dispersione AC/DC .......................................................................... 14
+6. MANUTENZIONE .......................................................................................................15
+6.1. Generalità ...................................................................................................................... 15
+6.2. Sostituzione batterie ...................................................................................................... 15
+6.3. Pulizia dello strumento................................................................................................... 15
+6.4. Fine vita......................................................................................................................... 15
+7. SPECIFICHE TECNICHE...........................................................................................16
+7.1. Caratteristiche Tecniche ................................................................................................ 16
+7.1.1. Caratteristiche elettriche ........................................................................................................... 16
+7.1.2. Normative di riferimento ........................................................................................................... 16
+7.1.3. Caratteristiche generali............................................................................................................. 17
+7.2. Ambiente ....................................................................................................................... 17
+7.2.1. Condizioni ambientali di utilizzo................................................................................................ 17
+7.3. Accessori....................................................................................................................... 17
+7.3.1. Accessori in dotazione.............................................................................................................. 17
+8. ASSISTENZA .............................................................................................................18
+8.1. Condizioni di Garanzia................................................................................................... 18
+8.2. Assistenza ..................................................................................................................... 18
+
+HT79 IT - 2
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità all a direttiva IEC/EN61010-1 relativa agli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo .
+
+> ATTENZIONE
+> La mancata osservazione delle avvertenze e/o istruzioni può danneggiare lo
+> Non effettuare misure di corrente in ambienti umidi.
+> Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi.
+> Evitare contatti con il circuito in esame se non si stanno effettuando misure.
+> Evitare contatti con parti metalliche esposte, con terminali di misura inutilizzati, ecc.
+> Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+> Prestare particolare attenzione quando si effettuano misure di tensioni superiori a 20V in quanto è presente il rischio di shock elettrici
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+*   **Attenzione**: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti.
+*   **Strumento con doppio isolamento.**
+*   **Corrente o Tensione AC**
+*   **Corrente o Tensione DC**
+*   **Riferimento di terra**
+*   **Lo strumento può operare su conduttori nudi sotto tensione**
+
+## 1.1. ISTRUZIONI PRELIMINARI
+
+Questo strumento è stato progettato per un utilizzo in un ambiente con livello di inquinamento 2
+Può essere utilizzato per misure di **CORRENTE** e **TENSIONE** su installazioni con categoria di misura CAT IV 300V. Per la definizione delle categorie di misura vedere § 1.4
+La invitiamo a seguire le normali regole di sicurezze orientate alla protezione contro correnti pericolose e a proteggere lo strumento contro un utilizzo errato.
+Solo i puntali forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+Non effettuare misure su circuiti che superino i limiti di corrente e tensione specificati.
+Controllare che la batteria sia inserita correttamente.
+Prima di collegare i puntali al circuito in esame, controllare che il commutatore sia posizionato correttamente.
+Controllare che il display LCD e il selettore indichino la stessa funzione
+
+HT79 IT - 3
+
+## 1.2.
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> ATTENZIONE
+> La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo
+> Prima accendere la pinza, rimuovere dal toroide il conduttore.
+> Quando lo strumento è connesso al circuito in esame non toccare mai qualunque terminale inutilizzato.
+> Durante la misura di corrente, ogni altra corrente localizzata in prossimità della pinza può influenzare la precisione della misura.
+> Durante la misura di corrente posizionare sempre il conduttore il più possibile al centro del toroide, come descritto al § 4.1.1 in modo da ottenere una lettura più accurata.
+> Se, durante una misura, il valore o il segno della grandezza in esame rimangono costanti controllare se è attivata la funzione **HOLD**
+
+## 1.3.
+
+Quando le misure sono terminate, spegnere la pinza
+Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere la batteria
+
+## 1.4. DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma IEC/EN61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali, definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § 6.7.4.: Circuiti di misura, essa definisce le Categorie di misura come segue:
+(OMISSIS)
+
+La **Categoria di misura IV** serve per le misure effettuate su una sorgente di
+Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle
+
+La **Categoria di misura III** edifici.
+Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli con collegamento ad impianto fisso.
+
+La **Categoria di misura II** serve per le misure effettuate su circuiti collegati
+Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari.
+
+La **Categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE.
+Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con
+
+HT79 IT - 4
+
+# 2. DESCRIZIONE GENERALE
+
+Lo strumento esegue le seguenti misure:
+*   Tensione DC e AC TRMS fino a 300V
+*   Corrente DC da 0.1mA fino a 10A
+*   Corrente AC TRMS da 0.1mA fino a 20A
+*   Corrente di dispersione AC e DC
+*   Resistenza e test continuità con cicalino
+
+Ciascuna di queste funzioni può essere selezionata tramite un **selettore** a 6 posizioni, MAX/MIN, ZERO 4.2. La e delle funzioni abilitate.
+
+## 2.1. STRUMENTI DI MISURA A VALORE MEDIO E IN VERO VALORE EFFICACE
+
+Gli strumenti di misura di grandezze alternate si dividono in due grandi famiglie:
+*   **Strumenti a VALORE MEDIO**: strumenti che misurano il valore della sola onda alla frequenza fondamentale (50 o 60 HZ)
+*   **Strumenti a VERO VALORE EFFICACE** anche detti TRMS (True Root Mean Square value): strumenti che misurano il vero valore efficace della grandezza in esame. risultati identici. In presenza di onde distorte invece le letture differiscono. Gli strumenti a valore medio forniscono il valore efficace della sola onda fondamentale, gli strumenti a comprese (entro la banda passante dello strumento). Pertanto, misurando la medesima grandezza con strumenti di entrambe le famiglie, i valori ottenuti sono identici solo se valore efficace forniscono valori maggiori rispetto alle letture di strumenti a valore medio.
+
+## 2.2. DEFINIZIONE DI VERO VALORE EFFICACE E FATTORE DI CRESTA
+
+Il valore efficace per la corrente è così definito: " In un tempo pari ad un periodo, una corrente alternata con valore efficace della intensità di 1A, circolando su di un resistore, dissipa la stessa energia che sarebbe dissipata, nello stesso tempo, da una corrente continua con intensità di 1A
+
+G=
+
+Il valore efficace viene indicato come RMS ( root mean square value )
+Il Fattore di Cresta è definito come il rapporto fra il Valore di Picco di un segnale ed il suo Valore Efficace: CF (G)=
+
+Questo valore varia con la forma d'onda del segnale, per =1.41. In presenza di distorsioni il Fattore di
+
+HT79 IT - 5
+
+# 3.
+
+## 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni.
+Tuttavia si consiglia, comunque, di controllare sommariamente lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere.
+contenga tutte le parti indicate al § 7.3.1. In caso di discrepanze contattare il rivenditore.
+Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 8.
+
+## 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato tramite **2x1.5V batterie alcaline tipo AAA IEC LR03** incluse nella confezione. Quando le batterie sono a display. Per sostituire le batterie seguire le istruzioni riportate al § 6.2.
+Lo strumento è inoltre dotato della funzione di Auto Power OFF che provvede a spegnere automaticamente lo strumento trascorsi circa 30 minuti dall'ultima operazione.
+
+## 3.3. CONSERVAZIONE
+
+Per garantire misure precise, dopo un lungo periodo di conservazione in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere il § 7.2.1).
+
+HT79 IT - 6
+
+# 4. NOMENCLATURA
+
+## 4.1. DESCRIZIONE DELLO STRUMENTO
+
+LEGENDA:
+1. Toroide apribile
+2. Barriera paramano
+3. Tasto
+4. Leva di apertura toroide
+5. Selettore funzioni
+6. Tasto ZERO
+7. Tasto MIN/MAX
+8. Tasto HOLD
+9. Display LCD
+10. Terminale di ingresso COM
+11. Terminale di ingresso V
+12. Vite di fissaggio vano batteria
+13. Coperchio vano batteria
+
+Fig. 1: Descrizione dello strumento
+
+### 4.1.1. Barriera paramano
+
+Per ottenere le caratteristiche di precisione dichiarate per lo strumento, posizionare sempre il conduttore il più possibile al centro del toroide ( vedere Fig. 2)
+
+LEGENDA:
+1. Conduttore
+2. Barriera paramano
+
+Fig. 2: Barriera paramano
+
+Tenere le mani sempre al di sotto della barriera paramano che è post a in posizione tale da garantire una opportuna distanza di sicurezza rispetto ad eventuali parti scoperte sotto tensione (vedere Fig. 2).
+
+HT79 IT - 7
+
+## 4.2. DESCRIZIONE DEI SIMBOLI A DISPLAY
+
+LEGENDA:
+1. Simbolo Autospegnimento
+2. Simbolo grandezze AC
+3. Simbolo grandezze DC
+4. Funzione HOLD attiva
+5. Funzione ZERO attiva
+6. Unità misura Resistenza
+7. Test continuità attivo
+8. Unità misura Tensione
+9. Unità misura Corrente
+10. Funzione MAX attiva
+11. Funzione MIN attiva
+12. Simbolo batteria scarica
+13. Indicazione polarità
+
+Fig. 3: Descrizione del display
+
+## 4.3. DESCRIZIONE DEI TASTI FUNZIONE
+
+### 4.3.1. Tasto HOLD
+
+Una pressione del tasto **HOLD** durante una misura consente di bloccare il valore visualizzato a display. Il simbolo del tasto **HOLD** consente di uscire dalla funzione.
+
+### 4.3.2. Tasto MIN/MAX
+
+Una pressione del tasto **MIN/MAX** attiva la rilevazione dei valori massimo e minimo della grandezza in esame. Entrambi i valori vengono costantemente memorizzati e si presentano in maniera ciclica ad ogni nuova pressione del medesimo tasto. Il display non è attiva nella misura di resistenza e test continui tà . Mantenere premuto il tasto **MIN/MAX** o agire sul selettore per uscire dalla funzione. Con selettore nella posizione premere il tasto **MIN/MAX** per selezionare la misura di resistenza o il test continuità.
+
+### 4.3.3. Tasto ZERO
+
+Una pressione del tasto **ZERO** relativa della grandezza in esame. Al momento della pressione del tasto **ZERO** il valore della grandezza viene memorizzato come offset per le misure successive. Sul display . Lo strumento mostra il valore relativo ottenuto come valore corrente offset. Questa funzione non è attiva nelle misure di resistenza e test continuità e con funzione MIN/MAX abilitata. Premere nuovamente il tasto **ZERO** o agire sul selettore per uscire dalla funzione.
+
+### 4.3.4. Tasto
+
+Premere il tasto per attivare/disattivare la retroilluminazione del display (backlight). Questa funzione si disattiva automaticamente trascorsi circa 3 fine di preservare la batteria.
+
+### 4.3.5. Funzione Autospegnimento
+
+Al fine di preservare le batterie interne, lo strumento si spegne automaticamente dopo circa 30 presenza della funzione di autospegnimento. Per disabilitare la funzione operare come segue:
+1. Spegnere lo strumento (**OFF**)
+2. Con tasto **HOLD** premuto, accendere lo strumento ruotando il selettore. Il simbolo scompare a display
+3. Spegnere e riaccendere lo strumento per abilitare nuovamente la funzione
+
+HT79 IT - 8
+
+# 5. ISTRUZIONI OPERATIVE
+
+## 5.1. Misura Tensione DC
+
+> ATTENZIONE
+> La massima tensione DC in ingresso è 300V. Non misurare tensioni che eccedano i limiti espressi in questo manuale. Il superamento di tali limiti
+
+Fig. 4: Uso dello strumento per misura di Tensione DC
+
+1. Selezionare la posizione
+2. Inserire il cavo rosso nel terminale di ingresso **V** e il cavo nero nel terminale di ingresso **COM**
+3. Posizionare i puntali nei punti desiderati del circuito in esame (vedere Fig. 4). Il valore della tensione è mostrato a display
+4. OL.
+5. IN/MAX e ZERO fare riferimento al § 4.3
+
+HT79 IT - 9
+
+## 5.2. Misura Tensione AC
+
+> ATTENZIONE
+> La massima tensione A C in ingresso è 300Vrms. Non misurare tensioni che eccedano i limiti espressi in questo manuale. Il superamento di tali limiti
+
+Fig. 5: Uso dello strumento per misura di Tensione AC
+
+1. Selezionare la posizione
+2. Inserire il cavo rosso nel terminale di ingresso **V** e il cavo nero nel terminale di ingresso **COM**
+3. Posizionare i puntali nei punti desiderati del circuito in esame (vedere Fig. 5). Il valore della tensione è mostrato a display
+4. OL.
+5. IN/MAX e ZERO fare riferimento al § 4.3
+
+HT79 IT - 10
+
+## 5.3. Misura di Resistenza
+
+> ATTENZIONE
+> Prima di effettuare una qualunque misura di resistenza accertarsi che il circuito in esame non sia alimentato e che eventuali condensatori presenti siano scarichi.
+
+Fig. 6: Uso dello strumento per misura di Resistenza
+
+1. Selezionare la posizione
+2. Inserire il cavo rosso nel terminale di ingresso **V** e il cavo nero nel terminale di ingresso **COM**
+3. Posizionare i puntali nei punti desiderati del circuito in esame (vedere Fig. 6). Il valore della resistenza è mostrato a display
+4. OL.
+5. a funzione HOLD fare riferimento al § 4.3.1
+
+HT79 IT - 11
+
+## 5.4. Test continuità
+
+> ATTENZIONE
+> Prima di effettuare una qualunque misura di resistenza accertarsi che il circuito in esame non sia alimentato e che eventuali condensatori presenti siano scarichi.
+
+Fig. 7: Uso dello strumento per Test continuità
+
+1. Selezionare la posizione
+2. Premere il tasto **MIN/MAX** a display
+3. Inserire il cavo rosso nel terminale di ingresso **V** e il cavo nero nel terminale di ingresso **COM** ed eseguire Fig. 7). Il cicalino emette un segnale acustico quando il valore della resistenza misurata è inferiore a circa 100
+4. OL. di circuito aperto
+
+HT79 IT - 12
+
+## 5.5. Misura Corrente DC
+
+> ATTENZIONE
+> Assicurarsi che tutti i terminali di ingresso dello strumento siano disconnessi
+
+Fig. 8: Uso dello strumento per misura Corrente DC
+
+1. Selezionare la posizione
+2. Premere il tasto **ZERO** per azzerare la corrente di magnetizzazione residua
+3. (vedere Fig. 8) al fine di ottenere misure accurate (vedere Fig. 2). Il valore della corrente DC, è visualizzato a display
+4. La visualizzazione del simbolo " **-** " indica che lo strumento è inserito in modo contrario al verso della corrente evidenziato da una freccia presente sulla parte laterale del toroide
+5. OL. di fuori scala dello strumento
+6. IN/MAX e ZERO fare riferimento al § 4.3
+
+HT79 IT - 13
+
+## 5.6. Misura Corrente AC
+
+> ATTENZIONE
+> Assicurarsi che tutti i terminali di ingresso dello strumento siano disconnessi
+
+Fig. 9: Uso dello strumento per misura Corrente AC
+
+1. Selezionare la posizione
+2. (vedere Fig. 9) al fine di ottenere misure accurate (vedere Fig. 2). Il valore della corrente A C, è visualizzato a display
+3. OL. di fuori scala dello strumento
+4. IN/MAX e ZERO fare riferimento al § 4.3
+
+HT79 IT - 14
+
+## 5.7. Misura Corrente di dispersione AC/DC
+
+> ATTENZIONE
+> Inserire il cavo/i ne di ottenere misure accurate (vedere § 4.1.1).
+
+Fig. 10: Uso dello strumento per misura Corrente di dispersione AC o DC
+
+**Misura con metodo Diretto su conduttori di terra**
+1. Selezionare la posizione (corrente AC) o (corrente DC)
+2. Per misura di corrente DC premere il tasto **ZERO** per azzerare la corrente di magnetizzazione residua
+3. Aprire il toroide e collegare lo strumento come mostrato nella Fig. 10 per sistemi DC o sistemi AC Monofase/Trifase 4-fili. Il valore della corrente di dispersione è mostrato a display
+4. 4.3
+
+**Misura con metodo Indiretto**
+1. Selezionare la posizione (corrente AC) o (corrente DC)
+2. Per misura di corrente DC premere il tasto **ZERO** per azzerare la corrente di magnetizzazione residua
+3. Aprire il toroide e collegare lo strumento come mostrato nella Fig. 10 per sistemi DC o sistemi AC Monofase/Trifase 4-fili . Il valore della corrente di dispersione è mostrato display
+4. 4.3
+
+HT79 IT - 15
+
+# 6. MANUTENZIONE
+
+## 6.1. GENERALITÀ
+
+2. Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole.
+
+## 6.2. SOSTITUZIONE BATTERIE
+
+Quando sul display LCD appare il simbolo occorre sostituire le batterie.
+
+> ATTENZIONE
+> Solo tecnici esperti possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso il cavo in esame
+
+1. Spegnere lo strumento spostando il selettore nella posizione **OFF**
+2.
+3. Svitare la vite di fissaggio del coperchio del vano batteria (vedere Fig. 1 parte 12) e rimuoverlo
+4. Rimuovere le batterie e inserirne nuove dello stesso tipo (vedere § 7.1.3) rispettando le polarità indicate
+5. Riposizionare il coperchio del vano batteria e fissarlo
+6. contenitori per lo smaltimento
+
+## 6.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+## 6.4. FINE VITA
+
+> ATTENZIONE : il simbolo riportato sullo strumento indica che l'apparecchiatura ed i suoi accessori devono essere raccolti separatame nte e trattati in modo corretto
+
+HT79 IT - 16
+
+# 7. SPECIFICHE TECNICHE
+
+## 7.1. CARATTERISTICHE TECNICHE
+
+Incertezza indicata come **[%lettura + (numero cifre\*risoluzione)]** a 23°C± 5 °C, <80%RH
+
+**Tensione DC (Autorange)**
+
+| Campo  | Risoluzione | Incertezza           | Impedenza di ingresso | Protezione contro i sovraccarichi |
+| :----- | :---------- | :------------------- | :-------------------- | :-------------------------------- |
+| 50.00V | 0.01V       | (1.0%lettura+2cifre) | 1M                    | 300VDC/ACrms                      |
+| 300.0V | 0.1V        |                      |                       |                                   |
+
+**Tensione AC TRMS (Autorange)**
+
+| Campo  | Risoluzione | Incertezza           | Banda passante | Protezione contro i sovraccarichi |
+| :----- | :---------- | :------------------- | :------------- | :-------------------------------- |
+| 50.00V | 0.01V       | (1.2%lettura+5cifre) | 40Hz ÷ 1kHz    | 300VDC/ACrms                      |
+| 300.0V | 0.1V        |                      |                |                                   |
+
+Impedenza di ingresso: 1M
+
+**Corrente DC (Autorange)**
+
+| Campo   | Risoluzione | Incertezza            | Protezione contro i sovraccarichi |
+| :------ | :---------- | :-------------------- | :-------------------------------- |
+| 300.0mA | 0.1mA       | (1.0%lettura+10cifre) | 10ADC                             |
+| 3.000A  | 0.001A      |                       |                                   |
+| 10.00A  | 0.01A       | (3.0%lettura+10cifre) |                                   |
+
+Influenza campo magnetico esterno: < 1.0mA ; Influenza di apertura/chiusura toroide: < 1.0mA
+
+**Corrente AC TRMS (Autorange)**
+
+| Campo   | Risoluzione | Incertezza           | Banda passante |
+| :------ | :---------- | :------------------- | :------------- |
+| 300.0mA | 0.1mA       | (1.0%lettura+5cifre) | 50Hz ÷ 60Hz    |
+| 3.000A  | 0.001A      |                      |                |
+| 20.00A  | 0.01A       |                      |                |
+
+Protezione contro i sovraccarichi: 20Arms
+
+**Resistenza e Test Continuità (Autorange)**
+
+| Campo  | Risoluzione | Incertezza           | Buzzer | Protezione contro i sovraccarichi |
+| :----- | :---------- | :------------------- | :----- | :-------------------------------- |
+| 500.0  | 0.1         | (1.0%lettura+2cifre) | <100   | 300VDC/ACrms                      |
+| 5.000k | 0.001k      |                      |        |                                   |
+| 50.00k | 0.01k       |                      |        |                                   |
+| 500.0k | 0.1k        |                      |        |                                   |
+
+### 7.1.1. Caratteristiche elettriche
+
+*   Tipo di conversione: **TRMS**
+*   Frequenza di campionamento: **2 volte al secondo**
+
+### 7.1.2. Normative di riferimento
+
+*   Sicurezza: **IEC/EN61010-1**
+*   EMC: **IEC/EN61326-1**
+*   Isolamento: **doppio isolamento**
+*   Livello di Inquinamento: **2**
+*   Max altitudine di utilizzo: **2000m**
+*   Categoria di sovratensione: **CAT IV 300V**
+
+HT79 IT - 17
+
+### 7.1.3. Caratteristiche generali
+
+**Caratteristiche meccaniche**
+*   Dimensioni (L x La x H): **206 x 76 x 34mm**
+*   Peso (batterie incluse): **262g**
+*   Apertura toroide: **23mm**
+*   Diametro max. cavo: **23mm**
+*   Protezione meccanica: **IP20**
+
+**Alimentazione**
+*   Tipo batteria: **2x1.5V batterie tipo AAA IEC LR03**
+*   Indicazione batteria scarica: **a display**
+*   Durata batteria (senza backlight): **circa 15 ore (Corrente DC)**
+    **circa 60 ore (Corrente e Tensione AC)**
+    **circa 100 ore (Tensione DC e Resistenza)**
+*   Auto Power OFF: **dopo 30 minuti di non utilizzo**
+
+**Display**
+*   Caratteristiche: **4 LCD, 5000 punti più punto decimale e backlight**
+*   Indicazione fuori scala: **messaggio OL. a display**
+
+## 7.2. AMBIENTE
+
+### 7.2.1. Condizioni ambientali di utilizzo
+
+*   Temperatura di riferimento: **23° ± 5 °C**
+*   Temperatura di utilizzo: **0 °C ÷ 40°C**
+*   Umidità di utilizzo: **<80%RH**
+*   Temperatura di conservazione: **-10 °C ÷ 60 °C**
+*   Umidità di conservazione: **<80%RH**
+
+Questo strumento è conforme ai requisiti della Dirett iva Europea sulla bassa tensione 2014/35/EU (LVD) e della direttiva EMC 2014/30/EU
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (RoHS) e della direttiva europea 2012/19/EU (WEEE)
+
+## 7.3. ACCESSORI
+
+### 7.3.1. Accessori in dotazione
+
+*   Coppia di puntali di misura
+*   Borsa per trasporto
+*   Batterie (non inserite)
+*   Manuale
+
+HT79 IT - 18
+
+# 8. ASSISTENZA
+
+## 8.1. Condizioni di Garanzia
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+La garanzia non è applicata nei seguenti casi:
+*   Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici .
+
+## 8.2. Assistenza
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato delle batterie e sostituirle se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla dello strumento.

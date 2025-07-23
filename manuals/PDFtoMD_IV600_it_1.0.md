@@ -1,0 +1,1776 @@
+# IV600
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-50 -->
+I - V600 IT - Manuale d'uso Versione 2.06 - 27/05/2025
+
+# INDICE
+
+1.  [PRECAUZIONI E MISURE DI SICUREZZA](#precauzioni-e-misure-di-sicurezza)
+    1.1. [Istruzioni preliminari](#istruzioni-preliminari)
+    1.2. [Durante l’utilizzo](#durante-lutilizzo)
+    1.3. [Dopo l’utilizzo](#dopo-lutilizzo)
+    1.4. [Definizione di categoria di misura (sovratensione)](#definizione-di-categoria-di-misura-sovratensione)
+2.  [DESCRIZIONE GENERALE](#descrizione-generale)
+    2.1. [Introduzione](#introduzione)
+    2.2. [Funzionalità dello strumento](#funzionalita-dello-strumento)
+3.  [PREPARAZIONE ALL’UTILIZZO](#preparazione-allutilizzo)
+    3.1. [Controlli iniziali](#controlli-iniziali)
+    3.2. [Alimentazione dello strumento](#alimentazione-dello-strumento)
+    3.3. [Conservazione](#conservazione)
+4.  [NOMENCLATURA](#nomenclatura)
+    4.1. [Descrizione dello strumento](#descrizione-dello-strumento)
+    4.2. [Descrizione dei tasti funzione](#descrizione-dei-tasti-funzione)
+    4.3. [Descrizione del display](#descrizione-del-display)
+    4.4. [Videata iniziale](#videata-iniziale)
+    4.5. [Menu laterale](#menu-laterale)
+    4.6. [Descrizione stati unità remota SOLAR03](#descrizione-stati-unita-remota-solar03)
+    4.7. [Uso di strumento appeso con cinghia](#uso-di-strumento-appeso-con-cinghia)
+5.  [MENU GENERALE](#menu-generale)
+    5.1. [Help](#help)
+    5.2. [Impostazioni dello strumento](#impostazioni-dello-strumento)
+    5.3. [Informazioni](#informazioni)
+6.  [ISTRUZIONI OPERATIVE](#istruzioni-operative)
+    6.1. [DMM – Funzione multimetro](#dmm--funzione-multimetro)
+    6.2. [SOLAR03 – Unità remota](#solar03--unita-remota)
+    6.3. [DB – Gestione database moduli FV](#db--gestione-database-moduli-fv)
+        6.3.1. [Definizione di un nuovo modulo FV](#definizione-di-un-nuovo-modulo-fv)
+        6.3.2. [Modifica di un modulo FV esistente](#modifica-di-un-modulo-fv-esistente)
+        6.3.3. [Ricerca di moduli FV all’interno del database](#ricerca-di-moduli-fv-allinterno-del-database)
+        6.3.4. [Cancellazione di un modulo FV](#cancellazione-di-un-modulo-fv)
+        6.3.5. [Reimpostazione database moduli FV](#reimpostazione-database-moduli-fv)
+    6.4. [I - V – Misura della Curva I - V](#i---v--misura-della-curva-i---v)
+        6.4.1. [Generalità](#generalita)
+        6.4.2. [Misura Curva I - V senza unità remota SOLAR03](#misura-curva-i---v-senza-unita-remota-solar03)
+        6.4.3. [Misura Curva I - V con unità remota SOLAR03 in connessione diretta](#misura-curva-i---v-con-unita-remota-solar03-in-connessione-diretta)
+        6.4.4. [Misura Curva I - V con unità remota SOLAR03 in registrazione sincrona](#misura-curva-i---v-con-unita-remota-solar03-in-registrazione-sincrona)
+        6.4.5. [Interpretazione dei risultati di misura](#interpretazione-dei-risultati-di-misura)
+        6.4.6. [Situazioni anomale](#situazioni-anomale)
+    6.5. [Elenco messaggi di errore a display](#elenco-messaggi-di-errore-a-display)
+        6.5.1. [Descrizione procedura di Debug](#descrizione-procedura-di-debug)
+    6.6. [IVCK – Test su moduli e stringhe FV](#ivck--test-su-moduli-e-stringhe-fv)
+        6.6.1. [Introduzione](#introduzione)
+
+7.  [MEM – MEMORIZZAZIONE RISULTATI](#mem--memorizzazione-risultati)
+    7.1. [Salvataggio delle misure](#salvataggio-delle-misure)
+    7.2. [Richiamo risultati a display](#richiamo-risultati-a-display)
+    7.3. [Cancellazione dei risultati](#cancellazione-dei-risultati)
+        7.3.1. [Situazioni anomale](#situazioni-anomale)
+8.  [COLLEGAMENTO DELLO STRUMENTO A PC](#collegamento-dello-strumento-a-pc)
+9.  [MANUTENZIONE](#manutenzione)
+    9.1. [Generalità](#generalita)
+    9.2. [Sostituzione o ricarica batterie interne](#sostituzione-o-ricarica-batterie-interne)
+    9.3. [Pulizia dello strumento](#pulizia-dello-strumento)
+10. [SPECIFICHE TECNICHE](#specifiche-tecniche)
+    10.1. [Caratteristiche tecniche](#caratteristiche-tecniche)
+    10.2. [Caratteristiche generali](#caratteristiche-generali)
+    10.3. [Condizioni ambientali di utilizzo](#condizioni-ambientali-di-utilizzo)
+    10.4. [Accessori](#accessori)
+11. [APPENDICE](#appendice)
+    11.1. [Misura della Curva I - V](#misura-della-curva-i---v)
+        11.1.1. [Aspetti teorici sulla misura della Curva I - V](#aspetti-teorici-sulla-misura-della-curva-i---v)
+    11.2. [Errori tipici sulla misura di Curva I - V e possibili soluzioni](#errori-tipici-sulla-misura-di-curva-i---v-e-possibili-soluzioni)
+    11.3. [Calcolo decadimento prestazionale percentuale annuo](#calcolo-decadimento-prestazionale-percentuale-annuo)
+12. [ASSISTENZA](#assistenza)
+    12.1. [Condizioni di garanzia](#condizioni-di-garanzia)
+    12.2. [Assistenza](#assistenza)
+
+---
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità alla direttiva IEC/EN61010 - 1 relativa agli strumenti di misura elettronici. Prima e durante l’esecuzione delle misure attenersi alle seguenti indicazioni e leggere con particolare attenzione tutte le note precedute dal simbolo •
+
+*   Non effettuare misure di tensione o corrente in ambienti umidi
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi
+*   Evitare contatti con il circuito in esame se non si stanno effettuando misure
+*   Evitare contatti con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc..
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc..
+*   Utilizzare solo gli accessori originali HT
+*   Chiudendo la valigia NON LASCIARE NESSUN ACCESSORIO all’interno al fine di non danneggiare il display dello strumento
+
+> **ATTENZIONE**
+> Lo strumento può essere collegato solo a stringhe o moduli FV. Esso **non va usato** in collegamento con altre sorgenti elettriche e/o dispositivi elettronici al fine di evitarne il possibile danneggiamento
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+*   **ATTENZIONE**: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti
+*   ![Pericolo alta tensione](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) Pericolo alta tensione: rischi di shock elettrici
+*   ![Doppio isolamento](data:image/png;base64,iVBORw0KGgoAAAANfttt) Doppio isolamento
+*   ![Tensione o corrente DC](data:image/png;base64,iVBORw0KGgoAAAANtttt) Tensione o corrente DC
+*   ![Raccolta differenziata apparecchiature](data:image/png;base64,iVBORw0KGgoAAAANuuuuu) Il simbolo riportato indica che l'apparecchiatura, i suoi accessori e le batterie interne devono essere raccolti separatamente e trattati in modo corretto
+
+## 1.1. ISTRUZIONI PRELIMINARI
+
+*   Lo strumento è stato progettato per essere usato nelle condizioni ambientali specificate al § 10.3. La presenza di condizioni ambientali sensibilmente differenti può compromettere la sicurezza dello strumento e dell’operatore. In ogni caso, prima dell’utilizzo, attendere che le condizioni all’interno dello strumento siano comparabili alle condizioni dell’ambiente in cui esso si trova ad operare
+*   Lo strumento può essere utilizzato per misure di **TENSIONE** e **CORRENTE** in **CAT III 1500V DC** con tensione massima 1500VDC tra gli ingressi e corrente massima **40A**. Non operare su circuiti che superino i limiti specificati al § 10.1
+*   La invitiamo a seguire le normali **regole di sicurezza** orientate alla protezione contro correnti pericolose e proteggere lo strumento contro un utilizzo errato
+*   Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici
+*   Controllare che le batterie siano inserite correttamente
+*   Prima di collegare i cavi di misura al circuito in esame, controllare che sia stata selezionata la funzione desiderata
+
+## 1.2. DURANTE L’UTILIZZO
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> *   La mancata osservazione delle avvertenze e/o istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore
+> *   Non toccare nessun terminale di prova inutilizzato
+> *   Non scollegare i cavi durante la misura
+> *   Non aprire il vano batteria quando sono presenti dei collegamenti agli ingressi dello strumento
+> *   Il simbolo “ **+** “ indica il livello di carica completo delle batterie interne. Quando il livello di carica scende a livelli minimi il simbolo “ **-** “ è mostrato a display. In questo caso interrompere le prove e procedere alla sostituzione o alla ricarica delle batterie in accordo a quanto descritto nel § 9.2
+> *   Lo strumento non carica le batterie per temperature esterne al campo consentito dalle stesse (0°C ÷ 40°C)
+> *   Lo strumento è in grado di mantenere i dati memorizzati anche in assenza di batterie
+
+## 1.3. DOPO L’UTILIZZO
+
+Quando le misure sono terminate, spegnere lo strumento mantenendo premuto il tasto **ON/OFF** per alcuni secondi. Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere le batterie ed attenersi a quanto specificato nel § 3.3.
+
+## 1.4. DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma " IEC/EN 61010 - 1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali", definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § 6.7.4: Circuiti di misura, essa recita:
+I circuiti sono suddivisi nelle seguenti categorie di misura:
+
+*   La Categoria di misura **IV** serve per le misure effettuate su una sorgente di un’installazione a bassa tensione
+    Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle sovracorrenti e sulle unità di regolazione dell’ondulazione
+*   La Categoria di misura **III** serve per le misure effettuate in installazioni all’interno di edifici
+    Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli apparecchi destinati all’impiego industriale e altre apparecchiature, per esempio i motori fissi con collegamento ad impianto fisso
+*   La Categoria di misura **II** serve per le misure effettuate su circuiti collegati direttamente all’installazione a bassa tensione
+    Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari
+*   La Categoria di misura **I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE
+    Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura
+
+# 2. DESCRIZIONE GENERALE
+
+## 2.1. INTRODUZIONE
+
+Lo strumento è stato progettato per eseguire misure delle prestazioni (caratteristica I - V) e per la realizzazione di test rapidi di pre-collaudo (IVCK) di moduli/stringhe fotovoltaici (FV) in accordo alla normativa IEC/EN60891 e IEC/EN62446 - 1.
+
+## 2.2. FUNZIONALITÀ DELLO STRUMENTO
+
+Lo strumento è in grado di eseguire prove su moduli/stringhe Monofacciali e Bifacciali fino a 1500VDC, 40ADC.
+
+**Misura Caratteristica I - V (I - V)**
+Le seguenti funzionalità sono disponibili sullo strumento:
+
+*   Attivazione misura in modo Manuale e Automatico (*)
+*   Misure di Tensione/Corrente/Potenza misurati alle condizioni operative (@OPC)
+*   Misure di Tensione/Corrente/Potenza riferite alle condizioni standard (@STC) in accordo alla normativa IEC/EN60891
+*   Grafico curva I - V e Potenza/Tensione in condizione @OPC e @STC
+*   Confronto diretto dei valori @STC con i valori nominali dichiarati dal costruttore e visualizzazione esito OK/NO
+*   Esecuzione test anche su moduli FV con efficienza >19%
+
+**Misure di pre-collaudo (IVCK)**
+
+*   Misura di tensione a vuoto Voc
+*   Misura di corrente di cortocircuito Isc
+*   Visualizzazione risultati in condizioni @OPC e @STC in accordo alle normative IEC/EN62446 - 1 e IEC/60891
+*   Valutazione OK/NO dei risultati ottenuti
+*   Esecuzione test anche su moduli FV con efficienza >19%
+
+**Caratteristiche generali**
+
+*   Strumento incluso in valigia di trasporto con protezione meccanica IP67
+*   Slitta scorrevole di sicurezza sugli ingressi
+*   Ampio display grafico (800x 480 pxl) a colori con touch-screen capacitivo
+*   Menu interni a icone per intuitiva interfaccia utente
+*   Autospegnimento (disattivabile) dopo circa 5 minuti di non utilizzo
+*   Funzione HELP per informazioni sui collegamenti dello strumento
+*   Alimentazione strumento eseguita tramite batterie alcaline o batterie NiMH ricaricabili tramite alimentatore esterno in dotazione
+*   Misura irraggiamento frontale e posteriore e temperatura dei moduli FV tramite collegamento Bluetooth con unità remota **SOLAR03**, cella di riferimento **HT305** e sonda di temperatura **PT305**
+*   Database interno personalizzabile per la gestione fino a circa 63000 moduli FV
+*   Memory card 32GB (non espandibile) per salvataggio dati
+*   Interfaccia USB - C e WiFi per trasferimento dati a PC e APP dedicata (*)
+
+(*) La caratteristica indicata può essere disponibile solo per alcuni modelli
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+
+## 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Si consiglia in ogni caso di controllarlo per accertare eventuali danni subiti durante il trasporto. Qualora si dovessero riscontrare anomalie contattare immediatamente il rivenditore. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 10.4 In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento si prega di seguire le istruzioni riportate al § 12
+
+## 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato con 8x1.5V batterie alcaline tipo AA oppure 8x1.2V batterie NiMH tipo AA ricaricabili tramite alimentatore esterno fornito in dotazione. Per informazioni sulle operazioni con le batterie vedere il § 9.2. Il simbolo “ **+** “ “indica il livello di carica completo delle batterie interne. Quando il livello di carica scende a livelli minimi il simbolo “ **-** “ è mostrato a display. In questo caso interrompere le prove e procedere alla sostituzione delle batterie alcaline o alla ricarica delle batterie NiMH in accordo a quanto descritto nel § 9.2.
+
+> **ATTENZIONE**
+> *   Lo strumento è in grado di mantenere i dati memorizzati anche in assenza di batterie
+> *   Lo strumento non carica le batterie per temperature esterne al campo consentito dalle stesse (0°C ÷ 40°C)
+
+## 3.3. CONSERVAZIONE
+
+Lo strumento è stato progettato per essere usato nelle condizioni ambientali specificate al § 10.3. La presenza di condizioni ambientali sensibilmente differenti può compromettere la sicurezza dello strumento e dell’operatore e/o non garantire misure precise. Dopo un lungo periodo di conservazione e/o in condizioni ambientali estreme, prima dell’utilizzo, attendere che le condizioni all’interno dello strumento siano comparabili alle condizioni dell’ambiente in cui esso si trova ad operare.
+
+> **ATTENZIONE**
+> Lo strumento inserisce automaticamente l’accensione di ventole di raffreddamento in caso di surriscaldamento
+
+# 4. NOMENCLATURA
+
+## 4.1. DESCRIZIONE DELLO STRUMENTO
+
+LEGENDA:
+1.  Ingressi C1, P1, C2, P2
+2.  Pannello frontale
+3.  Display touch - screen
+4.  Tasto ON/OFF
+5.  Tasto START/STOP
+6.  Coperchio vano batterie
+7.  Vite fissaggio coperchio vano batterie
+8.  Ingresso per alimentatore esterno
+9.  Slitta scorrevole per collegamenti
+
+Fig. 1: Descrizione parte frontale dello strumento
+
+LEGENDA:
+1.  Pannello frontale
+2.  Connettore USB - C per collegamento a PC
+
+Fig. 2: Descrizione parte laterale dello strumento
+
+LEGENDA:
+1.  Vano batteria con indicazione polarità batterie
+2.  Slot per inserimento scheda di memoria
+3.  Scheda di memoria
+4.  Posizionamento batterie all’ interno del vano
+
+Fig. 3: Descrizione vano batteria dello strumento
+
+> **ATTENZIONE**
+> La scheda di memoria (vedere Fig. 3 – parte 3), oltre alla gestione del salvataggio dei dati, contiene informazioni basilari sulle funzioni interne dello strumento e NON deve essere rimossa, modificata o sostituita salvo esplicita richiesta da parte del servizio assistenza HT
+
+## 4.2. DESCRIZIONE DEI TASTI FUNZIONE
+
+Sullo strumento sono presenti i seguenti tasti funzione:
+
+*   Tasto **ON/OFF** → Premere **almeno 2s** il tasto per accendere o spegnere lo strumento. Una luce verde circonda il tasto per un istante all’accensione
+*   Tasto **ON/OFF** → in **presenza** di alimentatore esterno collegato, dopo 30s di inattività (nessuna azione su tastiera e touch screen, nessun invio di comandi tramite USB/WiFi, nessuno scollegamento dell’alimentatore) lo strumento spegne il display e una luce **verde** lampeggiante circonda il tasto. Eseguire un **doppio tocco** del touch o eseguire qualunque altra azione per riaccendere il display
+*   Tasto **ON/OFF** → in **assenza** di alimentatore esterno collegato, dopo 30s di inattività (nessuna azione su tastiera e touch screen, nessun invio di comandi tramite USB/WiFi, nessuno scollegamento dei terminali di ingresso) lo strumento spegne il display e una luce **rossa** lampeggiante circonda il tasto. Eseguire un **doppio tocco** del touch o eseguire qualunque altra azione per riaccendere il display
+*   Tasto **START/STOP** → Premere il tasto per **attivare una misura**. Una luce verde circonda il tasto per un istante all’accensione
+
+## 4.3. DESCRIZIONE DEL DISPLAY
+
+LEGENDA:
+1.  Barra di sistema
+2.  Indicazione menu attivo
+3.  Icona funzione IV Check
+4.  Indicazione data/ora di sistema
+5.  Indicazione connessione WiFi attiva
+6.  Indicazione SOLAR03 connesso
+7.  Indicazione livello di carica batterie
+8.  Icona Impostazioni
+9.  Icona SOLAR03
+10. Icona DataBase moduli FV
+11. Icona Memoria
+12. Icona attivazione /disattivazione barra menu laterale
+13. Icona Curva IV
+14. Barra menu laterale
+15. Icona Help
+16. Icona Informazioni
+17. Icona Multimetro
+
+Fig. 4: Descrizione del display
+
+> **ATTENZIONE**
+> Qualora il display touch - screen avesse bloccaggi o comportamenti anomali:
+> *   Se il S/N dello strumento è < 24020546 → inviare in assistenza
+> *   Se il S/N dello strumento è ≥ 24020546 → il problema potrebbe essere dovuto a influenze EM da parte dell’inverter o dai cavi di collegamento delle stringhe. Operare le seguenti azioni:
+>     *   Scollegare tutti i cavi di misura dallo strumento
+>     *   Scollegare i cavi di collegamento stringhe dall’inverter
+>     *   Verificare che i cavi di stringa non siano a contatto con altre sorgenti di tensione nel caso, de - energizzare questi cavi/quadri di campo
+
+## 4.4. VIDEATA INIZIALE
+
+All’accensione lo strumento mostra per qualche istante la videata iniziale per poi passare al menu generale. In essa sono mostrati:
+
+*   Il logo del costruttore
+*   Il modello dello strumento
+*   Il numero di serie dello strumento (S/N:)
+*   Le versioni del firmware (FW) e dell’hardware (HW) interni
+*   La data di ultima calibrazione eseguita sullo strumento (Data Calibrazione:)
+
+## 4.5. MENU LATERALE
+
+Toccando l’icona “ **>** ” è possibile aprire/chiudere la barra/menu laterale mostrata nella figura a fianco. Le seguenti icone sono disponibili:
+1.  Icona **HOME** → consente il ritorno al menu generale da qualsiasi videata in cui si trova lo strumento
+2.  Icona **REVERSE** → esegue la rotazione del display per una lettura dei valori in caso di uso dello strumento appeso (vedere § 4.7)
+3.  Icona **SOLAR03** → apre la sezione per la gestione dell’unità remota **SOLAR03** da qualsiasi videata in cui si trova lo strumento
+4.  Icona **HELP** → apre la sezione “ Help ” da qualsiasi videata in cui si trova lo strumento
+
+## 4.6. DESCRIZIONE STATI UNITÀ REMOTA SOLAR03
+
+In funzione dell’utilizzo in abbinamento con lo strumento, l’unità remota **SOLAR03** può assumere i seguenti stati identificati dall’icona presente nella parte alta del display (vedere Fig. 4 – parte 5):
+
+*   ![SOLAR03 connessa](data:image/png;base64,iVBORw0KGgoAAAAAElFTkSuQmCC) Unità remota SOLAR03 connessa allo strumento
+*   ![SOLAR03 connessa e in registrazione](data:image/png;base64,iVBORw0KGgoAAAANSwAAABCDEFGAAAAAElFTkSuQmCC) Unità remota SOLAR03 connessa allo strumento e in registrazione
+*   ![SOLAR03 NON connessa](data:image/png;base64,iVBORw0KGgoAAAANdAAAABCDEFGAAAAAElFTkSuQmCC) Unità remota SOLAR03 **NON connessa** allo strumento
+*   ![SOLAR03 in registrazione ma fuori portata](data:image/png;base64,iVBORw0KGgoAAAAAdtAAAAABCDEFGAAAAAElFTkSuQmCC) Unità remota SOLAR03 in registrazione, ma fuori portata di connessione
+
+## 4.7. USO DI STRUMENTO APPESO CON CINGHIA
+
+Nel caso occorra eseguire misure in cui sia utile mantenere lo strumento appeso, è consigliato rimuovere il coperchio della valigia. A tale fine operare come segue:
+1.  Aprire la valigia e ruotare i due perni di serraggio come indicato nella seguente Fig. 5
+    Fig. 5: Rimozione coperchio valigia strumento – Passo 1
+2.  Sfilare i due perni di serraggio tirandoli verso l’esterno come indicato nella Fig. 6
+    Fig. 6: Rimozione coperchio valigia strumento – Passo 2
+3.  Rimuovere il coperchio della valigia dalla propria sede come mostrato nella Fig. 7
+    Fig. 7: Rimozione coperchio valigia strumento – Passo 3
+4.  Collegare allo strumento la cinghia **SP - 2003** fornita in dotazione come mostrato nella seguente Fig. 8. In questo caso è utile ruotare di 180° la visualizzazione del display toccando il tasto **REVERSE** del menu laterale (vedere § 4.5) oppure attivare l’opzione “ Ruota display ” (vedere § 5.2)
+    Fig. 8: Uso dello strumento con cinghia collegata e display ruotato
+5.  Ripetere all’opposto rispettivamente i passi 3), 2), 1) per ripristinare il coperchio della valigia
+
+# 5. MENU GENERALE
+
+Il menu generale dello strumento comprende una serie di icone che permettono di accedere alle misure e alle impostazioni interne. Il controllo e la programmazione sono svolti unicamente tramite contatto con il display touch screen senza alcun tasto funzione esterno.
+Il menu generale è composto da due pagine. La prima pagina e sempre presente ad ogni accensione dello strumento. Trascinare il dito verso l’alto sul display per accedere alla seconda pagina come mostrato nella videata a lato.
+
+## 5.1. HELP
+
+1.  Toccare l’icona “ Help ” nel menu generale. La videata seguente è mostrata a display:
+    Fig. 9: Videata di aiuto nei collegamenti con lo strumento
+2.  Scorrere il display verso sinistra per visualizzare le videate di aiuto delle diverse misure eseguite dallo strumento
+3.  Toccare il tasto “ Esci ” per uscire e tornare al menu generale
+
+## 5.2. IMPOSTAZIONI DELLO STRUMENTO
+
+1.  Accendere lo strumento con il tasto **ON/OFF**
+2.  Toccare l’icona “ Impostazioni ” nel menu generale. La videata seguente è mostrata a display
+    Fig. 10: Impostazioni generali dello strumento
+3.  Trascinare verso destra o sinistra ciascuno delle 7 rotelline disponibili al fine di impostare il valore desiderato di ogni parametro della sezione “Generale”. Le seguenti voci sono disponibili:
+    *   **Lingua** → impostazione della lingua di sistema
+    *   **Irraggiamento min.** → impostazione della soglia minima di irraggiamento considerata dallo strumento nelle misure di curva I - V e IVCK nel campo: **100 W/m² ÷ 1100W/m²** in passi da 100 W/m²
+    *   **Auto spegnimento** → impostazione del tempo di autospegnimento dello strumento tra i valori: **0min (No Autospegnimento)**, **1 min ÷ 10min** in passi da 1min
+    *   **Contrasto** → impostazione del livello percentuale di contrasto del display nel campo: **0% ÷ 99%** in passi di **5 %**
+    *   **Suono tasti** → abilitazione (**ON**) o disabilitazione (**OFF**) del suono tasti ad ogni tocco eseguito sul display touch screen
+    *   **WiFi** → abilitazione (**ON**) o disabilitazione (**OFF**) della connessione WiFi utilizzabile esclusivamente per il collegamento dello strumento a PC (tramite software di gestione dedicato HTAgorà) o dispositivi mobili (tramite APP dedicata) (*)
+    *   **Ruota display** → abilitazione (**ON**) o disabilitazione (**OFF**) della rotazione del display (funzione eseguibile anche dal menu laterale – vedere § 4.5)
+    *   **Reimposta Database** → vedere § 6.3.5
+
+(*) La caratteristica indicata può essere disponibile solo per alcuni modelli
+
+4.  Toccare l’icona ![Salva impostazioni](data:image/png;base64,iVBORw0KGgoAAAANfgAAAABCDEFGAAAAAElFTkSuQmCC) per salvare le impostazioni e tornare al menu generale oppure l’icona ![Esci senza salvare](data:image/png;base64,iVBORw0KGgoAAAANfhAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza salvare
+5.  Toccare la voce “ Data & Ora ” per eseguire l’impostazione della data/ora di sistema. La videata seguente è mostrata a display:
+    Fig. 11: Impostazione data/ora di sistema
+6.  Trascinare verso destra o sinistra ciascuno delle 7 rotelline disponibili al fine di impostare il valore desiderato di ogni parametro della sezione “Data/Ora”. Le seguenti voci sono disponibili:
+    *   **Anno** → impostazione dell’anno corrente
+    *   **Mese** → impostazione del mese corrente
+    *   **Giorno** → impostazione del giorno corrente
+    *   **Ora** → impostazione dell’ora corrente
+    *   **Minuto** → impostazione del minuto corrente
+    *   **Formato data** → impostazione del formato data tra le opzioni: “ **ggmmaa** ” (giorno/mese/anno) oppure “ **mmggaa** ” (mese/giorno/anno)
+    *   **Formato ora** → impostazione del formato ora tra le opzioni: “ **24h** ” o “ **12h** ” (notazione UK – AM/PM)
+7.  Toccare l’icona ![Salva impostazioni](data:image/png;base64,iVBORw0KGgoAAAANfgAAAABCDEFGAAAAAElFTkSuQmCC) per salvare le impostazioni e tornare al menu generale oppure l’icona ![Esci senza salvare](data:image/png;base64,iVBORw0KGgoAAAANfhAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza salvare
+
+## 5.3. INFORMAZIONI
+
+1.  Toccare l’icona “ Informazioni ” nel menu generale. La videata seguente in cui sono mostrate le informazioni interne dello strumento è mostrata a display
+    Fig. 12: Informazioni sullo strumento
+2.  Toccare il tasto “ Menu ” per tornare al menu generale
+
+# 6. ISTRUZIONI OPERATIVE
+
+## 6.1. DMM – Funzione multimetro
+
+In questa funzione lo strumento mostra il valore della tensione DC tra il polo positivo (+) e il polo ( - ) del modulo/stringa/campo FV in esame oltre ai valori di irraggiamento e temperatura in caso di connessone con unità remota SOLAR03.
+1.  Accendere lo strumento con il tasto **ON/OFF**
+2.  Collegare lo strumento alla stringa FV in prova come mostrato nella seguente Fig. 13
+    Fig. 13: Collegamento strumento nella funzione DMM
+3.  Toccare l’icona “ Multimetro ” nella seconda pagina del menu generale. Il valore della tensione DC V P - N è mostrato a display come mostrato nella seguente Fig. 14. Toccare il tasto “Menu” per tornare al menu generale
+    Fig. 14: Videata di misura funzione DMM (SOLAR03 scollegato)
+
+> **ATTENZIONE**
+> I risultati della funzione DMM non sono salvabili nella memoria dello strumento
+
+## 6.2. SOLAR03 – Unità remota
+
+L’unità remota SOLAR03 consente di eseguire la misura dei valori di Irraggiamento e Temperatura del modulo, grandezze indispensabile per la valutazione della curva I - V e le misure IVCK con valori riferiti @STC. In generale lo strumento e il SOLAR03 possono operare in **connessione diretta** oppure in **registrazione sincrona**.
+
+> **ATTENZIONE**
+> *   La distanza massima di connessione diretta fra SOLAR03 e strumento può variare in funzione degli ostacoli interposti fra le due unità e può essere fino a 100m in spazio libero
+> *   La distanza massima per la connessione diretta è indicativa in quanto fortemente influenzata da molte variabili esterne non controllabili. Il modo di misura **raccomandato** è sempre quello della “registrazione sincrona” (vedere § 6.4.4) che non necessita di collegamento Bluetooth attivo durante le misure e, indipendentemente dagli ostacoli presenti e dall’estensione del campo da misurare, garantisce una misura affidabile in ogni situazione
+
+Questa sezione gestisce tutte le operazioni eseguibili sull’unità remota SOLAR03 in abbinamento con lo strumento. In particolare, è possibile:
+
+*   Eseguire la ricerca, tramite collegamento Bluetooth, di una unità remota SOLAR03 che può essere gestita dallo strumento, inserendola nella propria lista interna
+
+> **ATTENZIONE**
+> La distanza massima indicativa di comunicazione tramite Bluetooth (fino a 100m) è riferita ad un campo aperto, ambiente secco, a 1m da terra, in assenza di ostacoli e possibili disturbi elettromagnetici derivanti da altre fonti in prossimità degli strumenti
+
+*   Selezionare o cancellare una unità remota SOLAR03 tra quelle presenti in lista
+*   Associare/disassociare una unità remota SOLAR03 dallo strumento in modo da poterla riconoscere automaticamente ad ogni collegamento
+*   Visualizzare le informazioni dell’unità remota selezionata
+*   Attivare/terminare la registrazione dei parametri ambientali (temperatura/irraggiamento) su una unità remota attiva e connessa
+
+In particolare, per ogni unità remota SOLAR03 gestita, lo strumento fornisce le seguenti indicazioni:
+
+*   Numero di serie
+*   Unità remota attiva (simbolo ![SOLAR03 attiva](data:image/png;base64,iVBORw0KGgoAAAANgAAAABCDEFGAAAAAElFTkSuQmCC)) o non attiva (nessun simbolo)
+*   Unità remota attiva connessa allo strumento
+*   Unità attiva e connessa in fase di registrazione (simbolo “ Reg. ”)
+*   Numero di misure presenti nella memoria dello strumento che richiedono sincronizzazione con valori di irraggiamento/temperatura ottenuti dall’unità remota. Toccare l’icona ![Sincronizza misure](data:image/png;base64,iVBORw0KGgoAAAANhAAAABCDEFGAAAAAElFTkSuQmCC) per eseguire la sincronizzazione delle misure
+
+**Associazione di una unità remota**
+1.  Accendere lo strumento con il tasto **ON/OFF**
+2.  Toccare l’icona “ SOLAR03 ” del menu generale. La videata seguente è mostrata a display
+    Fig. 15: Accoppiamento unità remota SOLAR03 – Passo 1
+3.  Accendere l’unità remota **SOLAR03** e selezionare il menu “ ACCOPPIAMENTO... ” (vedere manuale d’uso dell’unità remota)
+4.  Toccare il tasto “ Trova ” sullo strumento per avviare una ricerca dell’unità remota. La seguente videata è mostrata a display
+    Fig. 16: Accoppiamento unità remota SOLAR03 – Passo 2
+5.  Al riconoscimento dell’unità remota, la seguente videata è mostrata a display in cui il SOLAR03 è in attesa di essere collegato
+    Fig. 17: Accoppiamento unità remota SOLAR03 – Passo 3
+6.  Confermare con ENTER sull’unità remota SOLAR03 per completare l’operazione. Dopo alcuni istanti la seguente videata è mostrata a display:
+    Fig. 18: Accoppiamento unità remota SOLAR03 – Passo 4
+7.  Da questo momento entrambi i dispositivi sono associati e non sarà necessario ripetere nuovamente le operazioni precedentemente descritte. Per connettere strumento e unità remota sarà sufficiente accenderle, avvicinarle e attendere la connessione automatica. Per l’unità remota accoppiata e connessa sono disponibili le seguenti informazioni:
+    *   Icona ![SOLAR03 connessa](data:image/png;base64,iVBORw0KGgoAAAAAElFTkSuQmCC) presente sulla parte alta destra del display
+    *   Modello e numero di serie
+    *   Versione interna del FW e HW dell’unità
+    *   Stato: **Inattivo** (unità non interrogata dallo strumento al fine di fornire i valori di irraggiamento/temperatura) o **Attivo** (unità che fornisce i valori di irraggiamento/temperatura su misure salvate dallo strumento al fine di definire i valori alle condizioni STC)
+    *   Indicazione sul livello percentuale di carica delle batterie
+    *   Indicazione spazio disponibile nella memoria interna per salvataggio registrazioni in termini di giorni/ore
+    *   Numero di misure presenti nella memoria dello strumento che richiedono sincronizzazione con valori di irraggiamento/temperatura ottenuti dall’unità remota. Toccare l’icona ![Sincronizza misure](data:image/png;base64,iVBORw0KGgoAAAANhAAAABCDEFGAAAAAElFTkSuQmCC) per eseguire la sincronizzazione delle misure
+
+**Attivazione registrazione su unità remota**
+8.  Per avviare una registrazione sull’unità remota connessa, toccare il tasto “ Avvio/Stop ”. La seguente videata è mostrata:
+    Fig. 19: Attivazione registrazione su unità remota – Passo 1
+9.  Toccare il tasto ![Conferma](data:image/png;base64,iVBORw0KGgoAAAANiAAAABCDEFGAAAAAElFTkSuQmCC) per confermare oppure il tasto ![Annulla](data:image/png;base64,iVBORw0KGgoAAAANjAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza procedere. In caso affermativo la videata seguente è mostrata:
+    Fig. 20: Attivazione registrazione su unità remota – Passo 2
+10. L’icona ![SOLAR03 connessa e in registrazione](data:image/png;base64,iVBORw0KGgoAAAANSwAAABCDEFGAAAAAElFTkSuQmCC) e il messaggio “ Reg. ” sono mostrati a display e il messaggio “REC” è presente a display dell’unità remota
+11. Toccare il tasto “ Avvio/Stop ” per terminare la registrazione. La seguente videata è mostrata:
+    Fig. 21: Terminazione registrazione su unità remota
+12. Toccare il tasto ![Conferma](data:image/png;base64,iVBORw0KGgoAAAANiAAAABCDEFGAAAAAElFTkSuQmCC) per confermare. La registrazione è salvata automaticamente nella memoria interna dell’unità remota (vedere manuale d’uso relativo)
+13. Toccare l’icona ![Torna al menu generale](data:image/png;base64,iVBORw0KGgoAAAANkAAAABCDEFGAAAAAElFTkSuQmCC) per tornare al menu generale
+
+**Rimozione di una unità remota**
+La cancellazione di una unità remota dallo strumento è possibile solo dopo averla scollegata. A tal fine procedere come segue:
+14. Spegnere l’unità remota
+15. Toccare il tasto “ Disaccoppiare ” per disassociare l’unità remota. Il messaggio “ Non collegato ” è mostrato a display
+16. Toccare il tasto “ Cancella ”. La videata seguente è mostrata:
+    Fig. 22: Cancellazione di una unità remota
+17. Toccare il tasto ![Conferma](data:image/png;base64,iVBORw0KGgoAAAANiAAAABCDEFGAAAAAElFTkSuQmCC) per confermare. L’unità remota sarà rimossa dall’elenco oppure toccare il tasto ![Annulla](data:image/png;base64,iVBORw0KGgoAAAANjAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza procedere
+
+## 6.3. DB – Gestione database moduli FV
+
+Lo strumento permette di definire e salvare fino a circa 63000 moduli. I parametri, riferiti a 1 modulo e alle condizioni @STC, che possono essere impostati sono riportati nella seguente Tabella 1:
+
+Tabella 1: Parametri associati ad un modulo FV
+
+| Simbolo       | Descrizione                                          | Unità di misura | Campo misura    | Predefinito |
+| :------------ | :--------------------------------------------------- | :-------------- | :-------------- | :---------- |
+| Prod.         | Produttore del modulo                                | -               | -               | -           |
+| Nome          | Nome del modulo                                      | -               | -               | -           |
+| Pmax          | Potenza massima nominale del modulo                  | W               | 30 ÷ 1999       | 400         |
+| Voc           | Tensione a vuoto                                     | V               | 15.0 ÷ 999.99   | 45          |
+| Vmpp          | Tensione nel punto di massima potenza                | V               | 15.0 ÷ 999.99   | 40          |
+| Isc           | Corrente di cortocircuito                            | A               | 1.00 ÷ 39.99    | 10.50       |
+| Impp          | Corrente nel punto di massima potenza                | A               | 1.00 ÷ 39.99    | 10.00       |
+| Toll -        | Tolleranza negativa per la Pmax                      | %               | 0.00 ÷ 25.00    | 0.00        |
+| Toll +        | Tolleranza positiva per la Pmax                      | %               | 0.00 ÷ 25.00    | 1.25        |
+| CT(Isc)       | Coefficiente di temperatura Isc                      | %/°C            | - 0.100 ÷ 0.100 | 0.030       |
+| CT(Voc)       | Coefficiente di temperatura Voc                      | %/°C            | - 0.999 ÷ - 0.001 | - 0.250     |
+| Rs            | Resistenza serie del modulo                          |                | 0.10 ÷ 10.00    | 0.00        |
+| Prest@An1     | Prestazioni modulo Anno 1                            | %               | 0.00 ÷ 100.00   | 90.00       |
+| Prest@An2     | Prestazioni modulo Anno 2                            | %               | 0.00 ÷ 100.00   | 80.00       |
+| Anni@Prest1   | Anno prestazione 1                                   | Anni            | 0.0 ÷ 50.0      | 10          |
+| Anni@Prest2   | Anno prestazione 2                                   | Anni            | 0.0 ÷ 50.0      | 25          |
+| Tipo          | Tipo modulo: STD (Monofacciale) BIFAC. (Bifacciale)  | -               | -               | STD         |
+| Coef. Bif.    | Coefficiente di bifaccialità Isc/Pmax                | %               | 0.00 ÷ 100.00   | 79.0        |
+| Tol. Bif. Fct | Toll. coefficiente bifaccialità Isc/Pmax             | %               | 0.00 ÷ 100.00   | 16.0        |
+
+> **ATTENZIONE**
+> *   I parametri “ Prest@An1 ” e “ Prest@An2 ” rappresentano le percentuali di prestazione del modulo dichiarati nel data sheet del produttore
+> *   I parametri “ Anni@Prest1 ” e “ Anni@Prest2 ” rappresentano gli anni di servizio del modulo a cui il produttore ha associato le prestazioni associate ai parametri “ Prest@An1 ” e “ Prest@An2 ”
+> *   Sulla base di questi valori, lo strumento calcola automaticamente la curva Anni/Prestazioni (vedere Fig. 23) da cui desumere il degrado prestazione % annuo usato nel calcolo della curva I - V (vedere § 6.4.5 e § 11.3)
+
+Fig. 23: Esempio di curva Anni/Prestazioni di un modulo FV
+
+La videata iniziale della funzione Database è mostrata nella seguente Fig. 24:
+Fig. 24: Videata inziale funzione Database
+
+In cui sono presenti due sezioni:
+
+**Parte sinistra**
+*   La lista dei produttori di moduli FV in ordine alfabetico inserita dall’utente (manualmente o tramite software di gestione HTAgorà) fino a quel momento. Un produttore è selezionato
+*   La lista dei moduli FV in ordine alfabetico associati al produttore selezionato inserita dall’utente (manualmente o tramite software di gestione HTAgorà) fino a quel momento
+
+**Parte destra**
+*   Lista dei parametri corrispondenti al modulo attualmente selezionato. La lista comprende normalmente più pagine → scorrere il display verso l’alto/basso per visualizzare tutti i parametri
+
+Toccare l’icona ![Seleziona modulo](data:image/png;base64,iVBORw0KGgoAAAANlAAAABCDEFGAAAAAElFTkSuQmCC) per selezionare il modulo FV correntemente evidenziato ed utilizzarlo per le prove oppure l’icona ![Esci dal database](data:image/png;base64,iVBORw0KGgoAAAANmAAAABCDEFGAAAAAElFTkSuQmCC) per uscire tornando al menu generale
+
+### 6.3.1. Definizione di un nuovo modulo FV
+
+1.  Toccare il tasto “ Nuovo ” nella videata principale per aprire la maschera di programmazione. La finestra seguente è mostrata a display:
+    Fig. 25: Creazione nuovo modulo FV – Passo 1
+2.  Usare la tastiera virtuale alfanumerica per impostare il produttore e il nome del modello (**possibili solo caratteri maiuscoli**). Toccare il tasto ![Invio](data:image/png;base64,iVBORw0KGgoAAAANnAAAABCDEFGAAAAAElFTkSuQmCC) (ENTER) della tastiera virtuale per confermare ogni valore e passare alla voce successiva
+3.  Usare la tastiera virtuale numerica per impostare i valori dei parametri del modulo in funzione del data sheet del modulo come mostrato in Fig. 26.
+4.  Qualora non siano noti alcuni parametri toccare il tasto “ Predefinito “ per inserire il corrispondente valore predefinito (default) presenti nella Tabella 1 (**tali valori potrebbero anche non essere corretti per il modulo in esame, quindi contattare eventualmente il costruttore del modulo FV**)
+5.  Usare il tasto “ Unita mis. ” per selezionare l’unità di misura della tolleranza associata alla potenza tra le opzioni “ % ” o “ W ”
+6.  Toccare il tasto ![Invio](data:image/png;base64,iVBORw0KGgoAAAANnAAAABCDEFGAAAAAElFTkSuQmCC) (ENTER) della tastiera virtuale per confermare ogni valore e passare alla voce successiva
+    Fig. 26: Creazione nuovo modulo FV – Passo 2
+4.  Scorrere il display verso l’alto/basso per visualizzare tutti i parametri. Per il parametro “Tipo” scorrere verso destra o sinistra la rotellina per l’impostazione del tipo di modulo FV (vedere Fig. 27). Le seguenti opzioni sono disponibili:
+    *   **STD** → Modulo Standard (**Monofacciale**)
+    *   **Bifacial** → Modulo Bifacciale
+    Fig. 27: Creazione nuovo modulo FV – Passo 3
+5.  Toccare il tasto “ Salva ” per salvare il modulo definito e tornare alla videata principale oppure il tasto “ Esci ” per uscire dall’impostazione senza salvare
+
+### 6.3.2. Modifica di un modulo FV esistente
+
+1.  Toccare il tasto “ Modifica ” nella videata principale. La finestra seguente è mostrata a display:
+    Fig. 28: Modifica modulo esistente
+2.  Usare la tastiera virtuale alfanumerica per eseguire le modifiche dei parametri presenti. Toccare il tasto ![Invio](data:image/png;base64,iVBORw0KGgoAAAANnAAAABCDEFGAAAAAElFTkSuQmCC) (ENTER) della tastiera virtuale per confermare ogni valore e passare alla voce successiva
+3.  Toccare il tasto “ Salva ” per salvare le modifiche e tornare alla videata principale oppure il tasto “ Esci ” per uscire dall’impostazione senza salvare
+
+> **ATTENZIONE**
+> Non è possibile modificare il nome del produttore
+
+### 6.3.3. Ricerca di moduli FV all’interno del database
+
+> **ATTENZIONE**
+> La ricerca eseguita dallo strumento è **posizionale** ovvero la stringa inserita verrà cercata all’interno delle liste a partire dal primo carattere a sinistra
+
+1.  Toccare il tasto “ Trova ” nella videata principale. La finestra seguente è mostrata a display:
+    Fig. 29: Ricerca modulo all’interno del database
+2.  Toccare l’opzione “ Trova modulo ” per eseguire una ricerca per modulo all’interno del database. La seguente videata è mostrata a display:
+    Fig. 30: Ricerca per modulo
+3.  Usare la tastiera virtuale alfanumerica per digitare il nome del modello desiderato oppure una parola chiave e toccare il tasto ![Invio](data:image/png;base64,iVBORw0KGgoAAAANnAAAABCDEFGAAAAAElFTkSuQmCC) (ENTER) della tastiera virtuale per confermare. Il modello cercato (se presente) sarà evidenziato a display (vedere Fig. 30)
+4.  Toccare l’opzione “ Trova produttore ” per eseguire una ricerca per produttore all’interno del database. La seguente videata è mostrata a display:
+    Fig. 31: Ricerca per produttore
+5.  Usare la tastiera virtuale alfanumerica per digitare il nome del produttore desiderato oppure una parola chiave e toccare il tasto ![Invio](data:image/png;base64,iVBORw0KGgoAAAANnAAAABCDEFGAAAAAElFTkSuQmCC) (ENTER) della tastiera virtuale per confermare. Il produttore cercato (se presente) sarà evidenziato a display (vedere Fig. 31)
+
+### 6.3.4. Cancellazione di un modulo FV
+
+1.  Con modulo FV evidenziato nella videata principale, toccare il tasto “ Cancella ”. La finestra seguente è mostrata a display:
+    Fig. 32: Cancellazione di un modulo FV
+2.  Toccare il tasto ![Conferma](data:image/png;base64,iVBORw0KGgoAAAANiAAAABCDEFGAAAAAElFTkSuQmCC) per confermare. Il modulo evidenziato sarà rimosso dal database oppure toccare il tasto ![Annulla](data:image/png;base64,iVBORw0KGgoAAAANjAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza procedere
+
+### 6.3.5. Reimpostazione database moduli FV
+
+Nel caso in cui il database dei moduli FV salvati sullo strumento sia corrotto e non sia più accessibile per effetto di operazioni improprie da parte dell’utente o per danneggiamenti interni è possibile ripristinare il database di fabbrica (default) in modo da proseguire comunque con le misure. A tal fine operare come segue:
+1.  Toccare l’icona “ Impostazioni ” nel menu generale
+2.  Toccare il tasto “ Reimposta Database ” Il seguente messaggio è mostrato a display:
+    Fig. 33: Reset database moduli FV
+3.  Toccare il tasto ![Conferma](data:image/png;base64,iVBORw0KGgoAAAANiAAAABCDEFGAAAAAElFTkSuQmCC) per confermare l’operazione oppure toccare il tasto ![Annulla](data:image/png;base64,iVBORw0KGgoAAAANjAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza procedere
+
+> **ATTENZIONE**
+> *   Il comando “ Reimposta Database ” cancella definitivamente tutti i moduli salvati nel database dello strumento
+> *   L’eventuale ripristino dei moduli cancellati può essere possibile tramite collegamento a PC (vedere § 8) se i moduli erano stati salvati all’interno del software di gestione HTAgorà
+
+## 6.4. I - V – Misura della Curva I - V
+
+### 6.4.1. Generalità
+
+Lo strumento consente l’esecuzione della misura della curva I - V su moduli/stringhe/campi FV (vedere il § 11.1) nei seguenti modi:
+
+*   Unità remota SOLAR03 **NON** collegata → In tal caso lo strumento non riceve nessuna misura di irraggiamento e temperatura e fornisce come risultato SOLO i valori dei parametri alle condizioni @OPC senza alcun esito allo scopo di valutare rapidamente solo l’andamento della curva per capire eventuali situazioni ambientali sul campo FV (ombreggiamenti, mismatch, ecc…). Eventuali post - elaborazioni dei dati possono essere realizzati con il software di gestione HTAgorà. Vedere § 6.4.2 per le modalità di collegamento
+*   Unità remota SOLAR03 collegata (test raccomandato) → In tal caso lo strumento riceve le misure di Irraggiamento e temperatura e fornisce i risultati numerici e curve completi alle condizioni @STC. Le misure di Irraggiamento sono eseguite tramite una o più celle di riferimento **HT305** (nel caso di moduli Bifacciali) connesse all’unità remota SOLAR03
+
+> **ATTENZIONE**
+> Nelle misure di irraggiamento eseguite con la/le cella/celle di riferimento HT305 non è necessaria l’impostazione dei relativi valori di sensibilità e alpha che sono automaticamente gestiti dal SOLAR03 dopo il collegamento di tali accessori all’unità remota
+
+Lo strumento I - V600 può acquisire il valore della temperatura dei moduli (anch’esso strettamente necessario per il calcolo dei valori alle condizione @STC) come segue:
+*   “ **Mis.** ”: temperatura misurata tramite sonda **PT305** connessa a SOLAR03
+*   “ **Auto** ”: temperatura calcolata dallo strumento in base al valore della tensione a vuoto Voc misurata e dei parametri nominali del modulo
+
+In generale strumento e SOLAR03 possono operare nelle seguenti modalità:
+*   Strumento usato in **connessione diretta** Bluetooth con unità remota SOLAR03 senza avvio di una registrazione dei valori di irraggiamento/temperatura
+*   Strumento usato in connessione con unità remota SOLAR03 con avvio preventivo di una **registrazione sincrona** dei valori di irraggiamento/temperatura. Qualora la connessione fra strumento e unità remota risulti critica (distanza elevata o trasmissione attraverso pareti/ostacoli), i valori di irraggiamento (e temperatura, se selezionata), saranno trasmessi a fine sessione riavvicinando le due unità ed arrestando la registrazione
+
+Le coppie di valori Corrente/Tensione che descrivono la curva I - V, sono inizialmente acquisite alle condizioni **OPC** (OPerative Condition) cioè nelle condizioni reali in cui si trova l’installazione. Successivamente, utilizzando i valori di irraggiamento/temperatura, lo strumento trasla automaticamente le suddette coppie alle condizioni **STC** (STandard Test Condition – Irraggiamento = 1000W/m², Temperatura modulo = 25°C, distribuzione spettrale AM=1.5) al fine di eseguire il confronto con le caratteristiche nominali dichiarate dal costruttore del modulo (e salvate nel database interno allo strumento)
+
+### 6.4.2. Misura Curva I - V senza unità remota SOLAR03
+
+> **ATTENZIONE**
+> *   La massima tensione tra gli ingressi P1, C1, P2 e C2 è 1500VDC. Non misurare tensioni che eccedano i limiti espressi in questo manuale
+> *   Non eseguire prove su moduli o stringhe FV connessi al convertitore DC/AC
+> *   La corrente massima ammessa dallo strumento è 40A
+> *   La norma IEC/EN62446 - 1 richiede di effettuare le misurazioni stringa per stringa. Anche se lo strumento è progettato per gestire la corrente di spunto per stringhe singole o in parallelo, si **raccomanda di testare una stringa per volta** in base alle prescrizioni della norma
+
+1.  Accendere lo strumento premendo il tasto **ON/OFF**
+2.  Notare la presenza dell’icona “ ![SOLAR03 NON connessa](data:image/png;base64,iVBORw0KGgoAAAAAdtAAAAABCDEFGAAAAAElFTkSuQmCC) ” nella parte alta destra del display ad identificare l’assenza di unità remota SOLAR03 attiva e connessa allo strumento. In caso contrario eseguire il comando “ Disaccoppiare ” dell’unità attiva corrente (vedere § 6.2)
+3.  Collegare lo strumento al modulo/stringa in prova come mostrato nella Fig. 34. In particolare, collegare il polo Negativo in uscita dal modulo/stringa ai terminali **P2, C2** e il polo Positivo in uscita dal modulo/stringa ai terminali **P1, C1**
+    Fig. 34: Collegamento per test I - V senza unità remota
+4.  In caso di moduli **Monofacciali**, la videata di Fig. 35 è presente a display. I seguenti parametri sono mostrati:
+    *   Tensione VPN tra polo positivo e negativo della stringa
+    *   Temperatura del modulo con indicazione “ - - - - “ in quanto unità remota non connessa
+    *   Irraggiamento modulo con indicazione “ - - - - “ in quanto unità remota non connessa
+    *   Indicazione modulo FV attualmente selezionato
+    *   Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 35: Videata iniziale test I - V senza unità remota su moduli Monofacciali
+5.  In caso di moduli **Bifacciali**, la videata di Fig. 36 è presente a display. I seguenti parametri sono mostrati:
+    *   Tensione VPN tra polo positivo e negativo della stringa
+    *   Temperatura del modulo con indicazione “ - - - - “ in quanto unità remota non connessa
+    *   Irraggiamento frontale modulo con “ - - - - “ in quanto unità remota non connessa
+    *   Irraggiamenti posteriore modulo con “ - - - - “ in quanto unità remota non connessa
+    *   Indicazione modulo FV attualmente selezionato
+    *   Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 36: Videata iniziale test I - V senza unità remota su moduli Bifacciali
+6.  Toccare il tasto “ Impostazioni ” (riferimento moduli Monofacciali). La videata seguente è mostrata nella Fig. 37. I seguenti parametri sono indicati:
+    *   Riferimenti del modulo attualmente selezionato
+    *   Parametri della stringa in prova da programmare
+    *   Icona ![Salva impostazioni](data:image/png;base64,iVBORw0KGgoAAAANfgAAAABCDEFGAAAAAElFTkSuQmCC) per salvare le impostazioni e tornare alla videata principale oppure l’icona ![Esci senza salvare](data:image/png;base64,iVBORw0KGgoAAAANfhAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza salvare
+    Fig. 37: Impostazioni parametri test I - V senza unità remota
+7.  Toccare il tasto “ Modulo FV ” per cambiare il modulo FV in esame. Lo strumento apre la sezione DB in cui è possibile selezionare un nuovo modulo nell’elenco della sezione DB (vedere § 6.3)
+8.  Trascinare verso destra o sinistra ciascuno delle 4 rotelline disponibili al fine di impostare il valore desiderato dei seguenti parametro:
+    *   **Num. Mod** → impostazione numero di moduli della stringa in esame (**max 60**)
+    *   **N. String. Paral.** → impostazione del numero di stringhe in parallelo (**max 5**). L’impostazione “ 1 ” indica la presenza di una sola stringa complessiva
+    *   **Mod. Temp** → impostazione del modo di misura della temperatura del modulo. Sono disponibili le opzioni: **Auto** (temperatura calcolata dallo strumento sulla base della misura di Voc e parametri nominali del modulo - nessuna sonda collegata e opzione raccomandata), **Mis.** (temperatura misurata tramite sonda PT305 collegata a unità remota SOLAR03)
+    *   **Anni servizio** (impostazione del numero di anni di servizio dell’impianto FV in esame nel campo **0.1 ÷ 49.9** anni in passi da 0.1anni) considerando che **0.5anni = 6 mesi**. Questa informazione è usata dallo strumento nella determinazione della curva I - V
+    *   **IV Debug** → questa funzione (vedere § 6.5.1) deve essere usata solo nelle operazioni con il servizio di assistenza HT. L’opzione DEVE sempre essere impostata in **OFF**
+
+> **ATTENZIONE**
+> *   Alla pressione del tasto START/STOP (o Start a display) lo strumento può fornire diversi messaggi di errore (vedere § 6.4.6) e, per effetto di essi, non eseguire il test. Controllare ed eliminare, se possibile, le cause dei problemi prima di proseguire
+> *   Il metodo usato dallo strumento nella misurazione della tensione VDC e della corrente IDC in uscita dal modulo /stringa FV è quello a “4 terminali” pertanto è possibile prolungare i cavi di misura collegati agli ingressi P1, C1, P2, C2 senza necessità di eseguire alcuna compensazione della resistenza dei cavi di prova. Per le prolunghe usare solo accessori forniti da HT
+
+9.  Premere il tasto **START/STOP** (o **Start** a display) per attivare i test. In caso di assenza di condizioni di errore, lo strumento mostra a display l’icona “ ![Misura in corso](data:image/png;base64,iVBORw0KGgoAAAANoAAAABCDEFGAAAAAElFTkSuQmCC) ” insieme al messaggio “ Misura in corso...” per alcuni istanti. La prova può impiegare **fino a circa 20s** in funzione della tensione a vuoto e dei parametri dei moduli.
+    In assenza di connessione diretta con SOLAR03, lo strumento visualizza solo i valori misurati @OPC senza i riferimenti dei valori di irraggiamento e temperatura del modulo (vedere Fig. 38) e senza esito finale
+    Fig. 38: Risultato misura curva I - V senza unità remota
+10. Toccare l’icona ![Salva misure](data:image/png;base64,iVBORw0KGgoAAAANqAAAABCDEFGAAAAAElFTkSuQmCC) per salvare le misure nella memoria interna (vedere § 7.1) oppure l’icona ![Esci senza salvare](data:image/png;base64,iVBORw0KGgoAAAANrAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza salvare
+
+### 6.4.3. Misura Curva I - V con unità remota SOLAR03 in connessione diretta
+
+> **ATTENZIONE**
+> *   La massima tensione tra gli ingressi P1, C1, P2 e C2 è 1500VDC. Non misurare tensioni che eccedano i limiti espressi in questo manuale
+> *   Non eseguire prove su moduli o stringhe FV connessi al convertitore DC/AC
+> *   La corrente massima ammessa dallo strumento è 40A
+> *   La norma IEC/EN62446 - 1 richiede di effettuare le misurazioni stringa per stringa. Anche se lo strumento è progettato per gestire la corrente di spunto per stringhe singole o in parallelo, si **raccomanda di testare una stringa per volta** in base alle prescrizioni della norma
+
+1.  Accendere lo strumento premendo il tasto **ON/OFF**
+2.  Accendere l’unità remota SOLAR03, associarla e connetterla allo strumento come indicato nel § 6.2. Notare la presenza dell’icona “ ![SOLAR03 connessa](data:image/png;base64,iVBORw0KGgoAAAAAElFTkSuQmCC) “ nella parte alta destra del display
+3.  Collegare lo strumento e l’unità remota SOLAR03 al modulo/stringa in prova come mostrato nella Fig. 39. In particolare:
+    *   Collegare il polo Negativo in uscita dal modulo/stringa ai terminali **P2, C2** e il polo Positivo in uscita dal modulo/stringa ai terminali **P1, C1**
+    *   Nel caso di moduli **Monofacciali** → posizionare la cella di riferimento **HT305** sul piano frontale del modulo (**F**) e all’ingresso “ INP1 ” ed eventualmente la sonda di temperatura **PT305** all’ingresso “ INP4 ” dell’unità remota
+    *   Nel caso di moduli **Bifacciali** → posizionare le 3 celle di riferimento **HT305** sul piano frontale del modulo (**F**), sulla parte posteriore superiore (**BT = Back Top**) e sulla parte posteriore inferiore (**BB = Back Bottom**) del modulo. Collegare la cella di riferimento frontale (F) all’ingresso “ INP1 ”, la cella di riferimento BT all’ingresso “ INP2 ”, la cella di riferimento BB all’ingresso “ INP3 ” ed eventualmente la sonda di temperatura **PT305** all’ingresso “ INP4 ” dell’unità remota
+
+    In accordo alla normativa IEC/EN60904 - 1 - 2, lo strumento calcola il valore di Irraggiamento frontale equivalente (Irreq) che corrisponde all’Irraggiamento sul solo piano frontale producente gli stessi effetti dell’Irraggiamento rilevato su entrambe le facce tenendo conto del coefficiente di bifaccialità (φ) del modulo in base alla seguente relazione:
+    $$
+    Irr_{Eq} = Irr_{F} + \varphi \times Irr_{R}
+    $$
+
+    Fig. 39: Collegamento con unità remota SOLAR03 su moduli Monofacciali e Bifacciali
+4.  In caso di moduli **Monofacciali**, la videata di Fig. 40 è presente a display. I seguenti parametri sono mostrati:
+    *   Tensione VPN tra polo positivo e negativo della stringa
+    *   Temperatura del modulo (con sonda PT305 collegata)
+    *   Irraggiamento del modulo misurato dalla cella di riferimento HT305
+    *   Indicazione modulo FV attualmente selezionato
+    *   Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 40: Videata iniziale misura curva I - V su moduli Monofacciali
+5.  In caso di moduli **Bifacciali**, la videata di Fig. 40 è presente a display. I seguenti parametri sono mostrati:
+    *   Tensione VPN tra polo positivo e negativo della stringa
+    *   Temperatura del modulo (con sonda PT305 collegata)
+    *   Irraggiamento parte frontale del modulo misurato dalla cella di riferimento HT305
+    *   Irraggiamento parte posteriore del modulo misurato dalle celle di riferimento HT305
+
+    > **ATTENZIONE**
+    > Il parametro “ Irragg. posteriore ” indica il **valore minimo** tra gli irraggiamenti misurati dalle celle HT305 nella parte posteriore bassa (BB) e posteriore alta (BT) del modulo
+
+    *   Indicazione modulo FV attualmente selezionato
+    *   Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 41: Videata iniziale misura curva I - V su moduli Bifacciali
+6.  Toccare il tasto “ Impostazioni ” (riferimento moduli Monofacciali). La videata seguente è mostrata nella Fig. 42. I seguenti parametri sono indicati:
+    *   Riferimenti del modulo attualmente selezionato
+    *   Parametri della stringa in prova da programmare
+    *   Icona ![Salva impostazioni](data:image/png;base64,iVBORw0KGgoAAAANfgAAAABCDEFGAAAAAElFTkSuQmCC) per salvare le impostazioni e tornare alla videata principale oppure l’icona ![Esci senza salvare](data:image/png;base64,iVBORw0KGgoAAAANfhAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza salvare
+    Fig. 42: Impostazioni parametri misura curva I - V
+7.  Toccare il tasto “ Modulo FV ” per cambiare il modulo FV in esame. Lo strumento apre la sezione DB in cui è possibile selezionare un nuovo modulo nell’elenco della sezione DB (vedere § 6.3)
+8.  Trascinare verso destra o sinistra ciascuno delle 5 rotelline disponibili al fine di impostare il valore desiderato dei seguenti parametro:
+    *   **Num. Mod** → impostazione numero di moduli della stringa in esame (**max 60**)
+    *   **N. String. Paral.** → impostazione del numero di stringhe in parallelo (**max 5**). L’impostazione “ 1 ” indica la presenza di una sola stringa complessiva
+    *   **Mod. Temp** → impostazione del modo di misura della temperatura del modulo. Sono disponibili le opzioni: **Auto** (temperatura calcolata dallo strumento sulla base della misura di Voc e parametri nominali del modulo - nessuna sonda collegata e opzione raccomandata), **Mis.** (temperatura misurata tramite sonda PT305 collegata a unità remota SOLAR03)
+    *   **Anni servizio** (impostazione del numero di anni di servizio dell’impianto FV in esame nel campo **0.1 ÷ 49.9** anni in passi da 0.1anni) considerando che **0.5anni = 6 mesi**. Questa informazione è usata dallo strumento nella determinazione della curva I - V
+    *   **Debug IV** → questa funzione (vedere § 6.5.1) deve essere usata solo nelle operazioni con il servizio di assistenza HT. L’opzione DEVE sempre essere impostata in **OFF**
+9.  Toccare il tasto “ SOLAR03 ” per accedere alla sezione di controllo e gestione dell’unità remota SOLAR03 (vedere § 6.2). Controllare che l’unità remota sia attiva e collegata allo strumento
+10. Controllare che il valore impostato nella sezione “ Irraggiamento Min ” (vedere § 5.2) sia coerente con le misure che si intende effettuare. Si consiglia si eseguire le misure con soglia **≥ 700 W/m²** in accordo alla normativa IEC/EN60891
+11. Montare lo stelo sul disco dell’accessorio opzionale M304 e tenerlo appoggiato sul piano del modulo. Verificare che l’ombra dello stelo proiettata sul disco cada entro il “cerchio concentrico limite” interno al disco stesso (vedere figura a lato). In caso contrario l’angolo tra i raggi solari e la superficie del modulo è troppo elevato e pertanto le misure eseguite dallo strumento NON sono da ritenere attendibili. Ripetere le operazioni in altri momenti della giornata
+
+> **ATTENZIONE**
+> *   Alla pressione del tasto START/STOP (o Start a display) lo strumento può fornire diversi messaggi di errore (vedere § 6.4.6) e, per effetto di essi, non eseguire il test. Controllare ed eliminare, se possibile, le cause dei problemi prima di proseguire
+> *   Il metodo usato dallo strumento nella misurazione della tensione VDC e della corrente IDC in uscita dal modulo /stringa FV è quello a “4 terminali” pertanto è possibile prolungare i cavi di misura collegati agli ingressi P1, C1, P2, C2 senza necessità di eseguire alcuna compensazione della resistenza dei cavi di prova. Per le prolunghe usare solo accessori forniti da HT
+
+12. Premere il tasto **START/STOP** (o **Start** a display) per attivare il test. In caso di assenza di condizioni di errore, lo strumento mostra a display l’icona “ ![Misura in corso](data:image/png;base64,iVBORw0KGgoAAAANoAAAABCDEFGAAAAAElFTkSuQmCC) ” insieme al messaggio “ Misura in corso ... “ per alcuni istanti. La prova può impiegare **fino a circa 20s** in funzione della tensione a vuoto e dei parametri dei moduli. Al termine della prova saranno visualizzati i valori riferiti alla condizioni @STC ed il corrispondente esito (nel seguito per comodità si farà riferimento ai soli moduli Monofacciali i risultati per moduli bifacciali sono analoghi essendo riferiti all’Irraggiamento frontale equivalente)
+    Fig. 43: Esempio di risultato misura curva I - V – Valori STC
+13. Nella videata del risultato di misura sono riportati i seguenti parametri:
+    *   Valori nominali del modulo in esame alle condizioni STC come definiti nel DB interno (vedere § 6.3)
+    *   Risultati della misura calcolati alle condizioni STC in funzione dei valori di irraggiamento misurati dall’unità remota SOLAR03 collegata
+    *   Indicazione del valore del parametro **Δ P %** in accordo al rispetto delle condizioni di controllo mostrate nel § 6.4.5
+    *   Icone ![Risultato Test OK](data:image/png;base64,iVBORw0KGgoAAAANsAAAABCDEFGAAAAAElFTkSuQmCC), ![Risultato Test Accettabile](data:image/png;base64,iVBORw0KGgoAAAANtAAAABCDEFGAAAAAElFTkSuQmCC), ![Risultato Test Non Accettabile](data:image/png;base64,iVBORw0KGgoAAAANuAAAABCDEFGAAAAAElFTkSuQmCC), ![Risultato Test Non OK](data:image/png;base64,iVBORw0KGgoAAAANvAAAABCDEFGAAAAAElFTkSuQmCC) ad indicare l’esito della misura
+14. Scorrendo il display verso sinistra o verso destra, si può ottenere la visualizzazione dei seguenti risultati aggiuntivi. Risultati alle condizioni **OPC**: la seguente videata è mostrata a display:
+    Fig. 44: Esempio di risultato misura curva I - V – Valori OPC
+15. Nella videata del risultato di misura sono riportati i seguenti parametri:
+    *   Valori dei parametri di prova impostati nella videata principale (numero moduli, numero stringhe in parallelo, anni di servizio e percentuale di prestazione annuale)
+    *   Risultati della misura dei parametri elettrici e ambientali (irraggiamento e temperatura modulo) alle condizioni OPC
+16. Grafici delle curve I - V e della potenza sia nelle condizioni OPC che STC. Esempi di videate sono riportate nelle figure seguenti
+    Fig. 45: Esempio di risultato misura curva I - V – Curva STC
+    Fig. 46: Esempio di risultato misura Potenza – Curva STC
+
+> **ATTENZIONE**
+> *   Lo strumento riferisce tutti i valori delle grandezze ad **un solo modulo** alle condizioni STC
+> *   La tensione di stringa ottenuta a OPC indica il valore totale misurato. Unitamente alla corrente misurata, lo strumento calcola la curva I - V @ OPC che viene poi traslata alle condizioni @STC
+
+17. Toccare l’icona ![Salva misure](data:image/png;base64,iVBORw0KGgoAAAANqAAAABCDEFGAAAAAElFTkSuQmCC) per salvare il risultato della misura (vedere § 7.1) oppure l’icona ![Esci senza salvare](data:image/png;base64,iVBORw0KGgoAAAANrAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza salvare
+18. Per l’interpretazione dei risultati vedere § 6.4.5
+
+### 6.4.4. Misura Curva I - V con unità remota SOLAR03 in registrazione sincrona
+
+Le misure di irraggiamento e temperatura (se strumento è impostato in modalità di misura della temperatura “ Mis. ”) tramite unita remota SOLAR03 in registrazione sincrona sono raccomandate qualora la distanza tra i moduli e lo strumento risulti essere significativa. Per contro, non avendo lo strumento la disponibilità immediata delle suddette grandezze ambientali, si dovrà attendere il trasferimento dati da unità remota a unità principale per poter disporre di tutti i risultati disponibili.
+
+> **ATTENZIONE**
+> *   La massima tensione tra gli ingressi P1, C1, P2 e C2 è 1500VDC. Non misurare tensioni che eccedano i limiti espressi in questo manuale
+> *   Non eseguire prove su moduli o stringhe FV connessi al convertitore DC/AC
+> *   La corrente massima ammessa dallo strumento è 40A
+> *   La norma IEC/EN62446 - 1 richiede di effettuare le misurazioni stringa per stringa. Anche se lo strumento è progettato per gestire la corrente di spunto per stringhe singole o in parallelo, si **raccomanda di testare una stringa per volta** in base alle prescrizioni della norma
+
+1.  Accendere lo strumento premendo il tasto **ON/OFF**
+2.  Collegare lo strumento al modulo/stringa in prova come mostrato nella Fig. 47 (moduli Monofacciali) o Fig. 48 (moduli Bifacciali). In particolare, collegare il polo Negativo in uscita dal modulo/stringa ai terminali **P2, C2** e il polo Positivo in uscita dal modulo/stringa ai terminali **P1, C1**
+    Fig. 47: Uso strumento con SOLAR03 in registrazione sincrona su moduli Monofacciali
+    Fig. 48: Uso strumento con SOLAR03 in registrazione sincrona su moduli Bifacciali
+
+**Fase 1**
+3.  Avvicinare l’unità remota SOLAR03 allo strumento come mostrato nelle Fig. 47 o Fig. 48 – parte sinistra
+4.  Accendere l’unità remota SOLAR03, associarla e connetterla allo strumento come indicato nel § 6.2. Controllare che **una sola** unità remota sia attiva e collegata allo strumento
+5.  Toccare il tasto “ Avvio/Stop ” per avviare una registrazione sull’unità remota connessa, La seguente videata è mostrata:
+    Fig. 49: Attivazione registrazione su unità remota – Passo 1
+6.  Toccare il tasto ![Conferma](data:image/png;base64,iVBORw0KGgoAAAANiAAAABCDEFGAAAAAElFTkSuQmCC) per confermare oppure il tasto ![Annulla](data:image/png;base64,iVBORw0KGgoAAAANjAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza procedere. La registrazione è eseguita con scansione di **1s** non modificabile e il messaggio “ REC ” appare a display dell’unità remota ad indicare l’operazione in corso
+    Fig. 50: Attivazione registrazione su unità remota – Passo 2
+7.  L’icona ![SOLAR03 connessa e in registrazione](data:image/png;base64,iVBORw0KGgoAAAANSwAAABCDEFGAAAAAElFTkSuQmCC) e il messaggio “ Reg. ” sono mostrati a display e il messaggio “REC” è presente a display dell’unità remota
+
+**Fase 2**
+8.  Portare l’unità remota in prossimità dei moduli e collegare le sonde di irraggiamento e temperatura (se necessaria) come mostrato nelle Fig. 47 o Fig. 48 – parte centrale. In particolare:
+    *   Nel caso di moduli **Monofacciali** → posizionare la cella di riferimento **HT305** sul piano frontale del modulo (**F**) e all’ingresso “ INP1 ” ed eventualmente la sonda di temperatura **PT305** all’ingresso “ INP4 ” dell’unità remota
+    *   Nel caso di moduli **Bifacciali** → posizionare le 3 celle di riferimento **HT305** sul piano frontale del modulo (**F**), sulla parte posteriore superiore (BT = Back Top) e sulla parte posteriore inferiore (BB = Back Bottom) del modulo. Collegare la cella di riferimento frontale (F) all’ingresso “ INP1 ”, la cella di riferimento BT all’ingresso “ INP2 ”, la cella di riferimento BB all’ingresso “ INP3 ” ed eventualmente la sonda di temperatura **PT305** all’ingresso “ INP4 ” dell’unità remota. In accordo alla normativa IEC/EN60904 - 1 - 2, lo strumento calcola il valore di Irraggiamento frontale equivalente (Irreq) che corrisponde all’Irraggiamento sul solo piano frontale producente gli stessi effetti dell’Irraggiamento rilevato su entrambe le facce tenendo conto del coefficiente di bifaccialità (φ) del modulo in base alla seguente relazione:
+    $$
+    Irr_{Eq} = Irr_{F} + \varphi \times Irr_{R}
+    $$
+9.  Avendo già avviato la registrazione sulla unità remota SOLAR03 non è necessario il mantenimento della connessione Bluetooth. Il mantenimento della connessione consentirà solamente il poter avere immediatamente l’esito della prova senza attendere la fine della campagna di misure
+10. In caso di moduli **Monofacciali**, la videata di Fig. 51 è mostrata a display. I seguenti parametri sono indicati:
+    *   Tensione VPN tra polo positivo e negativo della stringa
+    *   Temperatura del modulo con indicazione “ - - - “ in quanto unità remota non connessa
+    *   Irraggiamento del modulo con indicazione “ - - - “ in quanto unità remota non connessa
+    *   Indicazione modulo FV attualmente selezionato
+    *   Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 51: Videata curva I - V con SOLAR03 in registrazione sincrona su moduli Monofacciali
+11. In caso di moduli **Bifacciali**, la videata di Fig. 52 è mostrata a display. I seguenti parametri sono indicati:
+    *   Tensione VPN tra polo positivo e negativo della stringa
+    *   Temperatura del modulo con indicazione “ - - - “ in quanto unità remota non connessa
+    *   Irraggiamento frontale con indicazione “ - - - “ in quanto unità remota non connessa
+    *   Irraggiamento posteriore con indicazione “ - - - “ in quanto unità remota non connessa
+    *   Indicazione modulo FV attualmente selezionato
+    *   Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 52: Videata curva I - V con SOLAR03 in registrazione sincrona su moduli Bifacciali
+12. Toccare il tasto “ Impostazioni ” (riferimento moduli Monofacciali). La videata seguente è mostrata nella Fig. 53. I seguenti parametri sono indicati:
+    *   Riferimenti del modulo attualmente selezionato
+    *   Parametri della stringa in prova da programmare
+    *   Icona ![Salva impostazioni](data:image/png;base64,iVBORw0KGgoAAAANfgAAAABCDEFGAAAAAElFTkSuQmCC) per salvare le impostazioni e tornare alla videata principale oppure l’icona ![Esci senza salvare](data:image/png;base64,iVBORw0KGgoAAAANfhAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza salvare
+    Fig. 53: Impostazioni parametri misura curva I - V
+13. Toccare il tasto “ Modulo FV ” per cambiare il modulo FV in esame. Lo strumento apre la sezione DB in cui è possibile selezionare un nuovo modulo nell’elenco della sezione DB (vedere § 6.3)
+14. Trascinare verso destra o sinistra ciascuno delle 5 rotelline disponibili al fine di impostare il valore desiderato dei seguenti parametro:
+    *   **Num. Mod** → impostazione numero di moduli della stringa in esame (**max 60**)
+    *   **N. String. Paral.** → impostazione del numero di stringhe in parallelo (**max 5**). L’impostazione “ 1 ” indica la presenza di una sola stringa complessiva
+    *   **Mod. Temp** → impostazione del modo di misura della temperatura del modulo. Sono disponibili le opzioni: **Auto** (temperatura calcolata dallo strumento sulla base della misura di Voc e parametri nominali del modulo - nessuna sonda collegata e opzione raccomandata), **Mis.** (temperatura misurata tramite sonda PT305 collegata a unità remota SOLAR03)
+    *   **Anni servizio** (impostazione del numero di anni di servizio dell’impianto FV in esame nel campo **0.1 ÷ 49.9** anni in passi da 0.1anni) considerando che **0.5anni = 6 mesi**. Questa informazione è usata dallo strumento nella determinazione della curva I - V
+    *   **Debug IV** → questa funzione (vedere § 6.5.1) deve essere usata solo nelle operazioni con il servizio di assistenza HT. L’opzione DEVE sempre essere impostata in **OFF**
+15. Montare lo stelo sul disco dell’accessorio M304 e tenerlo appoggiato sul piano del modulo. Verificare che l’ombra dello stelo proiettata sul disco cada entro il “cerchio concentrico limite” interno al disco stesso (vedere figura a lato). In caso contrario l’angolo tra i raggi solari e la superficie del modulo è troppo elevato e pertanto le misure eseguite dallo strumento NON sono da ritenere attendibili. Ripetere le operazioni in altri momenti della giornata
+
+> **ATTENZIONE**
+> *   Alla pressione del tasto START/STOP (o Start a display) lo strumento può fornire diversi messaggi di errore (vedere § 6.4.6) e, per effetto di essi, non eseguire il test. Controllare ed eliminare, se possibile, le cause dei problemi prima di proseguire
+> *   Il metodo usato dallo strumento nella misurazione della tensione VDC e della corrente IDC in uscita dal modulo /stringa FV è quello a “4 terminali” pertanto è possibile prolungare i cavi di misura collegati agli ingressi P1, C1, P2, C2 senza necessità di eseguire alcuna compensazione della resistenza dei cavi di prova. Per le prolunghe usare solo accessori forniti da HT
+> *   Le impostazioni eseguite sui parametri di controllo dello strumento possono essere modificate in ogni momento anche con registrazione in corso
+
+16. Premere il tasto **START/STOP** (o **Start** a display) per attivare i test. In caso di assenza di condizioni di errore, lo strumento mostra a display l’icona “ ![Misura in corso](data:image/png;base64,iVBORw0KGgoAAAANoAAAABCDEFGAAAAAElFTkSuQmCC) ” insieme al messaggio “ Misura in corso...” per alcuni istanti. La prova può impiegare **fino a circa 20s** in funzione della tensione a vuoto e dei parametri dei moduli.
+    In assenza di connessione diretta con SOLAR03, lo strumento visualizzerà solo i valori misurati @OPC senza i riferimenti dei valori di irraggiamento e temperatura del modulo (vedere Fig. 54) ed esito finale. Occorre attendere la fine della sessione di test, l’arresto della registrazione e la successiva sincronizzazione con l’unità remota SOLAR03 per ottenere l’esito finale (valori @STC) delle prove eseguite
+    Fig. 54: Risultato misura curva I - V @OPC con registrazione sincrona
+17. Toccare l’icona ![Salva misure](data:image/png;base64,iVBORw0KGgoAAAANqAAAABCDEFGAAAAAElFTkSuQmCC) per salvare le misure nella memoria interna (vedere § 7.1) oppure l’icona ![Esci senza salvare](data:image/png;base64,iVBORw0KGgoAAAANrAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza salvare
+
+**Fase 3**
+18. Al termine della sessione di prove, scollegare l’unità remota SOLAR03, riportarla in prossimità dello strumento (vedere Fig. 47 o Fig. 48 – parte destra) e verificare la riconnessione automatica con esso
+19. Toccare il tasto “ SOLAR03 ” per accedere alla sezione di controllo e gestione dell’unità remota SOLAR03 (vedere § 6.2) collegata allo strumento
+20. Toccare il tasto “ Avvio/Stop ” per terminare la registrazione in corso. La seguente videata è mostrata:
+    Fig. 55: Terminazione registrazione sincrona in corso su unità remota
+21. Toccare il tasto ![Conferma](data:image/png;base64,iVBORw0KGgoAAAANiAAAABCDEFGAAAAAElFTkSuQmCC) per confermare oppure il tasto ![Annulla](data:image/png;base64,iVBORw0KGgoAAAANjAAAABCDEFGAAAAAElFTkSuQmCC) per uscire senza procedere
+22. La sincronizzazione delle misure @OPC in attesa, la traslazione dei valori @STC e il successivo salvataggio sono eseguite automaticamente dallo strumento. Il parametro “ N° misure da sincronizzare ” deve assumere il valore “0” a operazioni ultimate
+23. Usare il tasto ![Sincronizza misure](data:image/png;base64,iVBORw0KGgoAAAANhAAAABCDEFGAAAAAElFTkSuQmCC) in presenza di eventuali errori al fine di riattivare nuovamente la sincronizzazione
+24. Accedere all’area di memoria (vedere § 7.2) per richiamare le misure salvate
+
+> **ATTENZIONE**
+> Lo strumento esegue la traslazione dei valori @OPC a quelli @STC al verificarsi delle seguenti condizioni:
+> *   Tensione **Voc > Voc minima = 15V**
+> *   Valori di irraggiamento **frontale** (valido anche per moduli Bifacciali) rilevati **maggiori** della soglia minima impostata sullo strumento (>100W/m²) e **stabili** (variazione tra inizio e fine campagna di misura **±20 W/m²**)
+> *   Tensione a vuoto Voc misurata **coerente con valore atteso** indicato nel datasheet del modulo
+> *   Valore di temperatura del modulo compreso nel campo **- 40°C ÷ 100°C**
+> *   Valore della corrente di cortocircuito **Isc > Iscmin = 0.2A**
+
+25. Per l’interpretazione dei risultati di misura vedere il § 6.4.5
+
+### 6.4.5. Interpretazione dei risultati di misura
+
+I parametri misurati dallo strumento hanno il seguente significato:
+
+Tabella 2: Elenco parametri misurati dallo strumento
+
+| Parametro | Descrizione                                                    |
+| :-------- | :------------------------------------------------------------- |
+| Pmax      | Potenza massima del modulo (@STC) misurata dallo strumento     |
+| Δ P %     | Scostamento % fra la Potenza max misurata (@STC) e la potenza nominale |
+| Voc       | Tensione a vuoto                                               |
+| Vmpp      | Tensione nel punto di massima potenza                          |
+| Isc       | Corrente di cortocircuito                                      |
+| Impp      | Corrente nel punto di massima potenza                          |
+
+In cui:
+$$
+\Delta P\% = \left( \frac{P_{STC\;Max} - P_{Prest\;Nom}}{P_{Prest\;Nom}} \right) * 100 \rightarrow \text{parametro di controllo che definisce l’esito del test}
+$$
+$$
+P_{Prest\;Nom} = P_{Nom} * \left( 1 - \frac{DecadPrest\% * AnniServizio}{100} \right)
+$$
+Potenza nominale valutata con effetto della perdita di prestazione (vedere § 6.3 e § 11.3)
+$P_{Nom}$ = potenza nominale @STC del modulo dichiarata dal costruttore
+$DecadPrest\%$ = decadimento di prestazione % calcolato in funzione dei dati inseriti nel DB (vedere § 11.3)
+
+Lo strumento fornisce i seguenti esiti di misura:
+
+| Tipo Esito        | Condizione                                                                | Note                                       | Descrizione         |
+| :---------------- | :------------------------------------------------------------------------ | :----------------------------------------- | :------------------ |
+| -                 | $(Tol^{-}) + \epsilon_{Strum} \le \epsilon_{Mis} \le (Tol^{+}) - \epsilon_{Strum}$ | (1)                                        | Test OK             |
+| ![Risultato Test Accettabile](data:image/png;base64,iVBORw0KGgoAAAANtAAAABCDEFGAAAAAElFTkSuQmCC) | La relazione (1) non è verificata ma vale: $(Tol^{-}) \le \epsilon_{Mis} \le (Tol^{+})$ | (2)                                        | Test accettabile    |
+| ![Risultato Test Non Accettabile](data:image/png;base64,iVBORw0KGgoAAAANuAAAABCDEFGAAAAAElFTkSuQmCC) | Non sono verificate le relazioni (1) e (2) ma vale: $(Tol^{-}) - \epsilon_{Strum} \le \epsilon_{Mis} \le (Tol^{+}) + \epsilon_{Strum}$ | (3)                                        | Test non accettabile |
+| ![Risultato Test Non OK](data:image/png;base64,iVBORw0KGgoAAAANvAAAABCDEFGAAAAAElFTkSuQmCC)     | Nessuna delle relazioni (1), (2) e (3) è verificata                           | (4)                                        | Test NON OK         |
+
+dove:
+$Tol^{-}$ = $Tol\%(-)$ * $P_{Nom}$ → Tolleranza negativa sulla potenza dichiarata dal costruttore
+$Tol^{+}$ = $Tol\%(+)$ * $P_{Nom}$ → Tolleranza positiva sulla potenza dichiarata dal costruttore
+$\epsilon_{Mis}$ = $P_{STC\;Max} - P_{Prest\;Nom}$ → Parametro di controllo calcolato dallo strumento
+NOTA: il valore $P_{STC\;Max}$ è ottenuto in accordo alla IEC/EN60891
+$\epsilon_{Strum}$ → Massimo errore strumentale dichiarato sulla P (@STC) (vedere § 10.1)
+
+Esempio di applicazione (misura con unità remota)
+*   Nome modulo: JKM575N - 72HL4 - BDV (costruttore JINKO)
+*   Tipo modulo: Bifacciale
+*   Potenza nominale (@STC): 575W
+*   Tolleranza Potenza (@STC): - 0% / + 3%
+*   Degrado prestazione calcolato: 1.3 %
+*   Anni servizio: 1 anno
+*   Potenza misurata (@STC): 547W
+
+$Tol^{+}$ = $Tol\%(+)$ * $P_{nom}$ = 0.03 * 575 W = 17.3W
+$Tol^{-}$ = $Tol\%(-)$ * $P_{nom}$ = 0 W
+$P_{Prest\;Nom}$ = 575 * ( 1 - $\frac{1.3 * 1}{100}$) = 567 W
+$\epsilon_{Strum}$ = ±( 547 * 0.04 + 2) = ± 23.88 W
+$\epsilon_{Mis}$ = 547 – 567 = - 20 W
+
+Condizioni di confronto:
+Potenza → $0 + 23.88 \le - 20 \le 17.3 – 23.88$ → Condizione 1 NON verificata
+Potenza → $0 \le - 20 \le 17.3$ → Condizione 2 NON verificata
+Potenza → $- 23.88 \le - 20 \le 17.3 + 23.88$ → Condizione 3 verificata → Esito ![Risultato Test Non Accettabile](data:image/png;base64,iVBORw0KGgoAAAANuAAAABCDEFGAAAAAElFTkSuQmCC)
+
+### 6.4.6. Situazioni anomale
+
+Qualora lo strumento rilevi ai terminali P - N della stringa una tensione - 0.5V≤VPN≤15VDC non esegue la prova e visualizza il messaggio riportato nella videata a lato. Controllore la tensione sulla stringa.
+Qualora lo strumento rilevi ai terminali P - N della stringa una tensione < - 0.5VDC non esegue la prova e visualizza il messaggio riportato nella videata a lato. Controllore i collegamenti dei poli della stringa.
+Nel caso in cui l’unità remota SOLAR03 sia attivo ma non connesso e non in registrazione lo strumento non esegue la prova e visualizza il messaggio riportato nella videata a lato. Eseguire la connessione dell’unità remota SOLAR03.
+
+## 6.5. Elenco messaggi di errore a display
+
+### 6.5.1. Descrizione procedura di Debug
+
+## 6.6. IVCK – Test su moduli e stringhe FV
+
+### 6.6.1. Introduzione
+
+<!-- Chunk: Pages 51-100 -->
+Qualora lo strumento, con unità remota attiva e connessa (anche in registrazione) rilevi un valore di irraggiamento inferiore alla soglia limite (vedere § 5.2) blocca la prova e ritorna alla videata principale. Verificare il valore della soglia ed eseguire i test in altro momento della giornata con irraggiamento stabile.
+
+Se, durante l’esecuzione di una misura I-V o IVCK, lo strumento non riesce a determinare i valori @STC mostra il messaggio della videata a lato. Verificare di avere un irraggiamento stabile, oltre al corretto superamento della soglia minima e di aver eseguito la misura in accordo alle indicazioni dall’accessorio M304 (vedere § 6.4.3 – punto 10). Ripetere eventualmente le misure in altri momenti della giornata.
+
+Se lo strumento rileva, al termine della prova, una Voc troppo diversa dalla tensione a vuoto misurata prima dell'avvio della stessa, il messaggio a lato è mostrato a display. Tale condizione può essere dovuta all'esecuzione di prove su moduli di scarsa qualità e/o corrente di corto circuito troppo bassa e/o misure eseguite con Irraggiamento troppo basso.
+
+I - V600 IT - 51
+In caso di errore all’interno del database dei moduli (ex: corruzione del database), lo strumento blocca la prova e il messaggio a lato è mostrato a display. Eseguire il ripristino del database di default (vedere § 6.3.5) per proseguire con le misure.
+
+In caso di rilevazione di una tensione di stringa maggiore di 1500V DC lo strumento blocca la prova e il messaggio a lato è mostrato a display. Controllare le caratteristiche del modulo, il numero dei moduli della stringa e ridurne eventualmente il numero al fine di poter eseguire il test.
+
+I - V600 IT - 52
+## 6.5. ELENCO MESSAGGI DI ERRORE A DISPLAY
+
+| Numero           | Azioni su strumento                                                                                                                                 | Risultato dopo azioni                                                                                                                                                            |
+| :--------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                | Nessuna azione possibile                                                                                                                            | Inviare strumento in assistenza                                                                                                                                                  |
+| 2                | Spegnere/riaccendere lo strumento e riprovare le misure                                                                                             | Se errore continua dopo azioni indicate inviare strumento in assistenza                                                                                                          |
+| 3                | Controllare i cavi di misura, il tipo di modulo, i parametri Voc, coefficiente temperatura Voc, numero moduli e condizioni di irraggiamento         | Se errore continua dopo azioni indicate eseguire procedura di Debug (vedere § 6.5.1) e contattare assistenza                                                                    |
+| 4                |                                                                                                                                                     |                                                                                                                                                                                  |
+| 5                | Nessuna azione possibile                                                                                                                            | Inviare strumento in assistenza                                                                                                                                                  |
+| 6, 8, 13, 14, 15 | Controllare il tipo di modulo, i parametri Voc, coefficiente temperatura Voc, numero moduli e condizioni di irraggiamento                               | Se errore continua dopo azioni indicate eseguire procedura di Debug (vedere § 6.5.1) e contattare assistenza                                                                    |
+| 16               | In modo "MIS" la sonda di temperatura non è riconosciuta. Controllare se la sonda PT305 è danneggiata o non fissata correttamente al modulo             | Se errore continua dopo azioni indicate, inviare SOLAR03 e PT305 in assistenza                                                                                                   |
+| 18               | Controllare il tipo di modulo, i parametri Voc, coefficiente temperatura Voc e numero moduli                                                          | Se errore continua dopo azioni indicate eseguire procedura di Debug (vedere § 6.5.1) e contattare assistenza                                                                    |
+| 19               | Controllare il tipo di modulo, i parametri Voc, Isc, Vmpp, Impp, coefficienti temperatura Voc e Isc e Nmod                                            |                                                                                                                                                                                  |
+| 20               | Controllare il tipo di modulo, i parametri Voc, Isc, Vmpp, Impp, coefficienti temperatura Voc e Isc, numero moduli e numero stringhe in parallelo     |                                                                                                                                                                                  |
+| 21               | Controllare il tipo di modulo, i parametri e il numero moduli. Spegnere/riaccendere lo strumento e ripetere più volte le misure                       | Se errore continua dopo azioni indicate inviare strumento in assistenza                                                                                                          |
+| 22               | Controllare il tipo di modulo, i parametri Voc, Isc, Vmpp, Impp, coefficienti temperatura Voc e Isc, numero moduli e numero stringhe in parallelo     | Se errore continua dopo azioni indicate eseguire procedura di Debug (vedere § 6.5.1) e contattare assistenza                                                                    |
+| 23               | Spegnere/riaccendere lo strumento e ripetere più volte le misure                                                                                      | Se errore continua dopo azioni indicate inviare strumento in assistenza                                                                                                          |
+| 24               | Controllare il tipo di modulo, i parametri Voc, Isc, Vmpp, Impp, coefficienti temperatura Voc e Isc, numero moduli e numero stringhe in parallelo e controllare che la stringa sia scollegata dall'inverter | Se errore continua dopo azioni indicate eseguire procedura di Debug (vedere § 6.5.1) e contattare assistenza                                                                    |
+| 25               | Controllare il tipo di modulo il numero moduli e numero stringhe in parallelo. Controllare che la stringa sia scollegata dall'inverter. Se più stringhe sono collegate in parallelo testarle una alla volta |                                                                                                                                                                                  |
+| 27               | Irraggiamento instabile per effetto di presenza nubi                                                                                                | Ripetere test in condizioni climatiche stabili                                                                                                                                   |
+| 28               | Controllare che valore Voc al termine della prova non sia troppo diverso da quello all'inizio della stessa. Verificare che moduli in prova non abbiano corrente di cortocircuito troppo bassa e valore di irraggiamento troppo basso |                                                                                                                                                                                  |
+| 29               | Spegnere/riaccendere lo strumento e ripetere più volte le misure                                                                                      | Se errore continua dopo azioni indicate inviare strumento in assistenza                                                                                                          |
+| 30               | Controllare il tipo di modulo, i parametri Voc, Isc, Impp, Vmpp, coefficiente temperatura Voc e Isc, numero moduli. In modo "AUTO" lasciare stabilizzare cella HT305 per 10 minuti. In modo "MIS" controllare corretto fissaggio sonda PT305 al modulo | Se errore continua dopo azioni indicate eseguire procedura di Debug (vedere § 6.5.1) e contattare assistenza                                                                    |
+| 31               | Controllare il tipo di modulo, i parametri Voc, Isc, Impp, Vmpp, coefficiente temperatura Voc e Isc, numero moduli                                      |                                                                                                                                                                                  |
+| 32               | Nessuna azione possibile                                                                                                                            | Eseguire Debug solo con software HTAgorà (vedere § 6.5.1) e contattare assistenza                                                                                              |
+| 33               | Possibili condizioni pericolose per lo strumento. Contattare assistenza                                                                             |                                                                                                                                                                                  |
+| 34               | Evitare ulteriori misure in quanto presenza di correnti elevate dovute a forti capacità parassite                                                     |                                                                                                                                                                                  |
+| 35               | Nessuna azione possibile                                                                                                                            | Eseguire Debug solo con software HTAgorà (vedere § 6.5.1) e contattare assistenza                                                                                              |
+| 36               |                                                                                                                                                     |                                                                                                                                                                                  |
+| 37               | Controllare i collegamenti corretti sugli ingressi C1 e C2 e ripetere il test                                                                       | Se l’errore continua dopo azioni indicate contattare assistenza                                                                                                                  |
+
+I - V600 IT - 53
+### 6.5.1. Descrizione procedura di Debug
+
+**ATTENZIONE**
+La procedura di Debug deve essere svolta **SOLO** nelle situazioni in cui lo strumento mostra messaggi di errore come indicato nel § 6.5 e in accordo con il servizio di assistenza HT.
+
+Operazioni sullo strumento
+
+1. Accendere lo strumento con il tasto **ON/OFF**.
+2. Toccare la funzione “**Curva I - V**” → **Impostazioni** per aprire la seguente videata.
+    Fig. 56: Attivazione della funzione Debug sullo strumento
+3. Selezionare l’opzione “**ON**” nella voce “**IV Debug**” e toccare il tasto `[Salva Icona]` per confermare.
+4. **NON SPEGNERE LO STRUMENTO**.
+5. Collegare lo strumento al modulo/stringa in esame cercando di ripetere più fedelmente possibile le condizioni di prova (modo di utilizzo dell'unità remota, valori di irraggiamento e temperatura) che danno luogo al messaggio di errore a display.
+6. Premere il tasto **START/STOP** per eseguire almeno due misure curve I - V e salvare i risultati.
+7. Scollegare lo strumento dal modulo/stringa in esame.
+
+Operazioni sul software HTAgorà
+
+8. Aggiornare sempre il software **HTAgorà** all’ultima versione disponibile a partire dal link:
+    https://download.ht-instruments.com/HTagora/
+9. Avviare HTAgorà e selezionare il menu “**Preferenze**”.
+10. Nella sezione “**Lingua**” attivare l’opzione “**Debug dispositivo**” e confermare con **OK**.
+
+I - V600 IT - 54
+11. Accendere lo strumento e collegarlo a PC tramite cavo USB-C in dotazione.
+12. Cliccare sul tasto “**Rileva**” per eseguire il riconoscimento dello strumento.
+13. Selezionare lo strumento “**I-V600**” e cliccare su “**Connetti**”.
+    Fig. 54: Rilevamento strumento su HTAgorà
+14. Nella finestra di Dashboard cliccare su “**Opzioni di Debug**”.
+    Fig. 55: Accesso opzioni di Debug su HTAgorà
+
+I - V600 IT - 55
+15. Cliccare sull’icona “`[Scaricamento Pacchetto Debug Icona]`” per avviare lo scaricamento a PC del pacchetto di Debug. Attendere qualche secondo la fine dell’operazione.
+16. Selezionare sul PC la cartella in cui salvare il file di Debug e confermare. La cartella di default è sempre la seguente:
+    `C:\Utenti\NomeUtente\HTInstruments\Debug\`
+    Fig. 53: Salvataggio pacchetto di Debug su PC
+17. Il file di Debug, con estensione **IVDBG** è salvato nella cartella selezionata.
+18. Inviare il file IVDBG al servizio di assistenza HT.
+
+I - V600 IT - 56
+## 6.6. IVCK – TEST SU MODULI E STRINGHE FV
+### 6.6.1. Introduzione
+Questa funzione esegue i seguenti test su un modulo/stringa FV misurando esclusivamente:
+* **Tensione a vuoto Voc** della stringa/modulo FV in prova misurata in condizione **OPC** (**OP**erative **C**ondition) cioè nelle condizioni reali in cui si trova l’installazione, con o senza misura di irraggiamento e temperatura.
+* **Corrente di corto circuito Isc** in accordo alle prescrizioni della norma IEC/EN62446 della stringa/modulo FV in prova misurata in condizione **OPC** (**OP**erative **C**ondition) cioè nelle condizioni reali in cui si trova l’installazione con o senza misura di irraggiamento e temperatura.
+
+Nelle misure di Voc e Isc **SENZA** misura di irraggiamento e temperatura (e quindi senza uso di unità remota SOLAR03) lo strumento visualizza solo i valori OPC, li confronta con i valori medi (media scorrevole ultime 10 misure) e visualizza esito per confronto valori medi.
+Nelle misure di Voc e Isc **CON** misura di irraggiamento e temperatura, i dati alle condizioni OPC sono “traslati” automaticamente dallo strumento alle condizioni **STC** (**S**tandard **T**est **C**ondition – Irraggiamento = 1000W/m², Temperatura modulo = 25°C, distribuzione spettrale AM=1.5) al fine di eseguire il confronto con le caratteristiche dichiarate dal costruttore del modulo. In queste condizioni è necessario l’uso dell’unità remota SOLAR03 a cui collegare le sonde di irraggiamento e temperatura.
+Le misure di irraggiamento e temperatura modulo sono eseguita tramite una o più celle di riferimento **HT305** (nel caso di moduli Bifacciali) e con sonda di temperatura **PT305** collegate all’unità remota **SOLAR03** la quale comunica con lo strumento i dati in tempo reale tramite collegamento Bluetooth.
+
+**ATTENZIONE**
+Nelle misure di irraggiamento eseguite con la/le cella/celle di riferimento **HT305** non è necessaria l’impostazione dei relativi valori di sensibilità e alpha che sono automaticamente gestiti dal **SOLAR03** dopo il collegamento di tali accessori all’unità remota.
+
+La pagina dei risultati conterrà in generale:
+* La descrizione del modulo in uso
+* I valori di Irraggiamento e temperatura (se disponibili)
+* I valori medi di Voc e Isc calcolati come media dei corrispondenti valori a OPC sulle ultime 10 prove memorizzate e salvate. Se il numero delle prove è < 10 la media viene calcolata sul numero delle prove disponibili. La prima prova visualizzerà trattini nel campo “valori medi” visto che non ci sono prove precedenti su cui calcolare la media.
+* I valori di Voc e Isc misurati a OPC e gli eventuali esiti parziali (presenti solo se i valori STC non sono disponibili) ottenuti per confronto con i valori medi.
+* I valori di Voc e Isc calcolati a STC (se disponibili) e gli eventuali esiti parziali ottenuti per confronto dei valori calcolati a STC con quelli nominali (inseriti nel DB moduli).
+* L’esito complessivo della prova calcolato sulla base degli esiti parziali ottenuti sulla base degli esiti parziali a STC (se questi sono disponibili) o sulla base degli esiti parziali a OPC (se i valori STC non sono disponibili).
+* Lo strumento non mostra esiti complessivi se non è disponibile nessun esito parziale.
+
+I - V600 IT - 57
+### 6.6.2. Test IVCK senza unità remota SOLAR03
+
+**ATTENZIONE**
+* La massima tensione tra gli ingressi P1, C1, P2 e C2 è 1500VDC. Non misurare tensioni che eccedano i limiti espressi in questo manuale.
+* Non eseguire prove su moduli o stringhe FV connessi al convertitore DC/AC.
+* La corrente massima ammessa dallo strumento è 40A.
+* La norma IEC/EN62446-1 richiede di effettuare le misurazioni stringa per stringa. Anche se lo strumento è progettato per gestire la corrente di spunto per stringhe singole o in parallelo, si raccomanda di testare una stringa per volta in base alle prescrizioni della norma.
+* L’esito finale è ottenuto per confronto fra i risultati ottenuti sui singoli moduli/stringhe senza nessuna correzione circa l’irraggiamento o la temperatura. Si raccomanda pertanto di utilizzare questa modalità solo in condizioni ambientali sufficiente stabili (cielo terso, no irraggiamenti riflessi, no ombreggiamenti).
+
+1. Accendere lo strumento premendo il tasto **ON/OFF**.
+2. Notare la presenza dell’icona “`[Icona Unità Remota Non Connessa]`” nella parte alta destra del display ad identificare l’assenza di unità remota SOLAR03 attiva e connessa allo strumento. In caso contrario eseguire il comando “**Disaccoppiare**” dell’unità attiva corrente (vedere § 6.2).
+3. Collegare lo strumento al modulo/stringa in prova come mostrato nella Fig. 57. In particolare, collegare il polo Negativo in uscita dal modulo/stringa ai terminali **P2, C2** e il polo Positivo in uscita dal modulo/stringa ai terminali **P1, C1**.
+    Fig. 57: Collegamento per test IVCK senza unità remota
+4. In caso di moduli **Monofacciali**, la videata di Fig. 58 è presente a display. I seguenti parametri sono mostrati:
+    * Tensione VPN tra polo positivo e negativo della stringa
+    * Temperatura del modulo con indicazione “- - - -“
+    * Irraggiamento del modulo con indicazione “- - - -“
+    * Indicazione modulo FV attualmente selezionato
+    * Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+
+I - V600 IT - 58
+Fig. 58: Videata iniziale test IVCK senza unità remota su moduli Monofacciali
+5. In caso di moduli **Bifacciali**, la videata di Fig. 59 è presente a display. I seguenti parametri sono mostrati:
+    * Tensione VPN tra polo positivo e negativo della stringa
+    * Temperatura del modulo con indicazione “- - - -“
+    * Irraggiamento parte frontale del modulo con indicazione “- - - -“
+    * Irraggiamenti parte posteriore del modulo con indicazione “- - - -“
+    * Indicazione modulo FV attualmente selezionato
+    * Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 59: Videata iniziale test IVCK senza unità remota su moduli Bifacciali
+6. Toccare il tasto “**Impostazioni**” (riferimento moduli Monofacciali). La videata seguente è mostrata nella Fig. 60. I seguenti parametri sono indicati:
+    * Valori **Voc_avg** e **Isc_avg** del modulo attualmente selezionato
+    * Parametri della stringa in prova da programmare
+    * Icona `[Salva Icona]` per salvare le impostazioni e tornare alla videata principale oppure l’icona `[Esci Icona]` per uscire senza salvare
+    Fig. 60: Impostazioni parametri test IVCK
+
+I - V600 IT - 59
+7. Toccare il tasto “**Modulo FV**” per cambiare il modulo FV in esame. Lo strumento apre la sezione DB in cui è possibile selezionare un nuovo modulo nell’elenco della sezione DB (vedere § 6.3).
+8. Trascinare verso destra o sinistra ciascuna delle 5 rotelline disponibili al fine di impostare il valore desiderato dei seguenti parametri:
+    * **Num. Mod** → impostazione numero di moduli della stringa in esame (max 35)
+    * **N. String. Paral.** → impostazione del numero di stringhe in parallelo (max 5). L’impostazione “1” indica la presenza di una sola stringa
+    * **Modo Temp** → impostazione del modo di misura della temperatura del modulo. Sono disponibili le opzioni: **Auto** (temperatura calcolata dallo strumento sulla base della misura di Voc - nessuna sonda collegata e opzione raccomandata), **Mis.** (temperatura misurata tramite sonda PT305 collegata a unità remota SOLAR03)
+    * **Tol. ± Voc [%]** → impostazione della tolleranza percentuale nella misura della Voc nel campo: 1% ÷ 20% (tipico 5%)
+    * **Tol. ± Isc [%]** → impostazione della tolleranza percentuale nella misura della Isc nel campo: 1% ÷ 20% (tipico 10%)
+9. Toccare il tasto “**Azzerare AVG**” per azzerare i valori medi di parametri Voc_avg e Isc_avg (valori medi di Voc e Isc nelle 10 prove precedentemente salvate) prima di avviare una nuova misura. La seguente videata è mostrata:
+    Fig. 61: Azzeramento valori medi Voc e Isc nel test IVCK
+10. Toccare il tasto `[Conferma Icona]` per confermare oppure il tasto `[Esci Icona]` per uscire senza procedere.
+
+I - V600 IT - 60
+**ATTENZIONE**
+Alla pressione del tasto **START/STOP** (o **Start** a display) lo strumento può fornire diversi messaggi di errore (vedere § 6.4.6) e, per effetto di essi, non eseguire il test. Controllare ed eliminare, se possibile, le cause dei problemi prima di proseguire.
+
+11. Premere il tasto **START/STOP** (o **Start** a display) per attivare il test. In caso di assenza di condizioni di errore, lo strumento mostra a display l’icona “`[Icona Misura in Corso]`” insieme al messaggio “**Misura in corso...**” per alcuni istanti. La prova può impiegare fino a circa 20s in funzione della tensione a vuoto e dei parametri dei moduli. Al termine della prova, la seguente videata (per comodità si farà riferimento ai moduli Monofacciali) è mostrata a display in caso di **esito positivo** del test:
+    Fig. 62: Esempio di risultato positivo test IVCK – Valori OPC
+12. In caso di esito **negativo** la videata seguente è mostrata:
+    Fig. 63: Esempio di risultato negativo test IVCK – Valori OPC
+13. Nelle videate di cui sopra sono riportati i seguenti parametri:
+    * Modello del modulo in prova
+    * I valori medi di Voc e Isc calcolati come media dei corrispondenti valori a OPC sulle ultime 10 prove memorizzate e salvate. Se il numero delle prove è <10 la media viene calcolata sul numero delle prove disponibili. La prima prova visualizzerà “- - -“ nel campo “valori medi” in quanto non ci sono prove precedenti su cui calcolare la media.
+    * Risultati della misura calcolati alle condizioni OPC
+    * Icone `[Icona Esito Positivo]`, `[Icona Esito Negativo]`, `[Icona Esito OK w/errore strumentale]`, `[Icona Esito NO OK w/errore strumentale]` ad indicare l’esito della misura (vedere § 6.6.5).
+14. Toccare `[Icona Salva Misura]` per salvare la misura (vedere § 7.1) oppure l’icona `[Icona Esci senza Salvare]` per uscire.
+
+I - V600 IT - 61
+**ATTENZIONE**
+* Nella pagina dei risultati compaiono i valori medi di Voc e Isc. Tali valori contengono i valori medi di Voc e Isc alle condizioni OPC calcolati come media scorrevole sulle ultime 10 prove precedentemente memorizzate. Se l’utente ha eseguito e memorizzato un numero di prove <10 oppure ha resettato i valori medi la media visualizzata nel corso della prova N+1 saranno quelli calcolata su gli N valori disponibili.
+* In questa modalità di utilizzo dello strumento, i valori medi precedentemente calcolati assumono particolare importanza. Nel caso si inizi una nuova campagna di misura con variazioni significative di Irraggiamento o temperatura è raccomandato azzerare (comando “Azzerare AVG”) i valori medi di riferimento per poi farlo ricalcolare sulle base di nuove misure. I valori medi sono comunque azzerati qualora l’utente modifichi il numero moduli e/o stringhe.
+
+15. Per l’interpretazione dei risultati vedere il § 6.6.5.
+
+I - V600 IT - 62
+### 6.6.3. Test IVCK con unità remota SOLAR03 in connessione diretta
+
+Le misure di irraggiamento e temperatura (se strumento è impostato in modalità di misura della temperatura “MIS”) tramite unità remota SOLAR03 direttamente connessa in collegamento Bluetooth allo strumento, sono raccomandate qualora siano presenti condizioni di irraggiamento instabili o si abbia la necessità di confronto con i valori nominali del modulo dichiarati dal costruttore. In questo caso lo strumento fornisce direttamente i risultati delle misure @STC.
+
+**ATTENZIONE**
+* La massima tensione tra gli ingressi P1, C1, P2 e C2 è 1500VDC. Non misurare tensioni che eccedano i limiti espressi in questo manuale.
+* Non eseguire prove su moduli o stringhe FV connessi al convertitore DC/AC.
+* La corrente massima ammessa dallo strumento è 40A.
+* La norma IEC/EN62446-1 richiede di effettuare le misurazioni stringa per stringa. Anche se lo strumento è progettato per gestire la corrente di spunto per stringhe singole o in parallelo, si raccomanda di testare una stringa per volta in base alle prescrizioni della norma.
+
+1. Accendere lo strumento premendo il tasto **ON/OFF**.
+2. Accendere l’unità remota SOLAR03, associarla e connetterla allo strumento come indicato nel § 6.2. Notare la presenza dell’icona “`[Icona Unità Remota Connessa]`“ nella parte alta destra del display.
+3. Collegare lo strumento e l’unità remota SOLAR03 al modulo/stringa in prova come mostrato nella Fig. 64. In particolare:
+    * Collegare il polo Negativo in uscita dal modulo/stringa ai terminali **P2, C2** e il polo Positivo in uscita dal modulo/stringa ai terminali **P1, C1**.
+    * Nel caso di moduli Monofacciali → posizionare la cella di riferimento **HT305** sul piano frontale del modulo (F) e all’ingresso “INP1” ed eventualmente la sonda di temperatura **PT305** all’ingresso “INP4” dell’unità remota.
+    Nel caso di moduli Bifacciali → posizionare le 3 celle di riferimento **HT305** sul piano frontale del modulo (F), sulla parte posteriore superiore (BT = **B**ack **T**op) e sulla parte posteriore inferiore (BB = **B**ack **B**ottom) del modulo. Collegare la cella di riferimento frontale (F) all’ingresso “INP1”, la cella di riferimento BT all’ingresso “INP2”, la cella di riferimento BB all’ingresso “INP3” ed eventualmente la sonda di temperatura **PT305** all’ingresso “INP4” dell’unità remota. In accordo alla normativa IEC/EN60904-1-2, lo strumento calcola il valore di Irraggiamento frontale equivalente (**Irreq**) che corrisponde all’Irraggiamento sul solo piano frontale producente gli stessi effetti dell’Irraggiamento rilevato su entrambe le facce tenendo conto del **coefficiente di bifaccialità** (`φ`) del modulo in base alla seguente relazione:
+
+    `𝐼𝑟𝑟 𝐸𝑞 = 𝐼𝑟𝑟 𝐹 + 𝜑 × 𝐼𝑟𝑟 𝑅`
+
+    Fig. 64: Collegamento con unità remota SOLAR03 su moduli Monofacciali e Bifacciali
+
+I - V600 IT - 63
+4. In caso di moduli **Monofacciali**, la videata di Fig. 65 è presente a display. I seguenti parametri sono mostrati:
+    * Tensione VPN tra polo positivo e negativo della stringa
+    * Temperatura del modulo (con sonda PT305 collegata)
+    * Irraggiamento del modulo misurato dalla cella di riferimento HT305
+    * Indicazione modulo FV attualmente selezionato
+    * Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 65: Videata iniziale test IVCK senza unità remota su moduli Monofacciali
+5. In caso di moduli **Bifacciali**, la videata di Fig. 66 è presente a display. I seguenti parametri sono mostrati:
+    * Tensione VPN tra polo positivo e negativo della stringa
+    * Temperatura del modulo (con sonda PT305 collegata)
+    * Irraggiamento parte frontale del modulo misurato dalla cella di riferimento HT305
+    * Irraggiamento parte posteriore del modulo misurato dalle celle di riferimento HT305
+
+    **ATTENZIONE**
+    Il parametro “**Irragg. posteriore**” indica il **valore minimo** tra gli irraggiamenti misurati dalle celle HT305 nella parte posteriore bassa (BB) e posteriore alta (BT) del modulo.
+
+    * Indicazione modulo FV attualmente selezionato
+    * Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento
+    Fig. 66: Videata iniziale test IVCK senza unità remota su moduli Bifacciali
+
+I - V600 IT - 64
+6. Toccare il tasto “**Impostazioni**” (riferimento moduli Monofacciali). La videata seguente è mostrata nella Fig. 67. I seguenti parametri sono indicati:
+    * Riferimenti **Voc** e **Isc** (@STC) del modulo attualmente selezionato
+    * Parametri della stringa in prova da programmare
+    * Icona `[Salva Icona]` per salvare le impostazioni e tornare alla videata principale oppure l’icona `[Esci Icona]` per uscire senza salvare.
+    Fig. 67: Impostazioni parametri misura curva I - V
+7. Toccare il tasto “**Modulo FV**” per cambiare il modulo FV in esame. Lo strumento apre la sezione DB in cui è possibile selezionare un nuovo modulo nell’elenco della sezione DB (vedere § 6.3).
+8. Scorrere verso destra o sinistra ciascuna delle 5 rotelline disponibili al fine di impostare il valore desiderato dei seguenti parametri:
+    * **Num. Mod** → impostazione numero di moduli della stringa in esame (max 60)
+    * **N. String. Paral.** → impostazione del numero di stringhe in parallelo (max 5). L’impostazione “1” indica la presenza di una sola stringa complessiva.
+    * **Mod. Temp** → impostazione del modo di misura della temperatura del modulo. Sono disponibili le opzioni: **Auto** (temperatura calcolata dallo strumento sulla base della misura di Voc - nessuna sonda collegata e opzione raccomandata), **Mis.** (temperatura misurata tramite sonda PT305 collegata a unità remota SOLAR03).
+    * **Tol. ± Voc [%]** → impostazione della tolleranza percentuale nella misura della Voc nel campo: 1% ÷ 20% (tipico 5%).
+    * **Tol. ± Isc [%]** → impostazione della tolleranza percentuale nella misura della Isc nel campo: 1% ÷ 20% (tipico 5%).
+9. Montare lo stelo sul disco dell’accessorio M304 e tenerlo appoggiato sul piano del modulo. Verificare che l’ombra dello stelo proiettata sul disco cada entro il “cerchio concentrico limite” interno al disco stesso (vedere figura a lato). In caso contrario l’angolo tra i raggi solari e la superficie del modulo è troppo elevato e pertanto le misure eseguite dallo strumento NON sono da ritenere attendibili. Ripetere le operazioni in altri momenti della giornata.
+
+I - V600 IT - 65
+**ATTENZIONE**
+Alla pressione del tasto **START/STOP** (o **Start** a display) lo strumento può fornire diversi messaggi di errore (vedere § 6.4.6) e, per effetto di essi, non eseguire il test. Controllare ed eliminare, se possibile, le cause dei problemi prima di proseguire.
+
+10. Premere il tasto **START/STOP** (o **Start** a display) per attivare il test. In caso di assenza di condizioni di errore, lo strumento mostra a display l’icona “`[Icona Misura in Corso]`” insieme al messaggio “**Misura in corso...**“ per alcuni istanti. La prova può impiegare fino a circa 20s in funzione della tensione a vuoto e dei parametri dei moduli. La seguente videata (per comodità si farà riferimento ai moduli Monofacciali) è mostrata a display in caso di **esito positivo** del test:
+    Fig. 68: Esempio di risultato positivo test IVCK – Valori STC
+11. In caso di esito **negativo** la videata seguente è mostrata:
+    Fig. 69: Esempio di risultato negativo test IVCK – Valori STC
+12. Nelle videate di cui sopra sono riportati i seguenti parametri:
+    * Modello del modulo in prova.
+    * Valori nominali del modulo in esame come definiti nel DB interno (vedere § 6.3).
+    * Risultati della misura calcolati alle condizioni STC.
+    * Icone `[Icona Esito Positivo]`, `[Icona Esito Negativo]`, `[Icona Esito OK w/errore strumentale]`, `[Icona Esito NO OK w/errore strumentale]` ad indicare l’esito della misura (vedere § 6.6.5).
+13. Toccare l’icona `[Icona Salva Misura]` per salvare la misura (vedere § 7.1) oppure l’icona `[Icona Esci senza Salvare]` per uscire senza salvare.
+14. Per l’interpretazione dei risultati vedere il § 6.6.5.
+
+I - V600 IT - 66
+### 6.6.4. Test IVCK con unità remota SOLAR03 in registrazione sincrona
+
+Le misure di irraggiamento e temperatura (se strumento è impostato nel modo di misura della temperatura “Mis”) tramite unità remota SOLAR03 connessa in registrazione sincrona allo strumento sono raccomandate qualora siano presenti condizioni di irraggiamento instabili, in presenza di ostacoli che possano interrompere il collegamento Bluetooth, e si abbia la necessità di confronto con i valori nominali del modulo dichiarati dal costruttore.
+In questo modo, l’unità remota SOLAR03 attiva deve essere collegata in Bluetooth solo all’INIZIO e alla FINE delle operazioni e NON DURANTE le reali misure di irraggiamento e temperatura. Lo strumento fornisce i risultati delle misure @OPC senza esito poi esegue la traslazione automatica e simultanea @STC solo dopo il trasferimento dei dati dall’unità remota al termine della registrazione e al successivo ricollegamento.
+
+**ATTENZIONE**
+* La massima tensione tra gli ingressi P1, C1, P2 e C2 è 1500VDC. Non misurare tensioni che eccedano i limiti espressi in questo manuale.
+* Non eseguire prove su moduli o stringhe FV connessi al convertitore DC/AC.
+* La corrente massima ammessa dallo strumento è 40A.
+* La norma IEC/EN62446-1 richiede di effettuare le misurazioni stringa per stringa. Anche se lo strumento è progettato per gestire la corrente di spunto per stringhe singole o in parallelo, si raccomanda di testare una stringa per volta in base alle prescrizioni della normativa.
+
+1. Accendere lo strumento premendo il tasto **ON/OFF**.
+2. Collegare lo strumento al modulo/stringa in prova come mostrato nella Fig. 70 (moduli Monofacciali) o Fig. 71 (moduli Bifacciali). In particolare, collegare il polo Negativo in uscita dal modulo/stringa ai terminali **P2, C2** e il polo Positivo in uscita dal modulo/stringa ai terminali **P1, C1**.
+    Fig. 70: Uso strumento con SOLAR03 in registrazione sincrona su moduli Monofacciali
+    Fig. 71: Uso strumento con SOLAR03 in registrazione sincrona su moduli Bifacciali
+
+I - V600 IT - 67
+**Fase 1**
+
+3. Avvicinare l’unità remota SOLAR03 allo strumento come mostrato nelle Fig. 70 o Fig. 71 – parte sinistra.
+4. Accendere l’unità remota SOLAR03, associarla e connetterla allo strumento come indicato nel § 6.2. Notare la presenza dell’icona “`[Icona Unità Remota Connessa]`“ nella parte alta destra del display.
+5. Toccare il tasto “**Avvio/Stop**” per avviare la registrazione sull’unità remota connessa. La seguente videata è mostrata:
+    Fig. 72: Attivazione registrazione su unità remota – Passo 1
+6. Toccare il tasto `[Conferma Icona]` per confermare oppure il tasto `[Esci Icona]` per uscire senza procedere. La registrazione è eseguita con scansione di 1s non modificabile e il messaggio “REC” appare a display dell’unità remota ad indicare l’operazione in corso.
+    Fig. 73: Attivazione registrazione su unità remota – Passo 2
+7. L’icona `[Icona Registrazione Attiva]` e il messaggio “Reg.” sono mostrati a display e il messaggio “REC” è presente a display dell’unità remota.
+
+I - V600 IT - 68
+**Fase 2**
+
+8. Portare l’unità remota in prossimità dei moduli e collegare le sonde di irraggiamento/temperatura (se necessaria) come mostrato nelle Fig. 70 o Fig. 71 – parte centrale. In particolare:
+    * Nel caso di moduli Monofacciali → posizionare la cella di riferimento **HT305** sul piano frontale del modulo (F) e all’ingresso “INP1” ed eventualmente la sonda di temperatura **PT305** all’ingresso “INP4” dell’unità remota.
+    Nel caso di moduli Bifacciali → posizionare le 3 celle di riferimento **HT305** sul piano frontale del modulo (F), sulla parte posteriore superiore (BT = **B**ack **T**op) e sulla parte posteriore inferiore (BB = **B**ack **B**ottom) del modulo. Collegare la cella di riferimento frontale (F) all’ingresso “INP1”, la cella di riferimento BT all’ingresso “INP2”, la cella di riferimento BB all’ingresso “INP3” ed eventualmente la sonda di temperatura **PT305** all’ingresso “INP4” dell’unità remota. In accordo alla normativa IEC/EN60904-1-2, lo strumento calcola il valore di Irraggiamento frontale equivalente (**Irreq**) che corrisponde all’Irraggiamento sul solo piano frontale producente gli stessi effetti dell’Irraggiamento rilevato su entrambe le facce tenendo conto del **coefficiente di bifaccialità** (`φ`) del modulo in base alla seguente relazione:
+
+    `𝐼𝑟𝑟 𝐸𝑞 = 𝐼𝑟𝑟 𝐹 + 𝜑 × 𝐼𝑟𝑟 𝑅`
+
+9. Avendo già avviato la registrazione sulla unità remota SOLAR03 non è necessario il mantenimento della connessione Bluetooth. Il mantenimento della connessione consentirà solamente il poter avere immediatamente l’esito della prova senza attendere la fine della campagna di misure.
+10. In caso di moduli **Monofacciali**, la videata di Fig. 74 è mostrata a display. I seguenti parametri sono mostrati:
+    * Tensione VPN tra polo positivo e negativo della stringa.
+    * Temperatura del modulo con indicazione “- - -“ in quanto unità remota non connessa.
+    * Irraggiamento del modulo con indicazione “- - -“ in quanto unità remota non connessa.
+    * Indicazione modulo FV attualmente selezionato.
+    * Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento.
+    Fig. 74: Videata test IVCK con SOLAR03 in registrazione sincrona su moduli Monofacciali
+
+I - V600 IT - 69
+11. In caso di moduli **Bifacciali**, la videata di Fig. 75 è mostrata a display. I seguenti parametri sono mostrati:
+    * Tensione VPN tra polo positivo e negativo della stringa.
+    * Temperatura del modulo con indicazione “- - -“ in quanto unità remota non connessa.
+    * Irraggiamento frontale con indicazione “- - -“ in quanto unità remota non connessa.
+    * Irraggiamento posteriore con indicazione “- - -“ in quanto unità remota non connessa.
+    * Indicazione modulo FV attualmente selezionato.
+    * Riferimenti terminali **C1, P1, C2, P2** collegati sullo strumento.
+    Fig. 75: Videata test IVCK con SOLAR03 in registrazione sincrona su moduli Bifacciali
+12. Toccare il tasto “**Impostazioni**” (riferimento moduli Monofacciali). La videata seguente è mostrata nella Fig. 76. I seguenti parametri sono indicati:
+    * Riferimenti Voc e Isc (@STC) del modulo attualmente selezionato.
+    * Parametri della stringa in prova da programmare.
+    * Icona `[Salva Icona]` per salvare le impostazioni e tornare alla videata principale oppure l’icona `[Esci Icona]` per uscire senza salvare.
+    Fig. 76: Impostazioni parametri con SOLAR03 in registrazione sincrona
+13. Toccare il tasto “**Modulo FV**” per cambiare il modulo FV in esame. Lo strumento apre la sezione DB in cui è possibile selezionare un nuovo modulo nell’elenco della sezione DB (vedere § 6.3).
+
+I - V600 IT - 70
+14. Scorrere verso destra o sinistra ciascuna delle 5 rotelline disponibili al fine di impostare il valore desiderato dei seguenti parametri:
+    * **Num. Mod** → impostazione numero di moduli della stringa in esame (max 60).
+    * **N. String. Paral.** → impostazione del numero di stringhe in parallelo (max 5). L’impostazione “1” indica la presenza di una sola stringa complessiva.
+    * **Mod. Temp** → impostazione del modo di misura della temperatura del modulo. Sono disponibili le opzioni: **Auto** (temperatura calcolata dallo strumento sulla base della misura di Voc - nessuna sonda collegata e opzione raccomandata), **Mis.** (temperatura misurata tramite sonda PT305 collegata a unità remota SOLAR03).
+    * **Tol. ± Voc [%]** → impostazione della tolleranza percentuale nella misura della Voc nel campo: 1% ÷ 20% (tipico 5%).
+    * **Tol. ± Isc [%]** → impostazione della tolleranza percentuale nella misura della Isc nel campo: 1% ÷ 20% (tipico 5%).
+15. Montare lo stelo sul disco dell’accessorio M304 e tenerlo appoggiato sul piano del modulo. Verificare che l’ombra dello stelo proiettata sul disco cada entro il “cerchio concentrico limite” interno al disco stesso (vedere figura a lato). In caso contrario l’angolo tra i raggi solari e la superficie del modulo è troppo elevato e pertanto le misure eseguite dallo strumento NON sono da ritenere attendibili. Ripetere le operazioni in altri momenti della giornata.
+
+**ATTENZIONE**
+* Alla pressione del tasto **START/STOP** (o **Start** a display) lo strumento può fornire diversi messaggi di errore (vedere § 6.4.6) e, per effetto di essi, non eseguire il test. Controllare ed eliminare, se possibile, le cause dei problemi prima di proseguire.
+* Le impostazioni eseguite sui parametri di controllo dello strumento possono essere modificate in ogni momento anche con registrazione in corso.
+
+16. Premere il tasto **START/STOP** (o **Start** a display) per attivare i test. In caso di assenza di condizioni di errore, lo strumento mostra a display l’icona “`[Icona Misura in Corso]`” insieme al messaggio “**Misura in corso...**“ per alcuni istanti. La prova può impiegare fino a circa 20s in funzione della tensione a vuoto e dei parametri dei moduli. Al termine della prova lo strumento visualizzerà solo i valori misurati ad OPC senza i riferimenti dei valori di irraggiamento e temperatura del modulo (vedere Fig. 77) e occorre attendere la fine della sessione di test e la successiva sincronizzazione con l’unità remota SOLAR03 per ottenere l’esito finale (valori @STC) delle prove eseguite, come mostrato nella seguente:
+
+I - V600 IT - 71
+Fig. 77: Risultato misura test IVCK @OPC con registrazione sincrona
+17. Toccare l’icona `[Icona Salva Misura]` per salvare le misure @OPC nella memoria interna (vedere § 7.1) oppure l’icona `[Icona Esci senza Salvare]` per uscire senza salvare.
+
+**Fase 3**
+
+18. Al termine della sessione di prove, scollegare l’unità remota SOLAR03, riportarla in prossimità dello strumento (vedere Fig. 70 o Fig. 71 – parte destra) e verificare la riconnessione automatica con esso.
+19. Toccare il tasto “**SOLAR03**” per accedere alla sezione di controllo e gestione dell’unità remota SOLAR03 (vedere § 6.2) collegata allo strumento.
+20. Toccare il tasto “**Avvio/Stop**” per terminare la registrazione in corso. La seguente videata è mostrata:
+    Fig. 78: Terminazione registrazione sincrona in corso su unità remota
+21. Toccare il tasto `[Conferma Icona]` per confermare oppure il tasto `[Esci Icona]` per uscire senza procedere.
+22. La sincronizzazione delle misure @OPC in attesa, la traslazione dei valori @STC e il successivo salvataggio sono eseguite automaticamente dallo strumento. Il parametro “**N° misure da sincronizzare**” deve assumere il valore “0” a operazioni ultimate.
+23. Usare il tasto `[Sincronizza nuovamente icona]` in presenza di eventuali errori al fine di riattivare nuovamente la sincronizzazione.
+24. Accedere all’area di memoria (vedere § 7.2) per richiamare le misure salvate.
+
+I - V600 IT - 72
+**ATTENZIONE**
+Lo strumento esegue la traslazione dei valori @OPC a quelli @STC al verificarsi delle seguenti condizioni:
+* Tensione Voc > Voc minima = 15V.
+* Valori di irraggiamento frontale (valido anche per moduli Bifacciali) rilevati maggiori della soglia minima impostata sullo strumento (>100W/m²) e stabili (variazione tra inizio e fine campagna di misura ±20 W/m²).
+* Tensione a vuoto Voc misurata coerente con valore atteso indicato nel datasheet del modulo.
+* Valore di temperatura del modulo compreso nel campo -40°C ÷ 100°C.
+* Valore della corrente di cortocircuito Isc > Iscmin = 0.2A.
+
+25. Per l’interpretazione dei risultati di misura vedere il § 6.6.5.
+
+I - V600 IT - 73
+### 6.6.5. Interpretazione dei risultati di misura
+
+In generale l’esito di un test IVCK sulla misura di Voc e Isc è determinato dalle seguenti relazioni.
+
+**Misure senza unità remota (no irraggiamento e temperatura)**
+
+Noti i seguenti parametri:
+VocMed → valore medio tensione a vuoto calcolata nelle ultime 10 misure salvate
+IscMed → valore medio corrente di corto circuito calcolata nelle ultime 10 misure salvate
+Voc (Tol+) = Tol%(+)Voc * VocMed → Valore di tolleranza positivo sulla Voc
+Voc (Tol-) = Tol%(-)Voc * VocMed → Valore di tolleranza negativo sulla Voc
+Isc (Tol+) = Tol%(+)Isc * IscMed → Valore di tolleranza positivo sulla Isc
+Isc (Tol-) = Tol%(-)Isc * IscMed → Valore di tolleranza negativo sulla Isc
+εStrum Voc → Massimo errore strumentale dichiarato sulla Voc @OPC (vedere § 10.1)
+εStrum Isc → Massimo errore strumentale dichiarato sulla Isc @OPC (vedere § 10.1)
+
+I seguenti parametri di controllo sono calcolati dallo strumento:
+εMis Voc = Voc (@OPC) – VocMed → Errore sulla misura di Voc @OPC
+εMis Isc = Isc (@OPC) – IscMed → Errore sulla misura di Isc @OPC
+
+Le seguenti condizioni sui parametri sull’esito della misura sono gestite dallo strumento:
+
+| N   | CONDIZIONE                                                                                                                               | ESITO                |
+| :-- | :--------------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
+| 1   | * -Voc (Tol-) + εStrum Voc ≤ εMis Voc ≤ Voc (Tol+) - εStrum Voc<br/>* -Isc (Tol-) + εStrum Isc ≤ εMis Isc ≤ Isc (Tol+) - εStrum Isc         | `[Icona Esito OK]`   |
+| 2   | * -Voc (Tol-) ≤ εMis Voc ≤ Voc (Tol+)<br/>* -Isc (Tol-) ≤ εMis Isc ≤ Isc (Tol+)                                                             | `[Icona Esito OK w/errore strumentale]` |
+| 3   | * -Voc (Tol-) - εStrum Voc ≤ εMis Voc ≤ Voc (Tol+) + εStrum Voc<br/>* -Isc (Tol-) - εStrum Isc ≤ εMis Isc ≤ Isc (Tol+) + εStrum Isc         | `[Icona Esito NO OK w/errore strumentale]` |
+| 4   | * Le precedenti condizioni (1), (2) e (3) non sono verificate                                                                           | `[Icona Esito NO OK]` |
+
+I - V600 IT - 74
+**Misure con unità remota (irraggiamento e temperatura)**
+
+Noti i seguenti parametri:
+VocNom → valore nominale della tensione a vuoto Voc (dichiarate da costruttore)
+IscNom → valore nominale della corrente di cortocircuito Isc (dichiarate da costruttore)
+Voc (Tol+) = Tol%(+)Voc * VocNom → Valore di tolleranza positivo sulla Voc
+Voc (Tol-) = Tol%(-)Voc * VocNom → Valore di tolleranza negativo sulla Voc
+Isc (Tol+) = Tol%(+)Isc * IscNom → Valore di tolleranza positivo sulla Isc
+Isc (Tol-) = Tol%(-)Isc * IscNom → Valore di tolleranza negativo sulla Isc
+εStrum Voc → Massimo errore strumentale dichiarato sulla Voc @STC (vedere § 10.1)
+εStrum Isc → Massimo errore strumentale dichiarato sulla Isc @STC (vedere § 10.1)
+
+I seguenti parametri di controllo sono calcolati dallo strumento:
+εMis Voc = Voc (@STC) – VocNom → Errore sulla misura di Voc @STC
+εMis Isc = Isc (@STC) – IscNom → Errore sulla misura di Isc @STC
+
+**NOTA**: i valori Voc (@STC) e Isc (@STC) sono ottenuti in accordo alla IEC/EN60891
+
+Le seguenti condizioni sui parametri sull’esito della misura sono gestite dallo strumento:
+
+| N   | CONDIZIONE                                                                                                                               | ESITO                |
+| :-- | :--------------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
+| 1   | * -Voc (Tol-) + εStrum Voc ≤ εMis Voc ≤ Voc (Tol+) - εStrum Voc<br/>* -Isc (Tol-) + εStrum Isc ≤ εMis Isc ≤ Isc (Tol+) - εStrum Isc         | `[Icona Esito OK]`   |
+| 2   | * -Voc (Tol-) ≤ εMis Voc ≤ Voc (Tol+)<br/>* -Isc (Tol-) ≤ εMis Isc ≤ Isc (Tol+)                                                             | `[Icona Esito OK w/errore strumentale]` |
+| 3   | * -Voc (Tol-) - εStrum Voc ≤ εMis Voc ≤ Voc (Tol+) + εStrum Voc<br/>* -Isc (Tol-) - εStrum Isc ≤ εMis Isc ≤ Isc (Tol+) + εStrum Isc         | `[Icona Esito NO OK w/errore strumentale]` |
+| 4   | * Le precedenti condizioni (1), (2) e (3) non sono verificate                                                                           | `[Icona Esito NO OK]` |
+
+I - V600 IT - 75
+**Esempio di applicazione (misura con unità remota)**
+
+* Nome modulo: LR5-54HIH-410M (costruttore LONGI)
+* Tipo modulo: Monofacciale
+* Tensione a vuoto nominale dichiarata (@STC): 37.3V
+* Corrente di cortocircuito nominale dichiarata (@STC): 13.88A
+* Tolleranza Voc: ±5%
+* Tolleranza Isc: ±10%
+* Irraggiamento frontale misurato: 577 W/m²
+* Temperatura modulo (@STC): 25°C
+* Tensione a vuoto Voc calcolata da strumento (@STC): 37.1V
+* Corrente di cortocircuito Isc calcolata da strumento (@STC): 10.53A
+
+Voc (Tol+) = Tol%(+)Voc * VocNom = 0.05 * 37.3V = 1.9V
+Voc (Tol-) = Tol%(-)Voc * VocNom = 0.05 * 37.3V = 1.9V
+Isc (Tol+) = Tol%(+)Isc * IscNom = 0.1 * 13.88 = 1.39A
+Isc (Tol-) = Tol%(-)Isc * IscNom = 0.1 * 13.88 = 1.39A
+
+εStrum Voc = ±(37.1 * 0.04 + 0.2) = ±1.7V
+εStrum Isc = ±(10.53 * 0.04 + 0.02) = ±0.44A
+
+εMis Voc = Voc (@STC) - VocNom = 37.1 - 37.3 = -0.2V
+εMis Isc = Isc (@STC) - IscNom = 10.53 - 13.88 = -3.35A
+
+Condizioni di confronto:
+
+* Tensione Voc → -1.9 + 1.7 ≤ -0.2 ≤ 1.9 – 1.7 → Verificata condizione 1 → Esito `[Icona Esito OK]`
+* Corrente Isc → -1.39 + 0.44 ≤ -3.35 ≤ 1.39 – 0.44 → Condizione 1 NON verificata
+* Corrente Isc → -1.39 ≤ -3.35 ≤ 1.39 → Condizione 2 NON verificata
+* Corrente Isc → -1.39 - 0.44 ≤ -3.35 ≤ 1.39 + 0.44 → Condizione 3 NON verificata
+* Corrente Isc → Verificata condizione 4 → Esito `[Icona Esito NO OK]`
+
+I - V600 IT - 76
+## 7. MEM – MEMORIZZAZIONE RISULTATI
+
+Lo strumento consente la memorizzazione di max 9999 risultati di misura (curve I-V oppure test IVCK). I risultati dei test possono essere organizzati e raggruppati in una struttura simile a quella dell'impianto fotovoltaico testato associandoli fino a 3 livelli diversi di marcatori per ognuna delle locazioni di memoria utilizzate, al fine di dettagliare la posizione corrispondente alla misura. Ad esempio, un luogo testato come “Impianto XX”, “Stringa YY”, “Modulo “ZZ” può essere inserito in memoria ed associato alla misura appena eseguita.
+
+### 7.1. SALVATAGGIO DELLE MISURE
+
+1. Con misura disponibile a display toccare l’icona `[Icona Salva Misura]` per iniziare il processo di salvataggio. In caso di primo salvataggio (memoria vuota) è necessario definire un marcatore di primo livello e la videata seguente è mostrata a display:
+    Fig. 79: Salvataggio risultato di misura – Passo 1
+2. Toccare il tasto `[Conferma Icona]` per confermare. La videata seguente è mostrata a display:
+    Fig. 80: Salvataggio risultato di misura – Passo 2
+3. Lo strumento propone una lista di possibili marcatori predefiniti che è possibile selezionare. Usare la tastiera virtuale alfanumerica per definire una nuova stringa di marcatore (ex: “IMPIANTO A”) (max 250 marcatori) e toccare il tasto `[ENTER]` per confermare. Il nome definito appare nella lista dei marcatori evidenziato in colore azzurro, come mostrato nella figura seguente:
+
+I - V600 IT - 77
+Fig. 81: Salvataggio risultato di misura – Passo 3
+4. Con marcatore di primo livello evidenziato, toccare il tasto “**Nuovo**” per definire un eventuale nome di un marcatore di secondo livello. La videata seguente è mostrata:
+    Fig. 82: Salvataggio risultato di misura – Passo 4
+5. Usare la tastiera virtuale alfanumerica per definire il marcatore di secondo livello (ex: “STRINGA 1”) e toccare il tasto `[ENTER]` per confermare. Il nome definito appare nella lista dei marcatori evidenziato in colore azzurro, come mostrato nella figura seguente:
+    Fig. 83: Salvataggio risultato di misura – Passo 5
+
+I - V600 IT - 78
+6. Con marcatore di secondo livello evidenziato, toccare il tasto “**Nuovo**” per definire un eventuale nome di un marcatore di terzo livello. La videata seguente è mostrata a display:
+    Fig. 84: Salvataggio risultato di misura – Passo 6
+7. Usare la tastiera virtuale alfanumerica per definire il marcatore di terzo livello (ex: “MODULO X”) e toccare il tasto `[ENTER]` per confermare. Il nome definito appare nella lista dei marcatori evidenziato in colore azzurro, come mostrato nella figura seguente:
+    Fig. 85: Salvataggio risultato di misura – Passo 7
+8. Toccare l’icona “`[Esci Icona]`” per uscire dalla sezione. La seguente videata è presente a display:
+
+I - V600 IT - 79
+Fig. 86: Salvataggio risultato di misura – Conclusione
+9. Toccare nuovamente l’icona `[Salva Icona]` per concludere il salvataggio della misura sotto il marcatore evidenziato in colore azzurro (ex: “MODULO X” di terzo livello) e tornare alla videata principale della misura.
+10. Nel caso in cui si voglia definire un nuovo marcatore di primo livello toccare il tasto “**Nuovo primo livello**” mostrato nella videata seguente:
+    Fig. 87: Definizione nuovo marcatore di primo livello
+11. Usare la tastiera virtuale come descritto nei precedenti punti.
+
+**ATTENZIONE**
+* Il numero massimo di marcatori di primo livello che è possibile definire, per ogni lingua, è 250.
+* Il numero massimo di misure salvabili sotto un qualunque livello di marcatori è 500.
+* Il numero massimo di nodi dell’albero delle misure (somma di tutti i livelli di ordine primo, secondo e terzo) è 999.
+* Il numero max stringhe inseribili in lista marcatori riutilizzabili è 250.
+
+I - V600 IT - 80
+### 7.2. RICHIAMO RISULTATI A DISPLAY
+
+1. Toccare l’icona “**Memoria**” del menu generale per richiamare i dati a display. Un esempio di videata seguente è mostrato a display:
+    Fig. 88: Richiamo dei risultati a display
+2. Toccare il marcatore desiderato nella parte sinistra della videata. Nella parte destra sono mostrate le misure salvate sotto di esso oltre alla locazione di memoria considerata. Il parametro “**N. misure**” indica il numero totale delle misure salvate nella memoria interna (max 9999).
+3. Le seguenti indicazioni sono possibili:
+    * `[Icona Esito OK]` → Risultato misura curva I - V o test IVCK corretto (esito OK).
+    * `[Icona Esito NO OK]` → Risultato misura curva I - V o test IVCK incorretto (esito NO OK).
+    * `[Icona Esito OK w/errore strumentale]` → Risultato misura curva I - V o test IVCK corretto a meno errore strumentale.
+    * `[Icona Esito NO OK w/errore strumentale]` → Risultato misura I - V o test IVCK incorretto a meno errore strumentale.
+    * `[Icona Solo Valori OPC]` → Risultato misura curva I - V o IVCK senza valori @STC (solo valori @OPC).
+4. Selezionare una misura evidenziandola in azzurro e toccare il tasto “**Vedi risultati**” per richiamarla a display. Nel caso della Fig. 88 la seguente videata è mostrata relativamente alla misura di curva I - V:
+    Fig. 89: Richiamo dei risultati misura curva I - V – Valori @STC
+
+I - V600 IT - 81
+5. Toccare il tasto “**Corrente**” per la visualizzazione della curva I - V @STC. La seguente videata è mostrata:
+    Fig. 90: Richiamo dei risultati misura curva I - V – Curva corrente @STC
+6. Toccare il tasto “**Potenza**” per la visualizzazione della curva di potenza della curva I - V @STC come mostrato nella figura seguente:
+    Fig. 91: Richiamo dei risultati misura curva I - V – Curva potenza @STC
+7. Scorrere la videata verso destra per la visualizzazione dei valori @OPC. La videata seguente è mostrata:
+    Fig. 92: Richiamo dei risultati misura curva I - V – Valori @OPC
+
+I - V600 IT - 82
+8. Toccare il tasto “**Corrente**” per la visualizzazione della curva I - V @OPC. La seguente videata è mostrata:
+    Fig. 93: Richiamo dei risultati misura curva I - V – Curva corrente @OPC
+9. Toccare il tasto “**Potenza**” per la visualizzazione della curva di potenza @OPC. La seguente videata è mostrata:
+    Fig. 94: Richiamo dei risultati misura curva I - V – Curva potenza @OPC
+10. Toccare l’icona “`[Esci Icona]`” per tornare alla videata principale.
+11. Nel caso di richiamo a display di risultati test IVCK la videata seguente è mostrata:
+    Fig. 95: Richiamo dei risultati test IVCK @STC
+
+I - V600 IT - 83
+### 7.3. CANCELLAZIONE DEI RISULTATI
+
+1. Toccare l’icona “**Memoria**” del menu per richiamare i dati a display (vedere Fig. 88).
+2. Selezionare (evidenziare in azzurro) un test presente nella videata e toccare il tasto “**Cancella**”. Il seguente messaggio è mostrato a display:
+    Fig. 96: Cancellazione di un risultato di misura
+3. Toccare il tasto `[Conferma Icona]` per confermare la cancellazione della misura oppure il tasto `[Esci Icona]` per uscire senza procedere.
+4. Toccare il tasto “**Cancella tutto**” per cancellare tutte le misure presenti in memoria. Il seguente messaggio è mostrato a display:
+    Fig. 97: Cancellazione di tutta la memoria interna
+5. Toccare il tasto `[Conferma Icona]` per confermare la cancellazione di tutta la memoria interna oppure il tasto `[Esci Icona]` per uscire senza procedere.
+6. Selezionare (evidenziare in azzurro) un marcatore presente nella videata e toccare il tasto “**Canc. marcatore**”. Il seguente messaggio è mostrato a display:
+
+I - V600 IT - 84
+Fig. 98: Cancellazione di un marcatore interno
+7. Toccare il tasto `[Conferma Icona]` per confermare la cancellazione del marcatore insieme alle eventuali misure in esso incluse oppure il tasto `[Esci Icona]` per uscire senza procedere.
+
+I - V600 IT - 85
+### 7.3.1. Situazioni anomale
+
+Qualora si voglia rimuovere un marcatore di primo livello evidenziato in cui siano presenti delle misure, lo strumento non esegue l’operazione e mostra il messaggio riportato nella figura a lato. Rimuovere prima tutti i marcatori di livello inferiore.
+
+> Cancellazione NON possibile.\nCancella prima le misure e i marcatori di livello inferiore.
+
+Con la parola “Marcatori” evidenziata, se si cerca di cancellare un marcatore, lo strumento mostra il messaggio riportato nella figura a lato e non esegue l’operazione. Selezionare un marcatore valido.
+
+> Cancellazione NON possibile.\nSeleziona un marcatore dall'elenco.
+
+Con marcatore di terzo livello selezionato, toccando il tasto “Nuovo” lo strumento mostra il riportato nella figura a lato e non esegue l’operazione. Non è possibile definire marcatori oltre il terzo livello.
+
+> Definizione marcatori NON possibile.\nMax. 3 livelli definibili.
+
+I - V600 IT - 86
+Se, in fase di salvataggio, si cerca di associare una misura ad un marcatore in cui siano presenti il numero massimo di misure possibili (max 500), lo strumento mostra il messaggio riportato nella figura a lato e non esegue l’operazione. Scaricare a PC le misure e cancellarle prima di eseguire un nuovo salvataggio.
+
+> Salvataggio NON possibile.\nRaggiunto il numero max. di misure per questo marcatore (500).
+
+I - V600 IT - 87
+## 8. COLLEGAMENTO DELLO STRUMENTO A PC
+
+La connessione fra PC e strumento avviene tramite porta USB-C (vedere Fig. 2) con uso del cavo C2010 in dotazione o tramite collegamento WiFi. La scelta del tipo di collegamento va eseguita all’interno del software di gestione HTAgorà.
+
+**ATTENZIONE**
+Per effettuare il trasferimento dati a PC è necessario avere preventivamente installato il SW di gestione HTAgorà scaricabile dal sito www.ht-instruments.com
+
+**Collegamento tramite cavo USB-C**
+
+1. Accendere lo strumento premendo il tasto **ON/OFF**.
+2. Collegare lo strumento a PC utilizzando il cavo USB-C C2010 in dotazione.
+3. Usare i comandi del software di gestione HTAgorà per attivare il trasferimento dati.
+
+**Collegamento tramite WiFi**
+
+1. Accendere lo strumento premendo il tasto **ON/OFF**.
+2. Toccare l’icona “**Impostazioni**” nel menu generale e trascinare nella posizione “ON” la rotellina corrispondente alla funzione “**WiFi**” come mostrato nella videata seguente:
+    Fig. 99: Attivazione collegamento WiFi
+3. Toccare l’icona `[Salva Icona]` per salvare l’impostazione. L’icona “`[Icona WiFi Abilitato]`” è mostrata nella parte alta destra del display.
+4. Abilitare la connessione WiFi sul PC di destinazione (ex: tramite uso di una chiavetta WiFi installata e collegata ad una porta USB). Selezionare e connettere la rete WiFi resa disponibile dallo strumento all’interno delle impostazioni “Connessioni di rete” → “Reti senza fili” del PC.
+5. Usare i comandi del software di gestione HTAgorà per attivare il trasferimento dati.
+
+I - V600 IT - 88
+## 9. MANUTENZIONE
+
+### 9.1. GENERALITÀ
+
+Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli per l’operatore. Non utilizzare lo strumento in ambienti caratterizzati da tasso di umidità o temperatura esterne alle condizioni ambientali indicate nel § 10.3. Non esporre direttamente alla luce del sole. Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo di tempo, rimuovere le batterie per evitare da parte di queste ultime fuoruscite di liquidi che possano danneggiare i circuiti interni.
+
+### 9.2. SOSTITUZIONE O RICARICA BATTERIE INTERNE
+
+Quando a display appare il simbolo di batteria scarica “`[Icona Batteria Scarica]`“, sostituirle (in caso di utilizzo di batterie alcaline) o ricaricarle (in caso di utilizzo di batterie ricaricabili NiMH).
+
+**ATTENZIONE**
+* Solo tecnici qualificati possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso tutti i cavi dai terminali di ingresso.
+* Per la ricarica delle batterie usare solo l’alimentatore HT fornito in dotazione al fine di evitare possibili danneggiamenti dello strumento.
+* Sostituire le batterie esaurite entro max 10 minuti. In caso contrario lo strumento potrebbe perdere la data/ora interna che sarà necessario reimpostare.
+
+**Sostituzione batterie interne**
+
+1. Spegnere lo strumento.
+2. Rimuovere i cavi dai terminali di ingresso.
+3. Svitare la vite di fissaggio del coperchio vano batteria (vedere Fig. 1 – parte 6) e rimuoverlo.
+4. Rimuovere tutte le batterie alcaline e sostituirle con altre identiche (vedere § 10.2) rispettando le polarità indicate (vedere Fig. 3).
+5. Riposizionare il coperchio vano batterie e fissarlo con l'apposita vite.
+6. Non disperdere nell’ambiente le batterie utilizzate. Usare gli appositi contenitori per lo smaltimento.
+
+**Ricarica batterie interne**
+
+La ricarica completa delle batterie va sempre eseguita tramite alimentatore esterno fornito in dotazione. L’alimentatore esterno ricarica le batterie con strumento sia acceso che spento. Non ricaricare batterie alcaline. Procedere nel modo seguente:
+
+1. Rimuovere i cavi dai terminali di ingresso.
+2. Spostare verso destra la slitta presente sugli ingressi (vedere Fig. 1 – parte 9) in modo da rendere disponibile l’ingresso “Ext P.Supply”.
+3. Accendere lo strumento.
+4. Inserire l’alimentatore esterno sullo strumento e collegarlo alla rete elettrica. Il simbolo “`[Icona Batteria in Carica]`” è presente nella parte alta destra del display ad indicare il processo in corso di ricarica delle batterie interne.
+5. Procedere con la ricarica fino alla visualizzazione dell’icona “`[Icona Batteria Carica]`” alla rimozione dell’alimentatore esterno.
+
+### 9.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+I - V600 IT - 89
+## 10. SPECIFICHE TECNICHE
+
+### 10.1. CARATTERISTICHE TECNICHE
+
+Incertezza indicata come ± [%lettura + (num. cifre* risoluzione)] a 23°C ± 5°C, <80%RH
+
+**FUNZIONE MULTIMETRO**
+
+**DMM – Tensione DC**
+
+| Campo [V]   | Risoluzione [V]   | Incertezza           |
+| :---------- | :---------------- | :------------------- |
+| 3 ÷ 1500    | 1                 | ±(1.0% lettura + 2cifre) |
+
+**MISURE DI CURVA I - V E TEST IVCK**
+
+**I-V, IVCK: Tensione DC (@OPC)**
+
+| Campo [V]      | Risoluzione [V]   | Incertezza (*)   |
+| :------------- | :---------------- | :--------------- |
+| 15.0 ÷ 1500.0  | 0.1               | ±(0.2%Voc)       |
+
+(*) In accordo a normativa IEC/EN60904-1; Le misure partono per VDC > 15V e capacità modulo < 30μF
+
+**I-V, IVCK: Corrente DC (@OPC)**
+
+| Campo [A]    | Risoluzione [A]   | Incertezza (*)   |
+| :----------- | :---------------- | :--------------- |
+| 0.20 ÷ 40.00 | 0.01              | ±(0.2%Isc)       |
+
+(*) In accordo a normativa IEC/EN60904-1; Iscmin = 0.2A e capacità modulo <30μF
+
+**I-V: Potenza DC (@OPC) (VDC > 30V)**
+
+| Campo [W]       | Risoluzione [W]   | Incertezza               |
+| :-------------- | :---------------- | :----------------------- |
+| 50 ÷ 9999       | 1                 | ±(1.0% lettura + 6cifre) |
+| 10.00k ÷ 59.99k | 0.01k             |                          |
+
+(*) Tensione VDC ≥ 30V e capacità modulo <30μF
+
+**I-V, IVCK: Tensione DC (@STC)**
+
+| Campo [V]     | Risoluzione [V]   | Incertezza             |
+| :------------ | :---------------- | :--------------------- |
+| 3.0 ÷ 1500.0  | 0.1               | ±(4.0% lettura + 2cifre) |
+
+**I-V, IVCK: Corrente DC (@STC)**
+
+| Campo [A]    | Risoluzione [A]   | Incertezza             |
+| :----------- | :---------------- | :--------------------- |
+| 0.20 ÷ 40.00 | 0.01              | ±(4.0% lettura + 2cifre) |
+
+**I-V: Potenza DC @STC (riferita a 1 modulo)**
+
+| Campo [W]   | Risoluzione [W]   | Incertezza               |
+| :---------- | :---------------- | :----------------------- |
+| 50 ÷ 9999   | 1                 | ±(4.0% lettura + 2 cifre) |
+
+Capacità modulo <30μF
+
+**ATTENZIONE**
+Lo strumento esegue misure di Curve I-V e test IVCK anche su moduli FV con efficienza >19%.
+
+I - V600 IT - 90
+### 10.2. CARATTERISTICHE GENERALI
+
+**Normative di riferimento**
+* Sicurezza strumento: IEC/EN61010-1, IEC/EN61010-2-030
+* EMC: IEC/EN61326-1
+* Documentazione tecnica: IEC/EN61187
+* Sicurezza accessori di misura: IEC/EN61010-031
+* Misure: IEC/EN60891, IEC/EN60904-1-2 (curve I-V)
+* IEC/EN62446, IEC/EN60904-1-2 (test IVCK)
+* Temperatura moduli (Auto): IEC/EN60904-5
+* Ambiente EMC di utilizzo: portatile, Classe A, Gruppo 1
+* Isolamento: doppio isolamento
+* Grado di inquinamento: 2
+* Categoria di misura: CAT III 1500VDC, max 1500 VDC tra gli ingressi
+* Radio Conformità a direttive RED: ETSI EN300328, ETSI EN301489-1, ETSI EN301489-17
+* Capacità di misura 6.5MWh/ora (@Voc=1500V,Isc=40 A - 108 test/ora) nessun raffreddamento richiesto, indipendentemente dalla temperatura ambientale
+
+**Display, memoria e interfaccia PC**
+* Tipo display: TFT colori, touch screen capacitivo, 7”, 800x480pxl
+* Tipo memoria: Memory card, max 32GB (non espandibile)
+* Database moduli: circa 63000 moduli salvabili
+* Dati memorizzabili: 9999 test IVCK o curve I-V
+* Interfaccia PC: USB-C e WiFi
+* Interfaccia con SOLAR03: collegamento Bluetooth (fino a 100m in spazio libero)
+
+**Alimentazione**
+* Alimentazione interna: 8 x1.5V batterie alcaline tipo AA LR06 oppure 8x1.2V batterie ricaricabili NiMH tipo AA
+* Alimentazione esterna: alimentatore esterno 100-415 VAC/15VDC, 50/60Hz CAT IV 300V (usare solo alimentatore HT)
+* Consumo: 8 W
+* Indicazione batteria scarica: simbolo “`[Icona Batteria Scarica]`” mostrato a display
+* Tempo di ricarica: circa 4 ore
+* Durata batterie (@0°C ÷ 40°C): 8 ore nelle seguenti condizioni:
+    * Capacità batterie: 2000mAh
+    * Tensione di stringa FV: 800V
+    * Cicli lavoro: 80misure/ora
+    * Strumento collegato ai moduli per 30s/misura
+    * Strumento scollegato per 15s/misura
+* Autospegnimento: 1 ÷ 10min selezionabile (disabilitabile)
+
+**Caratteristiche meccaniche**
+* Dimensioni (L x La x H): 336 x 300 x 132 mm
+* Peso (batterie incluse): 5.5 kg
+* Protezione meccanica: IP40 (valigia aperta), IP67 (valigia chiusa)
+
+I - V600 IT - 91
+### 10.3. CONDIZIONI AMBIENTALI DI UTILIZZO
+
+* Temperatura di riferimento: 23° ± 5°C
+* Temperatura di utilizzo: -10°C ÷ 50°C
+* Umidità relativa ammessa: <80% RH
+* Temperatura di conservazione: -20°C ÷ 60°C
+* Umidità di conservazione: <80% RH
+* Max altitudine di utilizzo: 2000m
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione 2014/35/EU (LVD), della direttiva EMC 2014/30/EU e della direttiva RED 2014/53/EU.
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (RoHS) e della direttiva europea 2012/19/EU (WEEE).
+
+### 10.4. ACCESSORI
+
+Vedere packing list allegata.
+
+**ATTENZIONE**
+Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+
+I - V600 IT - 92
+## 11. APPENDICE
+
+### 11.1. MISURA DELLA CURVA I - V
+
+Lo strumento è progettato per eseguire test e misure su moduli FV formati da un opportuno numero di celle FV al fine di rilevare la loro caratteristica I-V (Corrente-Tensione) che li identificano costruttivamente, sulla base della normativa di riferimento IEC/EN60891.
+I test sono eseguibili sia su singoli moduli sia su una stringa FV (insieme di moduli FV), il cui insieme costituisce ciò che viene comunemente detto “generatore fotovoltaico”, parte integrante di una installazione FV Monofase o Trifase.
+
+#### 11.1.1. Aspetti teorici sulla misura della Curva I - V
+
+A livello teorico il test sulla curva I-V avviene nel modo seguente:
+* Lo strumento esegue la misura della caratteristica I-V sul modulo ad esso collegato, oltre alla misura di irraggiamento e di temperatura del modulo.
+* Il risultato della misura viene automaticamente “traslato” alle condizioni Standard STC (**S**tandard **T**est **C**ondition) di irraggiamento pari a 1000W/m² e temperatura modulo pari a 25°C. Per ottenere risultati di precisione conforme a quanto indicato nel presente manuale si raccomanda di attenersi alle specifiche riportate nel § 10.1.
+* Viene eseguito il controllo fra la potenza nominale massima, con il margine di tolleranza percentuale dichiarato dal costruttore del modulo e inserito nel tipo di modulo in precedenza selezionato sullo strumento (vedere § 6.3.1), ed il valore misurato.
+* Se il controllo rientra nel margine di tolleranza dichiarato, l’esito della prova sarà “OK” oppure “NO OK” in caso contrario con conseguenza che il modulo FV non soddisfa le prescrizioni dichiarate dal costruttore (vedere § 6.4.5).
+
+I - V600 IT - 93
+### 11.2. ERRORI TIPICI SULLA MISURA DI CURVA I - V E POSSIBILI SOLUZIONI
+
+| Misure             | Evento                                                                       | Soluzione                                                                                                   |
+| :----------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| Misura corretta    | * La curva misurata estrapolata alle condizioni STC (blu) è congruente con la curva ideale del costruttore (nera) | * Nessun errore, salvare il dato ed eseguite test su un’altra stringa                                       |
+| Isc troppo bassa   | * Sensore di irraggiamento orientate in modo diverso rispetto alla stringa in prova<br/>* Riflessioni sul sensore di irraggiamento<br/>* Errata selezione del modulo nella configurazione del sistema FV<br/>* Contaminazione ambientale sul modulo (sporcizia, neve, detriti)<br/>* Ostruzioni a media distanza (ombreggiamenti)<br/>* Invecchiamento | * Orientare correttamente il sensore di irraggiamento<br/>* Impostare correttamente lo strumento<br/>* Pulire i moduli<br/>* Rimuovere le ostruzioni<br/>* Controllare i moduli da ombreggiamenti, umidità, ecc<br/>* Sostituire i moduli danneggiati |
+| Isc troppo alta    | * Sensore di irraggiamento orientate in modo diverso rispetto alla stringa in prova<br/>* Riflessioni sul sensore di irraggiamento<br/>* Sporcizia sul sensore di irraggiamento<br/>* Errata selezione del modulo nella configurazione del sistema FV<br/>* Sensore di irraggiamento danneggiato | * Orientare correttamente il sensore di irraggiamento<br/>* Pulire il sensore di irraggiamento<br/>* Rimuovere le ostruzioni<br/>* Controllare i moduli da ombreggiamenti, umidità, ecc.<br/>* Controllare le impostazioni sullo strumento<br/>* Sostituire il sensore di irraggiamento danneggiato |
+| Tensione a vuoto troppo bassa | * Misura di temperature bassa<br/>* Selezione errata del numero di moduli nella configurazione del sistema FV<br/>* Diodi di bypass cortocircuitati | * Collegare correttamente la termocoppia nella sede tipica del modulo<br/>* Selezionare il modo AUTO<br/>* Impostare correttamente lo strumento<br/>* Sostituire i moduli danneggiati |
+| Rapporto Impp/Isc basso | * Sporcizia sui moduli<br/>* Problemi di ombreggiatura<br/>* Corrispondenza incorretta delle correnti<br/>* Degrado della resistenza shunt della cella | * Pulire I moduli<br/>* Eliminare l’ombreggiatura sui moduli<br/>* Controllare la corrispondenza delle correnti<br/>* Sostituire i moduli danneggiati                                 |
+
+I - V600 IT - 94
+| Misure              | Evento                                                                                                                                                                                             | Soluzione                                                                                                                                                                                |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rapporto Vmpp/Voc basso | * Caduta di tensione sui cavi delle stringhe di moduli FV                                                                                                                                          | * Controllare cavi, connettori, contatti e connessioni delle stringhe<br/>* Controllare lunghezza e sezione dei cavi di collegamento<br/>* Verificare la presenza di errate connessioni o ossidazioni sui moduli<br/>* Sostituire i moduli danneggiati |
+| Gradini nella curva I-V | * Piccola o parziale ombreggiatura di un modulo della stringa in misura<br/>* Riflessioni<br/>* Contaminazione ambientale casual sui moduli (sporcizia, neve, detriti, ecc..)<br/>* Rottura di celle o vetro<br/>* Parti bruciate | * Rimuovere le ostruzioni<br/>* Ripetere il test dopo aver rimosso le ombreggiature<br/>* Rimuovere le riflessioni<br/>* Pulire i moduli<br/>* Controllare la corrispondenza delle correnti<br/>* Sostituire i moduli danneggiati |
+| Curva I-V non lineare | * Irraggiamento instabile durante la misura<br/>* Ombreggiatura dei moduli a “macchia di leopardo”<br/>* Irraggiamento basso durante la misura                                                              | * Ripetere il test in condizione di cielo sereno<br/>* Ripetere la misura con irraggiamento minimo di 700W/m² (IEC/EN60891)                                                             |
+
+I - V600 IT - 95
+### 11.3. CALCOLO DECADIMENTO PRESTAZIONALE PERCENTUALE ANNUO
+
+I costruttori forniscono nelle schede tecniche dei moduli FV le informazioni sulla percentuale di decadimento prestazionale annuo nell’arco di un certo numero di anni di servizio. Queste indicazioni sono normalmente mostrate con una funzione lineare come quella riportata nella Fig. 23 oppure solo come descrizione testuale che deve essere correttamente interpretata al fine di definire la suddetta situazione nello strumento.
+Sulla base di queste informazioni, con una opportuna programmazione dei parametri interni **Prest@An1**, **Prest@An2**, **Anni@Prest1**, **Anni@Prest2** nella sezione DB (vedere § 6.3), lo strumento tiene conto dell’effetto di decadimento nella valutazione dell’esito finale della misura di curva I-V come indicato nel § 6.4.5.
+
+**ATTENZIONE**
+Prestare particolare attenzione alla programmazione dei parametri **Prest@An1**, **Prest@An2**, **Anni@Prest1** e **Anni@Prest2** al fine di evitare possibili errati esiti negativi nei risultati delle misure di curve I-V.
+
+In generale il decadimento di prestazione% è calcolato dallo strumento in base alla seguente relazione:
+DecadPrest% = `(Prest@An1 − Prest@An2) / (Anni@Prest2 − Anni@Prest1)` [1]
+
+La relazione [1] è determinata in base alle caratteristiche presenti nella scheda tecnica del modulo FV. Si forniscono di seguito alcuni esempi al fine di fissare le idee.
+
+**Esempio 1 → parametri determinati con descrizione testuale scheda tecnica**
+
+La scheda tecnica di un costruttore recita quanto segue:
+(...) con la garanzia lineare del rendimento, XXXXXXXX garantisce per **25 anni** una riduzione progressiva massima del rendimento dello **0,7% all'anno**, un chiaro valore aggiunto rispetto alla garanzia scalare standard nel settore (...)
+
+In questa situazione i dati disponibili sono:
+* DecadPrest% annuo = 0.7%
+* Prest@An1 = 100% – 0.7% = 99.3% → Prestazione modulo dopo 1 anno di servizio
+* Anni@Prest1 = 1
+* Prest@An2 = 82.5% → Prestazione modulo dopo 25 anni di servizio ricavabile dalla formula inversa di [1]
+* Anni@Prest2 = 25
+
+Con i dati ricavabili dal testo, la relazione [1] fornisce il DecadPrest% = 0.7% che sarà il valore calcolato e considerato dallo strumento.
+
+Conclusione → i parametri da impostare sullo strumento sono i seguenti:
+* Prest@An1 = 99.3%
+* Anni@Prest1 = 1
+* Prest@An2 = 82.5%
+* Anni@Prest2 = 25
+
+I - V600 IT - 96
+**Esempio 2 → parametri determinati da curva con partenza da 0 anni**
+
+La scheda tecnica mostra la curva sotto riportata oltre alle seguenti informazioni:
+Decadimento medio annuale inferiore allo 0.3% dal 2° anno al 30°anno
+
+In questa situazione i dati disponibili sono:
+* DecadPrest% annuo = 0.3% (dichiarato)
+* Prest@An1 = 100.0% → Prestazione modulo all’anno 0
+* Anni@Prest1 = 0
+* Prest@An2 = 90.3% → Prestazione modulo dopo 30 anni di servizio (dal grafico)
+* Anni@Prest2 = 30
+
+Con i dati ricavabili dal grafico la relazione [1] fornisce il DecadPrest% = 0.32% che sarà il valore calcolato e considerato dallo strumento.
+
+Conclusione → i parametri da impostare sullo strumento in base al grafico sono i seguenti:
+* Prest@An1 = 100.0%
+* Anni@Prest1 = 0
+* Prest@An2 = 90.3%
+* Anni@Prest2 = 30
+
+I - V600 IT - 97
+**Esempio 3 → parametri determinati da curva con partenza da 1 anno**
+
+La scheda tecnica seguente mostra la curva relativa a un modulo Bifacciale.
+
+In questa situazione i dati disponibili sono:
+* DecadPrest% annuo = 0.45% (dichiarato)
+* Prest@An1 = 98.0% → Prestazione modulo dopo 1 anno di servizio (dal grafico)
+* Anni@Prest1 = 1
+* Prest@An2 = 84.95% → Prestazione modulo dopo 30 anni di servizio (dal grafico)
+* Anni@Prest2 = 30
+
+Con i dati ricavabili dal grafico la relazione [1] fornisce il DecadPrest% = 0.45% che sarà il valore calcolato e considerato dallo strumento.
+
+Conclusione → i parametri da impostare sullo strumento in base al grafico sono i seguenti:
+* Prest@An1 = 98.0%
+* Anni@Prest1 = 1
+* Prest@An2 = 84.95%
+* Anni@Prest2 = 30
+
+I - V600 IT - 98
+## 12. ASSISTENZA
+
+### 12.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+* Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia).
+* Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+* Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+* Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+* Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+* Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+### 12.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il servizio di assistenza, controllare lo stato della batteria e dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
+
+**HT ITALIA SRL**
+Via della Boaria, 40
+48018 – Faenza (RA) – Italy
+T +39 0546 621002 | F +39 0546 621144
+M ht@ht-instruments.com | www.ht-instruments.it
+
+**WHERE WE ARE**
+
+**HT INSTRUMENTS SL**
+C/ Legalitat, 89
+08024 Barcelona – Spain
+T +34 93 408 17 77 | F +34 93 408 36 30
+M info@htinstruments.es | www.ht-instruments.com/es-es/
+
+**HT INSTRUMENTS GmbH**
+Am Waldfriedhof 1b
+D-41352 Korschenbroich – Germany
+T +49 (0) 2161 564 581 | F +49 (0) 2161 564 583
+M info@ht-instruments.de | www.ht-instruments.de
