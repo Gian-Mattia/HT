@@ -84,6 +84,11 @@
       "id": "GSC60.md",
       "name": "GSC60",
       "description": "Un solo strumento multifunzione per tutte le verifiche della sicurezza elettrica ed analisi di rete."
+    },
+    {
+      "id": "EQUITEST.md",
+      "name": "EQUITEST",
+      "description": "Strumento per la misura di Continuità con corrrente di prova di 10A."
     }
   ]
 }
