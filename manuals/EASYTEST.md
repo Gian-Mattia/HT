@@ -4,7 +4,7 @@
 <!-- Version: 1.0 -->
 
 <!-- Chunk: Pages 1-22 -->
-```markdown
+
 EASYTEST HT5040 Manuale d’uso
 
 EASYTEST
