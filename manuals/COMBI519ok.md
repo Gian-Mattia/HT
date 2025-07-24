@@ -1,4 +1,4 @@
-# EASYTEST
+# COMBI519
 
 <!-- Language: it -->
 <!-- Version: 1.1 -->
@@ -6,7 +6,6 @@
 <!-- Chunk: Pages 1-39 -->
 © Copyright HT ITALIA 2025 Versione IT 2.03 - 30/04/2025 **EASYTEST** - **COMBI519** Manuale d’uso
 
-**EASYTEST** - **COMBI519** IT - 1
 # INDICE
 
 ## 1. PRECAUZIONI E MISURE DI SICUREZZA
