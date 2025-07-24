@@ -3,9 +3,6 @@
 <!-- Language: it -->
 <!-- Version: 1.0 -->
 
-<!-- Chunk: Pages 1-15 -->
-# EQUITEST 5
-
 ## 1. PRECAUZIONI E MISURE DI SICUREZZA
 ### 1.1. Istruzioni preliminari
 ### 1.2. Durante l’uso
@@ -64,8 +61,6 @@ Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
 *   **Riferimento di terra**
 *   Il simbolo indica che l'apparecchiatura ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto
 
-# EQUITEST 7
-
 ### 1.1. ISTRUZIONI PRELIMINARI
 > ATTENZIONE
 > * Lo strumento può essere usato per misure di **RESISTENZA** su installazioni con **CAT III 300V** verso terra
@@ -80,8 +75,6 @@ Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
 > * Prima di cambiare funzione scollegare i puntali di misura dal circuito in esame.
 > * Quando lo strumento è connesso al circuito in esame non toccare mai alcun terminale, anche se inutilizzato
 > * Evitare la misura di resistenza in presenza di tensioni esterne; anche se lo strumento è protetto una tensione eccessiva potrebbe causarne danneggiamenti
-
-# EQUITEST 8
 
 ### 1.3. DEFINIZIONE DI CATEGORIA DI MISURA
 La norma IEC/EN61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali, definisce cosa si intenda per categoria di misura. Al § 6.7.4: Circuiti di misura, essa recita:
@@ -98,8 +91,6 @@ I circuiti sono suddivisi nelle seguenti categorie di misura:
     *   Esempi sono costituiti da misure su apparecchiature per uso domestico e similari.
 *   La **Categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE
     *   Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura
-
-# EQUITEST 9
 
 ## 2. DESCRIZIONE GENERALE
 Lo strumento **EQUITEST** è progettato per l’esecuzione della misura di continuità dei conduttori di protezione ed equipotenziali con corrente di prova **>10A AC** nei seguenti modi:
@@ -135,8 +126,6 @@ Le seguenti funzioni sono disponibili:
 *   Collegamento WiFi a dispositivi mobili tramite APP **HT Equitest** per uso in modo indipendente
 *   Fusibile di protezione in ingresso
 
-# EQUITEST 10
-
 ## 3. PREPARAZIONE ALL’UTILIZZO
 
 ### 3.1. CONTROLLI INIZIALI
@@ -158,8 +147,6 @@ Lo strumento è alimentato da rete **230VAC, 50/60Hz** (condizione di default) o
 ### 3.4. CONSERVAZIONE
 Per garantire misure precise, dopo un lungo periodo di conservazione, attendere che Lo strumento ritorni alle condizioni ambientali indicate nel § **7.2**.
 
-# EQUITEST 11
-
 ## 4. NOMENCLATURA
 
 ### 4.1. DESCRIZIONE DEL LO STRUMENTO
@@ -176,8 +163,6 @@ Fig. 1 Descrizione dello strumento
 9.  Terminale di ingresso **P2**
 10. Spina per collegamento alimentazione di rete
 
-# EQUITEST 12
-
 ### 4.2. DESCRIZIONE TERMINALI DI MISURA
 Fig. 2 Descrizione dei terminali di misura
 
@@ -193,8 +178,6 @@ Tabella 1: Descrizione stato dei LED indicatorI
 | WiFi   | Questo LED identifica lo stato del collegamento del modulo WiFi interno. Le seguenti situazioni sono possibili: <br/>➢ Spento → collegamento WiFi assente <br/>➢ Verde fisso → collegamento WiFi attivo <br/>➢ Verde lampeggiante → strumento in attesa di connessione WiFi <br/>➢ Rosso → malfunzionamento modulo WiFi interno (contattare il servizio assistenza HT) |
 | STATUS | Questo LED identifica il tipo di misura eseguita in collegamento con unità MASTER (vedere relativo manuale d’uso) o in modo indipendente. Le seguenti situazioni sono possibili: <br/>➢ Verde → funzionamento in modo Manuale <br/>➢ Arancio → funzionamento in modo Automatico <br/>➢ Rosso → presenza di errori sul collegamento (contattare il servizio assistenza HT) |
 
-# EQUITEST 13
-
 ## 5. ISTRUZIONI OPERATIVE
 
 ### 5.1. USO DELLO STRUMENTO CON UNITÀ MASTER
@@ -208,15 +191,10 @@ Fig. 3 Uso dello strumento con unità MASTER
 2.  Collegare Lo strumento allo strumento **MASTER** (vedere Fig.3) tramite il cavo **C2050** fornito in dotazione (vedere Fig.1 – parte 1)
 3.  Controllare sullo strumento **MASTER** il corretto riconoscimento dello strumento (vedere manuale d’uso relativo)
 4.  Collegare i due cavi neri del set di cavi **C7000** alle boccole di ingresso **P1** e **P2** e i due cavi rossi alle boccole di ingresso **C1** e **C2** (vedere Fig.3)
-
-# EQUITEST 14
-
 5.  Collegare i terminali a coccodrillo del set di cavi **C7000** alle estremità dell’oggetto in prova (vedere Fig.3)
 6.  Premere il tasto **GO/STOP** sullo strumento **MASTER** per attivare la prova in **modo Manuale**. Lo strumento fornisce la corrente di prova **>10A AC** e il risultato di misura è mostrato a display dello strumento **MASTER** (vedere manuale d’uso relativo)
 7.  Con selezione del **modo Automatico** sullo strumento **MASTER** (misura attivata senza uso del tasto **GO/STOP**) verificare che il LED **STATUS** sia acceso in colore **arancio fisso** e collegare i terminali a coccodrillo alle estremità dell’oggetto in prova (vedere Fig. 3) per attivare automaticamente il test
 8.  Per il salvataggio e gestione del risultato fare riferimento al manuale d’uso dello strumento **MASTER**
-
-# EQUITEST 15
 
 ### 5.2. USO DELLO STRUMENTO CON HT EQUITEST APP
 > ATTENZIONE
@@ -229,8 +207,6 @@ Fig. 4 Uso dello strumento con HT Equitest APP
 2.  Scaricare e installare l’APP **HT Equitest** sul dispositivo mobile
 3.  Nella sezione “**Impostazioni**” del dispositivo mobile, entrare nella sezione “**Connessioni → WiFi**”, ricercare lo strumento “**16230_xxx xxxxx**” (“xxxxxxxx = numero di serie strumento EQUITEST) e attivare la “**Connessione senza Internet**”
 4.  Avviare l’APP **HT Equitest**, procedere con le impostazioni desiderate (**selezione lingua, limite massimo di misura, modo di misura Automatico e dati utente per report**) e toccare la voce “**Tap per connetterti**” per attivare il collegamento WiFi. Notare che il LED **WiFi** sullo strumento passi dal colore “**verde lampeggiante**” a “**verde fisso**” ad indicare la corretta operazione. Le informazioni dello strumento (**modello, numero di serie, versione del FW e data di calibrazione**) sono presenti nella parte bassa del display
-
-# EQUITEST 16
 
 5.  Collegare i due cavi neri del set di cavi **C7000** alle boccole di ingresso **P1** e **P2** e i due cavi rossi alle boccole di ingresso **C1** e **C2** (vedere Fig. 4)
 6.  Collegare i terminali a coccodrillo del set di cavi **C7000** alle estremità dell’oggetto in prova (vedere Fig. 4)
@@ -245,8 +221,6 @@ Fig. 4 Uso dello strumento con HT Equitest APP
 
 ### 6.1. PULIZIA DELLO STRUMENTO
 Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
-
-# EQUITEST 17
 
 ## 7. SPECIFICHE TECNICHE
 
@@ -270,8 +244,6 @@ Incertezza calcolata come ± [%lettura + (num. cifre) * risoluzione] a 23°C ± 
 | Campo [A]    | Risoluzione [A] | Incertezza                   |
 | :----------- | :-------------- | :--------------------------- |
 | 0.00 ÷ 19.99 | 0.01            | ± (1.0 % lettura + 2cifre) |
-
-# EQUITEST 18
 
 ### 7.2. CARATTERISTICHE GENERALI
 
@@ -312,8 +284,6 @@ Incertezza calcolata come ± [%lettura + (num. cifre) * risoluzione] a 23°C ± 
 
 #### 7.3.1. Accessori in dotazione
 Vedere packing list allegata
-
-# EQUITEST 19
 
 ## 8. ASSISTENZA
 
