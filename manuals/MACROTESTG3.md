@@ -38,7 +38,7 @@
 6.  ISTRUZIONI OPERATIVE
     6.1. RPE: Continuità dei conduttori di protezione
     6.1.1. Situazioni anomale
-    6.2. M  : Misura di isolamento
+    6.2. M Ω : Misura di isolamento
     6.2.1. Modo AUTO o Timer L - PE
     6.2.2. Modo AUTO L/N - PE
     6.2.3. Situazioni anomale
@@ -194,7 +194,7 @@ Questo manuale si riferisce ai modelli **MACROEV TEST**, **MACROTESTG3**, **MACR
 | Icona  | Descrizione misura                                                                                                                                                 | MACRO EV TEST | MACROTEST G3 | MACROTEST G2 | MACROTEST G1 | COMBI G2 | COMBI G3 | SUPER COMBI |
 | :----- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ | :----------- | :----------- | :----------- | :------- | :------- | :---------- |
 | RPE    | Prova di continuità dei conduttori di terra, di protezione ed equipotenziali e test continuità come funzione multimetro                                              | √             | √            | √            | √            | √        | √        | √           |
-| M     | Misura della resistenza di isolamento (modalidades L - PE y L/N - PE)                                                                                              | √             | √            | √            | √            | √        | √        |             |
+| M Ω    | Misura della resistenza di isolamento (modalidades L - PE y L/N - PE)                                                                                              | √             | √            | √            | √            | √        | √        |             |
 | RCD    | Test su differenziali di tipo scatolato (STD) AC, A/F, B(B+, DD e con toroide separato ( ))                                                                          | √             | √            | √            | √            | √        |          |             |
 | AUTO   | Misura AUTO di NoTrip , RCD, M  in sequenza                                                                                                                       | √             | √            | √            | √            | √        |          |             |
 | LOOP   | Misure della Resistenza Globale di Terra (NoTrip ) e misura della impedenza di linea e dell'anello di guasto (Loop P - N, P - P, P - PE)                              | √             | √            | √            | √            | √        |          |             |
@@ -213,17 +213,17 @@ Lo strumento è dotato di un display a colori LCD, TFT con “touch - screen” 
 Lo strumento può eseguire le seguenti prove (compatibilmente con le caratteristiche illustrate nella Tabella 1:
 
 *   **RPE** Prova di continuità dei conduttori di terra, di protezione ed equipotenziali con corrente di prova superiore a 200mA e tensione a vuoto compresa tra 4 e 24V e test continuità come funzione multimetro
-*   **M ** Misura della resistenza di isolamento L/PE o L - N/PE con tensione continua di prova 50V, 100V, 250V, 500V o 1000V DC
+*   **M Ω** Misura della resistenza di isolamento L/PE o L - N/PE con tensione continua di prova 50V, 100V, 250V, 500V o 1000V DC
 *   **RCD** Test su differenziali di tipo scatolato (Standard - STD) e con toroide separato ( ) Generali (G), Selettivi (S) e Ritardati ( ) di tipo A /F ( ) AC( ) , B /B+ ( ) e DD dei seguenti parametri: tempo di intervento, corrente di intervento , tensione di contatto
 *   **LOOP** Misura dell’impedenza di Linea/Loop P - N, P - P, P - E con calcolo della corrente di cortocircuito presunta anche con risoluzione elevata (0.1m  ) (con accessorio opzionale IMP57), resistenza globale di terra senza intervento RCD (NoTrip ), verifica del potere di interruzione di protezioni magnetotermiche (MCB) e fusibili, test I2t, verifica delle protezioni in caso di contatti indiretti
-*   **AUTO TEST** Misura in sequenza automatica delle funzioni NoTrip , RCD, M  (L - PE, N - PE) nei sistemi TT e TN
+*   **AUTO TEST** Misura in sequenza automatica delle funzioni NoTrip , RCD, M Ω (L - PE, N - PE) nei sistemi TT e TN
 *   **EARTH** Misura della resistenza di terra e della resistività del terreno con metodo voltamperometrico e con pinza esterna collegata allo strumento ( con accessorio opzionale T2100)
 *   **SEQ** Indicazione del senso ciclico delle fasi con metodo a 1 e 2 terminali
 *   **AUX** Misurazione dei parametri ambientali (illuminamento sorgente luce bianca , illuminamento sorgenti LED, temperatura dell’aria, umidità ) attraverso sonde esterne opzionali e segnali di tensione DC
 *   **LEAKAGE** Misura della corrente di dispersione (con accessorio opzionale HT96U)
 *   **ΔV%** Misura della caduta di tensione percentuale sulle linee
 *   **RPE 10A** Prova di continuità dei conduttori di terra, di protezione ed equipotenziali con corrente di prova >10A (con accessorio opzionale EQUITEST)
-*   **PQA** Misura in tempo reale dei parametri di rete elettrica (potenze, armoniche, fattore di potenza/cos  ) in sistemi Monifase o Trifase equilibrati
+*   **PQA** Misura in tempo reale dei parametri di rete elettrica (potenze, armoniche, fattore di potenza/cos φ ) in sistemi Monifase o Trifase equilibrati
 *   **EVSE** Test sicurezza sistemi di ricarica auto elettriche in modo 2 e 3 (con accessorio opzionale EV - TEST100
 
 ## 3. PREPARAZIONE ALL’UTILIZZO
@@ -250,7 +250,7 @@ LEGENDA:
 1. Ingressi
 2. Display LCD touch screen
 3. Tasti funzione F1, F2, F3, F4
-4. Tasti  ,  ,  ,  / ENTER
+4. Tasti ↓ , ↑ , → , ← / ENTER
 5. Vano connettore cavo ottico/USB
 6. Tasto ESC
 7. Tasto GO/STOP
@@ -288,7 +288,7 @@ La tastiera è costituita dai seguenti tasti:
 
 *   **Tasto ON/OFF** per accendere e spegnere lo strumento
 *   **Tasto ESC** per uscire dal menu selezionato senza confermare le modifiche
-*   **Tasti    ** per spostare il cursore all’interno delle varie schermate allo scopo di selezionare i parametri di programmazione
+*   **Tasti ↓  ↑  →  ←** per spostare il cursore all’interno delle varie schermate allo scopo di selezionare i parametri di programmazione
 *   **Tasto HOME / ENTER** per tornare al Menu generale dello strumento in ogni momento
 *   **Tasto GO /STOP** per avviare la misurazione
 *   **Tasto SAVE** per salvare la misura
@@ -391,7 +391,7 @@ Questa funzione viene eseguita secondo le norme CEI 64.8 612.2, IEC/EN61557 - 4,
 
 Sono disponibili le seguenti modalità di funzionamento:
 
-*   **C ompensazione** della resistenza dei cavi utilizzati per la misurazione, lo strumento sottrae automaticamente il valore della resistenza dei cavi al valore di resistenza misurato. E’ pertanto necessario che tale valore venga misurato ogni volta che i cavi di misura vengono cambiati o prolungati
+*   **Compensazione** della resistenza dei cavi utilizzati per la misurazione, lo strumento sottrae automaticamente il valore della resistenza dei cavi al valore di resistenza misurato. E’ pertanto necessario che tale valore venga misurato ogni volta che i cavi di misura vengono cambiati o prolungati
 *   **AUTO** Lo strumento effettua due misurazioni a polarità invertita e visualizza il valor medio tra le due misure. Modalità consigliata
 *   Lo strumento esegue una misura di continuità tra due punti come un comune multimetro senza possibiltà di salvare il risultato del test
 *   Lo strumento esegue la misurazione con la possibilità di impostare il tempo di durata della prova. L’operatore può impostare un tempo sufficientemente lungo (tra 1s e 15s) per poter muovere i conduttori di protezione mentre lo strumento sta eseguendo la prova al fine di poter individuare un’eventuale cattiva connessione
@@ -426,8 +426,8 @@ Fig. 7 : Compensazione della resistenza dei cavi singoli e del puntale remoto
     Premere il tasto **SAVE** o toccare l’icona per il salvataggio della misura (vedere § 7.1)
 10. Il valore del risultato nella funzione “ ” è mostrato nella figura mostrata nella videata a lato. Lo strumento emette un suono continuo se il valore misurato è inferiore o uguale alla soglia impostata. Premere nuovamente il tasto **GO/STOP** sullo strumento od il tasto **START** sul puntale remoto per terminare la misura.
     Questa funzione non consente il salvataggio in memoria del risultato
-11. Al termine della prova nella funzione AUTO nel caso in cui il valore della resistenza misurata risulti superiore al limite impostato la videata a fianco è mostrata a display. Il valore è mostrato in rosso e il simbolo indica il risultato non ok della misura. L’indicazione “> 1999  ” indica il fuori scala dello strumento. Premere il tasto **SAVE** o toccare l’icona per il salvataggio della misura (vedere § 7.1)
-12. Al termine della prova nella funzione “ ” nel caso in cui il valore della resistenza misurata risulti superiore al limite impostato, il valore è mostrato in rosso. L’indicazione “> 19 99  ” indica il fuori scala dello strumento come mostrato nella videata a fianco
+11. Al termine della prova nella funzione AUTO nel caso in cui il valore della resistenza misurata risulti superiore al limite impostato la videata a fianco è mostrata a display. Il valore è mostrato in rosso e il simbolo indica il risultato non ok della misura. L’indicazione “> 1999 Ω ” indica il fuori scala dello strumento. Premere il tasto **SAVE** o toccare l’icona per il salvataggio della misura (vedere § 7.1)
+12. Al termine della prova nella funzione “ ” nel caso in cui il valore della resistenza misurata risulti superiore al limite impostato, il valore è mostrato in rosso. L’indicazione “> 1999 Ω ” indica il fuori scala dello strumento come mostrato nella videata a fianco
 
 #### 6.1.1. Situazioni anomale
 
@@ -437,7 +437,7 @@ Fig. 7 : Compensazione della resistenza dei cavi singoli e del puntale remoto
 4.  Qualora venga rilevato che la resistenza calibrata sia più elevata della resistenza misurata (ad esempio per uso di cavi diversi da quelli in dotazione), lo strumento emette un segnale acustico prolungato e visualizza una videata come quella a fianco. Eseguire un reset e operare una nuova calibrazione
 5.  Qualora lo strumento rilevi ai propri terminali una tensione superiore a 10V non esegue la prova, emette un segnale acustico prolungato e visualizza una videata come quella a fianco
 
-### 6.2. M  : MISURA DI ISOLAMENTO
+### 6.2. M Ω : MISURA DI ISOLAMENTO
 
 Questa funzione viene eseguita secondo le norme CEI 64.8 612.3, IEC/EN61557 - 2, BS7671 17th edition, AS/NZS 3000, AS/NZS 3017 e consente la misura della resistenza di isolamento tra i conduttori attivi e tra ogni conduttore attivo e la terra.
 
@@ -804,7 +804,7 @@ In cui:
 *   **Ipfc** Corrente di guasto presunta
 
 <!-- Chunk: Pages 44-86 -->
-```markdown
+
 ## 6.4.2. Calibrazione cavi di misura (ZEROLOOP)
 
 Al fine di ottenere migliori risultati è fortemente raccomandata l’esecuzione della calibrazione preliminare dei cavi di misura o del cavo con spina Shuko tramite l’uso dell’accessorio **ZEROLOOP** prima di eseguire il test. In questo modo lo strumento sottrae automaticamente la resistenza di cavi di misura fornendo il risultato effettivo a display. A titolo di esempio è riportata di seguito la procedura per il modo `LOOP STD` Generico estendibile a tutti gli altri casi.
@@ -1109,10 +1109,9 @@ Fig. 32: Misura resistenza dispersori singoli con pinza T2100
 3.  Toccare l’icona <simbolo>. Ogni dato presente nella memoria della pinza è scaricato sullo strumento e scorre in sequenza a display. Al termine dell’operazione il simbolo <simbolo> scompare a display.
 4.  Con la pinza connessa allo strumento è possibile eseguire ed aggiungere ulteriori misurazioni secondo le modalità descritte nel punto 4 precedente.
 5.  Premere il tasto **GO/STOP** sullo strumento e osservare i risultati positivo o negativo della misura come mostrato nei punti 6 e 7 della precedente modalità.
-```
 
 <!-- Chunk: Pages 87-129 -->
-```markdown
+
 ## 6.7.4. Situazioni anomale misura di terra a 3 - fili e 2 - fili
 
 1.  All’avvio della misurazione, qualora lo strumento rilevi in ingresso al circuito voltmetrico e al circuito amperometrico una tensione di disturbo superiore a **10V**, non esegue la prova e visualizza la videata accanto
@@ -1498,10 +1497,6 @@ Tabella 4 : Elenco situazioni considerate nel controllo degli stati
 65. Il test è eseguito dallo strumento considerando solo solo **RCD** di tipo **Generale STD (G)**, di tipo **B /B+** o tipo **DD** e in modalità **Rampa** (`<icon>`) 0°. Toccare la seconda icona. La seguente videata è mostrata a display
 66. Spostare il riferimento della terza barra scorrevole per impostare il valore della **corrente nominale** tra le opzioni: **6,10,30,100,300 mA** (tipo **B/B+**) o **6mA (tipo DD)**. Premere l’icona `<icon>` per confermare le selezioni o premere l’icona `<icon>` per tornare alla videata precedente. Toccare la terza icona. La seguente videata è mostrata a display
 67. Il modo **Rampa** è fisso sullo strumento. Spostare il riferimento della barra scorrevole inferiore selezionando il tipo di visualizzazione della **corrente di intervento** durante la prova a **Rampa** tra le opzioni “**NOM**” o “**REAL**” (vedere § 6.3). Premere l’icona `<icon>` per confermare le selezioni o premere l’icona `<icon>` per tornare alla videata precedente. Premere il tasto **GO/STOP** per alcuni secondi. La seguente videata è mostrata a display
-```
-
-<!-- Chunk: Pages 130-172 -->
-Famiglia Gx IT - 128
 68. Durante tutta questa fase non scollegare i terminali di misura dello strumento dall’impianto in esame.
     Al termine della prova nel caso in cui la corrente di intervento sia compresa nei valori previsti nel § 11.1, lo strumento visualizza il simbolo **a** a segnalare l’esito positivo della prova e visualizza una videata come quella a fianco.
     Premere il tasto **GO/STOP** per alcuni secondi se si desidera eseguire nuovamente la prova
@@ -1509,7 +1504,6 @@ Famiglia Gx IT - 128
 69. Al termine della prova, nel caso in cui la corrente di intervento sia esterna ai valori nei valori previsti nel § 11.1 lo strumento visualizza il simbolo **a** a segnalare l’esito negativo della prova e visualizza una videata come quella a fianco. Premere il tasto **GO/STOP** per alcuni secondi se si desidera eseguire nuovamente la prova. Premere il tasto **SAVE** o toccare l’icona ![Icona SAVE](https://via.placeholder.com/15/000000?text=i) per il salvataggio parziale del test e per terminare la sequenza di test. Lo strumento mostra per alcuni secondi il messaggio riportato nella videata seguente
 70. Ripetere nuovamente la sequenza se necessario
 
-Famiglia Gx IT - 129
 # 7. OPERAZIONI CON MEMORIA
 ## 7.1. SALVATAGGIO DELLE MISURE
 La struttura dell’area di memoria (999 locazioni), di tipo “ad albero” con possibilità di espandere/nascondere i nodi, permette la suddivisione fino a 3 marcatori nidificati in modo da finalizzare con precisione le locazioni dei punti di misura con inserimento dei risultati dei test. Ad ogni marcatore sono associati max 20 nomi fissi (non modificabili né cancellabili) + max 20 nomi che possono essere definiti dall’utente sullo strumento oppure tramite l’uso del software di gestione (vedere l’help in linea del programma). Ad ogni marcatore è inoltre possibile associare un numero compreso tra 1 e 250.
@@ -1522,7 +1516,6 @@ La struttura dell’area di memoria (999 locazioni), di tipo “ad albero” con
 2. Premere il tasto ![Icona Marcatore Principale](https://via.placeholder.com/15/000000?text=i) o il tasto ![Icona Sotto-marcatore](https://via.placeholder.com/15/000000?text=i) per l’inserimento di un marcatore principale o di un sotto-marcatore. La videata a fianco è mostrata dallo strumento. Toccare uno dei nomi della lista presente per selezionare il marcatore desiderato tra quelli fissi oppure uno dei 20 marcatori indicati come “**L1_FREE0x**” il cui nome è personalizzabile dall’utente. Toccare i tasti freccia ![Icona Freccia Su](https://via.placeholder.com/15/000000?text=i) o ![Icona Freccia Giu](https://via.placeholder.com/15/000000?text=i) per inserire eventualmente un numero associato al marcatore. Confermare le scelte tornando alla videata precedente. Toccare il tasto ![Icona Conferma](https://via.placeholder.com/15/000000?text=i). La seguente videata è mostrata a display
 3. Usare la tastiera virtuale per definire il nome personalizzato del marcatore “**L1_FREE0x**” che può essere modificato in qualsiasi momento dall’utente durante una operazione di salvataggio. Tale marcatore non può essere cancellato ma solo rinominato. Confermare le scelte tornando alla videata precedente. Confermare ulteriormente per salvare definitivamente la misura nella memoria interna. Un messaggio di conferma è fornito dallo strumento
 
-Famiglia Gx IT - 130
 ## 7.2. RICHIAMO MISURE A DISPLAY E CANCELLAZIONE DELLA MEMORIA
 1. Toccare l’icona ![Icona Richiamo Misure](https://via.placeholder.com/15/000000?text=i) nel menu generale. La videata a fianco è mostrata a display. Ogni misura è identificata dalle icone ![Icona Esito Positivo](https://via.placeholder.com/15/000000?text=i) (test con esito positivo) o ![Icona Esito Negativo](https://via.placeholder.com/15/000000?text=i) (test con esito negativo) oppure ![Icona Test Senza Esito](https://via.placeholder.com/15/000000?text=i) (test senza esito). Toccare la misura desiderata per selezionarla a display. Toccare l’icona ![Icona Richiamo Risultato](https://via.placeholder.com/15/000000?text=i) per richiamare il risultato della misura. La seguente videata è mostrata a display
 2. Toccare l’icona ![Icona Richiamo Commento](https://via.placeholder.com/15/000000?text=i) per richiamare ed eventualmente modificare il commento inserito in fase di salvataggio tramite la tastiera virtuale interna. Toccare l’icona ![Icona Torna Indietro](https://via.placeholder.com/15/000000?text=i) per tornare alla videata precedente
@@ -1531,7 +1524,6 @@ Famiglia Gx IT - 130
 4. Toccare l’icona ![Icona Cancella Ultimo Risultato](https://via.placeholder.com/15/000000?text=i) per cancellare l’ultimo risultato salvato nella memoria dello strumento. La seguente videata è mostrata a display. Toccare l’icona ![Icona Conferma Cancellazione](https://via.placeholder.com/15/000000?text=i) per confermare l’operazione oppure l’ icona ![Icona Annulla Cancellazione](https://via.placeholder.com/15/000000?text=i) per tornare alla videata precedente
 5. Toccare l’icona ![Icona Cancella Tutta Memoria](https://via.placeholder.com/15/000000?text=i) per cancellare tutti i risultati salvati nella memoria dello strumento. La seguente videata è mostrata a display. Toccare l’icona ![Icona Conferma Cancellazione](https://via.placeholder.com/15/000000?text=i) per confermare l’operazione oppure l’ icona ![Icona Annulla Cancellazione](https://via.placeholder.com/15/000000?text=i) per tornare alla videata precedente
 
-Famiglia Gx IT - 131
 ### 7.2.1. Situazioni anomale
 1. Qualora non vi sia alcuna misura memorizzata e si acceda alla memoria dello strumento viene visualizzata una videata come quella a fianco
 2. Qualora si cerchi di definire un nuovo sotto-nodo oltre il 3° livello lo strumento mostra una videata come quella a fianco e blocca l’operazione
@@ -1539,7 +1531,6 @@ Famiglia Gx IT - 131
 4. Qualora si cerchi di definire un numero di nodi di 1°, 2° e 3° livello maggiore di 250 (per ogni livello) lo strumento mostra una videata come quella a fianco
 5. Qualora si cerchi di inserire un commento sulla misura di oltre 30 caratteri di lunghezza lo strumento mostra una videata come quella a fianco
 
-Famiglia Gx IT - 132
 # 8. COLLEGAMENTO DELLO STRUMENTO A PC O DISPOSITIVI MOBILI
 La connessione fra PC e strumento avviene tramite porta seriale ottica (vedere Fig. 3) con uso del cavo ottico/USB C2006 o tramite collegamento WiFi. Prima di effettuare il collegamento in modo USB è necessario installare sul PC il software di gestione TopView scaricabile dal sito www.ht-instruments.com/download. Per trasferire i dati memorizzati al PC attenersi alle seguenti procedure:
 **Collegamento a PC in tramite cavo ottico/USB**
@@ -1562,7 +1553,6 @@ Lo strumento può essere collegato tramite connessione WiFi a dispositivi smartp
 2. Porre lo strumento in modo trasferimento dati a PC tramite WiFi
 3. Fare riferimento alle istruzioni dell’ **HTAnalysis** per la gestione dell’operazione
 
-Famiglia Gx IT - 133
 # 9. USO DEL SET DI CINGHIE
 Per lo strumento è previsto il set di cinghie (accessorio opzionale **SP-0500**) che consente un uso a tracolla da parte dell’operatore. L’accessorio **SP-0500** (vedere Fig. 38) è formato dalle seguenti parti:
 **LEGENDA**
@@ -1580,21 +1570,18 @@ Fig. 40: Smontaggio semigusci laterali
 
 2. Montare i 4 ganci (vedere Fig.38 – parte 2) nelle fessure presenti sui semigusci del set **SP-0500** come mostrato nella Fig. 40. Spingere a fondo i ganci nella fessura fino al completo fissaggio
 
-Famiglia Gx IT - 134
 Fig. 41: Montaggio ganci di fissaggio cinghie
 
 3. Lo strumento con semigusci e ganci montati deve essere come indicato nella Fig. 41
 
 Fig. 42: Strumento con semigusci e ganci montati
 
-Famiglia Gx IT - 135
 4. Collegare i moschettoni della cinghia per uso a tracolla (vedere Fig. 38 – parte 3) ai due ganci presenti nella parte superiore dello strumento regolando la parte interna che circonda la testa dell’operatore (vedere Fig. 42)
 
 Fig. 43: Montaggio completo set cinghe SP-0500
 
 5. Collegare i moschettoni della cinghia per fissaggio al corpo (vedere Fig. 38 – parte 4) ai due ganci presenti nella parte inferiore dello strumento regolandola in base al corpo in modo da mantenere lo strumento fisso in posizione orizzontale di fronte all’operatore (vedere Fig. 42)
 
-Famiglia Gx IT - 136
 # 10. MANUTENZIONE
 ## 10.1. GENERALITÀ
 *   Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni allo strumento o pericoli durante l’utilizzo
@@ -1772,7 +1759,6 @@ Tabella di durata della misura del tempo di intervento [ms] - Risoluzione:1ms, P
 Tabella di durata della misura del tempo di intervento [ms] - Risoluzione:1ms, Precisione: ± (2.0 % lettura + 2cifre)
 (*) Selezioni RCD tipo A/F e tipo B/B+ disponibili solo per paese Norvegia
 
-Famiglia Gx IT - 139
 **RCD – Verifica su protezioni differenziali tipo DD**
 Tipo di Differenziale (RCD): Tipo DD (in accordo allo standard IEC62955), Generali (G)
 Campo tensione Fase - Terra, Fase - Neutro: 100V ÷ 265V
@@ -1849,7 +1835,6 @@ Tabella di durata della misura del tempo di intervento [ms] - Risoluzione:1ms, P
 Tabella di durata della misura del tempo di intervento [ms] - Risoluzione:1ms, Precisione: ± (2.0 % lettura + 2cifre)
 (*) Selezione RCD tipo A/F disponibile solo per paese Norvegia
 
-Famiglia Gx IT - 140
 **Resistenza globale di terra senza intervento RCD (NoTrip)**
 Campo tensione Fase - Terra, Fase - Neutro: 100 ÷ 265V, Frequenza: 50/60Hz ± 5%
 
@@ -1937,7 +1922,6 @@ La misura avviene solo per contatto diretto con parti metalliche in tensione (no
 | :--------- | :--------------- | :---------------------- |
 | 2 ÷ 999    | 1                | ± (5.0%lettura + 2cifre) |
 
-Famiglia Gx IT - 141
 **Parametri ambientali**
 
 | Misura | Campo              | Risoluzione | Incertezza             |
@@ -1952,7 +1936,6 @@ Famiglia Gx IT - 141
 
 (*) Incertezza sonda luxmetrica in accordo con Classe AA
 
-Famiglia Gx IT - 142
 **MISURA DEI PARAMETRI DI RETE E ARMONICHE**
 **Tensione**
 
@@ -2029,7 +2012,6 @@ Frequenza della fondamentale: 42.5 ÷ 69.0 Hz, precisione DC non dichiarata
 |           |                 | 10 ÷ 17| ± (10.0 % lettura + 5cifre) |
 |           |                 | 18 ÷ 25| ± (15.0 % lettura + 10cifre)|
 
-Famiglia Gx IT - 143
 ## 11.2. NORMATIVE DI RIFERIMENTO
 *   Sicurezza: IEC/EN61010-1, IEC/EN61557-1, -2, -3, -4, -5, -6, -7, -10
 *   EMC: IEC/EN61326-1
@@ -2081,7 +2063,6 @@ Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (Ro
 ## 11.5. ACCESSORI
 Vedere packing list allegata
 
-Famiglia Gx IT - 144
 # 12. ASSISTENZA
 ## 12.1. CONDIZIONI DI GARANZIA
 Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale. Ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
@@ -2099,7 +2080,6 @@ I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riser
 ## 12.2. ASSISTENZA
 Se lo strumento non funziona correttamente, prima di contattare il servizio di assistenza, controllare lo stato delle batterie e dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
 
-Famiglia Gx IT - 145
 # 13. APPENDICI TEORICHE
 ## 13.1. CONTINUITÀ DEI CONDUTTORI DI PROTEZIONE
 **Scopo della prova**
@@ -2124,7 +2104,6 @@ Verificare la continuità tra:
 **Valori ammissibili**
 Le norme non richiedono la misurazione della resistenza di continuità e la comparazione di quanto misurato con valori limite. Viene richiesta una prova della continuità e prescritto che lo strumento di misura segnali all'operatore se la prova non viene eseguita con una corrente di almeno **200mA** ed una tensione a vuoto compresa tra 4 e 24V. I valori di resistenza possono essere calcolati in base alle sezioni ed alle lunghezze dei conduttori in esame. In generale, per valori intorno a qualche ohm, la prova si può ritenere superata
 
-Famiglia Gx IT - 146
 ## 13.2. RESISTENZA DI ISOLAMENTO
 **Scopo della prova**
 Verificare che la resistenza di isolamento dell'impianto sia conforme a quanto previsto dalla norma applicabile (ad esempio CEI 64-8/6 negli impianti elettrici fino a 500V). Questa prova deve essere effettuata con il circuito in esame non alimentato e disinserendo gli eventuali carichi che esso alimenta.
@@ -2161,7 +2140,6 @@ Qualora l'impianto comprenda dispositivi elettronici occorre scollegarli dall'im
 In presenza di un circuito molto esteso i conduttori che corrono affiancati costituiscono una capacità che lo strumento deve caricare per poter ottenere una misura corretta, in questo caso è consigliabile mantenere premuto il tasto di avvio della misurazione (nel caso in cui si esegua la prova in modalità manuale) finché il risultato non si stabilizzi.
 L'indicazione "> fondo scala" segnala che la resistenza di isolamento misurata dallo strumento è superiore al limite massimo di resistenza misurabile, ovviamente tale risultato è ampiamente superiore ai limiti minimi della tabella normativa di cui sopra pertanto l'isolamento in quel punto sarebbe da ritenersi a norma.
 
-Famiglia Gx IT - 147
 ## 13.3. VERIFICA DELLA SEPARAZIONE DEI CIRCUITI
 **Definizioni**
 Un sistema **SELV** è un sistema di categoria zero o sistema a bassissima tensione di sicurezza caratterizzato da alimentazione da sorgente autonoma (es. batterie di pile, piccolo gruppo elettrogeno) o di sicurezza (es. trasformatore di sicurezza), separazione di protezione verso altri sistemi elettrici (isolamento doppio o rinforzato oppure uno schermo metallico collegato a terra) ed assenza di punti messi a terra (isolato da terra).
@@ -2184,7 +2162,6 @@ La prova, da effettuare nel caso in cui la protezione sia attuata mediante separ
 **Valori ammissibili**
 La prova ha esito positivo quando la resistenza di isolamento presenta valori superiori o uguali a quelli indicati in Tabella 6.
 
-Famiglia Gx IT - 148
 **ESEMPIO DI VERIFICA DI SEPARAZIONE TRA CIRCUITI ELETTRICI**
 
 Trasformatore di isolamento o di sicurezza che effettua la separazione tra i circuiti
@@ -2199,7 +2176,6 @@ Nodo equipotenziale
 
 Fig. 45: Misure di separazione tra circuiti in un impianto
 
-Famiglia Gx IT - 149
 ## 13.4. TEST SU INTERRUTTORI DIFFERENZIALI (RCD)
 **Scopo della prova**
 Verificare (CEI 64-8 612.9, CEI 64-14 2.3.2.2) che i dispositivi di protezione differenziale Generali (G), Selettivi (S) e Ritardati ( ) siano stati installati e regolati correttamente e che conservino nel tempo le proprie caratteristiche. La verifica deve accertare che l’interruttore differenziale intervenga ad una corrente non superiore alla sua corrente nominale di funzionamento IdN e che il tempo di intervento soddisfi, a seconda del caso, le seguenti condizioni:
@@ -2237,7 +2213,6 @@ Tabella 8: Tempi di intervento per RCD Generali e Selettivi in nazione AUS/NZ
 (\*) Corrente di intervento ½ IΔn, RCD non deve intervenire
 (\*\*) Corrente di prova e incertezze in accordo a normativa AS/NZS 3017
 
-Famiglia Gx IT - 150
 **Misura della corrente di intervento delle protezioni differenziali**
 *   Scopo della prova è verificare la reale corrente di intervento dei differenziali generali (non si applica ai differenziali selettivi)
 *   In presenza di interruttori differenziali con corrente di intervento che può essere selezionata è utile effettuare questa prova per verificare la reale corrente di intervento del differenziale. Per i differenziali con corrente differenziale fissa questa prova può essere eseguita per rilevare eventuali dispersioni di utilizzatori collegati all’impianto
@@ -2276,7 +2251,6 @@ ove:
 | 230V+10% < Vmisurata < 400V - 10% | Vmisurata| 1,10  |
 | 400V - 10% < Vmisurata < 400V+ 10% | 400V    | 1,05  |
 
-Famiglia Gx IT - 151
 ## 13.6. VERIFICA PROTEZIONE CONTRO CONTATTI INDIRETTI NEI SISTEMI TN
 **Scopo della prova**
 La protezione dai contatti indiretti nei sistemi TN deve essere garantita mediante un dispositivo di protezione contro le sovracorrenti (tipicamente magnetotermico o fusibile) che interrompa l’alimentazione al circuito o all’equipaggiamento in caso di guasto tra una parte attiva e una massa o un conduttore di protezione entro una durata non superiore a 5s, sufficiente per le macchine, oppure in accordo ai tempi riportati nella seguente Tabella 9. Per altre nazioni fare riferimento alle rispettive regolamentazioni
@@ -2320,7 +2294,6 @@ dove:
 | 230V+10% < Vmisurata < 400V - 10% | Vmisurata| 1,00  |
 | 400V - 10% < Vmisurata < 400V+ 10% | 400V    | 0,95  |
 
-Famiglia Gx IT - 152
 Lo strumento, in funzione del valore di tensione P-PE nominale impostato (vedere § 5.1.4) e del valore misurato dell’impedenza di anello di guasto, calcola il valore minimo della corrente di cortocircuito presunta che deve essere interrotta dal dispositivo di protezione. Tale valore, per un corretto coordinamento, DEVE essere sempre superiore o uguale al valore **Ia** della corrente di intervento dal tipo di protezione considerata.
 Il valore di riferimento **Ia** (vedere Fig. 46) è funzione di:
 *   Tipo di protezione (curva)
@@ -2342,7 +2315,6 @@ Lo strumento consente la selezione (\*) dei seguenti parametri:
 
 (\*) Valori soggetti a variazioni
 
-Famiglia Gx IT - 153
 ## 13.7. TEST NO TRIP NEI SISTEMI TN
 La protezione dai contatti indiretti nei sistemi TN deve essere garantita mediante un dispositivo di protezione contro le sovracorrenti (tipicamente magnetotermico o fusibile) che interrompa l’alimentazione al circuito o all’equipaggiamento in caso di guasto tra una parte attiva e una massa o un conduttore di protezione entro una durata non superiore a 5s, sufficiente per le macchine.
 
@@ -2369,7 +2341,6 @@ Lo strumento consente la selezione (\*) dei seguenti parametri:
 
 (\*) Valori soggetti a variazioni
 
-Famiglia Gx IT - 154
 ## 13.8. VERIFICA PROTEZIONE CONTRO CONTATTI INDIRETTI NEI SISTEMI TT
 **Scopo della prova**
 Verificare che il dispositivo di protezione sia coordinato con il valore della resistenza di terra. Non si può assumere a priori un valore di resistenza di terra limite al quale fare riferimento nel controllo del risultato della misura, ma è necessario di volta in volta controllare che sia rispettato il coordinamento previsto dalla normativa.
@@ -2403,7 +2374,6 @@ Impianto protetto da un differenziale da 30mA
 
 Quando siamo in presenza di differenziali da 30mA (la quasi totalità degli impianti civili) la resistenza di terra massima ammessa è 50/0.03=1666 Ω questo consente di utilizzare anche i metodi semplificati indicati che pur non fornendo un valore estremamente preciso, forniscono un valore sufficientemente approssimato per il calcolo del coordinamento
 
-Famiglia Gx IT - 155
 ## 13.9. VERIFICA PROTEZIONE CONTRO CONTATTI INDIRETTI NEI SISTEMI IT
 Nei sistemi IT le parti attive devono essere isolate da terra oppure essere collegate a terra attraverso un’impedenza di valore sufficientemente elevato. Nel caso di un singolo guasto a terra la corrente di primo guasto è quindi debole e non è necessario interrompere il circuito. Questo collegamento può essere effettuato al punto neutro del sistema oppure ad un punto neutro artificiale. Se non esiste alcun punto neutro, si può collegare a terra attraverso un’impedenza un conduttore di linea. Si devono tuttavia prendere precauzioni per evitare il rischio di effetti fisiologici dannosi su persone in contatto con parti conduttrici simultaneamente accessibili nel caso di doppio guasto a terra.
 
@@ -2418,7 +2388,6 @@ dove:
 **Parti dell’impianto da verificare**
 L'impianto di terra nelle condizioni di esercizio. La verifica deve essere eseguita senza scollegare i dispersori.
 
-Famiglia Gx IT - 156
 ## 13.10. VERIFICA COORDINAMENTO DELLE PROTEZIONI L-L, L-N E L-PE
 **Scopo della prova**
 Eseguire la verifica del coordinamento delle protezioni (tipicamente magnetotermica o fusibile) presenti in un’installazione Monofase o Trifase in funzione del tempo limite di intervento impostato e del valore calcolato della corrente di cortocircuito.
@@ -2470,7 +2439,6 @@ dove:
 **Z L-N** = Impedenza misurata fra fase e neutro
 **Z L-PE** = Impedenza misurata fra fase e PE
 
-Famiglia Gx IT - 157
 > **ATTENZIONE**
 > Lo strumento deve essere utilizzato per eseguire misure dell’impedenza dell’anello di guasto di valore almeno 10 volte superiore alla della risoluzione dello strumento in modo da minimizzare l’errore commesso.
 
@@ -2491,7 +2459,6 @@ Lo strumento consente la selezione (\*) dei seguenti parametri:
 
 (\*) Valori soggetti a variazioni
 
-Famiglia Gx IT - 158
 ## 13.11. VERIFICA DELLA PROTEZIONE CONTRO I CORTO-CIRCUITI - TEST I2T
 Il parametro **I²t** rappresenta l’energia specifica (espressa in A²s) lasciata passare dal dispositivo di protezione in condizione di cortocircuito.
 L’energia **I²t** deve poter essere sopportata sia dai cavi che dalle barre di distribuzione. Per i cavi vale la seguente relazione:
@@ -2521,7 +2488,6 @@ Le seguenti selezioni (\*) sono disponibili sullo strumento:
 
 (\*) Valori soggetti a variazioni
 
-Famiglia Gx IT - 159
 ## 13.12. VERIFICA DELLA CADUTA DI TENSIONE SU LINEE DI DISTRIBUZIONE
 La misura della caduta di tensione come conseguenza del flusso di corrente attraverso un impianto o una parte di esso può essere molto importante se occorre:
 *   Verificare la capacità di alimentare un carico da parte dell’impianto esistente
@@ -2575,7 +2541,6 @@ dove:
 
 Sullo strumento è possibile selezionare il valore del tempo di durata del guasto nel campo compreso tra 0.04s e 10s e il valore della corrente di guasto nel campo compreso tra 1A e 9999A
 
-Famiglia Gx IT - 161
 **Misura della resistenza di terra con metodo voltamperometrico**
 **Predisposizione delle prolunghe**
 Nel caso in cui la lunghezza dei cavi forniti in dotazione con lo strumento non sia sufficiente, è possibile predisporre delle prolunghe per eseguire la misura nell’impianto in esame senza inficiare la precisione dello strumento stesso e, per la natura del metodo voltampeprometrico, senza la necessità di eseguire alcuna compensazione della resistenza dei cavi di misura
@@ -2590,7 +2555,6 @@ Fig. 47: Misura di terra per reti di terra di piccole dimensioni
 
 Usare eventualmente più sonde in parallelo e bagnare il terreno circostante (vedere Fig. 47) qualora lo strumento non riesca ad erogare la corrente necessaria per eseguire la prova a causa di una elevata resistenza del terreno
 
-Famiglia Gx IT - 162
 **Reti di terra di grandi dimensioni**
 Questa tecnica si basa sempre sul metodo voltamperometrico e trova utilizzo qualora risulti difficoltoso posizionare il dispersore ausiliario di corrente ad una distanza pari a 5 volte la diagonale dell’area dell’impianto di terra riducendo tale distanza ad una sola volta la diagonale dell’impianto di terra (vedere Fig. 48).
 Per accertare che la sonda di tensione sia situata al di fuori dalla zona di influenza dell’impianto in prova e del dispersore ausiliario occorre eseguire più misurazioni posizionando inizialmente la sonda di tensione nel punto intermedio tra impianto e dispersore di corrente ausiliario, quindi spostando la sonda sia verso l’impianto in esame, sia verso il dispersore di corrente ausiliario.
@@ -2600,7 +2564,6 @@ Fig. 48: Misura di terra per reti di terra di grandi dimensioni
 
 Utilizzare più sonde in parallelo e bagnare il terreno circostante (vedere Fig. 48) qualora lo strumento non riesca ad erogare la corrente necessaria per eseguire la prova a causa di una elevata resistenza del terreno
 
-Famiglia Gx IT - 163
 **Misura della resistività del terreno**
 Scopo della prova è analizzare il valore della resistività del terreno per definire, in fase di progettazione, la tipologia dei dispersori di terra da utilizzare nell'impianto. Per la misura di resistività non esistono valori corretti o non corretti, i vari valori ottenuti utilizzando distanze fra i picchetti “d” crescenti devono essere riportati in un grafico dal quale, in funzione della curva ottenuta, si stabilisce il tipo di dispersori da utilizzare. Poiché la misura può essere falsata da parti metalliche interrate quali tubazioni, cavi, altri dispersori a nastro, ecc. è opportuno eseguire una seconda misurazione con uguale distanza “d” ruotando l’asse dei picchetti di 90° (vedere Fig. 49)
 
@@ -2621,9 +2584,6 @@ Curva 3: la resistività del terreno è pressoché costante, con maggiore profon
 
 Fig. 50: Misura della resistività del terreno
 
-d
-
-Famiglia Gx IT - 164
 **Valutazione approssimativa del contributo di dispersori intenzionali**
 In prima approssimazione la resistenza di un dispersore Rd può essere calcolata con le seguenti formule (ρ resistività media del terreno).
 a) resistenza di un dispersore verticale
@@ -2637,7 +2597,6 @@ La resistenza di un sistema complesso composto da più elementi in parallelo è 
 `Rd = ρ / 4r`
 ove r = raggio del cerchio che circoscrive la maglia
 
-Famiglia Gx IT - 165
 ## 13.14. ARMONICHE DI TENSIONE E CORRENTE
 Qualsiasi onda periodica non sinusoidale può essere rappresentata tramite una somma di onde sinusoidali ciascuna con frequenza multipla intera della fondamentale secondo la relazione:
 ```
@@ -2671,7 +2630,6 @@ Tale indice tiene conto della presenza di tutte le armoniche ed è tanto più el
 **Valori limite per le armoniche**
 La normativa EN50160 fissa i limiti per le tensioni armoniche che l'ente fornitore può immettere nella rete. In condizioni normali di esercizio, durante qualsiasi periodo di una settimana, il 95% dei valori efficaci di ogni tensione armonica, mediati sui 10 minuti, dovrà essere minore o uguale rispetto ai valori indicati in Tabella 11. La distorsione armonica globale (THD) della tensione di alimentazione (includendo tutte le armoniche fino al 40° ordine) deve essere minore o uguale al 8%.
 
-Famiglia Gx IT - 166
 | Armoniche dispari |               | Armoniche pari |               |
 | :---------------- | :------------ | :------------- | :------------ |
 | Non multiple di 3 |               | Multiple di 3  |               |
@@ -2696,7 +2654,6 @@ Questi limiti, teoricamente applicabili solamente agli enti fornitori di energia
 *   Dispositivi “moderni” quali televisori, lampade fluorescenti, apparecchi video e forni a microonde normalmente assorbono corrente solo per una frazione di ciascun ciclo causando carichi non lineari e di conseguenza correnti non lineari. Ciò genera strane armoniche della frequenza di linea di 50/60Hz. Per questo motivo, allo stato odierno, la corrente nei trasformatori delle cabine di distribuzione contiene non solo una componente 50Hz (o 60Hz) ma anche una componente 150Hz (o 180Hz), una componente 250Hz (o 300Hz) e altre componenti significative di armonica fino a 750Hz (o 900Hz) ed oltre
 *   Il valore della somma vettoriale delle correnti in un sistema correttamente bilanciato che alimenta carichi non lineari può essere ancora piuttosto basso. Tuttavia la somma non elimina tutte le correnti armoniche. I multipli dispari della terza armonica (chiamati i “TRIPLENS”) si sommano algebricamente nel neutro e quindi possono causare surriscaldamenti del medesimo anche con carichi bilanciati.
 
-Famiglia Gx IT - 167
 **Conseguenza della presenza di armoniche**
 In generale le armoniche d'ordine pari, 2ᵃ, 4ᵃ ecc. non sono causa di problemi. Le armoniche triple, multipli dispari di tre, si sommano sul neutro (invece di annullarsi) creando così una situazione di surriscaldamento del conduttore stesso potenzialmente pericolosa. I progettisti devono considerare i tre punti di seguito elencati nella progettazione di un sistema di distribuzione di energia contenente correnti di armoniche:
 *   Il conduttore del neutro deve essere sufficientemente dimensionato
@@ -2705,7 +2662,6 @@ In generale le armoniche d'ordine pari, 2ᵃ, 4ᵃ ecc. non sono causa di proble
 
 La 5ᵃ e la 11ᵃ armonica si oppongono al flusso della corrente attraverso i motori rendendone più difficile il funzionamento e abbreviandone la vita media. In generale più è elevato il numero d'ordine della armonica e minore è la sua energia e quindi minore l'impatto che avrà sulle apparecchiature (fatta eccezione per i trasformatori).
 
-Famiglia Gx IT - 168
 ## 13.15. CALCOLI DELLE POTENZE E DEI FATTORI DI POTENZA
 **Modalità Monofase**
 Lo strumento misura i valori TRMS di tensione Fase - Neutro e corrente calcolando i valori di potenza media ogni periodo utilizzando le seguenti relazioni:
