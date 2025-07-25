@@ -8,120 +8,120 @@
 
 ## INDICE
 
-1.  PRECAUZIONI E MISURE DI SICUREZZA ................................................................| 3
-    1.1. Istruzioni preliminari ......................................................................| 3
-    1.2. Durante l’uso ...............................................................................| 4
-    1.3. Dopo l’uso ..................................................................................| 4
-    1.4. Definizione di categoria di misura (sovratensione) ..........................................| 4
-2.  DESCRIZIONE GENERALE .............................................................................| 5
-    2.1. Introduzione ................................................................................. 5
-    2.2. Funzionalità dello strumento ................................................................. 6
-3.  PREPARAZIONE ALL’UTILIZZO ......................................................................... 7
-    3.1. Controlli iniziali ........................................................................... 7
-    3.2. Alimentazione dello strumento ................................................................ 7
-    3.3. Conservazione ................................................................................ 7
-4.  NOMENCLATURA ...................................................................................... 8
-    4.1. Descrizione dello strumento .................................................................. 8
-    4.2. Descrizione dei terminali di misura .......................................................... 8
-    4.3. Descrizione della tastiera ............................................................................................... . 9
-    4.4. Descrizione del display ............................................................................................... .... 9
-    4.5. Videata iniziale ............................................................................................................... 9
-5.  MENU GENERALE ................................................................................................... 10
-    5.1. Impostazione dello strumento ...................................................................................... 10
-    5.1.1. Lingua ............................................................................................................................. .... 10
-    5.1.2. Nazione di riferimento .......................................................................................................... 11
-    5.1.3. Autospegnimento display e suono tasti ................................................................................ 11
-    5.1.4. Sistema ............................................................................................................................... .. 11
-    5.1.5. Inserimento nome operatore ................................................................................................ .. 11
-    5.1.6. Impostazione data/ora di sistema ......................................................................................... 12
-    5.1.7. Informazioni ............................................................................................................................ 12
-6.  ISTRUZIONI OPERATIVE ........................................................................................ 13
-    6.1. RPE: Continuità dei conduttori di protezione ............................................................... .. 13
-    6.1.1. Situazioni anomale .............................................................................................................. 17
-    6.2. M  : Misura di isolamento ............................................................................................ 18
-    6.2.1. Modo AUTO o Timer L - PE ................................................................................................ ..... 20
-    6.2.2. Modo AUTO L/N - PE ......................................................................................................... 22
-    6.2.3. Situazioni anomale .............................................................................................. ................. 24
-    6.3. RCD: Test su interruttori differenziali ........................................................................... 25
-    6.3.1. Modo AUTO ...................................................................................................................... 29
-    6.3.2. Modo AUTO+ ................................................................................................................ 30
-    6.3.3. Modi x ½, x1, x2, x5 ............................................................................................................ 31
-    6.3.4. Modo x 1 – Test su RCD con tempo di ritardo ................................................................... 31
-    6.3.5. Modo ................................ .............................................................................................. . 32
-    6.3.6. Modo DD .............................................................................................................................. 33
-    6.3.7. Test su RCD con toroide separato ...................................................................................... 34
-    6.3.8. Situazioni anomale ................................................................................................................. 35
-    6.4. LOOP: Impedenza Linea/Loop e resistenza globale di terra ......................................... 38
-    6.4.1. Modi di prova ......................................................................................................................... 40
-    6.4.2. Calibrazione cavi di misura (ZEROLOOP) ........................................................................... 42
-    6.4.3. Modo STD – Test generico ............................................................................................... .... 44
-    6.4.4. Modo kA – Verifica potere di interruzione della protezione ................................................... 45
-    6.4.5. Modo I 2 t – Verifica della protezione contro i corto - circuiti ...................................................... 47
-    6.4.6. Modo - Verifica del coordinamento delle protezioni .................................................... 50
-    6.4.7. Modo - Verifica del coordinamento delle protezioni – Nazione Norvegia ................... 52
-    6.4.8. Verifica protezione dai contatti indiretti (sistemi TN) .............................................................. 54
-    6.4.9. Verifica protezione dai contatti indiretti (Test NoTrip ) ...................................................... 56
-    6.4.10. Verifica protezione dai contatti indiretti (Test NoTrip ) – Nazione UK ................................. 58
-    6.4.11. Verifica protezione dai contatti indiretti (sistemi IT) .............................................................. 60
-             Verifica protezione dai contatti indiretti (sistemi TT) .......................................................................................... 61
-    6.4.12. Misura di Impedenza con uso di accessorio IMP57 .............................................................. 63
-    6.4.13. Situazioni anomale ................................................................................................................. 65
-    6.5. SEQ: Verifica del senso ciclico e della concordanza delle fasi ....................................... 67
-    6.5.1. Situazioni anomale ................................................................................................................ 70
-    6.6. LEAKAGE: Misura della corrente di dispersione ............................................................ 71
-    6.7. EARTH: Misura resistenza di terra e resistività del terreno ........................................... 73
-    6.7.1. Misura di terra a 3 fili o 2 fili e resitività del terreno a 4 - fili ................................ ..................... 73
-    6.7.2. Misura di terra a 3 fili o 2 fili – Nazioni USA, Extra Europa e Germania ................................ 79
-    6.7.3. Misura di terra con pinza opzionale T2100 ........................................................................... 82
-    6.7.4. Situazioni anomale misura di terra a 3 - fili e 2 - fili .................................................................. 85
-    6.8. AUX: Misura di parametri ambientali tramite sonde esterne ........................................... 86
-    6.9. ΔV% : Caduta di tensione sulle linee .............................................................................. 88
-    6.9.1. Situazioni anomale ................................................................................................................. 92
-    6.10. RPE 10A: Continuità conduttori di protezione con 10A .................................................. 94
-    6.10.1. Situazioni anomale ................................ ................................................................................. 97
-    6.11. AUTO TEST: Sequenza automatica prove (NoTrip , RCD, M  ) .................................. 98
-    6.11.1. AutoTest in sistemi TT ......................................................................................................... 99
-    6.11.2. AutoTest in sistemi TN ........................................................................................................ 101
-    6.11.3. Situazioni anomale ................................ ............................................................................ 103
-    6.12. PQA: Misura in tempo reale dei parametri di rete ........................................................ 106
-    6.13. EVSE: Test sicurezza stazioni di ricarica auto elettriche ............................................. 109
-7.  OPERAZIONI CON MEMORIA ................................................................................ 129
-    7.1. Salvataggio delle misure ............................................................................................. 129
-    7.2. Richiamo misure a display e cancellazione della memoria .......................................... 130
-    7.2.1. Situazioni anomale ................................ ............................................................................... 131
-8.  COLLEGAMENTO DELLO STRUMENTO A PC O DISPOSITIVI MOBILI ............... 132
-    8.1. Collegamento a dispositivi iOS/Android in connessione WiFi .................................... 132
-9.  USO DEL SET DI CINGHIE .................................................................................... 133
-10. MANUTENZIONE ..................................................................................................... 136
-    10.1. Generalità ................................................................................................................... 136
-    10.2. Sostituzione batterie .............................................................................................. .... 136
-    10.3. Pulizia dello strumento ................................ ................................ ................................ . 136
-    10.4. Fine vita ................................ ................................ ................................ ....................... 136
-11. SPECIFICHE TECNICHE ................................ ................................ ......................... 137
-    11.1. Caratteristiche tecniche ................................ ................................ ............................... 137
-    11.2. Normative di riferimento ................................ ................................ ............................... 143
-    11.3. Caratteristiche generali ................................ ................................ ................................ 143
-    11.4. Condizioni ambientali di utilizzo ................................ ................................ ................... 143
-    11.5. Accessori ................................ ................................ ................................ ..................... 143
-12. ASSISTENZA ................................ ................................ ................................ ........... 144
-    12.1. Condizioni di garanzia ................................ ................................ ................................ . 144
-    12.2. Assistenza ................................ ................................ ................................ ................... 144
-13. APPENDICI TEORICHE ................................ ................................ ........................... 145
-    13.1. Continuità dei conduttori di protezione ................................ ................................ ......... 145
-    13.2. Resistenza di isolamento ................................ ................................ ............................. 146
-    13.3. Verifica della separazione dei circuiti ................................ ................................ ........... 147
-    13.4. Test su interruttori differenziali (RCD) ................................ ................................ .......... 149
-    13.5. Verifica del potere di interruzione della protezione ................................ ....................... 150
-    13.6. Verifica protezione contro contatti indiretti nei sistemi TN ................................ ............ 151
-    13.7. Test no Trip nei sistemi TN ................................ ................................ .......................... 153
-    13.8. Verifica protezione contro contatti indiretti nei sistemi TT ................................ ............ 154
-    13.9. Verifica protezione contro contatti indiretti nei sistemi IT ................................ .............. 155
-    13.10. Verifica coordinamento delle protezioni L - L, L - N e L - PE ................................ .............. 156
-    13.11. Verifica della protezione contro i corto - circuiti - Test I2t ................................ ............... 158
-    13.12. Verifica della caduta di tensione su linee di distribuzione ................................ ............. 159
-    13.13. Misura della resistenza di terra nei sistemi TN ................................ ............................. 160
-    13.14. Armoniche di tensione e corrente ................................ ................................ ................ 165
-    13.15. Calcoli delle potenze e dei fattori di potenza ................................ ................................ 168
+1.  PRECAUZIONI E MISURE DI SICUREZZA
+    1.1. Istruzioni preliminari
+    1.2. Durante l’uso
+    1.3. Dopo l’uso
+    1.4. Definizione di categoria di misura (sovratensione)
+2.  DESCRIZIONE GENERALE
+    2.1. Introduzione
+    2.2. Funzionalità dello strumento
+3.  PREPARAZIONE ALL’UTILIZZO
+    3.1. Controlli iniziali
+    3.2. Alimentazione dello strumento
+    3.3. Conservazione
+4.  NOMENCLATURA
+    4.1. Descrizione dello strumento
+    4.2. Descrizione dei terminali di misura
+    4.3. Descrizione della tastiera
+    4.4. Descrizione del display
+    4.5. Videata iniziale
+5.  MENU GENERALE
+    5.1. Impostazione dello strumento
+    5.1.1. Lingua
+    5.1.2. Nazione di riferimento
+    5.1.3. Autospegnimento display e suono tasti
+    5.1.4. Sistema
+    5.1.5. Inserimento nome operatore
+    5.1.6. Impostazione data/ora di sistema
+    5.1.7. Informazioni
+6.  ISTRUZIONI OPERATIVE
+    6.1. RPE: Continuità dei conduttori di protezione
+    6.1.1. Situazioni anomale
+    6.2. M  : Misura di isolamento
+    6.2.1. Modo AUTO o Timer L - PE
+    6.2.2. Modo AUTO L/N - PE
+    6.2.3. Situazioni anomale
+    6.3. RCD: Test su interruttori differenziali
+    6.3.1. Modo AUTO
+    6.3.2. Modo AUTO+
+    6.3.3. Modi x ½, x1, x2, x5
+    6.3.4. Modo x 1 – Test su RCD con tempo di ritardo
+    6.3.5. Modo
+    6.3.6. Modo DD
+    6.3.7. Test su RCD con toroide separato
+    6.3.8. Situazioni anomale
+    6.4. LOOP: Impedenza Linea/Loop e resistenza globale di terra
+    6.4.1. Modi di prova
+    6.4.2. Calibrazione cavi di misura (ZEROLOOP)
+    6.4.3. Modo STD – Test generico
+    6.4.4. Modo kA – Verifica potere di interruzione della protezione
+    6.4.5. Modo I 2 t – Verifica della protezione contro i corto - circuiti
+    6.4.6. Modo - Verifica del coordinamento delle protezioni
+    6.4.7. Modo - Verifica del coordinamento delle protezioni – Nazione Norvegia
+    6.4.8. Verifica protezione dai contatti indiretti (sistemi TN)
+    6.4.9. Verifica protezione dai contatti indiretti (Test NoTrip )
+    6.4.10. Verifica protezione dai contatti indiretti (Test NoTrip ) – Nazione UK
+    6.4.11. Verifica protezione dai contatti indiretti (sistemi IT)
+             Verifica protezione dai contatti indiretti (sistemi TT)
+    6.4.12. Misura di Impedenza con uso di accessorio IMP57
+    6.4.13. Situazioni anomale
+    6.5. SEQ: Verifica del senso ciclico e della concordanza delle fasi
+    6.5.1. Situazioni anomale
+    6.6. LEAKAGE: Misura della corrente di dispersione
+    6.7. EARTH: Misura resistenza di terra e resistività del terreno
+    6.7.1. Misura di terra a 3 fili o 2 fili e resitività del terreno a 4 - fili
+    6.7.2. Misura di terra a 3 fili o 2 fili – Nazioni USA, Extra Europa e Germania
+    6.7.3. Misura di terra con pinza opzionale T2100
+    6.7.4. Situazioni anomale misura di terra a 3 - fili e 2 - fili
+    6.8. AUX: Misura di parametri ambientali tramite sonde esterne
+    6.9. ΔV% : Caduta di tensione sulle linee
+    6.9.1. Situazioni anomale
+    6.10. RPE 10A: Continuità conduttori di protezione con 10A
+    6.10.1. Situazioni anomale
+    6.11. AUTO TEST: Sequenza automatica prove (NoTrip , RCD, M  )
+    6.11.1. AutoTest in sistemi TT
+    6.11.2. AutoTest in sistemi TN
+    6.11.3. Situazioni anomale
+    6.12. PQA: Misura in tempo reale dei parametri di rete
+    6.13. EVSE: Test sicurezza stazioni di ricarica auto elettriche
+7.  OPERAZIONI CON MEMORIA
+    7.1. Salvataggio delle misure
+    7.2. Richiamo misure a display e cancellazione della memoria
+    7.2.1. Situazioni anomale
+8.  COLLEGAMENTO DELLO STRUMENTO A PC O DISPOSITIVI MOBILI
+    8.1. Collegamento a dispositivi iOS/Android in connessione WiFi
+9.  USO DEL SET DI CINGHIE
+10. MANUTENZIONE
+    10.1. Generalità
+    10.2. Sostituzione batterie
+    10.3. Pulizia dello strumento
+    10.4. Fine vita
+11. SPECIFICHE TECNICHE
+    11.1. Caratteristiche tecniche
+    11.2. Normative di riferimento
+    11.3. Caratteristiche generali
+    11.4. Condizioni ambientali di utilizzo
+    11.5. Accessori
+12. ASSISTENZA
+    12.1. Condizioni di garanzia
+    12.2. Assistenza
+13. APPENDICI TEORICHE
+    13.1. Continuità dei conduttori di protezione
+    13.2. Resistenza di isolamento
+    13.3. Verifica della separazione dei circuiti
+    13.4. Test su interruttori differenziali (RCD)
+    13.5. Verifica del potere di interruzione della protezione
+    13.6. Verifica protezione contro contatti indiretti nei sistemi TN
+    13.7. Test no Trip nei sistemi TN
+    13.8. Verifica protezione contro contatti indiretti nei sistemi TT
+    13.9. Verifica protezione contro contatti indiretti nei sistemi IT
+    13.10. Verifica coordinamento delle protezioni L - L, L - N e L - PE
+    13.11. Verifica della protezione contro i corto - circuiti - Test I2t
+    13.12. Verifica della caduta di tensione su linee di distribuzione
+    13.13. Misura della resistenza di terra nei sistemi TN
+    13.14. Armoniche di tensione e corrente
+    13.15. Calcoli delle potenze e dei fattori di potenza
 
 ## 1. PRECAUZIONI E MISURE DI SICUREZZA
 
