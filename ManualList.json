@@ -99,6 +99,11 @@
       "id": "FAMIGLIA400.md",
       "name": "COMBI419, COMBI420, COMBI421",
       "description": "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8"
+    },
+    {
+      "id": "SOLARIVe.md",
+      "name": "SOLARIVw, SOLARIVe, IV400w, IV500w",
+      "description": "Strumento multifunzione per la manutenzione e la risoluzione dei problemi su impianti fotovoltaici."
     }
   ]
 }
