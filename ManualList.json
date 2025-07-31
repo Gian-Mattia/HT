@@ -94,6 +94,11 @@
       "id": "HT25N.md",
       "name": "HT25N",
       "description": "Multimetro digitale compatto con misura della corrente DC fino a 10A"
+    },
+    {
+      "id": "FAMIGLIA400.md",
+      "name": "COMBI419, COMBI420, COMBI421",
+      "description": "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8"
     }
   ]
 }
