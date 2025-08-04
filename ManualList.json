@@ -104,6 +104,11 @@
       "id": "SOLARIVe.md",
       "name": "SOLARIVw, SOLARIVe, IV400w, IV500w",
       "description": "Strumento multifunzione per la manutenzione e la risoluzione dei problemi su impianti fotovoltaici."
+    },
+    {
+      "id": "HT2055.md",
+      "name": "HT2055",
+      "description": "Misuratore di tensione di passo/contatto fino a 50A."
     }
   ]
 }
