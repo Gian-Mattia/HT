@@ -109,6 +109,11 @@
       "id": "HT2055.md",
       "name": "HT2055",
       "description": "Misuratore di tensione di passo/contatto fino a 50A."
+    },
+    {
+      "id": "HT9015.md",
+      "name": "HT9015",
+      "description": "Pinza amperometrica AC/DC TRMS 600A CAT IV con misura di temperatura."
     }
   ]
 }
