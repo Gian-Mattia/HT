@@ -1,0 +1,638 @@
+# HT9015
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-22 -->
+# Manuale d'uso
+
+## Indice
+
+1.  PRECAUZIONI E MISURE DI SICUREZZA
+    1.1. Istruzioni preliminari
+    1.2. Durante l’utilizzo
+    1.3. Dopo l’utilizzo
+    1.4. Definizione di Categoria di misura (Sovratensione)
+2.  DESCRIZIONE GENERALE
+    2.1. Strumenti di misura a Valore medio e in Vero Valore Efficace
+    2.2. Definizione di Vero Valore Efficace e fattore di cresta
+3.  PREPARAZIONE ALL’UTILIZZO
+    3.1. Controlli iniziali
+    3.2. Alimentazione dello strumento
+    3.3. Taratura
+    3.4. Conservazione
+4.  ISTRUZIONI OPERATIVE
+    4.1. Descrizione dello strumento
+        4.1.1. Descrizione dei comandi
+        4.1.2. Tacche di allineamento
+    4.2. Descrizione dei tasti funzione
+        4.2.1. Tasto H
+        4.2.2. Retroilluminazione (Backlight)
+        4.2.3. Tasto MODE
+        4.2.4. Tasto MAX/MIN
+        4.2.5. Tasto Hz%
+        4.2.6. Tasto PK/REL
+    4.3. Descrizione delle funzioni del commutatore
+        4.3.1. Misura Tensione AC
+        4.3.2. Misura Tensione DC
+        4.3.3. Misura Resistenza
+        4.3.4. Test Continuità e Prova Diodi
+        4.3.5. Misura Capacità
+        4.3.6. Misura Temperatura
+        4.3.7. Misura Corrente DC (HT9015)
+        4.3.8. Misura Corrente AC
+        4.3.9. Misura di Frequenza e Duty Cycle
+5.  MANUTENZIONE
+    5.1. Generalità
+    5.2. Sostituzione batteria
+    5.3. Pulizia dello strumento
+    5.4. Fine vita
+6.  SPECIFICHE TECNICHE
+    6.1. Caratteristiche Tecniche
+        6.1.1. Normative di riferimento
+        6.1.2. Caratteristiche generali
+    6.2. Ambiente
+        6.2.1. Condizioni ambientali di utilizzo
+    6.3. Accessori in dotazione
+    6.4. Accessori opzionali
+7.  ASSISTENZA
+    7.1. Condizioni di Garanzia
+    7.2. Assistenza
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Nel seguito del manuale con la parola “strumento” si intende genericamente sia il modello **HT9014** che il modello **HT9015** salvo notazione specifica all’occorrenza indicata. Lo strumento è stato progettato in conformità alla direttiva IEC/EN61010-1 relativa agli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo **[SIMBOLO ATTENZIONE]**. Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+
+*   Non effettuare misure di tensione o corrente in ambienti umidi.
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi.
+*   Evitare contatti con il circuito in esame se non si stanno effettuando misure.
+*   Evitare contatti con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+*   Prestare particolare attenzione quando si effettuano misure di tensioni superiori a 20V in quanto è presente il rischio di shock elettrici.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+*   **[SIMBOLO ATTENZIONE]**: Attenzione: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti.
+*   **[SIMBOLO PERICOLO ALTA TENSIONE]**: Pericolo Alta Tensione: rischi di shock elettrici.
+*   **[SIMBOLO DOPPIO ISOLAMENTO]**: Strumento con doppio isolamento.
+*   **[SIMBOLO AC]**: Tensione o Corrente AC
+*   **[SIMBOLO DC]**: Tensione o Corrente DC
+*   **[SIMBOLO TERRA]**: Riferimento di terra
+
+### 1.1. ISTRUZIONI PRELIMINARI
+
+*   Questo strumento è stato progettato per un utilizzo in un ambiente con livello di inquinamento 2
+*   Può essere utilizzato per misure di **CORRENTE E TENSIONE** su installazioni con categoria di misura CAT IV 600V e CAT III 1000V. Per la definizione delle categorie di misura vedere § 1.4
+*   La invitiamo a seguire le normali regole di sicurezze orientate alla protezione contro correnti pericolose e a proteggere lo strumento contro un utilizzo errato.
+*   Solo i puntali forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+*   Non effettuare misure su circuiti che superino i limiti di corrente e tensione specificati.
+*   Controllare che la batteria sia inserita correttamente.
+*   Prima di collegare i puntali al circuito in esame, controllare che il commutatore sia posizionato correttamente.
+*   Controllare che il display LCD e il commutatore indichino la stessa funzione.
+
+### 1.2. DURANTE L’UTILIZZO
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle Avvertenze può danneggiare lo strumento e/o i suoi componenti e costituire fonte di pericolo per l’operatore
+
+*   Prima di azionare il commutatore, rimuovere dal toroide il conduttore o scollegare i puntali di misura dal circuito in esame
+*   Quando lo strumento è connesso al circuito in esame non toccare mai qualunque terminale inutilizzato
+*   Evitare la misura di resistenza in presenza di tensioni esterne. Anche se lo strumento è protetto, una tensione eccessiva potrebbe causare malfunzionamenti della pinza
+*   Prima di effettuare una misura di corrente tramite il toroide, rimuovere dalle rispettive boccole i puntali
+*   Durante la misura di corrente, ogni altra corrente localizzata in prossimità della pinza può influenzare la precisione della misura
+*   Durante la misura di corrente posizionare sempre il conduttore il più possibile al centro del toroide in modo da ottenere una lettura più accurata
+*   Se, durante una misura, il valore o il segno della grandezza in esame rimangono costanti controllare se è attivata la funzione **HOLD**
+
+### 1.3. DOPO L’UTILIZZO
+
+*   Quando le misure sono terminate, posizionare il commutatore su OFF
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere la batteria
+
+### 1.4. DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma CEI 61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali, definisce cosa si intenda per categoria di misura. Al § 6.7.4: Circuiti di misura, essa recita: (OMISSIS) i circuiti sono suddivisi nelle seguenti categorie di misura:
+
+*   La **categoria di misura IV** serve per le misure effettuate su una sorgente di un’installazione a bassa tensione.
+    Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle sovracorrenti e sulle unità di regolazione dell’ondulazione.
+*   La **categoria di misura III** serve per le misure effettuate in installazioni all’interno di edifici.
+    Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli apparecchi destinati all’impiego industriale e altre apparecchiature, per esempio i motori fissi con collegamento ad impianto fisso.
+*   La **categoria di misura II** serve per le misure effettuate su circuiti collegati direttamente all’installazione a bassa tensione.
+    Esempi sono costituiti da misure su apparecchiature per uso domestico e similari.
+*   La **categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE.
+    Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura.
+
+# 2. DESCRIZIONE GENERALE
+
+Lo strumento esegue le seguenti misure:
+
+*   Tensione DC e AC TRMS fino a 1000V
+*   Corrente AC TRMS fino a 600A
+*   Corrente DC fino a 600A (**HT9015**)
+*   Resistenza e Test di continuità con cicalino
+*   Capacità
+*   Frequenza con puntali e con toroide
+*   Duty Cycle (Ciclo di lavoro)
+*   Prova diodi
+*   Temperatura con sonda K
+*   Rilevazione presenza di tensione AC con e senza contatto con sensore integrato
+
+Ciascuna di queste funzioni può essere selezionata tramite un commutatore a 7 posizioni, inclusa la posizione OFF ed un tasto per l’abilitazione della funzione **HOLD**. Sono inoltre presenti i tasti "**MODE**", “**MAX/MIN**”, “**Hz%**” “**PK/REL**” e “ **[SIMBOLO RETROILLUMINAZIONE]** ” per il cui uso fare riferimento al § 4.2. La grandezza selezionata appare sul display LCD con indicazioni dell’unità di misura e delle funzioni abilitate. Una barra grafica analogica è inoltre disponibile.
+
+### 2.1. STRUMENTI DI MISURA A VALORE MEDIO E IN VERO VALORE EFFICACE
+
+Gli strumenti di misura di grandezze alternate si dividono in due grandi famiglie:
+
+*   **Strumenti a VALORE MEDIO**: strumenti che misurano il valore della sola onda alla frequenza fondamentale (50 o 60 HZ)
+*   **Strumenti a VERO VALORE EFFICACE** anche detti **TRMS** (True Root Mean Square value): strumenti che misurano il vero valore efficace della grandezza in esame.
+
+In presenza di un’onda perfettamente sinusoidale le due famiglie di strumenti forniscono risultati identici. In presenza di onde distorte invece le letture differiscono. Gli strumenti a valore medio forniscono il valore efficace della sola onda fondamentale, gli strumenti a vero valore efficace forniscono invece il valore efficace dell’intera onda, armoniche comprese (entro la banda passante dello strumento). Pertanto, misurando la medesima grandezza con strumenti di entrambe le famiglie, i valori ottenuti sono identici solo se l’onda è puramente sinusoidale, qualora invece essa fosse distorta, gli strumenti a vero valore efficace forniscono valori maggiori rispetto alle letture di strumenti a valore medio.
+
+### 2.2. DEFINIZIONE DI VERO VALORE EFFICACE E FATTORE DI CRESTA
+
+Il valore efficace per la corrente è così definito: "In un tempo pari ad un periodo, una corrente alternata con valore efficace della intensità di 1A, circolando su di un resistore, dissipa la stessa energia che sarebbe dissipata, nello stesso tempo, da una corrente continua con intensità di 1A". Da questa definizione discende l’espressione numerica:
+
+G = 1/T₀ ∫(from t₀ to t₀+T) g(t)² dt
+
+Il valore efficace viene indicato come RMS (root mean square value)
+
+Il Fattore di Cresta è definito come il rapporto fra il Valore di Picco di un segnale ed il suo Valore Efficace:
+
+CF (G) = Gp / RMS
+
+Questo valore varia con la forma d'onda del segnale, per un’onda puramente sinusoidale esso vale √2 = 1.41. In presenza di distorsioni il Fattore di Cresta assume valori tanto maggiori quanto più è elevata la distorsione dell’onda.
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+
+### 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, comunque, di controllare sommariamente lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 6.3. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 7.
+
+### 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato tramite una singola batteria modello 9V NEDA 1604 IEC 6F22 inclusa nella confezione. Quando la batteria è quasi scarica appare il simbolo “**[SIMBOLO BATTERIA SCARICA]**”. Per sostituire la batteria seguire le istruzioni riportate al § 5.2. Lo strumento è inoltre dotato della funzione di Auto Power OFF (non escludibile) che provvede a spegnere automaticamente lo strumento trascorsi circa 15 minuti dall'ultima operazione.
+
+### 3.3. TARATURA
+
+Lo strumento rispecchia le caratteristiche tecniche riportate nel presente manuale. Le prestazioni dello strumento sono garantite per 12 mesi.
+
+### 3.4. CONSERVAZIONE
+
+Per garantire misure precise, dopo un lungo periodo di immagazzinamento in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 6.2.1).
+
+# 4. ISTRUZIONI OPERATIVE
+
+### 4.1. DESCRIZIONE DELLO STRUMENTO
+
+#### 4.1.1. Descrizione dei comandi
+
+LEGENDA:
+1.  Toroide apribile
+2.  LED luminoso per indicazione tensione AC senza contatto
+3.  Leva apertura toroide
+4.  Selettore funzioni
+5.  Tasto **HOLD** / **[SIMBOLO RETROILLUMINAZIONE]**
+6.  Tasto **PK/REL**
+7.  Display LCD
+8.  Tasti **MODE**, **MAX/MIN**, **Hz%**
+9.  Terminale di ingresso **COM**
+10. Terminale di ingresso **V Ω CAPHz%Temp**
+11. Coperchio vano batteria
+
+Fig. 1: Descrizione dello strumento
+
+#### 4.1.2. Tacche di allineamento
+
+Per ottenere le caratteristiche di precisione dichiarate per lo strumento, posizionare sempre il conduttore il più possibile al centro del toroide indicato dalle tacche riportate sullo stesso (vedere Fig. 2)
+
+LEGENDA
+1. Tacche di allineamento
+2. Conduttore
+
+Fig. 2: Tacche di allineamento
+
+### 4.2. DESCRIZIONE DEI TASTI FUNZIONE
+
+#### 4.2.1. Tasto H
+
+Una pressione del tasto “**H**” attiva la funzione di Data **HOLD**, ovvero il congelamento del valore della grandezza misurata. Sul display appare il messaggio "HOLD". Questa modalità di funzionamento viene disabilitata qualora si prema nuovamente il tasto “**H**” o si agisca sul commutatore.
+
+#### 4.2.2. Retroilluminazione (Backlight)
+
+Per migliorare la leggibilità dei valori misurati in ambienti bui è disponibile la funzione di retroilluminazione del display (backlight) che si attiva e disattiva mediante la pressione prolungata de tasto “**H**”. Questa funzione si disattiva automaticamente trascorsi circa 10 secondi dall’accensione al fine di preservare la batteria.
+
+#### 4.2.3. Tasto MODE
+
+Il tasto **MODE** è utilizzato per la selezione mutua delle misure di resistenza, test continuità con cicalino, prova diodi e capacità con selettore dello strumento in posizione **Ω CAP**, per la selezione della misura di temperatura in °C o °F con selettore in posizione **Temp** e per la selezione delle misure di corrente AC e DC nelle posizioni **60A**, **600A** (**HT9015**).
+
+#### 4.2.4. Tasto MAX/MIN
+
+Una pressione del tasto **MAX/MIN** attiva la rilevazione dei valori massimo e minimo della grandezza in esame. Entrambi i valori vengono costantemente memorizzati e si presentano in maniera ciclica ad ogni nuova pressione del medesimo tasto. Il display visualizza il simbolo associato alla funzione selezionata: “MAX” per il valore massimo, “MIN” per il valore minimo. Questa funzione è attiva in ogni misura ad eccezione del test continuità, prova diodi, capacità, frequenza e duty cycle. La barra grafica analogica scompare nelle funzioni in cui è attiva la funzione **MAX/MIN**. Premere in modo prolungato il tasto **MAX/MIN** o agire sul selettore per uscire dalla funzione.
+
+#### 4.2.5. Tasto Hz%
+
+Con il selettore dello strumento nelle posizioni **V~**, **60A~**, **600A~** (**HT9014**), **60A**, **600A** (**HT9015**) una pressione del tasto **Hz%** consente di passare alla misura di frequenza (Hz) o duty cycle (%).
+
+#### 4.2.6. Tasto PK/REL
+
+Questo tasto, con selettore dello strumento nelle posizioni **V~**, **V**, **Ω CAP** e corrente DC (**HT9015**), permette di effettuare l’azzeramento a display e una misura relativa della grandezza in esame. Al momento della prima pressione del tasto **PK/REL** il valore della grandezza in esame viene memorizzato come offset per le misure successive. Sul display compare il simbolo “REL” e la barra grafica analogica è disattivata. Lo strumento mostra il valore relativo ottenuto come valore corrente – offset. Questa funzione non è attiva nelle misure di resistenza, test continuità, corrente AC, temperatura, frequenza, duty cycle e prova diodi e con funzione **MAX/MIN** abilitata. Premere nuovamente il tasto **PK/REL** o agire sul selettore per uscire dalla funzione. La pressione del tasto **PK/REL** nelle posizioni **60A~**, **600A~** (**HT9014**) e **60A**, **600A** (**HT9015**) del selettore attiva la rilevazione del valore di picco massimo (calcolato con tempo <10ms) della corrente AC. Con funzione attiva il simbolo “P” è mostrato a display e lo strumento aggiorna costantemente in tempo reale il valore memorizzato. Premere nuovamente il tasto **PK/REL** per uscire dalla funzione.
+
+### 4.3. DESCRIZIONE DELLE FUNZIONI DEL COMMUTATORE
+
+#### 4.3.1. Misura Tensione AC
+
+> **ATTENZIONE**
+> La massima tensione AC in ingresso è 1000Vrms. Non misurare tensioni che eccedano i limiti espressi in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+Fig. 3: Uso della pinza in misura di Tensione AC
+
+1.  Avvicinare lo strumento in prossimità di una sorgente AC e notare l’accensione del LED rosso alla base del toroide (vedere Fig. 1 – parte 2) che ne sottolinea la presenza
+2.  Selezionare la posizione **V~**
+3.  Inserire il cavo rosso nel terminale di ingresso **V Ω CAPHz%Temp** e il cavo nero nel terminale di ingresso **COM** (Fig. 3)
+4.  Posizionare i puntali nei punti desiderati del circuito in esame. Il valore della tensione è mostrato a display. La barra grafica è disattivata con uso della funzione “REL”
+5.  La visualizzazione del simbolo “**O.L**” indica la condizione di fuori scala dello strumento
+6.  Per l’uso delle funzioni **HOLD**, **MAX/MIN** e **REL** fare riferimento al § 4.2
+
+> **ATTENZIONE**
+> *   Per effetto della elevata impedenza di ingresso può succedere che lo strumento impieghi un certo tempo ad azzerare il display
+> *   Il valore oscillante mostrato a display a terminali di ingresso aperti **non costituisce** un problema dello strumento e tali valori non sono sommati dallo strumento durante l’esecuzione di una misura reale
+
+#### 4.3.2. Misura Tensione DC
+
+> **ATTENZIONE**
+> La massima tensione DC in ingresso è 1000V. Non misurare tensioni che eccedano i limiti espressi in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+Fig. 4: Uso della pinza in misura di Tensione DC
+
+1.  Selezionare la posizione **V**
+2.  Inserire il cavo rosso nel terminale di ingresso **V Ω CAPHz%Temp** e il cavo nero nel terminale di ingresso **COM** (Fig. 4)
+3.  Posizionare i puntali nei punti desiderati del circuito in esame. Il valore della tensione è mostrato a display. La barra grafica è disattivata con uso della funzione “REL”
+4.  La visualizzazione del simbolo “**O.L**” indica la condizione di fuori scala dello strumento
+5.  Per l’uso delle funzioni **HOLD**, **MAX/MIN** e **REL** fare riferimento al § 4.2
+
+> **ATTENZIONE**
+> *   Per effetto della elevata impedenza di ingresso può succedere che lo strumento impieghi un certo tempo ad azzerare il display
+> *   Il valore oscillante mostrato a display a terminali di ingresso aperti **non costituisce** un problema dello strumento e tali valori non sono sommati dallo strumento durante l’esecuzione di una misura reale
+
+#### 4.3.3. Misura Resistenza
+
+> **ATTENZIONE**
+> Prima di effettuare una qualunque misura di resistenza accertarsi che il circuito in esame non sia alimentato e che eventuali condensatori presenti siano scarichi.
+
+Fig. 5: Uso della pinza per misura di Resistenza
+
+1.  Selezionare la posizione **Ω CAP**
+2.  Inserire il cavo rosso nel terminale di ingresso **V Ω CAPHz%Temp** e il cavo nero nel terminale di ingresso **COM**
+3.  Posizionare i puntali nei punti desiderati del circuito in esame (Fig. 5). Il valore della resistenza verrà visualizzato sul display
+4.  La visualizzazione del simbolo “**O.L**” indica la condizione di fuori scala dello strumento
+5.  Per l’uso delle funzioni **HOLD** e **MAX/MIN** fare riferimento al § 4.2
+
+#### 4.3.4. Test Continuità e Prova Diodi
+
+> **ATTENZIONE**
+> Prima di effettuare una qualunque misura di resistenza accertarsi che il circuito in esame non sia alimentato e che eventuali condensatori presenti siano scarichi.
+
+Fig. 6: Uso della pinza per Test Continuità e Prova Diodi
+
+1.  Selezionare la posizione **Ω CAP**
+2.  Premere il tasto **MODE** ciclicamente fino a visualizzare il simbolo “**[SIMBOLO CONTINUITÀ]**” a display per attivare il test continuità
+3.  Inserire il cavo rosso nel terminale di ingresso **V Ω CAP Temp** e il cavo nero nel terminale di ingresso **COM** ed eseguire il test di continuità sull’oggetto in prova (vedere Fig. 6 – parte sinistra). Il cicalino emette un segnale acustico quando il valore della resistenza misurata è inferiore a circa 60 Ω
+4.  Premere il tasto **MODE** per selezionare la prova diodi. Il simbolo “**[SIMBOLO DIODO]**” appare a display
+5.  Connettere il puntale rosso all’anodo del diodo e il puntale nero al catodo in caso di misura di polarizzazione diretta (vedere Fig. 6 – parte destra). Invertire la posizione dei puntali in caso di misura di polarizzazione inversa
+6.  Valori a display compresi tra 0.4V e 0.7V (diretta) e “**OL**” (inversa) indicano giunzione corretta. Un valore “0mV” indica dispositivo in cortocircuito mentre l’indicazione “**OL**” in entrambe le direzioni indica dispositivo interrotto
+
+#### 4.3.5. Misura Capacità
+
+> **ATTENZIONE**
+> Prima di eseguire misure di capacità su circuiti o condensatori, rimuovere l’alimentazione al circuito sotto esame e lasciare scaricare tutte le capacità presenti in esso
+
+Fig. 7: Uso della pinza per misura di Capacità
+
+1.  Selezionare la posizione **Ω CAP**
+2.  Premere il tasto **MODE** ciclicamente fino a visualizzare il simbolo “**nF**” a display
+3.  Inserire il cavo rosso nel terminale di ingresso **V Ω CAP Temp** e il cavo nero nel terminale di ingresso **COM**
+4.  Posizionare i puntali nei punti desiderati del circuito in esame (Fig. 7). Il valore della capacità verrà visualizzato sul display. Nella misura di capacità la barra grafica analogica è disattivata
+5.  La visualizzazione del simbolo “**O.L**” indica la condizione di fuori scala dello strumento
+6.  Per l’uso delle funzioni **HOLD** e **REL** fare riferimento al § 4.2
+
+> **ATTENZIONE**
+> Per letture di capacità <40nF premere il tasto **PK/REL** prima di eseguire il test al fine di ottenere migliori risultati di misura
+
+#### 4.3.6. Misura Temperatura
+
+> **ATTENZIONE**
+> Non porre la sonda di temperatura a contatto con superfici sotto tensione. Tensioni superiori a 30Vrms o 60VDC comportano rischi di shock elettrico
+
+Fig. 8: Uso della pinza per misura di Temperatura
+
+1.  Selezionare la posizione **Temp**
+2.  Premere il tasto **MODE** per selezionare il tipo di misura. I simboli “**°C**” o “**°F**” sono visualizzati a display in funzione della misura in gradi Centigradi o Farheneit
+3.  Inserire la sonda a filo tipo K in dotazione nei terminale di ingresso **V Ω CAPHz%Temp** e **COM** tramite l’opportuno adattatore, rispettando la polarità mostrata in Fig. 8. Il valore della temperatura è mostrato a display. Nella misura di temperatura la barra grafica analogica è disattivata
+4.  Per l’uso delle funzioni **HOLD** e **MAX/MIN** fare riferimento al § 4.2
+
+#### 4.3.7. Misura Corrente DC (HT9015)
+
+> **ATTENZIONE**
+> Assicurarsi che tutti i terminali di ingresso dello strumento siano disconnessi
+
+Fig. 9: Uso della pinza per misure di corrente DC
+
+1.  Selezionare le posizioni **60A** o **600A** del selettore
+2.  Premere il tasto **MODE** per selezionare il tipo di misura “**DC**”
+3.  Premere il tasto **PK/REL** per azzerare la corrente di magnetizzazione residua
+
+> **ATTENZIONE**
+> L’azzeramento della corrente di magnetizzazione residua è essenziale per ottenere risultati corretti.
+
+4.  Inserire il cavo all’interno del toroide al centro dello stesso al fine di ottenere misure accurate. Utilizzare le tacche presenti come riferimento (vedere Fig. 2). Il valore della corrente DC, è visualizzato a display
+5.  La visualizzazione del simbolo "**-**" indica che lo strumento è inserito in modo contrario al verso della corrente (vedere Fig. 9)
+6.  La visualizzazione del simbolo “**O.L**” indica la condizione di fuori scala dello strumento. Posizionare in tal caso il selettore su una portata di misura superiore
+7.  Per l’uso delle funzioni **HOLD**, **MAX/MIN** e **REL** fare riferimento al § 4.2
+
+#### 4.3.8. Misura Corrente AC
+
+> **ATTENZIONE**
+> Assicurarsi che tutti i terminali di ingresso dello strumento siano disconnessi
+
+Fig. 9: Uso della pinza per misure di corrente AC
+
+1.  Avvicinare lo strumento in prossimità di una sorgente AC e notare l’accensione del LED rosso alla base del toroide (vedere Fig. 1 – parte 2) che sottolinea la presenza di tensione
+2.  Selezionare le posizioni **60A~** o **600A~** (**HT9014**) oppure **60A** o **600A** (**HT9015**) del selettore
+3.  Premere il tasto **MODE** per selezionare il tipo di misura “**AC**” (**HT9015**)
+4.  Inserire il cavo all’interno del toroide al centro dello stesso al fine di ottenere misure accurate. Utilizzare le tacche presenti come riferimento (vedere Fig. 2). Il valore della corrente AC, è visualizzato a display
+5.  La visualizzazione del simbolo “**O.L**” indica la condizione di fuori scala dello strumento. Posizionare in tal caso il selettore su una portata di misura superiore
+6.  Per l’uso delle funzioni **HOLD**, **MAX/MIN** e **PEAK** fare riferimento al § 4.2
+
+> **ATTENZIONE**
+> Un eventuale valore mostrato a display con strumento non in misura **non costituisce un problema dello strumento** e tali valori non sono sommati dallo strumento durante l’esecuzione di una misura reale
+
+#### 4.3.9. Misura di Frequenza e Duty Cycle
+
+> **ATTENZIONE**
+> *   Nella misura di frequenza con puntali la massima tensione AC in ingresso è 1000Vrms. Non misurare tensioni che eccedano i limiti espressi in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento
+> *   Nella misura di frequenza con toroide assicurarsi che tutti i terminali di ingresso dello strumento siano disconnessi
+
+Fig. 10: Uso della pinza per misure di Frequenza e Duty Cycle
+
+1.  Selezionare la posizione **V~** per misura di frequenza con puntali o una delle posizioni **60A** o **600A** (**HT9015**) oppure **60A~** o **600A~** (**HT9014**) per misura di frequenza con toroide
+2.  Premere il tasto **Hz%** ciclicamente fino a visualizzare il simbolo “**Hz**” a display per la misura della frequenza o il simbolo “**%**” per la misura di duty cycle
+3.  Inserire il cavo rosso nel terminale di ingresso **V Ω CAPHz%Temp** e il cavo nero nel terminale di ingresso **COM** (Fig. 10 – parte sinistra) per misura di frequenza con puntali. Inserire la pinza sul conduttore (Fig. 10 – parte destra) per misura di frequenza con toroide. Il valore della frequenza (Hz) o del duty cycle (%) è mostrato a display. Nella misura di frequenza e duty cycle la barra grafica analogica è disattivata
+4.  La visualizzazione del simbolo “**O.L**” indica la condizione di fuori scala dello strumento
+5.  Per l’uso della funzione **HOLD** fare riferimento al § 4.2
+
+# 5. MANUTENZIONE
+
+### 5.1. GENERALITÀ
+
+1.  Lo strumento da Lei acquistato è uno strumento di precisione. Durante l’utilizzo e l’immagazzinamento rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo.
+2.  Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole.
+3.  Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo rimuovere la batteria per evitare fuoriuscite di liquidi da parte di quest’ultima che possano danneggiare i circuiti interni dello strumento.
+
+### 5.2. SOSTITUZIONE BATTERIA
+
+Quando sul display LCD appare il simbolo “**[SIMBOLO BATTERIA SCARICA]**” occorre sostituire la batteria.
+
+> **ATTENZIONE**
+> Solo tecnici esperti possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso tutti i cavi dai terminali di ingresso o il cavo in esame dall’interno del toroide
+
+1.  Posizionare il selettore su OFF
+2.  Rimuovere i cavi dai terminali di ingresso o il cavo in esame dall’interno del toroide
+3.  Svitare la vite di fissaggio della copertura del vano batteria e rimuovere detta copertura
+4.  Scollegare la batteria dal connettore
+5.  Collegare una nuova batteria al connettore (vedere § 6.1.2) rispettando le polarità indicate
+6.  Riposizionare la copertura del vano batteria e fissarla con l’apposita vite
+7.  Non disperdere la batteria usata nell’ambiente. Usare gli appositi contenitori per lo smaltimento dei rifiuti
+
+### 5.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+### 5.4. FINE VITA
+
+> **ATTENZIONE**: il simbolo riportato sullo strumento indica che l'apparecchiatura, i suoi accessori e la batteria devono essere raccolti separatamente e trattati in modo corretto.
+
+# 6. SPECIFICHE TECNICHE
+
+### 6.1. CARATTERISTICHE TECNICHE
+
+Incertezza calcolata come ± [%lettura + (num.cifre) x risoluzione] a 18°C ÷ 28°C, <75% RH
+
+**Tensione DC (Autorange)**
+
+| Campo       | Risoluzione | Incertezza                  | Impedenza di ingresso | Protezione contro i sovraccarichi |
+| :---------- | :---------- | :-------------------------- | :-------------------- | :-------------------------------- |
+| 600.0mV     | 0.01mV      | ± (1.0%lettura+3cifre)      | 10M Ω                 | 1000VDC/ACrms                     |
+| 6.000V      | 0.001V      |                             |                       |                                   |
+| 60.00V      | 0.01V       |                             |                       |                                   |
+| 600.0V      | 0.1V        |                             |                       |                                   |
+| 1000V       | 1V          |                             |                       |                                   |
+
+Lo strumento emette un suono continuo per VDC >1000V
+
+**Tensione AC TRMS (Autorange) – (HT9014)**
+
+| Campo       | Risoluzione | Incertezza                                      | Impedenza di ingresso | Banda passante | Protezione contro i sovraccarichi |
+| :---------- | :---------- | :---------------------------------------------- | :-------------------- | :------------- | :-------------------------------- |
+| 6.000V      | 0.001V      | ± (1.0%lett.+10cifre) (50 ÷ 60Hz)              | 10M Ω                 | 50-400Hz       | 1000VDC/ACrms                     |
+|             |             | ± (3.5%lettura+5cifre) (61 ÷ 400Hz)            |                       |                |                                   |
+| 60.00V      | 0.01V       |                                                 |                       |                |                                   |
+| 600.0V      | 0.1V        |                                                 |                       |                |                                   |
+| 1000V       | 1V          |                                                 |                       |                |                                   |
+
+Max fattore di cresta: 1.4, Sensore integrato per rilevazione tensione AC: LED acceso per tensione fase-terra > 100V, 50/60Hz
+Lo strumento emette un suono continuo nella scala 1000V per VAC >750V
+
+**Tensione AC TRMS (Autorange) – (HT9015)**
+
+| Campo       | Risoluzione | Incertezza                                      | Impedenza di ingresso | Banda passante | Protezione contro i sovraccarichi |
+| :---------- | :---------- | :---------------------------------------------- | :-------------------- | :------------- | :-------------------------------- |
+| 6.000V      | 0.001V      | ± (1.0%lett.+10cifre) (50 ÷ 60Hz)              | 10M Ω                 | 50-400Hz       | 1000VDC/ACrms                     |
+|             |             | ± (3.5%lettura+5cifre) (61 ÷ 400Hz)            |                       |                |                                   |
+| 60.00V      | 0.01V       | ± (1.0%lett.+4cifre) (50 ÷ 60Hz)               |                       |                |                                   |
+|             |             | ± (3.5%lettura+5cifre) (61 ÷ 400Hz)            |                       |                |                                   |
+| 600.0V      | 0.1V        |                                                 |                       |                |                                   |
+| 1000V       | 1V          |                                                 |                       |                |                                   |
+
+Max fattore di cresta: 1.4, Sensore integrato per rilevazione tensione AC: LED acceso per tensione fase-terra > 100V, 50/60Hz
+Lo strumento emette un suono continuo nella scala 1000V per VAC >750V
+
+**Resistenza e Test Continuità (Autorange)**
+
+| Campo       | Risoluzione | Incertezza               | Buzzer | Protezione contro i sovraccarichi |
+| :---------- | :---------- | :----------------------- | :----- | :-------------------------------- |
+| 600.0 Ω     | 0.1 Ω       | ± (1.0%lettura+5cifre)   | ≤ 60 Ω | 600VDC/ACrms                      |
+| 6.000k Ω    | 0.001k Ω    |                          |        |                                   |
+| 60.00k Ω    | 0.01k Ω     |                          |        |                                   |
+| 600.0k Ω    | 0.1k Ω      |                          |        |                                   |
+| 6.000M Ω    | 0.001M Ω    |                          |        |                                   |
+| 60.00M Ω    | 0.01M Ω     | ± (2.0%lett.+10cifre)    |        |                                   |
+
+Corrente di prova test continuità: < 0.35mA
+
+**Corrente DC (solo HT9015)**
+
+| Campo     | Risoluzione | Incertezza (*)           | Protezione contro i sovraccarichi |
+| :-------- | :---------- | :----------------------- | :-------------------------------- |
+| 60.00A    | 0.01A       | ± (2.2%lett.+10cifre)    | 600AACrms                         |
+| 600.0A    | 0.1A        | ± (2.0%lettura+8cifre)   |                                   |
+
+(*) Riferita a cavo posizionato al centro del toroide
+Influenza del posizionamento del cavo: ± 2.0%lettura
+
+**Corrente AC TRMS (HT9014)**
+
+| Campo     | Risoluzione | Incertezza (*)           | Banda passante | Protezione contro i sovraccarichi |
+| :-------- | :---------- | :----------------------- | :------------- | :-------------------------------- |
+| 60.00A    | 0.01A       | ± (2.8%lett.+12cifre)    | 50 ÷ 60Hz      | 600AACrms                         |
+| 600.0A    | 0.1A        | ± (2.8%lettura+8cifre)   |                |                                   |
+| 60.00A    | 0.01A       | ± (4.5%lett.+10cifre)    | 61 ÷ 400Hz     |                                   |
+| 600.0A    | 0.1A        | ± (5.0%lett.+10cifre)    |                |                                   |
+
+Max fattore di cresta: 1.4, Funzione PEAK: tempo di risposta <10ms; (*) Riferita a cavo posizionato al centro del toroide
+Influenza del posizionamento del cavo: ± 2.0%lettura
+
+**Corrente AC TRMS (HT9015)**
+
+| Campo     | Risoluzione | Incertezza (*)           | Banda passante | Protezione contro i sovraccarichi |
+| :-------- | :---------- | :----------------------- | :------------- | :-------------------------------- |
+| 60.00A    | 0.01A       | ± (2.2%lett.+12cifre)    | 50 ÷ 60Hz      | 600AACrms                         |
+| 600.0A    | 0.1A        | ± (2.2%lettura+8cifre)   |                |                                   |
+| 60.00A    | 0.01A       | ± (3.5%lett.+12cifre)    | 61 ÷ 400Hz     |                                   |
+| 600.0A    | 0.1A        | ± (3.5%lett.+8cifre)     |                |                                   |
+
+Max fattore di cresta: 1.4, Funzione PEAK: tempo di risposta <10ms; (*) Riferita a cavo posizionato al centro del toroide
+Influenza del posizionamento del cavo: ± 2.0%lettura
+
+**Capacità (Autorange)**
+
+| Campo      | Risoluzione | Incertezza               | Protezione contro i sovraccarichi |
+| :--------- | :---------- | :----------------------- | :-------------------------------- |
+| 40.00nF    | 0.01nF      | ± (3.5%lett.+40cifre)    | 600VDC/ACrms                      |
+| 400.0nF    | 0.1nF       | ± (2.5%lettura+5cifre)   |                                   |
+| 4.000 μF   | 0.001 μF    |                          |                                   |
+| 40.00 μF   | 0.01 μF     |                          |                                   |
+| 400.0 μF   | 0.1 μF      |                          |                                   |
+| 4000 μF    | 1 μF        | ± (5.0%lettura+5cifre)   |                                   |
+
+**Prova Diodi**
+
+| Campo       | Corrente di prova | Tensione a vuoto |
+| :---------- | :---------------- | :--------------- |
+|             | 0.9mA tipico      | 2.8VDC           |
+
+**Frequenza con puntali (Autorange)**
+
+| Campo      | Risoluzione | Incertezza             | Sensibilità | Protezione contro i sovraccarichi |
+| :--------- | :---------- | :--------------------- | :---------- | :-------------------------------- |
+| 99.99Hz    | 0.01Hz      | ± (1.0%lettura+5cifre) | ≥ 15Vrms    | 600VDC/ACrms                      |
+| 999.9Hz    | 0.1Hz       |                        |             |                                   |
+| 9.999kHz   | 0.001kHz    |                        |             |                                   |
+| 60.00kHz   | 0.01kHz     |                        |             |                                   |
+
+**Frequenza con toroide (Autorange)**
+
+| Campo      | Risoluzione | Incertezza             | Sensibilità     | Protezione contro i sovraccarichi |
+| :--------- | :---------- | :--------------------- | :-------------- | :-------------------------------- |
+| 99.99Hz    | 0.01Hz      | ± (1.0%lettura+5cifre) | ≥ 10A (60A)     | 600AACrms                         |
+|            |             |                        | ≥ 50A(600A)     |                                   |
+| 999.9Hz    | 0.1Hz       |                        |                 |                                   |
+| 9.999kHz   | 0.001kHz    |                        |                 |                                   |
+
+**Duty Cycle (Autorange)**
+
+| Campo             | Risoluzione | Sensibilità | Incertezza             |
+| :---------------- | :---------- | :---------- | :--------------------- |
+| 0.5% ÷ 99.0%      | 0.1%        | ≥ 15Vrms    | ± (1.2%lettura+2cifre) |
+
+**Temperatura con sonda K (Autorange)**
+
+| Campo             | Risoluzione | Incertezza (*)         | Protezione contro i sovraccarichi |
+| :---------------- | :---------- | :--------------------- | :-------------------------------- |
+| -20.0 ÷ 400.0°C   | 0.1°C       | ± (2.0%lettura+3°C)    | 600VDC/ACrms                      |
+| 400 ÷ 760°C       | 1°C         | ± (2.0%lettura+5°C)    |                                   |
+| -4.0 ÷ 752.0°F    | 0.1°F       | ± (2.0%lettura+6°F)    |                                   |
+| 752 ÷ 1400°F      | 1°F         | ± (2.0%lettura+9°F)    |                                   |
+
+(*) Incertezza della sonda K non considerata
+
+#### 6.1.1. Normative di riferimento
+
+*   **Sicurezza**: IEC/EN61010-1
+*   **Isolamento**: doppio isolamento
+*   **Livello di Inquinamento**: 2
+*   **Max altitudine di utilizzo**: 2000m
+*   **Categoria di misura**: CAT IV 600V, CAT III 1000V verso terra
+
+#### 6.1.2. Caratteristiche generali
+
+**Caratteristiche meccaniche**
+
+*   **Dimensioni (L x La x H)**: 215 x 74 x 43mm
+*   **Peso (batteria inclusa)**: 285g
+*   **Diametro max. cavo**: 30mm
+
+**Alimentazione**
+
+*   **Tipo batterie**: 1x9V tipo NEDA 1604 IEC 6F22 JIS 006P
+*   **Indicazione batteria scarica**: Sul display appare il simbolo “**[SIMBOLO BATTERIA SCARICA]**” quando la tensione fornita dalla batteria è troppo bassa
+*   **Durata batteria**: circa 200 ore di utilizzo continuo
+*   **Auto Power OFF**: dopo 15 minuti di non utilizzo (non escludibile)
+
+**Display**
+
+*   **Caratteristiche**: 4 LCD (max 6000 punti), segno e punto decimale con bargraph e backlight
+*   **Velocità di campionamento**: 2 misure al secondo
+*   **Tipo di conversione**: TRMS
+
+### 6.2. AMBIENTE
+
+#### 6.2.1. Condizioni ambientali di utilizzo
+
+*   **Temperatura di riferimento**: 18°C ÷ 28°C
+*   **Temperatura di utilizzo**: 5 ÷ 40 °C
+*   **Umidità relativa ammessa**: <80% RH
+*   **Temperatura di immagazzinamento**: -20 ÷ 60 °C
+*   **Umidità di immagazzinamento**: <80%RH
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione 2006/95/CE (LVD) e della direttiva EMC 2004/108/CE
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (RoHS) e della direttiva europea 2012/19/EU (WEEE)
+
+### 6.3. ACCESSORI IN DOTAZIONE
+
+*   Coppia di puntali
+*   Adattatore + sonda a filo tipo K
+*   Borsa per trasporto
+*   Batteria
+*   Manuale d’uso
+
+### 6.4. ACCESSORI OPZIONALI
+
+| Modello | Descrizione                                     | Campo di temperatura | Precisione (a 100°C) | Lunghezza sonda (mm) | Diametro sonda (mm) |
+| :------ | :---------------------------------------------- | :------------------- | :------------------- | :------------------- | :------------------ |
+| TK107   | Temperatura aria e gas                          | -40 ÷ 800 °C         | ± 2.2rdg             | 200                  | 1.5                 |
+| TK108   | Temperatura interna di sostanze semi solide     | -40 ÷ 800 °C         | ± 2.2rdg             | 200                  | 3                   |
+| TK109   | Temperatura interna di liquidi                  | -40 ÷ 800 °C         | ± 2.2rdg             | 200                  | 4                   |
+| TK110   | Temperatura su superfici                        | -40 ÷ 400 °C         | ± 2.2rdg             | 200                  | 5                   |
+| TK111   | Temperatura su superfici, con punta a 90°C fissa | -40 ÷ 400 °C         | ± 2.2rdg             | 260                  | 5                   |
+
+# 7. ASSISTENZA
+
+### 7.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti. La garanzia non è applicata nei seguenti casi:
+
+*   Riparazione e/o sostituzione accessori e batterie (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+### 7.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato delle batterie e dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
