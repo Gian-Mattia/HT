@@ -1,0 +1,1051 @@
+# HT2055
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-37 -->
+© Copyright HT ITALIA 2024 Versione IT 3.0 1 - 03/12/2024 ITALIANO Manuale d’uso
+
+# INDICE
+
+- [1 PRECAUZIONI E MISURE DI SICUREZZA](#1-precauzioni-e-misure-di-sicurezza)
+    - [1.1 Istruzioni preliminari](#11-istruzioni-preliminari)
+    - [1.2 Durante l’utilizzo](#12-durante-lutilizzo)
+    - [1.3 Dopo l’utilizzo](#13-dopo-lutilizzo)
+    - [1.4 Definizione di categoria di misura (sovratensione)](#14-definizione-di-categoria-di-misura-sovratensione)
+- [2 DESCRIZIONE GENERALE](#2-descrizione-generale)
+    - [2.1 Caratteristiche principali](#21-caratteristiche-principali)
+- [3 PREPARAZIONE ALL’UTILIZZO](#3-preparazione-allutilizzo)
+    - [3.1 Controlli iniziali](#31-controlli-iniziali)
+    - [3.2 Alimentazione dello strumento](#32-alimentazione-dello-strumento)
+    - [3.3 Conservazione](#33-conservazione)
+- [4 NOMENCLATURA](#4-nomenclatura)
+    - [4.1 Descrizione dell’unità di potenza HT2055S](#41-descrizione-dellunità-di-potenza-ht2055s)
+        - [4.1.1 Modifica tensione di alimentazione unità HT2055S](#411-modifica-tensione-di-alimentazione-unità-ht2055s)
+    - [4.2 Descrizione dell’unità voltmetrica HT2055M](#42-descrizione-dellunità-voltmetrica-ht2055m)
+        - [4.2.1 Vista frontale](#421-vista-frontale)
+        - [4.2.2 Vista superiore](#422-vista-superiore)
+        - [4.2.3 Vista posteriore](#423-vista-posteriore)
+- [5 OPERAZIONI INIZIALI CON UNITÀ HT2055M](#5-operazioni-iniziali-con-unità-ht2055m)
+    - [5.1 Impostazioni](#51-impostazioni)
+        - [5.1.1 Selezione della lingua](#511-selezione-della-lingua)
+        - [5.1.2 Selezione videate di Aiuto](#512-selezione-videate-di-aiuto)
+        - [5.1.3 Sincronizzazione](#513-sincronizzazione)
+        - [5.1.4 Impostazioni di default](#514-impostazioni-di-default)
+        - [5.1.5 Impostazione Data/Ora](#515-impostazione-dataora)
+    - [5.2 Messaggi a display](#52-messaggi-a-display)
+- [6 OPERAZIONI INIZIALI CON UNITÀ HT2055S](#6-operazioni-iniziali-con-unità-ht2055s)
+    - [6.1 Impostazioni di sistema](#61-impostazioni-di-sistema)
+        - [6.1.1 Impostazioni di default](#611-impostazioni-di-default)
+        - [6.1.2 Impostazione potenza del generatore](#612-impostazione-potenza-del-generatore)
+        - [6.1.3 Impostazione condizione di allarme](#613-impostazione-condizione-di-allarme)
+    - [6.2 Regolazione contrasto display](#62-regolazione-contrasto-display)
+    - [6.3 Videate di aiuto](#63-videate-di-aiuto)
+    - [6.4 Messaggi a display](#64-messaggi-a-display)
+- [7 ESECUZIONE DELLE MISURE](#7-esecuzione-delle-misure)
+    - [7.1 Teoria sulla misura di tensione di passo/contatto](#71-teoria-sulla-misura-di-tensione-di-passocontatto)
+    - [7.2 Misura tensione di passo e di contatto](#72-misura-tensione-di-passo-e-di-contatto)
+    - [7.3 Misura resistenza di terra](#73-misura-resistenza-di-terra)
+    - [7.4 Misura resistività del terreno](#74-misura-resistività-del-terreno)
+- [8 OPERAZIONI CON MEMORIA](#8-operazioni-con-memoria)
+    - [8.1 Salvataggio dei risultati](#81-salvataggio-dei-risultati)
+    - [8.2 Richiamo dei risultati a display](#82-richiamo-dei-risultati-a-display)
+    - [8.3 Cancellazione dati memorizzati](#83-cancellazione-dati-memorizzati)
+- [9 COLLEGAMENTO DELLO STRUMENTO A PC](#9-collegamento-dello-strumento-a-pc)
+    - [9.1 Installazione del software e configurazioni iniziali (Win XP)](#91-installazione-del-software-e-configurazioni-iniziali-win-xp)
+- [10 MANUTENZIONE](#10-manutenzione)
+    - [10.1 Sostituzione e ricarica batterie unità HT2055M](#101-sostituzione-e-ricarica-batterie-unità-ht2055m)
+    - [10.2 Sostituzione fusibili unità HT2055S](#102-sostituzione-fusibili-unità-ht2055s)
+    - [10.3 Pulizia dello strumento](#103-pulizia-dello-strumento)
+    - [10.4 Fine vita](#104-fine-vita)
+- [11 SPECIFICHE TECNICHE](#11-specifiche-tecniche)
+    - [11.1 Caratteristiche generali](#111-caratteristiche-generali)
+    - [11.2 Ambiente](#112-ambiente)
+    - [11.3 Accessori in dotazione](#113-accessori-in-dotazione)
+    - [11.4 Accessori opzionali](#114-accessori-opzionali)
+- [12 ASSISTENZA](#12-assistenza)
+    - [12.1 Condizioni di garanzia](#121-condizioni-di-garanzia)
+    - [12.2 Assistenza](#122-assistenza)
+
+---
+
+# 1 PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità alle normative IEC/EN61010-1 e IEC/EN61557-1 relative alla sicurezza degli strumenti di misura elettronici.
+
+> **ATTENZIONE**
+> Per la sicurezza dell'operatore e per evitare di danneggiare lo strumento, seguire le procedure descritte nel presente manuale e leggere con particolare attenzione tutte le note precedute dal simbolo .
+
+Prima e durante l'esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+
+*   Non effettuare misure in ambienti umidi, in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi
+*   Anche se non si stanno effettuando misure evitare contatti con il circuito in esame, con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+*   Non coprire le paratie laterali di ventilazione dell’unità di potenza `HT2055S` durante il normale funzionamento
+*   Scollegare ogni terminale di misura, spegnere lo strumento e togliere il cavo di alimentazione per la sostituzione del fusibile sull’unità di potenza `HT2055S`
+*   Prestare particolare attenzione quando si effettuano misure di tensioni superiori a 25V in ambienti particolari (cantieri, piscine, ecc..) e 50V in ambienti ordinari in quanto è presente il rischio di shock elettrici.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+*   **ATTENZIONE**: attenersi alle istruzioni riportate nel manuale. Un uso improprio potrebbe causare danni allo strumento e situazioni pericolose per l’operatore
+*   **Tensione o corrente AC**
+*   **Strumento con doppio isolamento**
+
+## 1.1 ISTRUZIONI PRELIMINARI
+
+*   Questo strumento è stato progettato per un utilizzo in ambiente con livello di inquinamento 2
+*   Può essere utilizzato per verifiche su impianti elettrici industriali fino a `CAT II 300V` e `CAT IV 50V` verso terra (`HT2055S`) e `CAT IV 50` (`HT2055M`)
+*   Seguire le normali regole di sicurezza orientate a proteggere l'operatore da correnti pericolose e proteggere lo strumento contro un utilizzo errato
+*   Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici
+*   Non effettuare misure su circuiti che superino il limite di corrente e tensione specificato.
+*   Non effettuare misure in condizione ambientali al di fuori delle limitazioni indicate nel presente manuale
+*   Prima di collegare i puntali al circuito in esame, controllare che sia selezionata la funzione corretta
+
+## 1.2 DURANTE L’UTILIZZO
+
+Leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle avvertenze e/o istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore
+
+*   Prima di selezionare una nuova funzione scollegare i puntali di misura dal circuito
+*   Quando lo strumento è connesso al circuito in esame non toccare mai un qualunque terminale inutilizzato
+*   Il dispersore ausiliario di corrente può essere soggetto a tensioni elevate. Evitare il contatto con tale dispersore durante la misura
+*   Evitare la misura di resistenza in presenza di tensioni esterne. Anche se lo strumento è protetto, una tensione eccessiva potrebbe causare malfunzionamenti dello strumento
+
+## 1.3 DOPO L’UTILIZZO
+
+Quando le misure sono terminate spegnere entrambe le unità.
+
+## 1.4 DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma "IEC/EN 61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali", definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § 6.7.4: Circuiti di misura, essa recita:
+
+I circuiti sono suddivisi nelle seguenti categorie di misura:
+
+*   La **categoria di misura IV** serve per le misure effettuate su una sorgente di un’installazione a bassa tensione.
+    *   Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle sovracorrenti e sulle unità di regolazione dell’ondulazione.
+*   La **categoria di misura III** serve per le misure effettuate in installazioni all’interno di edifici.
+    *   Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli apparecchi destinati all’impiego industriale e altre apparecchiature, per esempio i motori fissi con collegamento ad impianto fisso.
+*   La **categoria di misura II** serve per le misure effettuate su circuiti collegati direttamente all’installazione a bassa tensione.
+    *   Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari.
+*   La **categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE.
+    *   Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura
+
+# 2 DESCRIZIONE GENERALE
+
+Lo strumento `HT2055`, se utilizzato secondo quanto descritto nel presente manuale, garantisce misure accurate ed affidabili e la massima sicurezza grazie ad uno sviluppo di nuova concezione che assicura il doppio isolamento ed il raggiungimento della categoria di sovratensione IV.
+Esso è costituito dalle seguenti due unità:
+
+*   **HT2055S**: Unità di potenza in grado di erogare la corrente di prova necessaria per lo svolgimento delle misure di tensione di passo/contatto e di resistenza di terra /resistività del terreno
+*   **HT2055M**: Unità voltmetrica in grado di realizzare le misure di tensione di passo/contatto con corrente di prova fornita dall’unità di potenza
+
+## 2.1 CARATTERISTICHE PRINCIPALI
+
+*   Misura della tensione di passo e di contatto con corrente di prova max 55A
+*   Misura di resistenza di terra con metodo voltamperometrico
+*   Misura di resistività del terreno con metodo Wenner a 4 terminali
+*   Uso di piastre metalliche per misura di tensioni di passo/contatto
+*   Sincronizzazione iniziale per uso autonomo dell’unità voltmetrica
+*   Sistema di filtraggio interno (DSP) per compensazione effetti di disturbo sulla misura
+*   Memoria interna per salvataggio misure
+*   Interfaccia USB per trasferimento dati a PC
+*   Uso di batterie ricaricabili sull’unità voltmetrica
+
+Il `display LCD` grafico su entrambe le unità consente facili letture dei risultati di misura e dei parametri di controllo associati. Il funzionamento è semplice e chiaro e l’utilizzatore, per poter far funzionare lo strumento, non necessita di alcuna formazione specifica (se non l’aver letto e compreso il presente manuale d’uso).
+
+Lo strumento può memorizzare i risultati delle prove. Il software professionale per Windows in dotazione permette di trasferire a PC i risultati delle prove e altri parametri.
+
+# 3 PREPARAZIONE ALL’UTILIZZO
+
+## 3.1 CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, di controllarlo sommariamente per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere od il rivenditore. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al `§ 11.3`. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al `§ 12`.
+
+## 3.2 ALIMENTAZIONE DELLO STRUMENTO
+
+L’unità di potenza `HT2055S` è alimentata da rete elettrica `230V ± 10%, 50/60Hz` mentre l’unità voltmetrica `HT2055M` è alimentata da `6x1.2V IEC AA` batterie interne ricaricabili `NiMH` tramite carica batterie fornito in dotazione. L’uso di batterie `6x1.5V` alcaline tipo `AA LR6` è inoltre possibile per questa unità. Il simbolo “ ` ` ” indica che le batterie sono scariche e devono essere ricaricate. Per sostituire o ricaricare le batterie seguire le istruzioni indicate al `§ 10.1`.
+
+> **ATTENZIONE**
+> *   Per l’unità `HT2055M` usare batterie ricaricabili `NiMH` tipo `IEC LR 6` tutte dello stesso tipo.
+> *   In caso di uso di batterie alcaline NON collegare il caricabatterie all’unità `HT2055M`
+> *   Al primo utilizzo dello strumento `HT2055M`, collegarlo alla rete elettrica per almeno 14 ore in modo da ricaricare completamente le batterie ricaricabili. Normalmente sono consigliati 4 cicli di carica/scarica per il funzionamento a regime delle batteria
+
+## 3.3 CONSERVAZIONE
+
+Per garantire misure accurate e preservare lo strumento da possibili guasti, dopo un lungo periodo di immagazzinamento in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere le specifiche ambientali elencate al `§ 11.2`).
+
+# 4 NOMENCLATURA
+
+## 4.1 DESCRIZIONE DELL’UNITÀ DI POTENZA HT2055S
+
+Fig. 1 : Descrizione dello strumento `HT2055S`
+
+**LEGENDA**:
+
+1.  Fusibile di protezione sull’alimentazione (vedere `§ 11.1`)
+2.  Selettore per alimentazione 110/230V dello strumento
+3.  Interruttore di accensione spegnimento
+4.  Connettore di ingresso per inserimento cavo di alimentazione
+5.  Connettore RS-232 per collegamento all’unità `HT2055M`
+6.  Terminale C1/H ausiliario per collegamento a sistema in prova
+7.  Terminale P1/S per collegamento sonda di tensione
+8.  Terminale P2/ES per collegamento sonda di corrente
+9.  Terminale C2/E ausiliario per collegamento a sistema in prova
+10. Tasto `HELP`
+11. - 12. Tasti `<` e `>` per selezione funzioni e impostazione valori parametri
+13. Display grafico LCD
+14. Tasto di regolazione contrasto del display
+15. Tasto `MEM` per accesso all’area di memoria (vedere `§ 8`)
+16. Tasto `ESC` per tornare alla videata precedente
+17. Tasti freccia ``, ``, ``, `` e tasto `TEST` per attivazione misure
+
+### 4.1.1 Modifica tensione di alimentazione unità HT2055S
+
+1.  Sollevare con un giravite il vano di contenimento dei fusibili (vedere `Fig. 1` – Parte 1)
+2.  Estrarre il selettore di colore rosso dal vano fusibili (vedere `Fig. 1` – Parte 2)
+3.  Ruotare il selettore in modo da leggere correttamente l’indicazione “115V” o “230V” corrispondente al tipo di alimentazione desiderata
+4.  Reinserire il selettore nel vano fusibili e richiudere lo stesso
+
+## 4.2 DESCRIZIONE DELL’UNITÀ VOLTMETRICA HT2055M
+
+### 4.2.1 Vista frontale
+
+Fig. 2 : Descrizione parte frontale dello strumento `HT2055M`
+
+**LEGENDA**:
+
+1.  Tasto `ESC` per tornare alla videata precedente
+2.  Tasto `MEM` per accesso all’area di memoria (vedere `§ 8`)
+3.  Tasti freccia ``, ``, ``, `` e tasto `TEST` per attivazione misure
+4.  Tasto attivazione retroilluminazione
+5.  Display grafico LCD
+6.  Tasto `ON/OFF` di accensione/spegnimento
+7.  - 8. Tasti `<` e `>` per selezione funzioni e impostazione valori parametri
+
+### 4.2.2 Vista superiore
+
+Fig. 3 : Descrizione parte superiore dello strumento `HT2055M`
+
+**LEGENDA**:
+
+1.  Connettore per inserimento cavi di prova
+
+    > **ATTENZIONE**: la massima tensione tra i terminali di prova e il riferimento di terra è di 50V verso terra e 100V tra i terminali
+2.  Ingresso per collegamento caricabatteria esterno
+3.  Interfaccia RS-232 per collegamento con unità `HT2055S`
+4.  Slitta scorrevole di protezione
+5.  Interfaccia USB per collegamento a PC
+
+### 4.2.3 Vista posteriore
+
+Fig. 4 : Descrizione parte posteriore dello strumento `HT2055M`
+
+**LEGENDA**:
+
+1.  Coperchio vano batterie
+2.  Etichetta con informazioni sulla sicurezza
+3.  Viti di serraggio coperchio vano batterie
+
+Fig. 5 : Descrizione vano batterie dello strumento `HT2055M`
+
+**LEGENDA**:
+
+4.  Etichetta con numero di serie
+5.  Batterie di alimentazione (`6x1.2V NiMH` tipo AA)
+6.  Vano batterie
+
+# 5 OPERAZIONI INIZIALI CON UNITÀ HT2055M
+
+Premendo i tasti `<` o `>` è possibile selezionare le seguenti videate relative alla misura della Tensione di Passo, Tensione di Contatto e Impostazioni (vedere Fig. 6)
+
+Fig. 6 : Videate menu generale
+
+## 5.1 IMPOSTAZIONI
+
+Le seguenti operazioni sono eseguibili all'interno del menu di impostazioni:
+
+*   Selezione della lingua
+*   Videate di aiuto nella connessione
+*   Sincronizzazione con l'unità di potenza `HT2055S`
+*   Ripristino delle condizioni di default
+*   Richiamo a display delle misure (vedere `§ 8.2`) e cancellazione della memoria (vedere `§ 8.3`)
+*   Impostazione data/ora di sistema
+
+### 5.1.1 Selezione della lingua
+
+Fig. 7 : Videata impostazione lingua
+
+1.  Premere i tasti `<` o `>` per entrare nel menu di impostazione
+2.  Selezionare la voce “Seleziona Lingua” con i tasti `` o `` e premere il tasto `TEST`
+3.  Selezionare la lingua desiderata con i tasti `` o `` e confermare con il tasto `TEST`
+4.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+### 5.1.2 Selezione videate di Aiuto
+
+Fig. 8 : Videate Aiuto nelle connessioni
+
+1.  Premere i tasti `<` o `>` per entrare nel menu di impostazione
+2.  Selezionare la voce “Aiuto” con i tasti freccia `` o `` e premere il tasto `TEST`
+3.  Selezionare la videata desiderata con i tasti freccia `` o ``
+4.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+### 5.1.3 Sincronizzazione
+
+La selezione di questa opzione consente di trasmettere diversi tipologie di dati dall’unità di potenza all’unità voltmetrica. I dati scambiabili sono i seguenti:
+
+*   Sincronizzazione della data/ora attuale e della corrente generata
+*   Trasmissione dei risultati della corrente di prova per il calcolo delle tensioni di passo/contatto
+*   Trasmissione dei risultati delle misure di resistenza di terra e resistività del terreno
+
+Fig. 9 : Videata menu di sincronizzazione
+
+1.  Premere i tasti `<` o `>` per entrare nel menu di impostazione
+2.  Selezionare la voce “Sincronizzazione” con i tasti `` o `` e premere il tasto `TEST`
+3.  Collegare le due unità loro tramite il cavo `RS-232` fornito in dotazione
+4.  Selezionare una delle seguenti opzioni con i tasti `` o `` e confermare con `TEST`
+
+| Opzione           | Descrizione                                                                                                                                                                                                                                                                                       |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **TEMPO, CORRENTE** | La data/ora presente sull’unità di potenza e il valore della reale corrente erogata da essa è trasferita all’unità voltmetrica                                                                                                                                                                        |
+| **TENS. PASSO/CONT.** | Il valore `I GEN` della corrente generata dall’unità di potenza è trasferito nell’unità voltmetrica per il misura/calcolo della tensione di passo/contatto                                                                                                                                                |
+| **RISULTATI RTERRA** | I risultati delle misure di resistenza di terra o resistività del terreno salvati nell’unità di potenza sono trasferiti nell’unità voltmetrica                                                                                                                                                            |
+
+5.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+> **ATTENZIONE**
+> *   Lo scopo della sincronizzazione Tempo/Corrente è di attivare la correzione del risultato parziale delle misure di tensione di passo o di contatto. Durante il test la tensione di passo o contatto sono calcolate in base al valore della corrente di prova `I IMP` impostata sull’unità voltmetrica (vedere `§ 7.2`). Al termine del test, i valori delle tensioni di passo o contatto sono aggiornati usando il valore reale della corrente `I GEN` generata dall’unità di potenza nello stesso istante in base alle seguenti relazioni:
+>
+>     ```
+>     U_PASSO_new = U_PASSO_old * (I_GEN / I_IMP)
+>     U_CONT_new = U_CONT_old * (I_GEN / I_IMP)
+>     ```
+> *   La sincronizzazione è attiva per 24 ore
+> *   Se la data/ora è stata modificata nell’unità voltmetrica o in quella di potenza la sincronizzazione è perduta. In tal caso il valore della corrente di prova deve essere cancellato prima di procedere con le misure (vedere `§ 8.3`). Prima dell’azzeramento i dati possono essere scaricati nell’unità voltmetrica
+
+### 5.1.4 Impostazioni di default
+
+Questa sezione consente di ripristinare i valori di default (fabbrica) dei parametri di misura e limiti presenti sullo strumento
+
+Fig. 10 : Videata impostazione valori di default
+
+1.  Premere i tasti `<` o `>` per entrare nel menu di impostazione
+2.  Selezionare la voce “Impostazioni default” con i tasti `` o `` e premere il tasto `TEST`
+3.  Selezionare le opzioni “SI” o “NO” con i tasti `` o `` e confermare con `TEST`
+4.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+I valori di default sono i seguenti:
+
+*   **Lingua**: Inglese
+*   **Tensione di Contatto e Passo**:
+    *   `I IMP = 10A`
+    *   `I GUA = 1kA`
+    *   `R IN G = 1MΩ`
+    *   `U LIM = 50V`
+
+### 5.1.5 Impostazione Data/Ora
+
+Fig. 11 : Videata impostazione data/ora
+
+1.  Premere i tasti `<` o `>` per entrare nel menu di impostazione
+2.  Selezionare la voce “Imp. Data/Ora” con i tasti `` o `` e premere il tasto `TEST`
+3.  Usare i tasti ``, ``, `` e `` per l’impostazione della data e ora e confermare con `TEST`
+4.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+## 5.2 MESSAGGI A DISPLAY
+
+I seguenti messaggi (icone) possono essere forniti a display dall’unità voltmetrica:
+
+*   L’unità voltmetrica e l’unità di potenza non sono sincronizzati
+*   Misura in corso
+*   I risultati possono essere memorizzati
+*   Il risultato di misura è entro i limiti preimpostati (PASSATO)
+*   Il risultato di misura è oltre i limiti preimpostati (FALLITO)
+
+# 6 OPERAZIONI INIZIALI CON UNITÀ HT2055S
+
+Premendo i tasti `<` o `>` è possibile selezionare le seguenti videate relative alla misura della resistenza di terra/resistività, corrente generata e Impostazioni (vedere Fig. 12)
+
+Fig. 12 : Videate menu generale
+
+## 6.1 IMPOSTAZIONI DI SISTEMA
+
+Le seguenti operazioni sono eseguibili all'interno del menu di impostazioni:
+
+*   Selezione della lingua (vedere `§ 5.1.1`)
+*   Ripristino delle condizioni di default
+*   Impostazione potenza del generatore di corrente
+*   Impostazione condizioni di allarme sull'interruzione della corrente di prova
+*   Richiamo a display delle misure (vedere `§ 8.2`) e cancellazione della memoria (vedere `§ 8.3`)
+*   Impostazione data/ora di sistema (vedere `§ 5.1.5`)
+
+### 6.1.1 Impostazioni di default
+
+Questa sezione consente di ripristinare i valori di default (fabbrica) dei parametri di misura e limiti presenti sullo strumento
+
+Fig. 13 : Videata impostazione valori di default
+
+1.  Premere i tasti `<` o `>` per entrare nel menu di impostazione
+2.  Selezionare la voce “Impostazioni default” con i tasti `` o `` e premere il tasto `TEST`
+3.  Selezionare le opzioni “SI” o “NO” con i tasti `` o `` e confermare con `TEST`
+4.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+I valori di default sono i seguenti:
+
+*   **Contrasto**: 50%
+*   **Lingua**: Inglese
+*   **Allarme**: Disabilitato
+*   **Potenza generatore**: 100%
+*   **Distanza “a”**: 2.0m
+
+### 6.1.2 Impostazione potenza del generatore
+
+Questa sezione consente di impostare la potenza del generatore di corrente selezionando le percentuali: 10%, 25%, 50%, 75% e 100%
+
+Fig. 14 : Videata impostazione potenza del generatore
+
+1.  Premere i tasti `<` o `>` per entrare nel menu di impostazione
+2.  Selezionare la voce “Potenza uscita” con i tasti `` o `` e premere il tasto `TEST`
+3.  Usare i tasti `` o, `` per l’impostazione del valore percentuale e confermare con `TEST`
+4.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+> **ATTENZIONE**
+> Quando il generatore di corrente è avviato, la potenza in uscita è automaticamente impostata al massimo valore (100%). Se le condizioni cambiano durante la misura il generatore di corrente può interrompersi. Possibili ragioni possono essere:
+> *   L’uscita può essere sovraccaricata per la presenza di elevate correnti di disturbo nel circuito di terra. In tal caso è raccomandato diminuire la potenza in uscita al 75% o 50% e riavviare la generazione
+> *   La corrente di prova subisce un’interruzione improvvisa (ex: scollegamento di un terminale di misura o valore di resistenza troppo elevata in prossimità delle sonde). Dopo l’eliminazione del problema il generatore può essere riavviato senza diminuzione della potenza in uscita
+
+### 6.1.3 Impostazione condizione di allarme
+
+Questa sezione consente di impostare una condizione di allarme acustico sull’interruzione del generatore di corrente per effetto di correnti di disturbo o per improvvisa interruzione del circuito di prova
+
+Fig. 15 : Videata impostazione valori di default
+
+1.  Premere i tasti `<` o `>` per entrare nel menu di impostazione
+2.  Selezionare la voce “Allarme” con i tasti `` o `` e premere il tasto `TEST`
+3.  Usare i tasti `` o, `` per l’impostazione delle opzioni “ABILITATO” o “DISABILITATO” e confermare con `TEST`
+4.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+> **ATTENZIONE**
+> L’allarme attivato permette di evitare errate interpretazioni della misura di tensione di passo/contatto in quanto le letture saranno poste a 0V in caso di assenza della corrente di prova
+
+## 6.2 REGOLAZIONE CONTRASTO DISPLAY
+
+1.  Premere il tasto `>`. La seguente videata è mostrata a display:
+2.  Usare i tasti `` o `` per diminuire o aumentare la percentuale di contrasto del display
+3.  Premere il tasto `TEST` per confermare l’impostazione o il tasto `ESC` per uscire dalla funzione
+
+## 6.3 VIDEATE DI AIUTO
+
+1.  Premere il tasto per visualizzare la videata di Aiuto corrispondente alla funzione selezionata
+2.  Usare i tasti freccia `` o `` per passare alle altre videate di Aiuto
+3.  Premere il tasto `ESC` per uscire dalla funzione tornando alla videata precedente
+
+## 6.4 MESSAGGI A DISPLAY
+
+I seguenti messaggi /videate possono essere forniti a display dall’unità di potenza:
+
+*   La tensione tra i terminali di prova `C1/H` e `C2/E` durante la generazione di corrente è maggiore del valore limite ammesso (10V). Scollegare i terminali e controllare questa condizione
+*   Durante la generazione di corrente una condizione di sovracorrente esterna o una interruzione del circuito è intervenuta. In tal caso è raccomandato diminuire la potenza in uscita (vedere `§ 6.1.2`)
+*   La corrente in uscita è troppo bassa (`I < 0.2A`). Questo può essere causato da una connessione errata dei terminali o da una resistenza troppo elevata sulle sonde di prova
+*   La data/ora è stata modificata nell’unità di potenza e la sincronizzazione tra le unità è persa. Il valore della corrente di prova deve essere cancellato prima di procedere con le misure. Prima dell’azzeramento i dati possono essere scaricati
+*   La potenza del generatore di corrente non è impostata al massimo valore
+*   Misura in corso
+*   I risultati possono essere memorizzati
+*   Rilevazione di un elevato effetto di disturbo durante la misura. I risultati possono essere influenzati
+*   Resistenza di contatto elevata sulle sonde di corrente (c) o di tensione (p). I risultati possono essere influenzati
+
+# 7 ESECUZIONE DELLE MISURE
+
+## 7.1 TEORIA SULLA MISURA DI TENSIONE DI PASSO/CONTATTO
+
+Un singolo elettrodo di terra / rete ad anello ha una certa resistenza dipendente dalla sua dimensione, superficie (presenza di ossido sul metallo) e dal valore della resistività del terreno in cui si trova. La resistenza di terra non è concentrata in un solo punto ma è distribuita intorno all’elettrodo. Il corretto collegamento di parti conduttive al sistema di terra assicura che la tensione presente su di esse si mantenga sotto la soglia pericolosa in caso di guasto.
+
+Se una condizione di guasto interviene sulla parte attiva, una corrente di guasto scorre attraverso il sistema di terra creando un corrispondente potenziale di guasto `U_F` definito come:
+
+`U_F = R_E * I_F (1)`
+
+dove:
+
+*   `R_E` = resistenza di terra dell’impianto
+*   `I_F` = corrente di guasto
+
+Fig. 16 : Tensioni pericolose durante una condizione di guasto
+
+La tipica distribuzione di questo potenziale di guasto, definito come “tensione a imbuto” (vedere Fig. 16) è concentrata soprattutto attorno all’elettrodo. Sono poi definiti gli altri parametri:
+
+*   **Tensione di contatto (`U_C`)**: tensione che si stabilisce tra il corpo di una persona e il punto in cui essa tocca la parte soggetta al guasto
+*   **Tensione di passo (`U_S`)**: tensione che si stabilisce tra i piedi di una persona che si trova in prossimità dell’area in cui è presente il potenziale di guasto
+
+La corrente di guasto in prossimità di dispositivi della pubblica distribuzione (cabine, stazioni, sottostazioni) può assumere valori molto elevati, anche fino a 200kA e normalmente deve essere un parametro dichiarato dall’ente responsabile della distribuzione elettrica.
+
+In caso di presenza di parti metalliche interrate (note o sconosciute) la tensione a imbuto può assumere forme atipiche e pericolosi potenziali possono instaurarsi anche lontano dal punto di guasto. Questo è il motivo per cui le tensioni di passo e di contatto devono spesso essere regolarmente monitorate.
+
+La normativa di riferimento EN50522 definisce valori limite di tensioni di contatto/passo in funzione del tempo di eliminazione del guasto da parte dei dispositivi di protezione (anch’esso dichiarato dall’ente responsabile della distribuzione elettrica). Se il valore della tensione di guasto dato dalla relazione (1) è superiore al valore di questo limite è necessario occorre verificare i valori delle tensioni di passo e contatto nei vari punti dell’impianto considerati pericolosi (es: in aree accessibili, in vicinanza di strutture metalliche non in tensione normalmente, cancelli, reti di protezione, ecc…), rientrino nei valori di norma
+
+## 7.2 MISURA TENSIONE DI PASSO E DI CONTATTO
+
+Le misure di tensione di passo e contatto sono effettuate, come da normativa EN50522, tramite un voltmetro con resistenza interna di `1kΩ` (concordata in base agli standard del corpo umano) e tramite due pesi di 25 kg ciascuno che simulano la presenza della persona fisica a cui sarebbe applicata la tensione. In alternativa ai pesi è possibile usare due piastre metalliche appoggiate al terreno su cui si posiziona l’operatore.
+
+> **ATTENZIONE**
+> Durante le misure una corrente di prova è iniettata nel terreno per mezzo di un’opportuna sonda ausiliaria. La resistenza in prossimità di questa sonda deve essere mantenuta al valore più basso possibile in modo da poter utilizzare una corrente di prova elevata che contribuisce a ridurre gli eventuali effetti di disturbo presenti sul circuito di prova. A tal fine adottare metodi empirici come quello di bagnare molto l’area circostante il posizionamento della sonda, disporre più sonde in parallelo di varie lunghezze o eventualmente usare un sistema di terra ausiliario come riferimento
+
+Siccome la corrente di prova è normalmente solo una piccola parte della corrente di guasto, la tensione misurata deve essere “scalata” in accordo alle seguenti relazioni:
+
+```
+U_S,C = U_Misurata * (I_Guasto / I_Gen)
+```
+
+dove:
+
+*   `U_S,C` → tensione di passo o contatto calcolata con corrente di guasto
+*   `U_Misurata` → tensione misurata durante il test
+*   `I_Guasto` → massima corrente di guasto
+*   `I_Gen` → corrente di prova generata
+
+**Installazione unità di potenza**
+
+1.  Posizionare l’unità di potenza in prossimità dell’impianto di terra in misura (max. 10 m. di distanza). Collegare l’unità al terminale di ingresso `C1/H` con il cavo in dotazione
+2.  Piantare la sonda ausiliaria di lunghezza 1m in dotazione ad una distanza pari a 5 volte la massima diagonale dell’impianto in misura (vedere Fig. 17). Collegare il terminale di ingresso `C2/E` alla sonda tramite il cavo di 50m in dotazione (se sufficiente) oppure predisporre una opportuna prolunga di cavo in caso di distanza maggiore. La natura del metodo consente di eseguire prolunghe senza nessuna compensazione della resistenza dei cavi di misura. Usare eventualmente più sonde in parallelo se occorre ridurre la resistenza di contatto nel punto
+
+Fig. 17 : Circuito di misura tensione di passo
+
+Fig. 18 : Circuito di misura tensione di contatto
+
+**Erogazione della corrente di prova**
+
+3.  Accendere l’unità di potenza `HT2055S`
+4.  Usare i tasti `<` o `>` per la selezione della videata “CORRENTE GEN.” (veder Fig. 19)
+
+Fig. 19 : Videata generazione della corrente di prova
+
+5.  Premere il tasto `TEST` per attivare l’operazione. Il valore della corrente generata è mostrato a display. Controllare il valore della corrente
+
+> **ATTENZIONE**
+> *   La potenza in uscita dall’unità è automaticamente impostata al massimo disponibile (vedere `§ 6.1.2`)
+> *   Svolgere completamente il cavo di misura al fine di evitare “effetti bobina” che possono influenzare il valore della corrente di prova
+> *   La resistenza in prossimità della sonda ausiliaria può influenzare pesantemente la corrente di prova generata. Disporre più sonde in parallelo e/o bagnare l’area circostante le sonde al fine di aumentare la corrente di prova
+
+**Sincronizzazione tra le due unità prima del test (raccomandata)**
+
+Prima di eseguire la misura della tensione di passo o contatto è necessario eseguire la sincronizzazione tra le due unità di potenza e voltmetrica. Questa operazione imposta la medesima data/ora in entrambe le unità. In tal modo le tensioni misurate possono essere correttamente scalate al termine della misura. Se la corrente è generata durante la sincronizzazione, tale valore è anch’esso inviato all’unità voltmetrica (vedere `§ 5.1.3`)
+
+6.  Collegare l’unità voltmetrica all’unità di potenza tramite il cavo `RS-232` fornito in dotazione (vedere Fig. 20)
+
+Fig. 20 : Collegamento tra le unità per sincronizzazione
+
+7.  Selezionare l’opzione di “Sincronizzazione → Tempo, Corrente” sull’unità voltmetrica (vedere `§ 5.1.3`) e confermare con il tasto `TEST` I messaggi “Connessione..” e “Sincronizz.” sono mostrati a display
+
+> **ATTENZIONE**
+> Le misure possono essere svolte anche senza la sincronizzazione. In tal caso la corrente misurata deve essere impostata / modificata manualmente. Se la corrente erogata è cambiata durante il test il parametro `I IMP` deve essere corretto manualmente. Il risultato di finale non può essere corretto dopo la misura.
+
+**Esecuzione misura di tensione di passo e contatto**
+
+8.  Selezionare con i tasti `<` o `>` le misure di `TENS. CONTATTO` o `TENS. PASSO` sull’unità voltmetrica
+
+Fig. 21 : Videate per misura di tensione di passo e contatto
+
+9.  Usare i tasti freccia ``, ``, `` e `` ed eseguire la programmazione dei parametri di prova seguenti:
+    *   `I imp`: Corrente di prova (impostazione manuale da `0.20A ÷ 50A`) o inserito automaticamente dall’unità di potenza durante la sincronizzazione
+    *   `I gua`: Massima corrente di guasto del sistema in prova (campo `10A ÷ 200kA`)
+    *   `Ri ng`: Resistenza di ingresso dell’unità voltmetrica (`1MΩ`, `1kΩ`)
+    *   `Ulim`: Tensione limite per misure di tensione di passo e contatto (campo `1V ÷ 10kV`)
+    *   `I gua` → Corrente di guasto fornita dall’ente erogatore dell’energia
+    *   `Ri ng` → Resistenza interna fissata a `1kΩ` per le misure di passo/contatto
+    *   `Ulim` → Valore limite ottenuto dalla `EN50522` in funzione del tempo di eliminazione del guasto fornito dall’ente erogatore dell’energia
+10. Posizionare e collegare tra loro le piastre metalliche di prova su cui dovrà salire l’operatore nei punti in cui occorre eseguire le misure di tensione di passo (vedere Fig. 17) o di contatto (vedere Fig. 18) rispettando le distanze richieste
+11. Collegare le piastre metalliche all’unità voltmetrica tramite i cavi forniti in dotazione
+12. Premere il tasto `TEST` sull’unità voltmetrica ed eseguire la misura della tensione di passo o di contatto. Le seguenti videate sono mostrate dallo strumento
+
+Fig. 22 : Videate per risultato misura di tensione di passo e contatto
+
+In cui:
+
+*   `U` → tensione di passo o contatto calcolata
+*   `Um` → tensione di passo o contatto misurata
+
+13. Premere il tasto `MEM` per salvare il risultato in memoria (vedere `§ 8.1`)
+
+**Sincronizzazione tra le due unità dopo il test (raccomandata)**
+
+Se le due unità erano state sincronizzate prima della misura esse devono essere nuovamente sincronizzate dopo aver terminato il test in modo che il valore realmente generato dall’unità di potenza sia trasferito all’unità voltmetrica la quale provvederà a correggere automaticamente i dati precedentemente salvati e fornire il valore esatto delle tensioni di passo e di contatto
+
+14. Collegare l’unità voltmetrica all’unità di potenza tramite il cavo `RS-232` fornito in dotazione (vedere Fig. 20)
+15. Selezionare l’opzione di “Sincronizzazione → Tens. Passo/Cont.” sull’unità voltmetrica (vedere `§ 5.1.3`) e confermare con il tasto `TEST` I messaggi “Connessione..” e “Sincronizz.” sono mostrati a display
+16. Le seguenti videate possono essere fornite dall’unità voltmetrica durante la sincronizzazione
+
+Fig. 23 : Esempi di videate nell’operazione di sincronizzazione
+
+*   `NON SINCRONIZZATO` → numero di risultati non sincronizzati
+
+> **ATTENZIONE**
+> L’operazione di sincronizzazione tra le due unità può avere una durata di almeno 10s. Una barra grafica mostra il processo in corso
+
+## 7.3 MISURA RESISTENZA DI TERRA
+
+La misura di resistenza di terra è svolta dalla sola unità di potenza `HT2055S` sfruttando il metodo voltamperometrico a 4 terminali utilizzando due sonde ausiliarie di corrente e di tensione fornite in dotazione posizionate a opportune distanze in accordo allo schema riportato nella Fig. 24 seguente
+
+Fig. 24 : Collegamento dello strumento per misura di resistenza di terra
+
+1.  Posizionare l’unità di potenza in prossimità dell’impianto di terra in misura (max. 10 m. di distanza)
+2.  Collegare i terminali di ingresso `C2/E` e d `ES` al sistema di terra in prova usando i cavi in dotazione
+3.  Piantare la sonda ausiliaria di lunghezza 1m in dotazione ad una distanza pari a 5 volte la massima diagonale dell’impianto in misura (vedere Fig. 24). Collegare il terminale di ingresso `C1/H` alla sonda tramite il cavo di 50m in dotazione (se sufficiente) oppure predisporre una opportuna prolunga di cavo in caso di distanza maggiore. La natura del metodo consente di eseguire prolunghe senza nessuna compensazione della resistenza dei cavi di misura. Usare eventualmente più sonde in parallelo se occorre ridurre la resistenza di contatto nel punto
+4.  Piantare la sonda ausiliaria di lunghezza 60cm in dotazione ad una distanza pari a 2.5 volte la massima diagonale dell’impianto in misura (vedere Fig. 24). Collegare il terminale di ingresso `S` alla sonda tramite il cavo di 50m in dotazione (se sufficiente) oppure predisporre una opportuna prolunga di cavo in caso di distanza maggiore. La natura del metodo consente di eseguire prolunghe senza nessuna compensazione della resistenza dei cavi di misura. Usare eventualmente più sonde in parallelo se occorre ridurre la resistenza di contatto nel punto
+
+> **ATTENZIONE**
+> Per impianti di grandi dimensioni è possibile posizionare la sonda di corrente (`H`) ad una distanza pari alla sola diagonale dell’impianto e la sonda di tensione (`S`) a circa 0.5 volte la diagonale dell’impianto. In tal caso occorrerà eseguire più misure spostando avanti e indietro la sonda di tensione (lungo la direzione di misura) rispetto al punto mediano e verificando che il risultato ottenuto sia pressoché costante
+
+5.  Selezionare con i tasti `<` o `>` la misura “`RES. TERRA`” sull’unità di potenza. La seguente videata è mostrata a display:
+
+Fig. 25 : Videata iniziale misura resistenza di terra
+
+6.  Premere il tasto `TEST` per eseguire la misura. Il risultato è mostrato a display
+
+Fig. 26 : Videata finale misura resistenza di terra
+
+In cui:
+
+*   `R` → Valore misurato della resistenza di terra
+*   `Rp` → Resistenza della sonda di tensione (S)
+*   `Rc` → Resistenza della sonda di corrente (H)
+
+> **ATTENZIONE**
+> *   Durante l’esecuzione del test lo strumento esegue il controllo sulla resistenza delle sonde di corrente (`Rc`) e tensione (`Rp`), bloccando la prova in caso di riconoscimento di valore troppo elevato fornendo messaggi come: “`Rc: >2.0kΩ`” e “`Rp: >2.0kΩ`”. Provvedere ad abbassare il valore di queste resistenze bagnando la zona in cui sono piantate le sonde e inserendo più sonde in parallelo
+> *   La presenza di elevate tensioni o correnti di disturbo nel circuito di terra possono bloccare la misura. Lo strumento fornisce il messaggio “`DISTURBO!`” in queste situazioni e occorre capire la causa di questi disturbi prima di procedere con le misure
+
+7.  Premere il tasto `MEM` per salvare il risultato in memoria (vedere `§ 8.1`)
+
+> **ATTENZIONE**
+> Per il trasferimento a PC dei dati salvati è necessario trasferire il contenuto della memoria dell’unità di potenza nell’unità voltmetrica tramite collegamento con cavo `RS-232` utilizzando le opzioni all’interno del comando di sincronizzazione (vedere `§ 5.1.3`). Al termine del trasferimento i dati all’interno dell’unità di potenza saranno automaticamente cancellati
+
+## 7.4 MISURA RESISTIVITÀ DEL TERRENO
+
+Lo scopo della misura di resistività è quello di determinare la “bontà” del terreno dal punto di vista elettrico al fine di poter delineare un corretto impianto di messa a terra. I risultati dei vari test consentono di dimensionare, tramite calcoli accurati su strutture anche complesse, (es: impianti industriali ad anello, sistemi antifulmine, colonne di distribuzioni in alta tensione) la tipologia delle parti (profondità, forma, numero e posizione degli elettrodi di terra). Il valore della resistività del terreno (indicata con il simbolo `ρ`) è espresso in `Ωm`.
+
+La misura di resistività è svolta dalla sola unità di potenza `HT2055S` sfruttando il metodo Wenner utilizzando 4 sonde ausiliarie posizionate ad una distanza “a” tra di loro programmabile sullo strumento in accordo allo schema riportato nella Fig. 27 seguente
+
+Fig. 27 : Collegamento dello strumento per misura di resistività del terreno
+
+Il valore del parametro “a” definisce anche la profondità (max a/20) con cui devono essere piantate le varie sonde e quindi la dimensione delle sonde stesse. Occorre in genere eseguire più misure variando il valore del parametro “a” al fine di ottenere il valore più basso della resistività
+
+1.  Selezionare con i tasti `<` o `>` la misura “`RES. TERRA`” sull’unità di potenza
+2.  Usare i tasti freccia `` o `` per selezionare la misura “`RESISTIVITA ρ`” La seguente videata è mostrata a display
+
+Fig. 28 : Videata iniziale misura resistività del terreno
+
+3.  Usare i tasti freccia `` o `` per selezionare il parametro “a”. Usare i tasti freccia `` o `` per impostare il valore espresso in metri nel campo `0.1 ÷ 30.0` in passi da `0.1m`
+4.  Piantare le sonde ausiliarie di prova equidistanti al valore “a” impostato sullo strumento e collegare i terminali di ingresso `C1/H`, `C2/E` (sonde di corrente), `ES` ed `S` (sonde di tensione) al sistema di terra in prova usando i cavi in dotazione come mostrato in Fig. 27
+
+5.  Premere il tasto `TEST` per eseguire la misura. Il risultato è mostrato a display
+
+Fig. 29 : Videata finale misura resistività del terreno
+
+In cui:
+
+*   `ρ` → Valore misurato della resistività del terreno
+*   `Rp` → Resistenza delle sonde di tensione (somma `S+ES`)
+*   `Rc` → Resistenza delle sonde di corrente (somma `C1/H +C2/E`)
+
+> **ATTENZIONE**
+> *   Durante l’esecuzione del test lo strumento esegue il controllo sulla resistenza delle sonde di corrente (`Rc`) e tensione (`Rp`), bloccando la prova in caso di riconoscimento di valore troppo elevato fornendo messaggi come: “`Rc: >2.0kΩ`” e “`Rp: >2.0kΩ`”. Provvedere ad abbassare il valore di queste resistenze bagnando la zona in cui sono piantate le sonde e inserendo più sonde in parallelo
+> *   La presenza di elevate tensioni o correnti di disturbo nel circuito di terra possono bloccare la misura. Lo strumento fornisce il messaggio “`DISTURBO!`” in queste situazioni e occorre capire la causa di questi disturbi prima di procedere con le misure
+
+6.  Premere il tasto `MEM` per salvare il risultato in memoria (vedere `§ 8.1`)
+
+> **ATTENZIONE**
+> Per il trasferimento a PC dei dati salvati è necessario trasferire il contenuto della memoria dell’unità di potenza nell’unità voltmetrica tramite collegamento con cavo `RS-232` utilizzando le opzioni all’interno del comando di sincronizzazione (vedere `§ 5.1.3`). Al termine del trasferimento i dati all’interno dell’unità di potenza saranno automaticamente cancellati
+
+# 8 OPERAZIONI CON MEMORIA
+
+I risultati delle misure comprensivi dei parametri ad essi associati possono essere salvati nelle memorie interne dell’unità di potenza e dell’unità voltmetrica. In particolare:
+
+*   Le misure di tensione di passo e contatto possono essere salvati nell’unità voltmetrica
+*   Le misure di resistenza di terra e resistività del terreno possono essere salvate nell’unità di potenza e successivamente trasferite all’unità voltmetrica
+*   I valori della corrente generata sono automaticamente salvati nell’unità di potenza
+
+La memoria interna di entrambe le unità è suddivisa in 3 livelli che possono contenere ognuno fino a 199 locazioni. Il numero delle misure che può essere salvato in una locazione è solo limitato dalla memoria disponibile
+
+L’area di memoria (vedere Fig. 30) è formata da due tipi di strutture:
+
+*   La **struttura dati** → definisce un ordine sulle misure per effetto della suddivisione in “`OGGETTI`” e “`POSIZIONI`” di misura
+*   La **struttura delle misure** → contiene le informazioni sul tipo e il numero delle misure appartenenti alla struttura dati selezionata (Oggetto e Posizione di misura)
+
+Fig. 30 : Struttura dell’area di memoria degli strumenti
+
+Questo tipo di memoria permette una semplice manipolazione dei dati salvati in quanto:
+
+*   I risultati sono organizzati e strutturati in gruppi
+*   La navigazione tra i risultati salvati è semplificata
+*   Il test report di stampa può essere creato senza o con piccole modifiche dopo il trasferimento dati a PC
+
+**Struttura dati**
+
+*   **RICHIAMO DATI**: Tipo di operazione nell’area di memoria
+*   **OGGETTO 001**: Struttura dati (`OGGETTO`, `POSIZIONE`)
+    *   1° livello → **OGGETTO**: indica il nome di default dell’oggetto a cui è associato un numero di riferimento
+*   **POS1 001**:
+    *   2° livello → **POS 1**: indica il primo punto di misura a cui sono associati i numeri di riferimento dei vari test salvati
+*   **POS2 001**:
+    *   3° livello → **POS 2**: indica il secondo punto di misura a cui sono associati i numeri di riferimento dei vari test salvati
+
+**Struttura delle misure**
+
+*   **Num.: 1**: Numero di misure associate alla locazione selezionata
+*   **Num.: 1 [13]**: Numero di misure nella locazione selezionata
+    *   [Numero di misure nella locazione selezionata e sub-locazioni]
+*   **> Num.: 7/7**: Numero del test selezionato / Numero di tutti i risultati presenti nella locazione selezionata
+*   **Tens. Passo**: Tipo di misura salvata nella locazione selezionata
+
+## 8.1 SALVATAGGIO DEI RISULTATI
+
+Al termine di un test di misura il risultato e i parametri possono essere salvati in memoria (l’icona è mostrata nella parte bassa del display). Per il salvataggio operare come segue:
+
+1.  Premere il tasto `MEM` sullo strumento. La seguente videata è mostrata a display:
+
+Fig. 31 : Salvataggio risultato in memoria
+
+2.  L’indicazione “`LIBERA`” indica il valore percentuale della memoria disponibile per il salvataggio
+3.  Usare i tasti freccia `` o `` per selezionare il tipo di locazione (Oggetto / Pos 1 / Pos 2) e i tasti freccia `` o `` per decrementare o incrementare il valore del marcatore numerico associato alla locazione (valore da `1 ÷ 199`)
+4.  Premere nuovamente il tasto `MEM` per completare il salvataggio o il tasto `ESC` per uscire dalla sezione senza salvare
+
+## 8.2 RICHIAMO DEI RISULTATI A DISPLAY
+
+Il richiamo dei risultati a display può essere svolto nei seguenti modi equivalenti:
+
+*   Premendo il tasto `MEM` in una qualsiasi videata di misura dello strumento
+*   Selezionando la voce “`MEMORIA → RICHIAMO DATI`” all’interno del menu di impostazione (vedere `§ 5.1`)
+
+Fig. 32 : Videata di richiamo dei risultati a display
+
+1.  Usare i tasti freccia `` o `` per selezionare il tipo di locazione (Oggetto / Pos 1 / Pos 2) e i tasti freccia `` o `` per la selezione del valore del marcatore numerico associato alla locazione (valore da `1 ÷ 199`)
+2.  Premere il tasto `TEST` per selezionare il numero della misura desiderata
+3.  Premere nuovamente il tasto `TEST` per la visualizzazione a display del risultato della misura desiderata
+
+## 8.3 CANCELLAZIONE DATI MEMORIZZATI
+
+Lo strumento consente le seguenti operazioni:
+
+*   Cancellazione dell’intera memoria
+*   Cancellazione misure di singole locazioni selezionate
+*   Cancellazione delle correnti generate (solo unità di potenza)
+
+**Cancellazione memoria interna**
+
+1.  Selezionare la voce “`MEMORIA → CANC. TUTTA MEMORIA`” all’interno del menu di impostazione (vedere `§ 5.1`). La seguente videata è mostrata a display
+
+Fig. 33 : Cancellazione memoria interna
+
+2.  Premere il tasto `TEST` per confermare l’operazione. Il messaggio “`CANC. MEMORIA`” con lo svolgimento dell’operazione è mostrato a display.
+3.  Premere il tasto `ESC` per uscire dalla funzione senza eseguire alcuna operazione
+
+**Cancellazione singole misure**
+
+1.  Selezionare la voce “`MEMORIA → CANCELLA DATI`” all’interno del menu di impostazione (vedere `§ 5.1`). Le seguenti videate sono mostrate a display
+
+Fig. 34 : Cancellazione singole misure
+
+2.  Usare i tasti freccia `` o `` per selezionare il tipo di locazione (Oggetto / Pos 1 / Pos 2) e i tasti freccia `` o `` per la selezione del valore del marcatore numerico associato alla locazione (valore da `1 ÷ 199`)
+3.  Premere il tasto `MEM`. Lo strumento fornisce il messaggio “`CANC. RISULTATI?`”
+4.  Premere il tasto `TEST` per confermare l’operazione o `ESC` per uscire dalla funzione
+
+**Cancellazione correnti generate**
+
+Se le due unità sono sincronizzate (vedere `§ 5.1.3` e `7.2`), il valore delle correnti generate (oltre alla data/ora) sono salvate in una sezione distinta di memoria dell’unità di potenza. Per la cancellazione di queste correnti operare sull’unità di potenza come segue:
+
+1.  Selezionare la voce “`MEMORIA → CANC. REG. CORRENTE`” all’interno del menu di impostazione. Le seguenti videate sono mostrate a display
+
+Fig. 35 : Cancellazione correnti generate
+
+2.  Premere il tasto `TEST` per confermare l’operazione. Il messaggio “`CANC. MEMORIA`” è mostrato a display oppure `ESC` per uscire dalla funzione
+
+# 9 COLLEGAMENTO DELLO STRUMENTO A PC
+
+I dati salvati nella memoria interna dello strumento possono essere trasferiti a PC utilizzando il software `TeraView` fornito in dotazione.
+
+Il software `TeraView` permette di effettuare le seguenti operazioni:
+
+*   Scaricare i dati dallo strumento
+*   Definire impostazioni personalizzate sul report finale stampa
+*   Analizzare i risultati delle misure con visualizzazioni numeriche e grafiche
+*   Stampa dei report finali di misura
+*   Esportare i dati di misura in formato testo (`TXT`)
+
+**REQUISITI MINIMI DI SISTEMA**
+
+*   Pentium III – 500MHz
+*   512 MB RAM
+*   100 MB liberi su HD
+*   Lettore CD-ROM
+*   Porta seriale/USB
+*   Risoluzione schermo 800x600
+*   Sistemi operativi Windows supportati: Win2k/XP/Vista /Win7 piattaforme a 32 bit e 64 bit
+
+## 9.1 INSTALLAZIONE DEL SOFTWARE E CONFIGURAZIONI INIZIALI (WIN XP)
+
+1.  Chiudere tutte le applicazioni attive sul PC
+2.  Inserire il CD-ROM in dotazione nel lettore del PC
+3.  Lanciare il file “`TeraView.exe`” presente su CD-ROM per avviare la procedura di installazione guidata del software `TeraView`
+4.  Accendere lo strumento e collegarlo ad una porta `USB` del PC tramite il cavo in dotazione oppure usare il cavo seriale `PS/2 – RS-232` collegato ad una porta `COM`. La porta `USB` ha sempre la priorità
+5.  Vedere il file “`Instal_USB_neutral.pdf`” all’interno della cartella “`Handbook`” per l’installazione del driver `USB` sul PC
+6.  Lanciare il software `TeraView`
+7.  Selezione il comando “`Config → Password…`”, inserire il numero di serie dello strumento e la password (indicata sull’etichetta del CD-ROM fornito in dotazione) e confermare con “Aggiungi” (vedere Fig. 36)
+
+Fig. 36 : Inserimento password iniziale
+
+8.  Selezionare il comando “`Config → Porta COM…`” e cliccare sul pulsante “Ricerca automatica” al fine di verificare il riconoscimento dello strumento da parte del PC (vedere Fig. 37)
+
+Fig. 37 : Connessione strumento a PC
+
+9.  Un messaggio come indicato in Fig. 38 indica il corretto riconoscimento da parte del PC
+
+Fig. 38 : Riconoscimento corretto dello strumento
+
+10. Nel caso in cui il riconoscimento dello strumento non avvenga correttamente potrebbe essere necessario configurare correttamente la porta seriale “virtuale” `COM` associata al driver `USB` installato precedentemente. Il programma `TeraView` è in grado di riconoscere porte seriali dalla `COM1` alla `COM 22`. Per modificare la porta `COM` associata al driver procedere come segue:
+    *   Tasto destro mouse sull’icona “`Risorse del computer`” presente sul desktop del PC e selezione della voce “`Proprietà`”
+    *   Cartella “`Hardware`” → “`Gestione periferiche`” → “`Porte (COM e LPT)`”
+    *   Posizionarsi sulla voce “`USB CDC Serial Port Emulation (COMxx)`” → tasto destro → “`Proprietà`”
+    *   Selezionare “`Impostazione della porta`” → “`Avanzate…`”
+    *   Nel menu a tendina cambiare la porta “`COMxx`” con una `COM1…COM 22`
+    *   Confermare le operazioni in ogni finestra e tornare sul software `TeraView`
+
+Per informazioni sull’uso del software `TeraView` fare riferimento all’Help in linea del programma stesso
+
+# 10 MANUTENZIONE
+
+> **ATTENZIONE**
+> *   Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo
+> *   Non esporre direttamente alla luce del sole. Spegnere sempre lo strumento dopo l’utilizzo. In nessun caso rimuovere il pannello frontale dello strumento. Lo strumento non richiede nessuna particolare manutenzione
+
+## 10.1 SOSTITUZIONE E RICARICA BATTERIE UNITÀ HT2055M
+
+Lo strumento è progettato per essere alimentato principalmente con batterie ricaricabili `6x1.2V NiMH` tipo `AA LR03` tramite caricabatteria fornito in dotazione, oppure con batterie alcaline. La Fig. 39 – parte sinistra indica che il livello di carica delle batterie è troppo basso ed è necessaria una ricarica. Il simbolo di batterie in ricarica è mostrato nella Fig. 39 – parte destra
+
+Fig. 39 : Condizione di batterie scariche e ricarica batterie
+
+In caso di sostituzione delle batterie interne operare come segue:
+
+> **ATTENZIONE**
+> Prima di aprire il coperchio del vano batterie scollegare ogni cavo di prova dallo strumento e spegnere lo stesso
+
+1.  Rimuovere le tre viti (vedere `Fig. 4` – Parte 3) e togliere il coperchio del vano batteria
+2.  Sostituire tutte le sei batterie interne con altrettante dello stesso tipo rispettando le polarità indicate all’interno del vano batteria
+3.  Ripristinare il coperchio del vano batteria
+4.  Usare gli appositi contenitori per lo smaltimento delle batterie danneggiate
+
+## 10.2 SOSTITUZIONE FUSIBILI UNITÀ HT2055S
+
+> **ATTENZIONE**
+> Prima di aprire il vano di contenimento dei fusibili scollegare ogni cavo di prova dallo strumento e spegnere lo stesso
+
+1.  Sollevare con un giravite il vano di contenimento dei fusibili (vedere `Fig. 1` – Parte 1)
+2.  Estrarre il selettore di colore rosso dal vano fusibili (vedere `Fig. 1` – Parte 2)
+3.  Estrarre i fusibili presenti nelle parti laterali del selettore e sostituirli con altrettanti dello stesso tipo (vedere `§ 11.1`)
+4.  Reinserire il selettore nel vano fusibili e richiudere lo stesso
+
+## 10.3 PULIZIA DELLO STRUMENTO
+
+Per la pulizia usare un panno morbido e asciutto. Non usare solventi, acqua, ecc.
+
+## 10.4 FINE VITA
+
+Attenzione: il simbolo riportato indica che l'apparecchiatura ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+# 11 SPECIFICHE TECNICHE
+
+Incertezza calcolata come `± [%lettura + (num. cifre*risoluzione)]` nelle condizioni di `§ 11.2`
+
+**Misura Tensione di Passo / Contatto (unità HT2055M)**
+
+| Campo di misura tensione misurata | Risoluzione | Incertezza                  |
+| :-------------------------------- | :---------- | :-------------------------- |
+| `0.01 ÷ 19.99mV`                  | `0.01mV`    | `± (2.0 % lettura + 2 cifre)` |
+| `20.0 ÷ 199.9mV`                  | `0.1mV`     |                             |
+| `200 ÷ 1999mV`                    | `1mV`       |                             |
+| `2.00 ÷ 19.99V`                   | `0.01V`     |                             |
+| `20.0 ÷ 59.9V`                    | `0.1V`      |                             |
+
+| Campo di misura tensione calcolata | Risoluzione | Incertezza               |
+| :-------------------------------- | :---------- | :----------------------- |
+| `0.0 ÷ 99.9V`                     | `0.1V`      | valore calcolato (*)     |
+| `100 ÷ 999V`                      | `1V`        |                          |
+| `1.00kV ÷ 9.99kV`                 | `10V`       |                          |
+
+(*) Il valore calcolato della tensione di passo o di contatto è ottenuto dalla relazione: `U_S = U_mis ∙ I_gua / I_gen; U_C = U_mis ∙ I_gua / I_gen;`
+
+*   **Campo corrente di guasto (selezionabile)**: `1 A ÷ 200kA`
+*   **Resistenza di ingresso (selezionabile)**: `1kΩ`, `1MΩ`
+*   **Cancellazione rumore**: filtraggio `DSP 55Hz`, reiezione `64dB` sul rumore a `50/60Hz`
+
+**Misura di Resistenza di terra (unità HT2055S)**
+
+| Campo di misura             | Risoluzione | Incertezza                   |
+| :-------------------------- | :---------- | :--------------------------- |
+| `0.001Ω ÷ 1.999Ω`           | `0.001Ω`    | `± (2.0 % lettura + 5 cifre)` |
+| `2.00Ω ÷ 19.99Ω`            | `0.01Ω`     |                              |
+| `20.0Ω ÷ 99.9Ω`             | `0.1Ω`      |                              |
+| `100.0Ω ÷ 199.9Ω`           | `0.1Ω`      | `± (5.0 % lettura)`          |
+
+*   **Tensione a vuoto**: `< 50 V AC`
+*   **Corrente di prova**: `< 7.5 A`
+*   **Frequenza segnale di prova**: `55Hz`
+*   **Influenza della resistenza della sonda**: `≤ ±(10% lettura + 10 cifre) (Rc, Rp) max (10Ω + 100R)` o `2kΩ` considerando il valore minore
+*   **Test automatico sulla resistenza della sonda**: Si
+*   **Riconoscimento automatico della tensione di disturbo**
+
+| Campo di misura corrente generata | Risoluzione | Incertezza                  |
+| :-------------------------------- | :---------- | :-------------------------- |
+| `0.00 ÷ 9.99A`                    | `0.01A`     | `± (3.0 % lettura + 5 cifre)` |
+| `10.0 ÷ 99.9A`                    | `0.1A`      | `± (3.0 % lettura + 3 cifre)` |
+
+*   **Corrente generata**: `55A max`
+*   **Tensione di prova**: `<55V`
+*   **Frequenza di prova**: `55Hz`
+
+**Misura di Resistività del terreno (unità HT2055S)**
+
+| Campo di misura | Risoluzione | Incertezza                                      |
+| :-------------- | :---------- | :---------------------------------------------- |
+| `0.00Ωm`        | `0.01Ωm`    | Valore calcolato in funzione della precisione della misura di resistenza di terra |
+| `10.0Ωm`        | `0.1Ωm`     |                                                 |
+| `100Ωm`         | `1Ωm`       |                                                 |
+| `1.00kΩm`       | `0.01kΩm`   |                                                 |
+| `10.0kΩm`       | `0.1kΩm`    |                                                 |
+
+| Campo di misura | Risoluzione | Incertezza                                      |
+| :-------------- | :---------- | :---------------------------------------------- |
+| `0.00Ωft`       | `0.01Ωft`   | Valore calcolato in funzione della precisione della misura di resistenza di terra |
+| `10.0Ωft`       | `0.1Ωft`    |                                                 |
+| `100Ωft`        | `1Ωft`      |                                                 |
+| `1.00kΩft`      | `0.01kΩft`  |                                                 |
+| `10.0kΩft`      | `0.1kΩft`   |                                                 |
+| `299.9kΩft`     | `0.1kΩft`   |                                                 |
+
+*   **Principio di misura**: metodo Wenner → `ρ = 2 * π * distanza * R`
+
+## 11.1 CARATTERISTICHE GENERALI
+
+**Unità di potenza HT2055S**
+
+*   **Alimentazione**: `115V /230VAC (±10%), 50/60Hz`
+*   **Massimo consumo di potenza**: `750VA`
+*   **Protezione su alimentazione**: `2x fusibile T 6.3 A/ 500 V (6mm x 30mm)`
+*   **Sicurezza strumento**: `IEC/EN61010-1`, `IEC/EN61557-1`
+*   **Sicurezza accessori di misura**: `IEC/EN61010-031`
+*   **Installazioni oltre 1kVAC**: `HD 637 S1`
+*   **Tensione di passo/contatto**: `CEI 99-2`, `CEI 99-3`, `EN50522`, `IEC60936-1`
+*   **Misura resistenza di terra**: `IEC/EN61557-5`, `IEC/EN60364`
+*   **Regolamentazione spagnola**: `RAT 2008`
+*   **Isolamento**: classe I
+*   **Categoria di misura**: `CAT II 300V`, `CAT IV 50V`
+*   **Grado di inquinamento**: 3
+*   **Protezione meccanica**: `IP30`
+*   **Display**: LCD matrice di punti (`128 x 64`) con backlight
+*   **Memoria interna**: `1000` locazioni
+*   **Corrente generata**: mantenuta per min 24h
+*   **Interfaccia di comunicazione**: `RS-232` (con unità voltmetrica `HT2055M`)
+*   **Dimensioni (L x La x H)**: `563 x 257 x 275mm`
+*   **Peso (senza accessori)**: `29.5kg`
+
+**Unità voltmetrica HT2055M**
+
+*   **Alimentazione**:
+    *   `6x1.2V` batterie ricaricabili `NiMH` tipo `AA LR03`
+    *   `6x1.5V` batterie alcaline tipo `AA LR03`
+*   **Durata batterie ricaricabili**: 12 ore (tipico)
+*   **Alimentazione esterna**: `100-240V AC, 50-60Hz / 12V DC`
+*   **Sicurezza strumento**: `IEC/EN61010-1`
+*   **Sicurezza accessori di misura**: `IEC/EN61010-031`
+*   **Isolamento**: doppio isolamento
+*   **Categoria di misura**: `CAT IV 50V`
+*   **Grado di inquinamento**: 2
+*   **Protezione meccanica**: `IP40`
+*   **Display**: LCD matrice di punti (`128 x 64`) con backlight
+*   **Auto Power OFF**: dopo 15 minuti di non utilizzo (non disabilitabile)
+*   **Memoria interna**: `1500` locazioni
+*   **Interfaccia di comunicazione**: `RS-232` e `USB`
+*   **Dimensioni (L x La x H)**: `230 x 115 x 103mm`
+*   **Peso (con batterie)**: `1.3kg`
+
+## 11.2 AMBIENTE
+
+*   **Temperatura di riferimento**: `10°C ÷ 30°C`
+*   **Umidità di riferimento**: `35% ÷ 65%RH`
+*   **Temperatura di utilizzo**: `0°C ÷ 40°C`
+*   **Umidità relativa ammessa**: `< 85% RH`
+*   **Temperatura immagazzinamento**: `-10°C ÷ 60°C`
+*   **Umidità di immagazzinamento**: `< 80% RH`
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione `2014/35/EU (LVD)` e della direttiva `EMC 2014/30/EU`
+Questo strumento è conforme ai requisiti della direttiva europea `2011/65/EU (RoHS)` e della direttiva europea `2012/19/EU (WEEE)`
+
+## 11.3 ACCESSORI IN DOTAZIONE
+
+*   Unità di potenza `HT2055S`
+*   Unità voltmetrica `HT2055M`
+*   Cavo di alimentazione unità `HT2055S`
+*   Sonda di corrente, lunghezza 1m
+*   Sonda di tensione, lunghezza 60cm
+*   Piastra metallica (`200x100mm`), 2 pezzi
+*   Cavo di prova nero, 50m, `10mm2`, con coccodrillo, con spina industriale, su avvolgitore
+*   Cavo di prova nero, 10m, `10mm2`, con coccodrillo, con spina industriale
+*   Cavo di prova rosso, 50m, su avvolgitore
+*   Cavo di prova verde, 10m, con coccodrillo, su avvolgitore
+*   Cavo di prova rosso, 1m, con coccodrillo
+*   Cavo di prova nero, 1.5m
+*   Cavo di prova nero, con terminale per `HT2055M`, 2x3m
+*   Terminale a coccodrillo nero, 4 pezzi
+*   `6 x 1.2V` batterie ricaricabili `NiMH` tipo `AA, LR03`
+*   Alimentatore esterno `100-240V AC / 12V DC`
+*   Cavo `USB`
+*   Cavo `RS-232 - PS/2` per collegamento unità
+*   Software “`TeraView`” su CD-ROM
+*   Borsa soffice per trasporto, 2 pezzi
+*   Cinghia per uso di unità `HT2055M` a tracolla
+*   Manuale d’uso
+*   Certificati di calibrazione `ISO9000`
+*   Cassa contenitiva strumento
+
+## 11.4 ACCESSORI OPZIONALI
+
+*   Sonda di corrente, lunghezza 1m
+*   Sonda di tensione, lunghezza 60cm
+
+# 12 ASSISTENZA
+
+## 12.1 CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+
+*   Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+## 12.2 ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il servizio di assistenza, controllare lo stato della batteria e dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
+
+**HT ITALIA SRL**
+Via della Boaria, 40
+48018 – Faenza (RA) – Italy
+T +39 0546 621002 | F +39 0546 621144
+M info@ht-instrumnents.com | www.ht-instruments.it
+
+**HT INSTRUMENTS SL**
+C/ Legalitat, 89
+08024 Barcelona – Spain
+T +34 93 408 17 77 | F +34 93 408 36 30
+M info@htinstruments.es | www.ht-instruments.com/es-es/
+
+**HT INSTRUMENTS GmbH**
+Am Waldfriedhof 1b
+D-41352 Korschenbroich – Germany
+T +49 (0) 2161 564 581 | F +49 (0) 2161 564 583
+M info@htinstruments.de | www.ht-instruments.de
