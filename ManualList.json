@@ -114,6 +114,11 @@
       "id": "HT9015.md",
       "name": "HT9015",
       "description": "Pinza amperometrica AC/DC TRMS 600A CAT IV con misura di temperatura."
+    },
+    {
+      "id": "M71.md",
+      "name": "M71",
+      "description": "Strumento per misura della resistenza di terra."
     }
   ]
 }
