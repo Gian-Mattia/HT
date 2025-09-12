@@ -124,6 +124,11 @@
       "id": "HT9021.md",
       "name": "HT9021",
       "description": "Pinza amperometrica AC/DC TRMS CAT IV con misura di temperatura."
+    },
+    {
+      "id": "HT401.md",
+      "name": "HT401",
+      "description": "Multimetro professionale TRMS con misura AC + DC ed ingresso a bassa impedenza LoZ."
     }
   ]
 }
