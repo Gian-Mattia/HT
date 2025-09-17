@@ -129,6 +129,11 @@
       "id": "HT401.md",
       "name": "HT401",
       "description": "Multimetro professionale TRMS con misura AC + DC ed ingresso a bassa impedenza LoZ."
+    },
+    {
+      "id": "HT7051.md",
+      "name": "HT7051",
+      "description": "Misuratore d’isolamento professionale con tensione di prova programmabile fino a 5KV."
     }
   ]
 }
