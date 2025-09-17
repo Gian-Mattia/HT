@@ -1,0 +1,889 @@
+# Ht7051
+
+<!-- Language: It -->
+<!-- Version: 1.1 -->
+
+<!-- Chunk: Pages 1-35 -->
+
+
+Copyright HT ITALIA 2024 Versione IT 4.01 - 02/09/2024
+
+# HT7051 - HT7051N IT - 1 INDICE
+
+1.  PRECAUZIONI E MISURE DI SICUREZZA ....................................................................2
+    1.1. Istruzioni preliminari .............................................................................................................. 2
+    1.2. .................................................................................................................... 3
+    1.3. ........................................................................................................................ 3
+    1.4. Definizione di categoria di misura (sovratensione) ............................................................... 3
+2.  DESCRIZIONE GENERALE ...........................................................................................4
+    2.1. Funzionalità dello strumento ................................................................................................. 4
+3.  ....................................................................................4
+    3.1. Controlli iniziali ...................................................................................................................... 4
+    3.2. Alimentazione dello strumento .............................................................................................. 4
+    3.3. Conservazione ...................................................................................................................... 4
+4.  NOMENCLATURA ..........................................................................................................5
+    4.1. Descrizione dello strumento .................................................................................................. 5
+    4.2. Descrizione dei tasti funzione ............................................................................................... 5
+    4.3. Descrizione del display ......................................................................................................... 6
+    4.4. Descrizione dei terminali di misura ....................................................................................... 7
+    4.5. Terminale GUARD ................................................................................................................ 7
+    4.6. Note sulle misure di isolamento ............................................................................................ 7
+5.  ISTRUZIONI OPERATIVE...............................................................................................8
+    5.1. Accensione dello strumento .................................................................................................. 8
+        5.1.1. Auto spegnimento.................................................................................................................... 8
+    5.2. Misura di Isolamento in Modo FIX......................................................................................... 9
+        5.2.1. Impostazione dei parametri di prova modalità FIX ................................................................ 12
+    5.3. Misura di Isolamento in Modo ADJUST .............................................................................. 13
+        5.3.1. Impostazione dei parametri di prova modalità ADJUST ....................................................... 16
+    5.4. Misura di Isolamento in modo RAMP .................................................................................. 17
+        5.4.1. Impostazione dei parametri di prova modalità RAMP#1 ....................................................... 21
+        5.4.2. Impostazione dei parametri di prova modalità RAMP#2 ....................................................... 21
+        5.4.3. Impostazione dei parametri di prova modalità RAMP#3 ....................................................... 22
+    5.5. Attivazione/disattivazione della funzione SMOOTH ............................................................ 22
+    5.6. Situazioni anomale .............................................................................................................. 22
+6.  OPERAZIONI CON MEMORIA .....................................................................................25
+    6.1. Salvataggio delle misure ..................................................................................................... 25
+    6.2. Cancellazione delle misure ................................................................................................. 25
+    6.3. Richiamo dei risultati a display ............................................................................................ 26
+7.  RESET DELLO STRUMENTO ......................................................................................26
+8.  COLLEGAMENTO DELLO STRUMENTO A PC ...........................................................26
+9.  MANUTENZIONE..........................................................................................................27
+    9.1. Generalità ............................................................................................................................ 27
+    9.2. Ricarica batteria interna ...................................................................................................... 27
+    9.3. Pulizia dello strumento ........................................................................................................ 27
+    9.4. Fine vita............................................................................................................................... 27
+10. SPECIFICHE TECNICHE..............................................................................................28
+    10.1. Normative di riferimento ...................................................................................................... 29
+    10.2. Caratteristiche generali ....................................................................................................... 29
+    10.3. Ambiente ............................................................................................................................. 30
+        10.3.1. Condizioni ambientali di utilizzo ........................................................................................ 30
+    10.4. Accessori............................................................................................................................. 30
+11. ASSISTENZA ................................................................................................................31
+    11.1. Condizioni di garanzia......................................................................................................... 31
+    11.2. Assistenza................................................................_ _......................................................... 31
+12. APPENDICE TEORICA.................................................................................................32
+    12.1. Indice di Polarizzazione (PI)................................................................................................ 32
+    12.2. Rapporto di Assorbimento Dielettrico (DAR)....................................................................... 32
+
+
+# 1 PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità alle normative IEC/EN61557-1 e IEC/EN61010-1 relative agli strumenti di misura elettronici.
+
+> **ATTENZIONE**
+> Per la sicurezza dell'operatore e per evitare di danneggiare lo strumento, seguire le procedure descritte nel presente manuale e leggere con particolare attenzione tutte le note precedute dal simbolo `!`.
+
+Prima e durante l'esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+*   Non effettuare misure in ambienti umidi, in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi
+*   Anche se non si stanno effettuando misure evitare contatti con il circuito in esame, con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+*   Prestare particolare attenzione quando si effettuano misure di tensioni superiori a 25V in ambienti particolari (cantieri, piscine, eccetera) e 50V in ambienti ordinari in quanto è presente il rischio di shock elettrici.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+*   **ATTENZIONE:** è necessario consultare il manuale di istruzioni al fine di individuare la natura del pericolo potenziale e le azioni da intraprendere.
+*   Attenersi alle istruzioni riportate nel manuale. Un uso improprio potrebbe
+*   `=`: Tensione o corrente DC.
+*   `~`: Tensione o corrente AC.
+*   `⚡`: Pericolo tensioni pericolose: rischio di shock elettrici.
+*   `□`: Strumento con doppio isolamento.
+
+## 1.1 ISTRUZIONI PRELIMINARI
+
+Questo strumento è stato progettato per un utilizzo in ambiente con livello di inquinamento 2.
+*   Può essere utilizzato per verifiche su impianti elettrici industriali fino a CAT IV 600V verso terra con tensione massima 600V tra gli ingressi.
+*   Seguire le normali regole di sicurezza orientate a proteggere l'operatore da correnti pericolose e proteggere lo strumento contro un utilizzo errato.
+*   Utilizzare lo strumento posizionato solo su apposite superfici orizzontali piane diverse dal pavimento.
+*   Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+*   Non effettuare misure su circuiti che superino il limite di corrente e tensione specificato.
+*   Non effettuare misure in condizione ambientali al di fuori delle limitazioni indicate nel presente manuale.
+*   Prima di collegare i puntali al circuito in esame, controllare che sia selezionata la funzione corretta.
+
+## 1.2
+Leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle avvertenze e/o istruzioni può danneggiare lo
+> durante l'utilizzo compare il simbolo di batteria scarica inserire il cavo di alimentazione nella presa Europlug per avviare la ricarica della batteria. Durante la ricarica della batteria è possibile effettuare misurazioni.
+
+*   Prima di selezionare una nuova funzione scollegare i puntali di misura dal circuito.
+*   Quando lo strumento è connesso al circuito in esame non toccare mai un qualunque terminale inutilizzato.
+*   Evitare la misura di resistenza in presenza di tensioni esterne; anche se lo strumento è protetto, una tensione eccessiva potrebbe causare malfunzionamenti dello strumento (esempio un puntale che scivola dal punto di misura andando a toccare un punto in tensione).
+*   Evitare di inserire la spina di alimentazione nella presa Europlug du della misura.
+
+## 1.3
+Quando le misure sono terminate spegnere lo strumento tramite il tasto `ON/OFF`.
+
+## 1.4 DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma "IEC/EN61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali", definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § 6.7.4: Circuiti di misura, essa recita:
+
+I circuiti sono suddivisi nelle seguenti categorie di misura:
+
+*   La Categoria di misura IV serve per le misure effettuate su una sorgente di. Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di.
+*   La Categoria di misura III edifici. Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni (esempio i motori fissi con collegamento ad impianto fisso).
+*   La Categoria di misura II serve per le misure effettuate su circuiti collegati. Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari.
+*   La Categoria di misura I serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE. Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma.
+
+# 2 DESCRIZIONE GENERALE
+
+Lo strumento appena acquistato, se utilizzato secondo quanto descritto nel presente manuale, garantisce misure accurate ed affidabili e la massima sicurezza grazie ad uno sviluppo di nuova concezione che assicura il doppio isolamento ed il raggiungimento della CAT IV.
+
+## 2.1 FUNZIONALITÀ DELLO STRUMENTO
+*   Misura resistenza di isolamento con tensione di prova programmabile fino a 5000V
+*   Misura della corrente di perdita dielettrica
+*   Misura del Rapporto di Assorbimento Dielettrico (DAR)
+*   Mis
+*   Misura tensione DC/AC fino a 600V
+
+# 3
+
+## 3.1 CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, di controllarlo sommariamente per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere od il rivenditore. Si consiglia inoltre di § 10.4. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 11.
+
+## 3.2 ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato da batterie interne ricaricabili dalla rete tramite carica batterie interno allo strumento stesso. Il simbolo `⎕` (battery symbol) non lampeggiante in basso a destra, indica che le batterie sono scariche e devono essere ricaricate. Per ricaricare le batterie seguire le istruzioni indicate al § 9.2.
+
+> **ATTENZIONE**
+> Eseguire almeno una carica completa all'anno della batteria interna. Se lo strumento resta per un anno senza essere utilizzato, la batteria può danneggiarsi e potrebbe non ricaricarsi completamente neppure dopo alcuni cicli di carica/scarica.
+
+## 3.3 CONSERVAZIONE
+
+Per garantire misure accurate e preservare lo strumento da possibili guasti, dopo un lungo periodo di conservazione in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 10.3.1).
+
+# 4 NOMENCLATURA
+
+## 4.1 DESCRIZIONE DELLO STRUMENTO
+
+LEGENDA:
+1.  Terminali di ingresso
+2.  Presa Europlug
+3.  Connettore seriale RS-232
+4.  Tasto `FUNC/ERASE MEM`
+5.  Tasti freccia multifunzione
+6.  Tasto `ESC/RECALL MEM`
+7.  Tasto `SET/DISPLAY MEM`
+8.  Tasto `SAVE`
+9.  Tasto `START/STOP`
+10. Tasto `ON/OFF/`
+11. Tasto `MODE/CLEAR SMOOTH`
+12. Display LCD
+
+Fig. 1: Descrizione dello strumento
+
+## 4.2 DESCRIZIONE DEI TASTI FUNZIONE
+
+| Tasto | Descrizione |
+| :-------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tasti freccia multifunzione | Svolgono svariate funzioni che verranno descritte in seguito |
+| Tasto `ON/OFF/` | Usato per: Accendere/spegnere lo strumento; Accendere la retroilluminazione del display per 20 secondi (pressione breve del tasto a strumento già acceso) |
+| Tasto `FUNC/ERASE MEM` | Usato per: Selezionare la funzione desiderata; Cancellare le misurazioni salvate durante la visualizzazione dei dati della memoria |
+| Tasto `MODE/CLEAR SMOOTH` | Usato per: Cambiare la modalità di prova (se disponibili più modalità); Dopo aver premuto il tasto `SET/DISPLAY MEM`, una pressione del tasto imposta il valore di default del parametro selezionato |
+| Tasto `SET/DISPLAY MEM` | Usato per: Impostare i parametri di prova di una funzione; dopo aver premuto il tasto `ESC/RECALL MEM`, una pressione del tasto mostra i dati della misura salvata in memoria |
+
+# HT7051 - HT7051N IT - 6
+
+| Tasto | Descrizione |
+| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tasto `ESC/RECALL MEM` | Usato per: Accedere ai dati salvati in memoria (se disponibili); Da una videata di impostazione parametri o di visualizzazione dei dati in memoria, una pressione del tasto permette di tornare alla visualizzazione precedente |
+| Tasto `SAVE` | Usato per: Al termine di una misurazione una pressione del tasto permette di salvare i risultati in memoria; Da una videata di impostazione parametri, una pressione del tasto permette di salvare le modifiche apportate ai parametri |
+| Tasto `START/STOP` | Usato per: Avviare/terminare una misurazione |
+
+Tabella 1: Descrizione dei tasti funzione
+
+## 4.3 DESCRIZIONE DEL DISPLAY
+
+| Simbolo | Descrizione |
+| :------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|         | Display gruppo 1 dove viene mostrato: Valore della resistenza di isolamento; Corrente di perdita dielettrica; PI (Indice di Polarizzazione); DAR (Rapporto di Assorbimento Dielettrico); Capacità |
+|         | Display gruppo 2 dove viene mostrato: Tensione di prova nominale; Tensione di prova generata |
+|         | Display gruppo 3 dove viene mostrato tempo di prova |
+| `[|||||]` | Bargraph |
+| `FIX`, `ADJUST`, `RAMP` | Modalità di prova : FIX, ADJUST e RAMP |
+| `!`, `⚠`, `⎕`, `⏚`, `⏰` | |
+
+Tabella 2: Descrizione del display
+
+
+## 4.4 DESCRIZIONE DEI TERMINALI DI MISURA
+
+LEGENDA:
+1.  Barriera paramano.
+2.  Zona di sicurezza.
+
+Fig. 2: Terminali di misura
+
+## 4.5 TERMINALE GUARD
+
+Si possono verificare casi in cui la misura viene falsata dalle correnti superficiali. Applicando tensione ad un isolamento da misurare, si possono avere due distinte correnti: misurare la sola resistenza dovuta alla corrente `Im` che scorre all'interno del provino Rx (che è quella significativa), è necessario assorbire la corrente superficiale `If` utilizzando il terminale di GUARD (vedere Fig. 3).
+
+Fig. 3: Correnti circolanti nel provino
+
+## 4.6 NOTE SULLE MISURE DI ISOLAMENTO
+
+La misura di una resistenza elevata come quella di isolamento è molto critica in quanto il valore delle correnti in gioco può essere molto piccolo. Quando si effettuano le misure, per evitare errori, è quindi opportuno prendere le seguenti precauzioni:
+
+> **ATTENZIONE**
+> *   Tenere i cavi di misura sospesi lungo il percorso o eventualmente appoggiati in un solo punto
+> *   mantenere a debita distanza dai cavi e dalla resistenza da misurare
+> *   GUARD per la misura di o superiori
+> *   Al fine di utilizzare lo strumento tramite alimentazione da rete, occorre verificare che l'eventuale polo a terra della resistenza da misurare sia connesso al Terminale Rx+ dello strumento
+
+
+# 5 ISTRUZIONI OPERATIVE
+
+## 5.1 ACCENSIONE DELLO STRUMENTO
+
+segnale acustico e per circa un secondo visualizza tutti i segmenti del display. Successivamente mostra la versione del F modalità di misurazione selezionata prima dello spegnimento.
+
+### 5.1.1 Auto spegnimento
+
+## 5.2 MISURA DI ISOLAMENTO IN MODO FIX
+
+Questo modo di misura, eseguito in accordo alla norma IEC/EN61557-2, consente la rapida selezione della tensione di prova tra i valori: 250, 500, 1000, 2500, 5000VDC.
+
+> **ATTENZIONE**
+> *   Lo strumento può essere usato su installazioni con CAT IV 600V verso terra e tensione massima 600V tra gli ingressi. Non collegare lo strumento ad installazioni con tensioni che eccedano i limiti indicati in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici izzatore e danni allo strumento.
+> *   La connessione dei cavi di misura allo strumento e ai coccodrilli deve sempre avvenire ad acc.
+> *   Si raccomanda di impugnare il coccodrillo rispettando la zona di sicurezza individuata dalla barriera paramano (vedere § 4.4).
+
+Fig. 4:Connessione dello strumento
+
+1.  Accendere lo strumento premendo il tasto `ON/OFF/`.
+2.  Premere il tasto `FUNC/ERASE MEM` per selezionare il modo.
+3.  Sul display è mostrata la videata a fianco in cui sono presenti:
+    *   La funzione selezionata FIX
+    *   Il bargraph a zero
+    *   L'indicazione "`--- T`"
+    *   La tensione di prova selezionata
+    *   Il valore del tempo di prova
+    *   Il simbolo della spina (se strumento alimentato da rete)
+    *   Il simbolo della batteria fisso o lampeggiante (se le batterie sono scariche o se sono in carica)
+    *   Il simbolo del `TIMER` se la prova è stata impostata con durata prefissata
+
+
+4.  Premendo i tasti freccia lo strumento mostra una videata simile a quella a fianco dove viene visualizzato il valore della tensione in ingresso.
+5.  Premere il tasto `MODE/CLEAR SMOOTH` per impostare una delle seguenti tensioni di prova: 250V, 500V, 1000V, 2500V, 5000V.
+6.  Inserire i cavi di misura nei corrispondenti terminali di ingresso dello strumento - Rx, +Rx e GUARD (vedere § 4.5) se necessario (vedere Fig. 4).
+
+> **ATTENZIONE**
+> Accertarsi che ai capi dei punti di misura non sia presente tensione prima di connettervi i terminali di misura.
+
+7.  Collegare i coccodrilli alla parte dell'impianto in esame da verificare.
+8.  Premere il tasto `START/STOP` per eseguire la misurazione.
+
+> **ATTENZIONE**
+> La visualizzazione del messaggio "`Measuring...`" indica che lo strumento sta eseguendo la prova. Durante tutta questa fase:
+> *   Non scollegare i terminali di misura dello strumento dal conduttore in esame; esso potrebbe rimanere carico ad una tensione pericolosa a causa delle eventuali capacità parassite presenti nel circuito testato.
+> *   Non inserire mai il cavo di alimentazione nella presa Europlug.
+
+9.  Durante la misura lo strumento emette un breve segnale acustico ad ogni secondo trascorso, e a display è mostrata una videata simile a quella a fianco dove viene riportato:
+    *   La funzione selezionata FIX
+    *   Il bargraph proporzionale al valore di resistenza misurato
+    *   L'indicazione numerica della resistenza misurata
+    *   La tensione di prova reale applicata
+    *   Il simbolo della campanella di allarme (se il valore misurato non rientra nei limiti impostati e/o se il valore della tensione di prova è inferiore al valore nominale impostato)
+    *   Il valore del tempo di prova trascorso o residuo (se è impostato un tempo di prova)
+    *   Il simbolo della spina (se strumento alimentato da rete)
+    *   Il simbolo della batteria fisso o lampeggiante (se le batterie sono scariche o se sono in carica)
+    *   Il simbolo del timer se la prova è stata impostata con durata prefissata
+
+
+Durante una misura è altresì possibile visualizzare la corrente di perdita, il DAR (Rapporto di Assorbimento Dielettrico se la durata della prova > 1 minuto), il PI (Indice di Polarizzazione se la durata della prova > 10 minuti) che si presentano ciclicamente alla pressione dei tasti freccia (vedere § 12.1).
+
+10. Se non è stato settato un tempo di misura durante l'impostazione dei parametri o se si desidera fermare in anticipo la prova prima della scadenza del tempo impostato, premere il tasto `START/STOP`.
+
+11a. Al termine della misura, e della scarica delle eventuali capacità, lo strumento visualizza:
+    *   Il valore della resistenza di isolamento misurata
+    *   Il valore della tensione generata
+    *   La durata della prova
+    *   e un doppio segnale acustico qualora il valore di resistenza misurato risulti compreso tra i limiti (MIN - MAX) impostati (vedere § 5.2.1).
+
+OPPURE
+
+11b. Al termine della misura, e della scarica delle eventuali capacità, lo strumento visualizza:
+    *   Il valore della resistenza di isolamento misurata
+    *   Il valore della tensione generata
+    *   La durata della prova
+    *   T segnale acustico prolungato qualora il valore di resistenza misurato non risulti compreso tra i limiti (MIN - MAX) impostati (vedere § 5.2.1).
+
+12. Al termine della misura è altresì possibile visualizzare la corrente di perdita, il DAR (Rapporto di Assorbimento Dielettrico), il PI (Indice di Polarizzazione) e la capacità che si presentano ciclicamente alla pressione dei tasti freccia (vedere § 12.1).
+
+> **ATTENZIONE**
+> Se il valore di resistenza misurato <5.0MΩ, nella videata di visualizzazione `---` possibile misurare il valore della capacità, e il simbolo `⎕` (capacitor symbol).
+> Qualora, scorrendo i risultati ottenuti, il valore di capacità fosse > 1nF è raccomandato ripetere la misurazione attivando la funzione SMOOTH (vedere § 5.5).
+
+13. Le misure sono memorizzabili premendo due volte il tasto `SAVE` (vedere § 6.1).
+
+
+### 5.2.1 Impostazione dei parametri di prova modalità FIX
+
+a. Premendo ciclicamente il tasto `SET/DISPLAY MEM`, è possibile selezionare i seguenti parametri:
+    *   Valore minimo di resistenza di isolamento (MIN) compreso tra 0.01MΩ - MAX
+    *   Valore massimo di resistenza di isolamento (MAX) compreso tra (MIN) - 10TΩ
+    *   Valore del tempo di prova compreso tra (00min:05sec) - (99min:59 sec)
+
+b. Premere i tasti freccia per modificare il valore dei parametri (una pressione prolungata dei tasti abilitano la variazione rapida dei valori).
+
+c. Premere il tasto `MODE/CLEAR SMOOTH` per rimuovere i valori limiti impostati dei parametri. Sul display viene mostrata la scritta "no" ad indicare che non c'è nessun limite impostato.
+
+d. Al termine delle impostazioni eseguite premere il tasto `SAVE` per salvare le modifiche oppure premere il tasto `ESC/RECALL MEM` per uscire senza salvare e tornare alla videata precedente.
+
+## 5.3 MISURA DI ISOLAMENTO IN MODO ADJUST
+
+Questa misura è eseguita in accordo alla norma IEC/EN61557-2. Il modo ADJUST consente la regolazione fine della tensione di prova tra 100V - 5000VDC.
+
+> **ATTENZIONE**
+> *   Lo strumento può essere usato su installazioni con CAT IV 600V verso terra e tensione massima 600V tra gli ingressi. Non collegare lo strumento ad installazioni con tensioni che eccedano i limiti indicati in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici.
+> *   La connessione dei cavi di misura allo strumento e ai coccodrilli deve.
+> *   Si raccomanda di impugnare il coccodrillo rispettando la zona di sicurezza individuata dalla barriera paramano (vedere § 4.4).
+
+Fig. 5: Connessione dello strumento
+
+1.  Accendere lo strumento premendo il tasto `ON/OFF/`.
+2.  Premere il tasto `FUNC/ERASE MEM` per selezionare la funzione `ADJUST`.
+3.  Sul display è mostrata la videata a fianco in cui sono presenti:
+    *   La funzione selezionata ADJUST
+    *   Il bargraph a zero
+    *   L'indicazione "`--- T`"
+    *   La tensione di prova selezionata
+    *   Il valore del tempo di prova
+    *   Il simbolo della spina (se strumento alimentato da rete)
+    *   Il simbolo della batteria fisso o lampeggiante (se le batterie sono scariche o se sono in carica)
+    *   Il simbolo del timer se la prova è stata impostata con durata prefissata.
+
+4.  Premendo i tasti freccia lo strumento mostra una videata simile a quella a fianco dove viene visualizzato il valore della tensione in ingresso.
+5.  Controllare che la tensione di prova impostata sia quella desiderata. Nel caso non lo fosse per modificarla fare riferimento al § 5.3.1.
+6.  Inserire i cavi di misura nei corrispondenti terminali di ingresso dello strumento - Rx, +Rx e GUARD (vedere § 4.5) se necessario (vedere Fig. 5).
+
+> **ATTENZIONE**
+> Accertarsi che ai capi dei punti di misura non sia presente tensione prima di connettervi i terminali di misura.
+
+7.  Collegare i coccodrilli alla parte dell'impianto in esame da verificare.
+8.  Premere il tasto `START/STOP` per eseguire la misurazione.
+
+> **ATTENZIONE**
+> eseguendo la prova. Durante tutta questa fase:
+> *   Non scollegare i terminali di misura dello strumento dal conduttore in esame; esso potrebbe rimanere carico ad una tensione pericolosa a causa delle eventuali capacità parassite presenti nel circuito testato;
+> *   Non inserire mai il cavo di alimentazione nella presa Europlug.
+
+9.  Durante la misura lo strumento emette un breve segnale acustico ad ogni secondo trascorso, e sul display compare una videata simile a quella a fianco dove viene riportato:
+    *   La funzione selezionata ADJUST
+    *   Il bargraph proporzionale al valore di resistenza misurata
+    *   L'indicazione numerica della resistenza misurata
+    *   La tensione di prova reale
+    *   Il simbolo della campanella di allarme (se il valore misurato non rientra nei limiti impostati e/o se il valore della tensione di prova è inferiore al valore nominale impostato)
+    *   Il valore del tempo di prova trascorso o residuo (se è impostato un tempo di prova)
+    *   Il simbolo della spina (se alimentato da rete);
+    *   Il simbolo della batteria fisso o lampeggiante (se le batterie sono scariche o sono in carica)
+    *   Il simbolo del `TIMER` se la prova è stata impostata con durata prefissata
+
+
+Durante una misura è altresì possibile visualizzare la corrente di perdita, il DAR (Rapporto di Assorbimento Dielettrico se la durata della prova > 1 minuto), il PI (Indice di Polarizzazione se la durata della prova > 10 minuti) che si presentano ciclicamente alla pressione dei tasti freccia (vedere nota su PI e DAR § 12.1).
+
+10. Se non è stato settato un tempo di misura durante l'impostazione dei parametri o se si desidera fermare in anticipo la prova prima della scadenza del tempo impostato, premere il tasto `START/STOP`.
+
+11a. Al termine della misura, e della scarica delle eventuali capacità, lo strumento visualizza:
+    *   Il valore della resistenza di isolamento misurata
+    *   Il valore della tensione generata
+    *   La durata della prova
+    *   acustico qualora il valore di resistenza misurato risulti compreso tra i limiti (MIN - MAX) impostati (vedere § 5.3.1).
+
+OPPURE
+
+11b. Al termine della misura, e della scarica delle eventuali capacità, lo strumento visualizza:
+    *   Il valore della resistenza di isolamento misurata;
+    *   Il valore della tensione generata;
+    *   La durata della prova
+    *   segnale acustico prolungato qualora il valore di resistenza misurato non risulti compreso tra i limiti (MIN - MAX) impostati (vedere § 5.3.1).
+
+12. Al termine della misura è altresì possibile visualizzare la corrente di perdita, il DAR (Rapporto di Assorbimento Dielettrico), il PI (Indice di Polarizzazione) e la capacità che si presentano ciclicamente alla pressione dei tasti freccia (vedere § 12.1).
+
+> **ATTENZIONE**
+> Se il valore di resistenza misurato < 5.0MΩ, nella videata di visualizzazione `---` possibile misurare il valore della capacità, e il simbolo `⎕` (capacitor symbol).
+> Qualora, scorrendo i risultati ottenuti, il valore di capacità fosse > 1nF è raccomandato ripetere la misurazione attivando la funzione SMOOTH (vedere § 5.5).
+
+13. Le misure sono memorizzabili premendo due volte il tasto `SAVE` (vedere § 6.1).
+
+### 5.3.1 Impostazione dei parametri di prova modalità ADJUST
+
+a. Premendo ciclicamente il tasto `SET/DISPLAY MEM`, è possibile selezionare i seguenti parametri:
+    *   Valore minimo di Resistenza di Isolamento (MIN) compreso tra 0.01MΩ - MAX
+    *   Valore massimo di Resistenza di Isolamento (MAX) compreso tra (MIN) - 10TΩ
+    *   Valore della tensione di prova compreso tra 100V - 5000V (impostabile a passi di 25V fino a 1000V e a passi di 50V da 1000V a 5000V)
+    *   Valore del tempo di prova compreso tra (00min:05sec) - (99min:59 sec)
+
+b. Premere i tasti freccia per modificare il valore dei parametri (una pressione prolungata dei tasti abilitano la variazione rapida dei valori).
+
+c. Premere il tasto `MODE/CLEAR SMOOTH` per rimuovere i valori limiti impostati dei parametri. Sul display viene mostrata la scritta "no" ad indicare che non c'è nessun limite impostato. Solamente nel caso di impostazione del valore della tensione di prova, premendo il tasto `MODE/CLEAR SMOOTH` la tensione si imposta al valore di default di 1000V.
+
+d. Al termine delle impostazioni eseguite premere il tasto `SAVE` per salvare le modifiche oppure premere il tasto `ESC/RECALL MEM` per uscire senza salvare e tornare alla videata precedente.
+
+## 5.4 MISURA DI ISOLAMENTO IN MODO RAMP
+
+Questa funzione è eseguita in accordo alla norma IEC/EN61557-2. Il modo RAMP consente la scelta di tre tipi di rampa differenti:
+*   RAMP#1
+*   RAMP#2
+*   RAMP#3
+
+Per ogni tipo di rampa sono programmabili i tempi, le tensioni di prova e il numero di volte che la rampa viene ripetuta (vedere § 5.4.1, § 5.4.2, § 5.4.3).
+
+*   **RAMP#1**: La tensione parte da 0V, raggiunge il valore V1 in un tempo T, mantiene il valore V1 per un tempo T1, va infine a 0 (con eventuale scarica delle tensioni residue).
+*   **RAMP#2**: La tensione parte dalla tensione V0 che viene mantenuta per un tempo T0, raggiunge il valore V1 in un tempo T, va infine a 0 (con eventuale scarica delle tensioni residue).
+*   **RAMP#3**: La tensione parte dalla tensione V0 che viene mantenuta per un tempo T0, raggiunge il valore V1 in un tempo T, si mantiene al valore V1 per un tempo T1, va infine a 0 (con eventuale scarica delle tensioni residue).
+
+> **ATTENZIONE**
+> *   Lo strumento può essere usato su installazioni con CAT IV 600V verso terra e tensione massima 600V tra gli ingressi. Non collegare lo strumento ad installazioni con tensioni che eccedano i limiti indicati in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici izzatore e danni allo strumento.
+> *   La connessione dei cavi di misura allo strumento e ai coccodrilli deve sempre avvenire ad accessori s.
+> *   Si raccomanda di impugnare il coccodrillo rispettando la zona di sicurezza individuata dalla barriera paramano (vedere § 4.4).
+
+Fig. 6: Connessione dello strumento
+
+1.  Accendere lo strumento premendo il tasto `ON/OFF/`.
+2.  Premere il tasto `FUNC` per selezionare il modo `RAMP`.
+
+3.  Sul display compare una videata simile a quella a fianco dove viene riportato:
+    *   Il tipo RAMPA selezionata;
+    *   Il bargraph a zero
+    *   L'indicazione "`--- T`"
+    *   La tensione di prova impostata
+    *   Il valore del tempo di prova
+    *   Il simbolo della spina (se strumento alimentato da rete)
+    *   Il simbolo della batteria fisso o lampeggiante (se le batterie sono scariche o se sono in carica)
+    *   Il simbolo del timer se la prova è stata impostata con durata prefissata
+
+4.  Premendo i tasti freccia lo strumento mostra una videata simile a quella a fianco dove viene visualizzato il valore della tensione in ingresso.
+5.  Inserire i cavi di misura nei corrispondenti terminali di ingresso dello strumento - Rx, +Rx e GUARD (vedere § 4.5) se necessario (vedere Fig. 6).
+
+> **ATTENZIONE**
+> Accertarsi che ai capi dei punti di misura non sia presente tensione prima di connettervi i terminali di misura.
+
+6.  Collegare i coccodrilli alla parte dell'impianto in esame da verificare.
+7.  Premere il tasto `START/STOP` per eseguire la misurazione.
+
+> **ATTENZIONE**
+> La visualizzazione del messaggio "`Measuring...`" indica che lo strumento sta eseguendo la prova. Durante tutta questa fase:
+> *   Non scollegare i terminali di misura dello strumento dal conduttore in esame; esso potrebbe rimanere carico ad una tensione pericolosa a causa delle eventuali capacità parassite presenti nel circuito testato;
+> *   Non inserire mai il cavo di alimentazione nella presa Europlug.
+
+8.  Durante la misura lo strumento emette un breve segnale acustico ad ogni secondo trascorso, e sul display compare una videata simile a quella a fianco dove viene riportato:
+    *   La funzione selezionata RAMP
+    *   Il bargraph proporzionale al valore di resistenza misurata;
+    *   L'indicazione numerica della resistenza misurata;
+    *   Il segmento relativo al punto della Rampa in cui ci si trova lampeggiante
+    *   La tensione di prova reale (relativa al punto della Rampa in cui ci si trova)
+    *   Il simbolo della campanella di allarme (se il valore misurato non rientra nei limiti impostati e/o se il valore della tensione di prova è inferiore al valore nominale impostato)
+    *   Il valore del tempo di prova residuo (relativa al punto della Rampa in cui ci si trova);
+    *   Il simbolo della spina (se alimentato da rete);
+    *   Il simbolo della batteria fisso o lampeggiante (se le batterie sono scariche o sono in carica)
+    *   Il simbolo del timer
+    *   I due simboli di "flash" ad indicare tensione pericolosa;
+    *   La scritta "`MEASURING...`".
+
+Durante una misura è altresì possibile visualizzare la corrente di perdita, la capacità e il numero di ciclo N che lo strumento sta eseguendo, che si presentano ciclicamente alla pressione dei tasti freccia.
+
+9.  Se si desidera fermare in anticipo la prova prima della scadenza del numero di cicli N impostati, premere il tasto `START/STOP`.
+
+10a. Al termine della misura, e della scarica delle eventuali capacità, lo strumento visualizza:
+    *   Il valore della resistenza di isolamento misurata
+    *   Il valore della tensione generata reale V1
+    *   Il valore del tempo relativo al parametro T1
+    *   segnale acustico qualora il valore di resistenza misurato risulti compreso tra i limiti (MIN - MAX) impostati (vedere § 5.4.1, § 5.4.2 o § 5.4.3).
+
+OPPURE
+
+10b. Al termine della misura, e della scarica delle eventuali capacità, lo strumento visualizza:
+    *   Il valore della resistenza di isolamento misurata
+    *   Il valore della tensione generata reale V1
+    *   Il valore del tempo relativo al parametro T1
+    *   segnale acustico prolungato qualora il valore di resistenza misurato non risulti compreso tra i limiti (MIN - MAX) impostati (vedere § 5.4.1, § 5.4.2 o § 5.4.3).
+
+11. Al termine della misura è altresì possibile visualizzare la corrente di perdita, la capacità e il numero di cicli N che si è ripetuta la rampa impostata, che si presentano ciclicamente alla pressione dei tasti freccia.
+
+> **ATTENZIONE**
+> Se il valore di resistenza misurato < 5.0MΩ, nella videata di visualizzazione `---` possibile misurare il valore della capacità, e il simbolo `⎕` (capacitor symbol).
+> Qualora, scorrendo i risultati ottenuti, il valore di capacità fosse > 1nF è raccomandato ripetere la misurazione attivando la funzione SMOOTH (vedere § 5.5).
+
+12. Le misure sono memorizzabili premendo due volte il tasto `SAVE` (vedere § 6.1).
+
+### 5.4.1 Impostazione dei parametri di prova modalità RAMP#1
+
+a. Premendo ciclicamente il tasto `SET/DISPLAY MEM`, è possibile selezionare i seguenti parametri:
+    *   Valore minimo di resistenza di isolamento (MIN) compreso tra 0.01MΩ - MAX
+    *   Valore massimo di resistenza di isolamento (MAX) compreso tra (MIN) - 10TΩ
+    *   Valore del tempo T in cui la tensione di prova passa da 0V al valore V1
+    *   Valore della tensione di prova V1 compreso tra 100V - 5000V (impostabile a passi di 25V fino 1000V e a passi di 50V da 1000V a 5000V)
+    *   Valore del tempo T1 per cui viene applicata la tensione di prova V1 compreso tra (00min:05sec) - (99min:59 sec)
+    *   Numero di cicli N per cui si ripete la rampa compreso tra 1 255 (N=1 indica 1 sola prova senza ripetizioni).
+
+b. Premere i tasti freccia per modificare il valore dei parametri (una pressione prolungata dei tasti abilitano la variazione rapida dei valori).
+
+c. Premere il tasto `MODE/CLEAR SMOOTH` per rimuovere i valori limiti impostati dei parametri. Sul display viene mostrata la scritta "no" ad indicare che non c'è nessun limite impostato. Nel caso di impostazione dei valori del tempo T, della tensione di prova V1, del tempo T1 e del numero di cicli N premendo il tasto `MODE/CLEAR SMOOTH` vengono impostati i valori di default (rispettivamente 30sec., 1000V, 1min., 1 ciclo).
+
+d. Al termine delle impostazioni eseguite premere il tasto `SAVE` per salvare le modifiche oppure premere il tasto `ESC/RECALL MEM` per uscire senza salvare e tornare alla videata precedente.
+
+### 5.4.2 Impostazione dei parametri di prova modalità RAMP#2
+
+a. Premendo ciclicamente il tasto `SET/DISPLAY MEM`, è possibile selezionare i seguenti parametri:
+    *   Valore minimo di resistenza di isolamento (MIN) compreso tra 0.01MΩ - MAX
+    *   Valore massimo di resistenza di isolamento (MAX) compreso tra (MIN) - 10TΩ
+    *   Valore della tensione di partenza V0 compreso tra 100V - 1000V (impostabile a passi di 25V)
+    *   Valore del tempo T0 per cui viene applicata la tensione di prova V0 compreso tra (00min:05sec) - (99min:59 sec)
+    *   Valore del tempo T in cui la tensione di prova passa dal valore impostato V0 al valore impostato V1 compreso tra (00min:05sec e 99min:59 sec)
+    *   Valore della tensione di prova V1 compreso tra 1000V - 5000V (impostabile a passi di 50V)
+    *   Numero di cicli N per cui si ripete la rampa compreso tra 1 255 (N=1 indica 1 sola prova senza ripetizioni).
+
+b. Premere i tasti freccia per modificare il valore dei parametri (una pressione prolungata dei tasti abilitano la variazione rapida dei valori).
+
+c. Premere il tasto `MODE/CLEAR SMOOTH` per rimuovere i valori limiti impostati dei parametri. Sul display viene mostrata la scritta "no" ad indicare che non c'è nessun limite impostato. Nel caso di impostazione dei valori della tensione V0, del tempo T0, del tempo T, della tensione V1 e del numero di cicli N premendo il tasto `MODE/CLEAR SMOOTH` vengono impostati i valori di default (rispettivamente 100V, 15sec., 30sec., 1000V, 1 ciclo).
+
+d. Al termine delle impostazioni eseguite premere il tasto `SAVE` per salvare le modifiche oppure premere il tasto `ESC/RECALL MEM` per uscire senza salvare.
+
+### 5.4.3 Impostazione dei parametri di prova modalità RAMP#3
+
+a. Premendo ciclicamente il tasto `SET/DISPLAY MEM`, è possibile selezionare i seguenti parametri:
+    *   valore minimo di resistenza di isolamento (MIN) compreso tra 0.01MΩ - MAX
+    *   valore massimo di resistenza di isolamento (MAX) compreso tra (MIN) - 10TΩ
+    *   valore della tensione di partenza V0 compreso tra 100V - 1000V (impostabile a passi di 25V)
+    *   valore del tempo T0 per cui viene applicata la tensione di prova V0 compreso tra (00min:05sec) - (99min:59 sec)
+    *   valore del tempo T in cui la tensione di prova passa dal valore impostato V0 al valore impostato V1 compreso tra (00min:05sec) ( (99min:59 sec)
+    *   valore della tensione di prova V1 compreso tra 1000V - 5000V (impostabile a passi di 50V)
+    *   valore del tempo T1 per cui viene applicata la tensione di prova V1 compreso tra (00min:05sec) -( (99min:59 sec)
+    *   numero di cicli N per cui si ripete la Rampa compreso tra 1 255 (N=1 indica 1 sola prova senza ripetizioni)
+
+b. Premere i tasti freccia per modificare il valore dei parametri (una pressione prolungata dei tasti abilitano la variazione rapida dei valori).
+
+c. Premere il tasto `MODE/CLEAR SMOOTH` per rimuovere i valori limiti impostati dei parametri. Sul display viene mostrata la scritta "no" ad indicare che non c'è nessun limite impostato.
+Nel caso di impostazione dei valori della tensione V0, del tempo T0, del tempo T, della tensione V1, del tempo T1 e del numero di cicli N premendo il tasto `MODE/CLEAR SMOOTH` vengono impostati i valori di default (rispettivamente 100V, 15sec., 30sec., 1000V, 1 min., 1 ciclo).
+
+d. Al termine delle impostazioni eseguite premere il tasto `SAVE` per salvare le modifiche oppure premere il tasto `ESC/RECALL MEM` e il simbolo `⏏` (likely an exit symbol) per uscire senza salvare e tornare alla videata precedente.
+
+## 5.5 ATTIVAZIONE/DISATTIVAZIONE DELLA FUNZIONE SMOOTH
+
+1.  Con lo strumento in modalità normale (no SET parametri) premere e mantenere premuto il tasto `MODE/CLEAR SMOOTH` per circa 3 secondi. Sul display viene utilizzare questa modalità in presenza di capacità elevate al fine di migliorare la lettura a display.
+
+## 5.6 SITUAZIONI ANOMALE
+
+1.  Se alla pressione del tasto `START/STOP` la tensione ai terminali di ingresso - Rx, +Rx è > tensione limite ammessa, viene emesso un segnale acustico prolungato e visualizzata la videata a fianco per 3 secondi. Successivamente lo strumento torna alla videata iniziale.
+
+2.  Se alla pressione del tasto `START/STOP` (con tensione di prova nominale impostata 1000V e resistenza di carico 5MΩ) la capacità ai terminali di ingresso - Rx, +Rx è > capacità limite ammessa, viene emesso un segnale acustico prolungato e visualizzata la videata a fianco per 3 secondi. Successivamente lo strumento torna alla videata iniziale.
+
+3.  Se alla pressione del tasto `START/STOP` (con 1000V < tensione di prova nominale impostata 2500V e resistenza di carico 5MΩ) la capacità ai terminali di ingresso - Rx, +Rx è > capacità limite ammessa, viene emesso un segnale acustico prolungato e visualizzata la videata a fianco per 3 secondi. Successivamente lo strumento torna alla videata iniziale.
+
+4.  Se alla pressione del tasto `START/STOP` (con 2500V < tensione di prova nominale impostata 5000V e resistenza di carico 5MΩ) la capacità ai terminali di ingresso - Rx, +Rx è > capacità limite ammessa, viene emesso un segnale acustico prolungato e visualizzata la videata a fianco per 3 secondi. Successivamente lo strumento torna alla videata iniziale.
+
+5.  Se alla pressione del tasto `START/STOP` o se durante una misurazione viene rilevato un livello di tensione della batteria di alimentazione insufficiente, tale da pregiudicare la buona riuscita della prova, la misurazione non parte o viene interrotta. Viene emesso un segnale acustico prolungato e visualizzata la videata a fianco per 3 secondi. Successivamente lo strumento torna alla videata iniziale.
+
+6.  Se non ci sono dati salvati in memoria, alla pressione del tasto `ESC/RECALL MEM` viene emesso un segnale acustico prolungato e visualizzata la videata a fianco per 3 secondi. Successivamente lo strumento torna alla videata iniziale.
+
+7.  Se non ci sono più celle di memoria disponibili per salvare i risultati delle misurazioni in memoria, alla pressione del tasto `SAVE` viene emesso un segnale acustico prolungato e visualizzata la videata a fianco per 3 secondi. Successivamente lo strumento torna alla videata iniziale.
+
+8.  Le situazione anomale sopra riportate non sono memorizzabili.
+
+# 6 OPERAZIONI CON MEMORIA
+
+## 6.1 SALVATAGGIO DELLE MISURE
+
+1.  Dopo aver effettuato una misurazione premere il tasto `SAVE`, lo strumento visualizza una videata simile a quella a fianco dove è indicato:
+    *   Il numero della locazione di memoria nella quale verrà memorizzata la misura
+    *   parametro P
+
+2.  Qualora si desideri modificare il valore del parametro P premere i tasti freccia impostando il valore desiderato (da 1 a 255).
+
+3.  Confermare il salvataggio della misura premendo il tasto `SAVE` oppure premere il tasto `ESC/RECALL MEM` per tornare alla videata precedente senza salvare il dato in memoria.
+
+## 6.2 CANCELLAZIONE DELLE MISURE
+
+1.  Premere il tasto `ESC/RECALL MEM`. Lo strumento visualizza una videata simile a quella a fianco dove è indicato:
+    *   memoria utilizzata
+    *   Il valore del parametro P
+
+2.  Premere il tasto `FUNC/ERASE MEM`. Lo strumento visualizza una videata simile a quella a fianco dove è indicata la scritta LAST ad indicare che si misura memorizzata.
+
+3.  Premere i tasti freccia. Lo strumento visualizza una videata simile a quella a fianco dove è indicata la scritta ALL ad indicare che si procederà alla cancellazione di tutte le misure memorizzate.
+
+4.  Confermare la cancellazione premendo il tasto `FUNC/ERASE MEM` oppure premere il tasto `ESC/RECALL MEM` per tornare alla videata precedente senza cancellare i dati in memoria.
+
+## 6.3 RICHIAMO DEI RISULTATI A DISPLAY
+
+1.  Premere il tasto `ESC/RECALL MEM`. Lo strumento visualizza una videata simile a quella a fianco dove è indicato:
+    *   memoria utilizzata
+    *   Il valore del parametro P
+
+2.  Premere i tasti freccia per selezionare la locazione di memoria di cui si vuole visualizzare il contenuto.
+
+3.  Premere il tasto `SET/DISPLAY MEM` per visualizzare la misura contenuta nella locazione di memoria selezionata, lo strumento visualizza una videata simile a quella a fianco.
+
+4.  Premendo i tasti freccia è possibile visualizzare ciclicamente (a seconda della modalità in cui si è effettuata la misura salvata) la corrente di perdita, il DAR (Rapporto di Assorbimento Dielettrico), il PI (Indice di Polarizzazione), la capacità e il numero di cicli N.
+
+5.  Premere il tasto `ESC/RECALL MEM` per tornare alla videata precedente e premere nuovamente il tasto `ESC/RECALL MEM` per uscire dalla gestione della memoria.
+
+# 7 RESET DELLO STRUMENTO
+
+1.  Accendere lo strumento premendo il tasto `ON/OFF/`.
+2.  Premere e mantenere premuto il tasto `SET/DISPLAY MEM`. Dopo circa 10 secondi lo strumento si resetta e si spegne.
+
+# 8 COLLEGAMENTO DELLO STRUMENTO A PC
+
+La connessione fra PC e strumento avviene tramite porta seriale e cavo RS-232 fornito in dotazione. Prima di effettuare il collegamento è necessario selezionare sul PC la porta COM utilizzata per la trasmissione ed il baud rate corretto (9600). Per impostare questi parametri avviare il software di gestione e consultare l'help in linea del programma.
+
+> **ATTENZIONE**
+> La porta selezionata NON deve essere gestita da altri dispositivi o.
+
+La procedura per il trasferimento dei dati a PC può essere sintetizzata come segue:
+1.  Accendere lo strumento ed attendere che la videata iniziale scompaia.
+2.  Collegare il cavo RS-232 allo strumento ed ad una porta COM del PC.
+3.  Avviare il programma di gestione dati TopView su PC.
+4.  S linea del software TopView.
+
+# 9 MANUTENZIONE
+
+## 9.1 GENERALITÀ
+
+questo manuale per evitare possibili dann.
+*   Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole.
+*   In nessun caso rimuovere il pannello frontale dello strumento. Lo strumento non richiede nessuna particolare manutenzione.
+
+## 9.2 RICARICA BATTERIA INTERNA
+
+Quando sul display LCD appare il simbolo `⎕` (battery symbol) è necessario eseguire la ricarica della batteria interna.
+
+> **ATTENZIONE**
+> Solo tecnici qualificati possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso tutti i cavi dai terminali di ingresso.
+
+1.  Inserire il cavo di alimentazione nella presa Europlug (vedere Fig. 1 parte 2) con nessuna misura in corso da parte dello strumento.
+2.  Lasciare lo strumento in carica.
+3.  Con la batteria in ricarica è possibile eseguire misure.
+
+## 9.3 PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+## 9.4 FINE VITA
+
+Attenzione: il simbolo `⎸` (crossed-out wheeled bin) riportato indica che l'apparecchiatura ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+# 10 SPECIFICHE TECNICHE
+
+Incertezza calcolata come [`%lettura + (num. cifre) * risoluzione`] a 23 ± 5°C , <80%RH
+
+**TENSIONE VDC**
+
+| Campo   | Risoluzione | Incertezza                  | Protezione da sovraccarichi |
+| :------ | :---------- | :-------------------------- | :-------------------------- |
+| 10-600V | 1V          | (2.0% lettura + 2cifre)     | CAT IV 600V verso Terra     |
+
+**TENSIONE VAC TRMS**
+
+| Campo   | Risoluzione | Incertezza                  | Protezione da sovraccarichi |
+| :------ | :---------- | :-------------------------- | :-------------------------- |
+| 10-600V | 1V          | (2.0% lettura +2 cifre)     | CAT IV 600V verso Terra     |
+
+**RESISTENZA DI ISOLAMENTO INCERTEZZA INTRINSECA (ALLE CONDIZIONI DI RIFERIMENTO)**
+
+| Campo            | Tensione di prova | Risoluzione | Incertezza (*)                  |
+| :--------------- | :---------------- | :---------- | :------------------------------ |
+| 0.01MΩ - 0.19MΩ  | (**) 100V         | 1% lettura  | (5% lettura +7 cifre)           |
+| 0.20MΩ - 199GΩ   | 100V              |             | (5% lettura+3cifre) se          |
+|                  |                   |             | (20% lettura +3cifre) se        |
+| 0.20MΩ - 499GΩ   | 250V              |             |                                 |
+| 0.20MΩ - 999GΩ   | 500V              |             |                                 |
+| 0.20MΩ - 1.99TΩ  | 1000V             |             |                                 |
+| 0.20MΩ - 4.99TΩ  | 2500V             |             |                                 |
+| 0.20MΩ - 9.99TΩ  | 5000V             |             |                                 |
+
+(*) Capacità di carico < 1nF
+(**) Esterno al campo richiesto da IEC / EN61557
+
+**RESISTENZA DI ISOLAMENTO INCERTEZZA TOTALE (IN ACCORDO A IEC/EN61557-1)**
+
+| Campo            | Tensione di prova | Risoluzione | Incertezza (*)                  |
+| :--------------- | :---------------- | :---------- | :------------------------------ |
+| 0.01MΩ - 0.19MΩ  | (**) 100V         | 1% lettura  | (12% lettura+7 cifre)           |
+| 0.20MΩ - 199GΩ   | 100V              |             | (12% lettura+3cifre) se         |
+|                  |                   |             | (20% lettura+3cifre) se         |
+| 0.20MΩ - 499GΩ   | 250V              |             |                                 |
+| 0.20MΩ - 999GΩ   | 500V              |             |                                 |
+| 0.20MΩ - 1.99TΩ  | 1000V             |             |                                 |
+| 0.20MΩ - 4.99TΩ  | 2500V             |             |                                 |
+| 0.20MΩ - 9.99TΩ  | 5000V             |             |                                 |
+
+(* ) Capacità di carico < 1nF
+(**) Esterno al campo richiesto da IEC / EN61557
+
+**TENSIONE GENERATA (*)**
+
+| Modo di prova | Tensioni nominali di prova       | Incertezza         |
+| :------------ | :------------------------------- | :----------------- |
+| FIX           | 100V, 250V, 500V, 1kV, 2.5kV, 5kV | -0%, +10% + 15V    |
+| ADJUSTABLE    | 100-1000V (step 25V)             |                    |
+|               | 1000-5000V (step 50V)            |                    |
+| RAMP          | 100-1000V (step 25V)             |                    |
+|               | 1000-5000V (step 50V)            |                    |
+
+(*) Tensione di prova conforme a IEC /EN 61557-2
+
+**CORRENTE DI PROVA**
+
+| Tensione di prova | Corrente di prova             |
+| :---------------- | :---------------------------- |
+| 100-5000V         | 1mA < Corrente di Prova < 3mA |
+
+(*) Corrente di prova controllata automaticamente
+
+**TEMPO DI PROVA**
+
+| Campo di impostazione | Risoluzione |
+| :-------------------- | :---------- |
+| 5s - 99min 59s        | 1s          |
+
+**CAPACITÀ**
+
+| Campo             | Risoluzione | Resistenza di carico | Tensione di prova (Vn) | Incertezza                 |
+| :---------------- | :---------- | :------------------- | :--------------------- | :------------------------- |
+| 1nF - 999nF       | 1nF         | 5MΩ                  | Vn ≤ 5000V             | (10% lettura+5cifre)       |
+| 1.00µF - 5.00µF   | 0.01µF      |                      |                        |                            |
+| 1nF - 999nF       | 1nF         |                      | Vn ≤ 2500V             |                            |
+| 1.00µF - 9.99µF   | 0.01µF      |                      |                        |                            |
+| 10.0µF - 19.9µF   | 0.1µF       |                      |                        |                            |
+| 1nF - 999nF       | 1nF         |                      | Vn ≤ 1000V             |                            |
+| 1.00µF - 9.99µF   | 0.01µF      |                      |                        |                            |
+| 10.0µF - 49.9µF   | 0.1µF       |                      |                        |                            |
+
+*   Tempo di carica condensatore (0V -> 5000V): < 3s x 1µF
+*   Tempo di scarica condensatore (5000V -> 25V): < 5s x 1µF
+
+**CORRENTE DI DISPERSIONE**
+
+| Campo             | Risoluzione | Incertezza                  |
+| :---------------- | :---------- | :-------------------------- |
+| 0.1nA - 99.9nA    | 0.1nA       | (7% lettura +3cifre) se     |
+|                   |             | (22% lettura +3cifre) se    |
+| 100nA - 999nA     | 1nA         |                             |
+| 1.00µA - 9.99µA   | 0.01µA      |                             |
+| 10.0µA - 9.99µA   | 0.1µA       |                             |
+| 100µA - 999µA     | 1µA         |                             |
+| 1.00mA - 2.5mA    | 0.01mA      |                             |
+
+**PI DAR**
+
+| Campo   | Risoluzione | Incertezza (*)                  |
+| :------ | :---------- | :------------------------------ |
+| 0.01-9.99 | 0.01        | (5% lettura +3cifre) se         |
+|         |             | (20% lettura +3cifre) se        |
+
+(*) Capacità di carico < 1nF
+
+## 10.1 NORMATIVE DI RIFERIMENTO
+*   **Sicurezza:** IEC/EN61010-1, IEC/EN61557-1, IEC/EN61557-2
+*   **Sicurezza accessori di misura:** IEC/EN 61010-031:2002 + A1:2008
+*   **EMC:** IEC/EN61326-1
+*   **Documentazione tecnica:** IEC/EN61187
+*   **Isolamento:** doppio isolamento
+*   **Protezione meccanica:** IP40 (valigia aperta), IP53 (valigia chiusa) secondo IEC/EN60529
+*   **Livello di inquinamento:** 2
+*   **Categoria di misura:** CAT IV 600V (verso terra), max 600V fra gli ingressi
+*   **Max altitudine di utilizzo:** 2000m
+
+## 10.2 CARATTERISTICHE GENERALI
+
+**Caratteristiche meccaniche**
+*   **Dimensioni (L x La x H):** 360 x 310 x 195mm
+*   **Peso:** 3.5kg
+
+**Alimentazione**
+*   **Alimentazione esterna:** 220-240VAC 50-60Hz, 20VA (HT7051)
+*   **Alimentazione esterna:** 110-120V AC 50-60Hz, 20VA (HT7051N)
+*   **Tipo batteria interna:** 1x4.8V 3800mAh, NiMH ricaricabile da rete
+*   **Tempo di ricarica batteria:** 4 ore
+*   **Fusibile:** T 200mA H 250V, Ir:1,5kA
+
+*   **Indicazione batteria scarica:** simbolo `⎕` (battery symbol) a display.
+*   **Autonomia batteria:** >1000 Test (@ 5kV su 5MΩ, tempo prova: 5sec, intervallo fra due prove: 25sec) in accordo a IEC/EN61557-2. (§ 6.7)
+*   **Auto Power OFF:** dopo 5 minuti di non utilizzo
+*   **Categoria di misura (AC):** CAT II 240V (±10%)
+
+**Display**
+*   **Caratteristiche:** LCD retroilluminato con tre letture simultanee:
+    *   Gruppo 1 (principale): Resistenza di Isolamento, Corrente Dispersa, PI, DAR, Capacità
+    *   Gruppo 2: Tensione di prova (nominale e generata)
+    *   Gruppo 3: Tempo di prova
+*   **Frequenza di campionamento:** 4000 campioni/s
+*   **Frequenza di aggiornamento:** 1 volta/s
+
+**Memoria**
+*   **Caratteristiche:** 700 locazioni di memoria
+
+**Connessione a PC**
+*   **Interfaccia seriale:** RS-232 optoisolata
+
+## 10.3 AMBIENTE
+
+### 10.3.1 Condizioni ambientali di utilizzo
+*   **Temperatura di riferimento:** 23 °C ± 5°C
+*   **Temperatura di utilizzo:** 0 °C ÷ 40°C
+*   **Umidità relativa ammessa:** <80%RH
+*   **Temperatura di conservazione:** -10 °C ÷ 60°C
+*   **Umidità di conservazione:** <80%RH
+
+*   Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione (LVD) 2014/35/EU della direttiva EMC 2014/30/EU.
+*   Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (RoHS) e della direttiva europea 2012/19/EU (WEEE).
+
+## 10.4 ACCESSORI
+
+Vedere packing lista allegata.
+
+# 11 ASSISTENZA
+
+## 11.1 CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una Per la spedizione utilizzare addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+*   Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza.
+*   I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+## 11.2 ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il servizio di assistenza, controllare lo stato della batteria e dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni Per la spedizione utilizzar ogni.
+
+# 12 APPENDICE TEORICA
+
+## 12.1 INDICE DI POLARIZZAZIONE (PI)
+
+polarizzazione.
+fenomeno è chiamato polarizzazione. Per effetto delle molecole polarizzate si genera una corrente di polarizzazione (assorbimento) che abbassa il valore complessivo della resistenza di isolamento.
+
+Il parametro `PI` consiste nel rapporto tra il valore di resistenza di isolamento misurata dopo 1 minuto e quella dopo 10 minuti. La tensione di prova è mantenuta per tutta la durata del test e al termine lo strumento fornisce il valore del rapporto:
+
+`PI = R(10min) / R(1min)`
+
+Alcuni valori di riferimento:
+
+| Valore PI  |             |
+| :--------- | :---------- |
+| <1.0       | Non accettabile |
+| da 1.0 a 2.0 | Pericoloso  |
+| da 2.0 a 4.0 | Buono       |
+| > 4.0      | Eccellente  |
+
+## 12.2 RAPPORTO DI ASSORBIMENTO DIELETTRICO (DAR)
+
+Il parametro `DAR` consiste nel rapporto tra il valore di resistenza di isolamento misurata dopo 30 s e quella dopo 1minuto. La tensione di prova è mantenuta per tutta la durata del test e al termine lo strumento fornisce il valore del rapporto:
+
+`DAR = R(1min) / R(30s)`
+
+Alcuni valori di riferimento:
+
+| Valore DAR    |             |
+| :------------ | :---------- |
+| < 1.0         | Non accettabile |
+| da 1.0 a 1.25 | Pericoloso  |
+| da 1.25 a 1.6 | Buono       |
+| > 1.6         | Eccellente  |
