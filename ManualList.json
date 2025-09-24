@@ -134,6 +134,11 @@
       "id": "HT7051.md",
       "name": "HT7051",
       "description": "Misuratore d’isolamento professionale con tensione di prova programmabile fino a 5KV."
+    },
+    {
+      "id": "JUPITER.md",
+      "name": "JUPITER",
+      "description": "Strumento per verifiche di sicurezza CEI 64-8 con funzioni multimetro TRMS."
     }
   ]
 }
