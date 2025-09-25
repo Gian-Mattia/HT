@@ -41,9 +41,9 @@
       "description": "Strumento per verifiche di sicurezza CEI 64-8 con funzioni multimetro TRMS."
     },
     {
-      "id": "MACROTESTG3.md",
-      "name": "MACROTEST G3",
-      "description": "Manuale per lo strumento multifunzione avanzato per verifiche di sicurezza globali MACROTEST G3."
+      "id": "FAMIGLIAGX.md",
+      "name": "MACROTESTG3, MACROTESTG2, MACROTESTG1, COMBIG2, COMBIG3, SUPERCOMBI, MACROEVTEST",
+      "description": "Il modello MT-300 è equivalente al modello MACROEVTEST. I modelli COMBITEST425EV e COMBIG2PLUS sono equivalenti al modello COMBIG2. Il modello COMBITEST425 è equivalente al modello SUPERCOMBI"
     },
     {
       "id": "NEPTUNE.md",
