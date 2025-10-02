@@ -144,6 +144,11 @@
       "id": "PQA924.md",
       "name": "PQA924",
       "description": "Analizzatore della Qualità della Rete e dell'Energia in classe S."
+    },
+    {
+      "id": "PQA824.md",
+      "name": "PQA400, PQA823, PQA824",
+      "description": "PQA824, è un analizzatore di rete trifase in grado di registrare anche i trasitori di tensione con risoluzione 5µs."
     }
   ]
 }
