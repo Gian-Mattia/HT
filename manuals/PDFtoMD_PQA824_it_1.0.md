@@ -1,0 +1,2104 @@
+# PQA824
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-31 -->
+© Copyright HT ITALIA 2025 Versione IT 1.00 - 21/03/2025 PQA924 Manuale d'uso
+
+PQA924 IT - 1
+# INDICE
+1.  PRECAUZIONI E MISURE DI SICUREZZA 3
+    1.1. Generalità 3
+    1.2. Istruzioni preliminari 4
+    1.3. Durante l’utilizzo 5
+    1.4. Dopo l’utilizzo 5
+2.  DESCRIZIONE GENERALE 6
+    2.1. Introduzione 6
+    2.2. Funzionalità dello strumento 6
+    2.3. Videata Iniziale 6
+3.  PREPARAZIONE ALL’UTILIZZO 7
+    3.1. Controlli iniziali 7
+    3.2. Alimentazione dello strumento 7
+    3.3. Conservazione 7
+4.  NOMENCLATURA 8
+    4.1. Descrizione dello strumento 8
+    4.2. Descrizione dei tasti funzione 9
+    4.3. Descrizione del display 10
+5.  MENU GENERALE 11
+    5.1. Impostazioni generali dello strumento 12
+        5.1.1. Impostazione lingua di sistema 12
+        5.1.2. Definizione colori cavi di misura e parametri interni 13
+        5.1.3. Impostazione luminosità del display 14
+        5.1.4. Impostazione suono tasti 14
+        5.1.5. Impostazione autospegnimento 14
+        5.1.6. Impostazione password di protezione 14
+        5.1.7. Impostazione Hotspot WiFi 15
+        5.1.8. Calibrazione display touch screen 15
+        5.1.9. Impostazione nome operatore 16
+        5.1.10. Impostazione Data/Ora 16
+        5.1.11. Impostazione comunicazione tramite rete Ethernet 17
+    5.2. Impostazioni Analizzatore 20
+        5.2.1. Impostazione tipo sistema, frequenza e tensione nominale 20
+        5.2.2. Impostazione tipo di trasduttori a pinza 21
+        5.2.3. Impostazione parametri per misura corrente su TA esterni 23
+    5.3. Impostazioni Registratore 26
+        5.3.1. Impostazione parametri di registrazione 27
+        5.3.2. Impostazione Configurazioni predefinite 31
+    5.4. Funzione Multimetro 32
+        5.1.1. Visualizzazione valori numerici 32
+        5.1.2. Visualizzazione forme d’onda dei segnali 36
+        5.1.3. Visualizzazione analisi armonica 39
+        5.1.4. Visualizzazione diagramma vettoriale 44
+6.  ISTRUZIONI OPERATIVE 47
+    6.1. Collegamenti dello strumento all’impianto 47
+        6.1.1. Sistema Monofase 2 fili 47
+        6.1.2. Sistema Trifase 4 fili 48
+        6.1.3. Sistema Trifase 3 fili 49
+        6.1.4. Sistema Trifase 3 fili Aron 50
+        6.1.5. Sistema Trifase 4 fili e presa centrale 3F HL 51
+        6.1.6. Sistema Trifase 3 fili 3F 2E 52
+        6.1.7. Sistema Monofase 3 fili 1F PC 53
+    6.2. Funzione Autoset 54
+    6.3. Avvio e arresto di una registrazione 57
+    6.4. Dati memorizzati 59
+    6.5. Informazioni strumento 60
+7.  COLLEGAMENTO DELLO STRUMENTO A PC 61
+8.  MANUTENZIONE 64
+
+PQA924 IT - 2
+    8.1. Generalità 64
+    8.2. Sostituzione o ricarica batterie interne 64
+    8.3. Pulizia dello strumento 65
+9.  SPECIFICHE TECNICHE 66
+    9.1. Caratteristiche tecniche 66
+    9.2. Caratteristiche generali 70
+    9.3. Condizioni ambientali di utilizzo 71
+    9.4. Accessori 71
+10. APPENDICE – CENNI TEORICI 72
+    10.1. Anomalie di tensione 72
+    10.2. Armoniche di tensione e corrente 73
+        10.2.1. Teoria 73
+        10.2.2. Valori limite per le armoniche di tensione 74
+        10.2.3. Cause della presenza di armoniche 75
+        10.2.4. Conseguenza della presenza di armoniche 76
+        10.2.5. Parametri di scelta dei trasformatori elettrici – Fattore K 76
+        10.2.6. Interarmoniche 77
+    10.3. Correnti di spunto 78
+    10.4. Flicker della tensione 80
+    10.5. Dissimmetria delle tensioni 81
+    10.6. Transitori di tensione veloci 82
+    10.7. Definizioni parametri di rete calcolati 83
+        10.7.1. Convenzioni su potenze e fattori di potenza 85
+        10.7.2. Inserzione ARON 87
+    10.8. Collegamento dello strumento con TA esterni 88
+    10.9. Metodo di misura 89
+11. ASSISTENZA 90
+    11.1. Condizioni di Garanzia 90
+    11.2. Assistenza 90
+
+PQA924 IT - 3
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+## 1.1. GENERALITÀ
+Lo strumento è stato progettato in conformità alla direttiva IEC/EN61010-1, relativa agli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo `!`.
+Prima e durante l’esecuzione delle misure attenersi alle seguenti indicazioni:
+*   Non effettuare misure di tensione o corrente in ambienti umidi.
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi.
+*   Evitare contatti con il circuito in esame se non si stanno effettuando misure.
+*   Evitare contatti con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+**ATTENZIONE**: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti.
+**Pericolo Alta Tensione**: rischi di shock elettrici
+**Doppio isolamento**
+**Tensione o Corrente AC**
+**Riferimento di terra**
+**ATTENZIONE**: Il simbolo riportato sullo strumento indica che esso e i suoi accessori devono essere raccolti separatamente e trattati in modo corretto
+
+PQA924 IT - 4
+## 1.2. ISTRUZIONI PRELIMINARI
+*   Lo strumento è stato progettato per essere usato nelle condizioni ambientali specificate al § 9.3. La presenza di condizioni ambientali sensibilmente differenti può compromettere la sicurezza dello strumento e dell’operatore. In ogni caso, prima dell’utilizzo, attendere che le condizioni all’interno dello strumento siano comparabili alle condizioni dell’ambiente in cui esso si trova ad operare.
+*   Può essere utilizzato per misure di **TENSIONE** e **CORRENTE** su installazioni con categoria di sovratensione CAT IV 600V AC, CAT III 1000VAC verso terra con tensione massima 1000V tra gli ingressi.
+*   La invitiamo a seguire le normali regole di sicurezza previste dalle procedure per i lavori sotto tensione ed a utilizzare i DPI previsti orientati alla protezione contro correnti pericolose e a proteggere lo strumento contro un utilizzo errato
+*   Nel caso in cui la mancata indicazione della presenza di tensione possa costituire rischio per l’operatore effettuare sempre una misura di continuità prima della misura in tensione per confermare il corretto collegamento e stato dei puntali
+*   Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+*   Non effettuare misure su circuiti che superano i limiti di corrente e tensione specificati.
+*   Prima di collegare i cavi, i coccodrilli e le pinze al circuito in esame, controllare che sia selezionata la funzione desiderata.
+> **ATTENZIONE**
+> Eseguire una ricarica completa delle batterie interna e lasciandole in carica per almeno 14 ore al primo uso dello strumento dopo l’acquisto.
+
+PQA924 IT - 5
+## 1.3. DURANTE L’UTILIZZO
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+> **ATTENZIONE**
+> La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+*   Quando lo strumento è connesso al circuito in esame non toccare mai un qualunque terminale inutilizzato.
+*   Durante la misura di correnti, ogni altra corrente localizzata in prossimità delle pinze può influenzare la precisione della misura.
+*   Durante la misura di corrente posizionare sempre il conduttore il più possibile al centro del toroide in modo da ottenere una lettura più accurata.
+*   Se durante una misura il valore o il segno della grandezza in esame rimangono costanti controllare se è attivata la funzione "HOLD".
+
+## 1.4. DOPO L’UTILIZZO
+*   Quando le misure sono terminate, spegnere lo strumento tramite il tasto **ON/OFF**.
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo attenersi alle prescrizioni relative alla conservazione descritte al § 3.3
+
+PQA924 IT - 6
+# 2. DESCRIZIONE GENERALE
+## 2.1. INTRODUZIONE
+Lo strumento PQA924 è progettato per eseguire, nel modo più rapido e semplice, studi sulla qualità dell'energia elettrica in accordo alle prescrizione della normativa IEC/EN61000-4-30, offrendo un'interfaccia utente touch-screen, funzioni avanzate di autoconfigurazione e un software intuitivo per l’analisi dei risultati e la generazione di rapporti di stampa. PQA924 offre anche un’elevata precisione (Classe S) che viene comunemente utilizzata nelle indagini avanzate sulla qualità dell'energia elettrica.
+
+## 2.2. FUNZIONALITÀ DELLO STRUMENTO
+PQA924 è in grado di catturare ogni evento critico legato alla qualità dell'energia elettrica: transitori rapidi di tensione, armoniche e interarmoniche di tensione e corrente, armoniche di potenza, cadute di tensione, analisi del Flicker, ossia tutti i possibili parametri che consentono di caratterizzare il sistema elettrico in esame. In particolare, lo strumento può registrare fino a 3180 canali, eventi di tensione-corrente, tutti contemporaneamente:
+*   Fino a 386 canali tra i parametri di rete (130 categorie: frequenza, tensioni, correnti, potenze, ecc.)
+*   Fino a 2225 valori di armoniche (ampiezze e fasi delle armoniche di tensione e corrente fino al 63º ordine, ampiezza delle armoniche di potenza fino al 63º ordine, THD%, fattori k)
+*   Fino a 536 valori di inter-armoniche (gruppi di inter-armoniche fino al 63º ordine per tensioni e correnti, THD%)
+*   Fino a 24 canali per i dati sull'energia (energie attiva e reattiva)
+*   Fino a 6 canali per i dati sul Flicker (tensioni Pst, Plt)
+*   Eventi associati a cadute di tensione, variazioni di tensione e interruzioni di tensione
+*   Eventi associati a transitori rapidi di tensione (max Tensione 8kV, durata minima 1 μs)
+*   Eventi associati a corrente di spunto (Inrush)
+
+## 2.3. VIDEATA INIZIALE
+Accendendo lo strumento tramite il tasto **ON/OFF** la seguente videata è mostrata per alcuni secondi di inizializzazione:
+In essa sono visualizzati (oltre al costruttore ed al modello dello strumento):
+*   Il numero di serie dello strumento (SN).
+*   Le versioni di Firmware e Hardware dello strumento (LCD, CPU, HW).
+*   La data dell’ultima calibrazione effettuata (Data Calibrazione:).
+
+PQA924 IT - 7
+# 3. PREPARAZIONE ALL’UTILIZZO
+## 3.1. CONTROLLI INIZIALI
+Lo strumento è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché potesse essere consegnato senza danni. Si consiglia comunque, di controllarlo sommariamente per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente il Vs. spedizioniere. Si consiglia inoltre di controllare la dotazione standard indicata nella packing list allegata. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 11.
+
+## 3.2. ALIMENTAZIONE DELLO STRUMENTO
+Lo strumento è alimentabile con 6x1.5V batterie alcaline tipo AA oppure 6x1.2V batterie NiMH tipo AA ricaricabili tramite alimentatore esterno fornito in dotazione. Per le indicazioni sulla sostituzione o ricarica delle batterie vedere § 8.2.
+> **ATTENZIONE**
+> *   Se si intende effettuare una registrazione è raccomandato l’uso dell'alimentatore esterno fornito in dotazione
+> *   Eseguire una ricarica completa delle batterie interne e lasciandole in carica per almeno 14 ore al primo uso dello strumento dopo l’acquisto
+> *   Lo strumento è in grado di mantenere i dati memorizzati anche in assenza di batterie
+> *   Lo strumento non ricarica le batterie NiMH per temperature esterne al campo consentito dalle stesse (0°C ÷ 40°C)
+> *   Utilizzare solo batterie dello stesso tipo (quindi o solo alcaline o solo ricaricabili NiMH)
+> *   Lo strumento non esegue la ricarica delle batterie qualora non riesca a riconoscere il tipo di batteria utilizzata (cioè nel caso in cui siano presenti erroneamente batterie NiMH e alcaline)
+Al fine di aumentare al massimo l'autonomia della batteria, lo strumento dispone di una funzione di Autospegnimento dopo circa 5 minuti dalla pressione di un tasto o un contatto sul display touch screen (vedere § 5.1.5).
+
+## 3.3. CONSERVAZIONE
+Lo strumento è stato progettato per essere usato nelle condizioni ambientali specificate al § 9.3. La presenza di condizioni ambientali sensibilmente differenti può compromettere la sicurezza dello strumento e dell’operatore e/o non garantire misure precise. Rimuovere le batterie se si prevede in non utilizzo dello strumento per un lungo periodo. Dopo un periodo di conservazione e/o in condizioni ambientali estreme, prima dell’utilizzo, attendere che le condizioni all’interno dello strumento siano comparabili alle condizioni dell’ambiente in cui esso si trova ad operare.
+
+PQA924 IT - 8
+# 4. NOMENCLATURA
+## 4.1. DESCRIZIONE DELLO STRUMENTO
+**LEGENDA**:
+1.  Ingressi per tensioni e correnti
+2.  Display TFT con “touchscreen”
+3.  Tasti funzione **F1**, **F2**, **F3**, **F4**
+4.  Tasti freccia ****, ****, ****, **** e **ENTER**
+5.  Tasto **GO/STOP**
+6.  Tasto **ESC/MENU**
+7.  Tasto **SAVE**
+8.  Tasto **HELP**
+9.  Tasto **ON/OFF**
+Fig. 1: Descrizione parte frontale dello strumento
+
+**LEGENDA**:
+1.  Ingressi **I1**, **I2**, **I3** per collegamento correnti sulle fasi L1, L2, L3
+2.  Ingresso **IN** per collegamento corrente sul conduttore neutro N
+3.  Ingressi per collegamento tensioni sulle fasi L1, L2, L3, N
+4.  Ingresso **E** per collegamento tensione sul terminale PE
+5.  Riferimenti per applicazione etichetta colori ingressi
+Fig. 2: Descrizione terminali di ingresso dello strumento
+
+**LEGENDA**:
+1.  Ingresso per collegamento alimentatore esterno
+2.  Slot di ingresso per inserimento Memory card esterna
+3.  Uscita USB-C per collegamento a PC
+4.  Ingresso RJ45 per collegamento dello strumento a rete LAN Ethernet
+Fig. 3: Descrizione connettori laterali dello strumento
+
+PQA924 IT - 9
+## 4.2. DESCRIZIONE DEI TASTI FUNZIONE
+La descrizione dei tasti funzione presenti sullo strumento è di seguito riportata.
+
+| Tasto funzione | Descrizione |
+| :------------- | :---------- |
+| **ON/OFF** | Premere il tasto **ON/OFF** e rilasciarlo dopo circa 1s per accendere lo strumento. Per spegnere lo strumento mantenere premuto questo tasto per circa 2s. In caso di blocco dello strumento, mantenere premuto il tasto **ON/OFF** per un tempo compreso tra 3s e 10s in modo da forzarne lo spegnimento |
+| **F1**, **F2**, **F3**, **F4** | Tasti multifunzione. La funzione assolta da questi tasti nelle varie funzioni dello strumento è riassunta dal simbolo visualizzato nella parte bassa del display in corrispondenza del tasto stesso |
+| **ESC** | Tasto di uscita dai vari menu e sotto-modalità di funzionamento. L’icona “`⟲`” presente all’interno delle videate esegue la medesima funzione in modo interattivo. |
+| **ENTER** | Tasto con doppia funzione: - Conferma delle impostazioni effettuate all'interno dei menu - Attivazione/disattivazione della funzione “**HOLD**” che permette di fissare a display il valore dei parametri misurati dallo strumento anche durante una registrazione in corso. Il simbolo “`H`” appare/scompare a display ad ogni pressione, come mostrato nella seguente Fig. 4: |
+| | Fig. 4: Attivazione funzione HOLD |
+| ****, ****, ****, **** | I tasti freccia consentono di spostare il cursore all’interno delle varie schermate allo scopo di selezionare i desiderati parametri di programmazione. Gli stessi tasti consentono di effettuare il cambio scala, in modo Manuale, per la visualizzazione dei grafici all’interno della funzione multimetro allo scopo di migliorare la risoluzione a display della forma d’onda del segnale (vedere il § 5.1.2). I tasti freccia **** e **** consentono inoltre di sfogliare le pagine interne nelle schermate in cui sono disponibili |
+| **SAVE** | Questo tasto permette il salvataggio delle impostazioni dei parametri all’interno dei menu |
+| **GO/STOP** | Avvio/arresto manuale della registrazione (vedere il § 6.3) |
+| **HELP** | Attiva una finestra di help contestuale che fornisce un aiuto sul significato della videata presente in quell’istante a display. Il tasto è attivo per ogni funzione |
+
+PQA924 IT - 10
+## 4.3. DESCRIZIONE DEL DISPLAY
+Il display é un modulo grafico a colori TFT con dimensioni 73x57mm (320x240pxl) di tipo “touch-screen” resistivo e quindi con possibilità di interazione diretta attraverso l’uso dell’apposito puntatore a penna PT400 fornito in dotazione e inserito nella parte laterale dello strumento oppure usando le dita (l’uso eventuale di guanti non pregiudica il funzionamento). I colori di riferimento associati ai parametri possono essere diversi in funzione delle paese selezionato all’interno delle impostazioni generali in accordo al colore dei cavi di misura utilizzati (vedere § 5.1.2)
+
+**LEGENDA**:
+1.  Parametri visualizzati nella videata e tipo di sistema selezionato
+2.  Data/ora di sistema impostata
+3.  Indicazione registrazione in corso
+4.  Funzione HOLD attiva
+5.  Collegamento WiFi attivo
+6.  Indicazione livello di carica batteria
+7.  Icona di chiusura finestra attiva
+8.  Icona apertura videate dedicate ai diagrammi vettoriali
+9.  Icona apertura videate dedicate all’analisi armonica
+10. Icona apertura videate dedicate alle forme d’onda dei segnali
+11. Icona apertura videate dedicate al controllo della funzione Autoset
+12. Area visualizzazione valori parametri in tempo reale
+Fig. 5: Descrizione del display
+
+PQA924 IT - 11
+# 5. MENU GENERALE
+Ad ogni accensione lo strumento mostra automaticamente la videata del “Menu Generale” mostrata nella seguente Fig. 6 in cui sono presenti le icone direttamente selezionabili con un tocco oppure tramite i tasti freccia e **ENTER**. Una cornice di colore azzurro circonda sempre l’icona selezionata.
+
+Fig. 6: Videata Menu Generale
+
+**Le seguenti icone sono presenti**
+*   **Multimetro** → sezione in cui sono mostrati i risultati delle misure in tempo reale (vedere il § 5.4)
+*   **Dati Memorizzati** → sezione in cui è riportato l’elenco di tutte le registrazioni salvate nella memoria dello strumento (vedere il § 6.4)
+*   **Info Strumento** → sezione in cui sono riportate le informazioni generali sullo strumento (vedere il § 6.5)
+*   **Impostazioni Analizzatore** → sezione in cui è possibile impostare i parametri elettrici dello strumento e del sistema elettrico in esame (vedere il § 5.2)
+*   **Impostazioni Registratore** → sezione in cui è possibile impostare i parametri di registrazione (vedere il § 5.3)
+*   **Impostazioni Generali** → sezione in cui è possibile impostare i parametri generali dello strumento (vedere il § 5.1)
+
+PQA924 IT - 12
+## 5.1. IMPOSTAZIONI GENERALI DELLO STRUMENTO
+Fig. 7: Videata Menu Generale – Sezione Impostazioni Generali
+In questa sezione è possibile impostare i seguenti parametri:
+*   Lingua di sistema
+*   Data/Ora di sistema
+*   Luminosità del display
+*   Password di protezione per le registrazioni.
+*   Suono associato ai tasti.
+*   Attivazione/disattivazione autospegnimento
+*   Calibrazione del display touch screen
+*   Nome operatore
+*   Colori associati ai parametri (in funzione del paese selezionato)
+*   Attivazione/disattivazione del collegamento WiFi
+*   Configurazione dei parametri di connessione alla rete locale LAN Ethernet
+Premere il tasto **ENTER** (oppure toccare la relativa icona a display) per entrare nel menu delle “Impostazioni Generali”. Lo strumento mostra le videate seguenti che possono essere selezionate con un trascinamento verticale del dito sul touch-screen
+Fig. 8: Videate Impostazioni Generali
+
+### 5.1.1. Impostazione lingua di sistema
+1.  Aprire il menu a tendina “`˅`” corrispondente al campo “Lingua”
+2.  Selezionare la lingua desiderata scegliendo tra le opzioni disponibili
+3.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+4.  Toccare l’icona “`⟲`”, il tasto **ESC** o il tasto **F3** per uscire senza salvare
+
+PQA924 IT - 13
+### 5.1.2. Definizione colori cavi di misura e parametri interni
+Lo strumento consente la personalizzazione del “colore” dei cavi di collegamento (tensioni e trasduttori amperometrici) tramite montaggio di anelli colorati forniti in dotazione sugli stessi, come mostrato nella Fig. 9
+
+**LEGENDA**:
+1.  Terminazione del puntale per misura tensione
+2.  Montaggio anello colorato sul terminale di misura tensione
+3.  Anello colorato con apertura a incastro
+4.  Cavo del trasduttore a pinza
+5.  Montaggio anello colorato sul cavo del trasduttore a pinza
+Fig. 9: Montaggi anelli colorati su terminali di misura
+
+Analogamente è possibile personalizzare la piastra dei connettori di ingresso (vedere Fig. 2) applicando ad essa una etichetta recante i colori dei cavi. Un esempio dei colori “standard” comunemente utilizzati nei vari paesi è riportato nella seguente Tabella 1. Lo strumento consente inoltre anche una analoga personalizzazione dei colori utilizzati per le grandezze elettriche visualizzate nelle varie videate di misura.
+
+| | EU, new UK | Old UK, India | AUS, NZL | USA | Canada | CHN, RUS | JAP |
+| :-- | :--------- | :------------ | :------- | :-- | :----- | :------- | :-- |
+| L1  |            |               |          |     |        |          |     |
+| L2  |            |               |          |     |        |          |     |
+| L3  |            |               |          |     |        |          |     |
+| N   |            |               |          |     |        |          |     |
+| E   |            |               |          |     |        |          |     |
+Tabella 1: Lista colori di sfondo videate interne
+
+1.  Aprire il menu a tendina “`˅`” corrispondente al campo “Colori”
+2.  Selezionare il paese desiderato scegliendo tra le opzioni disponibili. L’indicazione dei colori corrispondenti alla Tabella 1 è presente nel campo corrispondente
+3.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+4.  Toccare l’icona “`⟲`” o il tasto **ESC** per uscire senza salvare
+> **ATTENZIONE**
+> *   Usare gli anelli presenti nel **KIT802**, fornito in dotazione, per personalizzare i cavi con i colori desiderati.
+> *   Lo strumento è fornito con una etichetta lato connettori neutra (vedere Fig. 2). Applicare l’etichetta con il colore dei cavi desiderato (in funzione del paese selezionato) tra quelle disponibili nel kit **YMETK0042HT0** fornito in dotazione seguendo i riferimenti riportati sulla neutra (vedere Fig. 2 – parte 5)
+
+PQA924 IT - 14
+### 5.1.3. Impostazione luminosità del display
+1.  Aprire il menu a tendina “`˅`” corrispondente al campo “Luminosità (%)”
+2.  Impostare il valore percentuale della luminosità nel campo: 0% ÷ 100%
+3.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+4.  Toccare l’icona “`⟲`” o il tasto **ESC** per uscire senza salvare
+
+### 5.1.4. Impostazione suono tasti
+Lo strumento consente di associare un breve suono alla pressione di qualunque tasto presente nel pannello frontale.
+1.  Spostare con un tocco il selettore virtuale del campo “Suono tasti” nella posizione “On” (attivazione) o nella posizione “Off” (disattivazione) della funzionalità
+2.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+3.  Toccare l’icona “`⟲`”, il tasto **ESC** o il tasto **F3** per uscire senza salvare
+
+### 5.1.5. Impostazione autospegnimento
+Lo strumento consente l’attivazione o disattivazione della funzione di autospegnimento al fine di preservare la carica delle batterie interne. Tale funzione, se selezionata, si attiva al verificarsi di tutte le seguenti condizioni:
+*   Nessuna azione è stata compiuta (tasti, touch, comandi WiFi/Ethernet) per circa 5 minuti.
+*   Strumento non collegato all’alimentatore esterno
+*   Strumento non in registrazione
+1.  Spostare con un tocco il selettore virtuale del campo “Spegnimento automatico” nella posizione “On” (attivazione) o nella posizione “Off” (disattivazione) della funzionalità
+2.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+3.  Toccare l’icona “`⟲`”, il tasto **ESC** o il tasto **F3** per uscire senza salvare
+
+### 5.1.6. Impostazione password di protezione
+Lo strumento è dotato di una password di protezione fissa (non modificabile) per evitare accidentali interruzioni durante un’operazione di registrazione in corso.
+1.  Spostare con un tocco il selettore virtuale del campo “Password” nella posizione “On” (attivazione) o nella posizione “Off” (disattivazione) della funzionalità
+2.  Se tale opzione è selezionata, qualora venga premuto il tasto **GO/STOP** lo strumento non arresterà la registrazione bensì richiederà l'inserimento entro 10 secondi in sequenza dei seguenti tasti sullo strumento: **F1**, **F4**, **F3**, **F2**
+3.  Se viene inserita una password errata o se si impiegano più di 10 secondi per inserirla, lo strumento presenta il messaggio "Errore: Password errata" e occorre ripetere l’operazione
+4.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+5.  Toccare l’icona “`⟲`”, il tasto **ESC** o il tasto **F3** per uscire senza salvare
+
+PQA924 IT - 15
+### 5.1.7. Impostazione Hotspot WiFi
+Lo strumento può gestire una connessione con PC per il download dei dati salvati nella memoria tramite collegamento WiFi che può essere abilitata in questa sezione.
+1.  Spostare con un tocco il selettore virtuale del campo “Hotspot WiFi” nella posizione “On” (attivazione) o nella posizione “Off” (disattivazione) della funzionalità
+2.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+3.  Toccare l’icona “`⟲`”, il tasto **ESC** o il tasto **F3** per uscire senza salvare
+4.  Notare la presenza del simbolo “`⫽`” nella parte alta della finestra (vedere Fig. 5 – parte 5) ad identificare l’attivazione del collegamento WiFi
+
+### 5.1.8. Calibrazione display touch screen
+Questa operazione può essere necessaria qualora si riscontrasse che alcune funzioni all’interno del display “touch screen” non fossero correttamente posizionate o non selezionabili con il puntatore PT400
+1.  Selezionare la voce “Inizio” del campo “Calibrazione”. Lo strumento fornisce il messaggio “Toccare in alto a sinistra”. Toccare la parte alta dello schermo in prossimità del riferimento azzurro presente sullo spigolo sinistro (vedere Fig. 10 – parte sinistra)
+2.  Lo strumento fornisce il messaggio “Toccare in alto a destra”. Toccare la parte alta dello schermo in prossimità del riferimento azzurro presente sullo spigolo destro (vedere Fig. 10 – parte destra)
+Fig. 10: Videate calibrazione touch screen – Parte alta
+3.  Lo strumento fornisce il messaggio “Toccare in basso a destra”. Toccare la parte bassa dello schermo in prossimità del riferimento azzurro presente sullo spigolo destro (vedere Fig. 11 – parte sinistra)
+Fig. 11: Videate calibrazione touch screen – Parte bassa
+4.  Lo strumento fornisce il messaggio “Toccare in basso a sinistra”. Toccare la parte bassa dello schermo in prossimità del riferimento azzurro presente sullo spigolo sinistra (vedere Fig. 11 – parte centrale)
+5.  Terminate le operazioni, lo strumento presenta la videata di Fig. 11 – parte destra
+6.  Toccare il simbolo azzurro nello spigolo in alto a sinistra per completare l’operazione e tornare alla videata del menu generale
+
+PQA924 IT - 16
+### 5.1.9. Impostazione nome operatore
+Questa opzione consente di includere il nome dell’operatore che esegue le misure con lo strumento. Tale nome sarà incluso nei report creati con uso del software di gestione.
+1.  Toccare il campo incluso all’interno della sezione “Operatore”. La videata seguente è mostrata a display
+Fig. 12: Impostazione nome operatore
+2.  Usare la tastiera alfanumerica virtuale interna per impostare il nome operatore (max 23 caratteri) e confermare l’operazione toccando il simbolo “`✓`”
+3.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+4.  Toccare l’icona “`⟲`” o il tasto **ESC** per uscire senza salvare
+
+### 5.1.10. Impostazione Data/Ora
+1.  Premere il tasto **F1** oppure toccare Data/Ora a display. La seguente videata è mostrata a display
+Fig. 13: Impostazione Data/Ora
+2.  Aprire il menu a tendina “`˅`” del campo “Anno” e selezionare l’anno corrispondente
+3.  All’interno del calendario, usare i menu **<** o **>** per selezionare il mese di riferimento e toccare il giorno desiderato che sarà mostrato in colore arancio
+4.  Aprire il menu a tendina “`˅`” del campo “Ora” e del campo “Minuto” e impostare l’ora di sistema
+5.  Aprire il menu a tendina “`˅`” del campo “Formato” impostando il formato dell’ora desiderato tra le opzioni: **g-m-a** (Giorno-Mese-Anno), **a-m-g** (Anno-Mese-Giorno), **a-g-m** (Anno-Giorno-Mese)
+
+PQA924 IT - 17
+6.  Spostare con un tocco il selettore virtuale del formato nella posizione “24h” (formato 24 ore) o nella posizione “AM/PM”
+7.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+8.  Toccare l’icona “`⟲`”, il tasto **ESC** o il tasto **F3** per uscire senza salvare
+
+### 5.1.11. Impostazione comunicazione tramite rete Ethernet
+Lo strumento può essere connesso ad una rete locale LAN Ethernet ed interrogato da un PC connesso alla stessa rete.
+1.  Premere il tasto **F2** oppure toccare Conness. a display. La videata di Fig. 14 – parte sinistra è mostrata a display
+**Modo DHCP (consigliato)**
+2.  Selezionare l’opzione “DHCP” nel campo “IP” nel caso non si conosca a priori l’indirizzo IP associato alla rete LAN interna
+3.  Collegare il cavo di rete aziendale allo strumento nell’ingresso RJ45 (vedere Fig. 3 – parte 4) e confermare con “OK” o premere il tasto **F4**
+4.  Spegnere e riaccendere lo strumento. Tornando alla sezione di connessione sarà visualizzato l’indirizzo IP assegnato allo strumento dal router di rete (vedere Fig. 14 – parte destra)
+Fig. 14: Impostazione comunicazione tramite rete Ethernet – Modo DHCP
+5.  Annotare il valore dell’indirizzo IP e tornare al menu generale toccando su “Annulla”
+> **ATTENZIONE**
+> Le voci “Ethernet”, “Assegna IP”, “Gateway” e “Porta” dell’indirizzo IP non sono modificabili in modalità DHCP
+6.  Installare il software **HTAgorà** sul PC
+7.  Cliccare sul’icona “Preferenze”. La seguente finestra è mostrata a display
+8.  Selezionare l’opzione “Rete”, inserire l’indirizzo IP del dispositivo precedentemente definito (vedere Fig. 14 – parte destra) e confermare con “OK”
+9.  Eseguire la procedura di rilevazione e connessione dello strumento come indicato nel § 7
+
+PQA924 IT - 18
+Fig. 15: Impostazione indirizzo IP in software HTAgorà – Modo DHCP
+
+**Modo IP Statico**
+10. Nel caso in cui si voglia definire manualmente i parametri di connessione della rete LAN selezionare l’opzione “Def da utente” nel campo IP, come mostrato nella
+Fig. 16: Impostazione comunicazione tramite rete Ethernet – Modo Def. da utente
+> **ATTENZIONE**
+> *   L’indirizzo MAC è univoco dello strumento considerato e chiaramente non modificabile
+> *   Il numero della porta utilizzata per la comunicazione, non modificabile è 50000
+> *   La comunicazione fra strumento e PC è possibile nelle seguenti condizioni:
+>     *   Indirizzo IP impostato non usato da altri dispositivi connessi alla rete
+>     *   Firewall di rete non introduce blocchi per la porta di comunicazione e/o l’indirizzo IP impostato
+>     *   Strumento e PC sono connessi alla stessa sottorete o a due sottoreti che possono comunicare fra loro
+11. Toccare il valore associato al campo “Assegna IP”. La videata di Fig. 17 – parte sinistra è mostrata a display
+
+PQA924 IT - 19
+Fig. 17: Impostazione parametri rete Ethernet – Modo Def da utente
+12. Usare la tastiera virtuale per impostare il valore dell’indirizzo IP e confermare l’operazione toccando il simbolo “`✓`”
+13. Toccare il valore associato al campo “Gateway”. La videata di Fig. 17 – parte destra è mostrata a display
+14. Usare la tastiera virtuale per impostare il valore del “Gateway” e confermare l’operazione toccando il simbolo “`✓`”
+15. Installare il software **HTAgorà** sul PC
+16. Cliccare sul’icona “Preferenze”. La seguente finestra è mostrata a display
+17. Selezionare l’opzione “Rete”, inserire l’indirizzo IP del dispositivo precedentemente definito (vedere Fig. 16) e confermare con “OK”
+18. Eseguire la procedura di rilevazione e connessione dello strumento come indicato nel § 7
+Fig. 18: Impostazione indirizzo IP in software HTAgorà – Modo Def da utente
+
+PQA924 IT - 20
+## 5.2. IMPOSTAZIONI ANALIZZATORE
+Fig. 19: Impostazioni analizzatore
+In questa sezione lo strumento consente di effettuare selezioni di base e avanzate in relazione al tipo di sistema in prova e ai trasduttori utilizzati. In particolare è possibile selezionare/impostare:
+*   Il tipo di sistema, la tensione nominale e la frequenza
+*   Il tipo di trasduttori a pinza per le misure delle correnti di fase
+*   Il tipo di trasduttore a pinza per la misura della corrente di neutro
+*   Il fondo scala delle pinze usate per le misure delle correnti di fase
+*   Il fondo scala della pinza usata per la misura della corrente di neutro
+*   In caso di collegamento con TA esterni il fondo scala del primario e del secondario dei TA presenti sui conduttori di fase e neutro
+*   Il rapporto di trasformazione in caso di collegamento con TV esterni
+> **ATTENZIONE**
+> Lo strumento permette anche l’impostazione di trasduttori di tipo diverso per correnti di fase e corrente di neutro
+Premere il tasto **ENTER** (oppure toccare la relativa icona a display) per entrare nel menu delle “Impostazioni Analizzatore”. Lo strumento mostra le videate seguenti che possono essere selezionate, se necessario, con un trascinamento verticale del dito sul touch-screen
+
+### 5.2.1. Impostazione tipo sistema, frequenza e tensione nominale
+1.  Selezionare il modo “Impostazione Analizzatore”. Lo strumento presenta la videata seguente (con selezione del paese “Europa” – vedere § 5.1.2)
+Fig. 20: Impostazioni tipo sistema, frequenza e tensione nominale
+
+PQA924 IT - 21
+2.  Toccare la figura presente nella videata per cambiare il tipo di sistema elettrico in esame. Lo strumento presenta ciclicamente le seguenti opzioni:
+    *   Sistema Monofase 2 fili (vedere § 6.1.1)
+    *   Sistema Trifase 4 fili (vedere § 6.1.2)
+    *   Sistema Trifase 3-fili (vedere § 6.1.3)
+    *   Sistema Trifase 3 fili Aron (vedere § 6.1.4)
+    *   Sistema Trifase 4 fili Presa Centrale 3F HL (vedere § 6.1.5)
+    *   Sistema Trifase 3 fili Stella Aperta 2F 2E (vedere § 6.1.6)
+    *   Sistema Monofase 3 fili Presa Centrale 1F PC (vedere § 6.1.7)
+3.  Aprire il menu a tendina “`˅`” corrispondente al campo “Vnom L-N o L-L”
+4.  Selezionare il valore della tensione nominale del sistema tra le opzioni: 100V,105V,110V,115V,120V,125V,127V,150V,190V200V,208V,216V,220V,230V,240V 250V,277V,346V,380V,400V,415V,433V,440V,480V,575V,690V. I valori disponibili dipendono anche dal tipo di sistema selezionato
+5.  Aprire il menu a tendina “`˅`” corrispondente al campo “Frequenza”
+6.  Selezionare il valore della frequenza del sistema tra le opzioni: 50Hz, 60Hz
+7.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+8.  Toccare l’icona “`⟲`” o il tasto **ESC** per uscire senza salvare
+
+### 5.2.2. Impostazione tipo di trasduttori a pinza
+Lo strumento esegue le misure di corrente nei seguenti modi:
+*   Misura diretta tramite trasduttori a pinza con toroide rigido o flessibile con selezione di modelli diversi per correnti di Fase e corrente di Neutro
+*   Misura su secondario di trasformatori di corrente (TA) presenti sull’impianto con trasduttori a pinza a toroide rigido (applicazione tipica dei sistemi MT/BT)
+1.  Selezionare la voce “Pinze”. Lo strumento presenta la seguente videata a display le cui voci possono essere diverse in funzione del tipo di sistema selezionato
+Fig. 21: Impostazioni trasduttori di corrente e relativi FS
+2.  Spostare con un tocco il selettore virtuale nella posizione “Pinze” al fine di definire il tipo di pinza per la misura delle correnti di Fase, della corrente (eventuale) di Neutro e dei relativi fondo scala (FS)
+3.  Aprire il menu a tendina “`˅`” corrispondente ai campi “Tipo Pinza Corr. di Fase” e “Tipo Pinza Corr. di Neutro” selezionando il tipo di pinza tra le seguenti opzioni:
+
+PQA924 IT - 22
+    *   Toroide rigido → trasduttore a pinza standard con toroide rigido (vedere modelli nella packing list allegata allo strumento) collegabili tramite adattatore **ACON3F5M**
+    *   HTFlex 315 → trasduttore a pinza flessibile per corrente AC fino a 6000A, max diametro interno toroide 80mm
+    *   HTFlex 335 → trasduttore a pinza flessibile per corrente AC fino a 6000A, max diametro interno toroide 174mm
+    *   HTFlex 355 → trasduttore a pinza flessibile per corrente AC fino a 10000A, max diametro interno toroide 270mm
+4.  Aprire il menu a tendina “`˅`” corrispondente al campo “FS Pinze Corr. Fase” oppure il campo “FS Pinza Corr. Neutro” selezionando il valore di fondo scala (FS) in funzione del tipo di pinza scelto nel campo precedente per la misura delle correnti di Fase e della corrente di Neutro. I seguenti valori sono disponibili:
+    *   1A, 5A, 10A, 30A, 40A, 100A, 200A, 300A, 400A, 1000A, 2000A, 3000A → Pinze con toroide rigido
+    *   300A, 3000A, 6000A → Pinze flessibili **HTFlex 315**, **HTFlex 335**
+    *   300A, 3000A, 10000A → Pinza flessibile **HTFlex 355**
+> **ATTENZIONE**
+> *   Nel caso in cui le pinze siano dotate di un selettore di fondo scala (FS) al fine di ottenere risultati di misura corretti è necessario che il FS impostato sullo strumento sia sempre uguale a quello selezionato sulle sulle pinze
+> *   I trasduttori flessibili non hanno un FS fisicamente selezionabile, ma lo strumento permette comunque di impostare portate intermedie che consentono di ottimizzare la risoluzione di misura
+> *   Considerare generalmente lo 0.5%FS come valore minimo misurabile dai trasduttori a pinza salvo diverse indicazioni riportate nelle specifiche tecniche dello strumento
+5.  Toccare il campo “Rapporto TV” per l’impostazione del rapporto di trasformazione di eventuali trasformatori di tensione (TV) presenti nell'impianto in esame al fine di ottenere corrette letture associate al primario dei trasformatori stessi. La seguente videata è mostrata a display:
+Fig. 22: Impostazione rapporto di trasformazione TV esterni
+6.  Usare la tastiera virtuale per impostare il valore del rapporto di trasformazione del TV e confermare l’operazione toccando il simbolo “`✓`”. Il valore deve essere compreso nell’intervallo: 1 ÷ 9999. L’indicazione **[1…9999]** è mostrata se si cerca di impostare un valore esterno all’intervallo
+
+PQA924 IT - 23
+> **ATTENZIONE**
+> Lasciare sempre il valore di default “1” in assenza di TV presenti sull’impianto al fine di eseguire una corretta misura diretta della tensione
+7.  Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare le impostazioni selezionate che permangono anche dopo lo spegnimento dello strumento
+8.  Toccare l’icona “`⟲`”, il tasto **ESC** o il tasto **F3** per uscire senza salvare
+
+### 5.2.3. Impostazione parametri per misura corrente su TA esterni
+1.  Selezionare la voce “Pinze”. Lo strumento presenta la seguente videata a display le cui voci possono essere diverse in funzione del tipo di sistema selezionato. Nella Fig. 23 è riportato l’esempio di un sistema 3-fase, 4-fili
+Fig. 23: Impostazioni parametri corrente TA esterni (sistema Trifase 4-fili)
+2.  Spostare con un tocco il selettore virtuale nella posizione “TA / Pinze” al fine di definire le correnti dei circuiti primario e secondario dei trasformatori di corrente TA, il tipo di pinza per la misura delle correnti di Fase e Neutro sui secondari dei TA e il rapporto di trasformazione di eventuali TV esterni. Per informazioni sui collegamenti vedere § 10.8
+3.  Toccare il campo “TA Fase: Corrente primario [A]” per l’impostazione della corrente del primario dei TA. La seguente videata è mostrata a display:
+Fig. 24: Impostazione corrente primario TA esterni su conduttore di Fase
+4.  Usare la tastiera virtuale per impostare il valore della corrente primaria del TA e confermare l’operazione toccando il simbolo “`✓`”. Esso deve essere compreso nell’intervallo: 10A ÷ 10000A. L’indicazione **[10…10000]** è mostrata se si cerca di impostare un valore esterno all’intervallo
+
+PQA924 IT - 24
+5.  Aprire il menu a tendina “`˅`” corrispondente al campo “TA Fase: Corrente secondario [A]” selezionando tra le opzioni: 1A o 5A (nel caso di Fig. 23 si è impostato un TA con rapporto 300A/5A)
+6.  Aprire il menu a tendina “`˅`” corrispondente al campo “FS Pinze: Corr. Fase [A]” selezionando il FS del trasduttore a pinza con toroide rigido inserito nel secondario del TA tra le opzioni: 1A, 5A, 10A
+7.  Toccare il campo “TA Neutro: Corrente primario [A]” per l’impostazione della corrente primaria del TA sul conduttore di Neutro. La seguente videata è mostrata a display
+Fig. 25: Impostazione corrente primario TA esterno su conduttore di Neutro
+8.  Usare la tastiera virtuale per impostare il valore della corrente primaria del TA di Neutro e confermare l’operazione toccando il simbolo “`✓`”. Esso deve essere compreso nell’intervallo: 10A ÷ 10000A. L’indicazione **[10…10000]** è mostrata se si cerca di impostare un valore esterno all’intervallo
+9.  Aprire il menu a tendina “`˅`” corrispondente al campo “TA Neutro: Corrente secondario [A]” selezionando tra le opzioni: 1A o 5A (nel caso di Fig. 23 si è impostato un TA con rapporto 300A/5A)
+10. Aprire il menu a tendina “`˅`” corrispondente al campo “FS Pinze Corr. Neutro [A]” selezionando il FS del trasduttore a pinza con toroide rigido inserito nel secondario del TA di Neutro tra le opzioni: 1A, 5A, 10A
+11. Toccare il campo “Rapporto TV” per l’impostazione del rapporto di trasformazione di eventuali trasformatori di tensione (TV) presenti nell'impianto in esame al fine di ottenere corrette letture associate al primario dei trasformatori stessi. La seguente videata è mostrata a display:
+Fig. 26: Impostazione rapporto di trasformazione TV esterni
+12. Usare la tastiera virtuale per impostare il valore del rapporto di trasformazione del TV e confermare l’operazione toccando il simbolo “`✓`”. Il valore deve essere compreso nell’intervallo: 1 ÷ 9999. L’indicazione **[1…9999]** è mostrata se si cerca di impostare un valore esterno all’intervallo
+
+PQA924 IT - 25
+> **ATTENZIONE**
+> Lasciare sempre il valore di default “1” in assenza di TV presenti sull’impianto al fine di eseguire una corretta misura diretta della tensione
+13. Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare le impostazioni selezionate che permangono anche dopo lo spegnimento dello strumento
+14. Toccare l’icona “`⟲`”, il tasto **ESC** o il tasto **F3** per uscire senza salvare
+
+PQA924 IT - 26
+## 5.3. IMPOSTAZIONI REGISTRATORE
+Fig. 27: Impostazioni Registratore
+In questa sezione lo strumento consente di definire le seguenti operazioni:
+*   Inserimento eventuali commenti sulla registrazione che saranno presenti nel report di stampa
+*   Impostazione dell’intervallo di aggregazione principale (scansione temporale tra due salvataggi consecutivi dei parametri di rete principali all’interno della campagna di registrazione)
+*   Impostazione dell’intervallo di aggregazione della Frequenza (scansione temporale tra due salvataggi consecutivi del parametro Frequenza all’interno della campagna di registrazione)
+*   Impostazione dell’intervallo di aggregazione dei parametri Armoniche (scansione temporale tra due salvataggi consecutivi del parametro di analisi armonica Tensioni/Correnti all’interno della campagna di registrazione)
+*   Impostazione avvio e arresto della registrazione
+*   Attivazione/disattivazione analisi avanzate (Armoniche, Interararmoniche, Anomalie di tensione, Transitori veloci, Correnti di spunto e Flicker)
+*   Uso di configurazioni predefinite che permettono una selezione solo di alcuni parametri in modo da aumentare l’autonomia di registrazione
+> **ATTENZIONE**
+> *   Lo strumento esegue sempre la registrazione di tutti i parametri del sistema (max 3180) senza possibilità di deselezionarli singolarmente
+> *   L’autonomia di registrazione è calcolata automaticamente dallo strumento e mostrata a display in funzione degli intervalli di aggregazione impostati e dalle selezione delle analisi avanzate ed è mostrata nella parte sinistra alta del display. Questo valore varia dinamicamente in funzione della programmazione degli intervalli di aggregazione o con uso delle configurazioni predefinite
+> *   Le registrazioni dei parametri principali, della Frequenza e dell’analisi Armonica usano intervalli di aggregazione separati e indipendenti
+> *   L’uso delle configurazioni predefinite e la deselezione delle analisi avanzate permette di aumentare l’autonomia della registrazione
+> *   Non è possibile modificare i parametri di registrazione se una registrazione è già in corso
+Premere il tasto **ENTER** (oppure toccare la relativa icona a display) per entrare nel menu delle “Impostazioni Registratore”. Lo strumento mostra le videate seguenti che possono essere selezionate, se necessario, con un trascinamento verticale del dito sul touch-screen.
+
+PQA924 IT - 27
+### 5.3.1. Impostazione parametri di registrazione
+1.  Selezionare il modo “Impostazioni Registratore”. Lo strumento presenta la videata di Fig. 28 – parte sinistra
+Fig. 28: Videate impostazioni registratore
+2.  Toccare il menu “Impostazioni” per accedere alle videate di impostazione dei parametri di registrazione
+3.  Toccare il campo “Commento” per inserire un commento personalizzato che apparirà anche nel report di stampa scaricato a PC dallo strumento. La videata seguente è mostrata a display:
+Fig. 29: Impostazione commento sulla registrazione
+4.  Usare la tastiera alfanumerica virtuale interna per definire il commento (max 60 caratteri) e confermare l’operazione toccando il simbolo “`✓`”
+5.  Aprire il menu a tendina “`˅`” corrispondente al campo “Interv. Aggr. Principale”
+6.  Selezionare l’intervallo di aggregazione principale (relativo alle grandezze (tensioni, correnti, potenze, fattori di potenza, energie) tra i seguenti valori: 0.2s, 3s, 10s, 15s, 18s, 30s, 1min, 5min, 10min, 15 min, 30min, 60min,120min
+> **ATTENZIONE**
+> Selezionando il valore 0.2s, solo i valori RMS Medi saranno disponibili, mentre per ogni valore >0.2s saranno disponibili i valori Medio, Max e Min
+7.  Aprire il menu a tendina “`˅`” corrispondente al campo “Interv. Aggr. Frequenza”
+8.  Selezionare l’intervallo di aggregazione relativo alla Frequenza tra i seguenti valori: 1s ÷ 30s in passi di 1s
+9.  Aprire il menu a tendina “`˅`” corrispondente al campo “Interv. Aggr. Armoniche”
+10. Selezionare l’intervallo di aggregazione relativo alla registrazione dei valori di Armoniche di tensione e corrente tra i seguenti valori: 0.2s, 3s, 6s, 10s, 12s, 15s, 18s, 30s, 1min, 5min, 10min, 15 min, 30min, 60min,120min
+
+PQA924 IT - 28
+11. Spostare con un tocco il selettore virtuale del campo “Avvio Registrazione” in una delle seguenti posizioni:
+    *   **Man**. → avvio Manuale della registrazione con il tasto **GO/STOP** all’istante “00” successivo dopo la pressione del tasto
+    *   **Progr**. → avvio Programmato della registrazione premendo preliminarmente il tasto **GO/STOP** al fine di porre lo strumento in attesa della data/ora impostata sullo strumento. In tale condizione, la videata di Fig. 30 – parte sinistra è mostrata a display
+> **ATTENZIONE**
+> *   Controllare che la data/ora di avvio registrazione sia sempre successiva alla data/ora corrente
+> *   Al fine di porre lo strumento in attesa della data/ora di avvio impostate, è comunque necessario premere il tasto **GO/STOP**
+> *   In seguito alla pressione del tasto **GO/STOP**, lo strumento visualizzerà nella parte alta del display l’icona attesa “`Zz`” per poi avviare la registrazione al raggiungimento della data / ora impostate
+Fig. 30: Impostazione data Avvio/Fine della registrazione programmata
+12. Aprire il menu a tendina “`˅`” del campo “Anno” e selezionare l’anno corrispondente
+13. All’interno del calendario, usare i menu **<** o **>** per selezionare il mese di riferimento e toccare il giorno desiderato che sarà mostrato in colore arancio
+14. Aprire il menu a tendina “`˅`” del campo “Ora” e del campo “Minuto” e impostare l’ora di avvio della registrazione
+15. Premere il tasto **SAVE** oppure il tasto virtuale “OK”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento
+16. Spostare con un tocco il selettore virtuale del campo “Fine Registrazione” in una delle seguenti posizioni:
+    *   **Man**. → arresto Manuale della registrazione con il tasto **GO/STOP**
+    *   **Progr**. → arresto Programmato della registrazione alla data/ora impostata sullo strumento. In tale condizione, la videata di Fig. 30 – parte desta è mostrata a display
+17. Aprire il menu a tendina “`˅`” del campo “Anno” e selezionare l’anno corrispondente
+18. All’interno del calendario, usare i menu **<** o **>** per selezionare il mese di riferimento e toccare il giorno desiderato che sarà mostrato in colore arancio
+19. Aprire il menu a tendina “`˅`” del campo “Ore” e del campo “Minuti” e impostare l’ora di fine della registrazione
+
+PQA924 IT - 29
+> **ATTENZIONE**
+> Prestare attenzione che la data/ora di fine registrazione sia sempre successiva alla data/ora di avvio della registrazione. In caso contrario lo strumento fornirà un messaggio di errore a display
+20. Spostare con un tocco il selettore virtuale del campo “Armoniche nella posizione “On” (attivazione registrazione analisi armonica) o nella posizione “Off” (disattivazione registrazione analisi armonica). La seguente videata è mostrata:
+Fig. 31: Attivazione/disattivazione registrazione parametri analisi armonica
+21. I seguenti parametri sono selezionabili:
+    *   **Max. Ord**. → Massimo ordine delle armoniche di tensione e corrente (THD%, DC comprese) registrate dallo strumento tra le opzioni: 40 oppure 63
+    *   Aprire il menu a tendina “`˅`” del campo e selezionare il tipo di parametri registrati dallo strumento tra le opzioni: “Ampiezza” (solo ampiezza delle armoniche in valore assoluto) e “Ampiezza / Fase” (registrazione completa di ampiezza e fase delle armoniche)
+22. Spostare con un tocco il selettore virtuale del campo “Interarmoniche” (armoniche di tensione e corrente che NON sono multipli interi della frequenza fondamentale – vedere § 10.2.6) nella posizione “On” (attivazione registrazione interarmoniche) o nella posizione “Off” (disattivazione registrazione ineterarmoniche)
+23. Spostare con un tocco il selettore virtuale del campo “Anomalie di Tensione” (vedere § 10.1) nella posizione “On” (attivazione registrazione anomalie di tensione) o nella posizione “Off” (disattivazione registrazione anomalie di tensione). La seguente videata è mostrata:
+Fig. 32: Attivazione/disattivazione registrazione anomalie di tensione
+
+PQA924 IT - 30
+    *   Aprire il menu a tendina “`˅`” del campo Min [%] per selezionare il valore percentuale Minimo della tensione rispetto alla nominale di sistema (vedere § 5.2.1) per la rilevazione dei buchi, interruzioni di tensione nel campo: 1% ÷ 30% in passi da 1%
+    *   Aprire il menu a tendina “`˅`” del campo Max [%] per selezionare il valore percentuale Massimo della tensione rispetto alla nominale di sistema (vedere § 5.2.1) per la rilevazione dei picchi di tensione nel campo: 1% ÷ 30% in passi da 1%
+> **ATTENZIONE**
+> I valori Min e Max sono espressi in % del valore Vnom di § 5.2.1
+24. Spostare con un tocco il selettore virtuale del campo “Transitorio veloce” (vedere § 10.6) nella posizione “On” (attivazione registrazione transitori di tensione rapidi con risoluzione minima 1μs) o nella posizione “Off” (disattivazione registrazione transitori di tensione rapidi). La videata di Fig. 33 è mostrata a display
+Fig. 33: Attivazione/disattivazione registrazione transitori di tensione rapidi (spikes)
+25. Aprire il menu a tendina “`˅`” del campo “Soglia [V]” per l’impostazione Il valore di soglia della tensione oltre la quale l’evento è rilevato e registrato dallo strumento nel campo: 200V ÷ 8000V in passi di 50V
+26. Aprire il menu a tendina “`˅`” del campo “Tempo [μs]” per l’impostazione dell’intervallo di rilevazione temporale dell’evento nel campo: 100μs ÷ 1000μs in passi di 100μs
+27. Spostare con un tocco il selettore virtuale del campo “Correnti di spunto” (vedere § 10.3) nella posizione “On” (attivazione registrazione eventi degli eventi relativi alle correnti di spunto delle macchine elettriche) o nella posizione “Off” (disattivazione registrazione correnti di spunto). La videata di Fig. 34 – parte sinistra è mostrata a display
+Fig. 34: Attivazione/disattivazione registrazione correnti di spunto
+
+<!-- Chunk: Pages 32-62 -->
+PQA924 IT - 31
+28. Toccare il campo “ **Soglia [A]** ” per l’impostazione della soglia di corrente oltre la quale l’evento corrente di spunto è rilevato e registrato dallo strumento. La videata di Fig. 34 – parte destra è mostrata a display.
+29. Usare la tastiera virtuale per impostare il valore di soglia che dovrà sempre essere compreso nel range **5% ÷ 95%** del valore di **FS** del trasduttore amperometrico correntemente selezionato.
+30. Aprire il menu a tendina “ ” del campo centrale per selezionare Il tipo di rilevazione della corrente di spunto. Sono possibili le opzioni: **Fissa** (l’evento è rilevato al superamento della soglia di corrente) o **Var** ( evento rilevato se la differenza tra due valori RMS calcolati in 2 semiperiodi consecutivi è superiore alla soglia limite ).
+31. Aprire il menu a tendina “ ” del campo “ **Tempo [s]** ” per l’impostazione dell’intervallo di rilevazione temporale dell’evento nel campo: **0.2 s ÷ 10.0 s** in passi di **0.2 s**.
+32. Spostare con un tocco il selettore virtuale del campo “ **Flicker** ” ( registrazione del fenomeno del Flicker sulle tensioni in ingresso allo strumento in relazione alle prescrizioni delle normative IEC/EN 61000-4-15 – vedere § 10.4 ) nella posizione “ **On** ” (attivazione Flicker) o nella posizione “ **Off** ” (disattivazione Flicker).
+33. Premere il tasto **SAVE** oppure il tasto virtuale “ **OK** ”, oppure il tasto funzione **F4** per salvare l’impostazione selezionata la quale permane anche dopo lo spegnimento dello strumento.
+34. Toccare l’icona “ ” o il tasto **ESC** per uscire senza salvare.
+
+### 5.3.2. Impostazione Configurazioni predefinite
+
+Al fine di fornire un aiuto prima dell’avvio di una registrazione, lo strumento consente la selezione di configurazioni predefinite corrispondenti a tipiche situazioni presenti negli impianti elettrici industriali. Lo strumento consente la scelta di **2** configurazioni predefinite, salvabili e richiamabili dall’utente in ogni momento. La selezione di queste configurazioni imposta automaticamente sullo strumento esclusivamente i parametri necessari per l’esecuzione della registrazione o quelli scelti dall’utente. Le configurazioni predefinite sono:
+
+1.  **Default**: impostazione dei parametri all’uscita di fabbrica dello strumento. Questa configurazione prevede la registrazione di **TUTTI** i parametri misurabili dallo strumento.
+2.  **EN50160**: impostazione dei parametri per la qualità di rete secondo la normativa EN 50160 relativamente a anomalie di tensione, analisi armonica tensioni, flicker, e rilevazione transitori di tensione veloci (vedere il § 10.2.2).
+
+1.  Selezionare il menu “ **Predefinito** ”. Lo strumento mostra la videata seguente:
+    (Fig. 35: Videata configurazioni predefinite)
+2.  Toccare una delle configurazioni presenti a display e confermare con “ **OK** ”. Lo strumento automaticamente seleziona solo i parametri necessari per l’esecuzione della registrazione desiderata e l’autonomia di registrazione.
+
+PQA924 IT - 32
+## 5.4. FUNZIONE MULTIMETRO
+(Fig. 36: Funzione Multimetro)
+
+In questa sezione lo strumento mostra i valori delle letture eseguite in tempo reale sui canali di ingresso e internamente calcolate relative a tensioni, correnti AC TRMS, globalità dei parametri elettrici per ogni singola fase e totali, valori del Flicker, dissimmetria sulle tensioni, visualizzazione forme d’onda di tensioni/correnti per ogni fase e totali, visualizzazione delle armoniche/interarmoniche di tensione e corrente fino al 63° ordine per ogni singola fase e totali, visualizzazione diagramma vettoriale in cui sono rappresentate le tensioni e le correnti con i rispettivi angoli di sfasamento al fine di stabilire la natura dei carichi.
+
+### 5.1.1. Visualizzazione valori numerici
+
+A titolo di esempio sono mostrate di seguito le videate di un sistema **Trifase 4-fili** con paese = **Europa**. Considerazioni analoghe valgono per ogni altro sistema di misura e paese selezionato. Nell’angolo in alto a sinistra è indicato il tipo ed il numero della schermata correntemente visualizzata. L’utente può visualizzare le varie schermate disponibili tramite swipe orizzontale. Le videate sono a rotazione mostrate con un trascinamento orizzontale del touch screen (oppure usando tasti freccia  e ). Il numero delle videate disponibili dipende dal tipo di sistema considerato.
+
+**LEGENDA PARAMETRI**
+*   **V1N** → Tensione Fase - Neutro Fase L1
+*   **V2N** → Tensione Fase - Neutro Fase L2
+*   **V3N** → Tensione Fase - Neutro Fase L3
+*   **VNPE** → Tensione Neutro - PE
+*   **V12** → Tensione Fase L1 - Fase L2
+*   **V23** → Tensione Fase L2 - Fase L3
+*   **V31** → Tensione Fase L3 - Fase L1
+*   **u2 %** → Valore % dissimmetria tensioni
+*   **SEQ** → Indicazione senso ciclico delle fasi:
+    *   ”1 - 2 - 3” => Corretto
+    *   ”1 - 3 - 2” => Incorretto
+    *   ” \* - 2 - 3” => Tensione nulla sulla Fase L1
+    *   ”1 - \* - 3” => Tensione nulla sulla Fase L2
+    *   ”1 - 2 - \* ” => Tensione nulla sulla Fase L3
+    *   ”1 - \* - \* ” => Tensione nulla sulle Fasi L2 e L3
+    *   ” \* - 2 - \* ” => Tensione nulla sulle Fasi L1 e L3
+    *   ” \* - \* - 3” => Tensione nulla sulle Fasi L1 e L2
+*   **Freq** → Frequenza tensioni
+*   **I1** → Corrente sulla Fase L1
+*   **I2** → Corrente sulla Fase L2
+*   **I3** → Corrente sulla Fase L3
+*   **IN** → Corrente sul conduttore di Neutro
+
+(Fig. 37: Pagina 1/9: Valori numerici di tensione e corrente)
+
+PQA924 IT - 33
+**LEGENDA PARAMETRI**
+*   **P1, P2, P3** → Potenza attiva sulle fasi L1, L2, L3
+*   **PT** → Potenza attiva totale di sistema
+*   **Q1, Q2, Q3** → Potenza reattiva sulle fasi L1, L2, L3
+*   **QT** → Potenza reattiva totale di sistema
+*   **S1, S2, S3** → Potenza apparente sulle fasi L1, L2, L3
+*   **ST** → Potenza apparente totale di sistema
+*   **cos φ1, cos φ2, cos φ3, cos φT** → Fattore di Potenza tra le fondamentali di tensione e corrente Fase L1, L2, L3 e totale ( = carico induttivo ; = carico capacitivo)
+*   **Pf1, Pf2, Pf3, PFT** → Fattore di Potenza Fase L1, L2, L3 e totale ( = carico induttivo ; = carico capacitivo)
+
+(Fig. 38: Pagina 2/9: Valori Potenze e fattori di potenza)
+
+**LEGENDA PARAMETRI**
+*   **P1fnd, P2fnd, P3fnd** → Potenza attiva fond. L1, L2, L3
+*   **PTfnd** → Potenza attiva fond. totale di sistema
+*   **Q1fnd, Q2fnd, Q3fnd** → Potenza reattiva fond. L1, L2, L3
+*   **QTfnd** → Potenza reattiva fond. totale di sistema
+*   **S1fnd, S2fnd, S3fnd** → Potenza apparente fond. L1, L2, L3
+*   **STfnd** → Potenza apparente fond. totale di sistema
+*   **cos φ1, cos φ2, cos φ3, cos φT** → Fattore di Potenza tra le fondamentali di tensione e corrente Fase L1, L2, L3 e totale ( = carico induttivo ; = carico capacitivo)
+
+(Fig. 39: Pagina 3/9: Valori Potenze e fattori di potenza delle fondamentali di U e I)
+
+**LEGENDA PARAMETRI**
+*   **V1N** → Tensione Fase L1 - Neutro
+*   **THDV1N** → Distorsione armonica totale tensione V1N
+*   **PkV1N** → Valore di picco tensione V1N
+*   **VNPE** → Tensione N - PE
+*   **I1** → Corrente Fase L1
+*   **THDI1** → Distorsione armonica totale corrente I1
+*   **PkI1** → Valore di picco corrente I1
+*   **Freq** → Frequenza tensione
+*   **P1/Q1/S1** → Potenze attiva/reattiva/apparente Fase L1
+*   **Pf1** → Fattore di Potenza Fase L1
+*   **P1fnd** → Potenza attiva fondamentali Fase L1
+*   **Q1fnd** → Potenza reattiva fondamentali Fase L1
+*   **S1fnd** → Potenza apparente fondamentali Fase L1
+*   **cos φ1** → Fattore di Potenza fond. U e I Fase L1
+
+(Fig. 40: Pagina 4/9: Valori globali Fase 1)
+
+**LEGENDA PARAMETRI**:
+*   **V2N** → Tensione Fase L2 - Neutro
+*   **THDV2N** → Distorsione armonica totale tensione V2N
+*   **PkV2N** → Valore di picco tensione V2N
+*   **VNPE** → Tensione N - PE
+*   **I2** → Corrente Fase L2
+*   **THDI2** → Distorsione armonica totale corrente I2
+*   **PkI2** → Valore di picco corrente I2
+*   **Freq** → Frequenza tensione
+*   **P2/Q2/S2** → Potenze attiva/reattiva/apparente Fase L2
+*   **Pf2** → Fattore di Potenza Fase L2
+*   **P2fnd** → Potenza attiva fondamentali Fase L2
+*   **Q2fnd** → Potenza reattiva fondamentali Fase L2
+*   **S2fnd** → Potenza apparente fondamentali Fase L2
+*   **cos φ2** → Fattore di Potenza fond. U e I Fase L2
+
+(Fig. 41: Pagina 5/9: Valori globali Fase 2)
+
+PQA924 IT - 34
+**LEGENDA PARAMETRI**:
+*   **V3N** → Tensione Fase L3 - Neutro
+*   **THDV3N** → Distorsione armonica totale tensione V3N
+*   **PkV3N** → Valore di picco tensione V3N
+*   **VNPE** → Tensione N - PE
+*   **I3** → Corrente Fase I3
+*   **THDI3** → Distorsione armonica totale corrente I3
+*   **Freq** → Frequenza tensione
+*   **P3/Q3/S3** → Potenze attiva/reattiva/apparente Fase L3
+*   **Pf3** → Fattore di Potenza Fase L3
+*   **P3fnd** → Potenza attiva fondamentali Fase L3
+*   **Q3fnd** → Potenza reattiva fondamentali Fase L3
+*   **S3fnd** → Potenza apparente fondamentali Fase L3
+*   **cos φ3** → Fattore di Potenza fond. U e I Fase L3
+
+(Fig. 42: Pagina 6/9: Valori globali Fase 3)
+
+**LEGENDA PARAMETRI**:
+*   **Pinst V1N** → Valore istantaneo Flicker tensione V1N
+*   **Pinst V2N** → Valore istantaneo Flicker tensione V2N
+*   **Pinst V3N** → Valore istantaneo Flicker tensione V3N
+*   **Pst V1N** → Severità breve termine Flicker tensione V1N
+*   **Pst V2N** → Severità breve termine Flicker tensione V2N
+*   **Pst V3N** → Severità breve termine Flicker tensione V3N
+*   **Plt V1N** → Severità lungo termine Flicker tensione V1N
+*   **Plt V2N** → Severità lungo termine Flicker tensione V2N
+*   **Plt V3N** → Severità lungo termine Flicker tensione V3N
+
+(Fig. 43: Pagina 7/9: Valori del Flicker sulle tensioni in ingresso)
+
+**LEGENDA PARAMETRI**:
+*   **Ea1, Ea2, Ea3** → Energia attiva assorbita L1, L2, L3
+*   **EaT** → Energia attiva assorbita Totale
+*   **Eri1, Eri2, Eri3** → Energia reattiva induttiva assorbita L1, L2, L3
+*   **EriT** → Energia reattiva induttiva assorbita Totale
+*   **Erc1, Erc2, Erc3** → Energia reattiva capacitiva assorbita L1, L2, L3
+*   **ErcT** → Energia reattiva capacitiva assorbita Totale
+*   **PkD1** → Valore di picco energia assorbita fase L1
+*   **PkD2** → Valore di picco energia assorbita fase L2
+*   **PkD3** → Valore di picco energia assorbita fase L3
+*   **PkDT** → Valore di picco energia assorbita Totale
+
+(Fig. 44: Pagina 8/9: Valori Energia assorbita)
+
+**ATTENZIONE**
+*   I valori dell’energia assorbita dall’impianto sono mostrati solo durante una registrazione o al termine della stessa.
+*   I valori dell’energia assorbita sono reinizializzati all’avvio di una nuova registrazione o allo spegnimento dello strumento.
+
+PQA924 IT - 35
+**LEGENDA PARAMETRI**:
+*   **Ea1, Ea2, Ea3** → Energia attiva generata L1, L2, L3
+*   **EaT** → Energia attiva generata Totale
+*   **Eri1, Eri2, Eri3** → Energia reattiva induttiva generata L1, L2, L3
+*   **EriT** → Energia reattiva induttiva generata Totale
+*   **Erc1, Erc2, Erc3** → Energia reattiva capacitiva generata L1, L2, L3
+*   **ErcT** → Energia reattiva capacitiva generata Totale
+*   **PkD1** → Valore di picco energia generata fase L1
+*   **PkD2** → Valore di picco energia generata fase L2
+*   **PkD3** → Valore di picco energia generata fase L3
+*   **PkDT** → Valore di picco energia generata Totale
+
+(Fig. 45: Pagina 9/9: Valori Energia generata)
+
+**ATTENZIONE**
+*   I valori dell’energia generata dall’impianto sono mostrati solo durante una registrazione o al termine della stessa.
+*   I valori dell’energia generata sono reinizializzati all’avvio di una nuova registrazione o allo spegnimento dello strumento.
+
+PQA924 IT - 36
+### 5.1.2. Visualizzazione forme d’onda dei segnali
+
+A titolo di esempio sono mostrate di seguito le videate di un sistema **Trifase 4 fili** con paese selezionato = **Europa**. Considerazioni analoghe valgono per ogni altro sistema di misura e paese selezionato. Il numero delle videate disponibili dipende dal tipo di sistema considerato.
+
+In presenza di una pagina relativa ai valori numerici è possibile selezionare in ogni momento la visualizzazione delle forme d’onda delle grandezze tensione e corrente in ingresso premendo il tasto **F2** oppure toccando il tasto virtuale “ **Forme Ond.** ” Il significato dei simboli è mostrato nella seguente Fig. 46. Per operare sulla finestra delle forme d’onda è raccomandato l’uso del pennino PT400.
+
+**LEGENDA:**
+1.  **Indicazione della grandezza mostrata** ( **V** = tensione, **A** = corrente)
+2.  **Forma d’onda della grandezza selezionata** all’interno della sezione “ **Canali** ”
+3.  **Cursore di Zoom orizzontale**
+4.  **Tasto “Canali”** per selezione grandezze visualizzabili
+5.  **Cursori di traslazione forma d’onda** sugli assi orizzontale e verticale
+6.  **Tasto traslazione sinistra forma d’onda** sull’asse orizzontale ( solo con Zoom attivo )
+7.  **Tasto traslazione destra forma d’onda** sull’asse orizzontale ( solo con Zoom attivo )
+8.  **Sezione visualizzazione valori TRMS** grandezze selezionate
+9.  **Sezione visualizzazione valori istantanei** grandezze e asse dei tempi
+10. **Cursore di Zoom verticale**
+11. **Cursore visualizzazione valori istantanei** su grafico
+
+(Fig. 46: Descrizione simboli presenti nella videata forme d’onda)
+
+**ATTENZIONE**
+*   Lo strumento visualizza sempre **1024** punti per ogni grandezza corrispondente a **10** forme d’onda consecutive (max 200ms @ 50Hz e ( 167ms @ 60Hz) ( vedere Fig. 46 ).
+*   L’asse delle ordinate di default è quello di sinistra in cui è mostrato il FS della tensione o della corrente selezionata. L’asse delle ordinate di destra è quello della corrente nel caso di presenza simultanea di tensione e corrente.
+*   Il FS mostrato è automaticamente adattato dalle operazioni di zoom e/o traslazione eseguite dall’utente.
+*   Toccare un qualunque punto del grafico per mostrare il cursore fucsia di visualizzazione valori istantanei (vedere Fig. 46 – parte 11). Toccare la sezione di Fig. 46 – parte 9 per nascondere il cursore.
+
+PQA924 IT - 37
+**ATTENZIONE**
+*   Toccare punti della forma d’onda per spostare il cursore fucsia nei punti desiderati leggendo il valore nella sezione di Fig. 46 – parte 9. Usare i tasti freccia  e  per uno spostamento esatto del cursore sull’asse dei tempi in passi da 0.1ms.
+*   E’ possibile selezionare fino a **4** canali simultanemente di una stessa grandezza (tensione o corrente) oppure tensione e corrente di una singola fase (V1N &I1, V2N &I2 o V3N &I3).
+*   Il valore massimo dello Zoom orizzontale consente la visualizzazione di un periodo della forma d’onda del segnale selezionato.
+*   Spostare con il pennino i cursori di traslazione (vedere Fig. 46 – parti 5) per focalizzare punti esatti della forma d’onda che si vuole esaminare.
+
+1.  Toccare il tasto “ **Canali** ” (vedere Fig. 46 – parte 4). La seguente videata è mostrata a display.
+    (Fig. 47: Selezione canali per visualizzazione forme d’onda)
+2.  Eseguire una delle seguenti possibili selezioni:
+    *   **Tensioni** → fino a **4** segnali contemporaneamente (V1N, V2N, V3N, VPE)
+    *   **Correnti** → fino a **4** segnali contemporaneamente (I1, I2, I3, IN)
+    *   **Tensioni, Correnti** → fino a **2** segnali contemporaneamente (V1N&I1 oppure V2N&I2, oppure V3N&I3 oppure VNPE&IN)
+3.  Confermare con “ **OK** ” o “ **Annulla** ” per uscire senza eseguire operazioni. In quest’ultimo caso la selezione dei segnali rimane quella eseguita in precedenza.
+4.  Con selezione delle **4** tensioni, le forme d’onda tre le singole fasi e il neutro e la tensione tra neutro e terra sono mostrate nella figura seguente:
+    (Fig. 48: Visualizzazione forme d’onda tensioni)
+
+PQA924 IT - 38
+5.  Con selezione delle **4** correnti, le forme d’onda delle singole fasi e del neutro sono mostrate nella figura seguente:
+    (Fig. 49: Visualizzazione forme d’onda correnti)
+6.  Con selezione delle tensioni e correnti di singole fasi le forme d’onda simultanee (ad esempio riferite alla Fase L1) sono mostrate nella figura seguente:
+    (Fig. 50: Visualizzazione forme d’onda tensione e corrente sulla Fase L1)
+7.  Usare il cursore di **Zoom orizzontale** (vedere Fig. 46 – parte 3) per espandere la forma d’onda sull’asse dei tempi come mostrato nella Fig. 51 – parte sinistra).
+    (Fig. 51: Visualizzazione forme d’onda con Zoom attivi)
+8.  Usare i cursori di **Zoom orizzontale** e **verticale** (vedere Fig. 46 – parti 3, 10) e i cursori di **traslazione orizzontale** e **verticale** (vedere Fig. 46 – parti 5) per espandere globalmente la forma d’onda in modo da mostrare i dettagli desiderati come mostrato nella Fig. 51 – parte destra).
+
+PQA924 IT - 39
+### 5.1.3. Visualizzazione analisi armonica
+
+In presenza di una pagina relativa ai valori numerici è possibile selezionare in ogni momento la visualizzazione delle tabelle e dei grafici a istogramma dell’analisi armonica di tensioni, correnti e potenze premendo il tasto **F3** oppure toccando il tasto virtuale “ **Armonic.** ” Il significato dei simboli è mostrato nella seguente Fig. 52. Per operare sulla finestra delle forme d’onda è raccomandato l’uso del pennino PT400.
+
+A titolo di esempio sono mostrate di seguito le videate di un sistema **3-fase 4-fili + PE** con paese selezionato = **Europa**. Considerazioni analoghe valgono per ogni altro sistema di misura e paese selezionato. Il numero delle videate disponibili dipende dal tipo di sistema considerato.
+
+**LEGENDA:**
+1.  **Indicazione della grandezza mostrata** ( **V** = tensione, **A** = corrente, **W** = potenza, **%** = valore percentuale)
+2.  **Grafico a istogramma della grandezza selezionata** all’interno della sezione “ **Impostaz. → Canali** ”
+3.  **Cursore di Zoom orizzontale**
+4.  **Tasto “Impostaz.”** per selezione grandezze e modalità di visualizzazione
+5.  **Cursori di traslazione grafici** sugli assi orizzontale e verticale
+6.  **Tasto “Tabella Dati”** per visualizzazione numerica dei dati
+7.  **Tasto traslazione sinistra grafici** sull’asse orizzontale ( solo con Zoom attivo ) e incremento ordine armonica
+8.  **Tasto traslazione destra grafici** sull’asse orizzontale ( solo con Zoom attivo ) e decremento ordine armonica
+9.  **Sezione visualizzazione valori del parametro THD%** relativo alle grandezze selezionate
+10. **Sezione visualizzazione valori istantanei** di ampiezze o fasi delle armoniche selezionate sul grafico
+11. **Cursore di Zoom verticale**
+12. **Cursore visualizzazione valori istantanei** su grafico
+
+(Fig. 52: Descrizione simboli presenti nella videata armoniche)
+
+PQA924 IT - 40
+**ATTENZIONE**
+*   Toccare il numero corrispondente all’ordine dell’armonica per mostrare il cursore fucsia di selezione grafico a istogramma e valori istantanei (vedere Fig. 52 – parte 12). Toccare la sezione di Fig. 52 – parte 10 per nascondere il cursore.
+*   Usare i tasti freccia  e  o i tasti di traslazione (vedere Fig. 52 – parti 7 e 8) per spostare il cursore fucsia nell’armonica con l’ordine desiderato (dalla DC fino al 63°).
+
+1.  Toccare il tasto “ **Impostaz.** ” (vedere Fig. 52 – parte 4). La seguente videata è mostrata a display.
+    (Fig. 53: Selezione impostazione visualizzazione grafici armoniche)
+2.  Le seguenti selezioni sono di seguito descritte:
+    *   **Armoniche** → visualizzazione armoniche **V** e **I** oppure **Potenza**.
+    *   **Visualiz.** → visualizzazione **Ampiezza** oppure **Fase** dell’armonica.
+    *   **Tipo** → visualizzazione **Fondamentale**, **Armoniche** e **InterArmoniche** anche simultaneamente.
+    *   **Ordine Arm.** → visualizzazione **Armoniche Pari** o **Dispari** anche simultaneamente.
+    *   **Valori** → visualizzazione valori **percentuali (%)** o **assoluti (RMS)** delle armoniche.
+    *   **Riferimento %** → visualizzazione percentuale delle armoniche, THD% e TID% (interarmoniche) in rapporto all’ampiezza della **fondamentale** oppure al valore **RMS** delle grandezze tensione e corrente.
+3.  Toccare il tasto “ **Predefinite** ” per ripristinare le selezioni di default presenti nella Fig. 53.
+4.  Confermare con “ **OK** ” o “ **Annulla** ” per uscire senza eseguire operazioni.
+5.  Toccare il tasto “ **Canali** ”. La seguente videata è mostrata a display:
+    (Fig. 54: Selezione canali per visualizzazione grafici analisi armonica)
+
+PQA924 IT - 41
+5.  Eseguire una delle seguenti possibili selezioni:
+    *   **Tensioni** → fino a **4** segnali contemporaneamente (V1N, V2N, V3N, VPE)
+    *   **Correnti** → fino a **4** segnali contemporaneamente (I1, I2, I3, IN)
+    *   **Tensioni, Correnti** → fino a **2** segnali contemporaneamente (V1N&I1 oppure V2N&I2, oppure V3N&I3 oppure VNPE&IN)
+    *   **Potenze** → fino a **3** segnali contemporaneamente (P1, P2, P3)
+6.  Confermare con “ **OK** ” o “ **Annulla** ” per uscire senza eseguire operazioni. In quest’ultimo caso la selezione dei segnali rimane quella eseguita in precedenza.
+6.  Con selezione delle **4** tensioni, i grafici a istogramma delle singole tensioni V1N, V2N, V3N e VNPE sono mostrate nella Fig. 55 - parte sinistra.
+    (Fig. 55: Analisi armonica tensioni in formato numerico e grafico)
+7.  Nella videata sono presenti le ampiezze delle armoniche selezionate in formato “%” o “RMS” e i valori percentuali della “ **THD** ” (distorsione armonica totale delle armoniche) e ( con abilitazione delle interarmoniche) i valori percentuale della “ **THI** ” (distorsione armonica totale delle interarmoniche).
+8.  Toccare il tasto “ **Tabella Dati** ” per passare dalla visualizzazione numerica. La videata di Fig. 55 - parte destra è mostrata a display. I parametri “ **hxx** ” indicano l’ampiezza dell’armonica xx, mentre i parametri “ **ihxx** ” indicano l’ampiezza dell’interarmonica xx per ogni canale selezionato.
+9.  Toccare i tasti “ **← Tab** ” o “ **Tab →** ” per passare rispettivamente alla pagina precedente o successiva dei parametri.
+10. Con selezione delle **4** correnti, i grafici a istogramma delle singole correnti I1, I2, I3 e IN sono mostrate nella Fig. 56 - parte sinistra.
+    (Fig. 56: Analisi armonica correnti in formato numerico e grafico)
+
+PQA924 IT - 42
+11. Nella videata sono presenti le ampiezze delle armoniche selezionate in formato “%” o “RMS” e i valori percentuali della “ **THD** ” (distorsione armonica totale delle armoniche), (se selezionata) i valori percentuale della “ **THI** ” (distorsione armonica totale delle interarmoniche) e i valori percentuali del “ **Fattore K** ” (vedere § 10.2.5).
+12. Toccare il tasto “ **Tabella Dati** ” per passare dalla visualizzazione numerica. La videata di Fig. 55 - parte destra è mostrata a display. I parametri “ **hxx** ” indicano l’ampiezza dell’armonica xx, mentre i parametri “ **ihxx** ” indicano l’ampiezza dell’interarmonica xx per ogni canale selezionato.
+13. Toccare i tasti “ **← Tab** ” o “ **Tab →** ” per passare rispettivamente alla pagina precedente o successiva dei parametri.
+14. Con selezione dei segnali di tensione e corrente di ogni fase, i grafici a istogramma delle coppie V1N&I1, V2N&I2, V3N&I3 o VNPE&IN sono mostrate nella Fig. 57.
+    (Fig. 57: Analisi armonica tensione e corrente per ogni singola fase)
+15. Nella videata sono presenti le ampiezze delle armoniche di tensione e corrente selezionate in formato “%” o “RMS” e i valori percentuali della “ **THD** ” (distorsione armonica totale delle armoniche), (se selezionata) i valori percentuale della “ **THI** ” (distorsione armonica totale delle interarmoniche) con scale di misura diverse per ogni grandezza. Usare gli strumenti di Zoom verticale/orizzontale e le barre di traslazione al fine di ottenere una visualizzazione mirata dei valori desiderati.
+16. Toccare il tasto “ **Tabella Dati** ” per passare dalla visualizzazione numerica. La videata di Fig. 55 - parte destra è mostrata a display. I parametri “ **hxx** ” indicano l’ampiezza dell’armonica xx, mentre i parametri “ **ihxx** ” indicano l’ampiezza dell’interarmonica xx per ogni canale selezionato.
+17. Con selezione delle **4** tensioni o delle **4** correnti, i grafici a istogramma degli angoli di fase rispetto all’origine delle grandezze V1N, V2N, V3N, VNPE oppure I1, I2, I3, IN sono mostrate nella Fig. 58 – parte sinistra.
+    (Fig. 58: Analisi armonica angoli di fase per segnali di tensione)
+
+PQA924 IT - 43
+18. Nella videata sono presenti i grafici degli angoli di fase delle armoniche di tensione selezionate in formato “%” o “°” con scale di misura diverse per ogni grandezza. Usare gli strumenti di Zoom verticale/orizzontale e le barre di traslazione al fine di ottenere una visualizzazione mirata dei valori desiderati.
+19. Toccare il tasto “ **Tabella Dati** ” per passare dalla visualizzazione numerica. La videata di Fig. 58 - parte destra è mostrata a display. I parametri “ **φh xx** ” indicano l’ampiezza dell’armonica xx, per ogni canale selezionato.
+20. Toccare i tasti “ **← Tab** ” o “ **Tab →** ” per passare rispettivamente alla pagina precedente o successiva dei parametri.
+21. Con selezione delle **3** potenze attive, i grafici a istogramma delle grandezze P1, P2 e P3 sono mostrate nella Fig. 59 – parte sinistra.
+    (Fig. 59: Analisi armonica delle potenze attive)
+22. Nella videata sono presenti i grafici delle ampiezze armoniche delle potenze attive assorbite (valore positivo) o generate (valore negativo) selezionate in formato “%” o “ **W** ” con scale di misura diverse per ogni grandezza. Usare gli strumenti di Zoom verticale/orizzontale e le barre di traslazione al fine di ottenere una visualizzazione mirata dei valori desiderati.
+23. Toccare il tasto “ **Tabella Dati** ” per passare dalla visualizzazione numerica. La videata di Fig. 59 - parte destra è mostrata a display. I parametri “ **h xx** ” indicano l’ampiezza dell’armonica di potenza xx, per ogni canale selezionato.
+24. Toccare i tasti “ **← Tab** ” o “ **Tab →** ” per passare rispettivamente alla pagina precedente o successiva dei parametri.
+
+PQA924 IT - 44
+### 5.1.4. Visualizzazione diagramma vettoriale
+
+In presenza di una pagina relativa ai valori numerici è possibile selezionare in ogni momento la visualizzazione del diagramma vettoriale di tensioni e correnti premendo il tasto **F4** oppure toccando il tasto virtuale “ **Vettori.** ” Scopo della funzione è quello di visualizzare, con indicazioni grafiche e numeriche, gli angoli di sfasamento, espressi in gradi [°] tra le tensioni V1N, V2N e V3N, le correnti I1, I2, I3, IN e il mutuo sfasamento tra le singole tensioni e le relative correnti in modo da individuare la natura induttiva o capacitiva dell’installazione elettrica. Il significato dei simboli è mostrato nella Fig. 61. A titolo di esempio sono mostrate di seguito le videate di un sistema **3-fase 4-fili + PE** con paese selezionato = **Europa**. Considerazioni analoghe valgono per ogni altro sistema di misura e paese selezionato. Il numero delle videate disponibili dipende dal tipo di sistema considerato.
+
+1.  Toccare il tasto “ **Canali** ”. La seguente videata è mostrata a display.
+    (Fig. 60: Selezione canali per visualizzazione diagramma vettoriale)
+2.  Eseguire una delle seguenti possibili selezioni:
+    *   **Tensioni** → fino a **4** segnali contemporaneamente (V1N, V2N, V3N, VPE)
+    *   **Correnti** → fino a **4** segnali contemporaneamente (I1, I2, I3, IN)
+    *   **Tensioni, Correnti** → fino a **2** segnali contemporaneamente (V1N&I1 oppure V2N&I2, oppure V3N&I3 oppure VNPE&IN)
+3.  Confermare con “ **OK** ” o “ **Annulla** ” per uscire senza eseguire operazioni. In quest’ultimo caso la selezione dei segnali rimane quella eseguita in precedenza.
+4.  Con selezione delle **4** tensioni, il diagramma vettoriale indicante i fasori delle tensioni V1N, V2N, V3N con i reciproci sfasamenti è mostrato nella figura seguente:
+    (Fig. 61: Diagramma vettoriale delle tensioni)
+
+PQA924 IT - 45
+5.  I seguenti parametri sono mostrati:
+    *   **|V1N|, |V2N|, |V3N|** → Valori ampiezze in modulo delle fondamentali delle tensioni V1N, V2N, V3N e VNPE
+    *   **φV1N - φV2N** → sfasamento tra il fasore di V1N e quello di V2N
+    *   **φV2N - φV3N** → sfasamento tra il fasore di V2N e quello di V3N
+    *   **φV3N - φV1N** → sfasamento tra il fasore di V3N e quello di V1N
+    *   **u2%** → rapporto componente sequenza Inversa e Diretta dissimmetria tensioni
+    *   **u0%** → rapporto componente sequenza Omopolare e Diretta dissimmetria tensioni
+6.  Con selezione delle **4** correnti, il diagramma vettoriale indicante i fasori delle correnti I1, I2, I3 con i reciproci sfasamenti è mostrato nella figura seguente:
+    (Fig. 62: Diagramma vettoriale delle correnti)
+7.  I seguenti parametri sono mostrati:
+    *   **|I1|, |I2|, |I3|, |IN|** → Valori ampiezze in modulo delle fondamentali delle correnti I1, I2, I3 e IN
+    *   **φI1 - φI2** → sfasamento tra il fasore di I1 e quello di I2
+    *   **φI2 - φI3** → sfasamento tra il fasore di I2 e quello di I3
+    *   **φI3 - φI1** → sfasamento tra il fasore di I3 e quello di I1
+    *   **u2%** → rapporto componente sequenza Inversa e Diretta dissimmetria tensioni
+    *   **u0%** → rapporto componente sequenza Omopolare e Diretta dissimmetria tensioni
+15. Con selezione dei segnali di tensione e corrente di ogni fase, il diagramma vettoriale indicante i fasori delle coppie V1N&I1, V2N&I2 o VN3&I3 con i reciproci sfasamenti è mostrato nella figura seguente:
+    (Fig. 63: Diagramma vettoriale tensione - corrente fase L1)
+
+PQA924 IT - 46
+**ATTENZIONE**
+*   L’analisi vettoriale è relativa alle coordinate polari (ampiezza e fase) delle armoniche **fondamentali** (h=01) di tensioni e correnti.
+*   I vettori di **tensione** sono normalizzati sul cerchio **più esterno** che è toccato dal modulo massimo del segnale.
+*   In caso di selezione di entrambi i segnali di tensione e corrente, i vettori di corrente sono normalizzati sul cerchio concentrico **più vicino** a quello più esterno che è toccato dal modulo massimo del segnale.
+*   Ogni vettore è mostrato con sfasamento reciproco (verso di rotazione positivo = **anti orario**) rispetto a quello di riferimento ( asse verticale = 0° ).
+
+PQA924 IT - 47
+## 6. ISTRUZIONI OPERATIVE
+### 6.1. COLLEGAMENTI DELLO STRUMENTO ALL’IMPIANTO
+
+I seguenti schemi di collegamento sono relativi al paese **Europa** selezionato sullo strumento. Le figure sono relative agli accessori presenti nel **KIT802** fornito in dotazione. Fare riferimento alla Tabella 1 per i colori degli anelli da inserire sui cavi associati ad altri paesi.
+
+#### 6.1.1. Sistema Monofase 2 fili
+**ATTENZIONE**
+La massima tensione fra gli ingressi L1, L2, L3, N ed E è 1000V AC CAT IV 600V verso terra. Non misurare tensioni che eccedono i limiti indicati in questo manuale. Il superamento dei limiti di tensione potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+(Fig. 64: Collegamento dello strumento in un sistema Monofase 2 fili)
+
+1.  Impostare la configurazione “ **Monofase 2 fili** ” sullo strumento (vedere § 5.2.1).
+2.  Collegare i cavi di tensione sui conduttori di **L1, N** e **PE** come mostrato in Fig. 64.
+3.  Collegare la pinza di corrente sul conduttore di Fase **L1** rispettando il verso della freccia presente sulla pinza stessa che indica la direzione convenzionale della corrente da generatore a carico.
+4.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio per il collegamento dello strumento.
+5.  Eseguire eventualmente la funzione “ **Auto set** ” per il controllo dei collegamenti (vedere § 6.2) prima di avviare una registrazione.
+6.  Premere il tasto **GO/STOP** per attivare/terminare una registrazione (vedere § 6.3).
+
+PQA924 IT - 48
+#### 6.1.2. Sistema Trifase 4 fili
+**ATTENZIONE**
+La massima tensione fra gli ingressi L1, L2, L3, N ed E è 1000V AC CAT IV 600V verso terra. Non misurare tensioni che eccedono i limiti indicati in questo manuale. Il superamento dei limiti di tensione potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+(Fig. 65: Collegamento dello strumento in un sistema Trifase 4 fili)
+
+1.  Impostare la configurazione “ **3-Fase 4 fili** ” sullo strumento (vedere § 5.2.1).
+2.  Collegare i cavi di tensione sui conduttori di **L1, L2, L3, N** e **PE** come mostrato in Fig. 65. Verificare a display l’indicazione “ **1 - 2 - 3** ” relativa al corretto senso ciclico delle fasi (vedere § 5.1.1).
+3.  Collegare le pinze di corrente sui conduttori di Fase **L1, L2, L3** e **N** rispettando il verso della freccia presente sulla pinza stessa che indica la direzione convenzionale della corrente da generatore a carico.
+4.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio per il collegamento dello strumento.
+5.  Eseguire eventualmente la funzione “ **Auto set** ” per il controllo dei collegamenti (vedere § 6.2) prima di avviare una registrazione.
+6.  Premere il tasto **GO/STOP** per attivare/terminare una registrazione (vedere § 6.3).
+
+PQA924 IT - 49
+#### 6.1.3. Sistema Trifase 3 fili
+**ATTENZIONE**
+La massima tensione fra gli ingressi L1, L2, L3 ed E è 1000V AC CAT IV 600V verso terra. Non misurare tensioni che eccedono i limiti indicati in questo manuale. Il superamento dei limiti di tensione potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+(Fig. 66: Collegamento dello strumento in un sistema Trifase 3 fili)
+
+1.  Impostare la configurazione “ **3-Fase 3 fili** ” sullo strumento (vedere § 5.2.1).
+2.  Collegare i cavi di tensione sui conduttori di **L1, L2, L3** e **PE** come mostrato in Fig. 66. Verificare a display l’indicazione “ **1 - 2 - 3** ” relativa al corretto senso ciclico delle fasi (vedere § 5.1.1).
+3.  Collegare le pinze di corrente sui conduttori di Fase **L1, L2, L3** rispettando il verso della freccia presente sulla pinza stessa che indica la direzione convenzionale della corrente da generatore a carico.
+4.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio per il collegamento dello strumento.
+5.  Eseguire eventualmente la funzione “ **Auto set** ” per il controllo dei collegamenti (vedere § 6.2) prima di avviare una registrazione.
+6.  Premere il tasto **GO/STOP** per attivare/terminare una registrazione (vedere § 6.3).
+
+PQA924 IT - 50
+#### 6.1.4. Sistema Trifase 3 fili Aron
+**ATTENZIONE**
+La massima tensione fra gli ingressi L1, L2, L3 ed E è 1000V AC CAT IV 600V verso terra. Non misurare tensioni che eccedono i limiti indicati in questo manuale. Il superamento dei limiti di tensione potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+(Fig. 67: Collegamento dello strumento in un sistema Trifase 3 fili Aron)
+
+1.  Impostare la configurazione “ **3-Fase 3 fili Aron** ” sullo strumento (vedere § 5.2.1).
+2.  Collegare i cavi di tensione sui conduttori di **L1, L2, L3** e **PE** come mostrato in Fig. 67. Verificare a display l’indicazione “ **1 - 2 - 3** ” relativa al corretto senso ciclico delle fasi (vedere § 5.1.1).
+3.  Collegare le pinze di corrente sui conduttori di Fase **L1, L2, L3** rispettando il verso della freccia presente sulla pinza stessa che indica la direzione convenzionale della corrente da generatore a carico.
+4.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio per il collegamento dello strumento.
+5.  Eseguire eventualmente la funzione “ **Auto set** ” per il controllo dei collegamenti (vedere § 6.2) prima di avviare una registrazione.
+6.  Premere il tasto **GO/STOP** per attivare/terminare una registrazione (vedere § 6.3).
+
+PQA924 IT - 51
+#### 6.1.5. Sistema Trifase 4 fili e presa centrale 3F HL
+**ATTENZIONE**
+La massima tensione fra gli ingressi L1, L2, L3, N ed E è 1000V AC CAT IV 600V verso terra. Non misurare tensioni che eccedono i limiti indicati in questo manuale. Il superamento dei limiti di tensione potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+(Fig. 68: Collegamento dello strumento in un sistema Trifase 4 fili 3F HL)
+
+1.  Impostare la configurazione “ **3-Fase 3 fili Aron** ” sullo strumento (vedere § 5.2.1).
+2.  Collegare i cavi di tensione sui conduttori di **L1, L2, L3, N** e **PE** come mostrato in Fig. 68. Verificare a display l’indicazione “ **1 - 2 - 3** ” relativa al corretto senso ciclico delle fasi (vedere § 5.1.1).
+3.  Collegare le pinze di corrente sui conduttori di Fase **L1, L2, L3, N** rispettando il verso della freccia presente sulla pinza stessa che indica la direzione convenzionale della corrente da generatore a carico.
+4.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio per il collegamento dello strumento.
+5.  Eseguire eventualmente la funzione “ **Auto set** ” per il controllo dei collegamenti (vedere § 6.2) prima di avviare una registrazione.
+6.  Premere il tasto **GO/STOP** per attivare/terminare una registrazione (vedere § 6.3).
+
+PQA924 IT - 52
+#### 6.1.6. Sistema Trifase 3 fili 3F 2E
+**ATTENZIONE**
+La massima tensione fra gli ingressi L1, L2, L3, N ed E è 1000V AC CAT IV 600V verso terra. Non misurare tensioni che eccedono i limiti indicati in questo manuale. Il superamento dei limiti di tensione potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+(Fig. 69: Collegamento dello strumento in un sistema Trifase 3 fili 3F 2E)
+
+1.  Impostare la configurazione “ **3-Fase 3 fili Y Aperta** ” sullo strumento (vedere § 5.2.1).
+2.  Collegare i cavi di tensione sui conduttori di **L1, L2, N** e **PE** come mostrato in Fig. 69.
+3.  Collegare le pinze di corrente sui conduttori di Fase **L1, L2, N** rispettando il verso della freccia presente sulla pinza stessa che indica la direzione convenzionale della corrente da generatore a carico.
+4.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio per il collegamento dello strumento.
+5.  Eseguire eventualmente la funzione “ **Auto set** ” per il controllo dei collegamenti (vedere § 6.2) prima di avviare una registrazione.
+6.  Premere il tasto **GO/STOP** per attivare/terminare una registrazione (vedere § 6.3).
+
+PQA924 IT - 53
+#### 6.1.7. Sistema Monofase 3 fili 1F PC
+**ATTENZIONE**
+La massima tensione fra gli ingressi L1, L2, L3, N ed E è 1000V AC CAT IV 600V verso terra. Non misurare tensioni che eccedono i limiti indicati in questo manuale. Il superamento dei limiti di tensione potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+(Fig. 70: Collegamento dello strumento in un sistema Monofase 3 fili 1F PC)
+
+1.  Impostare la configurazione “ **Monofase 3 fili Pr. Centr** ” sullo strumento (vedere § 5.2.1).
+2.  Collegare i cavi di tensione sui conduttori di **L1, L2, N** e **PE** come mostrato in Fig. 70.
+3.  Collegare le pinze di corrente sui conduttori di Fase **L1, L2, N** rispettando il verso della freccia presente sulla pinza stessa che indica la direzione convenzionale della corrente da generatore a carico.
+4.  Alimentare il sistema elettrico in esame qualora questo fosse stato messo momentaneamente fuori servizio per il collegamento dello strumento.
+5.  Eseguire eventualmente la funzione “ **Auto set** ” per il controllo dei collegamenti (vedere § 6.2) prima di avviare una registrazione.
+6.  Premere il tasto **GO/STOP** per attivare/terminare una registrazione (vedere § 6.3).
+
+PQA924 IT - 54
+### 6.2. FUNZIONE AUTO SET
+
+L’operazione di Autoset è raccomandata al fine di evitare possibili errori grossolani sui collegamenti con conseguente presenza di valori incongruenti per alcune grandezze elettriche che potrebbero portare a dover ripetere nuovamente la registrazione. Gli errori più comuni di collegamento sono quelli associati alle pinze scambiate sui conduttori che comportano differenze di fase tra i segnali di tensione e corrente. Questo effetto tipicamente è evidenziato da errati valori **negativi** delle potenze attive.
+
+**ATTENZIONE**
+*   La funzione Autoset è compatibile solo con le pinze HTFLEX315, HTFLEX335, HTFLEX355.
+*   A seguito di un Autoset, lo strumento imposterà SEMPRE il FS più grande disponibile per la pinza rilevata. Nel caso si prevedesse la misura di correnti di valore sempre inferiore al 10% del FS è raccomandata la reimpostazione FS delle pinze (vedere § 5.2.2) dopo avere eseguito l’Autoset.
+*   Le pinze di corrente riportano una freccia “ **→** ” indicante la direzione di inserzione da “generatore” a “carico”.
+*   E’ possibile avviare una operazione di Autoset solo se lo strumento NON è in fase di registrazione.
+*   La funzione Autoset è compatibile solo per misurazioni eseguite su un sistema elettrico con **carichi passivi** (senza cogenerazioni) aventi un fattore di potenza cosφ compreso tra **0.7i ÷ 0.99c** tipicamente presente nelle applicazioni industriali. Qualora le condizioni non siano verificate, la funzione non sarà eseguita.
+*   L’operazione di Autoset NON modifica i parametri di registrazione, ma solo quelli inerenti i trasduttori amperometrici.
+*   Al termine di una operazione di Autoset, lo strumento avrà automaticamente re-impostato il tipo di trasduttori amperometrici e l’associazione fra i canali di tensione e corrente, in modo da ottenere una misura corrisponde ad un sistema elettrico con le caratteristiche indicate sopra.
+
+1.  Collegare lo strumento al sistema in esame (vedere § 6.1) ed eseguire le impostazioni indicate nel § 5.2.1.
+2.  Toccare l’icona “ **Multimetro** ” nel menu generale.
+3.  Toccare il tasto “ **Autoset** ”. La videata di Fig. 71 – parte sinistra ( relativa ad un sistema trifase 4-fili ) è mostrata a display.
+    (Fig. 71: Esecuzione Autoset senza errori di collegamento)
+
+PQA924 IT - 55
+4.  Per eseguire la funzione Autoset, lo strumento richiede il collegamento ad un sistema elettrico con **carichi passivi** (senza cogenerazioni) aventi un fattore di potenza cosφ compreso tra **0.7i ÷ 0.99c** tipicamente presente nelle applicazioni industriali. Qualora le condizioni non siano verificate, la funzione non sarà eseguita.
+5.  Confermare toccando il tasto “ **OK** ” → La funzione è eseguita è dopo alcuni istanti la videata di Fig. 71 – parte destra è mostrata a display in caso Autoset corretto. I seguenti parametri sono controllati:
+    *   Tensione sull’ingresso L1 → associata a V1
+    *   Tensione sull’ingresso L2 → associata a V2
+    *   Tensione sull’ingresso L3 → associata a V3
+    *   Corrente sull’ingresso I1 → associata a I1, tipo pinza e fase tensione V1 OK
+    *   Corrente sull’ingresso I2 → associata a I2, tipo pinza e fase tensione V2 OK
+    *   Corrente sull’ingresso I3 → associata a I3, tipo pinza e fase tensione V3 OK
+6.  Toccare il tasto “ **OK** ” per tornare alla funzione multimetro.
+7.  Nel caso in cui la funzione Autoset rilevi uno o più errori di collegamento una possibile situazione è mostrata nelle figure seguenti:
+    (Fig. 72: Esecuzione Autoset con errori di collegamento (scambio pinze))
+8.  Nella Fig. 72 – parte destra è mostrato un esempio in cui la funzione Autoset ha rilevato e **automaticamente risolto** la presenza di una errata lettura sulle fasi L2 ed L3 per effetto di un **incorretto** collegamento delle pinze di corrente (pinze 2 e 3 scambiate).
+    (Fig. 73: Effetto della funzione Autoset nella sezione Multimetro (pinze scambiate))
+9.  Nella Fig. 73 – parte sinistra è mostrata la condizione di errore descritta nel punto 8 in cui le potenze attive P2 e P3 sono **scambiate** ( i valori mostrati in rosso sono solo per evidenziare il problema ). Dopo l’esecuzione dell’Autoset, la nuova condizione risulta essere quella della Nella Fig. 73 – parte destra in cui i valori di P2 e P3 sono tornati ad essere quelli attesi **senza alcun intervento da parte dell’operatore**.
+
+PQA924 IT - 56
+10. Nella Fig. 74 – parte destra è mostrato un esempio in cui la funzione Autoset ha rilevato e **automaticamente risolto** la presenza di una errata **differenza di fase tra le tensioni e le correnti** sulle fasi L2 ed L3 per effetto di un **incorretto collegamento delle pinze di corrente** (pinze 2 e 3 invertite sui rispettivi conduttori ).
+    (Fig. 74: Esecuzione Autoset con errori di collegamento (pinze invertite))
+11. Nella Fig. 75 – parte sinistra è mostrata la condizione di errore descritta nel punto 8 in cui le potenze attive P2 e P3 sono **negative** ( i valori mostrati in rosso sono solo per evidenziare il problema ). Dopo l’esecuzione dell’Autoset, la nuova condizione risulta essere quella della Nella Fig. 75 – parte destra in cui i valori di P2 e P3 sono tornati ad essere **positivi** senza alcun intervento da parte dell’operatore che avrebbe dovuto aprire le pinze sulle fasi L2 e L3 e ruotarle di 180° per ottenere i valori corretti.
+    (Fig. 75: Effetto della funzione Autoset nella sezione Multimetro (pinze invertite))
+
+**ATTENZIONE**
+Dopo avere eseguito con successo la funzione di Autoset, si raccomanda in ogni caso di verificare sempre che i segni delle potenze attive ed i cosφ siano coerenti con i valori attesi prima di avviare una registrazione.
+
+PQA924 IT - 57
+### 6.3. AVVIO E ARRESTO DI UNA REGISTRAZIONE
+
+**ATTENZIONE**
+*   Lo strumento può eseguire una registrazione solo se la memory card, del tipo descritto nel § 9.2, è inserita nel relativo slot (vedere Fig. 3 – parte 2).
+*   Prima di avviare una registrazione è opportuno eseguire una valutazione preliminare dei dati misurati in tempo reale dallo strumento in modo da decidere cosa registrare o usare eventualmente una delle configurazioni predefinite (vedere il § 5.3.2).
+*   Si raccomanda sempre di avviare una registrazione collegando lo strumento all’alimentatore esterno fornito in dotazione per non perdere alcun dato nel corso dell’intera campagna di misura.
+
+Lo strumento permette di avviare una registrazione in qualunque videata di misura nei modi seguenti:
+
+*   **MANUALE**: La registrazione ha inizio al minuto successivo (istante 00) alla pressione del tasto **GO/STOP**.
+*   **AUTO**: Alla pressione del tasto **GO/STOP** ( necessaria ) lo strumento rimane in attesa fino al raggiungimento dalla Data/Ora impostata (vedere il § 5.3.1) per poi avviare la registrazione.
+
+Gli stati di attesa “ ” e di registrazione in corso “ ” sono evidenziati dalla presenza di opportune icone presenti nella parte alta del display, come mostrato nella figura seguente:
+(Fig. 76: Registrazione in attesa)
+(Fig. 77: Registrazione in corso)
+
+Premere nuovamente il tasto **GO/STOP** per terminare in qualunque momento la registrazione in corso. La seguente videata è mostrata a display:
+(Fig. 78: Arresto di una registrazione)
+
+PQA924 IT - 58
+Toccare il tasto “ **OK** ” per confermare l’operazione o “ **Annulla** ” per uscire senza confermare.
+Nel caso in cui lo strumento rilevi la presenza di **potenze attive negative**, alla pressione del tasto **GO/STOP** di avvio registrazione, la seguente videata è mostrata a display:
+(Fig. 79: Controllo preliminare sulle potenza attive)
+
+La pressione del tasto “ **OK** ” comunque consente l’avvio della registrazione, ma è raccomandato un controllo preliminare delle pinze di corrente collegate all’impianto e l’esecuzione della funzione Autoset (vedere § 6.2).
+Lo strumento accumulerà dati nella memoria temporanea per gli intervalli di aggregazione impostati (vedere § 5.3.1). Trascorso tale periodo di tempo lo strumento elaborerà i risultati memorizzati nella memoria temporanea e salverà nella memoria definitiva dello strumento la prima serie di valori relativi alla registrazione. Pertanto, supponendo di aver impostato un periodo di integrazione di 15min, la durata della registrazione dovrà essere almeno di **15 minuti** (o comunque pari al periodo di integrazione impostato) per produrre una serie di valori registrati e quindi trasferibili al PC.
+
+**ATTENZIONE**
+*   Nell’esecuzione di una registrazione lasciare lo strumento in collegamento per **almeno la durata di un periodo di integrazione** al fine di poter salvare un risultato di misura. Interrompendo la registrazione prima del termine di un periodo di integrazione, lo strumento non salverà nulla nella memoria interna.
+*   Ogni registrazione effettuata è **automaticamente** terminata e salvata dallo strumento unicamente alla pressione del tasto **GO/STOP** o al raggiungimento della data/ora di stop automatico.
+*   La sola sezione “ **Multimetro** ” è disponibile durante una registrazione in corso. Lo strumento fornisce il messaggio “ **Operazione non possibile durante registrazione** ” in caso di selezione di altre sezioni. Terminare la registrazione premendo il tasto **GO/STOP**.
+*   La visualizzazione dell’icona “ ” indica l’assenza della memory card oppure problemi nella lettura della stessa.
+*   La visualizzazione dell’icona “ ” indica la condizione di memoria piena.
+
+PQA924 IT - 59
+### 6.4. DATI MEMORIZZATI
+
+La sezione “ **Dati Memorizzati** ” consente di controllare il contenuto della memoria durante e al termine della registrazione oltre a eseguire cancellazione delle registrazioni salvate.
+
+1.  Toccare l’icona “ **Dati Memorizzati** ”. La videata seguente è mostrata a display.
+    (Fig. 80: Sezione Dati Memorizzati)
+2.  Ogni riga è relativa al salvataggio sequenziale di registrazioni salvate con lo strumento e riporta la data in cui è stata eseguita e un eventuale commento incluso (vedere § 5.3.1). Scorrere in verticale la barra laterale o usare il pennino per visualizzare l’intero elenco.
+3.  L’informazione sulla **memoria residua (giorni/ore)**, mostrata nella parte inferiore della videata, indica la massima durata della **successiva** registrazione (o della registrazione in corso tenendo conto dei parametri di registrazione impostati).
+4.  Toccare una riga evidenziandola e selezionare il tasto “ **Aprire** ” o premere **ENTER** per aprire la registrazione. La seguente videata è mostrata:
+    (Fig. 81: Informazioni generali sulla registrazione)
+5.  Le informazioni sommarie relative al numero dei periodi di integrazione (o intervalli di aggregazione) salvati, il numero delle anomalie di tensione (buchi/picchi) salvati, i transitori di tensione veloci e le eventuali correnti di spunto sono mostrate.
+
+**ATTENZIONE**
+Il contenuto della registrazione è visualizzabile **SOLO** all’interno del software dedicato **HTAgorà** dopo lo scaricamento a PC della stessa (vedere § 7).
+
+6.  Toccare il tasto “ **Elimina Sel.** ” per cancellare la registrazione selezionata.
+7.  Toccare il tasto “ **Cancella tutto** ” per cancellare l’intero contenuto della memoria.
+8.  Toccare il tasto “ **Commento** ” per modificare il commento della registrazione aperta.
+
+PQA924 IT - 60
+### 6.5. INFORMAZIONI STRUMENTO
+
+In questa sezione sono riportati i parametri generali relativi alle caratteristiche interne dello strumento di utilità in caso di contatto con il servizio di assistenza HT.
+
+1.  Toccare l’icona “ **Info Strumento** ”. La seguente videata è mostrata a display.
+    (Fig. 82: Videata Info strumento)
+2.  Il significato delle voci presenti è il seguente:
+
+| Voce             | Descrizione                                     |
+| :--------------- | :---------------------------------------------- |
+| **Logo**         | Nome del costruttore                            |
+| **Modello**      | PQA924                                          |
+| **SN**           | Numero di serie dello strumento                 |
+| **HW**           | Versione Hardware dello strumento               |
+| **LCD, CPU**     | Versione Firmware dello strumento               |
+| **Data calibrazione** | Data dell’ultima calibrazione effettuata |
+| **Stato batteria** | Percentuale del livello di batteria             |
+
+3.  Premere il tasto “ **OK** ” per tornare al menu generale.
+
+PQA924 IT - 61
+## 7. COLLEGAMENTO DELLO STRUMENTO A PC
+
+La connessione fra PC e strumento per il download dei dati registrati può essere gestita nei seguenti modi:
+*   Tramite **accesso diretto** alla memory card collegata a PC con relativo lettore ( opzione raccomandata in caso di download registrazioni molto grandi ).
+*   Tramite porta **USB-C** (vedere Fig. 3 – parte 3) con uso del cavo in dotazione.
+*   Tramite collegamento **WiFi** da abilitare sullo strumento (vedere § 5.1.7).
+*   Tramite collegamento a rete **LAN Ethernet** (vedere § 5.1.11).
+
+**ATTENZIONE**
+Per effettuare il trasferimento dati a PC è necessario in ogni situazione avere preventivamente installato il SW di gestione **HTAgorà** scaricabile dal sito www.ht-instruments.com.
+
+### Collegamento tramite accesso diretto alla memory card
+
+1.  Estrarre la memory card dallo slot (vedere Fig. 3 – parte 2).
+2.  Inserire la memory card in un lettore di card e collegarlo ad una porta USB del PC.
+3.  Lanciare il software **HTAgorà**.
+4.  Cliccare sul tasto “ **Import** ”.
+    (Fig. 83: Importazione dati con software HTAgorà)
+5.  Dal disco rimuovibile “ **13010 (nome disco)** ” selezionare la cartella in cui è contenuta la registrazione desiderata (ad esempio “ **00300155** ” nella seguente figura).
+6.  Selezionare la cartella di destinazione all’interno del PC e confermare.
+7.  Il file della registrazione, con estensione **HQA** sarà disponibile nella cartella selezionata.
+8.  Aprire il file **HQA** della registrazione con software **HTAgorà**.
+
+<!-- Chunk: Pages 63-92 -->
+### Collegamento tramite cavo USB-C
+
+1.  Accendere lo strumento premendo il tasto **ON/OFF**
+2.  Con strumento in qualunque videata, collegarlo a PC utilizzando il cavo **USB-C C2010** in dotazione
+3.  Lanciare il software HTAgorà
+4.  Cliccare sul tasto “**Rileva**” per rilevare lo strumento. Le indicazioni “PQA924” e il tipo di connessione “USB” sono mostrate come indicato nella Fig. 84.
+
+Fig. 84: Collegamento strumento con software HTAgorà e connessione USB
+
+5.  Cliccare il tasto “**Connetti**” per collegare lo strumento e usare le successive interfacce interne del software per la gestione delle operazioni desiderate
+
+**ATTENZIONE**
+Non è possibile effettuare il trasferimento a PC tramite cavo USB-C dei dati durante una registrazione. Premere il tasto **GO/STOP** sullo strumento per terminare la registrazione prima di eseguire l’operazione.
+
+#### Collegamento tramite WiFi
+
+1.  Accendere lo strumento premendo il tasto **ON/OFF**
+2.  Toccare l’icona “**Impostazioni Generali**” nel menu generale e selezionare l’opzione “**ON**” nella funzione “**Hotspot WiFi**” (vedere § 5.1.7).
+3.  Aprire le impostazioni dell’accesso di rete cliccando sull’icona “ ” presente nella parte bassa destra del PC, selezionare la voce “**13010-xxxxxxxx**”, cliccare su “**Connetti**” e attendere al conferma del riconoscimento dello strumento da parte del PC.
+4.  Lanciare il software HTAgorà
+5.  Cliccare sul tasto “**Rileva**” per rilevare lo strumento. Le indicazioni “PQA924” e il tipo di connessione “WiFi” sono mostrate come indicato nella Fig. 85.
+
+Fig. 85: Collegamento strumento con software HTAgorà e connessione WiFi
+
+6.  Cliccare il tasto “**Connetti**” per collegare lo strumento e usare le successive interfacce interne del software per la gestione delle operazioni desiderate
+
+**ATTENZIONE**
+Non è possibile effettuare il trasferimento a PC dei dati durante una registrazione. Premere il tasto **GO/STOP** sullo strumento per terminare la registrazione prima di eseguire l’operazione.
+
+#### Collegamento tramite rete LAN Ethernet
+
+1.  Accendere lo strumento premendo il tasto **ON/OFF**
+2.  Rilevare l’indirizzo IP della rete locale Ethernet a cui è collegato lo strumento tramite connettore di ingresso RJ45 (vedere Fig. 2 – parte 4), come descritto nel § 5.1.11.
+3.  Lanciare il software HTAgorà
+4.  Cliccare sul tasto “**Rileva**” per rilevare lo strumento. Le indicazioni “PQA924” e il tipo di connessione “RETE” sono mostrate come indicato nella Fig. 86.
+
+Fig. 86: Collegamento strumento con software HTAgorà e connessione Ethernet
+
+5.  Cliccare il tasto “**Connetti**” per collegare lo strumento e usare le successive interfacce interne del software per la gestione delle operazioni desiderate.
+
+## 8. MANUTENZIONE
+
+### 8.1. GENERALITÀ
+
+Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli per l’operatore. Non utilizzare lo strumento in ambienti caratterizzati da tasso di umidità o temperatura esterne alle condizioni ambientali indicate nel § 9.3. Non esporre direttamente alla luce del sole. Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo di tempo, rimuovere le batterie per evitare da parte di queste ultime fuoruscite di liquidi che possano danneggiare i circuiti interni.
+
+### 8.2. SOSTITUZIONE O RICARICA BATTERIE INTERNE
+
+Quando a display appare il simbolo di batteria scarica “ ”, sostituirle (in caso di utilizzo di batterie alcaline) o ricaricarle (in caso di utilizzo di batterie ricaricabili NiMH).
+
+**ATTENZIONE**
+*   Solo tecnici qualificati possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso tutti i cavi dai terminali di ingresso.
+*   Per la ricarica delle batterie usare solo l’alimentatore HT fornito in dotazione al fine di evitare possibili danneggiamenti dello strumento.
+
+Nella seguente Tabella 2 sono indicati i possibili stati:
+
+| Icona a display | Descrizione stato                                                  |
+| :-------------- | :----------------------------------------------------------------- |
+|                 | Batteria completamente scarica. Eseguire la ricarica.               |
+|                 | Livello di batteria basso. Si consiglia di eseguire la ricarica.     |
+|                 | Batteria completamente carica.                                      |
+|                 | Livello di batteria medio.                                         |
+|                 | Batteria in ricarica.                                              |
+|                 | Ricarica della batteria completata.                                |
+|                 | Problemi con ricarica delle batterie interne. Usare nuove batterie oppure contattare il servizio di assitenza HT. |
+
+Tabella 2: Descrizione stato delle batterie interne
+
+#### Sostituzione batterie interne
+
+1.  Spegnere lo strumento
+2.  Rimuovere i cavi dai terminali di ingresso
+3.  Svitare la vite di fissaggio del coperchio vano batteria e rimuoverlo
+4.  Rimuovere tutte le batterie e sostituirle con altre identiche (vedere § 9.2) rispettando le polarità indicate
+5.  Riposizionare il coperchio vano batterie e fissarlo con l'apposita vite
+6.  Non disperdere nell’ambiente le batterie utilizzate. Usare gli appositi contenitori per lo smaltimento.
+
+#### Ricarica batterie interne
+
+La ricarica completa delle batterie va sempre eseguita tramite alimentatore esterno fornito in dotazione. L’alimentatore esterno ricarica le batterie con strumento sia acceso che spento. Non ricaricare batterie alcaline. Procedere nel modo seguente:
+
+1.  Rimuovere i cavi dai terminali di ingresso
+2.  Accendere lo strumento
+3.  Inserire l’alimentatore esterno sullo strumento e collegarlo alla rete elettrica. Il simbolo “ ” è presente nella parte alta destra del display ad indicare il processo in corso di ricarica delle batterie interne.
+4.  Procedere con la ricarica fino alla visualizzazione dell’icona “ “
+5.  Scollegare l’alimentatore esterno
+
+### 8.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc. prestando particolare attenzione al display TFT.
+
+## 9. SPECIFICHE TECNICHE
+
+### 9.1. CARATTERISTICHE TECNICHE
+
+Incertezza indicata come ± \[% lettura + valore\] a 23 °C ± 5 °C, <70 % RH. Incertezze per valori esterni ai campi di misura indicati non sono dichiarate.
+
+#### Tensione AC TRMS (L-L / L-N) – Classe S (IEC/EN61000-4-30)
+
+| Campo \[V\]           | Udin \[V\] | Risoluzione \[V\] | Incertezza (V<20%Udin)         | Incertezza Classe S (20% ÷ 120% Udin) |
+| :-------------------- | :--------- | :---------------- | :----------------------------- | :------------------------------------ |
+| 0.00 ÷ 999.99         | 100 ÷ 690  | 0.01              | ± (1.0 % lettura + 10 cifre)   | ± (0.5 % UdinMIN)                     |
+
+Udin = tensione nominale sistema; Max fattore di cresta: 1.5
+Lo strumento è collegabile a TV esterni con rapporto di trasformazione compreso nel campo: 1 ÷ 9999
+
+#### Frequenza – Classe S (IEC/EN61000-4-30)
+
+| Campo \[Hz\] | Risoluzione \[Hz\] | Incertezza |
+| :----------- | :----------------- | :--------- |
+| 42.50 ÷ 57.50  | 0.01               | ± 0.05Hz   |
+| 51.00 ÷ 69.00  |                    |            |
+
+Frequenza segnale rilevata tra gli ingressi L1-N o L1-L2
+
+#### Anomalie di Tensione (L-L / L-N) – Classe S (IEC/EN61000-4-30)
+
+| Campo \[V\]   | Risoluzione tensione | Risoluzione anomalia | Risoluzione Durata Anom. | Incertezza Tensione | Incertezza Tempo |
+| :------------ | :------------------- | :------------------- | :----------------------- | :------------------ | :--------------- |
+| 1.00 ÷ 999.99 | 0.01V                | ½ ciclo              | 1 ciclo                  | ± (1.0 % UdinMIN)   | ± 2 cicli        |
+
+Udin = tensione nominale sistema; Isteresi anomalia: 2%; Campo frequenza: 42.5Hz ÷ 69.0Hz; Campo tensione Udin: 100 ÷ 690V; Soglia impostabile: ± 1% ÷ ± 30%; Fattore di cresta tensione: 1.41
+
+#### Transitori veloci Tensione (L-PE Monofase/Trifase) – Classe S (IEC/EN61000-4-30)
+
+| Campo \[V\]     | Risoluzione Tensione \[V\] | Risoluzione Tempo \[s\] | Incertezza |
+| :-------------- | :------------------------- | :---------------------- | :--------- |
+| -8000 ÷ 8000    | 10                         | 1μ                      | ± 3%FS     |
+
+Max numero eventi registrabili: 2000; Campo frequenza: 42.5Hz ÷ 69.0Hz; Soglia minima: 200V/μs; Soglia impostabile: 50 V ÷ 8 kV;
+
+#### Flicker - Sistemi Monofase / Trifase - Classe S (IEC/EN61000-4-30)
+
+| Parametro | Campo           | Risoluzione | Incertezza |
+| :-------- | :-------------- | :---------- | :--------- |
+| Pst       | 0.400 ÷ 4.000   | 0.001       | 10%        |
+| Plt       |                 |             |            |
+
+#### Corrente AC TRMS (Trasduttore Standard STD) - Classe S (IEC/EN61000-4-30)
+
+| Campo \[mV\]  | Risoluzione \[mV\] | Incertezza                 |
+| :------------ | :----------------- | :------------------------- |
+| 1.0 ÷ 99.9    | 0.1                | ± (2.0 % lettura + 0.5mV)  |
+| 100 ÷ 999.9   |                    | ± (2.0 % lettura) Classe S |
+
+Valori segnale <1mV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤3.
+
+#### Corrente AC TRMS (Trasduttore FLEX – FS=300A) - Classe S (IEC/EN61000-4-30)
+
+| Campo \[mV\]    | Risoluzione \[μV\] | Incertezza                   |
+| :-------------- | :----------------- | :--------------------------- |
+| 0.085 ÷ 2.55    | 8.5                | ± (2.0 % lettura + 42.5μV)   |
+| 2.55 ÷ 25.5     |                    | ± (2.0 % lettura) Classe S   |
+
+Valori segnale <85μV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤3
+
+#### Corrente AC TRMS (Trasduttore FLEX – FS=3000A) - Classe S (IEC/EN61000-4-30)
+
+| Campo \[mV\]  | Risoluzione \[μV\] | Incertezza                   |
+| :------------ | :----------------- | :--------------------------- |
+| 0.85 ÷ 25.5   | 85                 | ± (2.0 % lettura + 425μV)    |
+| 25.5 ÷ 255    |                    | ± (2.0 % lettura) Classe S   |
+
+Valori segnale <850μV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤3
+
+#### Corrente AC TRMS (Trasduttore FLEX – FS=6000A) - Classe S (IEC/EN61000-4-30)
+
+| Campo \[mV\]  | Risoluzione \[μV\] | Incertezza                   |
+| :------------ | :----------------- | :--------------------------- |
+| 1.7 ÷ 51.0    | 170                | ± (2.0 % lettura + 850μV)    |
+| 51.0 ÷ 510    |                    | ± (2.0 % lettura) Classe S   |
+
+Valori segnale <1.7mV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤3
+
+#### Corrente AC TRMS (Trasduttore FLEX – FS=10000A) - Classe S (IEC/EN61000-4-30)
+
+| Campo \[mV\]  | Risoluzione \[μV\] | Incertezza                   |
+| :------------ | :----------------- | :--------------------------- |
+| 1.7 ÷ 85.0    | 283                | ± (2.0 % lettura + 1400μV)   |
+| 85.0 ÷ 850    |                    | ± (2.0 % lettura)            |
+
+Valori segnale <1.7mV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤ 1.8
+
+#### Correnti di spunto (Inrush) - (Trasduttore Standard STD)
+
+| Campo \[mV\]  | Risoluzione Tensione \[mV\] | Risoluzione Tempo | Incertezza Tensione      | Incertezza Tempo |
+| :------------ | :-------------------------- | :---------------- | :----------------------- | :--------------- |
+| 1.0 ÷ 999.9   | 0.1                         | ± ½ ciclo         | ± (2 % lettura + 0.5mV)  | ± ½ ciclo        |
+
+Valori segnale <1mV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤3
+
+#### Correnti di spunto (Inrush) - (Trasduttore FLEX FS=300A)
+
+| Campo \[mV\]    | Risoluzione Tensione \[μV\] | Risoluzione Tempo | Incertezza Tensione      | Incertezza Tempo |
+| :-------------- | :-------------------------- | :---------------- | :----------------------- | :--------------- |
+| 0.085 ÷ 25.5    | 8.5                         | ± ½ ciclo         | ± (2 % lettura + 42.5μV) | ± ½ ciclo        |
+
+Valori segnale <85μV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤3
+
+#### Correnti di spunto (Inrush) - (Trasduttore FLEX FS=3000A)
+
+| Campo \[mV\]  | Risoluzione Tensione \[μV\] | Risoluzione Tempo | Incertezza Tensione      | Incertezza Tempo |
+| :------------ | :-------------------------- | :---------------- | :----------------------- | :--------------- |
+| 0.85 ÷ 255    | 85                          | ± ½ ciclo         | ± (2 % lettura + 425μV)  | ± ½ ciclo        |
+
+Valori segnale <850μV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤3
+
+#### Correnti di spunto (Inrush) - (Trasduttore FLEX FS=6000A)
+
+| Campo \[mV\]  | Risoluzione Tensione \[μV\] | Risoluzione Tempo | Incertezza Tensione      | Incertezza Tempo |
+| :------------ | :-------------------------- | :---------------- | :----------------------- | :--------------- |
+| 1.7 ÷ 510     | 170                         | ± ½ ciclo         | ± (2 % lettura + 425μV)  | ± ½ ciclo        |
+
+Valori segnale <1.7mV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤3
+
+#### Correnti di spunto (Inrush) - (Trasduttore FLEX FS=10000A)
+
+| Campo \[mV\]  | Risoluzione Tensione \[μV\] | Risoluzione Tempo | Incertezza Tensione      | Incertezza Tempo |
+| :------------ | :-------------------------- | :---------------- | :----------------------- | :--------------- |
+| 1.7 ÷ 850     | 283                         | ± ½ ciclo         | ± (2 % lettura + 710 μV) | ± ½ ciclo        |
+
+Valori segnale <1.7mV sono azzerati; Campo frequenza: 42.5Hz ÷ 69.0Hz; Fattore di cresta: ≤ 1.8
+
+#### Ampiezza Armoniche /Interarmoniche Tensione - Classe S (IEC/EN61000-4-30)
+
+| Ordine      | Condizione    | Udin \[V\] | Risoluzione \[V\] | Incertezza        |
+| :---------- | :------------ | :--------- | :---------------- | :---------------- |
+| DC ÷ 63°    | Uh ≥ 3%Udin   | 100 ÷ 690  | 0.01              | ± 10 % lettura    |
+|             | Uh <3%Udin    |            |                   | ± 0.30 % Udin     |
+
+Udin = tensione nominale sistema; Campo frequenza fondamentale: 42.5Hz ÷ 69.0Hz
+
+#### Fase Armoniche Tensione - Classe S (IEC/EN61000-4-30)
+
+| Ordine      | Condizione    | Udin \[V\] | Risoluzione \[°\] | Incertezza             |
+| :---------- | :------------ | :--------- | :---------------- | :--------------------- |
+| DC ÷ 63°    | Uh ≥ 3%Udin   | 100 ÷ 690  | 0.01              | ± (ordine h x 1°)      |
+|             | Uh <3%Udin    |            |                   | ± (2 x ordine h x 1°)  |
+
+Udin = tensione nominale sistema; Campo frequenza fondamentale: 42.5Hz ÷ 69.0Hz
+
+#### Ampiezza Armoniche /Interarmoniche Corrente - Classe S (IEC/EN61000-4-30)
+
+| Ordine      | Condizione    | Risoluzione \[A\] | Incertezza        |
+| :---------- | :------------ | :---------------- | :---------------- |
+| DC ÷ 63°    | Ih ≥ 10%FS    | 0.1               | ± 10 % lettura    |
+|             | Ih <10%FS     |                   | ± 0.30 % FS       |
+
+FS = Fondo scala pinza usata; Campo frequenza fondamentale: 42.5Hz ÷ 69.0Hz
+
+#### Fase Armoniche Corrente - Classe S (IEC/EN61000-4-30)
+
+| Ordine      | Condizione    | Risoluzione \[°\] | Incertezza            |
+| :---------- | :------------ | :---------------- | :-------------------- |
+| DC ÷ 63°    | Ih ≥ 10%FS    | 0.01              | ± (ordine h x 1°)     |
+|             | Ih <10%FS     |                   | ± (2 x ordine h x 1°) |
+
+FS = Fondo scala pinza usata; Campo frequenza fondamentale: 42.5Hz ÷ 69.0Hz
+
+#### Armoniche Potenza - Classe S (IEC/EN61000-4-30)
+
+| Condizione Tensione | Condizione Corrente | Udin \[V\] | Risoluzione \[W\] | Incertezza                       |
+| :------------------ | :------------------ | :--------- | :---------------- | :------------------------------- |
+| Uh ≥ 3%Udin         | Ih ≥ 10%FS          | 100 ÷ 690  | 0.1               | ± (20 % lettura + 10 cifre)      |
+|                     | Ih < 10%FS          |            |                   | ± (0.30 % FS + 10% lettura + 10 cifre) |
+| Uh <3%Udin          | Ih ≥ 10%FS          |            |                   | ± (0.30 % Udin + 10% lettura + 10 cifre) |
+|                     | Ih <10%FS           |            |                   | ± (0.30 % Udin + 0.30% FS + 10 cifre) |
+
+FS = Fondo scala pinza usata; Udin = tensione nominale sistema; Campo frequenza fondamentale: 42.5Hz ÷ 69.0Hz
+
+#### Potenza /Energia Attiva / Apparente (V: \[80%..120%Udin\], I:FS\[1..3000A\], cos φ = 1) – Pinza STD
+
+| Campo corrente \[mV\] | Campo \[W\], \[Wh\], \[VA\]        | Risoluzione \[W\] \[Wh\], \[VA\] | Incertezza         |
+| :-------------------- | :--------------------------------- | :------------------------------- | :----------------- |
+| 10 ÷ 50               | 0.000 x FS ÷ 9.999 x FS            | 0.001 x FS                       | ± (2.0 % lettura)  |
+|                       | 10.00 x FS ÷ 99.99 x FS            | 0.01 x FS                        |                    |
+|                       | 100.0 x FS ÷ 999.9 x FS            | 0.1 x FS                         |                    |
+|                       | 1.000k x FS ÷ 9.999k x FS          | 0.001k x FS                      |                    |
+|                       | 10.00k x FS ÷ 99.99k x FS          | 0.01k x FS                       |                    |
+|                       | 100.0k x FS ÷ 999.9k x FS          | 0.1k x FS                        |                    |
+|                       | 1000k x FS ÷ 9999k x FS            | 1k x FS                          |                    |
+| 50 ÷ 1000             |                                    |                                  | ± (1.5 % lettura)  |
+
+FS = fondo scala pinza; Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza /Energia Attiva /Apparente (V: \[80%..120%Udin\], I: FS = 300A, cos φ = 1) – Pinza FLEX
+
+| Campo corrente \[mV\] | Campo \[W\], \[Wh\], \[VA\] | Risoluzione \[W\], \[Wh\], \[VA\] | Incertezza         |
+| :-------------------- | :-------------------------- | :-------------------------------- | :----------------- |
+| 0.255 ÷ 1.275         | 0.0 ÷ 999.5                 | 0.5                               | ± (2.0 % lettura)  |
+|                       | 1.000k ÷ 9.999k             | 0.005k                            |                    |
+|                       | 10.00k ÷ 99.99k             | 0.05k                             |                    |
+|                       | 100.0k ÷ 999.9k             | 0.5k                              |                    |
+|                       | 1000k ÷ 9999k               | 5k                                |                    |
+| 1.275 ÷ 25.5          |                             |                                   | ± (1.5 % lettura)  |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza /Energia Attiva /Apparente (V:\[80%..120%Udin\], I:FS=3000A,cos φ = 1) – Pinza FLEX
+
+| Campo corrente \[mV\] | Campo \[W\], \[Wh\], \[VA\] | Risoluzione \[W\], \[Wh\], \[VA\] | Incertezza         |
+| :-------------------- | :-------------------------- | :-------------------------------- | :----------------- |
+| 2.55 ÷ 12.75          | 0 ÷ 9999                    | 5                                 | ± (2.0 % lettura)  |
+|                       | 10.00k ÷ 99.99k             | 0.05k                             |                    |
+|                       | 100.0k ÷ 999.9k             | 0.5k                              |                    |
+|                       | 1000k ÷ 9999k               | 5k                                |                    |
+|                       | 1.000M ÷ 9.999M             | 0.005M                            |                    |
+| 12.75 ÷ 255           |                             |                                   | ± (1.5 % lettura)  |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza/Energia Attiva/Apparente (V: \[80%..120%Udin\], I: FS = 6000A, cos φ = 1) – Pinza FLEX
+
+| Campo corrente \[mV\] | Campo \[W\], \[Wh\], \[VA\] | Risoluzione \[W\], \[Wh\], \[VA\] | Incertezza         |
+| :-------------------- | :-------------------------- | :-------------------------------- | :----------------- |
+| 5.1 ÷ 25.5            | 0 ÷ 9999                    | 5                                 | ± (2.0 % lettura)  |
+|                       | 10.00k ÷ 99.99k             | 0.05k                             |                    |
+|                       | 100.0k ÷ 999.9k             | 0.5k                              |                    |
+|                       | 1000k ÷ 9999k               | 5k                                |                    |
+|                       | 1.000M ÷ 9.999M             | 0.005M                            |                    |
+| 25.5 ÷ 510            |                             |                                   | ± (1.5 % lettura)  |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza/Energia Attiva/Apparente (V:\[80%..120%Udin\], I:FS = 10000A, cos φ = 1) – Pinza FLEX
+
+| Campo corrente \[mV\] | Campo \[W\], \[Wh\], \[VA\] | Risoluzione \[W\], \[Wh\], \[VA\] | Incertezza         |
+| :-------------------- | :-------------------------- | :-------------------------------- | :----------------- |
+| 5.1 ÷ 25.5            | 0 ÷ 9999                    | 5                                 | ± (2.0 % lettura)  |
+|                       | 10.00k ÷ 99.99k             | 0.05k                             |                    |
+|                       | 100.0k ÷ 999.9k             | 0.5k                              |                    |
+|                       | 1000k ÷ 9999k               | 5k                                |                    |
+|                       | 1.000M ÷ 9.999M             | 0.005M                            |                    |
+| 25.5 ÷ 850            |                             |                                   | ± (1.5 % lettura)  |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza /Energia Reattiva AC (V: \[80%..120%Udin\], I: FS \[1..3000A\], cos φ = 0.5) – Pinza STD
+
+| Campo corrente \[mV\] | Campo \[VAr\] \[VArh\]             | Risoluzione \[VAr\] \[VArh\] | Incertezza         |
+| :-------------------- | :--------------------------------- | :--------------------------- | :----------------- |
+| 20 ÷ 100              | 0.000 x FS ÷ 9.999 x FS            | 0.001 x FS                   | ± (2.0 % lettura)  |
+|                       | 10.00 x FS ÷ 99.99 x FS            | 0.01 x FS                    |                    |
+|                       | 100.0 x FS ÷ 999.9 x FS            | 0.1 x FS                     |                    |
+|                       | 1.000k x FS ÷ 9.999k x FS          | 0.001k x FS                  |                    |
+|                       | 10.00k x FS ÷ 99.99k x FS          | 0.01k x FS                   |                    |
+|                       | 100.0k x FS ÷ 999.9k x FS          | 0.1k x FS                    |                    |
+|                       | 1000k x FS ÷ 9999k x FS            | 1k x FS                      |                    |
+| 100 ÷ 1000            |                                    |                              | ± (1.5 % lettura)  |
+
+FS = fondo scala pinza; Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza/Energia Reattiva AC (V: \[80%..120%Udin\], I: FS = 300A, cos φ = 0.5) – Pinza FLEX
+
+| Campo corrente \[mV\] | Campo \[VAr\] \[VArh\] | Risoluzione \[VAr\] \[VArh\] | Incertezza         |
+| :-------------------- | :--------------------- | :--------------------------- | :----------------- |
+| 0.510 ÷ 2.55          | 0.0 ÷ 999.5            | 0.5                          | ± (2.0 % lettura)  |
+|                       | 1.000k ÷ 9.999k        | 0.005k                       |                    |
+|                       | 10.00k ÷ 99.99k        | 0.05k                        |                    |
+|                       | 100.0k ÷ 999.9k        | 0.5k                         |                    |
+|                       | 1000k ÷ 9999k          | 5k                           |                    |
+| 2.55 ÷ 25.5           |                        |                              | ± (1.5 % lettura)  |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza/Energia Reattiva AC (V: \[80%..120%Udin\], I: FS = 3000A, cos φ = 0.5) – Pinza FLEX
+
+| Campo corrente \[mV\] | Campo \[VAr\] \[VArh\] | Risoluzione \[VAr\] \[VArh\] | Incertezza         |
+| :-------------------- | :--------------------- | :--------------------------- | :----------------- |
+| 5.10 ÷ 25.5           | 0 ÷ 9999               | 5                            | ± (2.0 % lettura)  |
+|                       | 10.00k ÷ 99.99k        | 0.05k                        |                    |
+|                       | 100.0k ÷ 999.9k        | 0.5k                         |                    |
+|                       | 1000k ÷ 9999k          | 5k                           |                    |
+|                       | 1.000M ÷ 9.999M        | 0.005M                       |                    |
+| 25.5 ÷ 255            |                        |                              | ± (1.5 % lettura)  |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza/Energia Reattiva AC (V: \[80%..120%Udin\], I: FS = 6000A, cos φ = 0.5) – Pinza FLEX
+
+| Campo corrente \[mV\] | Campo \[VAr\] \[VArh\] | Risoluzione \[VAr\] \[VArh\] | Incertezza         |
+| :-------------------- | :--------------------- | :--------------------------- | :----------------- |
+| 10.2 ÷ 51.0           | 0 ÷ 9999               | 5                            | ± (2.0 % lettura)  |
+|                       | 10.00k ÷ 99.99k        | 0.05k                        |                    |
+|                       | 100.0k ÷ 999.9k        | 0.5k                         |                    |
+|                       | 1000k ÷ 9999k          | 5k                           |                    |
+|                       | 1.000M ÷ 9.999M        | 0.005M                       |                    |
+| 51.0 ÷ 510            |                        |                              | ± (1.5 % lettura)  |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Potenza/Energia Reattiva AC (V: \[80%..120%Udin\], I: FS = 10000A, cos φ = 0.5) – Pinza FLEX
+
+| Campo corrente \[mV\] | Campo \[VAr\] \[VArh\] | Risoluzione \[VAr\] \[VArh\] | Incertezza         |
+| :-------------------- | :--------------------- | :--------------------------- | :----------------- |
+| 10.2 ÷ 51.0           | 0 ÷ 9999               | 5                            | ± (2.0 % lettura)  |
+|                       | 10.00k ÷ 99.99k        | 0.05k                        |                    |
+|                       | 100.0k ÷ 999.9k        | 0.5k                         |                    |
+|                       | 1000k ÷ 9999k          | 5k                           |                    |
+|                       | 1.000M ÷ 9.999M        | 0.005M                       |                    |
+| 51.0 ÷ 850            |                        |                              | ± (1.5 % lettura)  |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+#### Fattore di Potenza e cos φ – (V: \[80%.. 120%Udin\], I: >10% FS pinza)
+
+| Campo        | Risoluzione | Incertezza |
+| :----------- | :---------- | :--------- |
+| 0.20 ÷ 1.00  | 0.01        | ±0.04      |
+
+Frequenza fondamentale: 42.5 ÷ 69Hz, Tensioni e correnti sinusoidali
+
+### 9.2. CARATTERISTICHE GENERALI
+
+#### Funzioni strumento
+
+*   **Analisi periodica (valori TRMS)**: Tensioni (5 canali), Correnti (4 canali), Potenze Attive, Reattive, Apparenti (4 quadranti), Fattori di potenza e cos φ (4 quadranti), Energie Attive e Reattive (4 quadranti), Dissimmetria tensione, Flicker, Valori picco.
+*   **Analisi armonica**: Istogrammi Tensioni, Correnti (ampiezza/fase), Potenze (ampiezza), Interarmoniche, Fattore K fino al 63° ordine, THD%, THI%, Armoniche entranti e uscenti.
+*   **Forme d’onda dei segnali**: Tensioni, Correnti.
+*   **Diagrammi vettoriali**: Tensioni, Correnti.
+*   **Anomalie di tensione**: Buchi, picchi, interruzioni (max 2000 eventi).
+*   **Transitori di tensione veloci**: fino a 8kV (max 2000 eventi).
+*   **Correnti di spunto (Inrush)**: max 2000 eventi.
+
+#### Registrazioni
+
+*   **Numero di parametri registrabili**: 3180 + eventi tensione/corrente
+*   **Periodo di integrazione (PI)**: 0.2s, 3s, 10s, 15s, 18s, 30s, 1min, 5min, 10min, 15min, 30min, 60min, 120min
+*   **Periodo di integrazione frequenza**: 1s ÷ 30s
+*   **Periodo di integrazione armoniche**: 0.2s, 3s, 6s, 10s, 12s, 15s, 18s, 30s, 1min, 5min, 10min, 15min, 30min, 60min, 120min
+*   **Dimensione massima registrazione**: 512MB (tutti i parametri), max 99 registrazioni
+*   **Autonomia registrazione**: ca 408 giorni (PI = 10min), ca 3 ore (PI = 0.2s)
+
+#### Display
+
+*   **Caratteristiche**: grafico, 3.5” (320x240pxl), TFT, colori, touch screen resistivo retroilluminato
+*   **Regolazione luminosità**: programmabile
+
+#### Memoria e interfacce PC
+
+*   **Memoria per salvataggio dati**: Memory card (velocità scrittura minima 10MB/s, formattata FAT32)
+*   **Interfaccia con PC**: USB-C, WiFi, Ethernet (LAN RJ45)
+
+#### Alimentazione
+
+*   **Alimentazione interna**: 6x 1.5V batterie alcaline tipo AA LR06 oppure 6x1.2V batterie ricaricabili NiMH tipo AA LR06
+*   **Tempo di ricarica**: ca 6 ore
+*   **Alimentatore caricabatterie**: 100-415VAC / 15VDC, 8W, 50/60Hz
+*   **Autospegnimento**: dopo 5 minuti di non utilizzo (senza alimentatore)
+
+#### Caratteristiche meccaniche
+
+*   **Dimensioni (L x La x H)**: 235 x 165 x 75 mm
+*   **Peso (batteria inclusa)**: 1.2 kg
+*   **Protezione meccanica**: IP40
+
+#### Normative di riferimento
+
+*   **Sicurezza strumento**: IEC/EN61010-1, IEC/EN61010-2-030, IEC/EN61010-2-033
+*   **EMC**: IEC/EN61326-1
+*   **Documentazione tecnica**: IEC/EN61187
+*   **Sicurezza accessori di misura**: IEC/EN61010-031, IEC/EN61010-2-032
+*   **Isolamento**: doppio isolamento
+*   **Grado di Inquinamento**: 2
+*   **Categoria di misura**: CAT IV 600V, CAT III 1000V verso Terra max 1000V tra gli ingressi
+*   **Qualità di rete**: IEC/EN61000-4-30 – Classe S
+*   **Qualità tensione di rete**: EN50160
+*   **Flicker**: IEC/EN61000-4-15
+*   **Armoniche, Interarmoniche, Dissimmetria**: IEC/EN61000-4-7
+
+### 9.3. CONDIZIONI AMBIENTALI DI UTILIZZO
+
+*   **Temperatura di riferimento**: 23 °C ± 5°C
+*   **Temperatura di utilizzo**: -10 °C ÷ 50°C
+*   **Umidità relativa di utilizzo**:
+    *   10°C ÷ 30°C → <95%RH (senza condensa)
+    *   30°C ÷ 40°C → <75%RH (senza condensa)
+    *   40°C ÷ 50°C → <45%RH (senza condensa)
+*   **Temperatura di conservazione**: -20 °C ÷ 60°C
+*   **Umidità di conservazione**: <80%RH
+*   **Altitudine max di utilizzo**: 2000m
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione 2014/35/EU (LVD), della direttiva EMC 2014/30/EU e della direttiva RED 2014/53/EU.
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (RoHS) e della direttiva europea 2012/19/EU (WEEE).
+
+### 9.4. ACCESSORI
+
+Vedere packing list allegata.
+
+## 10. APPENDICE – CENNI TEORICI
+
+### 10.1. ANOMALIE DI TENSIONE
+
+Lo strumento definisce come anomalia di tensione un evento in cui il valore TRMS, calcolato su uno ciclo e aggiornato ogni semi-ciclo, di una o più tensioni eccede la soglia superiore o inferiore impostate. Questi limiti restano invariati per l’intera durata della registrazione. In generale le anomalie di tensione (buchi, picchi o interruzioni) si considerano concluse quando tutte le tensioni in esame rientrano all’interno della soglie programmate con aggiunta di un valore percentuale di isteresi come indicato nella seguente Fig. 87.
+
+Fig. 87: Riferimenti nella rilevazione delle anomalie di tensione
+
+Il valore della Tensione di riferimento va impostato come:
+
+*   **Tensione nominale Fase-Neutro** → sistemi Monofase e Trifase 4-fili
+*   **Tensione nominale Fase-Fase** → sistemi Trifase 3-fili.
+
+Esempio1: Sistema Trifase 3-fili.
+Vref = 400V, LIM+= 10%, LIM-=10%
+Lim Sup= 400 x (1+ 10 /100) = 440 V
+Lim Inf = 400 x (1 - 10/100) = 360 V
+
+Esempio2: Sistema Trifase 4-fili.
+Vref = 230V, LIM+= 10%, LIM-=10%
+Lim Sup= 230 x (1+ 10 /100) = 253V
+Lim Inf = 230 x (1 - 10/100) = 207V
+
+**ATTENZIONE**
+*   La visualizzazione dei dati registrati inerenti le anomalie di tensione è possibile solo tramite del software HTAgorà.
+*   La rilevazione e salvataggio delle anomalie di tensione, in quanto eventi indipendenti, **NON segue** i periodi di integrazione impostati sullo strumento.
+*   Il numero corrispondente alla fase in cui si è verificata l’anomalia.
+*   La “direzione” dell’anomalia: “Up”, “Down” o “Break” identificano rispettivamente picchi, buchi o interruzioni di tensione.
+*   La data e l'ora di inizio dell’evento.
+*   La durata dell’evento.
+*   Il valore minimo (o massimo) della tensione durante il fenomeno.
+*   Il grafico dei 10 cicli (@50Hz) / 12 cicli (@60Hz) in cui si è aperto un evento.
+*   Il grafico dei 10 cicli (@50Hz) / 12 cicli (@60Hz) in cui si è chiuso l’evento.
+
+### 10.2. ARMONICHE DI TENSIONE E CORRENTE
+
+#### 10.2.1. Teoria
+
+Qualsiasi onda periodica non sinusoidale può essere rappresentata tramite una somma di onde sinusoidali ciascuna con frequenza multipla intera della fondamentale (@50Hz oppure @60Hz) secondo la relazione:
+
+```
+V(t) = V₀ + Σ Vk sin(ωk t + φk)
+        ∞
+       k=1
+```
+
+dove:
+`V₀` = Valore medio del segnale V(t)
+`Vk` = Ampiezza della k-esima armonica di V(t)
+`ωk` = 2πfk = pulsazione della k-esima armonica
+`fk` = frequenza della k-esima armonica
+`φk` = angolo di fase della k-esima armonica
+
+Nel caso della tensione di rete la fondamentale ha frequenza 50Hz, la seconda armonica ha frequenza 100Hz, la terza armonica ha frequenza 150Hz e così via. La distorsione armonica è un problema costante e non deve essere confuso con fenomeni di breve durata quali picchi, diminuzioni o fluttuazioni. L’angolo di fase dell’armonica individua il punto di zero rispetto all’origine e può influire in modo significativo sulla ampiezza massima del segnale armonico risultante.
+Si può osservare come nella (1) l’indice della sommatoria vada da 1 a ∞. Quello che accade in realtà è che ogni segnale non ha un numero di armoniche illimitato: esiste sempre un numero d’ordine oltre il quale il valore delle armoniche è trascurabile. Nella seguente Fig. 88 è riportato un esempio di sovrapposizione di un’armonica di 3° ordine ad una fondamentale sinusoidale di un segnale. Il fatto di avere la fase dell’armonica in opposizione di fase genera un segnale risultante significativamente distorto e di ampiezza maggiore della fondamentale che potrebbe creare significativi problemi nella gestione delle protezioni.
+
+Fig. 88: Analisi armonica – Effetto della somma di 2 frequenza multiple
+
+Le normative EN50160 e IEC/EN61000-4-30 Classe S, suggerisce di troncare la sommatoria nell’espressione (1) al 40° ordine. Un indice fondamentale per rilevare la presenza di armoniche è il parametro Distorsione Armonica Totale (Total Harmonic Distortion - THD% valore percentuale) definito come:
+
+```
+THDV% = (√(Σ(Vh²) for h=1 to 40) / V1) * 100
+```
+
+Tale indice tiene conto della presenza di tutte le armoniche ed è tanto più elevato quanto più è distorta la forma d'onda di tensione o corrente.
+
+#### 10.2.2. Valori limite per le armoniche di tensione
+
+La normativa EN50160 fissa i limiti sulle ampiezze massime delle tensioni armoniche che l'ente fornitore può immettere nella rete. In condizioni normali di esercizio, durante qualsiasi periodo di una settimana, il 95% dei valori efficaci di ogni tensione armonica, mediati sui 10 minuti, dovrà essere minore o uguale rispetto ai valori indicati nella seguente Tabella 3. La distorsione armonica globale (THD) della tensione di alimentazione (includendo tutte le armoniche fino al 40° ordine) deve essere minore o uguale all’8%.
+
+| ARMONICHE DISPARI (\*) Non multiple di 3 | ARMONICHE DISPARI (\*) Multiple di 3 | ARMONICHE PARI (\*) |
+| :--------------------------------------- | :----------------------------------- | :------------------ |
+| Ordine h | Max ampiezza relativa Uh | Ordine h | Max ampiezza relativa Uh | Ordine h | Max ampiezza relativa Uh |
+| 5        | 6.0 %                      | 3        | 5.0 %                    | 2        | 2.0 %                    |
+| 7        | 5.0 %                      | 9        | 1.5%                     | 4        | 1.0 %                    |
+| 11       | 3.5 %                      | 15       | 1.0 %                    | 6..24    | 0.5 %                    |
+| 13       | 3.0 %                      | 21       | 0.75 %                   |           |                           |
+| 17       | 2.0 %                      |           |                           |           |                           |
+| 19       | 1.5 %                      |           |                           |           |                           |
+| 23       | 1.5 %                      |           |                           |           |                           |
+| 25       | 1.5 %                      |           |                           |           |                           |
+
+(\*) Valori indicati in percentuale riferiti alla fondamentale U1
+NOTA: nessun valore è indicato per armoniche di ordine maggiore a 25 in quanto di ampiezze molto piccole e non prevedibili per effetto dei fenomeni di risonanza
+
+Tabella 3: Valori di riferimento armoniche di tensione secondo la EN50160
+
+Questi limiti, teoricamente applicabili solo per gli Enti fornitori di energia elettrica, forniscono comunque una serie di valori di riferimento entro cui contenere anche le armoniche immesse in rete dagli utilizzatori.
+
+#### 10.2.3. Cause della presenza di armoniche
+
+Qualsiasi utilizzatore che alteri l'onda sinusoidale o usi soltanto una parte di detta onda ne causa distorsioni e quindi introduce un contenuto armonico.
+Tutti i segnali di corrente risultano in qualche modo virtualmente distorti. La più comune è la distorsione armonica causata da carichi **NON LINEARI** quali elettrodomestici, PC o regolatori di velocità per motori. La distorsione armonica genera correnti significative a frequenze che sono multipli interi della frequenza di rete. Le correnti armoniche hanno un notevole effetto sui conduttori di neutro degli impianti elettrici.
+Nella maggior parte dei paesi la tensione di rete in uso è trifase 50/60Hz erogata da un trasformatore con primario collegato a triangolo e secondario collegato a stella. Il secondario generalmente produce 230VAC tra fase e neutro e 400VAC fase e fase.
+Equilibrare i carichi per ciascuna fase ha sempre rappresentato un rompicapo per i progettisti di impianti elettrici. Fino a qualche decina di anni or sono, in un sistema ben equilibrato, la somma vettoriale delle correnti nel neutro era zero o comunque piuttosto bassa (data la difficoltà di raggiungere l’equilibrio perfetto). Le apparecchiature collegate erano lampade a incandescenza, piccoli motori ed altri dispositivi che presentavano carichi lineari. Il risultato era una corrente essenzialmente sinusoidale in ciascuna fase ed una corrente con valore di neutro basso ad una frequenza di 50/60Hz.
+Dispositivi “moderni” quali televisori, lampade fluorescenti, apparecchi video e forni a microonde normalmente assorbono corrente solo per una frazione di ciascun ciclo causando carichi non lineari e di conseguenza correnti non lineari. Ciò genera strane armoniche della frequenza di linea di 50/60Hz. Per questo motivo, allo stato odierno, la corrente nei trasformatori delle cabine di distribuzione contiene non solo una componente 50Hz (o 60Hz) ma anche una componente 150Hz (o 180Hz), una componente 250Hz (o 300Hz) e altre componenti significative di armonica fino a 750Hz (o 900Hz) ed oltre. In tale contesto è significativamente importante la conoscenza del fattore K (vedere § 10.2.5).
+Il valore della somma vettoriale delle correnti in un sistema correttamente bilanciato che alimenta carichi non lineari può essere ancora piuttosto basso. Tuttavia la somma non elimina tutte le correnti armoniche. I **multipli dispari della terza armonica** (chiamati “**TRIPLENS**”) si sommano algebricamente nel neutro e quindi possono causare surriscaldamenti del medesimo anche con carichi bilanciati.
+
+#### 10.2.4. Conseguenza della presenza di armoniche
+
+In generale le armoniche d'ordine pari, 2°, 4°, 6°, ecc.. non sono causa di problemi. Le armoniche triple, multipli dispari di tre, si sommano sul neutro (invece di annullarsi) creando così una situazione di surriscaldamento del conduttore stesso potenzialmente pericolosa.
+I progettisti devono considerare i tre punti di seguito elencati nella progettazione di un sistema di distribuzione di energia contenente correnti di armoniche:
+
+*   Il conduttore del neutro deve essere sufficientemente dimensionato.
+*   Il trasformatore di distribuzione deve avere un sistema di raffreddamento ausiliario per continuare il funzionamento alla sua capacità nominale se non è adatto alle armoniche. Ciò è necessario perché la corrente armonica nel neutro del circuito secondario circola nel primario collegato a triangolo. Questa corrente di armonica in circolazione porta ad un surriscaldamento del trasformatore.
+*   Le correnti armoniche della fase vengono riflesse sul circuito primario e ritornano alla fonte. Ciò può causare distorsione dell’onda di tensione in modo tale che qualsiasi condensatore di rifasamento sulla linea può essere facilmente sovraccaricato.
+
+Le armoniche di ordine 5° e 11° si oppongono al flusso della corrente attraverso i motori rendendone più difficile il funzionamento limitandone la vita media.
+In generale più è elevato il numero d'ordine della armonica e minore è la sua energia e quindi minore l'impatto che avrà sulle apparecchiature (fatta eccezione per i trasformatori).
+
+#### 10.2.5. Parametri di scelta dei trasformatori elettrici – Fattore K
+
+L’alimentazione di carichi elettrici non lineari può creare problemi termici e meccanici ai trasformatori di potenza. Le armoniche di corrente, infatti, sono causa di perdite aggiuntive negli avvolgimenti e vibrazioni. Queste problematiche possono portare a malfunzionamenti e/o ad una riduzione della durata di vita attesa del trasformatore.
+Ad esempio, il funzionamento continuativo di un trasformatore a 10°C oltre la sua classe di isolamento porta ad una riduzione della durata di vita di circa il 50%. L’isolamento del trasformatore è infatti sensibile all’eccessiva temperatura, poiché può perdere le sue caratteristiche fisiche portando, nella peggiore delle ipotesi, al corto circuito tra le spire o verso massa e quindi al fuori servizio.
+Per alimentare in tutta sicurezza un carico con una o più utenze non lineari, bisogna progettare il trasformatore in modo opportuno: il **Fattore K** è un indice utilizzato per definirne la capacità di alimentare un carico più o meno pesantemente non lineare, evitando un riscaldamento eccessivo e garantendo continuità di servizio. Esso è definito dalla seguente relazione ed è un parametro presente nell’analisi armonica eseguita dallo strumento PQA924:
+
+```
+K = (Σ (In² * n²) from n=1 to 50) / (Σ In² from n=1 to 50)
+```
+
+dove:
+`In` = valore efficace della corrente armonica di ordine n
+`n` = ordine dell’armonica
+
+Tanto più è elevato il fattore K di un trasformatore, tanto più quel trasformatore è robusto nei confronti dei carichi non lineari. Una volta noto il fattore K del carico che si deve alimentare, deve essere scelto un trasformatore con fattore K uguale o superiore a quello del carico.
+
+#### 10.2.6. Interarmoniche
+
+Mentre le armoniche sono segnali con una frequenza che è un multiplo intero della fondamentale le **interarmoniche** sono segnali con una frequenza che **non è un multiplo intero** della fondamentale.
+La conoscenza dei disturbi associati alle interarmoniche è ancora in fase di evoluzione, anche se c’è moltissimo interesse su questo fenomeno in aumento a causa dello sviluppo dei convertitori di frequenza e apparecchi di controllo similari.
+In analogia con quanto avviene per le armoniche, l'ordine di un'interarmonica è dato dal rapporto fra la frequenza interarmonica e la fondamentale. Ci sono due meccanismi di base per la generazione delle interarmoniche. Il primo è legato alla modulazione in ampiezza e/o fase della frequenza della tensione di alimentazione. Il secondo meccanismo è la commutazione asincrona (cioè non sincronizzata con la frequenza di alimentazione) dei dispositivi a semiconduttore nei convertitori statici. Gli esempi tipici sono cicloconvertitori e convertitori a modulazione di larghezza di impulso (PWM). I carichi che possono provocare interarmoniche sono:
+*   Carichi basati sull’arco elettrico, quali saldatrici e forni ad arco
+*   Azionamenti elettrici
+*   Convertitori statici
+
+Lo strumento PQA924 esegue i calcoli delle interarmoniche di tensione e di corrente.
+Un indice fondamentale per rilevare la presenza di interarmoniche di tensione è il parametro Distorsione Inter-Armonica Totale THIV% valore percentuale definito come:
+
+```
+THIV% = (√(Σ(Vi_h²) for h=2 to 40) / V1) * 100
+```
+
+### 10.3. CORRENTI DI SPUNTO
+
+Lo strumento PQA924 consente di rilevare e registrare eventi legati alla corrente di spunto, fenomeno tipico degli avviamenti delle macchine rotanti, ma di utilizzo anche per altre tipologie di applicazioni nel settore dell’impiantistica industriale (es: risoluzione di problemi sulle commutazioni di carichi, dimensionamento delle protezioni, correnti oscillanti, ecc...) come mostrato nelle figure seguenti:
+
+Fig. 89: Parametri corrente di spunto ad andamento standard
+
+Fig. 90: Parametri corrente di spunto ad andamento oscillante
+
+Lo strumento cataloga come correnti di spunto tutti gli eventi caratterizzati dal superamento da parte della correnti di fase di una soglia prefissata. Il numero massimo di eventi registrabili è 2000.
+In fase di impostazione strumento prima della registrazione, l’utente ha la possibilità di modificare i seguenti parametri:
+
+*   **Soglia limite di corrente**: Valore di corrente che comporta la rilevazione e memorizzazione di un evento. Il valore Max impostabile è sempre pari al fondo scala delle pinze usate.
+*   **Modi di rilevazione**: Sono disponibili i seguenti modi:
+    *   **Fissa**: Lo strumento rileva e memorizza un evento quando il valore RMS della corrente calcolato per ogni periodo ed aggiornato ogni semiperiodo (10ms a 50Hz, 8.3ms a 60Hz) supera il valore della soglia definita dall’utente. Affinché lo strumento sia pronto a rilevare un nuovo evento occorre che la corrente scenda al di sotto del valore della soglia limite impostata.
+    *   **Var**: Lo strumento rileva e memorizza un evento ogni volta che il valore RMS della corrente calcolato ogni semiperiodo (10ms a 50Hz, 8.3ms a 60Hz) supera il valore RMS precedente (ossia calcolato nel semiperiodo precedente) di una quantità pari alla soglia limite definita dall’utente.
+*   **Intervallo di osservazione**: Quando lo strumento rileva un evento memorizza 100 valori RMS della corrente e 100 Valori RMS della corrispondente tensione entro l’intervallo di osservazione specificato. I valori disponibili sono nel campo 0.2s ÷ 10.0s in passi di 0.2s.
+
+**ATTENZIONE**
+La visualizzazione degli eventi è possibile solo all’interno del software HTAgorà.
+
+L’analisi dei risultati è possibile solo scaricando i dati a PC e utilizzando il software HTAgorà.
+In particolare sono mostrati i seguenti valori:
+*   **Tabella numerica degli eventi registrati** (fase in cui è avvenuto l’evento, data/ora in cui è avvenuto l’evento, valore massimo tra i valori TRMS calcolato in un semiperiodo durante l’intervallo di osservazione, valore assunto dell’ultimo valore appartenente all’intervallo di osservazione).
+*   **Finestra grafica degli eventi registrati** (grafico dei 100 valori TRMS memorizzati della corrente e corrispondente tensione durante l’intervallo di osservazione per ogni riga della tabella numerica).
+
+### 10.4. FLICKER DELLA TENSIONE
+
+In ambito elettrotecnico, il “**Flicker**” è un fenomeno prodotto dalle variazioni repentine e ripetitive della tensione di rete. Esso è dovuto all’inserzione e alla disinserzione frequenti dei carichi e si manifesta, come disturbo, con un’impressione visiva di instabilità (sfarfallio) sulla luminanza degli apparecchi illuminanti. Questo fastidioso effetto deve essere monitorato in accordo alle prescrizioni della normativa di riferimento IEC/EN61000-4-15 la quale impone che la severità di lunga durata dell’intensità di disturbo del flicker sia non superiore a 1 per il 95% del tempo di osservazione.
+Le cause di tale disturbo sono spesso riconducibili all'inserzione e al distacco di grossi carichi connessi alla rete che lavorano in modo discontinuo (fenomeno tipico presente nelle fonderie, o alle saldatrici ad arco elettrico per uso industriale).
+Per stimare il controllo di questo fenomeno aleatorio è stata introdotta una grandezza **Pst** a partire da misure sulla tensione di rete. Essa è definita come **severità del flicker di breve durata**, a causa della “breve” durata di acquisizione (10min) della tensione di rete necessaria per effettuare l’analisi. Il Pst è ricavato per via statistica analizzando opportunamente la tensione di rete.
+Gli enti di distribuzione dell'energia elettrica devono soddisfare precisi vincoli anche per quanto riguarda questo disturbo. Lo strumento PQA924 ricava il segnale distorto rispetto quello ideale ed esegue un'analisi statistica ricavando le seguenti grandezze:
+*   **Pinst** → Valore istantaneo del Flicker calcolato in tempo reale
+*   **Pst** → Severità del Flicker a breve termine calcolata con periodi di integrazione di 10 minuti
+*   **Plt** → Severità del Flicker a lungo termine calcolata a partire da una sequenza di 12 valori di Pst su un intervallo di 2 ore secondo la formula seguente:
+
+```
+Plt = ³√( (Σ Psti³) / 12 ) from i=1 to 12
+```
+
+### 10.5. DISSIMMETRIA DELLE TENSIONI
+
+In condizioni normali le tensioni di alimentazione sono simmetriche ed i carichi equilibrati. Si hanno dissimmetrie e squilibri in caso di guasti (rottura dell’isolamento) ed interruzioni di fasi. Inoltre, con carichi monofase, l’equilibrio può essere solo di tipo statistico.
+E’ necessario affrontare lo studio della rete trifase anche nelle condizioni anomale di guasto per dimensionare le protezioni. Si può ricorrere al sistema di equazioni derivato dai principi di Kirchhoff, ma per utilizzare considerazioni e formule dei sistemi equilibrati, ed anche per comprendere meglio il contributo dei componenti di impianto, è utile la teoria delle componenti simmetriche.
+Si può dimostrare che qualsiasi terna di vettori può essere scomposta in tre terne: la **simmetrica diretta**, la **simmetrica inversa** e l’**omopolare** come mostrato nella figura seguente:
+
+Fig. 91: Scomposizione di una terna di vettori
+
+Sulla base di ciò si ottiene che ogni sistema trifase comunque dissimmetrico e squilibrato può scomporsi in tre sistemi trifasi che si riconducono allo studio separato di tre circuiti monofase corrispondenti, rispettivamente, alla **sequenza diretta**, alla **sequenza inversa**, alla **sequenza omopolare**.
+La normativa EN50160 definisce, relativamente ai sistemi elettrici in BT, che “in condizioni di normale esercizio per ogni periodo di una settimana, il 95% dei valori medi efficaci, calcolati in 10 minuti, della componente a sequenza inversa della tensione di alimentazione deve essere compreso nell’intervallo tra 0 e 2% della componente a sequenza diretta. In alcune regioni con impianti utilizzatori connessi con linee parzialmente monofase o bifase, si possono avere squilibri fino a circa il 3% ai terminali di alimentazione trifase.
+Lo strumento PQA924 esegue la misura e registrazione dei seguenti parametri che definiscono la percentuale della dissimmetria sulle tensioni di un sistema elettrico:
+
+```
+u2% = (Ei / Ed) * 100 → componente a sequenza inversa
+u0% = (E0 / Ed) * 100 → componente a sequenza omopolare
+```
+
+dove:
+`Ei` = sequenza della terna inversa
+`Ed` = sequenza della terna diretta
+`E0` = sequenza della terna omopolare
+
+### 10.6. TRANSITORI DI TENSIONE VELOCI
+
+Lo strumento PQA924 salva come transitori di tensione veloci (spikes) tutti i fenomeni associati alle tensioni di fase nelle seguenti condizioni:
+*   Rapide variazioni della pendenza della forma d’onda della tensione con tempo di campionamento pari a 1μs con massima ampiezza di ±8kV
+*   Superamento di una soglia limite di variazione fissata dall’utente
+*   Evento all’interno di una finestra di rilevazione temporale compresa tra 100μs e 1ms definita dall’utente
+
+Fig. 92: Analisi transitorio di tensione rapido
+
+In generale, la routine di rilevazione dei transitori di tensione opera nel modo seguente:
+1.  Strumento rileva il superamento della soglia di variazione impostata in 1μs (ad esempio con soglia = 200V → se la pendenza del segnale è tale da avere una variazione maggiore di 200V/μs → l’evento è catturato).
+2.  Strumento misura sempre 1000 campioni di 1μs del segnale che poi sotto-campiona in funzione della finestra di osservazione impostata e ne salva solo 100 (vedere Fig. 92) al fine di risparmiare memoria interna (ad esempio se Finestra = 100μs → spike rilevato e 100 valori disponibili con risoluzione 1μs; se Finestra = 200μs → spike rilevato e 100 valori disponibili con risoluzione 2μs e così via).
+3.  Strumento salva un **Delta \[V\]** pari alla differenza tra il valore istantaneo di tensione pre-spike e il valore di picco dello spike (vedere Fig. 92).
+4.  Strumento salva la data/ora di inizio dell’evento, il delta di tensione raggiunto e la fase in cui si è verificato l’evento.
+
+Il numero massimo totale di eventi registrabili dallo strumento durante una registrazione è 2000.
+
+**ATTENZIONE**
+La visualizzazione degli eventi è possibile solo all’interno del software HTAgorà.
+
+### 10.7. DEFINIZIONI PARAMETRI DI RETE CALCOLATI
+
+Facendo riferimento ad un generico sistema Trifase 4-fili, lo strumento calcola i valori dei parametri di rete sulla base di `Ns` campioni acquisiti su `Nc` cicli (10 cicli @50Hz / 12 cicli @60Hz) dei segnali di tensione e corrente utilizzando le seguenti relazioni:
+
+| Parametro                                    | Descrizione                   | Relazione di calcolo                                                                               |
+| :------------------------------------------- | :---------------------------- | :------------------------------------------------------------------------------------------------- |
+| `V Lx - N` (x = 1,2,3)                       | Tensione Fase-Neutro RMS      | `V_Lx-N = √( (1/Nsc) * Σ (v_s_Lx-N)² from s=0 to Nsc-1 )`                                            |
+| `VLx - Ly` (x,y= 1,2 - 2,3 - 3,1)             | Tensione Fase-Fase RMS        | `V_Lx-Ly = √( (1/Nsc) * Σ (v_s_Lx-N - v_s_Ly-N)² from s=0 to Nsc-1 )`                                |
+| `I x` (x = 1,2,3 ,N)                         | Correnti di Fase e Neutro RMS | `I_Lx = √( (1/Nsc) * Σ (i_s_x)² from s=0 to Nsc-1 )`                                                  |
+| Ampiezza/Fase Armoniche di Tensione (ordine h) |                               | `V̄_Lx-N_h = { (Re[V̄_Lx-N_h] ; Im[V̄_Lx-N_h]) ; h = 0,1,...,OrdMax } , x=1,2,3`                        |
+|                                              |                               | `Ampiezza |V̄_Lx-N_h| = √( (Re[V̄_Lx-N_h])² + (Im[V̄_Lx-N_h])² )`                                            |
+|                                              |                               | `Fase (V̄_Lx-N_h) = atan2 (Re[V̄_Lx-N_h] ; Im[V̄_Lx-N_h])`                                                |
+| Ampiezza/Fase Armoniche di Corrente (ordine h) |                               | `Ī_Lx_h = { (Re[Ī_Lx_h] , Im[Ī_Lx_h]) ; h = 0,1,...,OrdMax } x=1,2,3,N`                               |
+|                                              |                               | `Ampiezza |Ī_Lx_h| = √( (Re[Ī_Lx_h])² + (Im[Ī_Lx_h])² )`                                                   |
+|                                              |                               | `Fase (Ī_Lx_h) = atan2 (Re[Ī_Lx_h] ; Im[Ī_Lx_h])`                                                        |
+| `P Lx` (x = 1,2,3)                           | Potenza Attiva di Fase        | `P_Lx = (1/Nsc) * Σ (v_s_Lx-N * i_s_Lx) from s=0 to Nsc-1`                                            |
+| `S Lx` (x = 1,2,3)                           | Potenza Apparente di Fase     | `S_Lx = V_Lx-N * I_Lx`                                                                             |
+| `Q Lx` (x = 1,2,3)                           | Potenza Reattiva di Fase      | `Q_Lx = segno{Q_Lx} * √( S_Lx² - P_Lx² )`                                                           |
+| `P FLx` (x = 1,2,3)                          | Fattore di Potenza di Fase    | `PF_Lx = P_Lx / S_Lx`                                                                              |
+| `cos φ Lx` (x = 1,2,3)                       | Fattore di potenza di Fase depurato → sfasamento fra le fondamentali di tensione e corrente della fase x | `cos φ_Lx = Re{ V̄_Lx-N_h=1 × (Ī_Lx_h=1)* } / ( |V̄_Lx-N_h=1| × |Ī_Lx_h=1| )`                         |
+
+(\*) = complesso coniugato
+
+| Parametro                                    | Descrizione                                                               | Relazione di calcolo                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| :------------------------------------------- | :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `P TOT`                                      | Potenza Attiva totale                                                     | `P_TOT = P_L1 + P_L2 + P_L3`                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| `Q TOT`                                      | Potenza Reattiva totale                                                   | `Q_TOT = Q_L1 + Q_L2 + Q_L3`                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| `S TOT`                                      | Potenza Apparente totale                                                  | `S_TOT = √( P_TOT² + Q_TOT² )`                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `PF TOT`                                     | Fattore di Potenza totale                                                 | `PF_TOT = P_TOT / S_TOT`                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `P TOT` (h=1)                                | Potenza Attiva totale riferita alle fondamentali V/I                      | `P_TOT_h=1 = Σ Re{ V̄_Lx-N_h=1 × (Ī_Lx_h=1)* } for x = 1,2,3`                                                                                                                                                                                                                                                                                                                                                                                    |
+| `Q TOT` (h=1)                                | Potenza Reattiva totale riferita alle fondamentali V/I                    | `Q_TOT_h=1 = Σ Im{ V̄_Lx-N_h=1 × (Ī_Lx_h=1)* } for x = 1,2,3`                                                                                                                                                                                                                                                                                                                                                                                    |
+| `cos φ TOT`                                  | Fattore di potenza totale depurato                                        | `cos φ_TOT = P_TOT_h=1 / √( P_TOT_h=1² + Q_TOT_h=1² )`                                                                                                                                                                                                                                                                                                                                                                                            |
+| Dissimmetria tensioni (FFT armonica h=1) |                                                                           | `V̄_d = (1/3) × ( V̄_L1-N_h=1 + α × V̄_L2-N_h=1 + α² × V̄_L3-N_h=1 )`                                                                                                                                                                                                                                                                                                                                                                             |
+|                                              |                                                                           | `V̄_i = (1/3) × ( V̄_L1-N_h=1 + α² × V̄_L2-N_h=1 + α × V̄_L3-N_h=1 )`                                                                                                                                                                                                                                                                                                                                                                             |
+|                                              |                                                                           | `V̄_0 = (1/3) × ( V̄_L1-N_h=1 + V̄_L2-N_h=1 + V̄_L3-N_h=1 )`                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                              |                                                                           | `u2 = |V̄_i| / |V̄_d| , uo = |V̄_0| / |V̄_d|`                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                              |                                                                           | `dove : α = − 1/2 + j √3/2`                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+**ATTENZIONE**
+*   A rigore l’espressione della Potenza Reattiva in regime **non sinusoidale** non sarebbe corretta. Per intuire il perché può essere utile pensare che sia la presenza di armoniche che la presenza di potenza reattiva producono, tra i vari effetti, un incremento delle perdite di potenza in linea dovuto all’aumentare del valore efficace della corrente. Con la relazione sopra il termine di incremento di perdite di potenza dovuto alle armoniche viene sommato algebricamente a quello introdotto dalla presenza di potenza reattiva. In realtà, anche se i due fenomeni concorrono a causare un aumento di perdite in linea, non è vero in generale che queste cause di perdita di potenza siano in fase fra loro e quindi sommabili algebricamente.
+*   Il parametro cos φ (Fattore di Potenza depurato) rappresenta il valore limite teorico raggiungibile dal Fattore di Potenza qualora si riuscissero ad eliminare completamente tutte le armoniche dal sistema elettrico. Tale parametro è quello a cui occorre fare riferimento nella gestione dei problemi di rifasamento degli impianti.
+
+#### 10.7.1. Convenzioni su potenze e fattori di potenza
+
+Per quanto riguarda il riconoscimento del tipo di potenza reattiva, del tipo di fattore di potenza, del verso della potenza attiva e del verso della potenza reattiva, si applicano le convenzioni riportate nel seguente schema (in accordo con la normativa IEC/EN 61557-12):
+
+Fig. 93: Diagramma tensione, corrente, potenze e relative convenzioni
+
+Le seguenti indicazioni devono essere considerate:
+*   Il riferimento del diagramma è la corrente “I” mostrata nella parte destra dell’asse.
+*   La tensione “V” varia rispetto alla corrente in funzione dell’angolo di fase φ.
+*   L’angolo di fase φ tra corrente e tensione è considerato positivo nel senso antiorario.
+
+Sulla base del diagramma indicato nella Fig. 93, il comportamento delle potenze attive, potenze reattive, fattore di potenza e cos φ sono indicate nello schema seguente:
+
+| SIMBOLO | DESCRIZIONE                       | NOTE                              |
+| :------ | :-------------------------------- | :-------------------------------- |
+| P+      | Potenza attiva +                  | Valori positivi grandezze (Condizione di assorbimento) |
+| PFc+    | Fattore di potenza capacitivo +   |                                   |
+| PFi+    | Fattore di potenza induttivo +    |                                   |
+| cos φ c+ | Fattore di potenza capacitivo depurato + |                                   |
+| cos φ i+ | Fattore di potenza induttivo depurato + |                                   |
+| Qc+     | Potenza reattiva capacitiva +     |                                   |
+| Qi+     | Potenza reattiva induttiva +      |                                   |
+| P-      | Potenza attiva -                  | Valori negativi grandezze (Condizione di generazione) |
+| PFc-    | Fattore di potenza capacitivo -   |                                   |
+| PFi-    | Fattore di potenza Induttivo -    |                                   |
+| cos φ c- | Fattore di potenza capacitivo depurato - |                                   |
+| cos φ i- | Fattore di potenza induttivo depurato - |                                   |
+| Qc-     | Potenza reattiva capacitiva -     |                                   |
+| Qi-     | Potenza reattiva induttiva -      |                                   |
+
+| VALORE | DESCRIZIONE                                                                                                                                                                                                                                                                               |
+| :----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P      | La potenza attiva (positiva o negativa) relativa è definita nel quadrante in esame e pertanto assume il valore della potenza attiva in quell’istante.                                                                                                                                     |
+| Q      | La potenza reattiva (induttiva o capacitiva, positiva o negativa) relativa è definita nel quadrante in esame e pertanto assume il valore della potenza reattiva in quell’istante.                                                                                                        |
+| PF     | Il fattore di potenza (induttivo o capacitivo, positivo o negativo) relativo è definito nel quadrante in esame e pertanto assume il valore del Fattore di Potenza in quell’istante.                                                                                                      |
+| cos φ  | Il fattore di potenza depurato (induttivo o capacitivo, positivo o negativo) relativo è definito nel quadrante in esame e pertanto assume il valore del fattore di potenza depurato in quell’istante.                                                                                 |
+| 0      | La potenza attiva (positiva o negativa) o la potenza reattiva (induttiva o capacitiva, positiva o negativa) relativa **NON è definita nel quadrante in esame** e pertanto assume valore nullo.                                                                                      |
+| -1     | Il fattore di potenza (induttivo o capacitivo, positivo o negativo) relativo **NON è definito nel quadrante in esame** (questa condizione è spesso dovuta ad un errato collegamento delle pinze sui conduttori).                                                                         |
+
+#### 10.7.2. Inserzione ARON
+
+Nei sistemi elettrici distribuiti senza neutro, perdono di significato le tensioni di fase, i fattori di potenza e cos φ di fase e rimangono definite solo le tensioni concatenate, le correnti di fase e le potenze totali.
+
+```
+Fase 1
+       W 1-2
+       VAR 1-2
+Fase 2 ------------- Utenza Trifase
+       W 3-2
+       VAR 3-2
+Fase 3
+```
+
+In questo caso si assume come potenziale di riferimento il potenziale di uno delle tre fasi (ad esempio la fase 2) e si esprimono i valori della potenza Attiva, Reattiva e Apparente Totali come somma delle indicazioni delle coppie di Wattmetri, VARmetri e VAmetri.
+
+```
+P_TOT = W_1-2 + W_3-2
+Q_TOT = VAR_1-2 + VAR_3-2
+S_TOT = √((W_1-2 + W_3-2)² + (VAR_1-2 + VAR_3-2)²)
+```
+
+### 10.8. COLLEGAMENTO DELLO STRUMENTO CON TA ESTERNI
+
+Lo strumento PQA924 consente di eseguire misure di corrente anche in sistemi trifase (tipici degli impianti MT/BT) dove siano presenti sulle linee dei **Trasformatori di Corrente (TA)** con rapporto di trasformazione xxx/1A oppure xxx/5A.
+In tali condizioni per la valutazione della corrente sui conduttori di fase in pratica è necessario eseguire un calcolo manuale a posteriori in funzione del valore misurato sul secondario dei TA con apposite pinze aventi basse portate e buona incertezza di misura e del valore del rapporto di trasformazione dello stesso.
+Lo strumento permette di leggere **direttamente** le correnti sulle fasi e sul neutro con opportuna programmazione dei parametri senza la necessità di eseguire nessun calcolo manuale in base al collegamento mostrato nella figura seguente, relativa ad una sistema Trifase 4-fili:
+
+Fig. 94: Schema di collegamento dello strumento con TA esterni
+
+Come si può notare nella Fig. 94, i secondari dei TA devono essere cortocircuitati e in tale loop occorre inserire un trasduttore a pinza (uno per ogni fase + neutro) per la lettura della relativa corrente. Si raccomanda l’uso del modello HT4005N utilizzata nella portata 5A. Le uscite di tali pinze devono poi essere collegate agli ingressi I1,I2, I3, IN dello strumento. Nella programmazione (vedere § 5.2.2) occorre impostare:
+*   Corrente **primaria** dei TA (ex: 300A) presenti sulle Fasi L1, L2, L3
+*   Corrente **secondaria** dei TA (ex: 5A) presenti sulle Fasi L1, L2, L3
+*   Corrente **primaria** del TA (ex: 300A) presente sul Neutro N
+*   Corrente **secondaria** del TA (ex: 5A) presente sul Neutro N
+*   Fondo scala della pinza presente sul secondario dei TA sulle Fasi L1, L2, L3
+*   Fondo scala della pinza presente sul secondario del TA sul Neutro N
+
+Sulla base di questi parametri, lo strumento calcola e visualizza il valore delle correnti sulle fasi L1, L2, L3 e sul neutro N in funzione del valore delle correnti misurate dalla pinza presente sui secondari dei TA.
+
+### 10.9. METODO DI MISURA
+
+Lo strumento è in grado di misurare: tensioni, correnti, potenze attive, potenze reattive capacitive ed induttive, potenze apparenti, fattori di potenza capacitivi ed induttivi, energie, ecc… Tutte queste grandezze sono **analizzate in modo digitale** (conversione sei segnali analogici di tensioni e correnti) e calcolate internamente in base alle relazioni riportate nelle sezioni precedenti.
+Il salvataggio di tutti i dati campionati in tempo reale richiederebbe una capacità di memoria non gestibile. Si è pertanto cercato un metodo di memorizzazione che, pur fornendo dati significativi, permettesse una discretizzazione delle informazioni da memorizzare.
+Il metodo scelto è quello dell’**integrazione** (o **aggregazione**): trascorso un intervallo di tempo definito **Periodo di integrazione** (o **intervallo di aggregazione**), lo strumento estrae dai valori campionati di ogni grandezza da memorizzare i seguenti valori:
+*   Valore MINIMO della grandezza nel periodo di integrazione (armoniche escluse).
+*   Valore MEDIO della grandezza (inteso come media aritmetica di tutti i valori registrati nel Periodo di Integrazione).
+*   Valore MASSIMO della grandezza nel periodo di integrazione (armoniche escluse).
+
+Queste tre informazioni (ripetute per ogni grandezza da memorizzare) sono salvate in memoria insieme all'ora e alla data di inizio del periodo, nell’ambito della intera durata della registrazione. Al termine della memorizzazione lo strumento ricomincia ad acquisire misure per un nuovo periodo. Il risultato (visibile solo all’interno del software HTAgorà) è una rappresentazione numerica e grafica dei valori in cui ogni riga è corrispondente ad un periodi di integrazione nell’ambito della intera durata della registrazione.
+La normativa IEC/EN61000-4-30 Classe S richiede periodi di integrazione (o intervalli di aggregazione) diversi per le varie grandezze calcolate. In particolare:
+*   **Parametri analisi periodica** (tensioni, correnti, potenze, fattori di potenza, energie, ecc…) → periodo di integrazione **principale** selezionabile tra i valori: 0.2s, 3s, 10s, 15s, 18s, 30s, 1min, 5min, 10min, 15 min, 30min, 60min, 120min
+*   **Parametro frequenza** → periodo di integrazione selezionabile nel campo: 3s ÷ 30s in passi da 1s
+*   **Parametri analisi armonica** → periodo di integrazione selezionabile tra i valori: 0.2s, 3s, 6s, 10s, 12s, 18s, 30s, 1min, 5min, 10min, 15 min, 30min, 60min, 120min
+*   **Flicker tensioni** → periodo di integrazione fisso a 10min
+
+**ATTENZIONE**
+Nell’impostazione della eventuale durata di una registrazione prestare attenzione ai diversi periodi di integrazione impostati delle varie grandezze al fine di ottenere risultati corretti.
+
+## 11. ASSISTENZA
+
+### 11.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+La garanzia non è applicata nei seguenti casi:
+*   Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+### 11.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato dei cavi e delle pinze e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà in, ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale. Ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
+
+HT ITALIA SRL
+Via della Boaria, 40
+48018 – Faenza (RA) – Italy
+T +39 0546 621002 | F +39 0546 621144
+M ht@ht-instruments.com | www.ht-instruments.it
+
+WHERE WE ARE
+
+HT INSTRUMENTS SL
+C/ Legalitat, 89
+08024 Barcelona – Spain
+T +34 93 408 17 77 | F +34 93 408 36 30
+M info@htinstruments.es | www.ht-instruments.com/es-es/
+
+HT INSTRUMENTS GmbH
+Am Waldfriedhof 1b
+D-41352 Korschenbroich – Germany
+T +49 (0) 2161 564 581 | F +49 (0) 2161 564 583
+M info@ht-instruments.de | www.ht-instruments.de
