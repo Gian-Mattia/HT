@@ -139,6 +139,11 @@
       "id": "JUPITER.md",
       "name": "JUPITER",
       "description": "Strumento per verifiche di sicurezza CEI 64-8 con funzioni multimetro TRMS."
+    },
+    {
+      "id": "PQA924.md",
+      "name": "PQA924",
+      "description": "Analizzatore della Qualità della Rete e dell'Energia in classe S."
     }
   ]
 }
