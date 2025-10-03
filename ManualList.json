@@ -149,6 +149,11 @@
       "id": "PQA824.md",
       "name": "PQA400, PQA823, PQA824",
       "description": "PQA824, è un analizzatore di rete trifase in grado di registrare anche i trasitori di tensione con risoluzione 5µs."
+    },
+    {
+      "id": "HT3013.md",
+      "name": "HT3013",
+      "description": "Pinza amperometrica TRMS per corrente AC/DC 400A"
     }
   ]
 }
