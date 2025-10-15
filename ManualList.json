@@ -154,6 +154,11 @@
       "id": "HT3013.md",
       "name": "HT3013",
       "description": "Pinza amperometrica TRMS per corrente AC/DC 400A"
+    },
+    {
+      "id": "GSC57_GSC59_ZG47.md",
+      "name": "GSC57, GSC59, ZG47",
+      "description": "strumento multifunzione"
     }
   ]
 }
