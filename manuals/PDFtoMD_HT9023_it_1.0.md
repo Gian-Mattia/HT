@@ -1,0 +1,2079 @@
+# HT9023
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-21 -->
+© Copyright HT ITALIA 2024 Versione IT 2.0 1 - 05/12/24 ITALIANO
+
+# Manuale d’uso HT9023
+
+## INDICE
+
+1.  PRECAUZIONI E MISURE DI SICUREZZA
+    1.1. Istruzioni preliminari
+    1.2. Durante l’utilizzo
+    1.3. Dopo l’utilizzo
+    1.4. Definizione di categoria di misura (Sovratensione)
+2.  DESCRIZIONE GENERALE
+    2.1. Strumenti di misura a Valore medio e in Vero Valore Efficace
+    2.2. Definizione di Vero Valore Efficace e fattore di cresta
+3.  PREPARAZIONE ALL’UTILIZZO
+    3.1. Controlli iniziali
+    3.2. Alimentazione dello strumento
+    3.3. Conservazione
+4.  NOMENCLATURA
+    4.1. Descrizione dello strumento
+        4.1.1. Tacche di allineamento
+        4.1.2. Barriera paramano
+        4.1.3. Indicazione verso convenzionale della corrente
+    4.2. Descrizione dei tasti funzione
+        4.2.1. Tasti F1, F2, F3, F4/OK
+        4.2.2. Tasto H/ESC/
+    4.3. Videata iniziale
+    4.4. Impostazioni dello strumento
+        4.4.1. Menu Generali
+        4.4.2. Menu Data/Ora
+        4.4.3. Menu Log
+        4.4.4. Menu Continuità
+        4.4.5. Menu Memoria REC – Cancellazione dati
+        4.4.6. Menu Memoria IRC
+5.  ISTRUZIONI OPERATIVE
+    5.1. Funzione cercafase
+    5.2. Misura di Tensione DC
+    5.3. Misura di Tensione AC e AC+DC
+        5.3.1. Misura Armoniche di Tensione
+        5.3.2. Senso ciclico e concordanza delle fasi a 1 terminale
+    5.4. Misura di Corrente DC
+    5.5. Misura di Corrente AC e AC+DC
+        5.5.1. Misura Armoniche di Corrente
+    5.6. Misura Corrente di Spunto (Dynamic Inrush)
+    5.7. Misura di Potenza ed Energia DC
+    5.8. Misura di Potenza ed Energia AC e AC+DC
+    5.9. Misura di Resistenza e Test Continuità
+6.  COLLEGAMENTO DELLO STRUMENTO A PC E DISPOSITIVI MOBILI
+    6.1. Download dati salvati in memoria
+    6.2. Lettura dati in tempo reale
+    6.3. Collegamento a dispositivi mobili
+7.  MANUTENZIONE
+    7.1. Generalità
+    7.2. Sostituzione batterie
+    7.3. Pulizia dello strumento
+    7.4. Fine vita
+8.  SPECIFICHE TECNICHE
+    8.1. Caratteristiche tecniche
+        8.1.1. Normative di riferimento
+        8.1.2. Caratteristiche generali
+    8.2. Ambiente
+        8.2.1. Condizioni ambientali di utilizzo
+    8.3. Accessori
+        8.3.1. Accessori in dotazione
+9.  ASSISTENZA
+    9.1. Condizioni di Garanzia
+    9.2. Assistenza
+10. APPENDICE – CENNI TEORICI
+    10.1. Armoniche di Tensione e Corrente
+
+---
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità alla direttiva IEC/EN61010-1 relativa agli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo (Attention symbol).
+
+Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+*   Non effettuare misure di tensione o corrente in ambienti umidi.
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi.
+*   Evitare contatti con il circuito in esame se non si stanno effettuando misure.
+*   Evitare contatti con parti metalliche esposte, terminali di misura inutilizzati, circuiti, ecc.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+*   Prestare particolare attenzione quando si effettuano misure di tensioni superiori a 20V in quanto è presente il rischio di shock elettrici.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+*   **Attenzione:** attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti
+*   **Pericolo alta tensione:** rischi di shock elettrici
+*   Lo strumento può operare su conduttori nudi sotto tensione
+*   Strumento con doppio isolamento
+*   Tensione o Corrente AC
+*   Tensione o Corrente DC
+*   Riferimento di terra
+
+### 1.1. ISTRUZIONI PRELIMINARI
+
+*   Questo strumento è stato progettato per un utilizzo in un ambiente con livello di inquinamento 2.
+*   Può essere utilizzato per misure di **CORRENTE** e **TENSIONE** su installazioni con categoria di misura CAT IV 600V e CAT III 1000V. Per la definizione delle categorie di misura vedere § 1.4.
+*   La invitiamo a seguire le normali regole di sicurezza previste dalle procedure per i lavori sotto tensione ed a utilizzare i DPI previsti orientati alla protezione contro correnti pericolose e a proteggere lo strumento contro un utilizzo errato.
+*   Solo i puntali forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+*   Non effettuare misure su circuiti che superino i limiti di corrente e tensione specificati.
+*   Controllare che la batteria sia inserita correttamente.
+*   Prima di collegare i puntali al circuito in esame, controllare che il commutatore sia posizionato correttamente.
+*   Controllare che il display LCD e il commutatore indichino la stessa funzione.
+
+### 1.2. DURANTE L’UTILIZZO
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+
+*   Prima di azionare il `selettore`, rimuovere dal toroide il conduttore o scollegare i puntali di misura dal circuito in esame
+*   Quando lo strumento è connesso al circuito in esame non toccare mai qualunque terminale inutilizzato
+*   Tenere le mani sempre al di sotto del paramano che è posto in una posizione tale da garantire una opportuna distanza di sicurezza rispetto ad eventuali parti scoperte sotto tensione (vedere Fig. 3)
+*   Evitare la misura di resistenza in presenza di tensioni esterne. Anche se lo strumento è protetto, una tensione eccessiva potrebbe causare malfunzionamenti dello `strumento`
+*   Durante la misura di corrente, ogni altra corrente localizzata in prossimità dello `strumento` può influenzare la precisione della misura
+*   Durante la misura di corrente posizionare sempre il conduttore il più possibile al centro del toroide in modo da ottenere una lettura più accurata
+*   Se, durante una misura, il valore o il segno della grandezza in esame rimangono costanti controllare se è attivata la funzione `HOLD`
+
+### 1.3. DOPO L’UTILIZZO
+
+*   Quando le misure sono terminate, posizionare il selettore su `OFF`.
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere le batterie.
+
+### 1.4. DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma `IEC/EN 61010-1`: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali, definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § 6.7.4.: Circuiti di misura, essa definisce le Categorie di misura come segue:
+
+(OMISSIS)
+
+*   La **Categoria di misura IV** serve per le misure effettuate su una sorgente di un’installazione a bassa tensione.
+    Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle sovracorrenti e sulle unità di regolazione dell’ondulazione.
+*   La **Categoria di misura III** serve per le misure effettuate in installazioni all’interno di edifici.
+    Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli apparecchi destinati all’impiego industriale e altre apparecchiature, per esempio i motori fissi con collegamento ad impianto fisso.
+*   La **Categoria di misura II** serve per le misure effettuate su circuiti collegati direttamente all’installazione a bassa tensione.
+    Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari.
+*   La **Categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE.
+    Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura.
+
+---
+
+# 2. DESCRIZIONE GENERALE
+
+Lo strumento può effettuare le seguenti misure:
+*   **Tensione DC** fino a 1500V
+*   **Tensione AC, AC+DC TRMS** fino a 1000V
+*   `“Voltsense”` per rilevazione tensione AC senza contatto
+*   **Corrente DC, AC** e **AC+DC TRMS** fino a 1000A
+*   Resistenza e test di continuità
+*   **Senso ciclico** e **concordanza delle fasi** a 1 terminale
+*   Misura/Registrazione **Potenze AC** nei sistemi Monofase o Trifase equilibrati
+*   Misura/Registrazione fatt. di potenza e cos `φ` nei sistemi Monofase o Trifase equilibrati
+*   Misura/Registrazione **Energie AC** nei sistemi **Monofase** o **Trifase** equilibrati
+*   Misura/Registrazione **Potenza** ed **Energia** nei sistemi **DC**
+*   Misura/Registrazione **THDV%** e **Armoniche di tensione** fino al 25° ordine
+*   Misura/Registrazione **THDI%** e **Armoniche di corrente** fino al 25° ordine
+*   Frequenza tensione e corrente
+*   Correnti di avviamento motori elettrici (`Dynamic Inrush`)
+*   Connessione `WiFi` per collegamento a PC o dispositivi mobili
+
+Ogni funzione può essere selezionata tramite un apposito `selettore`. Sono inoltre presenti i tasti `F1`, `F2`, `F3`, `F4/OK` e `H/ESC/` per il cui uso fare riferimento al § 4.2.
+
+### 2.1. STRUMENTI DI MISURA A VALORE MEDIO E IN VERO VALORE EFFICACE
+
+Gli strumenti di misura di grandezze alternate si dividono in due grandi famiglie:
+*   Strumenti a **VALORE MEDIO:** strumenti che per le grandezze da misurare ipotizzano una forma d’onda sinusoidale
+*   Strumenti a **VERO VALORE EFFICACE** anche detti `TRMS (True Root Mean Square value)`: strumenti che misurano il vero valore efficace della grandezza in esame.
+
+In presenza di un’onda perfettamente sinusoidale le due famiglie di strumenti forniscono risultati identici. In presenza di onde distorte invece le letture differiscono. In generale gli strumenti a valore medio forniscono un valore tanto più errato quanto più è distorta la forma d’onda, gli strumenti a vero valore efficace forniscono invece il valore efficace dell’intera onda, armoniche comprese (entro la banda passante dello strumento).
+
+### 2.2. DEFINIZIONE DI VERO VALORE EFFICACE E FATTORE DI CRESTA
+
+Il valore efficace per la corrente è così definito: "In un tempo pari ad un periodo, una corrente alternata con valore efficace della intensità di 1A, circolando su di un resistore, dissipa la stessa energia che sarebbe dissipata, nello stesso tempo, da una corrente continua con intensità di 1A". Da questa definizione discende l’espressione numerica:
+
+```
+G= ∫ + T t t dt t g T 0 0 ) ( 1 2
+```
+
+Il valore efficace viene indicato come `RMS (root mean square value)`.
+
+Il Fattore di Cresta è definito come il rapporto fra il Valore di Picco di un segnale ed il suo Valore Efficace: `CF (G)= G_p / G_RMS`. Questo valore varia con la forma d'onda del segnale, per un’onda puramente sinusoidale esso vale `√2 = 1.41`. In presenza di distorsioni il Fattore di Cresta assume valori tanto maggiori quanto più è elevata la distorsione dell’onda.
+
+---
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+
+### 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, comunque, di controllare sommariamente lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 8.3. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 9.2.
+
+### 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato tramite `2x1.5V` batterie alcaline tipo `LR03 AAA`. Per la sostituzione delle batterie seguire le istruzioni riportate al § 5.2.
+
+### 3.3. CONSERVAZIONE
+
+Per garantire misure precise, dopo un lungo periodo di conservazione in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 8.2.1).
+
+---
+
+# 4. NOMENCLATURA
+
+### 4.1. DESCRIZIONE DELLO STRUMENTO
+
+LEGENDA:
+1.  Toroide apribile
+2.  LED luminoso per indicazione tensione AC (`Voltsense`)
+3.  Leva apertura toroide
+4.  Selettore funzioni
+5.  Tasto `H / ESC/`
+6.  Tasti funzione `F1, F2, F3, F4 /OK`
+7.  Display LCD
+8.  Terminale di ingresso `V Ω`
+9.  Terminale di ingresso `COM`
+
+Fig. 1 : Descrizione dello strumento
+
+#### 4.1.1. Tacche di allineamento
+
+Per ottenere le caratteristiche di precisione dichiarate per lo strumento, posizionare sempre il conduttore il più possibile al centro del toroide indicato dalle tacche riportate sullo stesso (vedere Fig. 2)
+
+LEGENDA
+1.  Tacche di allineamento
+2.  Conduttore
+
+Fig. 2 : Tacche di allineamento
+
+#### 4.1.2. Barriera paramano
+
+LEGENDA
+1.  Barriera paramano
+2.  Zona di sicurezza
+
+Fig. 3 : Barriera paramano
+
+Tenere le mani sempre al di sotto della barriera paramano posta in una posizione tale da garantire una opportuna distanza di sicurezza rispetto ad eventuali parti scoperte che si possono trovare in tensione (vedere Fig. 3)
+
+#### 4.1.3. Indicazione verso convenzionale della corrente
+
+In Fig. 4 è mostrata la freccia presente sullo strumento che indica il verso convenzionale della corrente
+
+Fig. 4 : Freccia verso corrente
+
+### 4.2. DESCRIZIONE DEI TASTI FUNZIONE
+
+#### 4.2.1. Tasti F1, F2, F3, F4/OK
+
+I tasti `F1, F2, F3, F4/OK` eseguono funzioni diverse in base alla misura impostata (per il dettaglio vedere le singole funzioni).
+
+#### 4.2.2. Tasto H/ESC/
+
+Una pressione istantanea del tasto `“H”` attiva la funzione di `Data HOLD`, ovvero il congelamento del valore della grandezza misurata. Sul display appare il messaggio `“H”`. Questa modalità di funzionamento viene disabilitata qualora si prema nuovamente il tasto `“H”` o si agisca sul commutatore. Per migliorare la leggibilità dei valori misurati in ambienti scarsamente illuminati è disponibile la funzione di retroilluminazione del display (`backlight`) che si attiva e disattiva mediante la pressione prolungata del tasto `“H”`. La retroilluminazione si spegne automaticamente dopo circa `30 s` dall’accensione o dalla pressione del tasto `“H”` (al fine di preservare la batteria). Lo stesso tasto assume la funzionalità `ESC` (Uscita) all’interno delle varie modalità di funzionamento della pinza.
+
+### 4.3. VIDEATA INIZIALE
+
+All’accensione dello strumento viene visualizzata per qualche secondo la videata iniziale. In essa sono visualizzati:
+*   Il modello dello strumento
+*   Il numero di serie dello strumento
+*   La versione del firmware interno dello strumento.
+
+```text
+HT 902 3
+Sn 2 0 0 1 0 0 2 0
+V. 1 .0 1
+```
+
+> **ATTENZIONE**
+> Annotare queste informazioni, in particolare la versione del firmware nel caso fosse necessario contattare l’assistenza.
+
+Dopo alcuni istanti lo strumento passa alla funzione selezionata.
+
+### 4.4. IMPOSTAZIONI DELLO STRUMENTO
+
+Posizionando il selettore su `“Settings”` lo strumento mostra la videata a lato che indica le impostazioni eseguibili di carattere generale.
+Premere i tasti `F2`, `F3` (``, ``) per scorrere ed evidenziare le possibili selezioni e il tasto `F4` (`OK`) per entrare nei sotto-menu e confermare le impostazioni. Premere il tasto `ESC` per uscire senza salvare e tornare alla videata precedente.
+
+```text
+  OK
+Generale
+Data/Ora
+Log
+Continuità
+Memoria REC
+Memoria IRC
+17/01 – 15:34:23
+```
+
+#### 4.4.1. Menu Generali
+
+In questa sezione è possibile gestire le seguenti funzioni interne:
+*   **Lingua** → premere tasti `F2` o `F3` (``, ``) per selezionare la lingua desiderata tra quelle disponibili e il tasto `F4 (OK)` per confermare e tornare alla videata precedente. Il messaggio `“Dati salvati”` appare per un istante nella parte bassa del display
+*   **Auto-off** → premere il tasto `F1(Sel)` per selezionare la funzione di `Auto Power OFF` che permette di abilitare/disabilitare l’autospegnimento dello strumento. Premere tasti `F2` o `F3` (``, ``) per la selezione delle opzioni `“ON”` oppure `“OFF”` e il tasto `F4 (OK)` per confermare. Il messaggio `“Dati salvati”` appare per un istante nella parte bassa del display. Con autospegnimento abilitato (`ON`) il simbolo `[Auto-off symbol]` è presente a display e lo strumento si spegne automaticamente dopo circa `5 minuti` di inattività
+*   **Retroillum.** → Nella voce `“Retroillum”` è possibile selezionare il modo di attivazione della retroilluminazione del display. Premere i tasti `F2`, `F3` (``, ``) per la selezione delle opzioni `“MAN”` (retroilluminazione attivabile manualmente tramite pressione del tasto `“H”` e spegnimento automatico dopo circa `30s`) oppure `“ON”` (retroilluminazione sempre attiva) e il tasto `F4 (OK)` per confermare. Il messaggio `“Dati salvati”` appare per un istante nella parte bassa del display. L’impostazione `“ON”` può comportare una sensibile riduzione della autonomia delle batterie
+
+```text
+Sel   OK
+Lingua: Italiano
+Auto-off: OFF
+Retroillum: MAN
+17/01 – 15:34:23
+```
+
+#### 4.4.2. Menu Data/Ora
+
+Selezionando la voce `“Data/Ora”` lo strumento mostra la videata a lato. Premere il tasto `F1 (Sel)` per spostare il cursore e i tasti `F2`, `F3` (``, ``) per modificare l’impostazione della voce selezionata. La voce `“Formato”` consente di selezionare il formato di data e ora fra `EU (Europeo)` o `USA (Americano)`. Premere il tasto `F4 (OK)` per salvare le modifiche apportate e tornare alla videata precedente. Il messaggio `“Dati salvati”` appare per un istante nella parte bassa del display.
+
+```text
+Sel   OK
+Anno:     20
+Mese:     01
+Giorno:   17
+Ora:      15
+Minuti:   34
+Formato   EU
+17/01 – 15:34:23
+```
+
+#### 4.4.3. Menu Log
+
+Selezionando la voce `“Log”` lo strumento mostra la videata a lato. Premere i tasti `F2`, `F3` (``, ``) per modificare l’impostazione del parametro Periodo di Integrazione (scansione tra un salvataggio e quello successivo all’interno di una registrazione). Le seguenti opzioni sono possibili: `1s, 5s, 10s, 30s, 60s, 120s, 300s, 600s o 900s`. Premere il tasto `F4 (OK)` per salvare le modifiche apportate e tornare alla videata precedente. Il messaggio `“Dati salvati”` appare per un istante nella parte bassa del display.
+
+```text
+  OK
+Periodo Int. 005 s
+17/01 – 15:34:23
+```
+
+#### 4.4.4. Menu Continuità
+
+Selezionando la voce `“Continuità”` lo strumento mostra la videata a lato. Premere i tasti `F2`, `F3` (``, ``) per modificare l’impostazione del valore di soglia limite al di sotto del quale lo strumento emette un suono nella prove di continuità (vedere § 5.9). Il valore è selezionabile nel campo: `1 Ω ÷ 150 Ω` in passi di `1 Ω`. Premere il tasto `F4 (OK)` per salvare le modifiche apportate e tornare alla videata precedente.
+
+```text
+  OK
+Res Lim. . 002 Ω
+17/01 – 15:34:23
+```
+
+#### 4.4.5. Menu Memoria REC – Cancellazione dati
+
+Nella sezione `“Memoria REC”` è presente l’elenco di tutte le registrazioni salvate dallo strumento. La videata come quella a lato è mostrata a display. Il significato delle voci è il seguente:
+*   `Sxx` → indica il salvataggio di un campionamento istantaneo (`Snapshot`) eseguito dallo strumento (vedere § 6.2) insieme alla data/ora in cui è stato salvato. Il numero `“xx”` indica la locazione di memoria usata
+*   `Lxx` → indica il salvataggio di una registrazione (`Logger`) eseguita dallo strumento (vedere § 5.7 e § 5.8) insieme alla data/ora in cui è stata iniziata. Il numero `“xx”` indica la locazione di memoria in cui è salvato il dato
+*   `Auton` → indica l’autonomia residua di memoria disponibile per salvataggio di snapshots/registrazioni espressa in giorni/ore
+
+```text
+Can Esc OK
+S 01: 15/01 - 16.56:42
+L 02: 17/01 - 16:59:00
+L 03: 17/01 - 17:10:00
+Auton: 00d / 10h
+17/01 – 18:34:23
+```
+
+La visualizzazione dei dati registrati è possibile solo tramite il software di gestione `TopView` oppure l’APP `HTAnalisys`.
+Premere il tasto `F3 (ESC)` per uscire e tornare al menu generale. Premere `F4 (OK)` per confermare le operazioni.
+Premere il tasto `F2 (Can)` per cancellare i dati nella memoria. La seguente videata è mostrata a display. Usare il tasto `F2` per selezionare le voci:
+*   `Canc. Tot.` → Cancella l’intero contenuto della memoria
+*   `Canc. Ult.` → Cancella l’ultimo dato salvato
+
+Premere `F4 (OK)` per confermare l’operazione.
+
+```text
+Can Esc OK
+S 01: 15/01 - 16.56:42
+L 02: 17/01 - 16:59:00
+L 03: 17/01 - 17:10:00
+Auton: 00d / 10h
+17/01 – 18:34:23
+Canc.Tot.
+Canc.Ult.
+```
+
+#### 4.4.6. Menu Memoria IRC
+
+Nella sezione `“Memoria IRC”` è presente l’elenco di tutte le misure di corrente di spunto salvate dallo strumento (vedere § 5.6). La videata come quella a lato è mostrata a display. Il significato delle voci è il seguente:
+*   `Ixx` → indica il salvataggio della misura di corrente di spunto (`Inrush Current`) insieme alla data/ora in cui è stato salvato. Il numero `“xx”` indica la locazione di memoria usata
+
+```text
+Can Esc OK
+I 01: 13 / 12 - 10 . 41 : 20
+I 02: 13 / 12 - 10 : 44 : 21
+I 03: 13 / 12 - 10 : 45 : 01
+I 04: 13 / 12 - 10 : 45 : 58
+17/01 – 18:34:23
+```
+
+La visualizzazione dei dati registrati è possibile solo tramite il software di gestione `TopView` oppure l’APP `HTAnalisys`.
+Premere il tasto `F3 (ESC)` per uscire e tornare al menu generale. Premere `F4 (OK)` per confermare le operazioni.
+Premere il tasto `F2 (Can)` per cancellare i dati nella memoria. La seguente videata è mostrata a display. Usare il tasto `F2` per selezionare le voci:
+*   `Canc. Tot.` → Cancella l’intero contenuto della memoria
+*   `Canc. Ult.` → Cancella l’ultimo dato salvato
+
+Premere `F4 (OK)` per confermare l’operazione.
+
+```text
+Can Esc OK
+I 01: 13 / 12 - 10 . 41 : 20
+I 02: 13 / 12 - 10 : 44 : 21
+I 03: 13 / 12 - 10 : 45 : 01
+I 04: 13 / 12 - 10 : 45 : 58
+17/01 – 18:34:23
+Canc.Tot.
+Canc.Ult.
+```
+
+---
+
+# 5. ISTRUZIONI OPERATIVE
+
+### 5.1. FUNZIONE CERCAFASE
+
+Con il selettore nella posizione `“V~”`, avvicinando l’estremità del toroide in prossimità di una sorgente AC, si può notare l’accensione del LED rosso alla base del toroide (vedere Fig. 1 – parte 2) che ne sottolinea la presenza.
+
+> **ATTENZIONE**
+> La funzione cercafase è attiva solo se il selettore è posizionato su `“V~”`.
+
+### 5.2. MISURA DI TENSIONE DC
+
+> **ATTENZIONE**
+> *   La massima tensione DC in ingresso è `1500V`. Quando a display compare l’indicazione `“>1500.0V”` significa che è stato superato il valore massimo misurabile dallo `strumento`. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento
+> *   La marcatura `CAT III 1000V` su puntali di misura garantisce comunque la misura in sicurezza di tensione fino a `1500V`
+
+Fig. 5 : Misura di Tensione DC
+
+1.  Posizionare il selettore su `“V~”`. La videata a lato è mostrata a display.
+
+    ```text
+    Mod Arm Fnz
+    A C < 4 2 . 5 H z
+    0 . 0 V
+    17/01 – 18:34:23
+    ```
+
+2.  Premere il tasto `F1 (Mod)` per aprire il menù a tendina mostrato nella videata a lato e selezionare l’opzione `“DC”` con lo stesso tasto.
+3.  Premere il tasto `F4 (OK)` per confermare la scelta. Lo strumento si porta in modalità misura tensione DC. Il tasto `F2 (Arm)` non è attivo in questa funzione.
+
+    ```text
+    Mod Arm Fnz OK
+    A C < 4 2 . 5 H z
+    - - 0 V
+    17/01 – 18:34:23
+    ```
+
+4.  Inserire il cavo rosso nel terminale di ingresso `V Ω` e il cavo nero nel terminale di ingresso `COM` e posizionare i puntali nei punti desiderati (vedere Fig. 5).
+5.  Il valore della tensione DC è mostrato a display.
+
+    ```text
+    Mod Arm Fnz
+    D C
+    9 . 1 V
+    17/01 – 18:34:23
+    ```
+
+6.  Premere il tasto `F3 (Fnz)` per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+    *   `Max` → visualizza costantemente il massimo valore della tensione DC misurata
+    *   `Min` → visualizza costantemente il minimo valore della Tensione DC misurata
+    *   `Cr+` → visualizza costantemente il massimo valore di cresta positiva
+    *   `Cr-` → visualizza costantemente il minimo valore di cresta negativa
+    *   `RST` → (`RESET`) azzera i valori Max, Min, Cr+ e CR- rilevati e riparte con una nuova misurazione
+    *   `Esc` → Esce dalle modalità Max/Min/Cr+/Cr- e torna in modalità di misura normale
+
+    ```text
+    Mod Arm Fnz OK O
+    D C
+    9 . 1 V
+    17/01 – 18:34:23
+    ```
+
+7.  Premere il tasto `F4 (OK)` per confermare la voce selezionata. A lato un esempio di misura con la funzione Max attiva. Il simbolo `“Max”` indica la funzione attiva.
+
+    ```text
+    Mod Arm Fnz
+    D C
+    Max
+    1 2 . 0 V
+    17/01 – 18:34:23
+    ```
+
+> **ATTENZIONE**
+> Lo strumento misura continuamente tutti i 4 valori Max, Min, Cr+ e Cr- indipendentemente da quale sia visualizzato.
+
+8.  Per l’uso della funzione `HOLD` e della retroilluminazione vedere il § 4.2 e § 4.4.
+
+### 5.3. MISURA DI TENSIONE AC E AC+DC
+
+> **ATTENZIONE**
+> La massima tensione AC e AC+DC in ingresso è `1000V`. Quando a display compare l’indicazione `“>999.9V”` significa che è stato superato il valore massimo misurabile dallo strumento. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+Fig. 6 : Misura di Tensione AC e AC+DC
+
+1.  Posizionare il selettore su `“V~”`. La videata a lato è mostrata a display.
+
+    ```text
+    Mod Arm Fnz
+    A C < 4 2 . 5 H z
+    0 . 0 V
+    17/01 – 18:34:23
+    ```
+
+2.  Premere il tasto `F1 (Mod)` per aprire il menù a tendina mostrato nella videata a lato e selezionare l’opzione `“AC”` o `“AC+DC”` con lo stesso tasto.
+3.  Premere il tasto `F4 (OK)` per confermare la scelta.
+
+    ```text
+    Mod Arm Fnz OK
+    A C < 4 2 . 5 H z
+    - - 0 V
+    17/01 – 18:34:23
+    ```
+
+4.  Inserire il cavo rosso nel terminale di ingresso `V Ω` e il cavo nero nel terminale di ingresso `COM` e posizionare i puntali nei punti desiderati del circuito in esame (vedere Fig. 6).
+5.  Il valore della tensione AC e della frequenza è mostrato a display. Lo strumento è in grado di misurare anche l’eventuale presenza di componenti continue sovrapposte su una forma d’onda alternata generica (`AC+DC`). Ciò può essere di utilità nella misurazione dei segnali impulsivi tipici di carichi non lineari (ex: saldatrici, forni elettrici, ecc…).
+
+    ```text
+    Mod Arm Fnz
+    A C   5 0 . 0   H z
+    2 3 0 . 1 V
+    17/01 – 18:34:23
+    ```
+
+6.  Premere il tasto `F3 (Fnz)` per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+    *   `Max` → visualizza costantemente il massimo valore della tensione AC+DC misurata
+    *   `Min` → visualizza costantemente il minimo valore della Tensione AC+DC misurata
+    *   `Cr+` → visualizza costantemente il massimo valore di cresta positiva
+    *   `Cr-` → visualizza costantemente il minimo valore di cresta negativa
+    *   `RST` → (`RESET`) azzera i valori Max, Min, Cr+ e CR- rilevati e riparte con una nuova misurazione
+    *   `Esc` → Esce dalle modalità Max/Min/Cr+/Cr- e torna in modalità di misura normale
+
+    ```text
+    Mod Arm Fnz OK
+    A C   5 0 . 0
+    2 3 . 1 V
+    17/01 – 18:34:23
+    ```
+
+7.  Premere il tasto `F4 (OK)` per confermare la voce selezionata. A lato un esempio di misura con la funzione Max attiva. A display viene indicata la funzione attiva.
+
+    ```text
+    Mod Arm Fnz
+    A C   5 0 . 0   H z
+    Max
+    2 3 1 . 5 V
+    17/01 – 18:34:23
+    ```
+
+> **ATTENZIONE**
+> La misura dei 4 valori Max, Min, Cr+ e Cr- è contemporanea ed indipendentemente da quella visualizzata.
+
+8.  Per l’uso della funzione `HOLD` e della retroilluminazione vedere il § 4.2 e § 4.4.
+
+#### 5.3.1. Misura Armoniche di Tensione
+
+1.  Premere il tasto `F2 (Arm)` per selezionare la videata di misura delle armoniche di tensione come mostrato nella videata a lato. Premere nuovamente il tasto `F2 (RMS)` per tornare alla videata della misura di tensione.
+
+    ```text
+    Mod Arm Fnz
+    A C   5 0 . 0   H z
+    2 2 0 . 5 V
+    17/01 – 18:34:23
+    ```
+
+2.  Premere i tasti `F1 (◄)` o `F4 (►)` per spostare il cursore sul grafico a barre e selezionare l’ordine dell’armonica che si desidera misurare. Il corrispondente valore assoluto o percentuale dell’armonica è mostrato a display. E’ possibile misurare armoniche fino al 25° ordine con visualizzazione del parametro `THDV%` (vedere § 10.1).
+
+    ```text
+    ◄ RMS Fnz ►
+    h 0 1   2 1 5 . 0 V
+    ThdV 1 0 . 0 %
+    17/01 – 18:34:23
+    ```
+
+3.  Premere il tasto `F3 (Fnz)` per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+    *   `Max`: visualizza costantemente il massimo valore efficace della armonica di tensione selezionata
+    *   `Min`: visualizza costantemente il minimo valore efficace della armonica di tensione selezionata
+    *   `Abs`: visualizza il valore assoluto delle armoniche
+    *   `%`: visualizza il valore delle armoniche come valore percentuale rispetto alla fondamentale
+    *   `RST`: (`RESET`) azzera i valori Max, Min rilevati e riparte con una nuova misurazione
+    *   `Esc`: torna in modalità di misura normale
+
+    ```text
+    ◄ RMS Fnz
+    h 0 1   2 1 5 . 0 V
+    ThdV 1 0 . 0 %
+    17/01 – 18:34:23
+    ```
+
+> **ATTENZIONE**
+> Essendo presenti nel menu funzioni di diverso significato (Max-Min e Abs/%) eseguire un doppio ingresso al menu per passare alla visualizzazione in Abs o % e l’altra per abilitare le funzioni Max o Min.
+
+4.  Premere il tasto `F4 (OK)` per confermare la voce selezionata. A lato un esempio di misura con la funzione Max attiva. A display viene indicata la funzione attiva.
+
+    ```text
+    ◄ RMS Fnz ►
+    h 0 1   2 1 5 . 0 V
+    ThdV 1 0 . 0 %
+    Max
+    17/01 – 18:34:23
+    ```
+
+5.  Per l’uso della funzione `HOLD` e della retroilluminazione vedere il § 4.2 e § 4.4.
+
+#### 5.3.2. Senso ciclico e concordanza delle fasi a 1 terminale
+
+> **ATTENZIONE**
+> Durante l’esecuzione della misura lo strumento deve sempre essere tenuto in mano dall’operatore.
+
+### Senso ciclico delle fasi
+
+Fig. 7 : Verifica del senso ciclico delle fasi
+
+1.  Premere il tasto `F1 (Mod)` per aprire il menù a tendina mostrato nella videata a lato e selezionare l’opzione `“Ph Seq”` con lo stesso tasto.
+2.  Premere il tasto `F4 (OK)` per confermare la scelta. La videata seguente è mostrata a display.
+
+    ```text
+    Mod Arm Fnz OK
+    A C < 4 2 . 5 H z
+    - - 0 V
+    17/01 – 18:34:23
+    ```
+
+3.  Lo strumento mostra il messaggio `“PH1”` e attende il rilevamento della fase L1.
+4.  Inserire il cavo rosso nel terminale di ingresso `V Ω` e posizionare il puntale sulla fase L1 del circuito in esame (vedere Fig. 7).
+
+    ```text
+    Mod Go
+    Ph Seq
+    PH1
+    Attendi
+    17/01 – 18:34:23
+    ```
+
+> **ATTENZIONE**
+> Se la frequenza della tensione misurata è inferiore a `42.5Hz` o superiore a `69Hz`, nella parte bassa del display viene mostrato il messaggio `“F<42.5 Hz”` o `“F>69 Hz”` e il rilevamento della fase non parte.
+
+5.  Quando viene rilevata una tensione `≥ 100V` lo strumento emette un segnale acustico e sul display viene visualizzato il messaggio `“Mis.”`. Non premere alcun tasto e mantenere il puntale rosso connesso alla fase L1.
+
+    ```text
+    Mod Go
+    Ph Seq
+    PH1
+    Mis.
+    17/01 – 18:34:23
+    ```
+
+6.  Al termine dell’acquisizione della fase L1 lo strumento cessa il segnale acustico e presenta il messaggio `“Discon.”`. Disconnettere il puntale rosso dalla fase L1.
+
+    ```text
+    Mod Go
+    Ph Seq
+    Discon.
+    Attendi
+    17/01 – 18:34:23
+    ```
+
+7.  Lo strumento mostra il messaggio `“PH2”` e attende il rilevamento della fase L2. Collegare il puntale rosso alla fase L2 (vedere Fig. 7).
+
+    ```text
+    Mod Go
+    Ph Seq
+    PH2
+    Attendi
+    17/01 – 18:34:23
+    ```
+
+> **ATTENZIONE**
+> Lasciando trascorrere oltre `3 secondi` prima di rilevare la fase L2, lo strumento presenta a display il messaggio `“Time Out”`. Occorre ripetere dall’inizio il ciclo di misura premendo il tasto `F4 (Go)` e ripartendo dal punto 3.
+
+8.  Quando viene rilevata una tensione `≥ 100V` lo strumento emette un segnale acustico e sul display viene visualizzato il messaggio `“Misura”`. Non premere alcun tasto e mantenere il puntale connesso rosso alla fase L2.
+
+    ```text
+    Mod Go
+    Ph Seq
+    PH2
+    Mis.
+    17/01 – 18:34:23
+    ```
+
+9.  Se le due fasi alle quali è stato collegato il puntale sono nella corretta sequenza, lo strumento visualizza il messaggio `“123”`. Se le due fasi alle quali è stato collegato il puntale NON sono nella corretta sequenza, lo strumento visualizza il messaggio `“132”`.
+10. Per avviare una nuova misurazione premere il tasto `F4 (Go)`.
+
+    ```text
+    Mod Go
+    Ph Seq
+    1 2 3
+    17/01 – 18:34:23
+    ```
+
+<!-- Chunk: Pages 22-42 -->
+# Concordanza delle fasi
+
+**ATTENZIONE**
+Durante l’esecuzione della misura lo strumento deve sempre essere tenuto in mano dall’operatore.
+
+Fig. 8 : Verifica della concordanza delle fasi
+
+1.  Lo strumento mostra la videata a lato e attende il rilevamento della fase L1 della prima terna trifase
+    ```
+    Mod   Go
+    ```
+2.  Inserire il cavo rosso nel terminale di ingresso `V Ω` e posizionare il puntale sulla fase L1 della prima terna trifase del circuito in esame (vedere Fig. 8)
+    ```
+    P h   S e q
+    P H 1
+    A t t e n d i
+    17/01   –   18:34:23
+    ```
+3.  Quando viene rilevata tensione ≥ 100V lo strumento emette un segnale acustico e sul display viene visualizzato il messaggio “`Mis. `”. Non premere alcun tasto e mantenere il puntale rosso connesso alla fase L1 della prima terna trifase
+    ```
+    Mod   Go
+    P h   S e q
+    P H 1
+    M i s .
+    17/01   –   18:34:23
+    ```
+4.  Al termine dell’acquisizione della fase L1 lo strumento cessa il segnale acustico e presenta il messaggio “`Discon.`”. Disconnettere il puntale rosso dalla fase L1 della prima terna trifase
+    ```
+    Mod   Go
+    P h   S e q
+    D i s c o n .
+    A t t e n d i
+    17/01   –   18:34:23
+    ```
+5.  Lo strumento mostra il messaggio “`PH2`” e attende il rilevamento della fase L1 della seconda terna trifase. Collegare il puntale rosso alla fase L1 della seconda terna trifase (vedere Fig. 8)
+    ```
+    Mod   Go
+    P h   S e q
+    P H 2
+    A t t e n d i
+    17/01   –   18:34:23
+    ```
+
+**ATTENZIONE**
+Lasciando trascorrere oltre `3` secondi prima di rilevare la fase L1 della seconda terna, lo strumento presenta a display il messaggio “`Time Out`”. Occorre ripetere dall’inizio il ciclo di misura premendo il tasto `F4` (`Go`) e ripartendo dal punto 1.
+
+6.  Quando viene rilevata una tensione ≥ 100V lo strumento emette un segnale acustico e sul display viene visualizzato il messaggio “`Mis. `”. Non premere alcun tasto e mantenere il puntale connesso rosso alla fase L1 della seconda terna trifase
+    ```
+    Mod
+    P h   S e q
+    P H 2
+    M i s
+    17/01   –   18:34:23
+    ```
+7.  Se le due fasi alle quali è stato collegato il puntale sono concordi, lo strumento visualizza il messaggio “`11 - `”. In caso contrario visualizza i messaggi “`123`” o “`132`”. Per avviare una nuova misurazione premere il tasto `F4` (`Go`).
+    ```
+    Mod   Go
+    P h   S e q
+    1   1   -
+    17/01   –   18:34:23
+    ```
+
+# 5.4. MISURA DI CORRENTE DC
+
+**ATTENZIONE**
+*   La massima corrente DC misurabile è **1000A**. Quando a display compare l’indicazione “`> 999.9A`” significa che è stato superato il valore massimo misurabile dalla strumento. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+*   Si raccomanda di impugnare la strumento rispettando la zona di sicurezza individuata dalla barriera paramano (vedere Fig. 3).
+
+Fig. 9 : Misura di corrente DC
+
+1.  Posizionare il selettore su “`A `”. La videata a lato è mostrata a display
+    ```
+    Mod   A r m   Fnz   Zro
+    A C   <   4 2 . 5   H z
+    0 . 0   A
+    17/01   –   18:34:23
+    ```
+2.  Premere il tasto `F1` (`Mod`) per aprire il menù a tendina mostrato nella videata a lato e selezionare l’opzione “`DC`” con lo stesso tasto. Il tasto `F2` (Arm) non è attivo in questa funzione
+    ```
+    A C
+    D C
+    AC+DC
+    Help
+    ```
+3.  Premere il tasto `F4` (`OK`) per confermare la scelta. Lo strumento si porta in modalità misura corrente DC
+4.  Premere il tasto `F4` (`Zro`) per eseguire l’azzeramento del valore a display annullando la magnetizzazione residua
+    ```
+    Mod   A r m   Fnz   OK
+    A   <   4 2   .   5   H z
+    -   0 . 0   A
+    17/01   –   18:34:23
+    ```
+5.  Inserire il cavo all’interno del toroide al centro dello stesso al fine di ottenere misure accurate (vedere Fig. 9). Utilizzare le tacche presenti come riferimento (vedere Fig. 2)
+6.  Il valore della corrente DC è mostrato a display
+    ```
+    Mod   Arm   Fnz   Zro
+    D C
+    1 0 0   . 0   A
+    17/01   –   18:34:23
+    ```
+7.  Premere il tasto `F3` (`Fnz`) per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+    *   `Max`: visualizza costantemente il massimo valore della corrente DC
+    *   `Min`: visualizza costantemente il minimo valore della corrente DC selezionato
+    *   `RST`: (RESET) azzera i valori Max, Min rilevati e riparte con una nuova misurazione
+    *   `Esc`: torna in modalità di misura normale
+    ```
+    Mod   Arm   Fnz   OK
+    D C
+    1 0 0 . 0   A
+    17/01   –   18:34:23
+    ```
+
+**ATTENZIONE**
+*   Eseguire l’azzeramento della corrente prima di inserire il conduttore.
+*   La misura dei valori Max e Min è contemporanea e indipendentemente da quella visualizzata.
+
+8.  Premere il tasto `F4` (`OK`) per confermare la voce selezionata. A lato un esempio di misura con la funzione Max attiva. A display viene indicata la funzione attiva.
+    ```
+    Mod   Arm   Fnz   Zro
+    D C
+    M a x
+    1   2   0   . 0   A
+    17/01   –   18:34:23
+    ```
+9.  Per l’uso della funzione HOLD e della retroilluminazione vedere il § 4.2 e il § 4.4.
+
+# 5.5. MISURA DI CORRENTE AC E AC+DC
+
+**ATTENZIONE**
+*   La massima corrente AC e AC+DC misurabile è **1000A**. Quando a display compare l’indicazione “`> 999.9A`” significa che è stato superato il valore massimo misurabile dalla strumento. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+*   Si raccomanda di impugnare la strumento rispettando la zona di sicurezza individuata dalla barriera paramano (vedere Fig. 3).
+
+Fig. 10 : Misura di Corrente AC e AC+DC
+
+1.  Posizionare il selettore su “`A `”. La videata a lato è mostrata a display
+    ```
+    Mod   A r m   Fnz   Zro
+    A C   <   4 2 . 5   H z
+    0 . 0   A
+    17/01   –   18:34:23
+    ```
+2.  Premere il tasto `F1` (`Mod`) per aprire il menù a tendina mostrato nella videata a lato e selezionare (se non già presente) l’opzione “`AC`” o “`AC+DC`” con lo stesso tasto
+    ```
+    A C
+    D C
+    AC+DC
+    Help
+    ```
+3.  Premere il tasto `F4` (`OK`) per confermare la scelta. Lo strumento si porta in modalità misura corrente AC
+4.  Premere il tasto `F4` (`Zro`) per eseguire l’azzeramento del valore a display annullando la magnetizzazione residua
+    ```
+    Mod   A r m   Fnz   OK
+    A C   <   4 2   .   5   H z
+    -   0 . 0   A
+    17/01   –   18:34:23
+    ```
+5.  Inserire il cavo all’interno del toroide al centro dello stesso al fine di ottenere misure accurate (vedere Fig. 10 – parte sinistra). Utilizzare le tacche presenti come riferimento (vedere Fig. 2)
+6.  Il valore della corrente AC è mostrato a display. Lo strumento è in grado di misurare anche l’eventuale presenza di componenti continue sovrapposte su una forma d’onda alternata generica (AC+DC). Ciò può essere di utilità nella misurazione dei segnali impulsivi tipici di carichi non lineari (ex: saldatrici, forni elettrici, ecc…)
+    ```
+    Mod   A r m   Fnz   Zro
+    A C   5 0 . 0   H z
+    1 0 0 . 0   A
+    17/01   –   18:34:23
+    ```
+7.  Premere il tasto `F3` (`Fnz`) per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+    *   `Max`: visualizza costantemente il massimo valore della corrente AC+DC
+    *   `Min`: visualizza costantemente il minimo valore della corrente AC+DC selezionato
+    *   `Cr+`: visualizza costantemente il massimo valore di cresta positiva
+    *   `Cr-`: visualizza costantemente il minimo valore di cresta negativa
+    *   `RST`: (RESET) azzera i valori Max, Min, Cr+ e CR- rilevati e riparte con una nuova misurazione
+    *   `Esc`: torna in modalità di misura normale
+    ```
+    Mod   A r m   Fnz z   OK
+    A   C
+    1 0 0 . 0   A
+    17/01   –   18:34:23
+    ```
+
+**ATTENZIONE**
+*   Eseguire l’azzeramento della corrente prima di inserire il conduttore.
+*   La misura dei 4 valori Max, Min, Cr+ e Cr- è contemporanea e indipendentemente da quella visualizzata.
+
+8.  Premere il tasto `F4` (`OK`) per confermare la voce selezionata. A lato un esempio di misura con la funzione Max attiva. A display viene indicata la funzione attiva.
+    ```
+    Mod   A r m   Fnz   Zro
+    A C   5 0 . 0   H z
+    M a x
+    1 2 0 . 0   A
+    17/01   –   18:34:23
+    ```
+9.  Per l’uso della funzione HOLD e della retroilluminazione vedere il § 4.2 e il § 4.4.
+
+## 5.5.1. Misura Armoniche di Corrente
+
+1.  Premere il tasto `F2` (`Arm`) per selezionare la videata di misura delle armoniche di corrente come mostrato nella videata a lato. Premere nuovamente il tasto `F2` (`RMS`) per tornare alla videata della misura di corrente
+    ```
+    Mod   A r m   Fnz   Zro
+    A C   5 0 . 0   H z
+    1 0 0 . 0   A
+    17/01   –   18:34:23
+    ```
+2.  Premere i tasti `F1` (`◄`) o `F4` (`►`) per spostare il cursore sul grafico a barre e selezionare l’ordine dell’armonica che si desidera misurare. Il corrispondente valore assoluto o percentuale dell’armonica è mostrato a display. E’ possibile misurare armoniche fino al 25° ordine con visualizzazione del parametro THDI% (vedere § 10.1).
+    ```
+    ◄   RMS   Fnz   ►
+    h 0 1   1 0 0   . 0   A
+    T h d   I   1 0 . 0   %
+    17/01   –   18:34:23
+    ```
+3.  Premere il tasto `F3` (`Fnz`) per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+    *   `Max`: visualizza costantemente il massimo valore efficace della armonica di corrente selezionata
+    *   `Min`: visualizza costantemente il minimo valore efficace della armonica di corrente selezionata
+    *   `Abs`: visualizza il valore assoluto delle armoniche
+    *   `%`: visualizza il valore delle armoniche come valore percentuale rispetto alla fondamentale
+    *   `RST`: (RESET) azzera i valori Max, Min rilevati e riparte con una nuova misurazione
+    *   `Esc`: torna in modalità di misura normale
+    ```
+    ◄   RMS   Fnz z
+    h 0 1   1   1 5 . 0   A
+    T h d V   1 0 . 0   %
+    17/01   –   18:34:23
+    ```
+
+**ATTENZIONE**
+Essendo presenti nel menu funzioni di diverso significato (Max - Min e Abs/%) eseguire un doppio ingresso al menu per passare alla visualizzazione in Abs o % e l’altra per abilitare le funzioni Max o Min.
+
+4.  Premere il tasto `F4` (`OK`) per confermare la voce selezionata. A lato un esempio di misura con la funzione Max attiva. A display viene indicata la funzione attiva.
+    ```
+    ◄   RMS   Fnz   ►
+    h 0 1   1 0 0   . 0   A
+    T h d   I   1 0 . 0   %
+    M a x
+    17/01   –   18:34:23
+    ```
+5.  Per l’uso della funzione HOLD e della retroilluminazione vedere il § 4.2 e il § 4.4.
+    ```
+    Max
+    Min
+    Abs
+    %
+    RST
+    Esc
+    ```
+
+# 5.6. MISURA CORRENTE DI SPUNTO (DYNAMIC INRUSH)
+
+**ATTENZIONE**
+*   La massima corrente AC o AC+DC misurabile è **1000A**. Non misurare correnti che eccedano i limiti espressi in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+*   Si raccomanda di impugnare la strumento rispettando la zona di sicurezza individuata dalla barriera paramano (vedere Fig. 3).
+*   Le correnti <2 A sono azzerate.
+
+Fig. 11 : Misura Corrente di spunto (Dynamic Inrush)
+
+1.  Posizionare il selettore su “`A Dynamic Inrush`”. La videata a lato è mostrata a display
+    ```
+    Mod o   Dsp   Lim   Run
+    D   y   n   a   m   i   c   IRC
+    ----   A
+    F I X   -   L I M   2 A
+    17/01   –   18:34:23
+    ```
+2.  Premere il tasto `F1` (`Mod`) per selezionare la misura della corrente di spunto “`Inrush 100A`” (per correnti di spunto <100A) o “`Inrush 1000A`” (per correnti di spunto tra 100A e 1000A) come mostrato nella videata a lato. Selezionare l’opzione “`Zro`” per annullare l’eventuale magnetizzazione residua
+    ```
+    FS   100A
+    FS   1000A
+    Zro
+    Ayuda
+    ```
+3.  Premere il tasto `F4` (`OK`) per confermare la scelta. Lo strumento si porta in modalità misura corrente di spunto
+    ```
+    Mod o   Dsp   Lim   OK
+    D   y   n   a   m   i   c
+    ----   A
+    F I X   -   L I M   2 A
+    17/01   –   18:34:23
+    ```
+4.  Premere il tasto `F3` (`Lim`) per l’impostazione della soglia limite sulla corrente di spunto. La seguente videata è mostrata a display
+5.  Premere i tasti `F2` (``) o `F3` (``) per impostare il valore di soglia per la registrazione dell’evento (Valori ammessi: `2A ÷ 90A` per “`Inrush 100A`” e `5A ÷ 900A` per “`Inrush 1000A`”)
+6.  Premere il tasto `F4` (`OK`) per confermare il valore e tornare alla videata principale
+    ```
+          OK
+    S o g l i a :
+    002   A
+    17/01   –   18:34:23
+    ```
+7.  Inserire il cavo all’interno del toroide al centro dello stesso al fine di ottenere misure accurate (vedere Fig. 11). Utilizzare le tacche presenti come riferimento (vedere Fig. 2)
+8.  Premere il tasto `F4` (`Run`) per avviare la rilevazione dell’evento corrente di spunto. Premere il tasto `F4` (`Stp`) per terminare la misura in qualunque momento. Dopo aver rilevato un evento (superamento della soglia limite impostata) lo strumento arresta automaticamente la misura fornendo a display il massimo valore RMS in 100ms come mostrato nella videata seguente
+    ```
+    Mod   Par   Lim   S av
+    D   y   n   a   m   i   c   IR C
+    100ms
+    14.3   A
+    Fix   –   LIM   2 A
+    17/01   –   18:34:23
+    ```
+9.  Premere il tasto `F2` (`Dsp`) per la visualizzazione dei seguenti valori a display:
+    *   `PK` → valore di picco in `1ms`
+    *   Max valore RMS in `16.7ms`
+    *   Max valore RMS in `20ms`
+    *   Max valore RMS in `50ms`
+    *   Max valore RMS in `100ms`
+    *   Max valore RMS in `150ms`
+    *   Max valore RMS in `200ms`
+    ```
+    Mod   Dsp   Lim   S av
+    D   y   n   a   m   i   c   I R C
+    PK
+    18.2   A
+    Fix   –   LIM   2A
+    17/01   –   18:34:23
+    ```
+10. Premere il tasto `F4` (`Sav`) per salvare il risultato di misura all’interno della Memoria IRC (vedere § 4.4.6). E’ possibile salvare fino a 20 misure IRC nella memoria. Successivamente il messaggio “`MEM PIENA`” è mostrato nella parte bassa del display
+    ```
+    Mod   Par   Lim   Run
+    D   y   n   a   m   i   c   IRC
+    100ms
+    ----   A
+    Fix   –   LIM   2A
+    17/01   –   18:34:23
+    ```
+11. Premere il tasto `F4` (`Run`) per avviare una nuova prova o ruotare il selettore per uscire dalla funzione
+
+# 5.7. MISURA DI POTENZA ED ENERGIA DC
+
+**ATTENZIONE**
+*   La massima tensione DC in ingresso è **1500V** e la massima corrente DC misurabile è **1000A**. Non misurare tensioni e correnti che eccedano i limiti espressi in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+*   Si raccomanda di impugnare la strumento rispettando la zona di sicurezza individuata dalla barriera paramano (vedere Fig. 3).
+
+Fig. 12 : Misura di Potenza / Energia DC
+
+1.  Posizionare il selettore su “`W `”. La videata a lato è mostrata a display
+    ```
+    Mod   Par   Fnz   Zro
+    A C   + D C   <   4 2 . 5   H z
+    - - - -   k W
+    - - - -   k V a r i
+    - - - -   k V A
+    1 P
+    17/01   –   18:34:23
+    ```
+2.  Premere il tasto `F1` (`Mod`) per aprire il menù a tendina mostrato nella videata a lato e selezionare l’opzione “`DC`” con lo stesso tasto
+    ```
+    AC+DC   1P
+    AC +DC   3P
+    DC
+    Online
+    Help
+    Zro
+    Esc
+    ```
+3.  Premere il tasto `F4` (`OK`) per confermare la scelta. Lo strumento si porta in modalità misura potenza DC
+    ```
+    Mod d   Par   Fnz   OK
+    A C   <   4 2 . 5   H z
+    - - - -   k W
+    - - - -   k V a r i
+    - - - -   k V A
+    17/01   –   18:34:23
+    ```
+4.  Selezionare l’opzione “`Zro`” per eseguire l’azzeramento dei valori a display annullando la magnetizzazione residua sulla corrente DC. Selezionare l’opzione “`Online`” per attivare la visualizzazione in tempo reale dei parametri con collegamento WiFi dello strumento a PC e software TopView oppure con collegamento a dispositivi mobili tramite APP HTAnalysis (vedere § 6.2)
+    ```
+    Mod   Par   Fnz
+    D C
+    0 . 0 0   k W
+    17/01   –   18:34:23
+    ```
+5.  Inserire il cavo rosso nel terminale di ingresso `V Ω` e il cavo nero nel terminale di ingresso `COM`. Posizionare il puntale rosso su polo “+” e il puntale nero sul polo “-“ e inserire il cavo “+” all’interno del toroide rispettando la direzione della corrente indicata dalla freccia (vedere Fig. 12). Inserire il cavo all’interno del toroide al centro dello stesso al fine di ottenere misure accurate. Utilizzare le tacche presenti come riferimento (vedere Fig. 2)
+6.  Il valore della Potenza DC è mostrato a display espresso in kW. Premere il tasto `F2` (`Par`), selezionare con lo stesso tasto l’opzione “`Tens/Corr`” per la lettura dei valori di tensione DC e corrente DC e confermare con `F4` (`OK`). La seguente videata è mostrata a display
+    ```
+    Mod   Par   Fnz   OK
+    D C
+    1   .   6   0   k W
+    17/01   –   18:34:23
+    ```
+7.  Nella videata a lato un esempio di misura di tensione e corrente DC.
+    ```
+    Potenza
+    Tens/Corr
+    Energia
+    D C
+    8 0 . 0   V
+    2 0 . 0   A
+    17/01   –   18:34:23
+    ```
+8.  Premere il tasto `F2` (`Par`), selezionare con lo stesso tasto l’opzione “`Energia`” per la lettura dei valori di energia DC e confermare con `F4` (`OK`).
+    ```
+    Mod   Par   Fnz   OK
+    D C
+    1 . 6 0   k W
+    17/01   –   18:34:23
+    ```
+9.  Premere il tasto `F3` (`Fnz`), selezionare l’opzione “`Start Log`” e confermare con il tasto `F4` (`OK`) per attivare la misura di energia con periodo di integrazione impostato (vedere § 4.4.3)
+    ```
+    Mod   Par   Fnz   OK
+    D C
+    0 . 0 0 0   k W h
+    17/01   –   18:34:23
+    ```
+10. Il messaggio “`Attendi`” è mostrato a display. Lo strumento si pone in attesa e attiva la registrazione all’istante “`00`” successivo
+    ```
+    Mod   Par   Fnz
+    D C
+    0   .   0   0   k W h
+    A t t e n d i
+    17/01   –   18:34:23
+    ```
+11. Con registrazione in corso il messaggio “`Reg`” è mostrato a display. Premere il tasto `F3` (`Fnz`) per selezionare l’opzione “`Info`“ e confermare con il tasto `F4` (`OK`) per visualizzare le informazioni sulla registrazione. La seguente videata è mostrata a display
+    ```
+    Mod   Par   Fnz
+    Potenza
+    Tens/Corr
+    Energia
+    D C
+    3 . 2 0   k W h
+    R e g
+    17/01   –   18:35:00
+    ```
+12. La seguente videata è mostrata a display. Sono indicati:
+    *   Data/ora di inizio registrazione
+    *   Periodo di integrazione impostato
+    *   Numero di periodi salvati fino a quel momento
+    *   Autonomia registrazione
+    ```
+    Esc
+    P a r t e n z a :
+    1 7 / 0 1   -   1 8 : 3 5 : 0 0
+    P e r i o . I n t :   0 0 5
+    N . P e r i o d i :   0 0 0 5 4
+    A u t o n o :   0 0 d / 1 0 h
+    17/01   –   18:37:43
+    ```
+13. Premere il tasto `F3` (`Fnz`), selezionare l’opzione “`Stop Log`” e confermare con il tasto `F4` (`OK`) per terminare la misura di energia. La registrazione è automaticamente salvata nella memoria interna dello strumento ed il riferimento è visibile nella sezione “Memoria REC” dello strumento (vedere § 4.4.5)
+    ```
+    Mod   Par   Fnz
+    D C
+    6 . 4 0   k W h
+    R e g
+    17/01   –   18:35:00
+    ```
+14. Durante la misura di tensione DC, corrente DC e potenza DC premere il tasto `F3` (`Fnz`) per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+    *   `Max` → visualizza costantemente il massimo valore del parametro misurato
+    *   `Min` → visualizza costantemente il minimo valore del parametro misurato
+    *   `RST` → (RESET) azzera i valori Max, Min rilevati e riparte con una nuova misurazione
+    *   `Start Log` → avvia una nuova registrazione con periodo di integrazione impostato nel § 4.4.3
+    *   `Snapshot` → permette il salvataggio di un campionamento istantaneo il cui riferimento è visibile nella sezione “Memoria REC” dello strumento (vedere § 4.4.5)
+    *   `Download` → permette di eseguire il trasferimento WiFi a PC dei dati salvati tramite software TopView oppure a dispositivi mobili tramite APP HTAnalysis (vedere § 6.1)
+    *   `Esc` → torna in modalità di misura normale
+    ```
+    Mod   Par   Fnz   OK
+    D C
+    0 . 4 0   k W
+    17/01   –   18:34:23
+    ```
+    ```
+    Max
+    Min
+    RST
+    Start   Log
+    Snapshot
+    Download
+    Esc
+    ```
+    ```
+    Stop   Log
+    Info
+    Esc
+    ```
+15. Premere il tasto `F4` (`OK`) per confermare la voce selezionata. A lato un esempio di misura con la funzione Max attiva. A display viene indicata la funzione attiva.
+    ```
+    Mod   Par   Fnz
+    D C
+    M a x
+    2   . 4 0   k W
+    17/01   –   18:34:23
+    ```
+16. Per l’uso della funzione HOLD e della retroilluminazione vedere i § 4.4 e § 4.2.
+
+# 5.8. MISURA DI POTENZA ED ENERGIA AC E AC+DC
+
+**ATTENZIONE**
+*   La massima tensione AC / AC+DC in ingresso è **1000V** e la massima corrente AC / AC+DC misurabile è **1000A**. Non misurare tensioni e correnti che eccedano i limiti espressi in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+*   Si raccomanda di impugnare la strumento rispettando la zona di sicurezza individuata dalla barriera paramano (vedere Fig. 3).
+
+Fig. 13 : Misura di potenze AC/AC+DC in sistemi Monofase e Trifase equilibrato
+
+1.  Posizionare il selettore su “`W `”. La videata a lato è mostrata a display
+    ```
+    Mod   Par   Fnz
+    A C   + D C   <   4 2 . 5   H z
+    - - - -   k W
+    - - - -   k V a r i
+    - - - -   k V A
+    1 P
+    17/01   –   18:34:23
+    ```
+2.  Premere il tasto `F1` (`Mod`) per aprire il menù a tendina mostrato nella videata a lato e selezionare le opzioni “`AC+DC 1P`” (misura Monofase) o “`AC+DC 3P`” (misura Trifase equilibrato) con lo stesso tasto. Le indicazioni “`1P`” o “`3P`” sono rispettivamente presenti nella parte bassa del display
+    ```
+    AC+DC   1P
+    AC +DC   3P
+    DC
+    Online
+    Help
+    Zro
+    Esc
+    ```
+3.  Premere il tasto `F4` (`OK`) per confermare la scelta. Lo strumento si porta in modalità misura potenza AC+DC
+    ```
+    Mod   Par   Fnz   OK
+    A C   <   4 2 . 5   H z
+    - - - -   k W
+    - - - -   k V a r i
+    - - - -   k V A
+    17/01   –   18:34:23
+    ```
+4.  Selezionare l’opzione “`Zro`” per eseguire l’azzeramento dei valori a display annullando la magnetizzazione residua sulla corrente AC+DC
+5.  Selezionare l’opzione “`Online`” per attivare la visualizzazione in tempo reale dei parametri con collegamento WiFi dello strumento a PC e software TopView oppure con collegamento a dispositivi mobili tramite APP HTAnalysis (vedere § 6.2)
+    ```
+    Mod   Par   Fnz
+    C   A   +   C   C   < 4 2 . 5   H z
+    - - - -   k W
+    - - - -   k V a r i
+    - - - -   k V A
+    1 P
+    17/01   –   18:34:23
+    ```
+6.  Inserire il cavo rosso nel terminale di ingresso `V Ω` e il cavo nero nel terminale di ingresso `COM` ed eseguire i collegamenti dello strumento come indicato in Fig. 13 in funzione del tipo di misura. Inserire il cavo all’interno del toroide rispettando la direzione della corrente indicata dalla freccia al centro dello stesso al fine di ottenere misure accurate. Utilizzare le tacche presenti come riferimento (vedere Fig. 2)
+7.  Il valore delle potenze AC (attiva, reattiva e apparente) è mostrato a display. Lo strumento è in grado di misurare anche l’eventuale presenza di componenti continue sovrapposte su una forma d’onda alternata generica (AC+DC). Ciò può essere di utilità nella misurazione dei segnali impulsivi tipici di carichi non lineari (ex: saldatrici, forni elettrici, ecc…) Premere il tasto `F2` (`Par`), selezionare con lo stesso tasto l’opzione “`Pf - dPf`” per la lettura dei valori di fattore di potenza (Pf) e Cos `φ` (dPf) confermare con `F4` (`OK`). La seguente videata è mostrata a display
+    ```
+    Mod   Par   Fnz   OK
+    D C
+    1 . 6 0   k W
+    1 P
+    17/01   –   18:34:23
+    ```
+8.  Nella videata a lato un esempio di misura di Pf (fattore di potenza) e dPf (parametro Cos `φ` o fattore di potenza depurato dalle armoniche). Le indicazioni “`i`” e “`c`” indicano la natura induttiva o capacitiva del carico
+    ```
+    Mod   Par   Fnz
+    A C   + D C   5 0 . 0   H z
+    P   f   0 . 9 4   i
+    d   P   f   0 . 9 4   i
+    1 P
+    17/01   –   18:34:23
+    ```
+9.  Premere il tasto `F2` (`Par`), selezionare con lo stesso tasto l’opzione “`Tens/Corr`” per la lettura dei valori di tensione e corrente. Confermare con `F4` (`OK`). La seguente videata è mostrata a display
+    ```
+    Mod   Par r   Fnz   OK
+    P - Q - S
+    Pf - dPf
+    Tens/Corr
+    Arm   Tensione
+    Arm   Corrente
+    Energia
+    D C
+    1 . 6 0   k W
+    1 P
+    17/01   –   18:34:23
+    ```
+10. Nella videata a lato un esempio di misura di tensione e corrente AC in un caso Monofase
+    ```
+    Mod   Par   Fnz
+    A C   + D C   5 0 . 0   H z
+    2 2 9 . 7   V
+    9 9 . 6   A
+    1 P
+    17/01   –   18:34:23
+    ```
+11. Premere il tasto `F2` (`Par`), selezionare con lo stesso tasto l’opzione “`Arm Tensione`” per la lettura dei valori di armoniche di tensione AC+DC. Confermare con `F4` (`OK`). La seguente videata è mostrata a display
+    ```
+    Mod   Par   Fnz   OK
+    P - Q - S
+    Pf - dPf
+    Tens/Corr
+    Arm   Tensione
+    Arm   Corrente
+    Energia
+    D C
+    1 . 6 0   k W
+    1 P
+    17/01   –   18:34:23
+    ```
+12. Nella videata a lato un esempio di misura di Armoniche di Tensione. Premendo i tasti `F1` (`◄`) o `F4` (`►`) è possibile spostare il cursore sul grafico e selezionare l’armonica che si desidera misurare. E’ possibile misurare fino al 25° ordine con visualizzazione del parametro THDV% (vedere § 10.1)
+    ```
+    ◄   P ar   Fnz   ►
+    h 0 5   2 . 3   V
+    T h d V   2 . 4   %
+    17/01   –   18:34:23
+    ```
+13. Premere il tasto `F2` (`Par`), selezionare con lo stesso tasto l’opzione “`Arm Corrente`” per la lettura dei valori di armoniche di corrente. Confermare con `F4` (`OK`). La seguente videata è mostrata a display
+    ```
+    Mod   Par   Fnz   OK
+    P - Q - S
+    Pf - dPf
+    Tens/Corr
+    Arm   Tensione
+    Arm   Corrente
+    Energia
+    D C
+    1 . 6 0   k W
+    1 P
+    17/01   –   18:34:23
+    ```
+14. Nella videata a lato un esempio di misura di Armoniche di Corrente. Premendo i tasti `F1` (`◄`) o `F4` (`►`) è possibile spostare il cursore sul grafico e selezionare l’armonica che si desidera misurare. E’ possibile misurare fino al 25° ordine con visualizzazione del parametro THDI% (vedere § 10.1)
+    ```
+    ◄   Par   Fnz   ►
+    h 0 5   2 . 9   A
+    T h d I   1 0 . 7   %
+    17/01   –   1 8:34:23
+    ```
+15. Premere il tasto `F3` (`Fnz`) per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+    *   `Max`: visualizza costantemente il massimo valore efficace della armonica di tensione o corrente selezionata
+    *   `Min`: visualizza costantemente il minimo valore efficace della armonica di tensione o corrente selezionata
+    *   `Abs`: visualizza il valore assoluto delle armoniche
+    *   `%`: visualizza il valore delle armoniche come valore percentuale rispetto alla fondamentale
+    *   `RST`: (RESET) azzera i valori Max, Min rilevati e riparte con una nuova misurazione
+    *   `Esc`: torna in modalità di misura normale
+    ```
+    ◄   Par   Fnz   OK
+    h 0 1   1 1 5 . 0   V
+    T h d V   1 0 . 0   %
+    17/01   –   18:34:23
+    ```
+    ```
+    Max
+    Min
+    Abs
+    %
+    RST
+    Esc
+    ```
+
+**ATTENZIONE**
+Essendo presenti nel menu funzioni di diverso significato (Max - Min e Abs/%) eseguire un doppio ingresso al menu per passare alla visualizzazione in Abs o % e l’altra per abilitare le funzioni Max o Min.
+
+16. Premere il tasto `F4` (`OK`) per confermare la voce selezionata. A lato un esempio di misura di armoniche di corrente con la funzione Max attiva. A display viene indicata la funzione attiva.
+    ```
+    ◄   Par   Fnz   ►
+    h 0 1   1 0 0 . 0   A
+    T h d   I   1 0 . 0   %
+    M a x
+    17/01   –   18:34:23
+    ```
+17. Premere il tasto `F2` (`Par`), selezionare con lo stesso tasto l’opzione “`Energia`” per la lettura dei valori di energia e confermare con `F4` (`OK`)
+    ```
+    Mod   Par   Fnz   OK
+    P - Q - S
+    Pf - dPf
+    Tens/Corr
+    Arm   Tensione
+    Arm   Corrente
+    Energia
+    A   C
+    1 . 6   0   k W
+    17/01   –   18:34:23
+    ```
+18. Premere il tasto `F3` (`Fnz`), selezionare l’opzione “`Start Log`” e confermare con il tasto `F4` (`OK`) per attivare la misura di energia con periodo di integrazione impostato (vedere § 4.4.3)
+    ```
+    Mod   Par   Fnz   OK
+    A C + D C   5 0 . 0   H z
+    - - - -   k W h
+    - - - -   k V a r i h
+    - - - -   k V a r c h
+    1 P
+    17/01   –   18:34:23
+    ```
+19. Il messaggio “`Attendi`” è mostrato a display. Lo strumento si pone in attesa e attiva la registrazione all’istante “`00`” successivo
+    ```
+    Mod   Par   Fnz
+    A   C   + D C
+    - - - -   k W h
+    - - - -   k V a r i h
+    - - - -   k V a r c h
+    A t t e n d i
+    17/01   –   18:34:23
+    ```
+20. Con registrazione in corso il messaggio “`Reg`” è mostrato a display. Premere il tasto `F3` (`Fnz`) per selezionare l’opzione “`Info`“ e confermare con il tasto `F4` (`OK`) per visualizzare le informazioni sulla registrazione. La seguente videata è mostrata a display
+    ```
+    Mod   Par   Fnz
+    A C + D C
+    0 . 0 0   -   k W h
+    0 . 0 0   k V a r i h
+    0 . 0 0   k V a r c h
+    R e g
+    17/01   –   18:35:00
+    ```
+21. Con registrazione in corso il messaggio “`Reg`” è mostrato a
+    ```
+    Esc
+    P - Q - S
+    Pf - dPf
+    Tens/Corr
+    Arm   Tensione
+    Arm   Corrente
+    Energia
+    Max
+    Min
+    RST
+    Start   Log
+    Snapshot
+    Download
+    Esc
+    Stop   Log
+    Info
+    Esc
+    ```
+
+<!-- Chunk: Pages 43-62 -->
+Premere il tasto `F3` (`Fnz`) e selezionare l’opzione “`Info`” per visualizzare le informazioni sulla registrazione. La seguente videata è mostrata a display. Sono indicati:
+*   Data/ora di inizio registrazione
+*   Periodo di integrazione impostato
+*   Numero di periodi salvati fino a quel momento
+*   Autonomia registrazione
+
+```
+S t a r t   :  1 7 / 0 1   -   1 8 : 3 5 : 0 0
+P e r i o . I n t :   0 0 5
+N . P e r i o d i :   0 0 0 5 4
+A u t o n o :   0 0 d / 1 0 h
+17/01   –   18:37:43
+```
+
+**22.** Premere il tasto `F3` (`Fnz`), selezionare l’opzione “`Stop Log`” per selezionare l’opzione “`Info`” e confermare con il tasto `F4` (`OK`) per terminare la misura di energia. La registrazione è automaticamente salvata nella memoria interna dello strumento ed il riferimento è visibile nella sezione “`Memoria REC`” dello strumento (vedere § 4.4.5)
+
+```
+Mod   Par   Fnz
+A C + D C
+2 . 2 4 2   k W h
+0 . 8 4 1   k V a r i h
+0 . 0 0 0   k V a r c h
+R e g   1 P
+17/01   –   18:35:00
+```
+
+**23.** Durante la misura di tensione AC+DC, corrente AC+DC e potenza AC premere il tasto `F3` (`Fnz`) per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F3` il cursore scorrerà le seguenti opzioni disponibili:
+*   `Max` → visualizza costantemente il massimo valore del parametro misurato
+*   `Min` → visualizza costantemente il minimo valore del parametro misurato
+*   `RST` → (RESET) azzera i valori Max, Min rilevati e riparte con una nuova misurazione
+*   `Start Log` → avvia una nuova registrazione con periodo di integrazione impostato nel § 4.4.3
+*   `Snapshot` → permette il salvataggio di un campionamento istantaneo il cui riferimento è visibile nella sezione “`Memoria REC`” dello strumento (vedere § 4.4.5)
+*   `Download` → permette di eseguire il trasferimento WiFi a PC dei dati salvati tramite software TopView oppure a dispositivi mobili tramite APP HTAnalysis (vedere § 6.1)
+*   `Esc` → torna in modalità di misura normale
+
+```
+Mod   Par   Fnz   OK
+D C
+0 . 4 0   k W
+17/01   –   18:34:23
+Stop   Log
+Info
+Esc
+Max
+Min
+RST
+Start   Log
+Snapshot
+Download
+Esc
+```
+
+**24.** Premendo il tasto `F4` (`OK`) si conferma la voce selezionata. A lato un esempio di misura con la funzione Max attiva. A display viene indicata la funzione attiva.
+
+```
+Mod   Par   Fnz
+A C   + D C   5 0 . 0   H z
+M a x
+8 0 . 0   V
+2 0 . 0   A
+17/01   –   18:34:23
+```
+
+**25.** Per l’uso della funzione `HOLD` e della retroilluminazione vedere i § 4.4 e § 4.2
+
+## 5.9. MISURA DI RESISTENZA E TEST CONTINUITÀ
+
+> **ATTENZIONE**
+> Prima di effettuare una qualunque misura di resistenza accertarsi che il circuito in esame non sia alimentato e che eventuali condensatori presenti siano scarichi.
+
+Fig. 14: Misura di Resistenza e Test continuità
+
+**1.** Posizionare il selettore su “`Ω`” La videata a lato è mostrata a display
+
+```
+Mod   Fnz
+>   3 0.0   k Ω
+17/01   –   18:34:23
+```
+
+**2.** Premere il tasto `F1` (`Mod`) per aprire il menù a tendina mostrato nella videata a lato e selezionare (se non già presente) l’opzione “`Resistenza`” con lo stesso tasto
+
+**3.** Premere il tasto `F4` (`OK`) per confermare la scelta. Lo strumento si porta in modalità misura Resistenza
+
+```
+Mod   Fnz   OK
+>   3 0.0   k Ω
+17/01   –   18:34:23
+```
+
+**4.** Inserire il cavo rosso nel terminale di ingresso `VΩ` e il cavo nero nel terminale di ingresso `COM` ed eseguire i collegamenti (vedere Fig. 14 – parte sinistra)
+
+**5.** Nella videata a lato un esempio di misura di Resistenza.
+
+```
+Mod   Fnz
+1 00 .0   Ω
+17/01   –   18:34:23
+```
+
+**6.** Premere il tasto `F1` (`Mod`) per aprire il menù a tendina mostrato nella videata a lato e selezionare l’opzione “`Continuità`” con lo stesso tasto
+
+**7.** Premere il tasto `F4` (`OK`) per confermare la scelta. Lo strumento si porta in modalità test Continuità e la seguente videata è mostrata a display. Per informazioni sull’impostazione del limite massimo sulla prova di continuità fare riferimento al § 4.4.4
+
+```
+Mod d   Fnz   OK
+>   30.0   k Ω
+17/01   –   18:34:23
+```
+
+**8.** Durante la misura di resistenza e test continuità premere il tasto `F2` (`Fnz`) per aprire il menù a tendina mostrato nella videata a lato. Ad ogni successiva pressione del tasto `F2` il cursore scorrerà le seguenti opzioni disponibili:
+*   `Max` → visualizza costantemente il massimo valore del parametro misurato
+*   `Min` → visualizza costantemente il minimo valore del parametro misurato
+*   `RST` → (RESET) azzera i valori Max, Min rilevati e riparte con una nuova misurazione
+*   `Esc` → torna in modalità di misura normale
+
+```
+Mod   Fnz z   OK
+50.0   k Ω
+17/01   –   18:34:23
+```
+
+**9.** Premendo il tasto `F4` (`OK`) si conferma la voce selezionata. A lato un esempio di misura con la funzione Max attiva. A display viene indicata la funzione attiva.
+
+```
+Mod   Fnz
+M a x
+50.0   k Ω
+17/01   –   18:34:23
+```
+
+**10.** Per l’uso della funzione `HOLD` e della retroilluminazione vedere i § 4.4 e § 4.2
+Resistenza
+Continuità
+Help
+Resistenza
+Continuità
+Help
+Max
+Min
+RST
+Esc
+
+## 6. COLLEGAMENTO DELLO STRUMENTO A PC E DISPOSITIVI MOBILI
+
+La connessione fra PC e strumento avviene tramite **collegamento WiFi** da attivare durante l’esecuzione delle operazioni. Prima di effettuare il collegamento è necessario installare a PC il software di gestione `TopView` fornito in dotazione e verificare la presenza di un dispositivo WiFi attivo e funzionante (ex: chiavetta WiFi). Lo strumento usa il collegamento WiFi nelle seguenti situazioni:
+*   Download dei dati salvati nelle `Memorie REC` e `IRC` (vedere § 4.4.5 e § 4.4.6) dello strumento (registrazioni, `snapshots` e correnti di spunto) tramite software `TopView`
+*   Lettura in tempo reale dei parametri misurati tramite software `TopView`
+
+### 6.1. DOWNLOAD DATI SALVATI IN MEMORIA
+
+**1.** Posizionare il selettore su “`W`”. La videata a lato è mostrata a display
+
+```
+Mod   Par   Fnz
+A C + D C   < 4 2 . 5   H z
+- - - -   k W
+- - - -   k V a r i
+- - - -   k V A
+1 P
+17/01   –   18:34:23
+```
+
+**2.** Premere il tasto `F3` (`Fnz`),selezionare l’opzione “`Download`” e confermare con il tasto `F4` (`OK`). La seguente videata è mostrata a display
+
+```
+Mod   Par   Fnz   OK
+A C + D C   5 0 . 0   H z
+- - - -   k W h
+- - - -   k V a r i h
+- - - -   k V a r c h
+1 P
+17/01   –   18:34:23
+```
+
+**3.** Il messaggio “`Attendi`” indica che lo strumento sta attivando il collegamento WiFi interno. Dopo alcuni secondi il messaggio “`Download`” è presente a display ad indicare che il collegamento WiFi è attivo sullo strumento come mostrato nella seguente videata
+
+```
+A t t e n d i
+17/01   –   18:34:23
+```
+
+**4.** Premere il tasto `F3` (`Esc`) per disabilitare il collegamento WiFi e tornare alla normale visualizzazione di misura
+
+```
+Esc
+D o w n l o a d
+17/01   –   18:34:23
+```
+
+Max
+Min
+RST
+Start   Log
+Snapshot
+Download
+Esc
+
+**5.** Effettuare la ricerca dello strumento “`HT9023_xxxxxxxx`” nel dispositivo WiFi presente a PC ed eseguire la connessione come mostrato a titolo di esempio nella seguente Fig. 15)
+
+Fig. 15: Collegamento WiFi dello strumento a PC (esempio)
+
+**6.** Lanciare il software `TopView`, aprire la sezione “`Collegamento PC - Strumento`” , e seguire il comando “`Rileva Strumento`” e verificare il riconoscimento (vedere Fig. 16)
+
+Fig. 16: Riconoscimento strumento sul software TopView
+
+**7.** Cliccare sul tasto “`Avanti`” per aprire la finestra di download (vedere Fig. 17). Spuntare le misure che si desidera scaricare, scegliere il percorso in cui si intende salvarle e cliccare sul tasto “`Download`” per avviare il trasferimento
+
+Fig. 17: Selezione prove per download dati
+
+**8.** Il software consente il salvataggio delle seguenti tipologie di files:
+*   Estensione `HED` e `PER` → Visualizzazione parametri di una registrazione (RECORDING)
+*   Estensione `DAT` → Visualizzazione parametri degli snapshots istantanei (SAMPLING)
+*   Estensione `IRC` → visualizzazione grafica delle correnti di spunto (IRC)
+
+**9.** Aprire la sezione “`Analisi Dati`” di `TopView` → cliccare sul comando “`Importa File`” per selezionare e aprire i files scaricati
+
+Fig. 18: Apertura dati scaricati a PC
+
+### 6.2. LETTURA DATI IN TEMPO REALE
+
+**1.** Posizionare il selettore su “`W`”, selezionare con il tasto `F1` (`Mod`) e tasto `F4` (`OK`) le misure “`AC+DC 1P`”, “`AC+DC 3P`” o “`DC`” e premere il tasto `F4` (`OK`) per confermare la scelta
+
+**2.** Premere il tasto `F1` (`Mod`), selezionare l’opzione “`Online`” e premere il tasto `F4` (`OK`) per confermare la scelta.
+
+```
+Mod d   Par   Fnz   OK
+A C   < 4 2 . 5   H z
+- - - -   k W
+- - - -   k V a r i
+- - - -   k V A
+17/01   –   18:34:23
+```
+
+**3.** Il messaggio “`Attendi`” indica che lo strumento sta attivando il collegamento WiFi interno
+
+```
+A t t e n d i
+17/01   –   18:34:23
+```
+
+**4.** Dopo alcuni secondi il messaggio “`Onl.`” è presente nella parte bassa del display ad indicare che il collegamento WiFi è attivo sullo strumento come mostrato nella videata a lato
+
+```
+Mod d   Par   Fnz   OK
+A C   < 4 2 . 5   H z
+- - - -   k W
+- - - -   k V a r i
+- - - -   k V A
+O n l .
+17/01   –   18:34:23
+```
+
+**5.** Collegare lo strumento all’impianto in prova come mostrato nel § 5.7 o nel § 5.8
+
+**6.** Collegare lo strumento a PC tramite connessione WiFi e software `TopView` come mostrato nel § 6.1 ed eseguire il riconoscimento
+
+**7.** Aprire la sezione “`Collegamento PC - Strumento`” e selezionare l’opzione “`Strumento On Line`” come mostrato nella seguente Fig. 19
+
+AC+DC   1P
+AC +DC   3P
+DC
+Online
+Help
+Zro
+Esc
+
+**8.** Cliccare sul tasto “`Avanti`” per aprire la visualizzazione dei valori delle grandezze in tempo reale sotto forma di tabelle, forme d’onda, grafici delle armoniche e diagramma vettoriale, come mostrato nella Fig. 20
+
+Fig. 19: Collegamento dello strumento in tempo reale
+
+**9.** Premere il tasto il tasto `F1` (`Mod`), selezionare l’opzione “`Esc`” e premere il tasto `F4` (`OK`) per confermare la scelta al fine di uscire dalla modalità “`OnLine`”. In alternativa ruotare il selettore in un’altra posizione
+
+Fig. 20: Visualizzazione grandezze in tempo reale
+
+### 6.3. COLLEGAMENTO A DISPOSITIVI MOBILI
+
+Lo strumento può essere collegato tramite connessione WiFi a dispositivi smartphone e/o tablet Android/iOS per il trasferimento dei dati delle misure tramite l’APP `HTAnalysis`. Operare nel modo seguente:
+
+**1.** Scaricare e installare la `HTAnalysis` sul dispositivo mobile (Android/iOS) desiderato
+
+**2.** Porre lo strumento in modo trasferimento dati tramite WiFi (vedere § 6.1 e § 6.2)
+
+**3.** Fare riferimento alle istruzioni dell’`HTAnalysis` per la gestione dell’operazione
+
+## 7. MANUTENZIONE
+
+### 7.1. GENERALITÀ
+
+**1.** Lo strumento da Lei acquistato è uno strumento di *precisione*. Durante l’utilizzo e l’immagazzinamento rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo.
+
+**2.** Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o da temperatura elevata. Non esporre direttamente alla luce del sole.
+
+**3.** Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo, rimuovere le batterie per evitare fuoruscite di liquido da parte di queste ultime che possano danneggiare i circuiti interni dello strumento.
+
+### 7.2. SOSTITUZIONE BATTERIE
+
+> **ATTENZIONE**
+> Solo tecnici qualificati possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso tutti i cavi dai terminali di ingresso o il cavo in esame dall’interno del toroide.
+
+**1.** Posizionare il selettore su `OFF`.
+
+**2.** Rimuovere i cavi dai terminali di ingresso ed il cavo in esame dall’interno del toroide.
+
+**3.** Svitare la vite di fissaggio della copertura del vano batterie e rimuovere tale copertura.
+
+**4.** Rimuovere le batterie esaurite dal vano.
+
+**5.** Inserire due batterie nuove dello stesso tipo (vedere § 8.1.2) rispettando le polarità indicate.
+
+**6.** Riposizionare la copertura del vano batterie e fissarla con l'apposita vite.
+
+**7.** Non disperdere nell’ambiente le batterie utilizzate. Usare gli appositi contenitori per lo smaltimento.
+
+### 7.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+### 7.4. FINE VITA
+
+> **ATTENZIONE**: il simbolo riportato sullo strumento indica che l'apparecchiatura ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+## 8. SPECIFICHE TECNICHE
+
+### 8.1. CARATTERISTICHE TECNICHE
+
+Incertezza indicata come `± [%lettura + (num cifre *risoluzione)]` riferita a 23°C±5°C < 80 % RH
+
+**Tensione DC**
+
+| Campo [V]        | Risoluzione [V] | Incertezza              | Protezione da sovraccarichi |
+| :--------------- | :-------------- | :---------------------- | :-------------------------- |
+| -1500.0 ~ 1500.0 | 0.1             | ± (1.0% lettura + 3cifre) | 1500VDC                     |
+
+Impedenza di Ingresso: `1MΩ`; Valori di tensione assoluti `<0.3V` sono azzerati
+
+**Tensione AC, AC+DC TRMS**
+
+| Campo [V]   | Risoluzione [V] | Incertezza              | Protezione da sovraccarichi |
+| :---------- | :-------------- | :---------------------- | :-------------------------- |
+| 1.0 ~ 999.9 | 0.1             | ± (1.0%lettura+3cifre)  | 1000VDC/ACrms               |
+
+Impedenza di Ingresso: `1MΩ`, Fondamentale: `50/60Hz ± 15%`, Banda passante: `42.5Hz ~ 1725Hz`
+Max fattore di Cresta: `3` per Tensione `≤ 470Vrms`, `1.41` per tensione `> 470Vrms`
+Valori di tensione RMS `<1 V` e quelli con frequenza esterna al campo `42.5Hz ~ 1725Hz` sono azzerati
+
+**Tensione DC: MAX/MIN/CREST (+/-)**
+
+| Funzione | Campo [V]        | Risoluzione [V] | Incertezza              | Tempo di risposta |
+| :------- | :--------------- | :-------------- | :---------------------- | :---------------- |
+| MAX,MIN  | -1500.0 ~ 1500.0 | 0.1             | ± (3.5%lett+5cifre)     | 200ms             |
+| CREST    |                  |                 |                         | 1ms               |
+
+Valori di tensione assoluti calcolati di MAX/MIN/CREST `<0.3V` sono azzerati; Impedenza di Ingresso: `1MΩ`
+
+**Tensione AC, AC+DC: MAX/MIN/CREST**
+
+| Funzione | Campo [V]        | Risoluzione [V] | Incertezza              | Tempo di risposta |
+| :------- | :--------------- | :-------------- | :---------------------- | :---------------- |
+| MAX,MIN  | 1.0 ~ 999.9      | 0.1             | ± (3.5%lett+5cifre)     | 200ms             |
+| CREST    | -1500.0 ~ 1500.0 | 1               |                         | 1ms               |
+
+Impedenza di Ingresso: `1MΩ`, Fondamentale: `50/60Hz ± 15%`, Banda passante: `42.5Hz ~ 1725Hz`
+Max fattore di Cresta: `3` per Tensione `<= 470Vrms`, `1.41` per tensione `> 470Vrms`
+Valori MAX/MIN `<1V`, Valori CREST `<1.4V` e Valori MAX/MIN/Crest con frequenza esterna al campo `42.5Hz ~ 1725Hz` sono azzerati
+
+**Corrente DC**
+
+| Campo [A]   | Risoluzione [A] | Incertezza              | Protezione da sovraccarichi |
+| :---------- | :-------------- | :---------------------- | :-------------------------- |
+| 0.1 ~ 999.9 | 0.1             | ± (2.0% lettura +5 cifre) | 1000ADC/ACrms               |
+
+**Corrente AC, AC+DC TRMS**
+
+| Campo [A]   | Risoluzione [A] | Incertezza              | Protezione da sovraccarichi |
+| :---------- | :-------------- | :---------------------- | :-------------------------- |
+| 1.0 ~ 999.9 | 0.1             | ± (1.0%lettura+5cifre)  | 1000ADC/ACrms               |
+
+Fondamentale: `50/60Hz ± 15%`, Banda passante: `42.5Hz ~ 1725Hz`
+Max fattore di Cresta: `3` per corrente `<= 515A`, `1.41` per corrente `>515Arms`
+Valori di corrente RMS `<1A` e con frequenza esterna al campo `42.5Hz ~ 1725Hz` sono azzerati
+
+**Corrente DC /AC TRMS: MAX/MIN**
+
+| Funzione | Campo (A)   | Risoluzione (A) | Incertezza              | Tempo di risposta |
+| :------- | :---------- | :-------------- | :---------------------- | :---------------- |
+| MAX,MIN  | 1.0 ~ 999.9 | 0.1             | ± (3.5% lett +5 cifre)  | 1sec              |
+
+Fondamentale: `50/60Hz ± 15%`, Banda passante: `42.5Hz ~ 1725Hz`
+Max fattore di Cresta: `3` per corrente `<= 515A`, `1.41` per corrente `>515Arms`
+Valori MAX/MIN `<1A` e Valori MAX/MIN con frequenza esterna al campo `42.5Hz ~ 1725Hz` sono azzerati
+
+**Resistenza e Test Continuità**
+
+| Campo (Ω)         | Risoluzione (Ω) | Incertezza              | Protezione da sovraccarichi |
+| :---------------- | :-------------- | :---------------------- | :-------------------------- |
+| 0.0 ~ 199.9       | 0.1             | ± (2.0% lettura +5cifre) | 1000VDC/ACrms               |
+| 200 ~ 1999        | 1               |                         |                             |
+| 2.00k ~ 19.99k    | 0.01k           |                         |                             |
+| 20.0k ~ 29.9k     | 0.1k            |                         |                             |
+
+Buzzer ON se `R ≤ RLIM`, `RLIM: 1 ~ 150Ω`
+
+**Frequenza (tramite puntali di misura / tramite toroide)**
+
+| Campo [Hz] | Risoluzione [Hz] | Incertezza              | Protezione da sovraccarichi |
+| :--------- | :--------------- | :---------------------- | :-------------------------- |
+| 42.5 ~ 69.0 | 0.1              | ± (1.0% lettura +5 cifre) | 1500VDC                     |
+|            |                  |                         | 1000A DC/ACrms              |
+
+Campo tensione per misura frequenza: `0.5 ~ 1000 V` / Campo corrente per misura frequenza tramite toroide: `1 ~ 1000 A`
+
+**Senso ciclico delle fasi e concordanza di fase**
+
+| Campo [V] | Frequenza [Hz] | Protezione da sovraccarichi |
+| :-------- | :------------- | :-------------------------- |
+| 100 ~ 1000 | 45 ~ 66        | 1000VDC/ACrms               |
+
+Impedenza di Ingresso: `1.3MΩ`
+
+**Corrente di spunto (DC, AC+DC TRMS)**
+
+| Campo [A] | Risoluzione [A] | Incertezza (*)         | Protezione da sovraccarichi |
+| :-------- | :-------------- | :--------------------- | :-------------------------- |
+| 1.0 ~ 99.9 | 0.1             | ± (2.0%lettura+ 5cifre) | 1000ADC/ACrms               |
+| 10 ~ 999  | 1               |                        |                             |
+
+(*) Incertezza dichiarata per Frequenza DC, `(50 ± 0.5)Hz`, `(60 ± 0.5)Hz`
+Fattore di Cresta: `3`, Freq. camp: `4kHz`, Tempo risposta: Peak: `1ms`, Max RMS: Sel. calc. su: `16.7, 20, 50, 100, 150, 200ms`
+
+**Potenza DC**
+
+| Campo [kW]    | Risoluzione [kW] | Incertezza (*)             |
+| :------------ | :--------------- | :------------------------- |
+| 0.00 ~ 99.99  | 0.01             | ± (3.0% lettura + 3 cifre) |
+| 100.0 ~ 999.9 | 0.1              |                            |
+
+(*) Incertezza definita per tensione `≥ 10V`, corrente `≥ 2A`
+
+**Potenza Attiva, Potenza Apparente AC, AC+DC TRMS**
+
+| Campo [kW], [kVA] | Risoluzione [kW], [kVA] | Incertezza (*)                 |
+| :---------------- | :---------------------- | :----------------------------- |
+| 0.001 ~ 9.999 (**) | 0.001                   | ± (3.0% lettura +10cifre)     |
+| 10.00 ~ 99.99     | 0.01                    |                                |
+| 100.0 ~ 999.9     | 0.1                     |                                |
+
+(*) Incertezza definita per: forma d’onda sinusoidale, `42.5 .. 69 Hz`, Tensione `≥ 10V`, Corrente `≥ 10 A`, `Pf ≥ 0.5`
+(**) Per Corrente `<10A` aggiungere `± 7 %lettura` all’incertezza
+
+**Potenza Reattiva AC (AC + DC TRMS)**
+
+| Campo [kVAR]      | Risoluzione [kVAR] | Incertezza (*)                |
+| :---------------- | :----------------- | :---------------------------- |
+| 0.001 ~ 9.999 (**) | 0.001              | ± (3.0% lettura +10cifre)    |
+| 10.00 ~ 99.99     | 0.01               |                               |
+| 100.0 ~ 999.9     | 0.1                |                               |
+
+(*) Incertezza definita per: forma d’onda sinusoidale, `42.5..69Hz`, Tensione `≥ 10V`, Corrente `≥ 10 A`, `Pf ≤ 0.9`
+(**) Per Corrente `<10A` aggiungere `±4%lettura` all’incertezza
+
+**Energia Attiva AC (AC + DC TRMS)**
+
+| Campo [kWh]       | Risoluzione [kWh] | Incertezza (*)                 |
+| :---------------- | :---------------- | :----------------------------- |
+| 0.001 ~ 9.999 (**) | 0.001             | ± (3.0% lettura +10cifre)     |
+| 10.00 ~ 99.99     | 0.01              |                                |
+| 100.0 ~ 999.9     | 0.1               |                                |
+
+(*) Incertezza definita per: forma d’onda sinusoidale, `42.5..69Hz`, Tensione `≥ 10V`, Corrente `≥ 10 A`, `Pf ≥ 0.5`
+(**) Per Corrente `<10A` aggiungere `±7%lettura` all’incertezza
+
+**Energia Reattiva AC (AC + DC TRMS)**
+
+| Campo [kVAR h]    | Risoluzione [kVAR h] | Incertezza (*)                |
+| :---------------- | :------------------- | :---------------------------- |
+| 0.001 ~ 9.999 (**) | 0.001                | ± (3.0% lettura +10cifre)    |
+| 10.00 ~ 99.99     | 0.01                 |                               |
+| 100.0 ~ 999.9     | 0.1                  |                               |
+
+(*) Incertezza definita per: forma d’onda sinusoidale, `42.5..69Hz`, Tensione `≥ 10V`, Corrente `≥ 10 A`, `Pf ≤ 0.9`
+(**) Per Corrente `<10A` aggiungere `±4%lettura` all’incertezza
+
+**Fattore di Potenza /cosphi**
+
+| Campo                  | Risoluzione | Incertezza (*)              |
+| :--------------------- | :---------- | :-------------------------- |
+| 0.20i ~ 1.00 ÷ 0.20c | 0.01        | ± (2.0% lettura +2cifre) |
+
+(*) Incertezza definita per: forma d’onda sinusoidale, `42.5..69Hz`, Tensione `≥ 10V`, Corrente `≥ 2A`
+
+**Armoniche Tensione e Corrente**
+
+| Frequenza Fond. | Ordine arm. | Risoluzione    | Incertezza (* - per valori non azzerati) |
+| :-------------- | :---------- | :------------- | :--------------------------------------- |
+| 42.5 ~ 69       | 0 (DC)      | 0.1V / 0.1A    | ± (10.0% lettura + 5 cifre)              |
+|                 | 1 ..25      |                | ± (5.0% lettura + 5 cifre)               |
+| THD%            |             | 0.1 %          | ± (10.0% lettura + 5 cifre)              |
+
+(*) Le armoniche di tensione sono azzerate nelle seguenti condizioni:
+*   1° Armonica: se valore `<1.0V`; DC, 2a, 25a Armonica: se valore armonica `<0.5%` del valore della fondamentale o se valore `<1.0V`
+(*) Le armoniche di corrente sono azzerate nelle seguenti condizioni:
+*   1° Armonica: se valore `<1.0A`; DC, 2a, 25a Armonica: se valore armonica `<0.5%` del valore della fondamentale o se valore `<1.0A`
+
+### 8.1.1. Normative di riferimento
+
+Conforme alle norme: `IEC/EN 61010 - 1`, `IEC/EN61010 - 2 - 32`
+EMC: `IEC/EN61326 - 1`
+Documentazione tecnica: `IEC/EN61187`
+Sicurezza accessori di misura: `IEC/EN61010 - 31`
+Isolamento: doppio isolamento
+Livello di Inquinamento: `2`
+Categoria di misura: `CAT IV 600V`, `CAT III 1000V` verso terra
+
+### 8.1.2. Caratteristiche generali
+
+#### Caratteristiche meccaniche
+
+*   Dimensioni (L x La x H): `252 x 88 x 44 mm`
+*   Peso (batterie inclusa): `420 g`
+*   Diametro max cavo: `45 mm`
+*   Protezione meccanica: `IP20`
+
+#### Interfaccia di uscita
+
+*   Tipo di collegamento: `WiFi`
+
+#### Alimentazione
+
+*   Tipo batterie: `2 x1.5V` batterie tipo `AAA LR03`
+*   Durata batterie: circa `40` ore di utilizzo continuo in posizione “`W`”
+    *   circa `10` ore (WiFi ON e backlight OFF)
+*   Auto Power OFF: dopo `5min` di non utilizzo (disabilitabile)
+
+#### Memoria
+
+*   Capacità di memoria: `2MB`
+
+#### Registrazioni
+
+*   Salvataggio correnti di spunto: max `20` (ognuna con max `10` eventi)
+*   Salvataggio Log + Snapshot: max `99` files
+*   Velocità di campionamento: `128` campioni per periodo (campionamento base)
+*   Log: Periodo di integrazione (PI): `1s, 5s, 10s, 30s, 60s, 120s, 300s, 600s, 900s`
+*   Log: Max Autonomia di Reg. (ore) `~2.1 x PI`. Esempio: `PI=60s → ~ 126` ore `~ 5` giorni
+
+#### Display
+
+*   Caratteristiche: display grafico `128x128` pixel
+*   Frequenza di aggiornamento LCD: `1` volta `/s`
+
+### 8.2. AMBIENTE
+
+### 8.2.1. Condizioni ambientali di utilizzo
+
+*   Temperatura di riferimento: `23°C ± 5°C`
+*   Temperatura di utilizzo: `0°C ÷ 40°C`
+*   Umidità relativa ammessa: `<80% RH`
+*   Temperatura di conservazione: `-10°C ÷ 60°C`
+*   Umidità di conservazione: `<70% RH`
+*   Max altitudine di utilizzo: `2000m`
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione `2014/35/EU` (LVD) e della direttiva EMC `2014/30/EU`
+Questo strumento è conforme ai requisiti della direttiva europea `2011/65/EU` (RoHS) e della direttiva europea `2012/19/EU` (WEEE)
+
+### 8.3. ACCESSORI
+
+### 8.3.1. Accessori in dotazione
+
+*   Coppia di puntali
+*   Coppia di terminali a coccodrillo
+*   Borsa per trasporto
+*   Batterie
+*   TOPVIEWS: PC Windows software
+*   Certificato di calibrazione ISO9000
+*   Manuale d’uso su CD-ROM
+*   Guida rapida all’uso
+
+## 9. ASSISTENZA
+
+### 9.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+*   Riparazione e/o sostituzione accessori e batterie (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+### 9.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato delle batterie e dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali sarà addebitato al Cliente.
+
+## 10. APPENDICE – CENNI TEORICI
+
+### 10.1. ARMONICHE DI TENSIONE E CORRENTE
+
+Qualsiasi onda periodica non sinusoidale può essere rappresentata tramite una somma di onde sinusoidali ciascuna con frequenza multipla intera della fondamentale secondo la relazione: `v(t) = V0 + ∑[k=1 to ∞] Vk sin(kωt + φk)` (1)
+
+dove:
+*   `V0` = Valore medio di v(t)
+*   `V1` = Ampiezza della fondamentale di v(t)
+*   `Vk` = Ampiezza della k-esima armonica di v(t)
+
+LEGENDA:
+1.  Fondamentale
+2.  Terza armonica
+3.  Onda distorta somma delle due componenti precedenti
+
+Effetto della somma di 2 frequenze multiple.
+Nel caso della tensione di rete la fondamentale ha frequenza `50 Hz`, la seconda armonica ha frequenza `100 Hz`, la terza armonica ha frequenza `150 Hz` e così via. La distorsione armonica è un problema costante e non deve essere confuso con fenomeni di breve durata quali picchi, diminuzioni o fluttuazioni.
+Si può osservare come dalla (1) discenda che ogni segnale è composto dalla sommatoria di infinite armoniche, esiste tuttavia un numero d’ordine oltre il quale il valore delle armoniche può essere considerato trascurabile.
+Un indice fondamentale per rilevare la presenza di armoniche è il THD calcolato come: `THDv = √(∑[h=2 to 25] Vh^2) / V1`
+Tale indice tiene conto della presenza di tutte le armoniche ed è tanto più elevato quanto più è distorta la forma d'onda.
+
+#### Valori limite per le armoniche
+
+La normativa `EN50160` fissa i limiti per le tensioni armoniche che l'ente fornitore può immettere nella rete.
+*   In condizioni normali di esercizio, *durante qualsiasi periodo di una settimana*, il `95%` dei valori efficaci di ogni tensione armonica, *mediati sui 10 minuti*, dovrà essere minore o uguale rispetto ai valori indicati in nella seguente tabella
+*   La distorsione armonica globale (THD) della tensione deve essere *minore o uguale all’8%*
+
+| Armoniche Dispari | Armoniche Pari   |
+| :---------------- | :--------------- |
+| **Non multiple di 3** | **Multiple di 3** |
+| Ordine h | Tensione relativa %Max | Ordine h | Tensione relativa % Max | Ordine h | Tensione relativa % Max |
+| 5        | 6                      | 3        | 5                       | 2        | 2                       |
+| 7        | 5                      | 9        | 1,5                     | 4        | 1                       |
+| 11       | 3,5                    | 15       | 0,5                     | 6..24    | 0,5                     |
+| 13       | 3                      | 21       | 0,5                     |          |                         |
+| 17       | 2                      |          |                         |          |                         |
+| 19       | 1,5                    |          |                         |          |                         |
+| 23       | 1,5                    |          |                         |          |                         |
+| 25       | 1,5                    |          |                         |          |                         |
+
+Questi limiti, teoricamente applicabili solo per gli Enti fornitori di energia elettrica, forniscono comunque una serie di valori di riferimento entro cui contenere anche le armoniche immesse in rete dagli utilizzatori.
+
+#### Cause della presenza di armoniche
+
+*   Qualsiasi apparecchiatura che alteri l'onda sinusoidale o usi soltanto una parte di detta onda causa distorsioni alla sinusoide e quindi armoniche
+*   Tutti i segnali di corrente risultano in qualche modo virtualmente distorti. La più comune è la distorsione armonica causata da carichi non lineari quali elettrodomestici, PC o regolatori di velocità per motori. La distorsione armonica genera correnti significative a frequenze che sono multipli interi della frequenza di rete. Le correnti armoniche hanno un notevole effetto sui conduttori di neutro degli impianti elettrici
+*   Nella maggior parte dei paesi la tensione di rete in uso è trifase `50/60Hz` erogata da un trasformatore con primario collegato a triangolo e secondario collegato a stella. Il secondario generalmente produce `230V AC` tra fase e neutro e `400V AC` fase e fase. Equilibrare i carichi per ciascuna fase ha sempre rappresentato un rompicapo per i progettisti di impianti elettrici
+*   Fino a qualche decina di anni or sono, in un sistema ben equilibrato, la somma vettoriale delle correnti nel neutro era zero o comunque piuttosto bassa (data la difficoltà di raggiungere l’equilibrio perfetto). Le apparecchiature collegate erano lampade a incandescenza, piccoli motori ed altri dispositivi che presentavano carichi lineari. Il risultato era una corrente essenzialmente sinusoidale in ciascuna fase ed una corrente con valore di neutro basso ad una frequenza di `50/60Hz`.
+*   Dispositivi “moderni” quali televisori, lampade fluorescenti, apparecchi video e forni a microonde normalmente assorbono corrente solo per una frazione di ciascun ciclo causando carichi non lineari e di conseguenza correnti non lineari. Ciò genera strane armoniche della frequenza di linea di `50/60Hz`. Per questo motivo, allo stato odierno, la corrente nei trasformatori delle cabine di distribuzione contiene non solo una componente `50Hz` (o `60Hz`) ma anche una componente `150Hz` (o `180Hz`), una componente `250Hz` (o `300Hz`) e altre componenti significative di armonica fino a `750Hz` (o `900Hz`) ed oltre
+*   Il valore della somma vettoriale delle correnti in un sistema correttamente bilanciato che alimenta carichi non lineari può essere ancora piuttosto basso. Tuttavia la somma non elimina tutte le correnti armoniche. I multipli dispari della terza armonica (chiamati i “`TRIPLENS`”) si sommano algebricamente nel neutro e quindi possono causare surriscaldamenti del medesimo anche con carichi bilanciati.
+
+#### Conseguenza della presenza di armoniche
+
+*   In generale le armoniche d'ordine pari, `2a`, `4a` ecc. non sono causa di problemi. Le armoniche triple, multipli dispari di tre, si sommano sul neutro (invece di annullarsi) creando così una situazione di surriscaldamento del conduttore stesso potenzialmente pericolosa
+*   I progettisti devono considerare i tre punti di seguito elencati nella progettazione di un sistema di distribuzione di energia contenente correnti di armoniche:
+    1.  Il conduttore del neutro deve essere sufficientemente dimensionato
+    2.  Il trasformatore di distribuzione deve avere un sistema di raffreddamento ausiliario per continuare il funzionamento alla sua capacità nominale se non è adatto alle armoniche. Ciò è necessario perché la corrente armonica nel neutro del circuito secondario circola nel primario collegato a triangolo. Questa corrente di armonica in circolazione porta ad un surriscaldamento del trasformatore
+    3.  Le correnti armoniche della fase vengono riflesse sul circuito primario e ritornano alla fonte. Ciò può causare distorsione dell’onda di tensione in modo tale che qualsiasi condensatore di rifasamento sulla linea può essere facilmente sovraccaricato.
+*   La `5a` e l'`11a` armonica si oppongono al flusso della corrente attraverso i motori rendendone più difficile il funzionamento e riducendone la vita media
+*   In generale più è elevato il numero d'ordine della armonica e minore è la sua energia e quindi minore l'impatto che avrà sulle apparecchiature (fatta eccezione per i trasformatori)
+
+---
+HT ITALIA SRL
+Via della Boaria, 40
+48018 – Faenza (RA) – Italy
+T +39 0546 621002 | F +39 0546 621144
+M info@ht-instrumnents.com | www.ht-instruments.it
+
+HT INSTRUMENTS SL
+C/ Legalitat, 89
+08024 Barcelona – Spain
+T +34 93 408 17 77 | F +34 93 408 36 30
+M info@htinstruments.es | www.ht-instruments.com/es-es/
+
+HT INSTRUMENTS GmbH
+Am Waldfriedhof 1b
+D-41352 Korschenbroich – Germany
+T +49 (0) 2161 564 581 | F +49 (0) 2161 564 583
+M info@htinstruments.de | www.ht-instruments.de
+
+WHERE WE ARE
