@@ -194,6 +194,11 @@
       "id": "HT3010.md",
       "name": "HT3010",
       "description": "Pinza amperometrica TRMS per corrente AC."
+    },
+    {
+      "id": "HT64.md",
+      "name": "HT64",
+      "description": "Multimetro digitale TRMS/AC+DC con display a colori e funzione Datalogger."
     }
   ]
 }
