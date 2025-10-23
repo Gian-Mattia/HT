@@ -179,6 +179,16 @@
       "id": "VEGA74.md",
       "name": "VEGA74",
       "description": "Analizzatore di rete trifase."
+    },
+    {
+      "id": "HT14D.md",
+      "name": "HT14D",
+      "description": "Multimetro digitale tascabile."
+    },
+    {
+      "id": "HT15D.md",
+      "name": "HT15D",
+      "description": "Multimetro digitale compatto in CAT III."
     }
   ]
 }
