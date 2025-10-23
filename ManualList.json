@@ -189,6 +189,11 @@
       "id": "HT15D.md",
       "name": "HT15D",
       "description": "Multimetro digitale compatto in CAT III."
+    },
+    {
+      "id": "HT3010.md",
+      "name": "HT3010",
+      "description": "Pinza amperometrica TRMS per corrente AC."
     }
   ]
 }
