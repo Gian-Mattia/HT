@@ -199,6 +199,11 @@
       "id": "HT64.md",
       "name": "HT64",
       "description": "Multimetro digitale TRMS/AC+DC con display a colori e funzione Datalogger."
+    },
+    {
+      "id": "HT8051.md",
+      "name": "HT8051",
+      "description": "Calibratore di processo multifunzione con generazione corrente 4-20mA e tensione 0-10V."
     }
   ]
 }
