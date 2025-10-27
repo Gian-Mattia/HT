@@ -1,4 +1,4 @@
-# GSC57 - GSC59 - ZG47
+# GSC57 - GSC59
 
 <!-- Language: it -->
 <!-- Version: 1.1 -->
