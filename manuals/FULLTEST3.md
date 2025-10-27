@@ -6,8 +6,6 @@
 <!-- Chunk: Pages 1-33 -->
 © Copyright HT ITALIA 2024 Versione IT 3.0 1 - 02/12/2024 FULLTEST3 Manuale d'uso
 
-FULLTEST3 IT - 1
-
 ## INDICE
 
 1.  PRECAUZIONI E MISURE DI SICUREZZA
@@ -66,9 +64,6 @@ FULLTEST3 IT - 1
         6.8.3. Condizioni di Trigger
         6.8.4. Situazioni anomale
     6.9. Test funzionali (POWER)
-
-FULLTEST3 IT - 2
-
     6.9.1. Situazioni anomale
     6.10. Senso ciclico delle fasi (PHASESEQ)
         6.10.1. Situazioni anomale
