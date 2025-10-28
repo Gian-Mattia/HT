@@ -204,6 +204,11 @@
       "id": "HT8051.md",
       "name": "HT8051",
       "description": "Calibratore di processo multifunzione con generazione corrente 4-20mA e tensione 0-10V."
+    },
+    {
+      "id": "HT9025.md",
+      "name": "HT9025, HT9025T",
+      "description": "Pinza amperometrica AC/DC con funzione DATA LOGGER con termocamera integrata 120 x 120 pxl."
     }
   ]
 }
