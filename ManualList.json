@@ -209,6 +209,11 @@
       "id": "HT9025.md",
       "name": "HT9025, HT9025T",
       "description": "Pinza amperometrica AC/DC con funzione DATA LOGGER con termocamera integrata 120 x 120 pxl."
+    },
+    {
+      "id": "IMP57.md",
+      "name": "IMP57",
+      "description": "ACCESSORIO PER MISURA DI IMPEDENZA DI LOOP AD ALTA RISOLUZIONE E CORRENTE DI CORTO CIRCUITO PRESUNTA FINO A 400KA."
     }
   ]
 }
