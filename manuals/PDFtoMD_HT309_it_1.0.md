@@ -1,0 +1,379 @@
+# HT309
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-12 -->
+© Copyright HT ITALIA 2017 Versione IT 2.00 - 12/09/2017 ITALIANO Manuale d’uso
+
+## Indice:
+1.  [PRECAUZIONI E MISURE DI SICUREZZA](#1-precauzioni-e-misure-di-sicurezza)
+    1.1. [Istruzioni preliminari](#11-istruzioni-preliminari)
+    1.2. [Durante l’utilizzo](#12-durante-lutilizzo)
+    1.3. [Dopo l’utilizzo](#13-dopo-lutilizzo)
+2.  [DESCRIZIONE GENERALE](#2-descrizione-generale)
+3.  [PREPARAZIONE ALL’UTILIZZO](#3-preparazione-allutilizzo)
+    3.1. [Controlli iniziali](#31-controlli-iniziali)
+    3.2. [Alimentazione dello strumento](#32-alimentazione-dello-strumento)
+    3.3. [Conservazione](#33-conservazione)
+4.  [ISTRUZIONI OPERATIVE](#4-istruzioni-operative)
+    4.1. [Descrizione dello strumento](#41-descrizione-dello-strumento)
+    4.2. [Descrizione del display](#42-descrizione-del-display)
+    4.3. [Descrizione dei tasti funzione](#43-descrizione-dei-tasti-funzione)
+        4.3.1. [Tasto ON/OFF](#431-tasto-onoff)
+        4.3.2. [Tasto LX/FC/CD](#432-tasto-lxfccd)
+        4.3.3. [Tasto HLD](#433-tasto-hld)
+        4.3.4. [Tasto MEM/READ](#434-tasto-memread)
+        4.3.5. [Cancellazione memoria interna](#435-cancellazione-memoria-interna)
+        4.3.6. [Tasto MAXMIN](#436-tasto-maxmin)
+        4.3.7. [Tasto ZRO](#437-tasto-zro)
+        4.3.8. [Tasto /SRC (Light Source)](#438-tasto-src-light-source)
+        4.3.9. [Disabilitazione funzione Auto Power OFF](#439-disabilitazione-funzione-auto-power-off)
+5.  [OPERAZIONI DI MISURA](#5-operazioni-di-misura)
+    5.1. [Misura di Illuminamento](#51-misura-di-illuminamento)
+    5.2. [Misura dell’intensità luminosa](#52-misura-dellintensit%C3%A0-luminosa)
+6.  [MANUTENZIONE](#6-manutenzione)
+    6.1. [Sostituzione batteria](#61-sostituzione-batteria)
+    6.2. [Pulizia dello strumento](#62-pulizia-dello-strumento)
+    6.3. [Fine vita](#63-fine-vita)
+7.  [SPECIFICHE TECNICHE](#7-specifiche-tecniche)
+    7.1. [Caratteristiche tecniche](#71-caratteristiche-tecniche)
+        7.1.1. [Risposta spettrale](#711-risposta-spettrale)
+        7.1.2. [Sensore](#712-sensore)
+        7.1.3. [Caratteristiche generali](#713-caratteristiche-generali)
+    7.2. [Ambiente](#72-ambiente)
+        7.2.1. [Condizioni ambientali di utilizzo](#721-condizioni-ambientali-di-utilizzo)
+    7.3. [Accessori](#73-accessori)
+        7.3.1. [Accessori in dotazione](#731-accessori-in-dotazione)
+8.  [ASSISTENZA](#8-assistenza)
+    8.1. [Condizioni di garanzia](#81-condizioni-di-garanzia)
+    8.2. [Assistenza](#82-assistenza)
+
+---
+
+## 1. PRECAUZIONI E MISURE DI SICUREZZA
+Lo strumento è stato progettato in conformità alle direttive di sicurezza relative agli strumenti di misura elettronici. Per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo [simbolo Attenzione]. Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi
+*   Non effettuare misure in ambienti umidi
+*   Non effettuare alcuna misura qualora si riscontrino anomalie come, deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc
+*   Non toccare il sensore fotodiodo durante l’esecuzione della misura per prevenire danneggiamenti allo strumento causati da elettricità statica o contaminazioni
+
+Nel presente manuale è utilizzato il seguente simbolo:
+**Attenzione**: attenersi alle istruzioni riportate nel manuale d’uso. Un uso improprio può danneggiare lo strumento e/o i suoi componenti.
+
+### 1.1. ISTRUZIONI PRELIMINARI
+Al fine di evitare letture non corrette sostituire la batteria quando compare all’accensione il simbolo “ [simbolo batteria] ” a display
+
+### 1.2. DURANTE L’UTILIZZO
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti.
+
+**ATTENZIONE**
+La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore. Se, durante una misura, il valore o il segno della grandezza in esame rimangono costanti controllare se è attivata la funzione HOLD
+
+### 1.3. DOPO L’UTILIZZO
+*   Quando le misure sono terminate, spegnere lo strumento
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere la batteria.
+
+---
+
+## 2. DESCRIZIONE GENERALE
+Lo strumento è un luxmetro digitale di precisione per la misura principalmente dell’illuminamento sia di sorgenti di luce bianca sia di sorgenti LED di vari colori espresso in Lux (Lx) o Fotocandele (Fc). Lo strumento è conforme alle normative CIE (Commissione Internazionale sull’Illuminazione) sulla risposta spettrale ed effettua la correzione secondo il coseno dell’angolo di incidenza della luce. Il sensore a fotodiodo al silicio garantisce stabilità della misura. Le seguenti funzioni sono disponibili:
+*   Misura di Illuminamento fino a 400kLux / 40kFc
+*   Misura dell’intensità luminosa (espressa in Candele)
+*   Selezione unità di misura: Lx/Fc/CD
+*   Sorgente di luce: bianca e sorgenti LED nel loro spettro visibile
+*   Funzione Data HOLD
+*   Funzioni MAX/MIN/AVG
+*   Azzeramento valore a display
+*   Memoria interna per salvataggio risultati di misura
+*   Auto Power OFF
+*   Backlight
+*   Autorange
+
+## 3. PREPARAZIONE ALL’UTILIZZO
+### 3.1. CONTROLLI INIZIALI
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia comunque di controllare sommariamente lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 7.3.1. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 8.
+
+### 3.2. ALIMENTAZIONE DELLO STRUMENTO
+Lo strumento è alimentato con 1x9V batteria alcalina tipo NEDA1604, JIS006P, IEC6F22 inclusa nella confezione. Allo scopo di evitarne lo scaricamento preventivo, la batteria non è montata nello strumento. Per l’inserimento della batteria seguire le indicazioni del § 6.1. Quando la batteria è scarica appare il simbolo “ [simbolo batteria] ”. Per sostituire la batteria seguire le istruzioni riportate al § 6.1.
+
+### 3.3. CONSERVAZIONE
+Per garantire misure precise, dopo un lungo periodo di immagazzinamento in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 7.2.1).
+
+---
+
+## 4. ISTRUZIONI OPERATIVE
+### 4.1. DESCRIZIONE DELLO STRUMENTO
+**LEGENDA:**
+1.  Terminale di ingresso per sonda
+2.  Display LCD
+3.  Tasto **LX/FC/CD**
+4.  Tasto **MAXMIN**
+5.  Tasto **HLD**
+6.  Tasto **MEM/READ**
+7.  Tasto freccia ****
+8.  Tasto **/SRC**
+9.  Tasto freccia ****
+10. Tasto **ZRO**
+11. Tasto **ON/OFF**
+12. Sensore fotodiodo
+
+Fig. 1: Descrizione dello strumento
+
+### 4.2. DESCRIZIONE DEL DISPLAY
+**LEGENDA:**
+1. Simbolo **M** (Memoria)
+2. Numero locazione
+3. Funzione HOLD attiva
+4. Simbolo **R** (Recall)
+5. Funzioni MAX, MIN, AVG attive
+6. Funzione APO attiva
+7. Unità di misura illuminamento
+8. Display principale
+9. Display secondario
+10. Indicazione livello batteria
+11. Tipo sorgente
+12. Unità di misura distanza
+13. Coefficiente sorgente
+
+Fig. 2: Descrizione del display
+
+---
+
+### 4.3. DESCRIZIONE DEI TASTI FUNZIONE
+#### 4.3.1. Tasto ON/OFF
+La pressione del tasto **ON/OFF** permette l’accensione/spegnimento dello strumento. Lo stesso tasto è usato anche per disabilitare la funzione Auto Power OFF (APO) (vedere § 4.3.9).
+
+#### 4.3.2. Tasto LX/FC/CD
+*   Premere il tasto **LX/FC/CD** per selezionare l’unità di misura dell’illuminamento scegliendo tra le opzioni “LUX” e “FC (Fotocandele)” (1Fc = 10.764Lux ; 1Lux = 0.09290Fc)
+*   Premere oltre 1s il tasto **LX/FC/CD** per la selezione della misura di intensità luminosa espressa in Candele (CD) (vedere § 5.2)
+
+#### 4.3.3. Tasto HLD
+La pressione del tasto **HLD** attiva/disabilita la funzione **HOLD** ovvero il fissaggio a display principale del valore della grandezza misurata. Sul display appare il simbolo "HOLD". La funzione HOLD non è attiva in presenza delle funzioni MAX, MIN o AVG.
+
+#### 4.3.4. Tasto MEM/READ
+*   Premere il tasto **MEM/READ** per salvare nella memoria interna il dato presente a display. L’indicazione della locazione di memoria (max 99 locazioni) e il simbolo “**M**” (vedere Fig. 2 – parti 1 e 2) sono mostrate istantaneamente nella parte alta sinistra del display.
+*   Premere oltre 1s il tasto **MEM/READ** per attivare la funzione di richiamo a display dei dati salvati nella memoria interna. Il simbolo “**R**” insieme al numero dell’ultima locazione di memoria utilizzata sono mostrati nella parte alta sinistra del display. Usare i tasti freccia **** o **** per selezionare le locazioni di memoria desiderata. Il valore salvato corrispondente è presente a display. Premere nuovamente oltre 1s il tasto **MEM/READ** per uscire dalla funzione.
+
+#### 4.3.5. Cancellazione memoria interna
+Per la cancellazione della memoria interna operare come segue:
+1.  Spegnere lo strumento tramite il tasto **ON/OFF**
+2.  Mantenere premuto il tasto **MEM/READ** mentre si accende lo strumento con il tasto **ON/OFF**. Il messaggio “CLR” appare per qualche secondo a display, lo strumento si spegne e alla successiva riaccensione il numero della locazione di memoria è riportato al valore “00”
+
+#### 4.3.6. Tasto MAXMIN
+Premere il tasto **MAXMIN** per la visualizzazione dei valori Minimo, Massimo o Medio (AVG) della grandezza misurata. I valori sono continuamente aggiornati e si presentano in maniera ciclica ad ogni nuova pressione del medesimo tasto. I simboli “MIN”, “MAX” e “AVG” sono mostrati a display. Premere oltre 1s il tasto **MAXMIN** per uscire dalla funzione.
+
+#### 4.3.7. Tasto ZRO
+Premere il tasto **ZRO** per eseguire l’azzeramento automatico del valore a display qualora posizionando il coperchio di protezione sul sensore a fotodiodo non fosse presente l’indicazione “000”. Il messaggio “AdJ” è mostrato a display durante l’operazione. Il messaggio “CAP” è fornito a display qualora si premesse il tasto **ZRO** con coperchio di protezione non posizionato sul sensore. Inserire il coperchio e ripetere eventualmente l’operazione.
+
+---
+
+#### 4.3.8. Tasto /SRC (Light Source)
+*   Premere il tasto **/SRC** per attivare/disattivare la retroilluminazione del display (backlight)
+*   Premere a lungo (>1s) il tasto **/SRC** per la selezione della sorgente luminosa in esame. Operare come segue:
+    1.  Osservare nel sotto-display il lampeggio del simbolo “Lx” in cui 0 < x < 9 indica il numero della sorgente
+    2.  Usare i tasti freccia **** o **** per selezionare la sorgente desiderata tra le opzioni **L0 ÷ L9** disponibili (vedere Tabella 1)
+    3.  Premere il tasto **/SRC** per l’eventuale impostazione del fattore correttivo sulla lettura dello strumento (solo per le sorgenti personalizzabili L7, L8 e L9). L’indicazione del valore del parametro lampeggia a display. Usare i tasti freccia **** o **** per l’impostazione (mantenere premuti i tasti per una rapida operazione) del valore compreso tra **0.001** e **1.999**. I valori delle sorgenti L0 ÷ L5 non sono modificabili
+
+Tabella 1: Elenco sorgenti disponibili
+
+| Simbolo a display | Tipo sorgente       | Fattore correttivo |
+| :---------------- | :------------------ | :----------------- |
+| L0                | Luce standard       | 1.000              |
+| L1                | LED bianco          | 0.990              |
+| L2                | LED rosso           | 0.516              |
+| L3                | LED giallo          | 0.815              |
+| L4                | LED verde           | 1.216              |
+| L5                | LED blu             | 1.475              |
+| L6                | LED viola           | 1.148              |
+| L7                | Personalizzabile    | 1.000              |
+| L8                | Personalizzabile    | 1.000              |
+| L9                | Personalizzabile    | 1.000              |
+
+4.  Premere per oltre 1 secondo il tasto **/SRC** per confermare l’operazione. I simboli smettono di lampeggiare a display
+
+#### 4.3.9. Disabilitazione funzione Auto Power OFF
+Al fine di preservare la batteria interna lo strumento si spegne automaticamente dopo circa 5 minuti di non utilizzo. Il simbolo “ [simbolo APO] ” appare a display. Per disattivare l’autospegnimento operare come segue:
+*   Accendere lo strumento
+*   Premere oltre 1 secondo il tasto **ON/OFF**. Il simbolo “ [simbolo APO] ” scompare a display
+*   Premere nuovamente oltre 1 secondo il tasto **ON/OFF** oppure spegnere e riaccendere lo strumento per abilitare automaticamente la funzione
+
+---
+
+## 5. OPERAZIONI DI MISURA
+### 5.1. MISURA DI ILLUMINAMENTO
+1.  Inserire il coperchio di protezione sul sensore a fotodiodo
+2.  Accendere lo strumento tramite il tasto **ON/OFF**
+3.  Eseguire eventuale azzeramento del display premendo il tasto **ZRO** (vedere § 4.3.7)
+4.  Selezionare l’unità di misura Lux o Fc premendo il tasto **LX/FC/CD** (vedere § 4.3.2)
+5.  Selezionare il tipo di sorgente in esame premendo il tasto **/SRC** (vedere § 4.3.8). La sorgente standard di default è il tipo “L0”
+6.  Posizionare il sensore orizzontalmente e in direzione perpendicolare alla sorgente in esame. Il valore dell’illuminamento è mostrato a display con cambio automatico della scala
+7.  Premere eventualmente il tasto **HLD** (vedere § 4.3.3) per congelare il dato a display
+8.  Premere il tasto **MEM/READ** (vedere § 4.3.4) per salvare in memoria il dato letto in tempo reale a display
+9.  Ricoprire il sensore e spegnere lo strumento al termine delle operazioni
+
+### 5.2. MISURA DELL’INTENSITÀ LUMINOSA
+L’intensità luminosa, espressa in Candele (CD), è calcolata dallo strumento in base alla seguente formula:
+
+Intensità luminosa (CD) = Illuminamento (Lux/Fc) x distanza dalla sorgente (m² /ft²)
+
+1.  Inserire il coperchio di protezione sul sensore a fotodiodo
+2.  Accendere lo strumento tramite il tasto **ON/OFF**
+3.  Eseguire eventuale azzeramento del display premendo il tasto **ZRO** (vedere § 4.3.7)
+4.  Selezionare l’unità di misura premendo per oltre 1s il tasto **LX/FC/CD**. Il simbolo “CD” è presente a display
+5.  Usare i tasti freccia **** o **** per la selezione dell’unità di misura della distanza “m” o “ft” (vedere Fig. 2 – parte 12) e confermare con il tasto **LX/FC/CD**
+6.  Selezionare il tipo di sorgente in esame premendo il tasto **/SRC** (vedere § 4.3.3). La sorgente standard di default è il tipo “L0”
+7.  Impostare il valore della distanza del punto di misura dalla sorgente luminosa usando i tasti freccia **** o **** nel campo **0.01m ÷30.347m** o **0.01ft ÷99.99ft** e confermare con il tasto **LX/FC/CD**
+8.  Posizionare il sensore orizzontalmente e in direzione perpendicolare alla sorgente in esame. Il valore dell’intensità luminosa è mostrato a display con cambio automatico della scala
+9.  Premere eventualmente il tasto **HLD** (vedere § 4.3.3) per congelare il dato a display
+10. Premere il tasto **MEM/READ** (vedere § 4.3.4) per salvare in memoria il dato letto in tempo reale a display
+11. Premere nuovamente oltre 1s il tasto **LX/FC/CD** per uscire dalla funzione
+12. Ricoprire il sensore e spegnere lo strumento al termine delle operazioni
+
+---
+
+## 6. MANUTENZIONE
+
+**ATTENZIONE**
+*   Solo tecnici qualificati possono effettuare le operazioni di manutenzione. Prima di effettuare la manutenzione rimuovere tutti i cavi dai terminali di ingresso
+*   Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole
+*   Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo rimuovere la batteria per evitare fuoruscite di liquidi da parte di quest’ultima che possano danneggiare i circuiti interni dello strumento
+
+### 6.1. SOSTITUZIONE BATTERIA
+Quando sul display appare il simbolo “ [simbolo batteria] ” occorre sostituire la batteria.
+1.  Spegnere lo strumento
+2.  Rimuovere la sonda dal terminale di ingresso
+3.  Rimuovere il coperchio del vano batterie
+4.  Scollegare la batteria dal connettore
+5.  Collegare la batteria nuova al connettore rispettando le polarità indicate
+6.  Riposizionare il coperchio del vano batteria
+7.  Non disperdere la batteria usata nell’ambiente. Usare gli appositi contenitori per lo smaltimento dei rifiuti
+
+### 6.2. PULIZIA DELLO STRUMENTO
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc. La lente di plastica bianca del sensore può essere pulita se necessario con un panno inumidito.
+
+### 6.3. FINE VITA
+**ATTENZIONE**: il simbolo riportato sullo strumento indica che l'apparecchiatura la batteria ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+---
+
+## 7. SPECIFICHE TECNICHE
+### 7.1. CARATTERISTICHE TECNICHE
+Incertezza riferita alla temperatura di 25°C con umidità relativa < 70%HR. Lo strumento è calibrato per la sorgente di luce bianca standard con una lampada ad incandescenza alla temperatura/colore di 2856°K in accordo alla Classe A La calibrazione per le sorgenti LED (aventi risposte spettrali diverse da quella della luce bianca standard) sono ottenute sulla base della calibrazione per la sorgente di luce bianca standard in Classe A con l’uso di opportuni fattori correttivi (vedere Tabella 1)
+
+**Misura di Illuminamento (Autorange)**
+
+| Fondo scala (Lux) | Risoluzione (Lux) | Incertezza      |
+| :---------------- | :---------------- | :-------------- |
+| 40                | 0.01              | ± (3%lettura)   |
+| 400               | 0.1               |                 |
+| 4000              | 1                 |                 |
+| 40k               | 10                |                 |
+| 400k              | 100               |                 |
+
+| Fondo scala (Fc) | Risoluzione (Fc) | Incertezza      |
+| :--------------- | :--------------- | :-------------- |
+| 40               | 0.01             | ± (3%lettura)   |
+| 400              | 0.1              |                 |
+| 4000             | 1                |                 |
+| 40k              | 10               |                 |
+
+**NOTE1**: 1Fc=10.76Lux, 1Klux=1000Lux, 1Kfc=1000Fc
+**NOTA2**: per temperatura/colore diversa dal riferimento la precisione passa al 6%lettura
+
+Campo distanza per misura di intensità luminosa: 0.01 ÷ 30.47m / 0.01 ÷ 99.99ft
+
+**Precisione sulla deviazione angolare dalla caratteristica del coseno**
+
+| 30° | ± 2%  |
+| :-- | :---- |
+| 60° | ± 6%  |
+| 80° | ± 25% |
+
+#### 7.1.1. Risposta spettrale
+La risposta spettrale del fotodiodo con filtro è pressoché identica alla curva CIE foto-ottica V(****) come mostrato nel grafico seguente.
+
+```
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+380   440   500   560   620   680   740
+V(?)
+HT307
+```
+Fig. 3: Curva CIE V(****).
+Sensibilità relativa (%) Lunghezza d’onda (nm)
+HT309 V(λ)
+
+#### 7.1.2. Sensore
+Il sensore è un fotodiodo al silicio con filtro sulla risposta spettrale
+
+---
+
+#### 7.1.3. Caratteristiche generali
+**Caratteristiche meccaniche**
+*   Dimensioni (L x La x H): 190 x 65 x 45mm
+*   Dimensioni sensore (L x La x H): 110 x 60 x 35mm
+*   Lunghezza cavo: circa 1.5m
+*   Peso (batteria inclusa): 235g
+*   Protezione meccanica: IP40
+
+**Alimentazione**
+*   Tipo batteria: 1x9V batteria tipo NEDA 1604 IEC 6F22
+*   Indicazione batterie scariche: simbolo “ [simbolo batteria] ” a display
+*   Durata batterie: ca 60h (backlight ON), ca 180h (backlight OFF)
+
+**Display**
+*   Caratteristiche: LCD, 6 cifre, 4000 punti più punto decimale
+*   Indicazione fuori scala: simbolo “OL” a display
+*   Velocità di campionamento: 2.5 misure/s
+
+**Normative considerate**
+*   EMC: IEC/EN61326-1, IEC61000-4-2, IEC61000-4-3
+*   Standard di riferimento: JIS C 1609:1993 e CNS 5119 specificazione generale in Classe A
+*   Livello di inquinamento: 2
+
+### 7.2. AMBIENTE
+#### 7.2.1. Condizioni ambientali di utilizzo
+*   Temperatura di riferimento: 25°C
+*   Temperatura di utilizzo: 5°C ÷ 40°C
+*   Umidità relativa ammessa: <80%RH
+*   Temperatura di immagazzinamento: -10°C ÷ 60°C
+*   Umidità di immagazzinamento: <70%RH
+*   Max altitudine di utilizzo: 2000m
+
+Questo strumento è conforme ai requisiti della direttiva EMC 2014/30/EU
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (RoHS) e della direttiva europea 2012/19/EU (WEEE)
+
+### 7.3. ACCESSORI
+#### 7.3.1. Accessori in dotazione
+*   Borsa per trasporto
+*   Batteria (non inserita)
+*   Manuale d’uso
+
+---
+
+## 8. ASSISTENZA
+### 8.1. CONDIZIONI DI GARANZIA
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti. La garanzia non è applicata nei seguenti casi:
+*   Riparazione e/o sostituzione accessori e batterie (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+### 8.2. ASSISTENZA
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato della batteria e sostituirla se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
