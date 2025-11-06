@@ -214,6 +214,11 @@
       "id": "IMP57.md",
       "name": "IMP57",
       "description": "ACCESSORIO PER MISURA DI IMPEDENZA DI LOOP AD ALTA RISOLUZIONE E CORRENTE DI CORTO CIRCUITO PRESUNTA FINO A 400KA."
+    },
+    {
+      "id": "HT309.md",
+      "name": "HT309",
+      "description": "Luxmetro digitale portatile compatibile con sorgenti LED."
     }
   ]
 }
