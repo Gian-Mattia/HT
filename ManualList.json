@@ -16,9 +16,14 @@
       "description": "Manuale per lo strumento multifunzione per verifiche di sicurezza e test avanzati FULLTEST3."
     },
     {
-      "id": "HT6050N.md",
-      "name": "HT6050N",
-      "description": "Manuale per il luxmetro digitale di precisione HT6050N per la misura dell'illuminamento."
+      "id": "QUICKLAN6050.md",
+      "name": "QUICKLAN6050, HT6050, HT6050N",
+      "description": "Strumento portatile per verifica di cavi di reti LAN con misura lunghezza del cavo."
+    },
+    {
+      "id": "QUICKLAN6055.md",
+      "name": "QUICKLAN6055, HT6055, HT6055N",
+      "description": "Strumento portatile per verifica di cavi di reti LAN."
     },
     {
       "id": "HT79.md",
