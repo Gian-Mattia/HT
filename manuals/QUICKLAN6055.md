@@ -4,7 +4,6 @@
 <!-- Version: 1.0 -->
 
 <!-- Chunk: Pages 1-13 -->
-# QUICKLAN6055
 
 ## 1. PRECAUZIONI E MISURE DI SICUREZZA
 ### 1.1. Durante l’utilizzo
