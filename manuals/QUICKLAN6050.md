@@ -1,4 +1,4 @@
-# HT6050N
+# HT6050 - HT6050N
 
 <!-- Language: it -->
 <!-- Version: 1.0 -->
