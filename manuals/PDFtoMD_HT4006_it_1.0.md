@@ -1,0 +1,358 @@
+# HT4006
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-13 -->
+INDICE
+
+1. PRECAUZIONI E MISURE DI SICUREZZA
+    1.1. Istruzioni preliminari
+    1.2. Durante l’utilizzo
+    1.3. Dopo l’utilizzo
+    1.4. Definizione di Categoria di misura (Sovratensione)
+2. DESCRIZIONE GENERALE
+3. PREPARAZIONE ALL’UTILIZZO
+    3.1. Controlli iniziali
+    3.2. Alimentazione dello strumento
+    3.3. Conservazione
+4. NOMENCLATURA
+    4.1. Descrizione dello strumento
+    4.2. Descrizione dei tasti funzione
+        4.2.1. Regolazione DC ZERO
+        4.2.2. Selettore portate
+5. ISTRUZIONI OPERATIVE
+    5.1. Misura di Corrente AC/DC in abbinamento a multimetro HT63
+    5.2. Misura di Corrente AC/DC in abbinamento a multimetro HT64
+    5.3. Misura di Corrente AC/DC in abbinamento a multimetro MERCURY
+    5.4. Misura di Corrente AC/DC con multimetri JUPITER / NEPTUNE
+6. MANUTENZIONE
+    6.1. Generalità
+    6.2. Sostituzione delle batterie
+    6.3. Pulizia dello strumento
+    6.4. Fine vita
+7. SPECIFICHE TECNICHE
+    7.1. Caratteristiche Tecniche
+        7.1.1. Caratteristiche elettriche
+        7.1.2. Normative di riferimento
+        7.1.3. Caratteristiche generali
+    7.2. Ambiente
+        7.2.1. Condizioni ambientali di utilizzo
+    7.3. Accessori
+        7.3.1. Dotazione standard
+8. ASSISTENZA
+    8.1. Condizioni di Garanzia
+    8.2. Assistenza
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità alla direttiva IEC/EN61010-1 relativa agli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo.
+
+> ATTENZIONE
+> La mancata osservazione delle avvertenze e/o istruzioni può danneggiare lo strumento e/o i suoi componenti e può essere fonte di pericolo per l’operatore.
+> Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+
+*   Non effettuare misure di corrente in ambienti umidi.
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi.
+*   Evitare contatti con il circuito in esame se non si stanno effettuando misure.
+*   Evitare contatti con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+*   **Attenzione:** attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti.
+*   Strumento con doppio isolamento.
+*   Corrente o tensione AC
+*   Corrente o tensione DC
+*   Riferimento di terra
+*   Lo strumento può operare su conduttori nudi sotto tensione
+
+## 1.1. ISTRUZIONI PRELIMINARI
+
+*   Questo strumento è stato progettato per un utilizzo in un ambiente con livello di inquinamento 2
+*   Può essere utilizzato in abbinamento a multimetri digitali per misure di **CORRENTE AC** e **DC**, su installazioni con CAT III 600V o CAT IV 300V verso terra. Per la definizione delle sopracitate categorie vedere il § 1.4
+*   La invitiamo a seguire le normali regole di sicurezze orientate alla protezione contro correnti pericolose e a proteggere lo strumento contro un utilizzo errato
+*   Non effettuare misure su circuiti che superano i limiti di corrente e tensione specificati
+*   Controllare se le batterie sono inserite correttamente
+
+## 1.2. DURANTE L’UTILIZZO
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> ATTENZIONE
+> La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+
+*   Prima di accendere la pinza, rimuovere dal toroide il conduttore.
+*   Durante la misura di corrente, ogni altra corrente localizzata in prossimità della pinza può influenzare la precisione della misura.
+*   Durante la misura di corrente posizionare sempre il conduttore il più possibile al centro del toroide in modo da ottenere una lettura più accurata.
+
+## 1.3. DOPO L’UTILIZZO
+
+*   Quando le misure sono terminate, spegnere la pinza
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere le batterie
+
+## 1.4. DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma IEC/EN61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali, definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § 6.7.4.: Circuiti di misura, essa definisce le Categorie di misura come segue: (OMISSIS)
+
+*   La **Categoria di misura IV** serve per le misure effettuate su una sorgente di un’installazione a bassa tensione.
+    Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle sovracorrenti e sulle unità di regolazione dell’ondulazione.
+*   La **Categoria di misura III** serve per le misure effettuate in installazioni all’interno di edifici.
+    Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli apparecchi destinati all’impiego industriale e altre apparecchiature, per esempio i motori fissi con collegamento ad impianto fisso.
+*   La **Categoria di misura II** serve per le misure effettuate su circuiti collegati direttamente all’installazione a bassa tensione.
+    Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari.
+*   La **Categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE.
+    Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura.
+
+# 2. DESCRIZIONE GENERALE
+
+Lo strumento, trasduttore a pinza HT4006, presenta le seguenti caratteristiche:
+
+*   Misura di corrente AC/DC fino a 400A
+*   Sensore NCV per rilevazione tensione AC senza contatto
+*   Uscita per collegamento a multimetri digitali
+*   Selezione portate 40/400A
+*   Indicazione batteria scarica
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+
+## 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, comunque, di controllare sommariamente lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 7.3.1. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 8.
+
+## 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato tramite 2x1.5V batterie tipo AAA IEC LR03 incluse nella confezione. Quando le batterie sono quasi scariche l’indicatore a LED “ON” diventa rosso lampeggiante e occorre sostituirle. Per la sostituzione delle batterie vedere il § 6.2.
+
+## 3.3. CONSERVAZIONE
+
+Per garantire misure precise, dopo un lungo periodo di conservazione in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 7.2.1).
+
+# 4. NOMENCLATURA
+
+## 4.1. DESCRIZIONE DELLO STRUMENTO
+
+LEGENDA:
+1.  Toroide apribile
+2.  Sensore NCV
+3.  LED indicatore accensione/batterie scariche
+4.  Leva aperture toroide
+5.  Selettore funzioni
+6.  Regolatore DC ZERO
+7.  Cavo di uscita
+8.  Terminali di collegamento a multimetri
+9.  Freccia direzione corrente DC
+
+Fig. 1: Descrizione dello strumento
+
+## 4.2. DESCRIZIONE DEI TASTI FUNZIONE
+
+### 4.2.1. Regolazione DC ZERO
+
+La manopola **DC ZERO** consente di eseguire l’azzeramento della magnetizzazione residua nella misura di **corrente DC** con strumento collegato ad un multimetro digitale.
+
+### 4.2.2. Selettore portate
+
+Il selettore funzioni (vedere Fig. 1 – parte 5) consente l’accensione/spegnimento dello strumento e la scelta della portata di misura. Il LED verde “ON” (vedere Fig. 1 – parte 3) è acceso. Il LED “ON” diventa rosso in caso di batterie scariche. In tal caso spegnere lo strumento e sostituire le batterie (vedere § 6.2). Spostare il selettore portate nelle posizioni **40**, **400** o , in funzione del valore della corrente AC o DC che si desidera misurare. Il rapporto di trasformazione di uscita in tensione AC o DC dello strumento (indicato sulla parte frontale) è il seguente:
+
+| Portata | Rapporto di uscita |
+| :------ | :----------------- |
+| 40A     | 10mV/A             |
+| 400A    | 1mV/A              |
+
+# 5. ISTRUZIONI OPERATIVE
+
+## 5.1. MISURA DI CORRENTE AC/DC IN ABBINAMENTO A MULTIMETRO HT63
+
+> ATTENZIONE
+> *   Lo strumento HT4006 è stato progettato in modo specifico per la misura **diretta** in **A** di corrente AC, DC e AC+DC ( selettore su posizione “DC” ) fino a 400A in collegamento con i modelli **HT63**, **HT64, HT65, JUPITER, NEPTUNE, MERCURY, ECLIPSE** e **HT9025**. Fare riferimento ai manuali d’uso di tali modelli per il relativo utilizzo
+> *   Lo strumento HT4006 è utilizzabile anche in abbinamento a multimetri di buona precisione aventi scala di **tensione** AC/DC con risoluzione di almeno **1mV** nella portata più bassa e resistenza di ingresso ≥ **10k **
+
+Fig. 2: Uso dello strumento per misura di corrente AC/DC in abbinamento a modello HT63
+
+1.  Inserire terminali di collegamento nero e rosso (vedere Fig. 1 – parte 8) dello strumento rispettivamente negli ingressi **COM** e **Hz% V ** del multimetro
+2.  Accendere lo strumento e selezionare la portata desiderata tra le opzioni **40**, **400** o , . Notare l’accensione del LED verde “ON”
+3.  Per misura di corrente AC avvicinare preliminarmente lo strumento alla sorgente. L’accensione del LED rosso NCV (vedere Fig. 1 – parte 2) indica presenza di tensione
+4.  Selezionare la posizione sul multimetro
+5.  Premere il tasto **MODE** sul mutimetro per selezionare la misura “AC” o “DC”
+6.  Premere il tasto **RANGE** sul multimetro per selezionare la **stessa portata** impostata sullo strumento. Tale valore compare per 2s a display
+7.  Per misura di corrente DC ruotare la manopola “DC ZERO” (vedere § 4.2.1) fino ad osservare l’azzeramento del valore a display del multimetro
+8.  Aprire il toroide ed inserire il cavo di fase al centro del medesimo (vedere Fig. 2). Per misura di corrente DC rispettare la freccia presente sullo strumento (vedere Fig. 1 – parte 9) che indica la direzione positiva della corrente. Il valore **espresso in A** è mostrato a display del multimetro
+
+## 5.2. MISURA DI CORRENTE AC/DC IN ABBINAMENTO A MULTIMETRO HT64
+
+> ATTENZIONE
+> *   Lo strumento HT4006 è stato progettato in modo specifico per la misura **diretta** in **A** di corrente AC, DC e AC+DC ( selettore su posizione “DC” ) fino a 400A in collegamento con i modelli **HT63**, **HT64, HT65, JUPITER, NEPTUNE, MERCURY, ECLIPSE** e **HT9025**. Fare riferimento ai manuali d’uso di tali modelli per il relativo utilizzo
+> *   Lo strumento HT4006 è utilizzabile anche in abbinamento a multimetri di buona precisione aventi scala di **tensione** AC/DC con risoluzione di almeno **1mV** nella portata più bassa e resistenza di ingresso ≥ **10k **
+
+Fig. 3: Uso dello strumento per misura di corrente AC/DC in abbinamento a modello HT64
+
+1.  Inserire terminali di collegamento nero e rosso (vedere Fig. 1 – parte 8) dello strumento rispettivamente negli ingressi **COM** e **Hz% V ** del multimetro
+2.  Accendere lo strumento e selezionare la portata desiderata tra le opzioni **40**, **400** o , . Notare l’accensione del LED verde “ON”
+3.  Per misura di corrente AC avvicinare preliminarmente lo strumento alla sorgente. L’accensione del LED rosso NCV (vedere Fig. 1 – parte 2) indica presenza di tensione
+4.  Selezionare la posizione sul multimetro
+5.  Premere il tasto **F2(MODO)** sul mutimetro per selezionare la misura “AC” o “DC”
+6.  Premere il tasto **RANGE** sul multimetro per selezionare la **stessa portata** impostata sullo strumento. Tale valore è presente nella parte alta sinistra del display
+7.  Per misura di corrente DC ruotare la manopola “DC ZERO” (vedere § 4.2.1) fino ad osservare l’azzeramento del valore a display del multimetro
+8.  Aprire il toroide ed inserire il cavo di fase al centro del medesimo (vedere Fig. 3). Per misura di corrente DC rispettare la freccia presente sullo strumento (vedere Fig. 1 – parte 9) che indica la direzione positiva della corrente. Il valore **espresso in A** è mostrato a display del multimetro
+
+## 5.3. MISURA DI CORRENTE AC/DC IN ABBINAMENTO A MULTIMETRO MERCURY
+
+> ATTENZIONE
+> *   Lo strumento HT4006 è stato progettato in modo specifico per la misura **diretta** in **A** di corrente AC, DC e AC+DC ( selettore su posizione “DC ”) fino a 400A in collegamento con i modelli **HT63**, **HT64, HT65, JUPITER, NEPTUNE, MERCURY, ECLIPSE** e **HT9025**. Fare riferimento ai manuali d’uso di tali modelli per il relativo utilizzo
+> *   Lo strumento HT4006 è utilizzabile anche in abbinamento a multimetri di buona precisione aventi scala di **tensione** AC/DC con risoluzione di almeno **1mV** nella portata più bassa e resistenza di ingresso ≥ **10k **
+
+Fig. 4: Uso dello strumento per misura di corrente AC/DC in abbinamento a MERCURY
+
+1.  Inserire terminali di collegamento nero e rosso (vedere Fig. 1 – parte 8) dello strumento rispettivamente negli ingressi **COM** e **VHz% CAP ** del multimetro
+2.  Accendere lo strumento e selezionare la portata desiderata tra le opzioni **40**, **400** o , . Notare l’accensione del LED verde “ON”
+3.  Per misura di corrente AC avvicinare preliminarmente lo strumento alla sorgente. L’accensione del LED rosso NCV (vedere Fig. 1 – parte 2) indica presenza di tensione
+4.  Selezionare la posizione sul multimetro
+5.  Premere a lungo (>2s) il tasto **MODE** per selezionare il tipo di pinza “ ”
+6.  Premere il tasto **MODE** per selezionare il tipo di misura “DC”, “AC” o “AC+DC”
+7.  Premere il tasto **RANGE** sul multimetro per selezionare la **stessa portata** impostata sullo strumento. Tale valore è presente nella parte alta del display
+8.  Per misura di corrente DC ruotare la manopola “DC ZERO” (vedere § 4.2.1) fino ad osservare l’azzeramento del valore a display del multimetro
+9.  Aprire il toroide ed inserire il cavo di fase al centro del medesimo (vedere Fig.4). Per misura di corrente DC rispettare la freccia presente sullo strumento (vedere Fig. 1 – parte 9) che indica la direzione positiva della corrente. Il valore **espresso in A** è mostrato a display del multimetro
+
+## 5.4. MISURA DI CORRENTE AC/DC CON MULTIMETRI JUPITER / NEPTUNE
+
+> ATTENZIONE
+> *   Lo strumento HT4006 è stato progettato in modo specifico per la misura **diretta** in **A** di corrente AC, DC e AC+DC ( selettore su posizione “DC ”) fino a 400A in collegamento con i modelli **HT63**, **HT64, HT65, JUPITER, NEPTUNE, MERCURY, ECLIPSE** e **HT9025**. Fare riferimento ai manuali d’uso di tali modelli per il relativo utilizzo
+> *   Lo strumento HT4006 è utilizzabile anche in abbinamento a multimetri di buona precisione aventi scala di **tensione** AC/DC con risoluzione di almeno **1mV** nella portata più bassa e resistenza di ingresso ≥ **10k **
+
+Fig. 5: Uso dello strumento per misura di corrente AC/DC con JUPITER/NEPTUNE
+
+1.  Inserire terminali di collegamento nero e rosso (vedere Fig. 1 – parte 8) dello strumento rispettivamente negli ingressi **COM/E/N** e **V  L** (JUPITER) oppure negli ingressi **COM/ -** e **V  /+** (NEPTUNE)
+2.  Accendere lo strumento e selezionare la portata desiderata tra le opzioni **40**, **400** o , . Notare l’accensione del LED verde “ON”
+3.  Per misura di corrente AC avvicinare preliminarmente lo strumento alla sorgente. L’accensione del LED rosso NCV (vedere Fig. 1 – parte 2) indica presenza di tensione
+4.  Selezionare la posizione sul multimetro
+5.  Premere il tasto **MODE/MXMNPK** per selezionare il trasduttore a pinza “ ”
+6.  Premere il tasto **GO/HOLD** per confermare le impostazioni
+7.  Premere il tasto **MODE/MXMNPK** per selezionare il tipo di misura “DC”, “AC” o “AC+DC
+8.  Premere i tasti ** /** o **** (JUPITER) o i tasti ** /ZERO** o ** /** (NEPTUNE) e selezionare sullo strumento la **stessa portata** impostata sulla pinza. Tale valore è presente nella parte alta del display
+9.  Per misura di corrente DC ruotare la manopola “DC ZERO” (vedere § 4.2.1) fino ad osservare l’azzeramento del valore a display del multimetro
+10. Aprire il toroide ed inserire il cavo di fase al centro del medesimo (vedere Fig.5). Per misura di corrente DC rispettare la freccia presente sullo strumento (vedere Fig. 1 – parte 9) che indica la direzione positiva della corrente. Il valore **espresso in A** è mostrato a display del multimetro
+
+# 6. MANUTENZIONE
+
+## 6.1. GENERALITÀ
+
+1.  Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo.
+2.  Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata
+3.  Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo rimuovere le batterie per evitare fuoruscite di liquidi da parte di quest’ultima che possano danneggiare i circuiti interni dello strumento.
+
+## 6.2. SOSTITUZIONE DELLE BATTERIE
+
+Quando il LED “ON” diventa rosso occorre sostituire le batterie.
+
+> ATTENZIONE
+> Solo tecnici esperti possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso il cavo in esame dall’interno del toroide.
+
+Fig. 6: Sostituzione batterie
+
+1.  Spegnere lo strumento e rimuovere il cavo in esame dall’interno del toroide
+2.  Svitare la vite di fissaggio (vedere Fig. 6 – parte 2) del coperchio vano batteria (vedere Fig. 6 – parte 1), rimuovere detta copertura ed estrarre le batterie
+3.  Inserire nuove batterie dello stesso tipo (vedere § 7.1.3) rispettando le polarità indicate
+4.  Fissare nuovamente il coperchio del vano batterie
+5.  Non disperdere nell’ambiente le batterie utilizzate. Usare gli appositi contenitori per lo smaltimento
+
+## 6.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+## 6.4. FINE VITA
+
+> ATTENZIONE : il simbolo riportato sullo strumento indica che l'apparecchiatura ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+# 7. SPECIFICHE TECNICHE
+
+## 7.1. CARATTERISTICHE TECNICHE
+
+Incertezza indicata come ± [%lettura + A] alla temperatura 23°C±5°C, <70%RH
+
+**Corrente DC**
+
+| Portata | Campo misura | Rapporto uscita | Incertezza (*)         |
+| :------ | :----------- | :-------------- | :--------------------- |
+| 40.0A   | 0.1A ÷ 40.0A | 10mV/A          | ± (2.5%lettura + 0.1A) |
+| 400.0A  | 0.5A ÷ 400.0A| 1mV/A           | ± (2.8%lettura + 0.5A) |
+
+(*) Per uso con modelli **HT63** e **HT64** l’incertezza è: ± (1.5%lettura + 26cifre)
+
+**Corrente AC**
+
+| Portata | Campo misura | Rapporto uscita | Banda passante | Incertezza (*)         |
+| :------ | :----------- | :-------------- | :------------- | :--------------------- |
+| 40.0A   | 0.1A ÷ 40.0A | 10mV/A          | 50Hz ÷ 60Hz    | ± (2.5%lettura + 0.1A) |
+| 400.0A  | 0.5A ÷ 400.0A| 1mV/A           |                | ± (2.8%lettura + 0.5A) |
+
+(*) Per uso con modelli **HT63** e **HT64** l’incertezza è: ± (3.5%lettura + 30cifre)
+
+### 7.1.1. Caratteristiche elettriche
+
+*   Max tensione di uscita: **3VAC/DC**
+
+### 7.1.2. Normative di riferimento
+
+*   Sicurezza: **IEC/EN61010-1, IEC/EN61010-2-032**
+*   EMC: **IEC/EN61326-1**
+*   Isolamento: **doppio isolamento**
+*   Livello di Inquinamento: **2**
+*   Categoria di misura: **CAT III 600V, CAT IV 300V verso terra**
+*   Max altitudine di utilizzo: **2000m**
+
+### 7.1.3. Caratteristiche generali
+
+**Caratteristiche meccaniche**
+
+*   Dimensioni (L x La x H): **155 x 65 x 40mm**
+*   Peso (batterie incluse): **220g**
+*   Diametro max. cavo pinzabile: **30mm**
+*   Lunghezza cavo di collegamento: **1m**
+*   Protezione meccanica: **IP20**
+
+**Alimentazione**
+
+*   Tipo batteria: **2x1.5V batterie tipo AAA LR03**
+*   Indicazione batteria scarica: **LED rosso “ON”**
+*   Durata batteria: **circa 7 giorni**
+
+## 7.2. AMBIENTE
+
+### 7.2.1. Condizioni ambientali di utilizzo
+
+*   Temperatura di riferimento: **23° ± 5°C**
+*   Temperatura di utilizzo: **0°C ÷ 50°C**
+*   Umidità di utilizzo: **<80%RH**
+*   Temperatura di conservazione: **-20°C ÷ 70°C**
+*   Umidità di conservazione: **<80%RH**
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione **2014/35/EU (LVD)** e della direttiva **EMC 2014/30/EU**
+Questo strumento è conforme ai requisiti della direttiva europea **2011/65/EU (RoHS)** e della direttiva europea **2012/19/EU (WEEE)**
+
+## 7.3. ACCESSORI
+
+### 7.3.1. Dotazione standard
+
+*   Batterie (non inserite)
+*   Manuale d’uso
+
+# 8. ASSISTENZA
+
+## 8.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti. La garanzia non è applicata nei seguenti casi:
+
+*   Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+## 8.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato delle batterie e sostituirle se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
