@@ -76,6 +76,11 @@
       "description": "UNITA’ REMOTA PER MISURA DI IRRAGGIAMENTO, TEMPERATURA ED INCLINAZIONE."
     },
     {
+      "id": "SOLAR03.md",
+      "name": "SOLAR03",
+      "description": "UNITA’ REMOTA PER MISURA DI IRRAGGIAMENTO, TEMPERATURA ED INCLINAZIONE MODULI FV."
+    },
+    {
       "id": "SUPERCOMBIs.md",
       "name": "SUPERCOMBIs",
       "description": "Strumento multifunzione per la verifica su impianti elettrici civili e industriali in conformità alla CEI 64-8, verifica sulle stazioni di ricarica EVSE, e analisi di rete."
