@@ -73,12 +73,12 @@
     {
       "id": "SOLAR02.md",
       "name": "SOLAR02",
-      "description": "UNITA’ REMOTA PER MISURA DI IRRAGGIAMENTO, TEMPERATURA ED INCLINAZIONE."
+      "description": "UNITA’ REMOTA PER MISURA DI IRRAGGIAMENTO, TEMPERATURA ED INCLINAZIONE moduli FV."
     },
     {
       "id": "SOLAR03.md",
       "name": "SOLAR03",
-      "description": "UNITA’ REMOTA PER MISURA DI IRRAGGIAMENTO, TEMPERATURA ED INCLINAZIONE MODULI FV."
+      "description": "UNITA’ REMOTA PER MISURA DI IRRAGGIAMENTO, TEMPERATURA ED INCLINAZIONE MODULI FV anche bifacciali."
     },
     {
       "id": "SUPERCOMBIs.md",
