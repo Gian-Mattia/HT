@@ -1,4 +1,4 @@
-# GSC57 - GSC59
+# GSC57 - GSC59 - ZG47
 
 <!-- Language: it -->
 <!-- Version: 1.1 -->
@@ -61,9 +61,10 @@ La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti
 ## 2.1. INTRODUZIONE
 Gentile Cliente, La ringraziamo per aver scelto uno strumento del nostro programma di vendita. Lo strumento da Lei appena acquistato, se utilizzato secondo quanto descritto nel presente manuale, Le garantirà misure accurate ed affidabili. Lo strumento è realizzato in modo da garantirLe la massima sicurezza grazie ad uno sviluppo di nuova concezione che assicura il doppio isolamento e il raggiungimento della categoria di sovratensione III.
 
-Questo manuale si riferisce a due prodotti: `GSC57` e `GSC59`.
+Questo manuale si riferisce a tre prodotti: `GSC57` , `GSC59` e `ZG47` .
 Le differenze tra le caratteristiche dei due modelli sono le seguenti:
 
+* Lo strumento `ZG47` è uguale e identico allo strumento `GSC57`.
 * Funzione `LOW  10A` eseguibile dal **solo modello `GSC57`**.
 * Uso di pinze con toroide flessibile `HTFLEX33` 1000A/3000A, prive di elettronica di controllo propria, disponibili con il **solo modello `GSC59`**.
 
