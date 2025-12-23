@@ -254,6 +254,11 @@
       "id": "HT701.md",
       "name": "HT701",
       "description": "Multimetro professionale con misura di isolamento fino a 1000V."
+    },
+    {
+      "id": "HT63.md",
+      "name": "HT63",
+      "description": "Multimetri digitale TRMS con 60.000 punti di misura."
     }
   ]
 }
