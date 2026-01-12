@@ -1,0 +1,107 @@
+# HT70
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-1 -->
+# MANUALE D’USO Cercafase e senso ciclico delle fasi HT70
+
+## 1. PRECAUZIONI E MISURE DI SICUREZZA
+Prima e durante l’esecuzione dei test attenersi scrupolosamente alle seguenti indicazioni:
+
+**ATTENZIONE**
+*   La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore
+*   Non usare lo strumento in presenza di ambienti umidi o in presenza di gas, materiali esplosivi, combustibili o polverosi
+*   Non effettuare test di prova qualora si riscontrino danneggiamenti evidenti sullo strumento
+*   Non effettuare test oltre al campo di tensione dichiarato
+*   Non esporre lo strumento a condizioni di temperatura e umidità oltre i limiti dichiarati
+*   Non effettuare rilevazioni con mano dell’operatore oltre la barriera di sicurezza paramano
+
+## 2. INTRODUZIONE
+HT70 è in grado di rilevare la presenza di tensione AC ed eseguire il test del senso ciclico delle fasi con segnalazione a LED visiva e segnale acustico
+
+## 3. CARATTERISTICHE
+*   Rilevazione tensione AC su parti conduttive e isolate
+*   Senso ciclico delle fasi e concordanza delle fasi
+*   Test su prese e su cavi e/o circuiti elettrici
+*   Indicazioni a LED e acustiche con cicalino
+*   Ridotte dimensioni con fermaglio da taschino
+*   Auto Power OFF
+*   Strumento ideale per ogni installatore elettrico
+
+## 4. DESCRIZIONE
+(Information about descriptive parts 1-8 below appears to be missing a visual context to match the numbering with actual descriptions. Assuming they refer to parts of a figure mentioned later in section 6.)
+1.  Sensore di rilevazione tensione
+2.  Riferimento per misure in CAT IV
+3.  Barriera di sicurezza paramano
+4.  Tasto ON/OFF per accensione/spegnimento
+5.  Fermaglio da taschino
+6.  Sezione interna LED verde / rosso di funzionamento
+7.  Innesto a incastro per slitta vano batterie
+8.  Slitta vano batterie
+
+## 5. AUTOTEST INIZIALE
+Ad ogni accensione lo strumento esegue in sequenza il seguente Autotest di regolare funzionamento:
+*   I LED verde e rosso si accendono in sequenza
+*   Il cicalino si attiva per un istante
+*   Strumento in attesa con LED verde che lampeggia continuamente
+
+Qualora una di queste condizioni non sia verificata contattare il servizio di assistenza
+
+## 6. SENSO CICLICO DELLE FASI
+
+**ATTENZIONE**
+*   Il test non è garantito per sistemi con valori di tensione esterni al campo 100V ÷ 1000V AC e frequenza 50 ÷ 60Hz
+*   Per la corretta esecuzione del test assicurarsi che i morsetti delle fasi L1, L2 e L3 non siano troppo ravvicinati al fine di evitare la reciproca influenza dei segnali
+*   Non effettuare misure con mano dell’operatore oltre la barriera di sicurezza e mantenere conduttori non isolati oltre la linea di riferimento CAT IV (parte 2 di figura)
+
+1.  Accendere lo strumento con il tasto ON/OFF e attendere lo svolgimento dell’Autotest iniziale (vedere § 5)
+2.  Impugnare lo strumento e appoggiare il sensore sulla fase L1 del sistema trifase (su conduttore o guaina) per almeno 5s al fine di attivare la procedura del senso ciclico. Il LED rosso e il cicalino si accendono in modo fisso durante la rilevazione della corretta tensione e frequenza. Il LED rosso lampeggia insieme al cicalino quando è eseguita la corretta sincronizzazione sulla fase L1
+3.  Allontanare il sensore dalla fase L1 e attendere lo spegnimento del LED rosso e del cicalino prima di passare alla fase L2
+
+**ATTENZIONE**
+Se il tempo nel passaggio dalla fase L1 alla fase L2 supera i 10s i LED verde e rosso e il cicalino lampeggiano alternativamente per alcuni secondi, quindi lo strumento si riporta in stato di attesa e occorre ripetere il test
+
+4.  Appoggiare e mantenere il sensore sulla fase L2 del sistema trifase (su conduttore o guaina) per almeno 5s. Il LED rosso e il cicalino si accendono in modo fisso durante la rilevazione della corretta tensione e frequenza
+5.  Al termine del riconoscimento del segnale sulla fase L2 lo strumento fornisce i seguenti risultati:
+    *   Accensione fissa del LED verde e cicalino che suona ad intermittenza per alcuni secondi prima di tornare in situazione di attesa → Senso ciclico corretto
+    *   Accensione intermittente del LED rosso e del cicalino per alcuni secondi prima di tornare in situazione di attesa → Senso ciclico non corretto
+
+## 7. CONCORDANZA DELLE FASI
+1.  Ripetere i passi 2) 3) e 4) sulle fasi L1 dei due sistemi trifase nel caso di test sulla concordanza delle fasi. Al termine del test lo strumento fornisce i seguenti risultati:
+    *   Accensione lampeggiante del LED verde e cicalino che suona ad intermittenza per alcuni secondi prima di tornare in situazione di attesa → Concordanza corretta
+    *   Accensione intermittente del LED rosso e del cicalino per alcuni secondi prima di tornare in situazione di attesa → Concordanza non corretta
+
+## 8. FUNZIONE CERCAFASE
+1.  Accendere lo strumento con il tasto ON/OFF e attendere lo svolgimento dell’Autotest iniziale (vedere § 5)
+2.  Posizionare il sensore in prossimità o a contatto del punto in prova per un tempo <5s e verificare sia l’accensione del LED rosso fisso sia il suono continuo del cicalino ad indicare la presenza di tensione. Non effettuare misure con mano dell’operatore oltre la barriera di sicurezza e mantenere conduttori non isolati oltre la linea di riferimento CAT IV (parte 2 di figura)
+3.  Premere il tasto ON/OFF per circa 3s per spegnere lo strumento
+
+## 9. SOSTITUZIONE BATTERIE
+Per la sostituzione delle batterie operare come segue:
+1.  Allontanare lo strumento dalla sorgente di tensione
+2.  Esercitare una lieve pressione sulla slitta del vano batterie (vedere parte 8 di figura)
+3.  Sfilare la slitta del vano batterie verso il retro dello strumento
+4.  Sostituire le batterie con uguale tipo prestando attenzione alla polarità di inserimento indicata
+5.  Reinserire la slitta del vano batterie fino all’innesto a incastro
+6.  Non disperdere nell’ambiente le batterie usate
+
+**ATTENZIONE**: il simbolo riportato indica che lo strumento deve essere raccolto e trattato in modo corretto.
+
+## 10. SPECIFICHE TECNICHE
+*   Campo di riferimento tensione: 100 V ÷ 1000V AC verso terra
+*   Frequenza di misura: 50/60Hz
+*   Indicazioni: LED e acustica con cicalino
+*   Sicurezza: IEC/EN61010 - 1
+*   Categoria di sovratensione: CAT IV 1000V
+*   Grado di inquinamento: 2
+*   Batterie: 2 x 1.5V alcaline tipo AAA IEC LR03
+*   Autonomia: >9000 test
+*   Auto Power OFF: dopo 5 minuti di non utilizzo
+*   Temperatura di lavoro: -10°C ÷ 50°C
+*   Umidità di lavoro: -10°C ÷ 40°C<75% RH ; 40°C ÷ 50°C<45% RH
+*   Dimensioni (L x La x H): 160 x 26 x 20mm
+*   Peso (con batterie): 48g
+*   Protezione meccanica: IP30
+
+Versione IT 3.0 1 – 04/12/2024
