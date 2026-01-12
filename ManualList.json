@@ -259,6 +259,11 @@
       "id": "HT63.md",
       "name": "HT63",
       "description": "Multimetri digitale TRMS con 60.000 punti di misura."
+    },
+    {
+      "id": "HT70.md",
+      "name": "HT70",
+      "description": "Cercafase con misura del senso ciclico delle fasi."
     }
   ]
 }
