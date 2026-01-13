@@ -264,6 +264,11 @@
       "id": "HT70.md",
       "name": "HT70",
       "description": "Cercafase con misura del senso ciclico delle fasi."
+    },
+    {
+      "id": "MPP300.md",
+      "name": "MPP300",
+      "description": "Accessorio per la misurazione e registrazione dell’efficienza di un impianto fotovoltaico monofase-trifase, singola-stringa e multi-stringa (fino a tre MPPT)."
     }
   ]
 }
