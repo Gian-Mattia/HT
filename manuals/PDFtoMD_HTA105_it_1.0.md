@@ -1,0 +1,409 @@
+# HTA105
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-16 -->
+# INDICE
+1. PRECAUZIONI E MISURE DI SICUREZZA
+    1.1. Istruzioni preliminari
+    1.2. Durante l’utilizzo
+    1.3. Dopo l’utilizzo
+2. DESCRIZIONE GENERALE
+3. PREPARAZIONE ALL’UTILIZZO
+    3.1. Controlli iniziali
+    3.2. Alimentazione dello strumento
+    3.3. Conservazione
+4. NOMENCLATURA
+    4.1. Descrizione dello strumento
+    4.2. Descrizione display
+    4.3. Descrizione dei tasti funzione
+        4.3.1. Tasto ON/OFF
+        4.3.2. Tasto HLD/ZRO
+        4.3.3. Tasto /SET
+        4.3.4. Tasto ENT
+        4.3.5. Tasto  UNIT
+        4.3.6. Tasto UNIT 
+        4.3.7. Tasto FLOW/TEMP
+        4.3.8. Tasto MAXMIN
+        4.3.9. Tasto MEAN
+    4.4. Impostazioni dello strumento
+5. ISTRUZIONI OPERATIVE
+    5.1. Misura di velocità e temperatura dell’aria
+    5.2. Misura portata volumetrica e umidità dell’aria
+    5.3. Calcolo valori medi delle grandezze
+        5.3.1. Valore medio calcolato per punti
+        5.3.2. Valore medio calcolato nel tempo
+6. MANUTENZIONE
+    6.1. Generalità
+    6.2. Sostituzione batteria
+    6.3. Pulizia dello strumento
+    6.4. Fine vita
+7. SPECIFICHE TECNICHE
+    7.1. Caratteristiche tecniche
+        7.1.1. Caratteristiche generali
+    7.2. Ambiente
+        7.2.1. Condizioni ambientali di utilizzo
+    7.3. Accessori
+8. ASSISTENZA
+    8.1. Condizioni di garanzia
+    8.2. Assistenza
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+Lo strumento è stato progettato in conformità alla direttiva di sicurezza relativa agli strumenti di misura elettronici. Per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo ![Attenzione symbol].
+
+Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+* Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti umidi o polverosi
+* Non sottoporre i sensori di misura presenti sulla parte interna della sonda telescopica a sollecitazioni meccaniche
+* Non toccare i sensori di misura presenti sulla parte interna della sonda telescopica al fine di evitare il loro danneggiamento
+* Quando non utilizzati, coprire sempre i sensori di misura presenti sulla parte interna della sonda telescopica con la protezione metallica scorrevole presente
+* Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+> **Attenzione**: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti.
+
+## 1.1. ISTRUZIONI PRELIMINARI
+* La invitiamo a seguire le normali regole di sicurezze orientate alla protezione contro situazioni pericolose e proteggere lo strumento contro un utilizzo errato.
+* Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere utilizzati solo se in buone condizioni e sostituiti, se necessario, con modelli identici.
+* Non effettuare misure che superino i limiti specificati.
+* Controllare che la batteria sia inserita correttamente.
+* Controllare che il display LCD dia indicazioni coerenti con la funzione selezionata.
+
+## 1.2. DURANTE L’UTILIZZO
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+
+* Utilizzare lo strumento solo nei campi di misura riportati nel presente manuale
+* Evitare di effettuare misure in presenza di tensioni esterne che potrebbero causare malfunzionamenti dello strumento
+* Se, durante una misura, il valore o il segno della grandezza in esame rimangono costanti controllare se è attivata la funzione HOLD
+
+## 1.3. DOPO L’UTILIZZO
+* Quando le misure sono terminate, spegnere lo strumento
+* Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere la batteria
+
+# 2. DESCRIZIONE GENERALE
+Lo strumento consente le seguenti funzioni:
+* Misura di velocità dell’aria con sensore a filo caldo
+* Misura di portata volumetrica dell’aria in m³/min (CMM) e ft³/min (CFM)
+* Misura di temperatura dell’aria in °C/°F con sensore interno
+* Misura di umidità relativa %RH con sensore interno
+* Misura valore Massimo e Minimo
+* Calcolo della Media nel tempo e per punti
+* Data HOLD
+* Retroilluminazione del display
+* Auto Power OFF
+
+Ciascuna di queste funzioni può essere selezionata tramite il corrispondente tasto. La grandezza misurata appare sul display con indicazioni dell’unità di misura e delle funzioni abilitate. Sono inoltre presenti i tasti funzione per il cui uso fare riferimento al § 4.3.
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+## 3.1. CONTROLLI INIZIALI
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, comunque, di controllare sommariamente lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 7.3. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 8.
+
+## 3.2. ALIMENTAZIONE DELLO STRUMENTO
+Lo strumento è alimentato tramite una **1x 9V** batteria alcalina tipo **NEDA 1604 IEC 6F22** inclusa nella confezione. Quando la batteria è quasi scarica appare il simbolo “![Battery Low icon]”. Per sostituire la batteria seguire le istruzioni riportate al § 6.2.
+
+## 3.3. CONSERVAZIONE
+Per garantire misure precise, dopo un lungo periodo di immagazzinamento in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 7.2.1).
+
+# 4. NOMENCLATURA
+## 4.1. DESCRIZIONE DELLO STRUMENTO
+LEGENDA:
+1. Terminale ingresso sonda telescopica
+2. Display LCD
+3. Tasto MEAN
+4. Tasto MAXMIN
+5. Tasto FLOW/TEMP
+6. Tasto HLD
+7. Tasto  UNIT
+8. Tasto /SET
+9. Tasto UNIT 
+10. Tasto ENT
+11. Tasto ON/OFF
+12. Sensore filo caldo velocità dell’aria
+13. Sensore temperatura/umidità
+14. Protezione sensori scorrevole
+15. Sonda telescopica allungabile
+16. Manico sonda telescopica
+
+*Fig. 1*: Descrizione dello strumento
+
+## 4.2. DESCRIZIONE DISPLAY
+LEGENDA:
+1. Icona misura velocità
+2. Impostazioni attivo
+3. Data HOLD attivo
+4. Indicazione minuti/secondi
+5. Indicazione Auto Power OFF attivo
+6. Simbolo batteria scarica
+7. Display principale
+8. Multiplo display principale
+9. Unità misura velocità
+10. Unità misura area
+11. Dati display secondario
+12. Unità Temp/Umidità
+13. Display secondario
+14. Unità misura Portata
+15. Multiplo display secondario
+16. Attivazione misure MAX e MIN
+17. Attivazione calcolo Media
+18. Funzione calcolo Media attiva
+19. Indicazione calcolo Media nel tempo attiva
+
+*Fig. 2*: Descrizione del display
+
+## 4.3. DESCRIZIONE DEI TASTI FUNZIONE
+### 4.3.1. Tasto ON/OFF
+La pressione del tasto **ON/OFF** permette l’accensione/spegnimento dello strumento. All’accensione lo strumento esegue un conto alla rovescia di 3s prima di visualizzare la schermata di misura al fine di consentire il riscaldamento dei sensori interni.
+
+### 4.3.2. Tasto HLD/ZRO
+La pressione del tasto **HLD** attiva/disabilita la funzione **HOLD** ovvero il fissaggio a display principale del valore delle grandezze misurate su entrambi i display. Il simbolo “HOLD” è mostrato nella parte alta.
+
+### 4.3.3. Tasto /SET
+La pressione del tasto **/SET** permette l’attivazione/disattivazione della retroilluminazione del display.
+La pressione prolungata (>2s) del tasto **/SET** permette di accedere alla sezione delle impostazioni dello strumento (vedere § 4.4). Una nuova pressione prolungata permette di uscire e tornare alla videata di misura.
+
+### 4.3.4. Tasto ENT
+Il tato **ENT** (ENTER) permette di confermare il valore dei parametri programmati nella sezione delle impostazioni dello strumento (vedere § 4.4).
+
+### 4.3.5. Tasto  UNIT
+La pressione del tasto ** UNIT** permette di selezionare l’unità di misura della velocità dell’aria mostrata nel display principale tra le opzioni: **m/s**, **ft/min**, **km/h**, **MPH**, **knots**. Lo stesso tasto permette di eseguire le selezioni dei parametri all’interno della sezione impostazioni (vedere § 4.4).
+
+### 4.3.6. Tasto UNIT 
+La pressione del tasto **UNIT ** permette di selezionare l’unità di misura della temperatura dell’aria mostrata nel display secondario tra le opzioni: **°C** (Celsius) e **°F** (Fahrenheit), la selezione delle misure di portata volumetrica dell’aria tra le opzioni: **CMM** e **CFM** (vedere § 7.1). Lo stesso tasto permette di eseguire le selezioni dei parametri all’interno della sezione impostazioni (vedere § 4.4).
+
+### 4.3.7. Tasto FLOW/TEMP
+La pressione del tasto **FLOW/TEMP** permette la selezione delle misure di temperatura dell’aria (**TEMP**), della portata volumetrica dell’aria (**FLOW**) (vedere § 5.2) e dell’umidità dell’aria (**%RH**) visualizzate nel display secondario.
+
+### 4.3.8. Tasto MAXMIN
+La pressione ciclica del tasto **MAXMIN** attiva la rilevazione del valore Massimo e Minimo delle grandezze selezionate (velocità dell’aria, temperatura, umidità e portata volumetrica). Ad ogni pressione del tasto display secondario viene visualizzato il valore massimo minimo della grandezza che si aggiorna dinamicamente accompagnato dal simbolo associato alla funzione selezionata: “MAX” per il valore massimo e “MIN” per il valore minimo. La pressione prolungata (>2s) del tasto **MAXMIN** consente di uscire dalla funzione. Il tasto non è attivo nella programmazione dello strumento.
+
+### 4.3.9. Tasto MEAN
+La pressione del tasto **MEAN** permette di attivare la funzione di calcolo della Media nel tempo e per punti dei valori delle grandezze misurate dallo strumento (velocità dell’aria, temperatura, umidità e portata volumetrica) (vedere § 5.3).
+
+## 4.4. IMPOSTAZIONI DELLO STRUMENTO
+Sulla strumento è possibile programmare le seguenti funzioni:
+* Unità di misura dell’area del condotto nelle misure di portata volumetrica
+* Dimensioni dell’area del condotto nelle misure di portata volumetrica
+* Disabilitazione della funzione di Auto Power OFF
+
+1. Accendere lo strumento con il tasto **ON/OFF**
+2. Premere a lungo (>2s) il tasto **/SET** per entrare nel modo impostazione. La videata con l’indicazione della unità di misura dell’area del condotto correntemente impostata è mostrata a display (vedere *Fig. 3*)
+
+*Fig. 3*: Impostazione unità di misura area del condotto
+
+3. Premere il tasto **ENT**. L’unità di misura lampeggia a display
+4. Premere i tasti ** UNIT** o **UNIT ** per selezionare l’unità di misura desiderata tra le opzioni: **in²**, **m²** o **ft²**
+5. Premere il tasto **ENT** per confermare. La videata di *Fig. 4* – parte sinistra è mostrata a display
+
+*Fig. 4*: Impostazione valore area del condotto
+
+6. Premere il tasto **ENT**. Il valore dell’area lampeggia a display. Premere i tasti ** UNIT** o **UNIT ** per spostare il punto decimale nella posizione desiderata e confermare con **ENT**. Il valore della ultima cifra impostata lampeggia a display
+7. Premere i tasti ** UNIT** o **UNIT ** per impostare il valore dell’area del condotto nel campo: **0.001 ÷ 9999** procedendo da destra verso sinistra e premendo il tasto **ENT** per confermare ogni cifra (vedere *Fig. 4* – parte destra) relativa ad esempio ad un condotto quadrato di lato 1.5 m x 1.5 m)
+8. Premere il tato **ENT** al termine per confermare il valore dell’area del condotto. La seguente videata (vedere *Fig. 5*) è mostrata
+
+*Fig. 5*: Attivazione /disabilitazione autospegnimento
+
+9. Premere i tasti ** UNIT** o **UNIT ** per selezionare le opzioni: “**on**” (attivazione autospegnimento) o “**oFF**” (disattivazione autospegnimento)
+10. Con autospegnimento attivo, il simbolo “![Auto Power OFF icon]“ è mostrato a display e lo strumento si spegne automaticamente dopo circa 20 minuti di non utilizzo
+11. Premere il tasto **ENT** per confermare la scelta. La seguente videata, che permette l’impostazione della pressione atmosferica espressa in **hPA = mbar** (non misurata dallo strumento), è mostrata a display
+
+*Fig. 6*: Impostazione valore pressione atmosferica
+
+> **ATTENZIONE**
+> * Il valore della pressione atmosferica è importante per la necessaria compensazione al fine di ottenere accurate misure di velocità dell’aria
+> * La misura della pressione atmosferica può essere ottenuta con altri strumenti o da locali stazioni metereologiche
+
+12. Premere il tasto **ENT**. Il valore dell’ultima cifra impostata lampeggia a display
+13. Premere il tasto **MEAN** per spostare la cifra e i tasti ** UNIT** o **UNIT ** per impostare il valore desiderato della pressione atmosferica e confermare con **ENT**
+14. Premere a lungo (>2s) il tasto **/SET** per uscire dalla sezione di impostazione e tornare alla visualizzazione di misura
+
+# 5. ISTRUZIONI OPERATIVE
+## 5.1. MISURA DI VELOCITÀ E TEMPERATURA DELL’ARIA
+> **ATTENZIONE**
+> Non toccare o sottoporre a sollecitazioni meccaniche i sensori interni presenti nella parte alta della sonda telescopica al fine di evitarne il possibile danneggiamento
+
+*Fig. 7*: Misura di velocità e temperatura dell'aria
+
+1. Inserire la sonda esterna sulla parte alta tramite apposito terminale (vedere *Fig. 1* – parte 1). Prestare attenzione alla freccia presente sul connettore della sonda (vedere *Fig. 7*) che deve essere verso la parte anteriore dello strumento
+2. Accendere lo strumento tramite il tasto **ON/OFF**
+3. Premere il tasto ** UNIT** per impostare l’unità di misura della velocità dell’aria (vedere § 4.3.5) e il tasto **UNIT ** per impostare l’unità di misura della temperatura dell’aria (vedere § 4.3.6) sul display secondario dopo aver premuto il tasto **FLOW/TEMP**
+4. Fare scorrere la protezione (vedere *Fig. 1* – parte 15) fino a ricoprire i sensori e verificare che l’indicazione sul display principale sia “0.00”
+5. Allungare eventualmente la sonda telescopica e posizionare il sensore di velocità in direzione parallela al flusso d’aria nella direzione indicata dalla freccia presente sulla sommità della stessa (vedere *Fig. 7*)
+6. Il valore della velocità dell’aria è indicato sul display principale mentre la temperatura dell’aria è mostrata sul display secondario
+7. Premere eventualmente il tasto **HLD** per fissare la lettura a display
+8. Per l’uso delle funzioni MAX, MIN vedere il § 4.3.8
+
+## 5.2. MISURA PORTATA VOLUMETRICA E UMIDITÀ DELL’ARIA
+> **ATTENZIONE**
+> Non toccare o sottoporre a sollecitazioni meccaniche i sensori interni presenti nella parte alta della sonda telescopica al fine di evitarne il possibile danneggiamento
+
+1. Inserire la sonda esterna sulla parte alta tramite apposito terminale (vedere *Fig. 1* – parte 1). Prestare attenzione alla freccia presente sul connettore della sonda (vedere *Fig. 7*) che deve essere verso la parte anteriore dello strumento
+2. Accendere lo strumento tramite il tasto **ON/OFF**
+3. Premere il tasto ** UNIT** per impostare l’unità di misura della velocità dell’aria (vedere § 4.3.5)
+4. Impostare l’unità di misura e le dimensioni dell’area del condotto in prova (vedere § 4.4)
+5. Premere il tasto **FLOW/TEMP** per selezionare la misura di portata volumetrica. Il simbolo “FLOW” è mostrato a display
+6. Premere il tasto **UNIT ** per selezionare l’unità di misura “**CMM**” o “**CFM**” sul display secondario (vedere § 4.3.6)
+7. Fare scorrere la protezione (vedere *Fig. 1* – parte 15) fino a ricoprire i sensori e verificare che l’indicazione sul display principale sia “0.00”
+8. Allungare eventualmente la sonda telescopica e posizionare il sensore di velocità in direzione parallela al flusso d’aria nella direzione indicata dalla freccia presente sulla sommità della stessa (vedere *Fig. 7*)
+9. Il valore della velocità dell’aria è indicato sul display principale dello strumento
+10. Il valore della portata dell’aria è indicato sul display secondario dello strumento
+11. Premere il tasto **FLOW/TEMP** per selezionare la misura di umidità dell’aria. Il simbolo “%RH” è mostrato a display
+12. Il valore dell’umidità dell’aria è indicato sul display secondario dello strumento
+13. Premere eventualmente il tasto **HLD** per fissare la lettura a display
+14. Per l’uso delle funzioni MAX, MIN vedere il § 4.3.8
+
+## 5.3. CALCOLO VALORI MEDI DELLE GRANDEZZE
+### 5.3.1. Valore medio calcolato per punti
+> **ATTENZIONE**
+> Non toccare o sottoporre a sollecitazioni meccaniche i sensori interni presenti nella parte alta della sonda telescopica al fine di evitarne il possibile danneggiamento
+
+1. Inserire la sonda esterna sulla parte alta tramite apposito terminale (vedere *Fig. 1* – parte 1). Prestare attenzione alla freccia presente sul connettore della sonda (vedere *Fig. 7*) che deve essere verso la parte anteriore dello strumento
+2. Accendere lo strumento tramite il tasto **ON/OFF**
+3. Premere il tasto ** UNIT** per impostare l’unità di misura della velocità dell’aria (vedere § 4.3.5)
+4. Premere il tasto **FLOW/TEMP** per la selezione eventuale dei valori medi delle misure di portata volumetrica, temperatura o umidità dell’aria da eseguire con la stessa modalità della velocità dell’aria
+5. Premere il tasto **MEAN**. I simboli “•” e “Mean” sono mostrati nella parte bassa del display mentre il numero dei punti di misura sono mostrati nel display principale
+6. Eseguire la prima misura di velocità dell’aria come descritto nel § 5.1 e premere il tasto **ENT**. Il valore del primo punto è presente sul display secondario (vedere *Fig. 8* – parte sinistra)
+
+*Fig. 8*: Calcolo del valore medio della velocità per punti
+
+7. Eseguire la seconda misura di velocità dell’aria come descritto nel § 5.1. Il valore del secondo punto è presente sul display secondario (vedere *Fig. 8* – parte centrale)
+8. Premere il tasto **ENT** per eseguire altre eventuali misure di velocità dell’aria con le stesse modalità e al termine premere il tasto **MEAN**. I simboli “•” e “Mean” lampeggiano a display e il valore della media aritmetica è mostrato sul display secondario (vedere *Fig. 8* – parte destra)
+9. Premere nuovamente il tasto **MEAN** per tornare alla normale videata di misura
+
+### 5.3.2. Valore medio calcolato nel tempo
+> **ATTENZIONE**
+> Non toccare o sottoporre a sollecitazioni meccaniche i sensori interni presenti nella parte alta della sonda telescopica al fine di evitarne il possibile danneggiamento
+
+1. Inserire la sonda esterna sulla parte alta tramite apposito terminale (vedere *Fig. 1* – parte 1). Prestare attenzione alla freccia presente sul connettore della sonda (vedere *Fig. 7*) che deve essere verso la parte anteriore dello strumento
+2. Accendere lo strumento tramite il tasto **ON/OFF**
+3. Premere il tasto ** UNIT** per impostare l’unità di misura della velocità dell’aria (vedere § 4.3.5)
+4. Premere il tasto **FLOW/TEMP** per la selezione eventuale dei valori medi delle misure di portata volumetrica, temperatura o umidità dell’aria da eseguire con la stessa modalità della velocità dell’aria
+5. Premere a lungo (>2s) il tasto **MEAN**. I simboli “Mean” e “![Time Mean icon]” e la velocità dell’aria in tempo reale sono mostrati rispettivamente nella parte bassa del display e sul display secondario mentre i simboli “0000 “ e “mm/ss” (Timer espresso in minuti/secondi) sono mostrati nel display principale (vedere *Fig. 9* – parte sinistra)
+
+*Fig. 9*: Valore medio della velocità calcolato nel tempo
+
+6. Premere il tasto **ENT** per attivare il tempo di misura (campo: **1s ÷ 59min, 59sec**) indicato sul display principale mentre la velocità dell’aria è sempre in esecuzione (vedere *Fig. 9* – parte centrale riferita ad un tempo di misura di **2min e 53 s**)
+7. Premere ancora il tasto **ENT** per interrompere e/o continuare il tempo di misura
+8. Premere il tasto **MEAN** per terminare la misura. I simboli “Mean” e “![Time Mean icon]” lampeggiano a display e la media aritmetica calcolata nel tempo di misura sui valori salvati con intervallo di campionamento fisso di **1 s** è mostrato sul display secondario (vedere *Fig. 9* – parte centrale)
+9. Per tempo di misura superiore a **20 minuti** (vedere *Fig. 9* – parte destra) è necessario disabilitare l’autospegnimento dello strumento (vedere § 4.4)
+
+# 6. MANUTENZIONE
+## 6.1. GENERALITÀ
+1. Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo.
+2. Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole.
+3. Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo rimuovere la batteria per evitare fuoruscite di liquidi da parte di quest’ultima che possano danneggiare i circuiti interni dello strumento.
+
+## 6.2. SOSTITUZIONE BATTERIA
+Quando sul display LCD appare il simbolo “![Battery Low icon]” occorre sostituire la batteria.
+
+> **ATTENZIONE**
+> * Solo tecnici esperti possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso la sonda dal terminale di ingresso
+> * Con simbolo “![Battery Low icon]” presente a display l’indicazione della velocità dell’aria è lampeggiante e in tali condizioni il valore misurato non è conforme alle condizioni di incertezza dichiarate
+
+1. Spegnere lo strumento
+2. Rimuovere la sonda dal terminale di ingresso
+3. Rimuovere il coperchio del vano batterie
+4. Scollegare la batteria dal connettore
+5. Collegare la batteria nuova al connettore rispettando le polarità indicate
+6. Riposizionare il coperchio del vano batteria
+7. Non disperdere la batteria usata nell’ambiente. Usare gli appositi contenitori per lo smaltimento dei rifiuti
+
+## 6.3. PULIZIA DELLO STRUMENTO
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+## 6.4. FINE VITA
+> **ATTENZIONE**: il simbolo riportato sullo strumento indica che l'apparecchiatura, i suoi accessori e la batteria devono essere raccolti separatamente e trattati in modo corretto
+
+# 7. SPECIFICHE TECNICHE
+## 7.1. CARATTERISTICHE TECNICHE
+L’incertezza è calcolata come ± [%lettura + valore] a 25°C, < 80%RH
+
+### Misura Velocità dell’aria con sonda a filo caldo
+| Unità di misura | Campo           | Risoluzione | Incertezza           |
+| :-------------- | :-------------- | :---------- | :------------------- |
+| m/s             | 0.10 ÷ 20.00    | 0.01m/s     | ± (5%lettura + 0.03) |
+| km/h            | 0.4 ÷ 72.0      | 0.1km/h     |                      |
+| ft/min          | 20 ÷ 3937       | 1ft/min     |                      |
+| MPH             | 0.3 ÷ 44.7      | 0.1MPH      |                      |
+| knots           | 0.2 ÷ 39.0      | 0.1knots    |                      |
+m/s = metri/secondo ; km/h = kilometri/ora ; ft/min = piedi/minuto ; MPH = miglia/ora ; knots = miglia nautiche/ora
+
+### Misura di Portata volumetrica dell’aria
+| Unità di misura | Campo     | Risoluzione   | Descrizione            |
+| :-------------- | :-------- | :------------ | :--------------------- |
+| CMM             | 0 ÷ 99999 | 0.001 ÷ 100   | CMM = m³/min           |
+| CFM             |           |               | CFM = ft³/min          |
+CMM = velocità aria (m/s) * Area (m²) * 60 ; CFM = velocità aria (ft/min) * Area (ft²)
+
+### Misura Temperatura dell’aria
+| Unità di misura | Campo            | Risoluzione | Incertezza |
+| :-------------- | :--------------- | :---------- | :--------- |
+| °C              | 0.0 °C ÷ 50.0 °C | 0.1 °C      | ± 1°C      |
+| °F              | 32.0 °F ÷ 122.0 °F | 0.1°F     | ± 1.8°F    |
+
+### Misura Umidità relativa dell’aria
+| Campo             | Risoluzione | Incertezza |
+| :---------------- | :---------- | :--------- |
+| 0%RH ÷ 100%RH     | 0.1%RH      | ± 5%RH     |
+
+### 7.1.1. Caratteristiche generali
+**Caratteristiche meccaniche**
+* Dimensioni (L x La x H): 190 x 65 x 45 mm
+* Lunghezza sonda telescopica: da 13 cm a 1m
+* Lunghezza cavo sonda telescopica: 180 cm
+* Diametro sonda telescopica: 12 mm
+* Peso strumento (batteria inclusa): 240 g
+* Peso sonda telescopica: 165 g
+* Sensore velocità dell’aria: filo caldo
+* Sensore temperatura dell’aria: sensore digitale
+* Protezione meccanica: IP40
+
+**Alimentazione**
+* Tipo batteria: 1x 9V alcalina tipo NEDA 1604 IEC 6F L 22
+* Indicazione batteria scarica: simbolo “![Battery Low icon]” a display
+* Durata batterie: ca 15 ore (backlight ON), ca 20 ore (backlight OFF)
+* Indicazione fuori scala: messaggio “OL” a display
+* Auto Power OFF: dopo 20 minuti di non utilizzo
+
+**Display**
+* Display principale: 4 LCD più punto decimale, segno, retroilluminato
+* Display secondario: 4 LCD più punto decimale, segno, retroilluminato
+* Velocità aggiornamento: circa 0.8s
+
+## 7.2. AMBIENTE
+### 7.2.1. Condizioni ambientali di utilizzo
+* Temperatura di riferimento: 25 °C
+* Temperatura di utilizzo: 0°C ÷ 50°C
+* Umidità relativa ammessa: <80% RH
+* Temperatura di conservazione: -10 ÷ 60 °C
+* Umidità di conservazione: < 80% RH
+* Max altitudine di utilizzo: 2000m
+
+Questo strumento è conforme ai requisiti della direttiva europea EMC **2014/30/EU**
+Questo strumento è conforme ai requisiti della direttiva europea **2011/65/EU** (RoHS) e della direttiva europea **2012/19/EU** (WEEE)
+
+## 7.3. ACCESSORI
+* Sonda telescopica esterna
+* Batteria
+* Manuale d’uso
+* Valigia per trasporto
+
+# 8. ASSISTENZA
+## 8.1. CONDIZIONI DI GARANZIA
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+* Riparazione e/o sostituzione accessori e batterie (non coperti da garanzia).
+* Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+* Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+* Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+* Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+* Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+## 8.2. ASSISTENZA
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato della batteria e sostituirla se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
