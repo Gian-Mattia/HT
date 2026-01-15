@@ -279,6 +279,11 @@
       "id": "HTA103.md",
       "name": "HTA103",
       "description": "Termometro per misura di temperatura con sonda K/J/T."
+    },
+    {
+      "id": "HTA105.md",
+      "name": "HTA105",
+      "description": "Termoanemometro digitale a filo caldo con misura di temperatura, umidità e velocità dell’aria."
     }
   ]
 }
