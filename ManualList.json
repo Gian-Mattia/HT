@@ -274,6 +274,11 @@
       "id": "MAXTEST2038.md",
       "name": "MAXTEST2038",
       "description": "strumento professionale multifunzione portatile per verifiche di impianti elettrici."
+    },
+    {
+      "id": "HTA103.md",
+      "name": "HTA103",
+      "description": "Termometro per misura di temperatura con sonda K/J/T."
     }
   ]
 }
