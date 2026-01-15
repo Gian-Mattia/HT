@@ -269,6 +269,11 @@
       "id": "MPP300.md",
       "name": "MPP300",
       "description": "Accessorio per la misurazione e registrazione dell’efficienza di un impianto fotovoltaico monofase-trifase, singola-stringa e multi-stringa (fino a tre MPPT)."
+    },
+    {
+      "id": "MAXTEST2038.md",
+      "name": "MAXTEST2038",
+      "description": "strumento professionale multifunzione portatile per verifiche di impianti elettrici."
     }
   ]
 }
