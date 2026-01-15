@@ -411,7 +411,7 @@ Fig. 12: Collegamento in sistema monofase con cavi singoli e puntale remoto
 9.  Al termine della prova nel caso in cui il tempo di intervento misurato sia entro l’intervallo di tempo: [ritardo limite = ritardo impostato + valore indicato in Tabella 5 (vedere § 13.4)], lo strumento visualizza il simbolo [OK check mark] a segnalare l’esito positivo della prova e visualizza una videata come quella a fianco. Premere il tasto **SAVE** o toccare l’icona [save icon] per il salvataggio della misura (vedere § 7.1)
 10. Al termine della prova nel caso in cui il tempo di intervento misurato NON sia entro l’intervallo di tempo: [ritardo limite = ritardo impostato + valore indicato in Tabella 5 (vedere § 13.4)] lo strumento visualizza il simbolo [NOK cross] a segnalare l’esito negativo della prova e visualizza una videata come quella a fianco. Premere il tasto **SAVE** o toccare l’icona [save icon] per il salvataggio della misura (vedere § 7.1)
 
-### 6.3.4. Modo [Missing Symbol]
+### 6.3.4. Modo RAMPA
 La normativa definisce, per gli interruttori differenziali di tipo scatolato **STD**, i tempi di intervento alla corrente nominale. La modalità [Missing Symbol] viene eseguita invece per rilevare la corrente di intervento minima (che potrebbe essere anche minore della corrente nominale).
 
 9.  Premere il tasto **GO/STOP** per **2s** sullo strumento o il tasto **START** sul puntale remoto. Lo strumento avvia la misurazione.
@@ -449,6 +449,9 @@ Lo strumento consente di eseguire misure di tempo e corrente di intervento su RC
 13. Per test su RCD di tipo B/B+ nel caso in cui lo strumento non sia in grado di provvedere alla carica dei condensatori interni al differenziale visualizza il messaggio a lato. Controllare che la tensione VL-N sia maggiore di 190V
 14. Per test su RCD di tipo B/B+ nel caso in cui lo strumento rilevi una tensione di ingresso Fase-Neutro <190V la prova è bloccata e il messaggio a lato è mostrato a display. Controllare i valori delle tensioni sull’impianto
 15. Per test su RCD con toroide separato nel caso in cui l’impostazione della corrente nominale del dispositivo sia esterna al campo di valori ammesso dallo strumento, la prova è bloccata e il messaggio a lato è mostrato a display. Modificare il valore della corrente nominale della protezione
+
+### 6.3.7. Prova RCD su impianti bifase
+per effettuare la prova dei differenziali su un impianto bifase, lo strumento non prevede esplicitamente questa funzione. Tuttavia, è possibile provare i differenziali collegando gli ingressi Neutro e Terra (B3 e B4) dello strumento alla terra dell'impianto e l'ingresso B1 dello strumento alla fase (o una fase per volta se trifase) dell'impianto.
 
 ## 6.4. LOOP: IMPEDENZA LINEA/LOOP E RESISTENZA GLOBALE DI TERRA
 Questa funzione viene eseguita secondo le norme CEI 64-8 612.6.3, IEC/EN61557-3 e consente la misura dell’impedenza di linea, dell’anello di guasto e la corrente di cortocircuito presunta.
