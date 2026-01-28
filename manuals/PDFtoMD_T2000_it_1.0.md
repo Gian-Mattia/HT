@@ -1,0 +1,714 @@
+# T2000
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-25 -->
+# T2000 - T2100
+
+## INDICE
+
+1.  [PRECAUZIONI E MISURE DI SICUREZZA](#1-precauzioni-e-misure-di-sicurezza)
+    1.1. [Istruzioni preliminari](#11-istruzioni-preliminari)
+    1.2. [Durante l’utilizzo](#12-durante-lutilizzo)
+    1.3. [Dopo l’utilizzo](#13-dopo-lutilizzo)
+    1.4. [Definizione di categoria di misura (Sovratensione)](#14-definizione-di-categoria-di-misura-sovratensione)
+2.  [DESCRIZIONE GENERALE](#2-descrizione-generale)
+    2.1. [Strumenti di misura a Valore medio ed a Vero valore efficace](#21-strumenti-di-misura-a-valore-medio-ed-a-vero-valore-efficace)
+    2.2. [Definizione di vero valore efficace e fattore di cresta](#22-definizione-di-vero-valore-efficace-e-fattore-di-cresta)
+3.  [PREPARAZIONE ALL’UTILIZZO](#3-preparazione-allutilizzo)
+    3.1. [Controlli iniziali](#31-controlli-iniziali)
+    3.2. [Alimentazione dello strumento](#32-alimentazione-dello-strumento)
+    3.3. [Conservazione](#33-conservazione)
+4.  [NOMENCLATURA](#4-nomenclatura)
+    4.1. [Descrizione dello strumento](#41-descrizione-dello-strumento)
+    4.2. [Descrizione dei tasti funzione](#42-descrizione-dei-tasti-funzione)
+    4.3. [Descrizione del display](#43-descrizione-del-display)
+5.  [ISTRUZIONI OPERATIVE](#5-istruzioni-operative)
+    5.1. [Accensione/spegnimento dello strumento](#51-accensione-spegnimento-dello-strumento)
+    5.2. [Misura di Resistenza](#52-misura-di-resistenza)
+        5.2.1. [Principio di funzionamento](#521-principio-di-funzionamento)
+        5.2.2. [Verifica funzionalità pinza](#522-verifica-funzionalita-pinza)
+        5.2.3. [Metodi di misura resistenze su dispersori di terra](#523-metodi-di-misura-resistenze-su-dispersori-di-terra)
+            5.2.3.1. [Sistemi multi - dispersori](#5231-sistemi-multi---dispersori)
+            5.2.3.2. [Sistema formato da un singolo dispersore](#5232-sistema-formato-da-un-singolo-dispersore)
+        5.2.4. [HOLD](#524-hold)
+        5.2.5. [MEM](#525-mem)
+        5.2.6. [Situazioni anomale](#526-situazioni-anomale)
+    5.3. [Misura di Corrente (T2000)](#53-misura-di-corrente-t2000)
+        5.3.1. [HOLD](#531-hold)
+        5.3.2. [Situazioni anomale](#532-situazioni-anomale)
+    5.4. [Misura di Corrente di dispersione (T2000)](#54-misura-di-corrente-di-dispersione-t2000)
+        5.4.1. [HOLD](#541-hold)
+        5.4.2. [Situazioni anomale](#542-situazioni-anomale)
+    5.5. [Gestione della memoria](#55-gestione-della-memoria)
+        5.5.1. [Salvataggio dati nella memoria](#551-salvataggio-dati-nella-memoria)
+        5.5.2. [Richiamo dei risultati a display](#552-richiamo-dei-risultati-a-display)
+        5.5.3. [Cancellazione memoria interna](#553-cancellazione-memoria-interna)
+    5.6. [Impostazione soglie di allarme sulla misura di resistenza](#56-impostazione-soglie-di-allarme-sulla-misura-di-resistenza)
+    5.7. [Collegamento RS232 con unità MASTER (T2100)](#57-collegamento-rs232-con-unita-master-t2100)
+    5.8. [Disabilitazione funzione Auto Power OFF](#58-disabilitazione-funzione-auto-power-off)
+    5.9. [Disabilitazione funzione suono tasti](#59-disabilitazione-funzione-suono-tasti)
+6.  [MANUTENZIONE](#6-manutenzione)
+    6.1. [Generalità](#61-generalita)
+    6.2. [Sostituzione batterie](#62-sostituzione-batterie)
+    6.3. [Pulizia dello strumento](#63-pulizia-dello-strumento)
+    6.4. [Fine vita](#64-fine-vita)
+7.  [SPECIFICHE TECNICHE](#7-specifiche-tecniche)
+    7.1. [Condizioni di riferimento](#71-condizioni-di-riferimento)
+    7.2. [Caratteristiche tecniche](#72-caratteristiche-tecniche)
+        7.2.1. [Norme di riferimento](#721-norme-di-riferimento)
+        7.2.2. [Caratteristiche generali](#722-caratteristiche-generali)
+    7.3. [Ambiente](#73-ambiente)
+        7.3.1. [Condizioni ambientali di utilizzo](#731-condizioni-ambientali-di-utilizzo)
+    7.4. [Accessori](#74-accessori)
+        7.4.1. [Accessori in dotazione](#741-accessori-in-dotazione)
+8.  [ASSISTENZA](#8-assistenza)
+    8.1. [Condizioni di garanzia](#81-condizioni-di-garanzia)
+    8.2. [Assistenza](#82-assistenza)
+
+---
+
+## 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Il presente manuale è comune ai modelli `T2000` e `T2100`. Nel seguito del manuale con la parola “strumento” si intende genericamente sia il modello `T2000` che il modello `T2100` salvo notazione specifica all’occorrenza indicata. Lo strumento è stato progettato in conformità alla direttiva `IEC/EN61010-1`, relativa agli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo ![Attenzione icon].
+
+Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+*   Non effettuare misure di **corrente** in ambienti umidi
+*   Non effettuare misure alla presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi.
+*   Evitare contatti con il circuito in esame, anche se non si stanno effettuando misure.
+*   Evitare contatti con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+| Simbolo     | Descrizione                                                                                                                                              |
+| :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|             | **Attenzione**: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento, ai suoi componenti o creare situazioni pericolose per l’operatore |
+|             | Lo strumento può operare su conduttori nudi sotto tensione                                                                                               |
+|             | Strumento con doppio isolamento                                                                                                                          |
+|             | Riferimento di terra                                                                                                                                     |
+
+### 1.1. ISTRUZIONI PRELIMINARI
+
+*   Questo strumento è progettato per un utilizzo in ambiente con livello di inquinamento 2.
+*   Lo strumento può essere usato per misure di **resistenza** (`T2000` e `T2100`) e **corrente** (`T2000`) su installazioni in `CAT IV 300V`, `CAT III 600V` verso terra. Per la definizione delle categorie di misura vedere § `1.4`.
+*   La invitiamo a seguire le normali regole di sicurezza previste dalle procedure per i lavori sotto tensione ed a utilizzare i metodi previsti orientati alla protezione contro correnti pericolose e a proteggere lo strumento contro un utilizzo errato.
+*   Lo strumento può essere utilizzato su impianti elettrici di tipo TT, TN e IT di tipo industriale, civile, medico, zootecnico sia in condizioni ordinarie dove il limite della tensione di contatto è 50V, sia in condizioni particolari dove il limite della tensione di contatto è 25V.
+*   Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+*   Non effettuare misure su circuiti che superino i limiti di corrente specificati (`T2000`).
+*   Non effettuare misure in condizione ambientali al di fuori delle limitazioni indicate nel presente manuale.
+*   Controllare che le batterie siano inserite correttamente.
+
+### 1.2. DURANTE L’UTILIZZO
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+
+*   Agire sulla leva del toroide per un paio di volte prima dell’accensione per assicurarsi che il toroide sia completamente chiuso.
+*   All’atto dell’accensione NON agire sulla leva del toroide e non pinzare alcun cavo.
+*   Evitare l’esecuzione di misure di **Resistenza** in presenza di tensioni esterne. Anche se lo strumento è protetto, una tensione eccessiva potrebbe causarne malfunzionamenti.
+*   Durante la misura di corrente (`T2000`), ogni altra corrente localizzata in prossimità della pinza può influenzare la precisione della misura.
+*   Durante la misura di corrente (`T2000`) posizionare sempre il conduttore il più possibile al centro del toroide in modo da ottenere una lettura più accurata.
+*   Se, durante una misura, il valore della grandezza in esame rimane costante controllare se è attivata la funzione `HOLD`.
+
+> **ATTENZIONE**
+> Se durante l'utilizzo compare il simbolo “`🔋`” sospendere le prove, disconnettere lo strumento dall’impianto, spegnere lo strumento e sostituire le batterie (vedere § `6.2`).
+
+### 1.3. DOPO L’UTILIZZO
+
+*   Quando le misure sono terminate, spegnere lo strumento tramite il tasto `ON/OFF`.
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere le batterie.
+
+### 1.4. DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma "IEC/EN 61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali", definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § `6.7.4: Circuiti di misura`, essa recita:
+
+I circuiti sono suddivisi nelle seguenti categorie di misura:
+*   La **Categoria di misura IV** serve per le misure effettuate su una sorgente di un’installazione a bassa tensione.
+    Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle sovracorrenti e sulle unità di regolazione dell’ondulazione.
+*   La **Categoria di misura III** serve per le misure effettuate in installazioni all’interno di edifici.
+    Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli apparecchi destinati all’impiego industriale e altre apparecchiature, per esempio i motori fissi con collegamento ad impianto fisso.
+*   La **Categoria di misura II** serve per le misure effettuate su circuiti collegati direttamente all’installazione a bassa tensione.
+    Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari.
+*   La **Categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE.
+    Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura.
+
+## 2. DESCRIZIONE GENERALE
+
+Lo strumento consente l’esecuzione delle seguenti funzioni:
+*   Misura resistenza su dispersori di terra con metodo dell’anello resistivo.
+*   Misura diretta su sonde di terra senza interruzione di cavi.
+*   Misura di corrente di dispersione su impianti di terra (`T2000`).
+*   Impostazione soglie di allarme sulle misure.
+*   Salvataggio dei risultati di misura.
+*   Trasferimento del valore di resistenza appena misurato e di tutte le misure memorizzate ad uno strumento MASTER tramite porta `RS232` (`T2100`).
+
+Sullo strumento sono presenti `7` tasti multifunzione. La grandezza selezionata appare sul display a cristalli liquidi con indicazioni dell’unità di misura e delle funzioni abilitate. Lo strumento è inoltre dotato di un dispositivo di Auto Power OFF che provvede a spegnere automaticamente lo strumento trascorsi circa 5 minuti dall'ultima pressione dei tasti funzione o dall’ultima apertura del toroide, e di una retroilluminazione del display al fine di eseguire misure anche in ambienti con scarsa luminosità.
+
+### 2.1. STRUMENTI DI MISURA A VALORE MEDIO ED A VERO VALORE EFFICACE
+
+Gli strumenti di misura di grandezze alternate si dividono in due grandi famiglie:
+*   **Strumenti a VALORE MEDIO**: strumenti che misurano il valore della sola onda alla frequenza fondamentale (50 o 60 HZ).
+*   **Strumenti a VERO VALORE EFFICACE** anche detti `TRMS` (True Root Mean Square value): strumenti che misurano il vero valore efficace della grandezza in esame.
+
+In presenza di un’onda perfettamente sinusoidale le due famiglie di strumenti forniscono risultati identici. In presenza di onde distorte invece le letture differiscono. Gli strumenti a valore medio forniscono il valore efficace della sola onda fondamentale, gli strumenti a vero valore efficace forniscono invece il valore efficace dell’intera onda, armoniche comprese (entro la banda passante dello strumento). Pertanto, misurando la medesima grandezza con strumenti di entrambe le famiglie, i valori ottenuti sono identici solo se l’onda è puramente sinusoidale, qualora invece essa fosse distorta, gli strumenti a vero valore efficace forniscono valori maggiori rispetto alle letture di strumenti a valore medio.
+
+### 2.2. DEFINIZIONE DI VERO VALORE EFFICACE E FATTORE DI CRESTA
+
+Il valore efficace per la corrente è così definito: "In un tempo pari ad un periodo, una corrente alternata con valore efficace della intensità di 1A, circolando su di un resistore, dissipa la stessa energia che sarebbe dissipata, nello stesso tempo, da una corrente continua con intensità di 1A". Da questa definizione discende l’espressione numerica:
+
+`G = 1/T * ∫(t0 to t0+T) g(t)^2 dt`
+
+Il valore efficace viene indicato come `RMS` (root mean square value).
+
+Il Fattore di Cresta è definito come il rapporto fra il Valore di Picco di un segnale ed il suo Valore Efficace: `CF(G) = Gp / RMS`. Questo valore varia con la forma d'onda del segnale, per un’onda puramente sinusoidale esso vale `√2 = 1.41`. In presenza di distorsioni il Fattore di Cresta assume valori tanto maggiori quanto più è elevata la distorsione dell’onda.
+
+## 3. PREPARAZIONE ALL’UTILIZZO
+
+### 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia, si consiglia di controllarlo sommariamente per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente il rivenditore. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate nel § `7.4`. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § `8`.
+
+### 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato con batterie alcaline (vedere § `7.2.2`). Quando le batterie sono scariche, il simbolo “`🔋`” di batteria scarica viene indicato. Per sostituire/inserire le batterie seguire le istruzioni indicate al § `6.2`.
+
+### 3.3. CONSERVAZIONE
+
+Per garantire misure precise, dopo un lungo periodo di immagazzinamento in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § `7.3.1`).
+
+## 4. NOMENCLATURA
+
+### 4.1. DESCRIZIONE DELLO STRUMENTO
+
+**LEGENDA**:
+1.  Doppio toroide di ingresso
+2.  Tasto `HOLD`
+3.  Leva per apertura toroide
+4.  Tasto 
+5.  Tasto `π A` (`T2000`) / Tasto `π RS232` (`T2100`)
+6.  Tasto `θ Ω`
+7.  Tasto `ON/OFF`
+8.  Tasto `MEM`
+9.  Tasto `Ω AL`
+10. Display LCD
+11. Interfaccia half-duplex `RS232` (`T2100`)
+12. Coperchio vano batteria
+
+*Fig. 1: Descrizione dello strumento*
+
+### 4.2. DESCRIZIONE DEI TASTI FUNZIONE
+
+| Tasto funzione | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `HOLD`         | Attivazione/disattivazione funzione “`HOLD`”. Attivazione/disattivazione funzione retroilluminazione display                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `π A`          | ➢ Commutazione al modo di misura corrente (`T2000`)                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| `π RS232`      | ➢ Commutazione al modo `RS232` (`T2100`)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `π`            | ➢ Incremento valore soglia di allarme nella misura di resistenza e uso nella funzione di richiamo dati salvati a display                                                                                                                                                                                                                                                                                                                                                                                            |
+| `θ Ω`          | ➢ Commutazione al modo di misura resistenza                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `θ`            | ➢ Decremento valore soglia di allarme nella misura di resistenza e uso nella funzione di richiamo dati salvati a display.                                                                                                                                                                                                                                                                                                                                                                                           |
+| `ON/OFF`       | Accensione/spegnimento dello strumento (premere `>2s`)                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| `Ω AL`         | ➢ Attivazione/disattivazione funzione allarme nella misura di resistenza <br> ➢ Impostazione soglia di allarme (premere `>2s`)                                                                                                                                                                                                                                                                                                                                                                                         |
+| `MEM`          | ➢ Salvataggio dati in memoria (max 99 locazioni) <br> ➢ Richiamo dati salvati a display (premere `> 2s`)                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+### 4.3. DESCRIZIONE DEL DISPLAY
+
+**LEGENDA**:
+1.  Suono tasti e allarme attivo
+2.  Funzione Data `HOLD` attiva
+3.  Simbolo della presenza di rumore
+4.  Simbolo di toroide aperto
+5.  Simbolo di attesa
+6.  Simbolo di `RS232` attiva (`T2100`)
+7.  Unità di misura corrente (`T2000`)
+8.  Unità di misura resistenza
+9.  Percentuale livello batteria
+10. Unità di misura soglia di allarme
+11. Valore di soglia di allarme o valore percentuale livello batteria
+12. Simbolo di allarme attivo
+13. Indicazione livello basso batteria
+14. Simbolo Auto Power OFF
+15. Locazione di memoria attiva
+16. Simbolo richiamo dato a display
+17. Simbolo area di memoria
+18. Display principale
+
+*Fig. 2: Descrizione del display*
+
+**Descrizione simboli speciali**
+
+| Simbolo | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| :------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|         | Questo simbolo compare quando lo strumento è stato impostato per la comunicazione seriale con l’unità MASTER (`T2100`).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|         | Questo simbolo compare quando il toroide dello strumento è aperto o non completamente chiuso nella misura di `Resistenza`. Nel caso in cui questo simbolo sia continuamente presente è possibile che il toroide sia danneggiato e in tal caso occorre interrompere le misure.                                                                                                                                                                                                                                                                                                                                                 |
+|         | Questo messaggio compare a display quando durante il processo di calibrazione iniziale dello strumento viene aperto il toroide. Quando il toroide viene richiuso il processo di calibrazione riparte in automatico dall’inizio.                                                                                                                                                                                                                                                                                                                                                                                           |
+|         | Questo messaggio compare a display se, al termine dei 9 passi iniziali, lo strumento indica il processo di calibrazione iniziale fallita. Spegnere e riaccendere lo strumento e riprovare una nuova calibrazione. Se il messaggio appare nuovamente contattare il servizio di assistenza.                                                                                                                                                                                                                                                                                                                                  |
+| `🔋`    | Questo simbolo è mostrato quando il livello percentuale di carica delle batterie scende sotto il 25%. In tal caso la precisione sulle misure non è garantita e occorre sostituire le batterie.                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `OL Ω`  | Questo simbolo indica la situazione di fuori scala (overload) nella misura di resistenza.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `OL A`  | Questo simbolo indica la situazione di fuori scala (overload) nella misura di corrente (`T2000`).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|         | Questo simbolo indica l’attivazione della funzione di suono tasti e condizione di allarme presente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|         | Questo simbolo indica la locazione di memoria.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|         | Questo simbolo compare a display quando è attiva la funzione di richiamo a display dei dati salvati.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|         | Questo simbolo compare a display quando lo strumento rileva la presenza di una corrente di disturbo sul loop di misura della resistenza. In tal caso la precisione sulla misura non è garantita.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+## 5. ISTRUZIONI OPERATIVE
+
+### 5.1. ACCENSIONE/SPEGNIMENTO DELLO STRUMENTO
+
+> **ATTENZIONE**
+> *   All’accensione dello strumento non agire sulla leva del toroide, non aprire il toroide e non pinzare alcun cavo.
+> *   Con messaggio “`OL Ω`” presente a display è possibile aprire il toroide e pinzare un cavo in misura.
+> *   Dopo l’accensione mantenere lo strumento nelle condizioni normali senza applicare alcuna pressione sul toroide al fine di mantenere la precisione sulle misure.
+> *   Le misure eseguite dallo strumento possono essere influenzate da interferenze dovute a forti campi elettromagnetici. In tal caso spegnere e riaccendere lo strumento e verificare il corretto funzionamento. Qualora la situazione dovesse permanere eseguire le misure in altre parti dell’impianto.
+
+1.  Aprire e chiudere delicatamente un paio di volte il toroide prima di accendere lo strumento al fine di verificare la corretta chiusura dello stesso.
+2.  Premere il tasto `ON/OFF` per accendere lo strumento. In sequenza lo strumento mostra:
+    ➢ La videata con tutti i simboli a display (vedere *Fig. 3 – parte sinistra*)
+    ➢ La videata con la versione firmware caricata (vedere *Fig. 3 – parte centrale*)
+    ➢ Il processo di calibrazione mostrando un countdown che parte da “`CAL. 9`” e arriva a “`CAL.0`” (vedere *Fig. 3 – parte destra*).
+
+*Fig. 3: Sequenza videate all'accensione dello strumento*
+
+3.  Nel caso in cui durante il processo di calibrazione venga aperto il toroide, l’indicazione “`Err.0`” è mostrata a display (vedere *Fig. 4*). Quando il toroide viene richiuso il processo di calibrazione riparte in automatico dall’inizio.
+
+*Fig. 4*
+
+4.  Al termine della sequenza di accensione, in condizioni di normale funzionamento viene mostrata a display la videata di *Fig. 5* associata ad un suono continuo.
+
+*Fig. 5*
+
+5.  Trascorsi circa 5 minuti dopo l’accensione in assenza di ogni operazione, oppure con livello di batteria più basso del 5%, lo strumento attiva la procedura di autospegnimento al fine di preservare la carica delle batterie interne.
+
+### 5.2. MISURA DI RESISTENZA
+
+> **ATTENZIONE**
+> La misura eseguita dallo strumento è utilizzabile per la valutazione di resistenze di singoli dispersori nell’ambito di un impianto di terra senza necessità di scollegamento degli stessi, nell’ipotesi che essi non si influenzino tra loro.
+
+#### 5.2.1. Principio di funzionamento
+
+Il principio alla base del test eseguito dallo strumento è la misura della “resistenza di anello resistivo (loop)” come mostrato nella *Fig. 6*.
+
+*Fig. 6: Misura della resistenza dell'anello*
+
+La parte interna dello strumento è composta da due toroidi uno di corrente e uno di tensione. Il toroide di tensione provvede a generare un potenziale (E) sull’anello (loop) in misura (di resistenza R). Una corrente (I) conseguentemente si genera sull’anello e misurata dal toroide di corrente. Dalla conoscenza dei parametri E ed I lo strumento fornisce a display il valore della resistenza R calcolato come rapporto:
+
+`R = E / I`
+
+#### 5.2.2. Verifica funzionalità pinza
+
+1.  Premere il tasto `ON/OFF` per accendere lo strumento.
+2.  Verificare il messaggio “`OL Ω`” a display ad indicare che lo strumento è pronto per l’esecuzione delle misure.
+3.  Aprire delicatamente il toroide (a display verrà mostrata la videata di *Fig. 7*) e inserire uno degli anelli di prova in dotazione (vedere la *Fig. 8*).
+
+*Fig. 7*
+
+*Fig. 8: Misura di Resistenza dell'anello di prova*
+
+4.  Verificare il valore della resistenza di prova pari a `5.0 Ω`. (usando anello di `5 Ω`) È accettabile un valore misurato dallo strumento con differenza di `±0.3 Ω` rispetto al valore nominale (una visualizzazione di `4.7 Ω` o `5.3 Ω`).
+
+#### 5.2.3. Metodi di misura resistenze su dispersori di terra
+
+1.  Premere il tasto `ON/OFF` per accendere lo strumento.
+2.  Verificare il messaggio “`OL Ω`” a display ad indicare che lo strumento è pronto per l’esecuzione delle misure.
+3.  Aprire delicatamente il toroide (a display verrà mostrata la videata di *Fig. 7*) e inserire il dispersore in misura e leggere il risultato a display.
+
+In base alla tipologia di impianto presente fare riferimento ai casi di seguito riportati.
+
+##### 5.2.3.1. Sistemi multi - dispersori
+
+**Misura Resistenza di terra di 1 dispersore facente parte di un impianto di terra**
+
+Nel caso di un sistema di terra formato da molti dispersori in parallelo (es: tralicci di alta tensione, sistemi di comunicazione, capannoni industriali, ecc…) tra loro collegati e ognuno di loro con singolo riferimento a terra, il collegamento dello strumento può essere schematizzato come indicato nella *Fig. 9*.
+
+*Fig. 9: Collegamento dello strumento ad un sistema multi - dispersori*
+
+Lo strumento fornisce come misura la somma:
+`R ≅ R1 + R0 (1)`
+
+in cui:
+*   `R1` = resistenza dell’oggetto in misura
+*   `R0` = `R2 // R3 // R4` = resistenza equivalente del parallelo tra le resistenza R2, R3, R4
+
+> **ATTENZIONE**
+> La relazione (1) è da ritenersi valida solo nelle condizioni di poter trascurare l’effetto della “mutua influenza” tra i dispersori componenti il parallelo e cioè con dispersori posti a sufficiente distanza D tra loro (con D pari ad almeno la 5 volte la lunghezza del singolo dispersore o 5 volte la massima diagonale dell’impianto) in modo che essi non si influenzino reciprocamente.
+
+Nelle condizioni di validità della formula (1) il valore del parametro `R0` è normalmente molto più piccolo del parametro `R1` e si commette un errore trascurabile supponendo `R0 ≅ 0`. In questo modo si può affermare che la resistenza misurata dallo strumento corrisponde con alla resistenza del dispersore in prova comunque maggiorata e pertanto del tutto a favore della sicurezza nell’ambito del coordinamento delle protezioni. La stessa procedura può essere svolta spostando la pinza sugli altri dispersori componenti il parallelo al fine di valutare i valori delle resistenze R2, R3 e R4.
+
+##### 5.2.3.2. Sistema formato da un singolo dispersore
+
+Per il suo principio di funzionamento, lo strumento può solo eseguire misure su anelli resistivi e pertanto su un sistema formato da un solo dispersore non è possibile eseguire la misura. In questi casi è comunque possibile valutare se la resistenza del dispersore in prova è inferiore al massimo valore di resistenza di terra ammesso nell’impianto in esame (valutato con il tradizionale metodo voltamperometrico) e dunque è adeguato per l’impianto in oggetto, utilizzando un dispersore ausiliario posto “in prossimità” dello stesso in modo da creare un anello resistivo artificiale.
+
+Di seguito sono riportate due diverse metodologie per eseguire questa valutazione.
+
+**(A) Misura della Resistenza di terra di un dispersore con il metodo a 2 punti**
+
+Come mostrato nella *Fig. 10*, ad idonea distanza dal dispersore in prova di resistenza `RA` occorre associare un dispersore ausiliario di resistenza `RB` avente caratteristiche ottimali dal punto di vista della messa a terra (ex: una tubazione metallica, costruzioni in cemento armato, ecc…). Questi dispersori vanno collegati da un conduttore di sezione adeguata tale da rendere il termine `RL` trascurabile.
+
+*Fig. 10: Valutazione resistenza del dispersore con metodo a due punti*
+
+In tali condizioni la resistenza misurata dallo strumento risulta essere:
+`R = RA + RB + RL ~ RA + RB (2)`
+
+> **ATTENZIONE**
+> La relazione (2) è da ritenersi valida solo nelle condizioni di poter trascurare l’effetto della “mutua influenza” tra i dispersori componenti la serie e cioè con dispersori posti a sufficiente distanza tra loro (pari ad almeno 5 volte la lunghezza del singolo dispersore o 5 volte la massima diagonale dell’impianto) in modo che essi non si influenzino reciprocamente.
+
+Pertanto, se il valore misurato dallo strumento è più basso del valore massimo ammesso della resistenza di terra dell’impianto a cui fa capo il dispersore di resistenza `RA` (ex: con `RCD` da `30mA → RT < 50V / 30mA = 1667 Ω`) si può concludere che il dispersore `RA` è ottimale per essere qualificato come dispersore di terra.
+
+**(B) Misura della Resistenza di terra di un dispersore con il metodo a 3 punti**
+
+In questa situazione, ad idonea distanza dal dispersore in prova di resistenza `RA` sono presenti due dispersori ausiliari indipendenti di resistenze `RB` e `RC` aventi caratteristiche ottimali dal punto di vista della messa a terra (ex: una tubazione metallica, costruzioni in cemento armato, ecc…) e di valore paragonabile a quello di `RA`.
+
+Come prima misura (vedere *Fig. 11*) collegare il dispersore `RA` con `RB` e usare lo strumento per la misura del valore di resistenza `R1`.
+
+*Fig. 11: Metodo a tre punti: primo test R1*
+
+Come seconda misura (vedere *Fig. 12*) collegare il dispersore `RB` con `RC` e usare lo strumento per la misura del valore di resistenza `R2`.
+
+*Fig. 12: Metodo a tre punti: secondo test R2*
+
+Come terza misura (vedere *Fig. 13*) collegare il dispersore `RC` con `RA` e usare lo strumento per la misura del valore di resistenza `R3`.
+
+*Fig. 13: Metodo a tre punti: terzo test R3*
+
+In queste condizioni, nell’ipotesi di ritenere trascurabile la resistenza dei cavi di collegamento dei dispersori, sono valide le seguenti relazioni:
+`R1 = RA + RB (3)`
+`R2 = RB + RC (4)`
+`R3 = RC + RA (5)`
+
+In cui i valori `R1`, `R2` e `R3` sono misurati dallo strumento.
+
+> **ATTENZIONE**
+> Le relazioni (3), (4) e (5) sono da ritenersi valide solo nelle condizioni di poter trascurare l’effetto della “mutua influenza” tra i dispersori componenti le serie e cioè con dispersori posti a sufficiente distanza tra loro (pari ad almeno 5 volte la lunghezza del singolo dispersore o 5 volte la massima diagonale dell’impianto) in modo che essi non si influenzino reciprocamente.
+
+Dalle relazioni (3), (4) e (5) si ottiene:
+`RA = (R1 + R3 – R2) / 2` → Resistenza del dispersore A
+
+e conseguentemente:
+`RB = R1 – RA` → Resistenza del dispersore B
+`RC = R3 – RA` → Resistenza del dispersore C
+
+#### 5.2.4. HOLD
+
+Una breve pressione del tasto `HOLD` attiva la funzione “`HOLD`” e congela il risultato a display (vedere *Fig. 14*). Per tornare alla modalità di misura normale eseguire nuovamente una breve pressione del tasto `HOLD` o una breve pressione del tasto `π A` (`T2000`) (`π RS232`) (`T2100`) o del tasto `θ Ω`.
+
+*Fig. 14*
+
+#### 5.2.5. MEM
+
+Una breve pressione del tasto `MEM` attiva la funzione “`MEM`” e il risultato a display è salvato nella memoria interna (vedere § `5.5`).
+
+*Fig. 15*
+
+#### 5.2.6. Situazioni anomale
+
+Durante una misura, l’indicazione “`OL Ω`” significa che la resistenza misurata è superiore al massimo valore misurabile dallo strumento (vedere *Fig. 16*).
+
+*Fig. 16*
+
+Durante una misura, l’indicazione del simbolo “`🎶`” significa che la funzione suono tasti è attiva. Il simbolo “`🔔`” indica che la condizione di allarme sulla misura di resistenza è attivo. Se il valore è superiore al limite massimo impostato, lo strumento emette un suono e il simbolo “`🔔`” lampeggia. Per la gestione delle soglie di allarme vedere § `5.6`.
+
+*Fig. 17*
+
+Durante una misura, l’indicazione del simbolo “`NOISE`” significa che lo strumento rileva la presenza di una corrente di disturbo sul loop di misura della resistenza.
+
+*Fig. 18*
+
+### 5.3. MISURA DI CORRENTE (T2000)
+
+> **ATTENZIONE**
+> Non misurare valori di corrente AC superiori a `20A` al fine di evitare possibili shock elettrici ed eventuali danneggiamenti dello strumento.
+
+*Fig. 19: Misura di corrente AC*
+
+1.  Premere il tasto `ON/OFF` per accendere lo strumento.
+2.  Lo strumento mostra il messaggio “`OL Ω`” a display, in quanto si configura automaticamente per la misura di resistenza. Eseguire una breve pressione del tasto `π A` per entrare nel modo di misura della corrente. Viene mostrata la videata di *Fig. 20*.
+
+*Fig. 20*
+
+3.  Aprire delicatamente il toroide, inserire il cavo in misura (vedere *Fig. 19*) e leggere il risultato a display.
+
+#### 5.3.1. HOLD
+
+Una breve pressione del tasto `HOLD` attiva la funzione “`HOLD`” e congela il risultato a display (vedere *Fig. 21*). Per tornare alla modalità di misura normale eseguire nuovamente una breve pressione del tasto `HOLD` oppure premere il tasto `π A` o il tasto `θ Ω`.
+
+*Fig. 21*
+
+#### 5.3.2. Situazioni anomale
+
+Durante una misura, l’indicazione “`OL A`” significa che la corrente misurata è superiore al massimo valore misurabile dallo strumento (vedere *Fig. 22*).
+
+*Fig. 22*
+
+### 5.4. MISURA DI CORRENTE DI DISPERSIONE (T2000)
+
+> **ATTENZIONE**
+> Non misurare valori di corrente AC superiori a `20A` al fine di evitare possibili shock elettrici ed eventuali danneggiamenti dello strumento.
+
+*Fig. 23: Misura di corrente di dispersione*
+
+1.  Premere il tasto `ON/OFF` per accendere lo strumento.
+2.  Lo strumento mostra il messaggio “`OL Ω`” a display, in quanto si configura automaticamente per la misura di resistenza. Eseguire una breve pressione del tasto `π A` per entrare nel modo di misura della corrente. Viene mostrata la videata di *Fig. 24*.
+
+*Fig. 24*
+
+3.  Aprire delicatamente il toroide e inserire i conduttori corrispondenti alla Fase e al Neutro del sistema monofase (o il conduttore di Terra) e leggere il risultato a display.
+
+#### 5.4.1. HOLD
+
+Una breve pressione del tasto multifunzione “3” attiva la funzione “`HOLD`” e congela il risultato a display (vedere *Fig. 25*). Per tornare alla modalità di misura normale eseguire nuovamente una breve pressione del tasto `HOLD` oppure premere il tasto `π A` o il tasto `θ Ω`.
+
+*Fig. 25*
+
+#### 5.4.2. Situazioni anomale
+
+Durante una misura, l’indicazione “`OL A`” significa che la corrente misurata è superiore al massimo valore misurabile dallo strumento (vedere *Fig. 26*).
+
+*Fig. 26*
+
+### 5.5. GESTIONE DELLA MEMORIA
+
+#### 5.5.1. Salvataggio dati nella memoria
+
+Con risultato di una misura di resistenza presente a display, premendo il tasto `MEM` lo strumento esegue il salvataggio automatico nella memoria a partire dalla locazione “`01`” fino alla locazione “`99`” (vedere *Fig. 27*).
+
+*Fig. 27: Salvataggio di una misura di resistenza*
+
+Se la memoria interna della pinza è piena, ad una breve pressione del tasto `MEM` lo strumento mostra la videata di *Fig. 28* per 2 secondi e poi ritorna nella condizione di misura in tempo reale impostata.
+
+*Fig. 28*
+
+#### 5.5.2. Richiamo dei risultati a display
+
+1.  Premere il tasto `ON/OFF` per accendere lo strumento.
+2.  Premere a lungo (`>2s`) il tasto `MEM` per accedere all’area di memoria. Lo strumento visualizza l’ultimo dato salvato in memoria e il simbolo “`MR`” (vedere *Fig. 29*).
+
+*Fig. 29: Richiamo dei dati a display*
+
+Nel caso in cui non ci fosse nessun dato salvato nella memoria interna, lo strumento mostra per qualche istante la videata di *Fig. 30*.
+
+*Fig. 30*
+
+3.  Premere brevemente i tasti `π A` (`T2000`), `π RS232` (`T2100`) o il tasto `θ Ω`, rispettivamente per incrementare o decrementare il numero della locazione di memoria e visualizzare i dati salvati o premere brevemente il tasto `MEM` per uscire da questa modalità.
+4.  Premere a lungo (`>2s`) il tasto `MEM` per visualizzare il valore calcolato della resistenza parallelo tra tutte le resistenza memorizzate - vedere `5.2.3.1` (evidenziato dal simbolo “`rP`”). Premere brevemente i tasti `π RS232` o `θ Ω` per tornare a visualizzare i valori memorizzati.
+
+*Fig. 31*
+
+#### 5.5.3. Cancellazione memoria interna
+
+1.  Premere a lungo (`>2s`) il tasto `ON/OFF` per spegnere lo strumento.
+2.  Premere contemporaneamente i tasti `ON/OFF` e `MEM`.
+3.  Il messaggio “`CLr`” è mostrato a display per alcuni secondi (vedere *Fig. 32*), lo strumento cancella tutti i dati in memoria e automaticamente si riaccende.
+
+*Fig. 32*
+
+### 5.6. IMPOSTAZIONE SOGLIE DI ALLARME SULLA MISURA DI RESISTENZA
+
+1.  Premere il tasto `ON/OFF` per accendere lo strumento.
+2.  Premere a lungo (`>2s`) il tasto `Ω AL` per entrare nella sezione di impostazione delle soglie di allarme. La seguente videata è mostrata a display.
+
+*Fig. 33: Impostazione soglie di allarme per misura di resistenza*
+
+3.  Premere i tasti `π A` (`T2000`), `π RS232` (`T2100`) o il tasto `θ Ω`, rispettivamente per incrementare o decrementare il valore limite della soglia di allarme nel campo: `1 Ω ÷ 199 Ω`.
+4.  Premere il tasto `Ω AL` per confermare il valore di soglia di allarme impostato e tornare nella modalità di misura.
+
+### 5.7. COLLEGAMENTO RS232 CON UNITÀ MASTER (T2100)
+
+Lo strumento `T2100` consente le seguenti operazioni:
+➢ Trasmissione in tempo reale del valore misurato allo strumento MASTER
+➢ Trasmissione allo strumento MASTER di tutte le misure contenute nella memoria
+
+> **ATTENZIONE**
+> Lo strumento dispone di uscita seriale `RS232` half-duplex e pertanto può essere connessa SOLO a strumentazione `HT` (Master). Non collegare l’uscita seriale ad altre apparecchiatura in quanto potrebbero danneggiarsi o danneggiare la pinza stessa.
+
+*Fig. 34: Collegamento della pinza T2100 ad uno strumento MASTER*
+
+1.  Premere il tasto `ON/OFF` per accendere lo strumento.
+2.  Premere il tasto `π RS232` per abilitare il modo “`RS232`”. La seguente videata è mostrata.
+
+*Fig. 35: Attivazione modo RS232*
+
+3.  Collegare la pinza allo strumento MASTER tramite l’apposito cavo.
+4.  Seguire le istruzioni indicate nel manuale d’uso dello strumento MASTER al fine di visualizzare sul display dello strumento MASTER il valore di resistenza misurato e trasferire allo strumento MASTER tutte le misure memorizzate nella pinza `T2100`.
+
+### 5.8. DISABILITAZIONE FUNZIONE AUTO POWER OFF
+
+1.  Premere a lungo (`>2s`) il tasto `ON/OFF` per spegnere lo strumento.
+2.  Premere contemporaneamente i tasti `ON/OFF` e `HOLD`.
+3.  Il messaggio “`A.P.O no`” è mostrato a display per alcuni secondi (vedere *Fig. 36*), lo strumento si riaccende automaticamente e il simbolo “`P`” (vedere *Fig. 2 – parte 14*) scompare a display. La funzione si riattiva automaticamente al riavvio dello strumento.
+
+*Fig. 36: Disabilitazione funzione Auto Power OFF*
+
+### 5.9. DISABILITAZIONE FUNZIONE SUONO TASTI
+
+1.  Premere a lungo (`>2s`) il tasto `ON/OFF` per spegnere lo strumento.
+2.  Premere contemporaneamente i tasti `ON/OFF` e `Ω AL`.
+3.  Il messaggio “`bEEP no`” è mostrato a display per alcuni secondi (vedere *Fig. 37*), lo strumento si riaccende automaticamente e il simbolo “`🎶`” (vedere *Fig. 2 – parte 14*) scompare a display. La funzione si riattiva automaticamente al riavvio dello strumento. Con funzione disabilitata lo strumento non emette suoni all’attivazione delle condizioni di allarme.
+
+*Fig. 37: Disabilitazione funzione suono tasti*
+
+## 6. MANUTENZIONE
+
+### 6.1. GENERALITÀ
+
+1.  Durante l’utilizzo e l’immagazzinamento rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo.
+2.  Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole.
+3.  Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo rimuovere le batterie per evitare fuoruscite di liquidi da parte di queste ultime che possano danneggiare i circuiti interni dello strumento.
+
+### 6.2. SOSTITUZIONE BATTERIE
+
+Quando sul display LCD appare il simbolo “`🔋`” occorre sostituire le batterie.
+
+> **ATTENZIONE**
+> *   Solo tecnici qualificati possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso tutti i cavi dai terminali di ingresso.
+> *   Non usare batterie ricaricabili sullo strumento.
+
+1.  Premere a lungo (`>2s`) il tasto `ON/OFF` per spegnere lo strumento.
+2.  Rimuovere il coperchio del vano batterie svitando le viti di fissaggio.
+3.  Rimuovere tutte le batterie sostituendole con altrettante dello stesso tipo (vedere § `7.2.2`) rispettando le polarità indicate.
+4.  Riposizionare il coperchio del vano batterie.
+5.  Non disperdere la batteria usata nell’ambiente. Usare gli appositi contenitori per lo smaltimento dei rifiuti.
+
+### 6.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+### 6.4. FINE VITA
+
+Attenzione: il simbolo riportato indica che l'apparecchiatura, le batterie ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+## 7. SPECIFICHE TECNICHE
+
+### 7.1. CONDIZIONI DI RIFERIMENTO
+
+| Parametro                       | Condizione di riferimento             |
+| :------------------------------ | :------------------------------------ |
+| Temperatura ambiente            | `20°C ± 3°C`                          |
+| Umidità relativa                | `50%RH ± 10%`                         |
+| Tensione di batteria            | `6V ± 0.5V`                           |
+| Campo magnetico esterno         | `<40A/m`                              |
+| Campo elettrico esterno         | `<1V/m`                               |
+| Posizionamento della pinza      | Orizzontale                           |
+| Posizione del conduttore nella pinza | Centrato                              |
+| Vicinanza a masse metalliche    | `> 10cm`                              |
+| Resistenze di anello            | Nessuna                               |
+| Frequenza corrente sinusoidale misurata | `50Hz`                                |
+| Percentuale distorsione         | `<0.5%`                               |
+| Corrente di disturbo nella misura di resistenza | Nessuna                               |
+
+### 7.2. CARATTERISTICHE TECNICHE
+
+L’incertezza calcolata: `±[%lettura + valore]` riferita alle condizioni di riferimento.
+
+**Resistenza**
+
+| Campo [`Ω`]         | Risoluzione [`Ω`] | Incertezza                          |
+| :------------------ | :---------------- | :---------------------------------- |
+| `0.001 ÷ 0.499`     | `0.001`           | `±(2.0%lettura + 0.02 Ω)`           |
+| `0.500 ÷ 1.999`     |                   | `±(2.0%lettura + 0.05 Ω)`           |
+| `2.00 ÷ 19.99`      | `0.01`            | `±(2.0%lettura + 0.1 Ω)`            |
+| `20.0 ÷ 149.9`      | `0.1`             | `±(5.0%lettura + 1.0 Ω)`            |
+| `150.0 ÷ 349.9`     |                   | `±(5.0%lettura + 5.0 Ω)`            |
+| `350.0 ÷ 499.9`     |                   | `±(10.0%lettura + 5.0 Ω)`           |
+| `500 ÷ 599`         | `1`               | `±(15.0%lettura + 10 Ω)`            |
+| `600 ÷ 799`         |                   | `±(25.0%lettura + 20 Ω)`            |
+| `800 ÷ 1200`        |                   |                                     |
+
+Se la resistenza misurata è `≥ 1200 Ω` a display è indicato “`OL`”.
+Frequenza misura resistenza: `>1kHz`
+Campo di misura impostazione soglia di allarme resistenza: `1 Ω ÷ 199 Ω`
+
+**Corrente AC TRMS (T2000)**
+
+| Campo               | Risoluzione     | Incertezza                      |
+| :------------------ | :-------------- | :------------------------------ |
+| `0.0mA ÷ 99.9 mA`   | `0.1 mA`        | `±(2.5%lettura + 1mA)`          |
+| `100.0 mA ÷ 399.9 mA` |                 | `±(2.5%lettura + 5 mA)`         |
+| `400mA ÷ 999 mA`    | `1 mA`          | `±(2.5%lettura + 25 mA)`        |
+| `1.000 A ÷ 2.999 A` | `0.001 A`       | `±(2.5%lettura + 0.025 A)`      |
+| `3.00A ÷ 9.99 A`    | `0.01A`         | `±(2.5%lettura + 0.05 A)`       |
+| `10.00A ÷ 20.00A`   |                 | `±(2.5%lettura + 0.15 A)`       |
+
+Frequenza principale: `50/60Hz` (onda sinusoidale, quadrata, triangolare)
+Max larghezza di banda: `400 Hz` (sinusoidale);
+Fattore di cresta: `≤ 2.0`
+
+#### 7.2.1. Norme di riferimento
+
+*   Sicurezza strumento: `IEC/EN61010-1`, `IEC/EN61010-2-032`
+*   EMC: `IEC/EN61326-1`
+*   Resistenza di terra: `IEC/EN61557-5`, `IEC60364-6 Appendice C.3`
+*   Corrente di dispersione (`T2000`): `IEC/EN61557-13`
+*   Isolamento: doppio isolamento
+*   Grado di Inquinamento: 2
+*   Categoria di misura: `CAT IV 300V`, `CAT III 600V` verso terra, Max `20A`
+
+#### 7.2.2. Caratteristiche generali
+
+**Caratteristiche meccaniche**
+*   Dimensioni (L x La x H): `293 x 105 x 54 mm`
+*   Peso (batterie incluse): `1120 g`
+*   Max diametro cavo pinzabile: `31 mm`
+*   Max dimensioni barra pinzabile: `48 x 31 mm`
+*   Protezione meccanica: `IP20`
+
+**Alimentazione**
+*   Tipo batterie: `4 x 1.5V` alcaline `LR6 AA MN 1500`
+*   Indicazione batterie scariche: simbolo “`🔋`” a display
+*   Durata batterie: `50` ore (backlight OFF), `40` ore (backlight ON)
+*   Consumo interno: `< 65 mA`
+*   Auto Power OFF: dopo circa 5 minuti di non utilizzo
+
+**Display**
+*   Caratteristiche: `4 LCD`, segno e punto decimale e backlight
+
+**Memoria**
+*   Capacità di memoria: `99` locazioni
+
+**Comunicazione seriale (T2100)**
+*   Interfaccia `RS232`: half-duplex, baud rate `4800`
+
+### 7.3. AMBIENTE
+
+#### 7.3.1. Condizioni ambientali di utilizzo
+
+*   Temperatura di riferimento: `20°C ± 3°C`
+*   Temperatura di utilizzo: `0°C ÷ 40°C`
+*   Umidità relativa ammessa: `10%RH ÷ 90%RH`
+*   Altitudine max di utilizzo: `2000m`
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione `2014/35/EU` (LVD) e della direttiva EMC `2014/30/EU`.
+Questo strumento è conforme ai requisiti della direttiva europea `2011/65/CE` (RoHS) e della direttiva europea `2012/19/CE` (WEEE).
+
+### 7.4. ACCESSORI
+
+#### 7.4.1. Accessori in dotazione
+
+*   Anelli resistivi di prova (`1 Ω`, `5 Ω`, `10 Ω`)
+*   Cavo di collegamento `RS232` (`T2100`) Code: `C2100`
+*   Batterie
+*   Valigia rigida per trasporto
+*   Rapporto di taratura
+*   Guida rapida all’uso
+
+## 8. ASSISTENZA
+
+### 8.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto sarà a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale, ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+*   Riparazioni che si rendano necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendano necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendano necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+### 8.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato delle batterie e sostituirle se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto sarà a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale, ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
