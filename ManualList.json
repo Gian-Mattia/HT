@@ -284,6 +284,11 @@
       "id": "HTA105.md",
       "name": "HTA105",
       "description": "Termoanemometro digitale a filo caldo con misura di temperatura, umidità e velocità dell’aria."
+    },
+    {
+      "id": "T2000.md",
+      "name": "T2000, T2100",
+      "description": "Pinza amperometrica per misura resistenza di terra direttamente su dispersori e misura di corrente di dispersione fino a 20A AC."
     }
   ]
 }
