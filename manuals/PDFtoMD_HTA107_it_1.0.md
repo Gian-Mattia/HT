@@ -1,0 +1,575 @@
+# HTA107
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-19 -->
+© Copyright HT ITALIA 2024 Versione IT 2.00 - 30/09/24 ITALIANO Manuale d’uso
+
+# HTA107 IT – Manuale d’uso
+
+## INDICE
+1. [PRECAUZIONI E MISURE DI SICUREZZA](#1-precauzioni-e-misure-di-sicurezza)
+    1.1. [Istruzioni preliminari](#11-istruzioni-preliminari)
+    1.2. [Durante l’utilizzo](#12-durante-lutilizzo)
+    1.3. [Dopo l’utilizzo](#13-dopo-lutilizzo)
+2. [DESCRIZIONE GENERALE](#2-descrizione-generale)
+3. [PREPARAZIONE ALL’UTILIZZO](#3-preparazione-allutilizzo)
+    3.1. [Controlli iniziali](#31-controlli-iniziali)
+    3.2. [Alimentazione dello strumento](#32-alimentazione-dello-strumento)
+    3.3. [Conservazione](#33-conservazione)
+4. [NOMENCLATURA](#4-nomenclatura)
+    4.1. [Descrizione dello strumento](#41-descrizione-dello-strumento)
+    4.2. [Descrizione del display](#42-descrizione-del-display)
+    4.3. [Descrizione dei tasti funzione](#43-descrizione-dei-tasti-funzione)
+        4.3.1. [Tasto ON/OFF](#431-tasto-onoff)
+        4.3.2. [Tasto Retroilluminazione](#432-tasto-retroilluminazione)
+        4.3.3. [Tasti  e ](#433-tasti-t-e-u)
+        4.3.4. [Tasto RH%](#434-tasto-rh)
+        4.3.5. [Tasto MOI](#435-tasto-moi)
+        4.3.6. [Tasto IRT/Laser](#436-tasto-irtlaser)
+        4.3.7. [Tasto MODE/ZERO](#437-tasto-modezero)
+        4.3.8. [Tasto MEM/ALM](#438-tasto-memalm)
+        4.3.9. [Operazioni con memoria](#439-operazioni-con-memoria)
+        4.3.10. [Impostazione soglie di allarme sulle misure](#4310-impostazione-soglie-di-allarme-sulle-misure)
+        4.3.11. [Disabilitazione funzione Auto Power OFF](#4311-disabilitazione-funzione-auto-power-off)
+5. [ISTRUZIONI OPERATIVE](#5-istruzioni-operative)
+    5.1. [Misura Temperatura e Umidità dell’aria](#51-misura-temperatura-e-umidita-dellaria)
+    5.2. [Misura Umidità dei materiali](#52-misura-umidita-dei-materiali)
+        5.2.1. [Misura con sensore integrato](#521-misura-con-sensore-integrato)
+        5.2.2. [Misura con sonda esterna](#522-misura-con-sonda-esterna)
+    5.3. [Misura temperatura a infrarossi](#53-misura-temperatura-a-infrarossi)
+    5.4. [Misura differenziale temperatura di superfici](#54-misura-differenziale-temperatura-di-superfici)
+6. [MANUTENZIONE](#6-manutenzione)
+    6.1. [Generalità](#61-generalita)
+    6.2. [Sostituzione batteria](#62-sostituzione-batteria)
+    6.3. [Pulizia dello strumento](#63-pulizia-dello-strumento)
+    6.4. [Fine vita](#64-fine-vita)
+7. [SPECIFICHE TECNICHE](#7-specifiche-tecniche)
+    7.1. [Caratteristiche tecniche](#71-caratteristiche-tecniche)
+        7.1.1. [Caratteristiche generali](#711-caratteristiche-generali)
+    7.2. [Ambiente](#72-ambiente)
+        7.2.1. [Condizioni ambientali di utilizzo](#721-condizioni-ambientali-di-utilizzo)
+    7.3. [Accessori](#73-accessori)
+        7.3.1. [Accessori in dotazione](#731-accessori-in-dotazione)
+8. [ASSISTENZA](#8-assistenza)
+    8.1. [Condizioni di garanzia](#81-condizioni-di-garanzia)
+    8.2. [Assistenza](#82-assistenza)
+
+---
+
+HTA107 IT – 2
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità alla direttiva di sicurezza relativa agli strumenti di misura elettronici. Per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo _“!”_. Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti umidi o polverosi.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+> **Attenzione:** attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti.
+
+_“Laser Symbol”_ Questo simbolo presente sullo strumento indica che lo stesso è in grado di emettere un puntatore Laser in Classe 2. Non puntare la radiazione verso gli occhi al fine di prevenire danni fisici alle persone.
+
+## 1.1. ISTRUZIONI PRELIMINARI
+
+*   La invitiamo a seguire le normali regole di sicurezze orientate a proteggerLa contro situazioni pericolose e proteggere lo strumento contro un utilizzo errato.
+*   Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere utilizzati solo se in buone condizioni e sostituiti, se necessario, con modelli identici.
+*   Non effettuare misure che superino i limiti specificati.
+*   Controllare che la batteria sia inserita correttamente.
+
+## 1.2. DURANTE L’UTILIZZO
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+
+*   Utilizzare lo strumento solo nei campi di temperatura/umidità riportati nel presente manuale.
+*   Nella misura di temperatura a infrarossi (IRT) fare attenzione a non puntare l’emettitore Laser verso gli occhi di persone o animali al fine di prevenire danni fisici.
+
+## 1.3. DOPO L’UTILIZZO
+
+*   Quando le misure sono terminate, spegnere lo strumento.
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere la batteria.
+
+---
+
+HTA107 IT – 3
+# 2. DESCRIZIONE GENERALE
+
+Lo strumento consente le seguenti misure:
+
+*   Misura dell’umidità relativa dell’aria (%RH) con sensore integrato.
+*   Misura di temperatura dell’aria con sensore integrato.
+*   Misura di temperatura del punto di rugiada (DP = Dew Point).
+*   Misura umidità dei materiali a contatto con sensore integrato.
+*   Misura umidità dei materiali a contatto con sonda esterna.
+*   Misura di temperatura a infrarossi (IRT) con puntatore laser integrato.
+*   Calcolo automatico differenziale di temperatura (IRT - DP).
+*   Misura umidità specifica in unità di massa (g/kg o GPP).
+*   Funzione MAX MIN.
+*   Condizioni di allarme sulle misure.
+*   Memoria interna per salvataggio misure.
+*   Backlight.
+*   Bargraph.
+*   Auto Power OFF.
+
+Ciascuna di queste funzioni può essere selezionata tramite il corrispondente tasto. La grandezza misurata appare sul display con indicazioni dell’unità di misura e delle funzioni abilitate. Sono inoltre presenti i tasti funzione per il cui uso fare riferimento al § 4.2.
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+
+## 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, comunque, di controllare sommariamente lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 7.3.1. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 8.
+
+## 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato tramite 1x 9V batteria alcalina tipo IEC 6F22 inclusa nella confezione. Quando la batteria è scarica appare il simbolo _“🔋”_. Per sostituire la batteria seguire le istruzioni riportate al § 6.2.
+
+## 3.3. CONSERVAZIONE
+
+Per garantire misure precise, dopo un lungo periodo di conservazione in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 7.2.1).
+
+---
+
+HTA107 IT – 4
+# 4. NOMENCLATURA
+
+## 4.1. DESCRIZIONE DELLO STRUMENTO
+
+LEGENDA:
+1.  Sensore integrato temperatura/umidità dell’aria
+2.  Display LCD
+3.  Tasto 
+4.  Tasto 
+5.  Tasto MODE/ZERO
+6.  Tasto IRT/Laser
+7.  Tasto MEM/ALM
+8.  Tasto Retroilluminazione
+9.  Tasto RH%
+10. Tasto MOI
+11. Tasto ON/OFF
+12. Sensore integrato per misura umidità materiali (INT)
+13. Coperchio vano batteria
+14. Ingresso per sonda esterna (EXT)
+15. Sensore IRT
+16. Puntatore laser
+
+Fig. 1: Descrizione dello strumento
+
+## 4.2. DESCRIZIONE DEL DISPLAY
+
+LEGENDA:
+1.  Funzione MOIST attiva
+2.  Funzione MOIST Interna attiva
+3.  Funzione MOIST Esterna attiva
+4.  Simbolo Auto Power OFF (APO) attivo
+5.  Indicazione batteria scarica
+6.  Indicazione soglie di allarme
+7.  Unità di misura pressione vapore
+8.  Unità di misura g/kg e GPP
+9.  Unità di misura umidità relativa
+10. Unità di misura temperatura aria
+11. Display secondario
+12. Unità di misura temperatura IRT
+13. Barra grafica
+14. Indicazione laser attivo
+15. Indicazione locazione memoria
+16. Funzione ZERO attiva
+17. Display principale
+18. Funzione DEW attiva
+19. Funzione COND attiva
+20. Funzione MAX MIN attiva
+
+Fig. 2: Descrizione del display
+
+---
+
+HTA107 IT – 5
+## 4.3. DESCRIZIONE DEI TASTI FUNZIONE
+
+### 4.3.1. Tasto ON/OFF
+
+La pressione del tasto `ON/OFF` permette l’accensione/spegnimento dello strumento. Il tasto `ON/OFF` permette anche di eseguire la disattivazione della funzione Auto Power OFF (vedere § 4.3.11).
+
+### 4.3.2. Tasto Retroilluminazione
+
+La pressione del Tasto Retroilluminazione attiva/disattiva retroilluminazione del display in ogni funzione dello strumento. All’accensione la retroilluminazione è automaticamente attiva.
+
+### 4.3.3. Tasti  e 
+
+La pressione dei tasti `` e `` consente le seguenti funzionalità:
+
+*   Selezione unità di misura temperatura dell’aria in gradi centigradi “°C” o “Celsius” o in gradi “Fahrenheit” “°F” nelle misure di umidità relativa dell’aria “%RH” e umidità relativa dei materiali “MOI INT” e “MOI EXT” con lettura nel display secondario.
+*   Selezione unità di misura dell’umidità specifica espressa in `g/kg` o `GPP` (Grains Per Pounds).
+*   Selezione unità della Pressione di Vapore nel modo di misura Condensazione tra le opzioni “mBAR” e “kPa” (vedere § 5.4).
+*   Impostazione valori di soglia Massima (HIGH) e Minima (LOW) nelle condizioni di allarme sulle misura di umidità relativa “%RH”, “MOI INT” e “MOI EXT” (vedere § 4.3.10).
+*   Richiamo a display delle misure salvate e cancellazione della memoria interna (vedere § 4.3.9).
+
+### 4.3.4. Tasto RH%
+
+La pressione del tasto `RH%` consente le seguenti funzionalità:
+
+*   Attivazione della misura di umidità dell’aria con sensore integrato (vedere Fig. 1 – parte 1) il cui valore è mostrato sul display principale.
+*   Attivazione impostazione valori di soglia Massima (HIGH) e Minima (LOW) nelle condizioni di allarme sulla misura di umidità relativa “%RH” (vedere § 4.3.10).
+*   Attivazione modo di misura Condensazione (vedere § 5.4).
+
+### 4.3.5. Tasto MOI
+
+La pressione del tasto `MOI` consente le seguenti funzionalità:
+
+*   Attivazione della misura di umidità dei materiali con sensore integrato “MOI INT” (vedere Fig. 1 – parte 12) oppure con sonda esterna “MOI EXT” (vedere Fig. 1 – parte 14) il cui valore è mostrato sul display principale.
+*   Attivazione impostazione valori di soglia Massima (HIGH) e Minima (LOW) nelle condizioni di allarme sulla misura di umidità dei materiali con sensore integrato “MOI INT” e con sonda esterna “MOI EXT” (vedere § 4.3.10).
+*   Attivazione modo di misura Condensazione e disattivazione misura della Pressione di Vapore (vedere § 5.4).
+
+### 4.3.6. Tasto IRT/Laser
+
+La pressione del tasto `IRT/Laser` consente di attivare la misura di temperatura a infrarossi (IRT) (vedere § 5.3). Il valore della temperatura è mostrato sul display secondario e il simbolo _“🎯”_ appare a display. La pressione continua del tasto `IRT/Laser` permette l’attivazione del puntatore laser.
+
+---
+
+HTA107 IT – 6
+### 4.3.7. Tasto MODE/ZERO
+
+La pressione del tasto `MODE/ZERO` consente le seguenti funzionalità:
+
+*   Selezione delle misure di temperatura di Rugiada (DEW) e delle misure di umidità espresse in unità di massa `g/kg` (per temperatura in gradi centigradi) o `GPP GPP` (Grains Per Pounds) (per temperatura in gradi Fahrenheit).
+*   Attivazione impostazione valori di soglia Massima (HIGH) e Minima (LOW) nelle condizioni di allarme sulla misura di umidità dell’aria “%RH” e dei materiali con sensore integrato “MOI INT” e con sonda esterna “MOI EXT” (vedere § 4.3.10).
+*   Pressione prolungata (>2s) per attivazione azzeramento nella misura di umidità dei materiali con sensore integrato “MOI INT” (vedere § 5.2).
+*   Visualizzazione valori Massimo e Minimo nella misura di temperatura a infrarossi (IRT) (vedere § 5.3).
+*   Attivazione misura della Pressione di Vapore nel modo di misura Condensazione (vedere § 5.4).
+*   Disattivazione funzione Auto Power OFF (APO) (vedere § 4.3.11).
+
+### 4.3.8. Tasto MEM/ALM
+
+La pressione del tasto `MEM/ALM` consente le seguenti funzionalità:
+
+*   Salvataggio del risultato nella memoria interna, richiamo a display e cancellazione della memoria (vedere § 4.3.9).
+*   Impostazione valori di soglia Massima (HIGH) e Minima (LOW) nelle condizioni di allarme sulle misura di umidità dell’aria “%RH” (vedere § 5.1) e dei materiali con sensore integrato “MOI INT” e con sonda esterna “MOI EXT” (vedere § 5.2).
+
+### 4.3.9. Operazioni con memoria
+
+Lo strumento consente il salvataggio delle misure nella propria memoria interna (max 20 locazioni), il richiamo a display dei dati salvati e la cancellazione della memoria.
+
+#### Salvataggio misure
+
+1.  Con risultato presente a display (vedere Fig. 3 – parte sinistra) premere e mantenere premuto (>2s) il tasto `MEM/ALM` fino a sentire un suono dallo strumento.
+
+Fig. 3: Salvataggio dei risultati di misura
+
+2.  Il risultato di misura è salvato nella locazione indicata nella parte bassa del display (vedere Fig. 2 – parte 15) e automaticamente lo strumento mostra la locazione successiva disponibile (vedere Fig. 3 – parte destra).
+
+---
+
+HTA107 IT – 7
+#### Richiamo dei risultati a display
+
+1.  Premere simultaneamente i tasti `` e ``. L’indicazione della locazione di memoria attuale (vedere Fig. 2 – parte 15) lampeggia a display.
+2.  Usare i tasti `` o `` per cambiare il valore della locazione di memoria (da `01` a `20`) per richiamare il corrispondente risultato a display.
+3.  Premere il tasto `MEM/ALM` per uscire dalla sezione e tornare alla normale visualizzazione di misura.
+
+#### Cancellazione memoria interna
+
+1.  Premere simultaneamente i tasti `` e `MEM/ALM` per almeno 3s. Il messaggio “CLR” compare a display e automaticamente la locazione di memoria è riportata al valore “01” (vedere Fig. 4 – parte destra).
+
+Fig. 4: Cancellazione memoria interna
+
+### 4.3.10. Impostazione soglie di allarme sulle misure
+
+Nelle misure di umidità relativa dell’aria “%RH” e dell’umidità dei materiali a contatto “MOI INT” e “MOI EXT” è possibile impostare condizioni di allarme nel modo seguente:
+
+#### Misura di umidità %RH
+
+1.  Premere simultaneamente per qualche secondo i tasti `RH%` e `MODE/ZERO`. Il simbolo “HIGH” è mostrato nella parte alta del display (vedere Fig. 5 – parte sinistra).
+
+Fig. 5: Impostazione soglie di allarme misura %RH
+
+2.  Usare i tasti freccia `` o `` per impostare il valore di soglia Massima nel campo: `0.1% ÷ 99.9%`. In queste condizioni lo strumento emetterà un suono *intermittente* per valore misurato di umidità superiore alla soglia impostata. Selezionare l’opzione “OFF” per disabilitare l’allarme (vedere Fig. 5 – parte destra).
+
+---
+
+HTA107 IT – 8
+3.  Premere il tasto `MEM/ALM` per confermare e passare all’impostazione della soglia Minima. Il simbolo “LOW” è mostrato nella parte alta del display (vedere Fig. 5 – parte centrale).
+4.  Usare i tasti freccia `` o `` per impostare il valore di soglia Minima nel campo: `0.1% ÷ 99.9%`. In queste condizioni lo strumento emetterà un suono *intermittente* per valore misurato di umidità inferiore alla soglia impostata. Selezionare l’opzione “OFF” per disabilitare l’allarme.
+5.  Premere il tasto `MEM/ALM` per confermare e uscire dalla sezione di impostazione tornando alla visualizzazione di misura in tempo reale.
+
+#### Misura di umidità MOI INT e MOI EXT
+
+> **ATTENZIONE**
+> Le impostazioni di allarme eseguite nel modo MOI INT sono considerate automaticamente dallo strumento anche nel modo MOI EXT.
+
+1.  Premere simultaneamente per qualche secondo i tasti `MOI` e `MODE/ZERO`. Il simbolo “HIGH” è mostrato nella parte alta del display (vedere Fig. 6 – parte sinistra).
+
+Fig. 6: Impostazione soglie di allarme misura MOI INT e MOI EXT
+
+2.  Usare i tasti freccia `` o `` per impostare il valore di soglia Massima nel campo: `0.1% ÷ 99.9%`. In queste condizioni lo strumento emetterà un suono *continuo* per valore misurato di umidità superiore alla soglia impostata. Selezionare l’opzione “OFF” per disabilitare l’allarme (vedere Fig. 6 – parte destra).
+3.  Premere il tasto `MEM/ALM` per confermare e passare all’impostazione della soglia Minima. Il simbolo “LOW” è mostrato nella parte alta del display (vedere Fig. 6 – parte centrale).
+4.  Usare i tasti freccia `` o `` per impostare il valore di soglia Minima nel campo: `0.1% ÷ 99.9%`. In queste condizioni lo strumento emetterà un suono *intermittente* per valore misurato di umidità superiore alla soglia impostata. Selezionare l’opzione “OFF” per disabilitare l’allarme.
+5.  Premere il tasto `MEM/ALM` per confermare e uscire dalla sezione di impostazione tornando alla visualizzazione di misura in tempo reale.
+
+---
+
+HTA107 IT – 9
+### 4.3.11. Disabilitazione funzione Auto Power OFF
+
+Lo strumento è dotato di un dispositivo (APO) che lo spegne automaticamente dopo 30 minuti di inattività al fine di preservare la batteria interna. Lo strumento emette un suono per circa 15s prima di entrare nella modalità di autospegnimento. Per disabilitare la funzione:
+
+1.  Spegnere lo strumento con il tasto `ON/OFF`.
+2.  Tenendo premuto il tasto `MODE` accendere lo strumento con il tasto `ON/OFF`. Il simbolo _“APO”_ (vedere Fig. 2 – parte 4) scompare a display.
+3.  Spegnere e riaccendere lo strumento per riattivare automaticamente la funzione.
+
+---
+
+HTA107 IT – 10
+# 5. ISTRUZIONI OPERATIVE
+
+## 5.1. MISURA TEMPERATURA E UMIDITÀ DELL’ARIA
+
+> **ATTENZIONE**
+> Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi. Non sottoporre il sensore integrato a forti sollecitazioni meccaniche.
+
+1.  Accendere lo strumento tramite il tasto `ON/OFF`.
+2.  Usare i tasti `` o `` per selezionare l’unità di misura della temperatura (vedere § 4.3.3).
+3.  Posizionare il sensore integrato (vedere Fig. 1 – parte 1) nell’ambiente in prova. Il valore della temperatura in tempo reale è mostrato nel display *secondario* mentre il valore dell’umidità relativa (%RH) in tempo reale è mostrato nel display *principale*. Il valore _“ - - - ”_ indica il superamento dei valori massimi misurabili. La barra grafica analogica non è attiva in questa funzione.
+
+Fig. 7: Uso dello strumento per misura della temperatura/umidità dell’aria
+
+4.  Premere il tasto `MODE/ZERO` per selezionare la misura della temperatura di Rugiada e dell’umidità specifica espressa in _“g/kg”_ o _“GPP”_ (vedere § 4.3.7). Il valore della temperatura di Rugiada è mostrato sul display secondario (vedere Fig. 7 – parte destra).
+5.  Impostare eventuali condizioni di allarme sulla misura (vedere § 4.3.10).
+6.  Attendere il risultato stabile a display e premere il tasto `MEM/ALM` per salvare il risultato della misura nella memoria interna (vedere § 4.3.9).
+
+---
+
+HTA107 IT – 11
+## 5.2. MISURA UMIDITÀ DEI MATERIALI
+
+Lo strumento può eseguire misure di umidità a contatto (tipicamente legno e materiali edili) nelle seguenti modalità:
+
+*   **MOI INT** → Utilizzo del sensore integrato (vedere Fig. 1 – parte 12) appoggiato alla superficie in prova.
+*   **MOI EXT** → Utilizzo della sonda esterna in dotazione inserita nell’ingresso laterale dello strumento (vedere Fig. 1 – parte 14).
+
+### 5.2.1. Misura con sensore integrato
+
+> **ATTENZIONE**
+> Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi. Non sottoporre il sensore integrato a forti sollecitazioni meccaniche.
+
+1.  Accendere lo strumento tramite il tasto `ON/OFF`.
+2.  Usare i tasti `` o `` per selezionare l’unità di misura della temperatura (vedere § 4.3.3).
+3.  Premere il tasto `MOI`. L’indicazione “MOIST REL INT” è mostrata nella parte alta del display.
+
+Fig. 8: Uso dello strumento per misura dell’umidità a contatto con sensore integrato
+
+4.  Posizionare il sensore integrato in prossimità della superficie del materiale in prova facendo attenzione a non coprirlo con la mano e verificare che sul display principale il valore “0.0”.
+5.  Nel caso in cui il valore non sia azzerato premere a lungo (>2s) il tasto `MODE/ZERO`. Il simbolo “ZERO” appare a display per un istante e il valore è azzerato sul display principale (vedere Fig. 8 – parte sinistra).
+6.  Appoggiare lo strumento sulla superficie del materiale in prova. Il valore dell’umidità relativa è mostrato sul display principale. Il valore della temperatura dell’aria è presente sul display secondario.
+7.  Impostare eventuali condizioni di allarme sulla misura (vedere § 4.3.10).
+8.  Attendere il risultato stabile a display e premere il tasto `MEM/ALM` per salvare il risultato della misura nella memoria interna (vedere § 4.3.9).
+
+---
+
+HTA107 IT – 12
+### 5.2.2. Misura con sonda esterna
+
+> **ATTENZIONE**
+> Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi. Non sottoporre il sensore integrato a forti sollecitazioni meccaniche.
+
+1.  Accendere lo strumento tramite il tasto `ON/OFF`.
+2.  Usare i tasti `` o `` per selezionare l’unità di misura della temperatura (vedere § 4.3.3).
+3.  Premere il tasto `MOI` fino a visualizzare l’indicazione “MOIST REL EXT” nella parte alta del display.
+
+Fig. 9: Uso dello strumento per misura dell’umidità a contatto con sonda esterna
+
+4.  Inserire la sonda esterna in dotazione nell’ingresso presente nella parte laterale dello strumento (vedere Fig. 1 – parte 14).
+5.  Appoggiare i terminali della sonda sulla superficie del materiale in prova (vedere Fig. 9). Il valore dell’umidità relativa è mostrato sul display principale. Il valore della temperatura dell’aria è presente sul display secondario.
+6.  Impostare eventuali condizioni di allarme sulla misura (vedere § 4.3.10).
+7.  Attendere il risultato stabile a display e premere il tasto `MEM/ALM` per salvare il risultato della misura nella memoria interna (vedere § 4.3.9).
+
+---
+
+HTA107 IT – 13
+## 5.3. MISURA TEMPERATURA A INFRAROSSI
+
+Lo strumento è in grado di eseguire misure di temperatura a infrarossi (IRT) su superfici tramite il sensore presente nella parte superiore (vedere Fig. 1 – parte 15). La misura è eseguita attivando un puntatore laser (vedere Fig. 1 – parte 16). Tale misura può essere eseguita insieme alle misure di umidità e temperatura dell’aria.
+
+1.  Accendere lo strumento tramite il tasto `ON/OFF`.
+2.  Usare i tasti `` o `` per selezionare l’unità di misura della temperatura (vedere § 4.3.3).
+3.  La temperatura dell’aria è mostrata sul display secondario (vedere Fig. 10 – parte sinistra).
+4.  Premere il tasto `IRT/Laser` per attivare la misura IRT. Il puntatore laser si attiva per un istante e il simbolo _“🎯”_ è mostrato a display fino al termine della misura. Il valore della temperatura IRT è mostrato sul display secondario per circa 15s (vedere Fig. 10 – parte destra) e successivamente lo strumento ritorna automaticamente nella misura della temperatura dell’aria.
+5.  Premere e tenere premuto il tasto `IRT/Laser` per eseguire la misura IRT in modo continuo.
+
+Fig. 10: Misura temperatura all’infrarosso (IRT)
+
+6.  Premere il tasto `MODE/ZERO` durante la misura IRT per eseguire la misura del valore Massimo (simbolo “MAX” a display) o Minimo (simbolo “MIN” a display) della temperatura IRT. Premere e tenere premuto il tasto `IRT/Laser` per eseguire la misura MAX o MIN in modo continuo.
+7.  Attendere il risultato stabile a display e premere il tasto `MEM/ALM` per salvare il risultato della misura nella memoria interna (vedere § 4.3.9).
+
+---
+
+HTA107 IT – 14
+## 5.4. MISURA DIFFERENZIALE TEMPERATURA DI SUPERFICI
+
+Lo strumento può usare sia il sensore integrato (vedere Fig. 1 – parte 1) sia il sensore IRT (vedere Fig. 1 – parte 15) per determinare se una superficie è a rischio condensazione.
+
+> **ATTENZIONE**
+> Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi. Non sottoporre il sensore integrato a forti sollecitazioni meccaniche.
+
+1.  Accendere lo strumento tramite il tasto `ON/OFF`.
+2.  Usare i tasti `` o `` per selezionare l’unità di misura della temperatura (vedere § 4.3.3).
+
+Fig. 11: Misura differenziale temperatura di superfici
+
+3.  Premere simultaneamente i tasti `RH%` e `MOI` per entrare nel modo di misura Condensazione. Lo strumento mostra il valore della temperatura di Rugiada misurata dal sensore integrato sul display secondario e le indicazioni “COND” e “DEW” sono presenti a display (vedere Fig. 11 – prima videata). Il display principale mostra sempre la differenza tra il valore di temperatura IRT e la temperatura di Rugiada.
+4.  Premere il tasto `IRT/Laser` per eseguire la misura di temperatura IRT sulla superficie in esame. Il valore della temperatura è mostrato nel display secondario per alcuni secondi e il simbolo _“🎯”_ è presente a display. Il comportamento dello strumento è il seguente:
+    *   Se la temperatura IRT è *maggiore di oltre 14°C (25°F)* rispetto alla temperatura di Rugiada → la differenza di temperatura (IRT - DP) è mostrata sul display principale senza altre indicazioni (vedere Fig. 11 – seconda videata).
+    *   Se la temperatura IRT è *maggiore di 3°C÷14°C (5°F÷25°F)* rispetto alla temperatura di Rugiada → la differenza di temperatura (IRT - DP) è mostrata sul display principale, l’indicazione _“⚠️”_ è presente a display e lo strumento emetto un suono ad indicare una situazione di rischio condensazione nell’area (vedere Fig. 11 – terza videata).
+    *   Se la temperatura IRT è *maggiore di meno di 3°C (5°F)* rispetto alla temperatura di Rugiada → la differenza di temperatura (IRT - DP) è mostrata sul display principale, l’indicazione _“⚠️⚠️”_ è presente a display e lo strumento emetto un doppio suono ad indicare una situazione di elevato rischio condensazione nell’area (vedere Fig. 11 – quarta videata).
+5.  Premere il tasto `MODE/ZERO` per attivare/disattivare la visualizzazione della Pressione di Vapore espressa in “kPA” (per unità temperatura °C) o in “mBAR” (per temperatura °F) nella parte alta del display.
+6.  Attendere il risultato stabile a display e premere il tasto `MEM/ALM` per salvare il risultato della misura nella memoria interna (vedere § 4.3.9).
+7.  Premere il tasto `RH%` o il tasto `MOI` per uscire dal modo Condensazione.
+
+---
+
+HTA107 IT – 15
+# 6. MANUTENZIONE
+
+## 6.1. GENERALITÀ
+
+Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo. Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole. Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo rimuovere la batteria per evitare fuoruscite di liquidi da parte di quest’ultima che possano danneggiare i circuiti interni dello strumento.
+
+## 6.2. SOSTITUZIONE BATTERIA
+
+Quando sul display appare il simbolo _“🔋”_ occorre sostituire la batteria.
+
+> **ATTENZIONE**
+> Solo tecnici esperti possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso la sonda esterna.
+
+1.  Spegnere lo strumento.
+2.  Rimuovere il coperchio del vano batterie (vedere Fig. 1 – parte 13).
+3.  Scollegare la batteria dal connettore.
+4.  Collegare la batteria nuova al connettore rispettando le polarità indicate.
+5.  Riposizionare il coperchio del vano batteria.
+6.  Non disperdere la batteria usata nell’ambiente. Usare gli appositi contenitori per lo smaltimento dei rifiuti.
+
+## 6.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+## 6.4. FINE VITA
+
+> **ATTENZIONE**: il simbolo riportato sullo strumento indica che l'apparecchiatura, i suoi accessori e la batteria devono essere raccolti separatamente e trattati in modo corretto.
+
+---
+
+HTA107 IT – 16
+# 7. SPECIFICHE TECNICHE
+
+## 7.1. CARATTERISTICHE TECNICHE
+
+Incertezza calcolata come `± [indicazione]` a `25°C`, `< 70% RH`
+
+### Temperatura dell’aria con sensore integrato
+
+| Campo               | Risoluzione | Incertezza |
+| :------------------ | :---------- | :--------- |
+| -28.0°C ÷ 77.0 °C   | 0.1 °C      | ± 2.0°C    |
+| -20.0°F ÷ 170.0°F   | 0.1 °F      | ± 3.6°F    |
+
+### Umidità relativa dell’aria
+
+| Campo [%RH] | Risoluzione [%RH] | Incertezza (\*) |
+| :---------- | :---------------- | :-------------- |
+| 0.0 ÷ 10.0  | 0.1%RH            | ± 3.0% lettura  |
+| 11.0 ÷ 90.0 |                   | ± 2.0%lettura  |
+| 91.0 ÷ 99.9 |                   | ± 3.0%lettura  |
+
+(\*) Relativa al campo temperatura: 20°C ÷ 30°C (68°F ÷ 86°F)
+
+### Temperatura a infrarossi
+
+| Caratteristica          | Valore                                                               |
+| :---------------------- | :------------------------------------------------------------------- |
+| Campo misura            | -50.0°C ÷ 200.0°C (-58.0°F ÷ 392.0°F)                                |
+| Incertezza              | ±5°C / ±9°F (-50°C ÷ -20°C) / (-58°F ÷ -4°F)                         |
+|                         | ±2.0%lettura o ±2°C / ±4°F (-20°C ÷ -1°C) / (-4°F ÷ 31°F)             |
+|                         | ±1.0%lettura o ±0.6°C / ±1°F (0°C /32°F)                             |
+|                         | ±2.0%lettura o ±2°C / ±3°F (1°C ÷ 200°C) / (33°F÷392°F)               |
+| Tempo di risposta       | <500ms                                                               |
+| Risoluzione             | 0.1°C / 0.1°F                                                        |
+| Campo Emissività        | 0.95 (fissa)                                                         |
+| Rapporto Distanza/Spot  | D/S = 8:1                                                            |
+| Puntatore laser         | <1mW, classe 2 in accordo a IEC 60825-1                              |
+
+### 7.1.1. Caratteristiche generali
+
+**Caratteristiche meccaniche**
+
+*   Dimensioni (L x La x H): `230 x 65 x 45 mm`
+*   Lunghezza cavo sonda esterna: `0.9m (3ft)`
+*   Peso (batteria inclusa): `250g`
+*   Protezione meccanica: `IP40`
+
+**Alimentazione**
+
+*   Tipo batteria: `1x 9V` alcalina tipo `NEDA 1604 IEC 6F22 JIS 006P`
+*   Indicazione batteria scarica: simbolo _“🔋”_ a display
+*   Durata batteria: ca `16 ore` (backlight ON), ca `45 ore` (backlight OFF)
+*   Indicazione fuori scala: messaggio _“ - - - ”_ a display
+*   Auto Power OFF: dopo `30 minuti` di non utilizzo (disabilitabile)
+*   Memoria interna: max `20` locazioni
+
+**Display**
+
+*   Caratteristiche: `2` display, `4` LCD segno, punto decimale, backlight e bargraph
+*   Frequenza di aggiornamento: `3 volte/s`
+
+---
+
+HTA107 IT – 17
+## 7.2. AMBIENTE
+
+### 7.2.1. Condizioni ambientali di utilizzo
+
+*   Temperatura di riferimento: `25°C`
+*   Temperatura di utilizzo: `-10°C ÷ 50°C (14°F ÷ 122°F)`
+*   Umidità relativa ammessa: `< 90% RH (0°C÷30°C); <75%RH(30°C÷40°C) <45%RH (40°C÷50°C)`
+*   Temperatura di conservazione: `-30°C ÷ 60°C (-14°F ÷ 140°F)`
+*   Umidità di conservazione: `< 90% RH`
+*   Max altitudine di utilizzo: `2000m`
+
+Questo strumento è conforme ai requisiti della Direttiva Europea EMC `2014/30/EU`.
+Questo strumento è conforme ai requisiti della direttiva europea `2011/65/EU` (RoHS) e della direttiva europea `2012/19/EU` (WEEE).
+
+## 7.3. ACCESSORI
+
+### 7.3.1. Accessori in dotazione
+
+*   Sonda esterna
+*   Batteria
+*   Valigetta per trasporto
+*   Manuale d’uso
+
+---
+
+HTA107 IT – 18
+# 8. ASSISTENZA
+
+## 8.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+
+*   Riparazione e/o sostituzione accessori e batterie (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+## 8.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato della batteria e sostituirla se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
