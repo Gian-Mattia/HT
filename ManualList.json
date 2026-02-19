@@ -289,6 +289,11 @@
       "id": "T2000.md",
       "name": "T2000, T2100",
       "description": "Pinza amperometrica per misura resistenza di terra direttamente su dispersori e misura di corrente di dispersione fino a 20A AC."
+    },
+    {
+      "id": "HTA107.md",
+      "name": "HTA107",
+      "description": "Termoigrometro multifunzione per misura umidità dei materiali con sonda a contatto e sonda di penetrazione."
     }
   ]
 }
