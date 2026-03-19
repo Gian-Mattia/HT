@@ -256,6 +256,11 @@
       "description": "Multimetro professionale con misura di isolamento fino a 1000V."
     },
     {
+      "id": "HT62.md",
+      "name": "HT62",
+      "description": "Multimetri digitale TRMS con misura di temperatura con sonda K."
+    },
+    {
       "id": "HT63.md",
       "name": "HT63",
       "description": "Multimetri digitale TRMS con 60.000 punti di misura."
