@@ -302,8 +302,8 @@
     },
     {
       "id": "XL422.md",
-      "name": "XL422",
-      "description": "Data logger di corrente TRMS Trifase."
+      "name": "XL421, XL422",
+      "description": "Data logger di corrente TRMS Monofase e Trifase."
     }
   ]
 }
