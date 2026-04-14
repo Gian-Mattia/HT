@@ -299,6 +299,11 @@
       "id": "HTA107.md",
       "name": "HTA107",
       "description": "Termoigrometro multifunzione per misura umidità dei materiali con sonda a contatto e sonda di penetrazione."
+    },
+    {
+      "id": "XL422.md",
+      "name": "XL422",
+      "description": "Data logger di corrente TRMS Trifase."
     }
   ]
 }
