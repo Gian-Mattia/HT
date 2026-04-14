@@ -136,6 +136,11 @@
       "description": "Strumento per misura della resistenza di terra."
     },
     {
+      "id": "M75.md",
+      "name": "M72, M73, M74, M75, M75L",
+      "description": "Strumento multifunzione."
+    },
+    {
       "id": "HT9021.md",
       "name": "HT9021",
       "description": "Pinza amperometrica AC/DC TRMS CAT IV con misura di temperatura."
