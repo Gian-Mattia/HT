@@ -309,6 +309,11 @@
       "id": "XL422.md",
       "name": "XL421, XL422",
       "description": "Data logger di corrente TRMS Monofase e Trifase."
+    },
+    {
+      "id": "GEO416.md",
+      "name": "GEO416, GEO416GS",
+      "description": "Tester di messa a terra con funzionalità di archiviazione e download."
     }
   ]
 }
