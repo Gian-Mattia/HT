@@ -1,0 +1,690 @@
+# GEO416
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-28 -->
+
+© Copyright HT ITALIA 2019 Versione IT 3.01 - xx/xx/2019 ITALIANO Manuale d’uso
+
+GEO416 - GEO416GS IT - 1 INDICE
+1. PRECAUZIONI E MISURE DI SICUREZZA
+    1.1. Istruzioni preliminari
+    1.2. Durante l’utilizzo
+    1.3. Dopo l’utilizzo
+    1.4. Definizione di categoria di misura (sovratensione)
+2. DESCRIZIONE GENERALE
+    2.1. Funzionalità dello strumento
+3. PREPARAZIONE ALL’UTILIZZO
+    3.1. Controlli iniziali
+    3.2. Alimentazione dello strumento
+    3.3. Conservazione
+4. NOMENCLATURA
+    4.1. Descrizione dello strumento
+    4.2. Descrizione dei terminali di misura
+        4.2.1. Accensione
+        4.2.2. Auto spegnimento
+5. ISTRUZIONI OPERATIVE
+    5.1. EARTH 3W – Misurazione della resistenza di terra a 3 punti
+    5.2. EARTH 2W – Misurazione della resistenza di terra a 2 punti
+    5.3. ρ - Misurazione della resistività del terreno
+        5.3.1. Situazioni anomale per le misurazioni
+6. GESTIONE DEI DATI IN MEMORIA
+    6.1. Come salvare una misura
+    6.2. Come cancellare una o più misure
+    6.3. Come richiamare una misura
+7. RESET DELLO STRUMENTO
+8. COLLEGAMENTO DELLO STRUMENTO A PC
+9. MANUTENZIONE
+    9.1. Generalità
+    9.2. Sostituzione batterie
+    9.3. Pulizia dello strumento
+    9.4. Fine vita
+10. SPECIFICHE TECNICHE
+    10.1. Caratteristiche tecniche
+        10.1.1. Norme di riferimento
+        10.1.2. Caratteristiche generali
+    10.2. Ambiente
+        10.2.1. Condizioni ambientali di utilizzo
+    10.3. Accessori
+        10.3.1. Accessori in dotazione e opzionali GEO416
+        10.3.2. Accessori in dotazione GEO416GS
+11. ASSISTENZA
+    11.1. Condizioni di garanzia
+    11.2. Assistenza
+12. SCHEDE PRATICHE PER LE MISURAZIONI
+    12.1. Resistenza di terra negli impianti TT
+    12.2. Resistenza di terra metodo voltamperometrico
+        12.2.1. Predisposizione delle prolunghe
+        12.2.2. Tecnica per dispersori di piccole dimensioni
+        12.2.3. Tecnica per dispersori di grandi dimensioni
+    12.3. Resistività del terreno
+        12.3.1. Valutazione approssimativa del contributo di dispersori intenzionali
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità alle normative IEC/EN61557 e IECEN61010-1 relative agli strumenti di misura elettronici.
+
+> **ATTENZIONE**
+> Per la sicurezza dell'operatore e per evitare di danneggiare lo strumento, seguire le procedure descritte nel presente manuale e leggere con particolare attenzione tutte le note precedute dal simbolo
+> Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+>
+> *   Non effettuare misure in ambienti umidi, in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi
+> *   Anche se non si stanno effettuando misure evitare contatti con il circuito in esame, con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc
+> *   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come deformazioni, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc
+> *   Prestare particolare attenzione quando si effettuano misure di tensioni superiori a 25V in ambienti particolari (cantieri, piscine, eccetera) e 50V in ambienti ordinari in quanto è presente il rischio di shock elettrici.
+
+Nel presente manuale e sullo strumento sono utilizzati i seguenti simboli:
+
+*   **ATTENZIONE**: consultare il manuale di istruzioni al fine di individuare la natura del pericolo potenziale e le azioni da intraprendere
+*   Attenersi alle istruzioni riportate nel manuale. Un uso improprio potrebbe causare danni allo strumento e situazioni pericolose per l’operatore
+*   Tensione o corrente DC o AC
+*   Pericolo tensioni pericolose: rischio di shock elettrici
+*   Strumento con doppio isolamento
+
+## 1.1. ISTRUZIONI PRELIMINARI
+
+*   Questo strumento è stato progettato per un utilizzo in ambiente con livello di inquinamento 2
+*   Può essere utilizzato per verifiche su impianti elettrici fino a CAT III 240V verso terra con tensione massima 415V tra gli ingressi
+*   Seguire le normali regole di sicurezza orientate a proteggere l'operatore da correnti pericolose e proteggere lo strumento contro un utilizzo errato
+*   Solo gli accessori forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici
+*   Non effettuare misure su circuiti che superino il limite di corrente e tensione specificato
+*   Non effettuare misure in condizione ambientali al di fuori delle limitazioni indicate nel presente manuale
+*   Controllare che le batterie siano inserite correttamente
+*   Prima di collegare i puntali al circuito in esame, controllare che sia selezionata la funzione corretta.
+
+## 1.2. DURANTE L’UTILIZZO
+
+Leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle avvertenze e/o istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore. Se durante l'utilizzo compare il simbolo di batteria scarica sospendere le prove e sostituire le batterie secondo la procedura descritta al § 9.2
+>
+> *   Prima di selezionare una nuova funzione scollegare i puntali di misura dal circuito in esame
+> *   Quando lo strumento è connesso al circuito in esame non toccare mai un qualunque terminale inutilizzato
+> *   Evitare la misura di resistenza in presenza di tensioni esterne; anche se lo strumento è protetto, una tensione eccessiva potrebbe causare malfunzionamenti dello strumento
+> *   Evitare che allo strumento giunga tensione durante l’esecuzione della misura (ad esempio un puntale che scivola dal punto di misura andando a toccare un punto in tensione).
+
+## 1.3. DOPO L’UTILIZZO
+
+*   Quando le misure sono terminate spegnere lo strumento tramite il tasto `ON/OFF`
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere le batterie
+
+## 1.4. DEFINIZIONE DI CATEGORIA DI MISURA (SOVRATENSIONE)
+
+La norma "IEC/EN61010-1: Prescrizioni di sicurezza per apparecchi elettrici di misura, controllo e per utilizzo in laboratorio, Parte 1: Prescrizioni generali", definisce cosa si intenda per categoria di misura, comunemente chiamata categoria di sovratensione. Al § 6.7.4: Circuiti di misura, essa recita:
+
+I circuiti sono suddivisi nelle seguenti categorie di misura:
+
+*   La **Categoria di misura IV** serve per le misure effettuate su una sorgente di un’installazione a bassa tensione.
+    Esempi sono costituiti da contatori elettrici e da misure sui dispositivi primari di protezione dalle sovracorrenti e sulle unità di regolazione dell’ondulazione
+*   La **Categoria di misura III** serve per le misure effettuate in installazioni all’interno di edifici.
+    Esempi sono costituiti da misure su pannelli di distribuzione, disgiuntori, cablaggi, compresi i cavi, le barre, le scatole di giunzione, gli interruttori, le prese di installazioni fisse e gli apparecchi destinati all’impiego industriale e altre apparecchiature, per esempio i motori fissi con collegamento ad impianto fisso.
+*   La **Categoria di misura II** serve per le misure effettuate su circuiti collegati direttamente all’installazione a bassa tensione.
+    Esempi sono costituiti da misure su apparecchiature per uso domestico, utensili portatili ed apparecchi similari.
+*   La **Categoria di misura I** serve per le misure effettuate su circuiti non collegati direttamente alla RETE DI DISTRIBUZIONE.
+    Esempi sono costituiti da misure su non derivati dalla RETE e derivati dalla RETE ma con protezione particolare (interna). In quest’ultimo caso le sollecitazioni da transitori sono variabili, per questo motivo (OMISSIS) si richiede che l’utente conosca la capacità di tenuta ai transitori dell’apparecchiatura.
+
+# 2. DESCRIZIONE GENERALE
+
+Lo strumento appena acquistato, se utilizzato secondo quanto descritto nel presente manuale, garantisce misure accurate ed affidabili e la massima sicurezza grazie ad uno sviluppo di nuova concezione che assicura il doppio isolamento ed il raggiungimento della categoria di sovratensione III.
+
+## 2.1. FUNZIONALITÀ DELLO STRUMENTO
+
+*   Modo `EARTH 2P`: misura della resistenza di terra a 2 punti
+*   Modo `EARTH 3P`: misura della resistenza di terra a 3 punti
+*   Modo `ρ`: misura della resistività del terreno a 4 punti
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+
+## 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, di controllarlo sommariamente per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente lo spedizioniere od il rivenditore. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 10.3. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 11.
+
+## 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è alimentato a batterie (vedere § 10.1.2). Lo stato di carica delle batterie è indicato sul display dello strumento. Il simbolo **[batteria piena]** indica che le batterie sono al massimo della carica, il simbolo **[batteria scarica]** indica che le batterie sono scariche e devono essere sostituite. Per sostituire/inserire le batterie seguire le istruzioni indicate al § 9.2.
+
+## 3.3. CONSERVAZIONE
+
+Per garantire misure precise e preservare lo strumento da possibili guasti, dopo un lungo periodo di immagazzinamento in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 10.2.1).
+
+# 4. NOMENCLATURA
+
+## 4.1. DESCRIZIONE DELLO STRUMENTO
+
+LEGENDA (Fig. 1: Descrizione dello strumento):
+
+1.  Ingressi
+2.  Tasti `ENTER`/`~`, `↓`, `|`, `}`
+3.  Tasto `ESC`/
+4.  Tasto `RCL`/`CLR`
+5.  Display
+6.  Tasto `GO`
+7.  Tasto `SAVE`
+8.  Tasto `ON/OFF`
+
+*   Tasto `ENTER` per confermare la scelta
+*   Tasti freccia per spostare il cursore selezionando i parametri desiderati
+*   Tasto per accendere la retroilluminazione del display per 30 secondi
+*   Tasto `ESC` per abbandonare la funzione selezionata senza confermare
+*   Tasto `RCL` per richiamare i dati salvati in memoria
+*   Tasto `CLR` per cancellare dalla memoria la/le misura/e selezionata/e
+*   Tasto `GO` per avviare l’esecuzione di una misurazione
+*   Tasto `SAVE` per salvare la misura in memoria
+*   Tasto `ON/OFF` per accendere/spegnere lo strumento
+
+## 4.2. DESCRIZIONE DEI TERMINALI DI MISURA
+
+LEGENDA (Fig. 2: Descrizione dei terminali di misura):
+
+1.  Barriera paramano
+2.  Zona di sicurezza
+
+### 4.2.1. Accensione
+
+All’accensione lo strumento emette un breve segnale acustico e per circa un secondo visualizza tutti i segmenti del display. Successivamente mostra la versione del firmware caricata, quindi si pone nell’ultima modalità di misurazione selezionata prima dello spegnimento.
+
+### 4.2.2. Auto spegnimento
+
+Lo strumento si spegne dopo circa 3 minuti dall’ultimo utilizzo di tasti. Per riattivare lo strumento occorre riaccenderlo premendo l’apposito tasto.
+
+# 5. ISTRUZIONI OPERATIVE
+
+## 5.1. EARTH 3W – MISURAZIONE DELLA RESISTENZA DI TERRA A 3 PUNTI
+
+La misura viene effettuata in accordo con la normativa CEI 64.8, IEC 781, VDE 0413, IEC/EN61557-5.
+
+> **ATTENZIONE**
+>
+> *   Lo strumento può essere usato su installazioni con categoria di sovratensione CAT III 240V verso terra con tensione massima 415V tra gli ingressi. Non collegare lo strumento ad installazioni con tensioni che eccedano i limiti indicati in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento
+> *   La connessione dei cavi di misura allo strumento e ai coccodrilli deve sempre avvenire ad accessori scollegati dall’impianto
+> *   Si raccomanda di impugnare il coccodrillo rispettando la zona di sicurezza individuata dalla barriera paramano (vedere § 4.2)
+> *   Nel caso la lunghezza dei cavi fornita in dotazione con lo strumento non sia adeguata all’impianto in esame (vedere § 12) è possibile utilizzare delle prolunghe adottando gli accorgimenti descritti al § 12.2.1
+
+(Fig. 3: Misura della resistenza di terra a 3 fili)
+
+1.  Accendere lo strumento premendo il tasto di accensione
+2.  Premendo i tasti freccia ``, `` selezionare `MOD`, quindi premendo i tasti freccia ``, `` selezionare la funzione `3W`
+3.  Sul display compare una videata simile a quella a fianco ove viene riportato il valore della tensione di disturbo in ingresso allo strumento
+    *   Valore della tensione di disturbo in ingresso
+4.  Inserire i cavi di misura blu, rosso verde e nero nei corrispondenti terminali di ingresso dello strumento `H`, `S`, `ES`, `E` ed innestare, se necessario, i coccodrilli
+5.  Prolungare, se necessario, i cavi di misura blu e rosso separatamente utilizzando cavi di sezione adeguata. La presenza di eventuali prolunghe non richiede calibrazione e non modifica il valore di resistenza di terra misurato
+6.  Infiggere nel terreno i dispersori ausiliari secondo le distanze previste dalle norme (§ 12.2)
+7.  Collegare i coccodrilli ai dispersori ausiliari ed all’impianto in esame (vedi Fig. 3)
+8.  Premere il tasto `GO`, lo strumento esegue la misurazione
+9.  Mentre lo strumento esegue la misurazione viene visualizzata una videata simile a quella a fianco ove viene riportato il valore della tensione di disturbo in ingresso allo strumento. Mentre sul display dello strumento compare la scritta **non scollegare e non toccare i puntali di misura**
+    *   Valore della tensione di disturbo in ingresso
+
+    > **ATTENZIONE**
+    > All’avvio della misurazione viene misurata la tensione di disturbo in ingresso al circuito voltmetrico ed al circuito amperometrico. Qualora essa sia compresa tra 3 V e 9 V, lo strumento effettua la misurazione e visualizza il simbolo **[simbolo di attenzione]** a segnalare il decadimento dell’incertezza della misura (§ 10.1)
+
+10. Al termine della prova, nel caso in cui la misura della resistenza di terra risulti inferiore al fondo scala, lo strumento emette un doppio segnale acustico a segnalare l’esito positivo della prova e visualizza la misura della resistenza ed il valore della tensione di disturbo presente all'atto della misurazione
+    *   Misura della resistenza di terra
+    *   Valore della tensione di disturbo in ingresso
+
+    > **ATTENZIONE**
+    > La misurazione della resistenza viene effettuata con metodo voltamperometrico a 4 fili che non viene influenzata dal valore della resistenza dei cavi utilizzati. Non è quindi necessario effettuare la compensazione della resistenza dei cavi o delle loro eventuali prolunghe
+
+11. Al termine della prova, nel caso in cui la misura della resistenza di terra ecceda il fondo scala, lo strumento emette un segnale acustico prolungato a segnalare l’esito negativo della prova e visualizza la videata accanto
+    *   Misura della resistenza di terra **maggiore del fondo scala**
+    *   Valore della tensione di disturbo in ingresso
+12. Le misure sono memorizzabili premendo due volte il tasto `SAVE` (§ 6.1)
+
+## 5.2. EARTH 2W – MISURAZIONE DELLA RESISTENZA DI TERRA A 2 PUNTI
+
+> **ATTENZIONE**
+>
+> *   Lo strumento può essere usato su installazioni con categoria di sovratensione CAT III 240V verso terra con tensione massima 415V tra gli ingressi. Non collegare lo strumento ad installazioni con tensioni che eccedano i limiti indicati in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento
+> *   La connessione dei cavi di misura allo strumento e ai coccodrilli deve sempre avvenire ad accessori scollegati dall’impianto
+> *   Si raccomanda di impugnare il coccodrillo rispettando la zona di sicurezza individuata dalla barriera paramano (vedere § 4.2)
+> *   Nel caso la lunghezza dei cavi fornita in dotazione con lo strumento non sia adeguata all’impianto in esame (vedere § 12) è possibile utilizzare delle prolunghe adottando gli accorgimenti descritti al § 12.2.1
+
+Quando non è possibile il metodo a 3 punti (ad esempio nei centri storici), è possibile utilizzare il metodo semplificato a 2 punti che fornisce un valore in eccesso e quindi a vantaggio della sicurezza. Per effettuare la prova bisogna disporre di un **dispersore ausiliario** adeguato. Un dispersore ausiliario è da ritenersi adeguato quando presenta una resistenza di terra **trascurabile ed indipendente** dall'impianto di terra in esame.
+
+Nella Fig. 4) si è utilizzato come **dispersore ausiliario** l’illuminazione pubblica, ma ciò non toglie che possa essere utilizzato qualunque corpo metallico infisso nel terreno che rispetti le condizioni di cui sopra.
+
+> **ATTENZIONE**
+> Lo strumento visualizzerà come risultato il valore dato dalla somma R<sub>A</sub> + R<sub>T</sub> (vedere Fig. 4 e Fig. 5). Pertanto la misura ottenuta sarà tanto più vicina al valore R<sub>A</sub> (valore atteso) quanto più il valore del dispersore ausiliario R<sub>T</sub> risulti trascurabile rispetto ad R<sub>A</sub> stessa. Inoltre la misura sarà aumentata “a favore della sicurezza” del termine R<sub>T</sub>, ossia qualora il valore R<sub>A</sub> + R<sub>T</sub> risulti coordinato con le protezioni, a maggiore ragione lo sarà il solo termine R<sub>A</sub>
+
+(Fig. 4: Misurazione della resistenza di terra a due fili utilizzando un dispersore ausiliario)
+
+Nei sistemi TT (vedere Fig. 5) è possibile effettuare la misura di terra a 2 punti utilizzando come **dispersore ausiliario** il conduttore di neutro fornito dall'ente erogatore e prelevato direttamente in una presa di corrente o dal quadro di alimentazione. Se nella presa è disponibile anche il collegamento di terra evidentemente la misura può essere effettuata direttamente nella presa, fra i conduttori di neutro e di terra.
+
+> **ATTENZIONE**
+> Se si vuole effettuare la misura utilizzando i conduttori di neutro e di terra di una normale presa di corrente, può capitare accidentalmente di collegarsi sulla fase; in questo caso il display visualizzerà la tensione rilevata, il simbolo di attenzione **[simbolo di attenzione]** segno di un'errata inserzione e non effettuerà la misura qualora si prema il tasto `GO`
+
+(Fig. 5: Misurazione della resistenza di terra a due fili dal quadro di alimentazione)
+
+1.  Accendere lo strumento premendo il tasto di accensione
+2.  Premendo i tasti freccia ``, `` selezionare `MOD`, quindi premendo i tasti freccia ``, `` selezionare la funzione `2W`
+3.  Sul display compare una videata simile a quella a fianco ove viene riportato il valore della tensione di disturbo in ingresso allo strumento
+    *   Valore della tensione di disturbo in ingresso
+4.  Inserire i cavi di misura blu, rosso, verde e nero nei corrispondenti terminali di ingresso dello strumento `H`, `S`, `ES`, `E` ed innestare, se necessario, i coccodrilli
+5.  Prolungare, se necessario, i cavi di misura blu e rosso separatamente utilizzando cavi di sezione adeguata. La presenza di eventuali prolunghe non richiede calibrazione e non modifica il valore di resistenza di terra misurato
+6.  Collegare i coccodrilli al dispersore ausiliario ed all’impianto in esame (vedere Fig. 4 e Fig. 5)
+7.  Premere il tasto `GO`, lo strumento esegue la misurazione
+8.  Mentre lo strumento esegue la misurazione viene visualizzata una videata simile a quella a fianco ove viene riportato il valore della tensione di disturbo in ingresso allo strumento. Mentre sul display dello strumento compare la scritta **non scollegare e non toccare i puntali di misura**
+    *   Valore della tensione di disturbo in ingresso
+
+    > **ATTENZIONE**
+    > All’avvio della misurazione viene misurata la tensione di disturbo in ingresso al circuito voltmetrico ed al circuito amperometrico. Qualora essa sia compresa tra 3 V e 9 V, lo strumento effettua la misurazione e visualizza il simbolo **[simbolo di attenzione]** a segnalare il decadimento dell’incertezza della misura (§ 10.1)
+
+9.  Al termine della prova, nel caso in cui la misura della resistenza di terra risulti inferiore al fondo scala, lo strumento emette un doppio segnale acustico a segnalare l’esito positivo della prova e visualizza la misura della resistenza ed il valore della tensione di disturbo presente all'atto della misurazione
+    *   Misura della resistenza di terra
+    *   Valore della tensione di disturbo in ingresso
+
+    > **ATTENZIONE**
+    > La misurazione della resistenza viene effettuata con metodo voltamperometrico a 4 fili che non viene influenzata dal valore della resistenza dei cavi utilizzati. Non è quindi necessario effettuare la compensazione della resistenza dei cavi o delle loro eventuali prolunghe
+
+10. Al termine della prova, nel caso in cui la misura della resistenza di terra ecceda il fondo scala, lo strumento emette un segnale acustico prolungato a segnalare l’esito negativo della prova e visualizza la videata accanto
+    *   Misura della resistenza di terra **maggiore del fondo scala**
+    *   Valore della tensione di disturbo in ingresso
+11. Le misure sono memorizzabili premendo due volte il tasto `SAVE` (§ 6.1)
+
+## 5.3. ρ - MISURAZIONE DELLA RESISTIVITÀ DEL TERRENO
+
+Il valore della resistività del terreno è un parametro indispensabile per calcolare il valore della resistenza dei dispersori che siandranno ad utilizzare per la realizzazione dell'impianto di terra. La misura viene effettuata in accordo con la normativa CEI 64.8, IEC 781, VDE 0413, IEC/EN61557-5.
+
+> **ATTENZIONE**
+>
+> *   Lo strumento può essere usato su installazioni con categoria di sovratensione CAT III 240V verso terra con tensione massima 415V tra gli ingressi. Non collegare lo strumento ad installazioni con tensioni che eccedano i limiti indicati in questo manuale. Il superamento di tali limiti potrebbe causare shock elettrici all’utilizzatore e danni allo strumento
+> *   La connessione dei cavi di misura allo strumento e ai coccodrilli deve sempre avvenire ad accessori scollegati dall’impianto
+> *   Si raccomanda di impugnare il coccodrillo rispettando la zona di sicurezza individuata dalla barriera paramano (vedere § 4.2)
+> *   Nel caso la lunghezza dei cavi fornita in dotazione con lo strumento non sia adeguata alle misure da effettuare (vedere § 12) è possibile utilizzare delle prolunghe adottando gli accorgimenti descritti al § 12.2.1
+
+(Fig. 6: Misura della resistività del terreno)
+
+1.  Accendere lo strumento premendo il tasto di accensione
+2.  Premendo i tasti freccia ``, `` selezionare `MOD`, quindi premendo i tasti freccia ``, `` selezionare la funzione `ρ`
+3.  Sul display compare una videata simile a quella a fianco ove vengono riportati il valore della tensione di disturbo in ingresso allo strumento ed il valore della distanza tra i dispersori selezionata
+    *   Valore della tensione di disturbo in ingresso e della distanza tra i dispersori impostata
+4.  Qualora si desideri modificare la distanza tra i dispersori premere i tasti freccia ``, `` e selezionare `DIST`, quindi premendo i tasti freccia ``, `` impostare la distanza desiderata (da uno a dieci metri, a passi di uno oppure da tre a trenta piedi a passi di tre)
+    *   Valore della distanza tra i dispersori selezionata
+5.  Per impostare l’unità di misura della distanza premere i tasti freccia ``, `` e selezionare `UNIT`, quindi premendo i tasti freccia ``, `` impostare l’unità di misura desiderata (`m` oppure `ft`)
+    *   Unità di misura impostata
+6.  Inserire i cavi di misura blu, rosso verde e nero nei corrispondenti terminali di ingresso dello strumento `H`, `S`, `ES`, `E` ed innestare, se necessario, i coccodrilli
+7.  Prolungare, se necessario, i cavi di misura separatamente utilizzando cavi di sezione adeguata. La presenza di eventuali prolunghe non richiede calibrazione e non modifica il valore della resistività del terreno misurato
+8.  Infiggere nel terreno quattro dispersori disponendoli in linea e ponendoli ad una distanza reciproca pari a quanto selezionato sullo strumento. L’impostazione di una distanza diversa da quella realmente presente tra i dispersori inficia la misura (§ 11.3)
+9.  Collegare i coccodrilli ai dispersori (vedere Fig. 6)
+10. Premere il tasto `GO`, lo strumento esegue la misurazione
+11. Mentre lo strumento esegue la misurazione viene visualizzata una videata simile a quella a fianco ove vengono riportati il valore della tensione di disturbo in ingresso e la distanza tra i dispersori ausiliari selezionata. Mentre sul display dello strumento compare la scritta **non scollegare e non toccare i puntali di misura**
+    *   Valore della tensione di disturbo in ingresso e della distanza tra i dispersori impostata
+
+    > **ATTENZIONE**
+    > All’avvio della misurazione viene misurata la tensione di disturbo in ingresso al circuito voltmetrico ed al circuito amperometrico. Qualora essa sia compresa tra 3 V e 9 V, lo strumento effettua la misurazione e visualizza il simbolo **[simbolo di attenzione]** a segnalare il decadimento dell’incertezza della misura (§ 10.1)
+
+12. Al termine della prova, nel caso in cui la misura della resistività risulti inferiore al fondo scala, lo strumento emette un doppio segnale acustico a segnalare l’esito positivo della prova e visualizza la misura della resistività ed il valore della tensione di disturbo presente all'atto della misurazione
+    *   Misura della resistività del terreno
+    *   Valore della tensione di disturbo in ingresso e della distanza tra i dispersori impostata
+
+    > **ATTENZIONE**
+    > La misurazione della resistività viene effettuata con metodo voltamperometrico a 4 fili che non viene influenzata dal valore della resistenza dei cavi utilizzati. Non è quindi necessario effettuare la compensazione della resistenza dei cavi o delle loro eventuali prolunghe
+
+13. Al termine della prova, nel caso in cui la misura della resistività di terra ecceda il fondo scala, lo strumento emette un segnale acustico prolungato a segnalare l’esito negativo della prova e visualizza la videata accanto
+    *   Misura della resistività del terreno **maggiore del fondo scala**
+    *   Valore della tensione di disturbo in ingresso e della distanza tra i dispersori impostata
+
+    > **ATTENZIONE**
+    > Il fondo scala viene calcolato come `ρ MAX = 2 π DIST R` ove `DIST` è il valore impostato della distanza tra i dispersori e `R` il massimo valore di resistenza misurabile dallo strumento. Il fondo scala della misurazione di resistività di terra dipende pertanto dall’impostazione della distanza tra i dispersori
+
+14. Le misure sono memorizzabili premendo due volte il tasto `SAVE` (§ 6.1)
+
+### 5.3.1. Situazioni anomale per le misurazioni
+
+1.  All’avvio della misurazione lo strumento verifica la continuità dei cavi di misura. Qualora il circuito voltmetrico (cavi rosso `S` e verde `ES`) sia interrotto o presenti una **resistenza troppo elevata**, lo strumento visualizza una videata simile a quella a fianco. Controllare che i terminali siano correttamente connessi e che il dispersore connesso al terminale `S` non sia infisso in terreno ghiaioso o scarsamente conduttivo nel qual caso versare acqua intorno al dispersore per diminuirne la resistenza (§ 12.2).
+    *   Resistenza del circuito voltmetrico troppo elevata
+    *   Valore della tensione di disturbo in ingresso
+    *   Esempio in modalità `3W`
+    Viene visualizzato `RP>top` qualora:
+    *   Al circuito voltmetrico si sommi una resistenza del dispersore `S R S` > 50K Ω
+    *   La resistenza del dispersore S superi il valore `1200 + 100 R X` [Ω] (ove `R X` è il valore misurato della resistenza di terra)
+2.  All’avvio della misurazione lo strumento verifica la continuità dei cavi di misura. Qualora il circuito amperometrico (cavi blu `H` e nero `E`) sia interrotto o presenti una **resistenza troppo elevata**, lo strumento visualizza una videata simile a quella a fianco. Controllare che i terminali siano correttamente connessi e che il dispersore connesso al terminale `H` non sia infisso in terreno ghiaioso o scarsamente conduttivo nel qual caso versare acqua intorno al dispersore per diminuirne la resistenza (§ 12.2).
+    *   Resistenza del circuito amperometrico troppo elevata
+    *   Valore della tensione di disturbo in ingresso
+    *   Esempio in modalità `3W`
+    Viene visualizzato `RC>top` qualora:
+    *   Al circuito amperometrico si sommi una resistenza del dispersore `H R H` > 50K Ω
+    *   La resistenza del dispersore H superi il valore `1200 + 100 R X` [Ω] (ove `R X` è il valore misurato della resistenza di terra)
+3.  All’avvio della misurazione lo strumento verifica la continuità dei cavi di misura. Qualora il circuito voltmetrico (cavi rosso `S` e verde `ES`) ed il circuito amperometrico (cavi blu `H` e nero `E`) siano entrambe interrotti o presentino una **resistenza troppo elevata**, lo strumento visualizza una videata simile a quella a fianco. Controllare che i terminali siano correttamente connessi e che i dispersori connessi ai terminali `S` e `H` non siano infissi in terreno ghiaioso o scarsamente conduttivo nel qual caso versare acqua intorno ai dispersori per diminuirne la resistenza (§ 12.2).
+    *   Resistenza del circuito voltmetrico e del circuito amperometrico troppo elevate
+    *   Valore della tensione di disturbo in ingresso
+    *   Esempio in modalità `3W`
+    Viene visualizzato `RP, RC>top` qualora:
+    *   Al circuito voltmetrico si sommi una resistenza del dispersore `S R S` > 50K Ω ed al circuito amperometrico si sommi una resistenza del dispersore `H R H` > 50K Ω
+    *   La resistenza del dispersore S e la resistenza del dispersore H superino entrambe il valore `1200 + 100 R X` [Ω] (ove `R X` è il valore misurato della resistenza di terra)
+4.  All’avvio della misurazione, qualora i cavi rosso (connesso al terminale `S`) e verde (connesso al terminale `ES`) siano **invertiti tra loro**, lo strumento non esegue la prova, emette un segnale acustico prolungato e visualizza la videata accanto
+    *   Cavi rosso e verde invertiti tra loro
+    *   Esempio in modalità `ρ`
+5.  All’avvio della misurazione, qualora lo strumento rilevi in ingresso al circuito voltmetrico una **tensione di disturbo superiore a 9V**, non esegue la prova, emette un segnale acustico prolungato e visualizza la videata accanto
+    *   Tensione di disturbo in ingresso al circuito voltmetrico troppo elevata
+    *   Valore della tensione di disturbo in ingresso
+    *   Esempio in modalità `2W`
+6.  All’avvio della misurazione, qualora lo strumento rilevi in ingresso al circuito amperometrico una **tensione di disturbo superiore a 9V**, non esegue la prova, emette un segnale acustico prolungato e visualizza la videata accanto
+    *   Tensione di disturbo in ingresso al circuito amperometrico troppo elevata
+    *   Valore della tensione di disturbo in ingresso
+    *   Esempio in modalità `2W`
+7.  All’avvio della misurazione, qualora lo strumento rilevi una **tensione di disturbo superiore a 9V in ingresso ai circuiti voltmetrico ed amperometrico**, non esegue la prova, emette un segnale acustico prolungato e visualizza la videata accanto
+    *   Tensione di disturbo in ingresso ai circuiti voltmetrico ed amperometrico troppo elevata
+    *   Valore della tensione di disturbo in ingresso
+    *   Esempio in modalità `2W`
+8.  Qualora la tensione erogata dalle batterie non sia sufficiente, lo strumento visualizza il simbolo di batteria scarica ed il messaggio **[Messaggio di batteria scarica]**, quindi non permette l'esecuzione di alcuna misurazione. In questa condizione è tuttavia possibile eseguire operazioni come impostazioni, lettura dei dati in memoria, ecc.
+    *   Tensione di alimentazione troppo bassa, batterie scariche
+    *   Valore della tensione di disturbo in ingresso e della distanza tra i dispersori impostata
+    *   Esempio in modalità `ρ`
+9.  Le situazioni anomale sopra riportate non sono memorizzabili
+
+# 6. GESTIONE DEI DATI IN MEMORIA
+
+## 6.1. COME SALVARE UNA MISURA
+
+1.  Dopo aver effettuato una misurazione premere il tasto `SAVE`, lo strumento visualizza una videata simile a quella a fianco
+    *   Numero della locazione di memoria nella quale verrà memorizzata la misura
+    *   Ultimo valore impostato del parametro `L` e del parametro `P`
+2.  Qualora si desideri modificare i valori dei parametri `L` e `P` premere i tasti freccia ``, `` e selezionare `L` oppure `P`, quindi premendo i tasti freccia ``, `` impostare il valore desiderato (da 1 a 255). Questi valori possono aiutare a ricordare il luogo nel quale si è effettuata la misurazione in oggetto
+3.  OPPURE Confermare il salvataggio della misura premendo il tasto `SAVE` oppure il tasto `ENTER`
+
+## 6.2. COME CANCELLARE UNA O PIÙ MISURE
+
+1.  Premere il tasto `RCL`, lo strumento visualizza una videata simile a quella a fianco
+    *   Numero dell’ultima locazione di memoria utilizzata
+    *   Valori del parametro `L` e del parametro `P`
+2.  Premere i tasti freccia ``, `` per selezionare la casella di memoria da cui iniziare la cancellazione dei dati, lo strumento visualizza una videata simile a quella a fianco
+    *   Numero della locazione di memoria da cui iniziare la cancellazione
+    *   Valori del parametro `L` e del parametro `P`
+
+    > **ATTENZIONE**
+    > La conferma della cancellazione dei dati comporta la rimozione di tutti i dati memorizzati a partire dalla cella selezionata fino all’ultima cella di memoria occupata
+
+3.  Premere il tasto `CLR`, lo strumento visualizza una videata simile a quella a fianco
+    *   Prima ed ultima locazione di memoria da cancellare e richiesta di conferma
+    In alternativa:
+4.  Confermare la cancellazione delle misure premendo il tasto `ENTER`, lo strumento emette un doppio segnale acustico a segnalare l’avvenuta cancellazione delle misure selezionate
+    Oppure:
+5.  Premere il tasto `ESC` per tornare alla visualizzazione precedente
+
+## 6.3. COME RICHIAMARE UNA MISURA
+
+1.  Premere il tasto `RCL`, lo strumento visualizza una videata simile a quella a fianco
+    *   Numero dell’ultima locazione di memoria utilizzata
+    *   Valori del parametro `L` e del parametro `P`
+2.  Premere i tasti freccia ``, `` per selezionare la locazione di memoria di cui si vuole visualizzare il contenuto
+    *   Numero della locazione di memoria di cui si vuole visualizzare il contenuto
+    *   Valori del parametro `L` e del parametro `P`
+3.  Premere il tasto `ENTER` per visualizzare la misura contenuta nella locazione di memoria selezionata, lo strumento visualizza una videata simile a quella a fianco
+    *   Misura memorizzata nella locazione di memoria selezionata
+    *   Valori della tensione di disturbo presente all’atto della misurazione
+4.  Premere il tasto `ESC` per tornare alla visualizzazione precedente e premere nuovamente il tasto `ESC` per uscire dalla gestione della memoria
+
+# 7. RESET DELLO STRUMENTO
+
+> **ATTENZIONE**
+> PRIMA DI ESEGUIRE IL RESET DELLO STRUMENTO SALVARE I DATI RELATIVI ALLE MISURE ESEGUITE TRASFERENDOLI A PC
+
+1.  A strumento spento premere il tasto `RCL/CLR`
+2.  Mantenendo premuto il tasto `RCL/CLR`, premere il tasto di accensione. Lo strumento emette un breve segnale acustico e per circa un secondo mostra tutti i segmenti del display. Quindi emette un secondo breve segnale acustico e visualizza la videata a fianco per circa 3 secondi
+
+> **ATTENZIONE**
+> La procedura di hard reset comporta la cancellazione di tutti i dati residenti in memoria ed il ripristino del parametro `DIST` al valore di default (1m oppure 3ft)
+
+# 8. COLLEGAMENTO DELLO STRUMENTO A PC
+
+La connessione fra PC e strumento avviene tramite porta seriale o USB e cavo optoisolato fornito unitamente al pacchetto software. Prima di effettuare il collegamento è necessario selezionare sul PC la porta utilizzata ed il baud rate corretto (9600 bps). Per impostare questi parametri avviare il software e consultare l'help in linea del programma. La porta selezionata non deve essere impegnata da altri dispositivi o applicazioni come mouse, modem, ecc.
+
+> **ATTENZIONE**
+> La **porta ottica emette radiazione Laser, non osservare direttamente con strumenti ottici**. Apparecchio Laser di classe 1M secondo EN 60825-1
+
+Per trasferire i dati memorizzati al PC attenersi alla seguente procedura:
+
+1.  Accendere lo strumento premendo il tasto di accensione
+2.  Collegare lo strumento al PC per mezzo del cavo optoisolato fornito unitamente al pacchetto software. La comunicazione è abilitata in ogni funzione ad eccezione delle fasi di misurazione e mentre è attiva la gestione della memoria (§ 6)
+3.  Utilizzare il software di gestione dei dati per scaricare a PC quanto contenuto nella memoria dello strumento. Durante il trasferimento dei dati lo strumento visualizza la videata a fianco, quindi, esaurito il trasferimento dei dati, torna alla funzione precedentemente selezionata
+
+# 9. MANUTENZIONE
+
+## 9.1. GENERALITÀ
+
+Lo strumento da Lei acquistato è uno strumento di precisione. Durante l’utilizzo e l’immagazzinamento rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo. Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole. Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo di tempo, rimuovere le batterie per evitare da parte di queste ultime fuoriuscite di liquidi che possono danneggiare i circuiti interni dello strumento.
+
+## 9.2. SOSTITUZIONE BATTERIE
+
+Quando sul display LCD appare il simbolo di batteria scarica (vedere § 10.1.2) occorre sostituire le batterie.
+
+> **ATTENZIONE**
+> Solo **tecnici qualificati** possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso tutti i cavi dai terminali di ingresso
+
+1.  Spegnere lo strumento premendo a lungo il pulsante di accensione
+2.  Rimuovere i cavi dai terminali di ingresso
+3.  Svitare la vite di fissaggio del coperchio dal vano batterie e rimuovere lo stesso
+4.  Rimuovere dal vano batterie tutte le batterie e sostituirle solo con batterie tutte nuove e tutte dello stesso tipo (vedere § 10.1.2) rispettando le polarità indicate
+5.  Riposizionare il coperchio vano batterie e fissarlo con l'apposita vite
+6.  Non disperdere nell’ambiente le batterie utilizzate. Usare gli appositi contenitori per lo smaltimento
+
+## 9.3. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+## 9.4. FINE VITA
+
+Attenzione: il simbolo **[simbolo WEEE]** riportato indica che l'apparecchiatura ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+# 10. SPECIFICHE TECNICHE
+
+## 10.1. CARATTERISTICHE TECNICHE
+
+Incertezza indicata come ± [%lettura + (numero cifre * risoluzione)] a 23 ± 5°C, <80%RH
+
+**Resistenza di terra a 3 ed a 2 punti - EARTH 3W e EARTH 2W**
+
+| Campo misura (\*\*) | Risoluzione [Ω] | Incertezza (\*)        |
+| :------------------ | :-------------- | :--------------------- |
+| Lettura [Ω]         | Misura [Ω]      |                        |
+| 0.01 ÷ 19.99        | 0.08 ÷ 19.99    | 0.01                   | ± (2.5% lettura + 2cifre)
+| 20.0 ÷ 199.9        | 20.0 ÷ 199.9    | 0.1                    |
+| 200 ÷ 1999          | 200 ÷ 1999      | 1                      |
+| 2.00 ÷ 19.99k       | 2.00 ÷ 19.99k   | 0.01k                  |
+| 20.0 ÷ 49.9k        | 20.0 ÷ 49.9k    | 0.1k                   |
+
+**Resistività del terreno - ρ (distanza picchetti=1m)**
+
+| Campo misura (\*\*) | Risoluzione [Ω m] | Incertezza (\*)        |
+| :------------------ | :---------------- | :--------------------- |
+| Lettura [Ω m]       | Misura [Ω m]      |                        |
+| 0.06 ÷ 19.99        | 0.50 ÷ 19.99      | 0.01                   | ± (2.5% lettura + 2cifre)
+| 20.0 ÷ 199.9        | 20.0 ÷ 199.9      | 0.1                    |
+| 200 ÷ 1999          | 200 ÷ 1999        | 1                      |
+| 2.00 ÷ 19.99k       | 2.00 ÷ 19.99k     | 0.01k                  |
+| 20.0 ÷ 199.9k       | 20.0 ÷ 199.9k     | 0.1k                   |
+| 200 ÷ 314k          | 200 ÷ 314k        | 1k                     |
+
+*   Frequenza di misura: 77.5Hz; Corrente di prova: ≤ 12mA; Tensione a vuoto: < 25Vrms
+*   Tensione di disturbo sui circuiti amperometrico e voltmetrico: la misura viene eseguita con la precisione dichiarata per tensioni di disturbo ≤ 3V, per tensioni di disturbo > 3V e ≤ 9V la precisione dello strumento decresce progressivamente. Per tensioni di disturbo pari a 9V lo strumento non esegue la misurazione
+
+(\*) Qualora: `R P > 1200 + 100 R X` e/o `R C > 1200 + 100 R X`, `R P > 50k Ω` e/o `R C > 50k Ω` e lo strumento esegue la misurazione con precisione pari a `± (10% lettura)` dove:
+`R P` = resistenza del circuito di tensione; `R C` = resistenza del circuito di corrente; `R X` = resistenza di terra misurata
+(\*\*) Selezione automatica del campo di misura
+
+**Tensione di disturbo**
+
+| Campo misura (\*\*) | Risoluzione [V] | Incertezza             |
+| :------------------ | :-------------- | :--------------------- |
+| Lettura [V]         | Misura [V]      |                        |
+| 0 ÷ 460             | 7 ÷ 460         | 1                      | ± (2.0% lettura + 2cifre)
+
+(\*\*) Selezione automatica del campo di misura
+
+### 10.1.1. Norme di riferimento
+
+*   Sicurezza: IEC/EN61010-1, IEC/EN61557-1, IEC/EN61557-5
+*   EMC: IEC/EN61326-1
+*   Sicurezza accessori di misura: IEC/EN61010-031
+*   Documentazione tecnica: IEC/EN61187
+*   Isolamento: doppio isolamento
+*   Livello di inquinamento: 2
+*   Categoria di misura: CAT III 240V (verso terra), max 415V fra gli ingressi
+*   Max altitudine di utilizzo: 2000m
+
+### 10.1.2. Caratteristiche generali
+
+**Caratteristiche meccaniche**
+
+*   Dimensioni (L x La x H): 235 x 165 x 75 mm
+*   Peso (batterie incluse): 1kg
+*   Protezione meccanica: IP50 secondo IEC/EN60529
+
+**Alimentazione**
+
+*   Tipo batteria: 6x1.5V batterie alcaline tipo AA LR06 oppure 6x1.2V batterie ricaricabili Ni-MH tipo AA 2100mA
+*   Indicazione batteria scarica: simbolo “ **[simbolo batteria scarica]** ” a display
+*   Autonomia batterie: circa 500 prove
+*   Auto Power OFF: dopo 3 minuti di non utilizzo
+
+**Display**
+
+*   Caratteristiche: LCD custom con retroilluminazione 73x65 mm
+
+**Memoria**
+
+*   Caratteristiche: 999 locazioni di memoria
+
+**Connessione a PC**
+
+*   Caratteristiche: porta optoisolata per comunicazione bidirezionale. Apparecchio Laser di classe 1M secondo EN 60825-1.
+
+## 10.2. AMBIENTE
+
+### 10.2.1. Condizioni ambientali di utilizzo
+
+*   Temperatura di riferimento: 23°C ± 5°C
+*   Temperatura di utilizzo: 0°C ÷ 40°C
+*   Umidità relativa ammessa: <80%RH
+*   Temperatura di immagazzinamento: -10°C ÷ 60°C
+*   Umidità di immagazzinamento: <80%RH
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione 2014/35/EU (LVD) e della direttiva EMC 2014/30/EU
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (RoHS) e della direttiva europea 2012/19/EU (WEEE)
+
+## 10.3. ACCESSORI
+
+### 10.3.1. Accessori in dotazione e opzionali GEO416
+
+Vedere packing lista allegata
+
+### 10.3.2. Accessori in dotazione GEO416GS
+
+*   Set di 4 cavi banana-banana L=1m `KIT416CV`
+*   Set di 4 coccodrilli `COC4-UK`
+*   Borsa per trasporto `BORSA2000N`
+*   Certificato di calibrazione ISO9000
+*   Manuale d’uso
+
+# 11. ASSISTENZA
+
+## 11.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale. Ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+
+*   Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia)
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+## 11.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il servizio di assistenza, controllare lo stato della batteria e dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
+
+# 12. SCHEDE PRATICHE PER LE MISURAZIONI
+
+## 12.1. RESISTENZA DI TERRA NEGLI IMPIANTI TT
+
+Scopo della prova è verificare che il dispositivo di protezione sia coordinato con il valore della resistenza di terra. Non si può assumere a priori un valore di resistenza di terra limite di riferimento (ad esempio 20 Ω come all’art. 326 del DPR 547/55) al quale fare riferimento nel controllo del risultato della misura, ma è necessario di volta in volta controllare che sia rispettato il coordinamento previsto dalla normativa.
+
+Le parti di impianto da verificare sono rappresentate dall’intero impianto di terra nelle condizioni di esercizio. La verifica deve essere eseguita senza scollegare i dispersori.
+
+Il valore della resistenza di terra deve soddisfare la relazione `R A < 50 / I a` ove:
+
+*   `R A` = resistenza dell'impianto di terra il cui valore può essere determinato con le seguenti misurazioni:
+    *   Resistenza di terra con metodo voltamperometrico a tre fili
+    *   Resistenza di terra con metodo voltamperometrico a due fili
+    *   Impedenza dell'anello di guasto fase terra (\*)
+    *   Resistenza di terra con metodo voltamperometrico a due fili nella presa (\*\*)
+    *   Resistenza di terra data dalla misura della tensione di contatto U t (\*\*)
+    *   Resistenza di terra data dalla misura della prova del tempo di intervento degli interruttori differenziali RCD (A, AC), RCD S (A, AC) (\*\*)
+*   `I a` = corrente di intervento in 5s dell'interruttore automatico, corrente nominale di intervento del differenziale (nel caso di RCD S `2 I ∆ n`) espressa in Ampere
+*   `50` = tensione limite di sicurezza (ridotta a 25V in ambienti particolari)
+
+(\*) Qualora a protezione dell'impianto si trovi un interruttore differenziale la misura deve essere effettuata a monte del differenziale stesso oppure a valle ma cortocircuitando l’interruttore differenziale per evitare che questo intervenga
+(\*\*) Questo metodo, pur se non attualmente previsto dalle norme CEI 64.8, fornisce valori che innumerevoli prove di confronto con il metodo a tre fili hanno dimostrato essere indicativi della resistenza di terra
+
+**Esempio**
+Impianto protetto da differenziale `I a = 30 mA`. Si misura la resistenza di terra utilizzando uno dei metodi sopra citati. Per capire se la resistenza dell'impianto sia da considerarsi corretta occorre moltiplicare il valore misurato per 0.03A (30 mA). Se il risultato è inferiore a 50V (o 25V per ambienti particolari) l'impianto è da ritenersi coordinato perché rispetta la relazione sopra indicata.
+In presenza di differenziali da 30 mA (la quasi totalità degli impianti civili) la massima resistenza di terra ammessa è `50 V / 0.03 A = 1666 Ω`. Questo consente di utilizzare anche i metodi semplificati sopra indicati che, pur non fornendo un valore estremamente accurato, forniscono un valore sufficientemente preciso per la verifica del coordinamento.
+
+## 12.2. RESISTENZA DI TERRA METODO VOLTAMPEROMETRICO
+
+### 12.2.1. Predisposizione delle prolunghe
+
+Nel caso in cui la lunghezza dei cavi forniti in dotazione con lo strumento non sia sufficiente, è possibile predisporre delle prolunghe per eseguire la misura nell’impianto in esame senza inficiare la precisione dello strumento stesso.
+
+Per la costruzione delle prolunghe adottare sempre le seguenti indicazioni atte a garantire la sicurezza dell’operatore:
+
+*   Utilizzare sempre cavi caratterizzati da tensione di Isolamento e classe di isolamento adeguate alla tensione nominale e categoria di misura (sovratensione) dell’impianto in esame
+*   Per i terminali delle prolunghe, utilizzare sempre connettori di categoria di misura (sovratensione) e tensione adeguata al punto in cui si intende collegare lo strumento (vedere § 1.4). Si consiglia l’utilizzo dell’accessorio opzionale `1066-IECN`
+
+### 12.2.2. Tecnica per dispersori di piccole dimensioni
+
+Si fa circolare una corrente tra il dispersore di terra in esame e un dispersore ausiliario posizionato ad una distanza dal contorno dell’impianto di terra pari a **5 volte la diagonale dell’area che delimita l’impianto di terra stesso** (vedere Fig. 7). Posizionare la sonda di tensione circa a metà tra il dispersore di terra e la sonda di corrente, infine misurare la tensione tra i due.
+
+(Fig. 7: Misura della resistenza di terra - dispersori di piccole dimensioni)
+
+### 12.2.3. Tecnica per dispersori di grandi dimensioni
+
+Questa tecnica si basa sempre sul metodo voltamperometrico e trova utilizzo qualora risulti difficoltoso posizionare il dispersore ausiliario di corrente ad una distanza pari a 5 volte la diagonale dell’area dell’impianto di terra **riducendo tale distanza ad una sola volta la diagonale dell’impianto di terra** (vedere Fig. 8). Per accertare che la sonda di tensione sia situata al di fuori dalla zona di influenza dell’impianto in prova e del dispersore ausiliario occorre eseguire più misurazioni posizionando inizialmente la sonda di tensione nel punto intermedio tra impianto e dispersore di corrente ausiliario, quindi spostando la sonda sia verso l’impianto in esame, sia verso il dispersore di corrente ausiliario. Queste misurazioni devono fornire risultati compatibili, eventuali sensibili differenze tra i vari valori misurati indicano che la sonda di tensione è stata infissa entro la zona di influenza dell’impianto in prova o del dispersore ausiliario di corrente. Le misure così ottenute non sono attendibili. Occorre allontanare ulteriormente il dispersore ausiliario di corrente dal dispersore in esame e ripetere l’intera procedura sopra descritta.
+
+(Fig. 8: Misura della resistenza di terra - dispersori di grandi dimensioni)
+
+## 12.3. RESISTIVITÀ DEL TERRENO
+
+Scopo della prova è analizzare il valore della resistività del terreno per definire, in fase di progettazione, la tipologia dei dispersori di terra da utilizzare nell'impianto. Per la misura di resistività non esistono valori corretti o non corretti, i vari valori ottenuti utilizzando distanze fra i picchetti “a” crescenti devono essere riportati in un grafico dal quale, in funzione della curva ottenuta, si stabilisce il tipo di dispersori da utilizzare. Poiché la misura può essere falsata da parti metalliche interrate quali tubazioni, cavi, altri dispersori a nastro, ecc. è opportuno eseguire una seconda misurazione con uguale distanza “a” ruotando l’asse dei picchetti di 90°.
+
+(Fig. 9: Misura della resistività del terreno)
+
+Il valore della resistività è dato dalla relazione: `ρ E = 2 π a R` ove:
+
+*   `ρ E` = resistività specifica del terreno
+*   `a` = distanza tra le sonde [m]
+*   `R` = resistenza misurata dallo strumento [Ω]
+
+Il metodo di misura consente di rilevare la resistività specifica di uno strato di terreno di profondità circa uguale alla distanza “a” fra due picchetti. All’aumentare di “a” si rilevano strati di terreno più profondi, pertanto è possibile controllare l'omogeneità del terreno e si può tracciare un profilo dal quale è possibile stabilire l'impiego del dispersore più idoneo.
+
+(Fig. 10: Misurazione della resistività del terreno)
+
+*   **Curva 1**: poiché `ρ E` diminuisce **solo in profondità** è consigliabile utilizzare un dispersore molto profondo
+*   **Curva 2**: `ρ E` diminuisce **solo fino alla profondità a**, pertanto l'aumento della profondità dei dispersori oltre a non porta alcun vantaggio
+*   **Curva 3**: la resistività del terreno è pressoché costante, **con maggiore profondità non si ricava alcuna diminuzione di ρ E**. Il tipo di dispersore più adatto è di tipo ad anello
+
+### 12.3.1. Valutazione approssimativa del contributo di dispersori intenzionali
+
+In prima approssimazione la resistenza di un dispersore Rd può essere calcolata con le seguenti formule (`ρ` resistività media del terreno).
+
+a) resistenza di un dispersore verticale
+`Rd = ρ / L`
+ove `L` = lunghezza dell'elemento a contatto con il terreno
+
+b) resistenza di un dispersore orizzontale
+`Rd = 2 ρ / L`
+ove `L` = lunghezza dell'elemento a contatto con il terreno
+
+c) resistenza di un sistema di elementi magliati
+La resistenza di un sistema complesso composto da più elementi in parallelo è sempre più elevata di quella che risulterebbe calcolando la resistenza parallelo dei singoli elementi. Ciò è tanto più vero quanto più vicini, e quindi più interagenti, risultino gli elementi. Per questo motivo, l'utilizzazione della formula sottoesposta nell'ipotesi di un sistema magliato è più rapida ed efficace del calcolo dei singoli elementi orizzontali e verticali:
+`Rd = ρ / 4r`
+ove `r` = raggio del cerchio che circoscrive la maglia
+```
