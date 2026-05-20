@@ -95,6 +95,11 @@
       "name": "PVCHECKs",
       "description": "Manuale per lo strumento di collaudo e analisi di impianti fotovoltaici."
     },
+      {
+      "id": "PVCHECKsONE.md",
+      "name": "PVCHECKs ONE",
+      "description": "Strumento multifunzione per verifiche di sicurezza elettrica su impianti fotovoltaici fino a 1000V / 30A."
+    },
     {
       "id": "PVCHECKsPRO.md",
       "name": "PVCHECKs PRO",
