@@ -1,9 +1,9 @@
 <!-- Language: it -->
 <!-- Version: 1.0 -->
 
-# Manuale d'uso
+# MERCURY
 
-## MERCURY
+## Manuale d'uso
 
 ## INDICE
 
