@@ -1,9 +1,6 @@
-# MERCURY
-
 <!-- Language: it -->
 <!-- Version: 1.0 -->
 
-<!-- Chunk: Pages 1-44 -->
 # Manuale d'uso
 
 ## MERCURY
