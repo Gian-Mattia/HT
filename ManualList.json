@@ -324,6 +324,16 @@
       "id": "GEO416.md",
       "name": "GEO416, GEO416GS",
       "description": "Tester di messa a terra con funzionalità di archiviazione e download."
+    },
+    {
+      "id": "MERCURY.md",
+      "name": "MERCURY",
+      "description": "Multimetro professionale con termocamera integrata."
+    },
+    {
+      "id": "F3000U.md",
+      "name": "F3000U",
+      "description": "Pinza flessibile con fondo scala 30/300/3000A AC e connettori banana."
     }
   ]
 }
