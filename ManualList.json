@@ -334,6 +334,11 @@
       "id": "F3000U.md",
       "name": "F3000U",
       "description": "Pinza flessibile con fondo scala 30/300/3000A AC e connettori banana."
+    },
+    {
+      "id": "HTA102.md",
+      "name": "HTA102",
+      "description": "Fonometro digitale di Classe 2 con calibratore portatile e collegamento a PC."
     }
   ]
 }
