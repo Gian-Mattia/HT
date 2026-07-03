@@ -1,0 +1,501 @@
+# HTA102
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-18 -->
+(C) Copyright HT ITALIA 2018 Versione IT 1.00 - 17/04/2018 ITALIANO Manuale d’uso
+
+HTA102 IT - 1 Indice
+1.  PRECAUZIONI E MISURE DI SICUREZZA
+    1.1. Istruzioni preliminari
+    1.2. Durante l’utilizzo
+    1.3. Dopo l’utilizzo
+2.  DESCRIZIONE GENERALE
+3.  PREPARAZIONE ALL’UTILIZZO
+    3.1. Controlli iniziali
+    3.2. Alimentazione dello strumento
+    3.3. conservazione
+4.  NOMENCLATURA
+    4.1. Descrizione dello strumento
+    4.2. Descrizione del display
+    4.3. Descrizione dei tasti funzione
+        4.3.1. Tasto ON/OFF
+        4.3.2. Tasto HLD
+        4.3.3. Tasto Retroilluminazione
+        4.3.4. Tasto A/C
+        4.3.5. Tasto LEV
+        4.3.6. Tasto F/S
+        4.3.7. Tasto MAX MIN
+        4.3.8. Tasto REC
+        4.3.9. Tasto SET
+5.  ISTRUZIONI OPERATIVE
+    5.1. Misura in tempo reale del livello di pressione sonora
+    5.2. Registrazione livello di pressione sonora
+    5.3. Collegamento uscita analogica AC/DC
+    5.4. Calibrazione strumento
+6.  USO DEL SOFTWARE SOUNDLINK
+    6.1. Requesiti minimi di sistema
+    6.2. Installazione del software SoundLink e del driver USB
+    6.3. Caratteristiche principali del software SoundLink
+7.  MANUTENZIONE
+    7.1. Generalità
+    7.2. Sostituzione batteria
+    7.3. Pulizia dello strumento
+    7.4. Fine vita
+8.  SPECIFICHE TECNICHE
+    8.1. Caratteristiche tecniche
+    8.2. Caratteristiche generali
+    8.3. Condizioni ambientali di utilizzo
+    8.4. Accessori
+        8.4.1. Accessori in dotazione
+9.  ASSISTENZA
+    9.1. Condizioni di Garanzia
+    9.2. Assistenza
+
+---
+
+HTA102 IT - 2
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+Lo strumento è stato progettato in conformità alle direttive di sicurezza degli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo (simbolo attenzione). Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+*   Non effettuare misure in ambienti umidi.
+*   Non effettuare misure in presenza di gas o materiali esplosivi, combustibili o in ambienti polverosi.
+*   Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come, deformazioni, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc..
+
+Nel presente manuale sono utilizzati i seguenti simboli:
+
+> **Attenzione:** attenersi alle istruzioni riportate nel manuale. Un uso improprio potrebbe causare danni allo strumento o ai suoi componenti.
+> (Simbolo Classe 2) Strumento costruito in Classe 2 (doppio isolamento).
+> (Simbolo CE) Strumento in accordo con le normative relative alla marcatura CE.
+
+## 1.1. Istruzioni preliminari
+*   La invitiamo a seguire le normali regole di sicurezza orientate a proteggere lo strumento contro un utilizzo errato.
+*   Se lo strumento non è stato utilizzato per un lungo periodo oppure è stato utilizzato in condizioni critiche, se ne consiglia una ricalibrazione prima dell’uso (vedere § 5.4).
+*   Controllare se la batteria è inserita correttamente.
+
+## 1.2. Durante l’utilizzo
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> **ATTENZIONE**
+> La mancata osservazione delle Avvertenze e/o Istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+
+*   Non effettuare misure in condizione ambientali diverse da quanto indicato nel § 8.3.
+*   Utilizzare sempre la protezione antivento qualora si eseguano misure in ambienti caratterizzati dalla presenza di correnti d'aria.
+*   Evitare forti sollecitazioni meccaniche e mantenere il microfono asciutto.
+*   Se durante la misura il valore della grandezza in esame rimane costante controllare se è attivata la funzione HOLD.
+
+## 1.3. Dopo l’utilizzo
+*   Al termine delle misure spegnere lo strumento.
+*   Se si prevede di non utilizzare lo strumento per un lungo periodo rimuovere la batteria.
+
+---
+
+HTA102 IT - 3
+# 2. DESCRIZIONE GENERALE
+Lo strumento consente le seguenti funzioni:
+*   Misura del Livello di Pressione Sonora (SPL).
+*   Misure ponderate in frequenza tramite curva A o C.
+*   Misure effettuate con Integrazione FAST o SLOW.
+*   Misura dei Valori Massimo e Minimo dell’SPL.
+*   Uscita analogica AC/DC utilizzabile con multimetri e/o datalogger esterni.
+*   Selezione manuale della portata.
+*   Collegamento a PC tramite software **SoundLink** per operazioni di registrazione.
+
+Sul pannello frontale dello strumento sono presenti i tasti funzione per la selezione delle funzioni sopraelencate (vedere il § 4.3). Il valore misurato appare sull’ampio display LCD con indicazione dell’unità di misura e delle funzioni abilitate. Nella parte laterale dello strumento sono presenti: l’uscita analogica AC/DC, il terminale per l’inserimento dell’alimentatore esterno senza utilizzo della batteria, l’uscita mini USB per collegamento a PC e il trimmer di regolazione. Nella parte posteriore dello strumento è infine presente un foro per l’inserimento dello strumento su un eventuale treppiede durante l’esecuzione delle misure.
+
+---
+
+HTA102 IT - 4
+# 3. PREPARAZIONE ALL’UTILIZZO
+## 3.1. CONTROLLI INIZIALI
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia, comunque, di controllare lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente il rivenditore o il servizio di assistenza HT. Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al § 8.4.1. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al § 9.
+
+## 3.2. ALIMENTAZIONE DELLO STRUMENTO
+Lo strumento è alimentato tramite 1x9V batteria alcalina tipo IEC 6F22 inclusa nella confezione. Quando la batteria è scarica appare il simbolo "(simbolo batteria scarica)". Per sostituire la batteria seguire le istruzioni riportate al § 7.2. Lo strumento può essere alimentato anche con un alimentatore esterno DC 9V (vedere § 8.2) sempre in dotazione.
+
+## 3.3. CONSERVAZIONE
+Per garantire misure precise, dopo un lungo periodo di conservazione in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere § 8.3).
+
+---
+
+HTA102 IT - 5
+# 4. NOMENCLATURA
+## 4.1. DESCRIZIONE DELLO STRUMENTO
+LEGENDA:
+1.  Schermo antivento
+2.  Display LCD
+3.  Tasto (Retroilluminazione)
+4.  Tasto **MAX/MIN**
+5.  Tasto **REC**
+6.  Tasto **HLD**
+7.  Tasto **A/C**
+8.  Tasto **SET**
+9.  Tasto **F/S**
+10. Tasto **LEV**
+11. Tasto **ON/OFF**
+12. Microfono
+13. Ingresso alimentatore esterno
+14. Uscita mini USB
+15. Uscita analogica AC/DC
+16. Trimmer regolazione
+17. Foro per treppiede
+18. Vano batteria
+
+Fig. 1: Descrizione dello strumento
+
+## 4.2. DESCRIZIONE DEL DISPLAY
+LEGENDA:
+1.  Ind. valore basso
+2.  Funzione MIN attiva
+3.  Funzione FAST attiva
+4.  Ind. fuori scala
+5.  Funzione SLOW attiva
+6.  Ind. campo misura
+7.  Autorange attivo
+8.  Funzione HOLD attiva
+9.  Unità ponderazione A
+10. Unità ponderazione C
+11. Registrazione attiva
+12. Memoria piena
+13. Indicazione batteria scarica
+14. Funzione Auto Power OFF attiva
+15. Display LCD
+16. Ora di sistema
+17. Barra grafica analogica
+18. Funzione MAX attiva
+
+Fig. 2: Descrizione del display
+
+---
+
+HTA102 IT - 6
+## 4.3. DESCRIZIONE DEI TASTI FUNZIONE
+### 4.3.1. Tasto ON/OFF
+La pressione del tasto **ON/OFF** permette l’accensione dello strumento. Premere e mantenere premuto il tasto **ON/OFF** per spegnere lo strumento fino allo scadere del conto alla rovescia “3”, “2” “1” e con indicazione “P-OFF” presente a display.
+
+### 4.3.2. Tasto HLD
+La pressione del tasto **HLD** attiva/disabilita la funzione **HOLD** ovvero il fissaggio a display principale del valore della grandezza misurata. Il simbolo "HOLD" appare sulla parte bassa del display. Il tasto **HLD** è utilizzato anche per la conferma dei parametri in fase di programmazione della data/ora di sistema (vedere § 4.3.9) e dell’intervallo di campionamento (vedere § 5.2).
+
+### 4.3.3. Tasto (Retroilluminazione)
+La pressione permette l’attivazione/disattivazione della retroilluminazione del display. Lo stesso tasto può essere usato per definire l’intervallo di campionamento durante una registrazione eseguita con lo strumento (vedere § 5.2).
+
+### 4.3.4. Tasto A/C
+Premere il tasto **A/C** per la selezione delle curve di ponderazione A o C. La curva “A” è utilizzata per generiche misure del livello di pressione sonora (SPL) mentre la curva “C” è utilizzata per misure di SPL con componenti a bassa frequenza. Nel caso in cui la ponderazione C dia risultati molto maggiori della ponderazione A molte componenti di rumore a bassa frequenza sono presenti. Le indicazioni “ dBA ” (ponderazione A) o “ dBC ” (ponderazione C) sono mostrate a display.
+
+### 4.3.5. Tasto LEV
+Premere il tasto **LEV** per la selezione del campo di misura (vedere Fig. 2 – parte 6). I seguenti campi sono disponibili: **30 ÷ 80dB** (basso), **50 ÷ 100dB** (medio), **80 ÷ 130dB** (alto), **30 ÷ 130dB** (Autorange). Il messaggio “AUTO” (vedere Fig. 2 – parte 7) compare con selezione del campo “Autorange”. Il messaggio “UNDER” (vedere Fig. 2 – parte 1) appare con misura inferiore al valore minimo del campo di misura selezionato. Il messaggio “OVER” (vedere Fig. 2 – parte 4) appare con misura superiore al valore massimo del campo di misura selezionato. Il tasto **LEV** è utilizzato anche nella programmazione della data/ora di sistema (vedere § 4.3.9).
+
+### 4.3.6. Tasto F/S
+Premere il tasto **F/S** per la selezione delle integrazioni: “ **FAST** ”  utilizzata per la misura di SPL di breve durata (1 volta ogni 125ms) o “ **SLOW** ”  utilizzata per valutare il valore medio di SPL variabili nel tempo (1 volta ogni secondo).
+
+### 4.3.7. Tasto MAX MIN
+Premere il tasto **MAX MIN** per attivare/disattivare la misura dei valori Massimo e Minimo del livello di pressione sonora (SPL). Prima di utilizzare questa funzione selezionare il campo più appropriato (vedere § 4.3.5). I simboli “MAX” o “MIN” appaiono nella parte alta e il valore Massimo o Minimo sono mostrati a display. Tali valori sono automaticamente aggiornati in presenza di un valore superiore (MAX) o inferiore (MIN). Premere a lungo il tasto **MAX MIN** (>2s) per uscire e tornare al modo di misura.
+
+### 4.3.8. Tasto REC
+Premere il tasto **REC** per attivare/disattivare la registrazione del livello di pressione sonora (SPL) sullo strumento (vedere § 5.2).
+
+---
+
+HTA102 IT - 7
+### 4.3.9. Tasto SET
+Il tasto **SET** permette le seguenti operazioni:
+*   Abilitazione/disattivazione della funzione di autospegnimento (APO) dello strumento. Il simbolo "(simbolo APO)" appare e scompare a display (operazione non possibile con funzione HOLD attiva).
+*   Impostazione della data/ora di sistema operando nel modo seguente:
+    1.  Spegnere lo strumento premendo il tasto **ON/OFF**.
+    2.  Tenendo premuto il tasto **SET** accendere lo strumento con il tasto **ON/OFF**. Rilasciare il tasto **SET** con messaggio “TIME” presente. La seguente videata (vedere Fig. 3 – parte sinistra) indicante la data attuale (ex: 26/03/18) è mostrata a display.
+    
+    Fig. 3: Impostazione ora di sistema
+    
+    3.  Premere il tasto **SET** per entrare nella sezione di impostazione dei “Minuti”. La videata di Fig. 3 – parte centrale) è mostrata a display.
+    4.  Premere il tasto **LEV** per impostare il valore dei minuti e il tasto **SET** per avanzare nella programmazione dell’Ora (vedere Fig. 3 – parte destra).
+    5.  Premere il tasto **LEV** per impostare il valore dell’ora considerando le notazioni “h – P” = PM o “h – A” = AM.
+    6.  Premere il tasto **SET** per avanzare nella programmazione della Data. La videata di Fig. 4 – parte sinistra è mostrata a display.
+    
+    Fig. 4: Impostazione data di sistema
+    
+    7.  Premere il tasto **LEV** per impostare il valore del Giorno e il tasto **SET** per avanzare (vedere Fig. 4 – parte centrale).
+    8.  Premere il tasto **LEV** per impostare il valore del Mese e il tasto **SET** per avanzare (vedere Fig. 4 – parte destra).
+    9.  Premere il tasto **LEV** per impostare il valore dell’Anno e il tasto **HLD** per confermare la data/ora e uscire dalla programmazione.
+
+---
+
+HTA102 IT - 8
+10. Al termine dell’impostazione dell’Anno, premendo ancora il tasto **SET** la seguente videata è mostrata a display.
+    
+    Fig. 5: Attivazione reset dello strumento
+    
+11. Premere il tasto **SET** per salvare la data/ora e uscire dalla programmazione OPPURE
+12. Premere il tasto **HLD** per eseguire il reset. In questo caso la data/ora di sistema è riportata automaticamente dallo strumento alla configurazione di default. Tale condizione deve essere utilizzata se non è possibile impostare la data/ora in caso di livello basso di batteria o sostituzione della stessa.
+
+---
+
+HTA102 IT - 9
+# 5. ISTRUZIONI OPERATIVE
+## 5.1. MISURA IN TEMPO REALE DEL LIVELLO DI PRESSIONE SONORA
+
+> **ATTENZIONE**
+> Utilizzare sempre lo schermo antivento qualora si effettuino misure in ambienti caratterizzati dalla presenza di correnti d'aria e comunque con vento superiore a 10m/s. Evitare forti sollecitazioni meccaniche e mantenere il microfono asciutto.
+
+1.  Accendere lo strumento tramite il tasto **ON/OFF**.
+2.  Verificare la data/ora di sistema e se necessario re-impostarla (vedere § 4.3.9).
+3.  Eseguire una calibrazione qualora lo strumento non fosse stato usato da lungo tempo usando il calibratore portatile **SC05** in dotazione (vedere § 5.4).
+4.  Premere il tasto **A/C** per selezionare la curva di ponderazione (vedere § 4.3.4).
+5.  Premere il tasto **F/S** per selezionare il tipo di integrazione (veder § 4.3.6).
+6.  Premere il tasto **LEV** per selezionare il campo adeguato al livello di pressione sonora (SPL) che si intende misurare (vedere § 4.3.5).
+7.  Leggere a display l'indicazione dell’SPL misurato.
+8.  Per maggiore comodità usare il treppiede in dotazione inserendolo nell’apposito foro a vite presente nella parte posteriore (vedere Fig. 1 – parte 17).
+9.  Per le funzioni HOLD e MAX MIN vedere i § 4.3.2 e 4.3.7.
+
+## 5.2. REGISTRAZIONE LIVELLO DI PRESSIONE SONORA
+Lo strumento permette di eseguire una registrazione nel tempo del livello di pressione sonora (SPL) con intervallo di campionamento programmabile. Ogni registrazione è salvata nella memoria interna e può essere scaricata e visualizzata a PC tramite collegamento con software **SoundLink** in dotazione.
+
+1.  Accendere lo strumento tramite il tasto **ON/OFF**.
+2.  Verificare la data/ora di sistema e se necessario re-impostarla (vedere § 4.3.9).
+3.  Spegnere lo strumento con il tasto **ON/OFF**.
+4.  Azzerare la memoria interna premendo e mantenendo premuto il tasto **REC** mentre si accende lo strumento con il tasto **ON/OFF**. La seguente videata appare a display per un istante.
+    
+    Fig. 6: Azzeramento della memoria interna
+    
+5.  Spegnere lo strumento con il tasto **ON/OFF**.
+
+---
+
+HTA102 IT - 10
+6.  Impostare l’intervallo di campionamento premendo e mantenendo premuto il tasto (Retroilluminazione) mentre si accende lo strumento con il tasto **ON/OFF**. La seguente videata è mostrata a display:
+    
+    Fig. 7: Impostazione intervallo di campionamento
+    
+7.  Premere il tasto **LEV** per impostare l’intervallo di campionamento nel campo **1s ÷ 59s**.
+8.  Premere il tasto **HLD** per confermare e tornare alla videata di misura.
+9.  Eseguire una calibrazione qualora lo strumento non fosse stato usato da lungo tempo usando il calibratore portatile **SC05** in dotazione (vedere § 5.4).
+10. Premere il tasto **A/C** per selezionare la curva di ponderazione (vedere § 4.3.4).
+11. Premere il tasto **F/S** per selezionare il tipo di integrazione (veder § 4.3.6).
+12. Premere il tasto **LEV** per selezionare il campo adeguato al livello di pressione sonora (SPL) che si intende misurare (vedere § 4.3.5).
+13. Collegare l’alimentatore esterno in dotazione all’ingresso dello strumento (vedere Fig. 1 – parte 13).
+14. Osservando l’indicazione dell’ora di sistema (vedere Fig. 2 – parte 16) premere il tasto **REC** per attivare la registrazione nell’istante desiderato. Il messaggio “REC” è presente nella parte bassa del display (vedere Fig. 8).
+    
+    Fig. 8: Attivazione registrazione SPL
+    
+15. Premere il tasto **REC** per terminare e salvare automaticamente la registrazione all’istante desiderato.
+16. Collegare lo strumento a PC tramite il cavo USB in dotazione (vedere Fig. 1 – parte 14).
+17. Lanciare il software **SoundLink**.
+18. Premere il tasto **SET** escludendo la funzione di autospegnimento (simbolo "(simbolo APO)" assente a display) verificando la connessione corretta tra strumento e software (vedere Help on line del software).
+19. Selezionare il comando **DataLogger** sul software **SoundLink**. La schermata seguente è mostrata a PC.
+
+---
+
+HTA102 IT - 11
+    
+    Fig. 9: Download e visualizzazione registrazione su software SoundLink
+    
+20. Eseguire un doppio click sul nome della registrazione. Il grafico relativo è presente nella videata all’interno del software.
+
+Per informazioni sull’uso del software SoundLink fare riferimento all’Help in linea del programma stesso.
+
+21. Spegnere lo strumento con il tasto **ON/OFF**.
+
+## 5.3. COLLEGAMENTO USCITA ANALOGICA AC/DC
+Lo strumento può essere collegato a multimetri e/o datalogger esterni a scopo registrazione tramite l’uscita analogica AC/DC presenti nella parte laterale dello strumento (vedere Fig. 1 – parte 15) usando un jack da 3.5mm non fornito in dotazione. Le caratteristiche dell’ uscita analogica sono riportate nella seguente Fig. 10.
+
+| Uscita AC                    | Uscita DC                  |
+| :--------------------------- | :------------------------- |
+| **1Vrms** rispetto FS selezionato | Uscita: **10mV/dB**        |
+| Impedenza di uscita: **100 Ω** | Impedenza uscita: **1k Ω** |
+
+Fig. 10: Caratteristiche uscita analogica AC/DC
+
+---
+
+HTA102 IT - 12
+## 5.4. CALIBRAZIONE STRUMENTO
+Fig. 11: Collegamento calibratore portatile allo strumento
+
+1.  Accendere lo strumento con il tasto **ON/OFF**.
+2.  Impostare le seguenti configurazioni:
+    Curva di ponderazione: A (dBA)
+    Tipo di integrazione: FAST
+    Campo misura: 50 ÷ 100dB
+3.  Inserire delicatamente il calibratore portatile **SC05** in dotazione nel microfono dello strumento fino allo scatto, come mostrato in Fig. 11.
+4.  Accendere il calibratore selezionando il livello **94dB** alla frequenza 1kHz sinusoidale.
+5.  Inserire il giravite in dotazione nel trimmer (vedere Fig. 1 – parte 16) ed effettuare la regolazione manuale fino alla visualizzazione del risultato “94.0” a display.
+6.  Estrarre il calibratore dal microfono e spegnerlo spostando il relativo selettore sulla posizione **OFF**.
+
+---
+
+HTA102 IT - 13
+# 6. USO DEL SOFTWARE SOUNDLINK
+Il software “**SoundLink**” è utilizzabile per il collegamento a PC dello strumento HTA102, avvio registrazioni in tempo reale del livello di pressione sonora (SPL) e salvataggio dati.
+
+## 6.1. REQUESITI MINIMI DI SISTEMA
+*   **Hardware**: Pentium IV
+*   **Memoria RAM**: 32MB
+*   **Interfaccia di uscita**: porte USB
+*   **Lettore CD-ROM**: presente
+*   **Risoluzione schermo**: 800x600 (16 bit)
+*   **Sistema operativo**: Windows XP o superiore
+
+## 6.2. INSTALLAZIONE DEL SOFTWARE SOUNDLINK E DEL DRIVER USB
+1.  Inserire il CD-ROM di installazione nel lettore su PC.
+2.  Lanciare il file “**SoundLink_setup.exe**” presente all’interno del CD-ROM e seguire la procedura guidata di installazione.
+3.  Installare il driver USB lanciando i file ”**CP210XCPInstaller_x86.exe**” (sistemi 32 bit) o “**CP210XCPInstaller_x64.exe**” (sistemi 64 bit) presenti all’interno del CD-ROM.
+4.  Fare riferimento alle porte **COM3** o **COM4** per il collegamento dello strumento a PC.
+
+## 6.3. CARATTERISTICHE PRINCIPALI DEL SOFTWARE SOUNDLINK
+Con programma avviato la seguente schermata iniziale è mostrata a PC.
+
+Fig. 12: Schermata di avvio del software SoundLink
+
+Caratteristiche principali del software SoundLink:
+*   Visualizzazione in tempo reale dei valori presenti a display dello strumento.
+*   Impostazione intervallo di campionamento registrazione (DataLogger).
+*   Avvio registrazione del SPL e visualizzazione dati in formato numerico/grafico.
+*   Salvataggio dati in formato testo TXT ed esportazione in ambiente Excel (XLS).
+
+Per informazioni sull’uso del software SoundLink fare riferimento all’Help in linea del programma stesso.
+
+---
+
+HTA102 IT - 14
+# 7. MANUTENZIONE
+## 7.1. GENERALITÀ
+Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo. Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole. Spegnere sempre lo strumento dopo l’utilizzo. Se si prevede di non utilizzarlo per un lungo periodo rimuovere la batteria per evitare fuoruscite di liquidi da parte di quest’ultima che possano danneggiare i circuiti interni dello strumento.
+
+## 7.2. SOSTITUZIONE BATTERIA
+Quando sul display LCD appare il simbolo "(simbolo batteria scarica)" occorre sostituire la batteria.
+
+> **ATTENZIONE**
+> Solo tecnici esperti possono effettuare questa operazione. Prima di effettuare questa operazione assicurarsi di aver rimosso la sonda dal terminale di ingresso.
+
+1.  Spegnere lo strumento.
+2.  Rimuovere il coperchio del vano batterie (vedere Fig. 1 – parte 18).
+3.  Scollegare la batteria dal connettore.
+4.  Collegare la batteria nuova al connettore rispettando le polarità indicate.
+5.  Riposizionare il coperchio del vano batteria.
+6.  Non disperdere la batteria usata nell’ambiente. Usare gli appositi contenitori per lo smaltimento dei rifiuti.
+
+## 7.3. PULIZIA DELLO STRUMENTO
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+## 7.4. FINE VITA
+Attenzione: il simbolo (simbolo WEEE/smaltimento separato) riportato indica che l'apparecchiatura ed i suoi accessori deve essere raccolta separatamente e trattata in modo corretto.
+
+---
+
+HTA102 IT - 15
+# 8. SPECIFICHE TECNICHE
+## 8.1. CARATTERISTICHE TECNICHE
+L’incertezza è riferita alla temperatura di 23°C±5°C con umidità relativa <80%RH
+
+**Livello pressione sonora (SPL)**
+
+| Campo [dB] | Range dinamico | Risoluzione | Incertezza  | Campo frequenza |
+| :--------- | :------------- | :---------- | :---------- | :-------------- |
+| Lo 30 ÷ 80 | 50dB           | 0.1dB       | ± 1.4dB     | 31.5Hz ÷ 8kHz   |
+| Med 50 ÷ 100 |              |             |             |                 |
+| Hi 80 ÷ 130 |               |             |             |                 |
+| Auto 30 ÷ 130 |              |             |             |                 |
+
+**Integrazione**
+
+| Funzione | Tempo integrazione |
+| :------- | :----------------- |
+| FAST     | 125ms              |
+| SLOW     | 1s                 |
+
+**Uscita analogica**
+
+| Tipo | Tensione in uscita              | Impedenza di uscita |
+| :--- | :------------------------------ | :------------------ |
+| AC   | 1Vrms rispetto al FS selezionato | 100 Ω               |
+| DC   | 10mV/dB                         | 1k Ω                |
+
+**Microfono**
+Microfono Electret a condensatore da ½”
+
+**Normative di riferimento**
+
+| Misure di rumore: | IEC61672-1 Classe 2 |
+| :---------------- | :------------------ |
+| EMC:              | IEC/EN61326-1       |
+
+## 8.2. CARATTERISTICHE GENERALI
+**Caratteristiche meccaniche**
+
+| Dimensioni (L x La x H): | 260 x 65 x 50mm |
+| :----------------------- | :-------------- |
+| Peso (batteria inclusa): | 280g            |
+| Protezione meccanica:    | IP40            |
+
+**Alimentazione**
+
+| Tipo batteria:              | 1x 9V batteria alcalina IEC 6F22 |
+| :-------------------------- | :------------------------------- |
+| Indicazione batteria scarica: | simbolo "(simbolo batteria scarica)" mostrato a display |
+| Autonomia:                  | circa 30 ore                     |
+| Alimentatore esterno:       | 100-240VAC, 50/60Hz, 0.3A / 9VDC, 500mA |
+| Auto Power OFF:             | dopo 15 minuti di non utilizzo   |
+
+**Display**
+
+| Caratteristiche:   | 4 LCD, Custom, retroilluminato, barra grafica |
+| :----------------- | :-------------------------------------------- |
+| Aggiornamento display: | 2volte/s                                      |
+
+**Registrazioni**
+
+| intervallo campionamento | selezionabile tra 1s e 59s |
+| :----------------------- | :------------------------- |
+| max                      | 32700 registrazioni salvabili nella memoria interna |
+
+**Connettore di uscita**
+
+| Connettore di uscita: | mini USB |
+
+---
+
+HTA102 IT - 16
+## 8.3. CONDIZIONI AMBIENTALI DI UTILIZZO
+*   Temperatura di riferimento: 23°C ± 5°C
+*   Temperatura di utilizzo: 0°C ÷ 40°C
+*   Umidità relativa ammessa: <90%RH
+*   Temperatura di immagazzinamento: -10°C ÷ 60 °C
+*   Umidità di immagazzinamento: <75%RH
+*   Max altitudine di utilizzo: 2000m
+
+Questo strumento è conforme ai requisiti della Direttiva EMC 2014/30/EU
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/EU (RoHS) e della direttiva europea 2012/19/EU (WEEE)
+
+## 8.4. ACCESSORI
+### 8.4.1. Accessori in dotazione
+*   Calibratore portatile **SC05**
+*   Protezione antivento
+*   Giravite di regolazione
+*   Cavo USB
+*   CD-ROM con software **SoundLink**
+*   Treppiede
+*   Batteria 9V, 2 pezzi
+*   Alimentatore + 4 plugs universali
+*   Manuale d’uso strumento
+*   Manuale d’uso calibratore
+*   Custodia rigida per trasporto
+
+---
+
+HTA102 IT - 17
+# 9. ASSISTENZA
+## 9.1. CONDIZIONI DI GARANZIA
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+*   Riparazione e/o sostituzione accessori e batteria (non coperti da garanzia).
+*   Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+*   Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+*   Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+*   Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+*   Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+## 9.2. ASSISTENZA
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato della batteria e dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale. Qualora lo strumento debba essere restituito al servizio post - vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
