@@ -211,6 +211,11 @@
       "description": "Analizzatore di rete trifase."
     },
     {
+      "id": "VEGA78.md",
+      "name": "VEGA78",
+      "description": "Analizzatore di rete trifase."
+    },
+    {
       "id": "HT14D.md",
       "name": "HT14D",
       "description": "Multimetro digitale tascabile."
