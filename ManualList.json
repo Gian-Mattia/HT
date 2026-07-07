@@ -344,6 +344,11 @@
       "id": "HTA102.md",
       "name": "HTA102",
       "description": "Fonometro digitale di Classe 2 con calibratore portatile e collegamento a PC."
+    },
+    {
+      "id": "HT82.md",
+      "name": "HT82",
+      "description": "Misuratore del senso ciclico delle fasi autoalimentato."
     }
   ]
 }
