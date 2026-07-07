@@ -1,0 +1,228 @@
+# HT82
+
+<!-- Language: it -->
+<!-- Version: 1.0 -->
+
+<!-- Chunk: Pages 1-7 -->
+© Copyright HT ITALIA 2021 | Versione IT 5.00 - 20/09/24 | ITALIANO | Manuale d’uso
+
+---
+
+# INDICE
+
+* **1. PRECAUZIONI E MISURE DI SICUREZZA** (Pag. 2)
+  * 1.1. Istruzioni preliminari (Pag. 2)
+  * 1.2. Durante l’utilizzo (Pag. 2)
+* **2. NOMENCLATURA** (Pag. 3)
+  * 2.1. Descrizione dello strumento (Pag. 3)
+* **3. PREPARAZIONE ALL’UTILIZZO** (Pag. 3)
+  * 3.1. Controlli iniziali (Pag. 3)
+  * 3.2. Alimentazione dello strumento (Pag. 3)
+  * 3.3. Conservazione (Pag. 3)
+* **4. ISTRUZIONI OPERATIVE** (Pag. 4)
+* **5. MANUTENZIONE** (Pag. 4)
+  * 5.1. Generalità (Pag. 4)
+  * 5.2. Pulizia dello strumento (Pag. 4)
+  * 5.3. Fine vita (Pag. 4)
+* **6. SPECIFICHE TECNICHE** (Pag. 5)
+  * 6.1. Caratteristiche tecniche (Pag. 5)
+    * 6.1.1. Caratteristiche elettriche (Pag. 5)
+    * 6.1.2. Normative di riferimento (Pag. 5)
+    * 6.1.3. Caratteristiche meccaniche (Pag. 5)
+  * 6.2. Ambiente (Pag. 5)
+    * 6.2.1. Condizioni ambientali di utilizzo (Pag. 5)
+  * 6.3. Accessori (Pag. 5)
+    * 6.3.1. Accessori in dotazione (Pag. 5)
+    * 6.3.2. Accessori opzionali (Pag. 5)
+* **7. ASSISTENZA** (Pag. 6)
+  * 7.1. Condizioni di garanzia (Pag. 6)
+  * 7.2. Assistenza (Pag. 6)
+
+---
+
+# 1. PRECAUZIONI E MISURE DI SICUREZZA
+
+Lo strumento è stato progettato in conformità alle direttive IEC/EN61557-1 e IEC/EN61010-1, relative agli strumenti di misura elettronici. Per la Sua sicurezza e per evitare di danneggiare lo strumento, La preghiamo di seguire le procedure descritte nel presente manuale e di leggere con particolare attenzione tutte le note precedute dal simbolo $\triangle$.
+
+Prima e durante l’esecuzione delle misure attenersi scrupolosamente alle seguenti indicazioni:
+
+* Non effettuare misure in ambienti umidi o polverosi, in presenza di gas o materiali esplosivi o combustibili.
+* Evitare contatti con il circuito in esame se non si stanno effettuando misure.
+* Evitare contatti con parti metalliche esposte, con terminali di misura inutilizzati, circuiti, ecc.
+* Non effettuare alcuna misura qualora si riscontrino anomalie nello strumento come deformazioni, rotture, fuoriuscite di sostanze, assenza di visualizzazione sul display, ecc.
+* Prestare particolare attenzione quando si effettuano misure di tensioni superiori a 20V in quanto è presente il rischio di shock elettrici.
+
+Nel presente manuale sono utilizzati i seguenti simboli:
+
+> ⚠️ **ATTENZIONE** – attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento o ai suoi componenti.
+>
+> 🗲 **Strumento con doppio isolamento.**
+>
+> ∿ **Tensione AC**
+
+### 1.1. ISTRUZIONI PRELIMINARI
+
+* Questo strumento è stato progettato per un utilizzo in un ambiente con livello di inquinamento 2.
+* Può essere utilizzato per la verifica del senso ciclico delle fasi su installazioni in **CAT IV 300V** e **CAT III 600V** verso terra.
+* La invitiamo a seguire le normali regole di sicurezza orientate a proteggerLa contro correnti pericolose e proteggere lo strumento contro un utilizzo errato.
+* Solo i puntali forniti a corredo dello strumento garantiscono gli standard di sicurezza. Essi devono essere in buone condizioni e sostituiti, se necessario, con modelli identici.
+* Questo strumento non è adatto per misure di tensioni non sinusoidali.
+* Non effettuare misure su circuiti che superino i limiti di tensione specificati o in condizioni ambientali che eccedano le limitazioni indicate nei **§ 6.1.1** e **§ 6.2.1**.
+
+### 1.2. DURANTE L’UTILIZZO
+
+La preghiamo di leggere attentamente le raccomandazioni e le istruzioni seguenti:
+
+> ⚠️ **ATTENZIONE**
+> La mancata osservazione delle avvertenze e/o istruzioni può danneggiare lo strumento e/o i suoi componenti o essere fonte di pericolo per l’operatore.
+> Quando lo strumento è connesso al circuito in esame non toccare mai un qualunque terminale inutilizzato.
+
+---
+
+# 2. NOMENCLATURA
+
+### 2.1. DESCRIZIONE DELLO STRUMENTO
+
+**LEGENDA:**
+1. Terminali di ingresso
+2. Display
+
+*Fig. 1: Descrizione dello strumento*
+
+---
+
+# 3. PREPARAZIONE ALL’UTILIZZO
+
+### 3.1. CONTROLLI INIZIALI
+
+Lo strumento, prima di essere spedito, è stato controllato dal punto di vista elettrico e meccanico. Sono state prese tutte le precauzioni possibili affinché lo strumento potesse essere consegnato senza danni. Tuttavia si consiglia di controllare lo strumento per accertare eventuali danni subiti durante il trasporto. Se si dovessero riscontrare anomalie contattare immediatamente il rivenditore.
+
+Si consiglia inoltre di controllare che l’imballaggio contenga tutte le parti indicate al **§ 6.3.1**. In caso di discrepanze contattare il rivenditore. Qualora fosse necessario restituire lo strumento, si prega di seguire le istruzioni riportate al **§ 7**.
+
+### 3.2. ALIMENTAZIONE DELLO STRUMENTO
+
+Lo strumento è autoalimentato dalla rete elettrica.
+
+### 3.3. CONSERVAZIONE
+
+Per garantire misure precise, dopo un lungo periodo di immagazzinamento in condizioni ambientali estreme, attendere che lo strumento ritorni alle condizioni normali (vedere **§ 6.2.1**).
+
+---
+
+# 4. ISTRUZIONI OPERATIVE
+
+> ⚠️ **ATTENZIONE**
+> Non effettuare misure su circuiti che superino i limiti di tensione specificati. Il superamento dei limiti di tensione potrebbe causare shock elettrici all’utilizzatore e danni allo strumento.
+
+1. Collegare i tre cavi allo strumento rispettandone la numerazione.
+2. Innestare i coccodrilli sulle estremità dei cavi di misura rimaste libere.
+3. Posizionare i coccodrilli sulla terna di cavi di cui occorre verificare il senso ciclico delle tensioni.
+4. Le indicazioni come quelle riportate nella seguente **Tabella 1** (vedere anche parte posteriore dello strumento) sono mostrate a display.
+
+| Descrizione | Simboli presenti a display L1 L2 L3 |
+| :--- | :---: |
+| Indicazione senso ciclico corretto | OK |
+| Indicazione senso ciclico incorretto | ↻ / ↺ |
+| Mancanza fase L1 | Spento / Errore |
+| Mancanza fase L2 | Spento / Errore |
+| Mancanza fase L3 | Spento / Errore |
+
+*Tabella 1: Elenco funzioni disponibili sullo strumento*
+
+* $●$ = Simbolo acceso
+* $○$ = Simbolo spento
+
+---
+
+# 5. MANUTENZIONE
+
+### 5.1. GENERALITÀ
+
+Durante l’utilizzo e la conservazione rispettare le raccomandazioni elencate in questo manuale per evitare possibili danni o pericoli durante l’utilizzo. Non utilizzare lo strumento in ambienti caratterizzati da elevato tasso di umidità o temperatura elevata. Non esporre direttamente alla luce del sole.
+
+### 5.2. PULIZIA DELLO STRUMENTO
+
+Per la pulizia dello strumento utilizzare un panno morbido e asciutto. Non usare mai panni umidi, solventi, acqua, ecc.
+
+### 5.3. FINE VITA
+
+> ⚠️ **ATTENZIONE:** il simbolo riportato sullo strumento indica che lo strumento ed i suoi accessori devono essere raccolti separatamente e trattati in modo corretto.
+
+---
+
+# 6. SPECIFICHE TECNICHE
+
+### 6.1. CARATTERISTICHE TECNICHE
+
+#### 6.1.1. Caratteristiche elettriche
+* **Tensione di ingresso ammessa:** 40V ÷ 690V AC
+* **Frequenza di ingresso ammessa:** 15Hz ÷ 400Hz
+* **Assorbimento di corrente (per fase):** 1mA
+
+#### 6.1.2. Normative di riferimento
+* **Sicurezza:** IEC/EN61010-1
+* **EMC:** IEC/EN61326-1
+* **Senso ciclico delle fasi:** IEC/EN61557-7
+* **Isolamento:** doppio isolamento
+* **Livello di Inquinamento:** 2
+* **Categoria di misura:** CAT III 600V, CAT IV 300V verso terra
+* **Altitudine max di utilizzo:** 2000m
+
+#### 6.1.3. Caratteristiche meccaniche
+* **Dimensioni (L x La x H):** 130 x 69 x 22 mm
+* **Peso:** 130g
+* **Protezione meccanica:** IP40
+* **Alimentazione:** Direttamente dalla rete.
+* **Display:** Custom con indicazione del senso ciclico e delle fasi individuate.
+
+### 6.2. AMBIENTE
+
+#### 6.2.1. Condizioni ambientali di utilizzo
+* **Temperatura di utilizzo:** 0°C ÷ 40°C
+* **Umidità relativa ammessa:** <80% RH
+* **Temperatura di immagazzinamento:** 0°C ÷ 40°C
+* **Umidità di immagazzinamento:** <80% RH
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione 2014/35/EU (LVD) e della direttiva EMC 2014/30/EU.
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/CE (RoHS) e della direttiva europea 2012/19/CE (WEEE).
+
+### 6.3. ACCESSORI
+
+#### 6.3.1. Accessori in dotazione
+* **KIT82:** set di 3 cavi di misura neri + 3 terminali a coccodrillo neri
+* Borsa per trasporto
+* Manuale d’uso
+
+#### 6.3.2. Accessori opzionali
+* **404-IEC#:** puntale di misura (# = colore)
+* **5004-IEC#:** terminale a coccodrillo (# = colore)
+* **5001-#:** cavo di misura (# = colore)
+
+---
+
+# 7. ASSISTENZA
+
+### 7.1. CONDIZIONI DI GARANZIA
+
+Questo strumento è garantito contro ogni difetto di materiale e fabbricazione, in conformità con le condizioni generali di vendita. Durante il periodo di garanzia, le parti difettose possono essere sostituite, ma il costruttore si riserva il diritto di riparare ovvero sostituire il prodotto.
+
+Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento.
+
+Per la spedizione utilizzare solo l’imballo originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente. Il costruttore declina ogni responsabilità per danni causati a persone o oggetti.
+
+La garanzia non è applicata nei seguenti casi:
+* Riparazione e/o sostituzione accessori (non coperti da garanzia).
+* Riparazioni che si rendono necessarie a causa di un errato utilizzo dello strumento o del suo utilizzo con apparecchiature non compatibili.
+* Riparazioni che si rendono necessarie a causa di un imballaggio non adeguato.
+* Riparazioni che si rendono necessarie a causa di interventi eseguiti da personale non autorizzato.
+* Modifiche apportate allo strumento senza esplicita autorizzazione del costruttore.
+* Utilizzo non contemplato nelle specifiche dello strumento o nel manuale d’uso.
+
+Il contenuto del presente manuale non può essere riprodotto in alcuna forma senza l’autorizzazione del costruttore.
+I nostri prodotti sono brevettati e i marchi depositati. Il costruttore si riserva il diritto di apportare modifiche alle specifiche ed ai prezzi se ciò è dovuto a miglioramenti tecnologici.
+
+### 7.2. ASSISTENZA
+
+Se lo strumento non funziona correttamente, prima di contattare il Servizio di Assistenza, controllare lo stato dei cavi e sostituirli se necessario. Se lo strumento continua a manifestare malfunzionamenti controllare se la procedura di utilizzo dello stesso è conforme a quanto indicato nel presente manuale.
+
+Qualora lo strumento debba essere restituito al servizio post-vendita o ad un rivenditore, il trasporto è a carico del Cliente. La spedizione dovrà, in ogni caso, essere preventivamente concordata. Allegata alla spedizione deve essere sempre inserita una nota esplicativa circa le motivazioni dell’invio dello strumento. Per la spedizione utilizzare solo l’imballaggio originale; ogni danno causato dall’utilizzo di imballaggi non originali verrà addebitato al Cliente.
