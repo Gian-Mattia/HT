@@ -156,6 +156,11 @@
       "description": "Pinza amperometrica AC/DC TRMS CAT IV con misura di temperatura."
     },
     {
+      "id": "HT9022.md",
+      "name": "HT9022",
+      "description": "Pinza amperometrica AC/DC TRMS CAT IV con misura di potenza e armoniche con collegamento Bluetooth."
+    },
+    {
       "id": "HT401.md",
       "name": "HT401",
       "description": "Multimetro professionale TRMS con misura AC + DC ed ingresso a bassa impedenza LoZ."
