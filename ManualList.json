@@ -266,6 +266,11 @@
       "description": "Multimetro digitale TRMS per misure di tensione DC fino a 1500V."
     },
     {
+      "id": "HT4005N.md",
+      "name": "HT4005",
+      "description": "Pinza standard con fondo scala 5/100A AC e connettori banana."
+    },
+    {
       "id": "HT4006.md",
       "name": "HT4006",
       "description": "Pinza standard con fondo scala 40/400A AC/DC e connettori banana."
