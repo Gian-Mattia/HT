@@ -4,7 +4,6 @@
 <!-- Version: 1.0 -->
 
 <!-- Chunk: Pages 1-1 -->
-# HT4005N
 
 **Rel. 1.00 del 30/01/09** | **Metel: HP04005N** | **Pag 1 of 1**
 
@@ -45,11 +44,11 @@ Email: vendite@htitalia.it - Web: http://www.htitalia.com
 ### Portata 5A FS
 | Campo di misura | 0 ÷ 5mA | 5mA ÷ 50mA | 50mA ÷ 0.5A | 0.5A ÷ 5A |
 | :--- | :---: | :---: | :---: | :---: |
-| **Incertezza uscita** | - | ± 1.5% lettura | ± 1% lettura | ± 1% lettura |
+| **Incertezza uscita** | ± 1.5% lettura | ± 1.5% lettura | ± 1% lettura | ± 1% lettura |
 | **Errore di fase** | 6.5° | 5° | 4.5° | 4° |
 
 ### Portata 100A FS
 | Campo di misura | 0 ÷ 0.1A | 0.1A ÷ 1A | 1A ÷ 10A | 10A ÷ 100A |
 | :--- | :---: | :---: | :---: | :---: |
-| **Incertezza uscita** | - | - | ± 1% lettura | ± 1% lettura |
-| **Errore di fase** | - | - | 3.2° | 2.2° |
+| **Incertezza uscita** | ± 1% lettura | ± 1% lettura | ± 1% lettura | ± 1% lettura |
+| **Errore di fase** | 3.2° | 2.2° | 2.2° | 2.2° |
