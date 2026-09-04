@@ -359,6 +359,11 @@
       "id": "HT82.md",
       "name": "HT82",
       "description": "Misuratore del senso ciclico delle fasi autoalimentato."
+    },
+    {
+      "id": "HT8100.md",
+      "name": "HT8100",
+      "description": "Multimetro/calibratore di processo professionale."
     }
   ]
 }
