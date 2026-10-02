@@ -1,0 +1,39 @@
+# I-V600
+
+<!-- Document: I-V600 -->
+<!-- Language: it | Version: 1.0 -->
+<!-- Generated via High-Fidelity PDFtoMD Parser -->
+
+## Dotazione standard
+
+La confezione contiene: 
+
+| Accessorio | Descrizione | 
+| :--- | :--- |
+| KITPVMC415 | Set 2 cavi con banana maschio/MC4, Rosso/Nero, 3m e set di 2 adattatori con terminazione coccodrillo/MC4, Rosso/Nero |
+| SP-2003 | Set di cinghie per trasporto valigia strumento |
+| A0061 | Alimentatore caricabatteria con cavo a spina Shuko |
+| C2010 | Cavo di collegamento USB-A/USB-C, 1.5m |
+| SOLAR03 | Unità remota |
+| HT305 | Cella di riferimento per misura irraggiamento completa di staffa e viti di fissaggio |
+| PT305 | Sonda PT1000 per misura temperatura celle |
+| M304 | Inclinometro meccanico per rilevazione angolo di incidenza solare |
+| SP-2002 | Cinghia per SOLAR03 |
+| YABAT0003000 | Batteria ricaricabile tipo AA NiMH, 1.2V (18 pz) |
+| YABAT0004001 | Caricabatteria esterno |
+| BORSAZAINO | Zaino professionale per accessori strumento |
+| YAMUM0088HT0 | Guida rapida all’uso I-V600 |
+| YAMUM0089HT0 | Guida rapida all’uso SOLAR03, HT305 |
+| - | Rapporto di taratura I-V600 |
+| - | Rapporto di taratura SOLAR03 |
+| - | Rapporto di taratura HT305 |
+
+Nota: gli elementi dei quali non viene riportato il codice non sono ordinabili singolarmente
+
+## Dotazione opzionale
+
+| Accessorio | Descrizione |
+| :--- | :--- | :--- | :--- |
+| HT305 | Cella di riferimento per misura irraggiamento completa di staffa e viti di fissaggio |
+| KIT2TIPS15 | Set 2 puntali Nero/Rosso con terminazione MC4 |
+| BIFACIALKIT | KIT DI 2 X HT305, Cella di riferimento per misura irraggiamento |
