@@ -4,15 +4,6 @@
 <!-- Language: it | Version: 1.0 -->
 <!-- Generated via High-Fidelity PDFtoMD Parser -->
 
-<!-- Chunk: Pagina 1 -->
-## Indice
-
-- [14.3 Accessori](#143-accessori)
-  - [14.3.1 Dotazione standard](#1431-dotazione-standard)
-  - [14.3.2 Dotazione opzionale](#1432-dotazione-opzionale)
-
----
-
 ## 14.3 ACCESSORI – ACCESSORIES – ACCESORIOS – ZUBEHÖR
 
 ### 14.3.1 Dotazione standard - Standard accessories - Dotación estándar – Serienmäßig
