@@ -20,7 +20,7 @@ La confezione contiene:
 
 | Accessorio | Descrizione |
 | :--- | :--- |
-| HTFLEX33 | Pinza flessibile 3000A AC, max diam cavo 174mm, 4pcs |
+| HTFLEX33e | Pinza flessibile 3000A AC, max diam cavo 174mm, 4pcs |
 | C2033X | Cavo tre fili con spina Shuko |
 | UNIVERSALKITG3 | Set di 4 cavi + 4 coccodrilli + 4 puntali |
 | KITTERRNE | Set 4 cavi + 4 sonde di terra + borsa per trasporto |
@@ -50,7 +50,7 @@ La confezione contiene:
 | HT53L/05 | Sonda per misura di illuminamento (Lux) |
 | 607-IECN | Connettore con terminazione magnetica |
 | 1066-IECN | Connettore per prolunghe cavi con banana 4mm |
-| HTFLEX35 | Pinza flessibile con fondo scala 3000A AC, diametro 274mm |
+| HTFLEX35e | Pinza flessibile con fondo scala 3000A AC, diametro 274mm |
 | HT96U | Pinza standard con fondo scala 1/100/1000A AC |
 | HT97U | Pinza standard con fondo scala 10/100/1000A - 1VAC |
 | HT98U | Pinza standard con fondo scala 1000A DC, diametro 50mm |
