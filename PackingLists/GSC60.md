@@ -4,16 +4,7 @@
 <!-- Language: it | Version: 1.0 -->
 <!-- Generated via High-Fidelity PDFtoMD Parser -->
 
-## Indice
-- [10.5 Accessori](#105-accessori)
-  - [10.5.1 Dotazione standard](#1051-dotazione-standard)
-  - [10.5.2 Dotazione opzionale](#1052-dotazione-opzionale)
-
----
-
-## 10.5 Accessori
-
-### 10.5.1 Dotazione standard
+## Dotazione standard
 
 La confezione contiene:
 
@@ -38,7 +29,7 @@ La confezione contiene:
 
 ---
 
-### 10.5.2 Dotazione opzionale
+## Dotazione opzionale
 
 | Accessorio | Descrizione |
 | :--- | :--- |
