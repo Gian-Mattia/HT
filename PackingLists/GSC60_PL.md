@@ -4,7 +4,6 @@
 <!-- Language: it | Version: 1.0 -->
 <!-- Generated via High-Fidelity PDFtoMD Parser -->
 
-<!-- Chunk: Pagina 1 -->
 ## Indice
 - [10.5 Accessori](#105-accessori)
   - [10.5.1 Dotazione standard](#1051-dotazione-standard)
