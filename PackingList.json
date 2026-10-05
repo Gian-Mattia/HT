@@ -2,19 +2,19 @@
   "manuals": [
     {
       "id": "GSC60.md",
-      "name": "GSC60",
+      "name": "GSC60"
     },
     {
       "id": "PVCHECKsPRO.md",
-      "name": "PVCHECKsPRO",
+      "name": "PVCHECKsPRO"
     },
     {
       "id": "FULLTEST3.md",
-      "name": "FULLTEST3",
+      "name": "FULLTEST3"
     },
     {
       "id": "IV600.md",
-      "name": "IV600",
+      "name": "IV600"
     }
   ]
 }
