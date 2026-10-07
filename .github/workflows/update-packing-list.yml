@@ -1,0 +1,64 @@
+name: Aggiorna PackingList JSON
+
+on:
+  push:
+    paths:
+      - 'PackingLists/**'       # Si attiva solo se modifichi/aggiungi file in questa cartella
+  workflow_dispatch:           # Ti permette anche di eseguirlo a mano dalla scheda "Actions" con un clic
+
+permissions:
+  contents: write              # Permette al bot di fare commit e push delle modifiche
+
+jobs:
+  generate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Genera PackingList.json
+        run: |
+          python - << 'EOF'
+          import os
+          import json
+
+          folder = "PackingLists"
+          output_file = "PackingList.json"
+
+          items = []
+
+          if os.path.exists(folder):
+              # Ordiniamo i file alfabeticamente per mantenere il JSON pulito e ordinato
+              files = sorted(os.listdir(folder))
+              for filename in files:
+                  if filename.endswith(".md"):
+                      name_without_ext = os.path.splitext(filename)[0]
+                      items.append({
+                          "id": filename,
+                          "name": name_without_ext
+                      })
+
+          data = {
+              "packingList": items
+          }
+
+          with open(output_file, "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+
+          print(f"Generato con successo {output_file} con {len(items)} elementi.")
+          EOF
+
+      - name: Commit e Push su GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add PackingList.json
+          # Controlla se il JSON è effettivamente cambiato prima di committare
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica rilevata in PackingList.json"
+          else
+            git commit -m "Auto: aggiornato PackingList.json [skip ci]"
+            git push
+          fi
