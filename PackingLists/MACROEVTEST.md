@@ -5,14 +5,8 @@
 <!-- Generated via High-Fidelity PDFtoMD Parser -->
 
 <!-- Chunk: Pagina 1 -->
-## Indice
-- [11.5 Accessori](#115-accessori)
-  - [11.5.1 Dotazione standard](#1151-dotazione-standard)
-  - [11.5.2 Dotazione opzionale](#1152-dotazione-opzionale)
 
-## 11.5 Accessori
-
-### 11.5.1 Dotazione standard
+## Dotazione standard
 
 La confezione contiene:
 
@@ -36,7 +30,7 @@ La confezione contiene:
 
 Nota: gli elementi dei quali non viene riportato il codice non sono ordinabili singolarmente.
 
-### 11.5.2 Dotazione opzionale
+## Dotazione opzionale
 
 | Accessorio | Codice |
 | :--- | :--- |
