@@ -1,16 +1,12 @@
 {
   "packingList": [
     {
-      "id": "GSC60.md",
-      "name": "GSC60"
-    },
-    {
-      "id": "PVCHECKsPRO.md",
-      "name": "PVCHECKsPRO"
-    },
-    {
       "id": "FULLTEST3.md",
       "name": "FULLTEST3"
+    },
+    {
+      "id": "GSC60.md",
+      "name": "GSC60"
     },
     {
       "id": "IV600.md",
@@ -19,6 +15,14 @@
     {
       "id": "MACROEVTEST.md",
       "name": "MACROEVTEST"
+    },
+    {
+      "id": "PDFtoMD_MACROTESTG3_it_v1.0.md",
+      "name": "PDFtoMD_MACROTESTG3_it_v1.0"
+    },
+    {
+      "id": "PVCHECKs-PRO.md",
+      "name": "PVCHECKs-PRO"
     }
   ]
 }
