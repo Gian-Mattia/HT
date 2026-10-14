@@ -8,7 +8,6 @@
 <!-- PAGE: 1 -->
 © Copyright HT ITALIA 2024 Versione IT 2.01 28/11/2024
 
-# COMBI521 - SUPERCOMBIs
 ### Manuale d’uso
 
 <!-- PAGE: 2 -->
