@@ -1,0 +1,256 @@
+# HT9025
+
+<!-- Document: HT9025 -->
+<!-- Language: it | Version: 1.0 -->
+<!-- Generated via High-Fidelity PDFtoMD Parser -->
+
+<!-- Chunk: Pagine 1-4 (Intero Documento) -->
+**HT ITALIA SRL**  
+Via della Boaria 40 - 48018 Faenza (RA) - Italy  
+Tel: +39-0546-621002 - Fax: +39-0546-621144  
+email: ht@htitalia.it - web: http://www.ht-instruments.com  
+
+---
+
+## 1. SPECIFICHE ELETTRICHE
+
+L’incertezza è calcolata come [% della lettura + (numero di cifre) x risoluzione]. Essa è riferita a 18°C ÷ 28°C, <75%RH
+
+### TENSIONE DC (AUTORANGE)
+
+| Campo | Risoluzione | Incertezza | Impedenza di ingresso | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- | :--- |
+| 600.0mV | 0.1mV | ±(0.8%lettura + 8cifre) | >10MΩ | 1500VDC |
+| 6.000V | 0.001V | ±(0.5%lettura + 5cifre) | >10MΩ | 1500VDC |
+| 60.00V | 0.01V | ±(0.5%lettura + 5cifre) | >10MΩ | 1500VDC |
+| 600.0V | 0.1V | ±(0.8%lettura + 5cifre) | >10MΩ | 1500VDC |
+| 1500V | 1V | ±(0.8%lettura + 5cifre) | >10MΩ | 1500VDC |
+
+### TENSIONE AC TRMS
+
+| Campo | Risoluzione | Incertezza (*) (50 ÷ 60Hz) | Incertezza (*) (61 ÷ 1kHz) | Impedenza di ingresso | Banda passante | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 6.000V | 0.001V | ±(1.2%lettura + 5cifre) | ±(2.5%lettura + 5cifre) | >9MΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 60.00V | 0.01V | ±(1.2%lettura + 5cifre) | ±(2.5%lettura + 5cifre) | >9MΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 600.0V | 0.1V | ±(1.2%lettura + 5cifre) | ±(2.5%lettura + 5cifre) | >9MΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 1000V | 1V | ±(1.2%lettura + 5cifre) | ±(2.5%lettura + 5cifre) | >9MΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+
+(*) Incertezza specificata dal 10% al 100% del campo di misura, forma d’onda sinusoidale  
+Incertezza funzione PEAK: ±(10%lettura), Tempo di risposta funzione PEAK: 1ms  
+Per forma d’onda non sinusoidale l’incertezza è: ±(10.0%lettura + 20cifre)  
+Sensore NCV integrato per rilevazione tensione AC: LED acceso per tensione fase-terra compresa tra 100V e 1000V, 50/60Hz  
+
+### TENSIONE AC+DC TRMS
+
+| Campo | Risoluzione | Incertezza (*) (50Hz ÷ 1kHz) | Impedenza di ingresso | Banda passante | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 6.000V | 0.001V | ±(2.5%lettura + 20cifre) | >10MΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 60.00V | 0.01V | ±(2.5%lettura + 20cifre) | >10MΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 600.0V | 0.1V | ±(2.5%lettura + 20cifre) | >10MΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 1000V | 1V | ±(2.5%lettura + 20cifre) | >10MΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+
+### TENSIONE AC TRMS CN BASSA IMPEDENZA (LOZ)
+
+| Campo | Risoluzione | Incertezza (*) (50Hz ÷ 1kHz) | Impedenza di ingresso | Banda passante | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 6.000V | 0.001V | ±(3.0%lettura + 20cifre) | 300kΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 60.00V | 0.01V | ±(3.0%lettura + 20cifre) | 300kΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 600.0V | 0.1V | ±(3.0%lettura + 20cifre) | 300kΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 1000V | 1V | ±(3.0%lettura + 20cifre) | 300kΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+
+(*) Incertezza specificata dal 10% al 100% del campo di misura, forma d’onda sinusoidale  
+Per forma d’onda non sinusoidale l’incertezza è: ±(10.0%lettura + 20cifre)  
+
+### TENSIONE AC+DC TRMS CN BASSA IMPEDENZA (LOZ)
+
+| Campo | Risoluzione | Incertezza (*) (50Hz ÷ 1kHz) | Impedenza di ingresso | Banda passante | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 6.000V | 0.001V | ±(3.5%lettura + 40cifre) | <300kΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 60.00V | 0.01V | ±(3.5%lettura + 40cifre) | <300kΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 600.0V | 0.1V | ±(3.5%lettura + 40cifre) | <300kΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+| 1000V | 1V | ±(3.5%lettura + 40cifre) | <300kΩ | 50Hz ÷ 1kHz | 1000VDC/ACrms |
+
+### CORRENTE DC
+
+| Campo | Risoluzione | Incertezza | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- |
+| 60.00A | 0.01A | ±(2.0%lettura + 8cifre) | 1000ADC/ACrms |
+| 600.0A | 0.1A | ±(2.0%lettura + 8cifre) | 1000ADC/ACrms |
+| 1000A | 1A | ±(2.0%lettura + 8cifre) | 1000ADC/ACrms |
+
+### CORRENTE AC TRMS / CORRENTE DI SPUNTO (INRUSH)
+
+| Campo | Risoluzione | Incertezza (50Hz ÷ 60Hz) (*) | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- |
+| 60.00A | 0.01A | ±(2.5%lettura + 5cifre) | 1000ADC/ACrms |
+| 600.0A | 0.1A | ±(2.5%lettura + 5cifre) | 1000ADC/ACrms |
+| 1000A | 1A | ±(2.5%lettura + 5cifre) | 1000ADC/ACrms |
+
+(*) Incertezza specificata dal 10% al 100% del campo di misura; forma d’onda sinusoidale  
+Tempo di risposta funzione INRUSH: 100ms  
+
+### CORRENTE DC CON TRASDUTTORI A PINZA STANDARD
+
+| Campo | Rapporto di uscita | Risoluzione | Incertezza (*) | Protezione da sovraccarico |
+| :--- | :--- | :--- | :--- | :--- |
+| 1000mA | 1000mV/1000mA | 1mA | ±(0.8%lettura + 5cifre) | 1000VDC/ACrms |
+| 10A | 100mV/1A | 0.01A | ±(0.8%lettura + 5cifre) | 1000VDC/ACrms |
+| 40A (**) | 10mV/1A | 0.01A | ±(0.8%lettura + 5cifre) | 1000VDC/ACrms |
+| 100A | 10mV/1A | 0.1A | ±(0.8%lettura + 5cifre) | 1000VDC/ACrms |
+| 400A (**) | 1mV/1A | 0.1A | ±(0.8%lettura + 5cifre) | 1000VDC/ACrms |
+| 1000A | 1mV/1A | 1A | ±(0.8%lettura + 5cifre) | 1000VDC/ACrms |
+
+(*) Incertezza riferita al solo strumento senza trasduttore; (**) Con trasduttore a pinza HT4006  
+
+### CORRENTE AC, AC+DC CON TRASDUTTORI A PINZA STANDARD
+
+| Campo | Rapporto di uscita | Risoluzione | Incertezza (*) (50Hz ÷ 60Hz) | Incertezza (*) (61Hz ÷ 1kHz) | Protezione da sovraccarico |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1000mA | 1V/1mA | 1mA | ±(0.8%lettura + 5cifre) | ±(2.4%lettura + 5cifre) | 1000VDC/ACrms |
+| 10A | 100mV/1A | 0.01A | ±(0.8%lettura + 5cifre) | ±(2.4%lettura + 5cifre) | 1000VDC/ACrms |
+| 40A (**) | 10mV/1A | 0.01A | ±(0.8%lettura + 5cifre) | ±(2.4%lettura + 5cifre) | 1000VDC/ACrms |
+| 100A | 10mV/1A | 0.1A | ±(0.8%lettura + 5cifre) | ±(2.4%lettura + 5cifre) | 1000VDC/ACrms |
+| 400A (**) | 1mV/1A | 0.1A | ±(0.8%lettura + 5cifre) | ±(2.4%lettura + 5cifre) | 1000VDC/ACrms |
+| 1000A | 1mV/1A | 1A | ±(0.8%lettura + 5cifre) | ±(2.4%lettura + 5cifre) | 1000VDC/ACrms |
+
+(*) Incertezza riferita al solo strumento senza trasduttore; (**) Con trasduttore a pinza HT4006  
+
+### CORRENTE AC, TRMS CON TRASDUTTORE A PINZA FLESSIBILE (F3000U)
+
+| Campo | Rapporto di uscita | Risoluzione | Incertezza (*) (50Hz ÷ 400Hz) | Protezione da sovraccarico |
+| :--- | :--- | :--- | :--- | :--- |
+| 30A | 100mV/1A | 0.01A | ±(3.0%lettura + 5cifre) | 1000VDC/ACrms |
+| 300A | 10mV/1A | 0.1A | ±(3.0%lettura + 5cifre) | 1000VDC/ACrms |
+| 3000A | 1mV/1A | 1A | ±(3.0%lettura + 5cifre) | 1000VDC/ACrms |
+
+(*) Incertezza riferita al solo strumento senza trasduttore ; Incertezza specificata dal 5% al 100% del campo di misura  
+Incertezza funzione PEAK: ±(10%lettura + 20cifre), Tempo di risposta funzione PEAK: 1ms  
+
+### PROVA DIODI
+
+| Funzione | Corrente di prova | Tensione a vuoto |
+| :--- | :--- | :--- |
+| [Diodo ⯈|] | <1.5mA tipico | 3.3VDC |
+
+### FREQUENZA (CIRCUITI ELETTRICI)
+
+| Campo | Risoluzione | Incertezza | Sensibilità | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- | :--- |
+| 40.00Hz ÷ 10kHz | 0.01Hz ÷ 0.001kHz | ±(0.5%lettura) | ±2Vrms | 1000VDC/ACrms |
+
+### FREQUENZA (CIRCUITI ELETTRONICI)
+
+| Campo | Risoluzione | Incertezza | Protezione da sovraccarico |
+| :--- | :--- | :--- | :--- |
+| 60.00Hz | 0.01Hz | ±(0.2%lettura + 5cifre) | 1000VDC/ACrms |
+| 600.0Hz | 0.1Hz | ±(0.2%lettura + 5cifre) | 1000VDC/ACrms |
+| 6.000kHz | 0.001kHz | ±(0.2%lettura + 5cifre) | 1000VDC/ACrms |
+| 60.00kHz | 0.01kHz | ±(0.2%lettura + 5cifre) | 1000VDC/ACrms |
+| 600.0kHz | 0.1kHz | ±(0.2%lettura + 5cifre) | 1000VDC/ACrms |
+| 6.000MHz | 0.001MHz | ±(0.2%lettura + 5cifre) | 1000VDC/ACrms |
+| 10.00MHz | 0.01MHz | ±(0.2%lettura + 5cifre) | 1000VDC/ACrms |
+
+Sensibilità: >2Vrms (@ 20% ÷ 80% duty cycle) e f<100kHz; >5Vrms (@ 20% ÷ 80% duty cycle) e f>100kHz  
+
+### RESISTENZA E TEST CONTINUITÀ
+
+| Campo | Risoluzione | Incertezza | Buzzer | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- | :--- |
+| 600.0Ω | 0.1Ω | ±(1.0%lettura + 10cifre) | ≤50Ω | 1000VDC/ACrms |
+| 6.000kΩ | 0.001kΩ | ±(0.8%lettura + 5cifre) | ≤50Ω | 1000VDC/ACrms |
+| 60.00kΩ | 0.01kΩ | ±(0.8%lettura + 5cifre) | ≤50Ω | 1000VDC/ACrms |
+| 600.0kΩ | 0.1kΩ | ±(0.8%lettura + 5cifre) | ≤50Ω | 1000VDC/ACrms |
+| 6.000MΩ | 0.001MΩ | ±(0.8%lettura + 5cifre) | ≤50Ω | 1000VDC/ACrms |
+| 60.00MΩ | 0.01MΩ | ±(2.5%lettura + 10cifre) | ≤50Ω | 1000VDC/ACrms |
+
+### DUTY CYCLE (AUTORANGE)
+
+| Campo | Risoluzione | Incertezza |
+| :--- | :--- | :--- |
+| 10.0% ÷ 90.0% | 0.1% | ±(1.2%lettura + 8cifre) |
+
+Campo frequenza impulso: 40Hz ÷ 10kHz, Ampiezza impulso: ±5V (100µs ÷ 100ms)  
+
+### CAPACITÀ (AUTORANGE)
+
+| Campo | Risoluzione | Incertezza | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- |
+| 60.00nF | 0.01nF | ±(3.0%lettura + 20cifre) | 1000VDC/ACrms |
+| 600.0nF | 0.1nF | ±(3.0%lettura + 8cifre) | 1000VDC/ACrms |
+| 6.000µF | 0.001µF | ±(3.0%lettura + 8cifre) | 1000VDC/ACrms |
+| 60.00µF | 0.01µF | ±(3.0%lettura + 8cifre) | 1000VDC/ACrms |
+| 600.0µF | 0.1µF | ±(3.0%lettura + 8cifre) | 1000VDC/ACrms |
+| 6000µF | 1µF | ±(3.5%lettura + 20cifre) | 1000VDC/ACrms |
+| 60.00mF | 0.01mF | ±(5.0%lettura + 40cifre) | 1000VDC/ACrms |
+| 100.0mF | 0.1mF | ±(5.0%lettura + 40cifre) | 1000VDC/ACrms |
+
+### TEMPERATURA CON SONDA TIPO K (AUTORANGE)
+
+| Campo | Risoluzione | Incertezza (*) | Protezione contro i sovraccarichi |
+| :--- | :--- | :--- | :--- |
+| -40.0 ÷ 600.0°C | 0.1°C | ±(1.5%lettura + 3°C) | 1000VDC/ACrms |
+| 601 ÷ 1000°C | 1°C | ±(1.5%lettura + 3°C) | 1000VDC/ACrms |
+| -40.0°F ÷ 600.0°F | 0.1°F | ±(1.5%lettura + 5.4°F) | 1000VDC/ACrms |
+| 601°F ÷ 1800°F | 1°F | ±(1.5%lettura + 5.4°F) | 1000VDC/ACrms |
+| 245.0K ÷ 600.0K | 0.1°F | ±(1.5%lettura + 3K) | 1000VDC/ACrms |
+| 601K ÷ 1273K | 1°F | ±(1.5%lettura + 3K) | 1000VDC/ACrms |
+
+(*) Incertezza strumento senza sonda ; Incertezza specificata con temperatura ambiente stabile a ±1°C  
+
+---
+
+## 2. CARATTERISTICHE GENERALI
+
+### Caratteristiche meccaniche
+- **Dimensioni (L x La x H):** 280 x 100 x 50mm  
+- **Peso (batteria inclusa):** 505g  
+- **Protezione meccanica:** IP40  
+- **Diametro max. cavo pinzabile:** 40mm  
+
+### Alimentazione
+- **Tipo batteria:** 1x7.4V batteria ricaricabile Li-ION, 1200mAh  
+- **Alimentatore caricabatteria:** 100/240VAC, 50/60Hz, 12VDC, 2A  
+- **Indicazione batteria scarica:** simbolo [Batteria] a display  
+- **Tempo di ricarica:** circa 2 ore  
+- **Autonomia batteria:**  
+  - circa 8ore (Bluetooth non attivo)  
+  - circa 7ore (Bluetooth attivo)  
+- **Auto power OFF:** dopo 15 ÷ 60min di non utilizzo (disabilitabile)  
+
+### Display
+- **Caratteristiche:** colori TFT, 6000 punti con bargraph e backlight  
+- **Velocità di campionamento:** 3volte/s  
+- **Tipo di conversione:** TRMS  
+- **Funzioni:**  
+  - Data HOLD  
+  - MAX/MIN/PEAK(1ms)  
+  - RANGE  
+  - REL  
+  - Puntatore laser  
+  - Torcia a LED bianco  
+  - Connessione Bluetooth (BLE 4.0) per collegamento a dispositive mobile (tramite HTMercury APP)  
+
+### Memoria interna
+- **Caratteristiche:**  
+  - max 128 snapshots (formato BMP)  
+  - max 16 registrazioni o 34 ore (IC=1s)  
+  - intervallo campionamento: 1s ÷ 15min  
+  - durata singola registrazione: max 10 ore  
+
+### Condizioni ambientali di utilizzo
+- **Temperatura di riferimento:** 18°C ÷ 28°C  
+- **Temperatura di utilizzo:** 5°C ÷ 40°C  
+- **Umidità relativa ammessa:** <80%RH  
+- **Temperatura di conservazione:** -20°C ÷ 60°C  
+- **Umidità di conservazione:** <80%RH  
+
+### Normative considerate
+- **Lo strumento è conforme alle norme:** IEC/EN 61010-1  
+- **EMC:** IEC/EN61326-1  
+- **Isolamento:** doppio isolamento  
+- **Livello di Inquinamento:** 2  
+- **Max altitudine di utilizzo:** 2000m  
+- **Categoria di sovratensione:** CAT IV 600V, CAT III 1000V verso terra  
+
+Questo strumento è conforme ai requisiti della Direttiva Europea sulla bassa tensione 2014/35/EU (LVD), delle direttive EMC 2014/30/EU e RED 2014/53/EU  
+Questo strumento è conforme ai requisiti della direttiva europea 2011/65/CE (RoHS) e della direttiva europea 2012/19/CE (WEEE)
