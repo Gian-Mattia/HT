@@ -1,0 +1,63 @@
+name: Aggiorna DataSheet JSON
+
+on:
+  push:
+    paths:
+      - 'DataSheets/**'        # Si attiva solo se modifichi/aggiungi file in questa cartella
+  workflow_dispatch:           # Avvio manuale a portata di clic
+
+permissions:
+  contents: write
+
+jobs:
+  generate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Genera DataSheet.json
+        run: |
+          python - << 'EOF'
+          import os
+          import json
+
+          folder = "DataSheets"
+          output_file = "DataSheet.json"
+
+          items = []
+
+          if os.path.exists(folder):
+              files = sorted(os.listdir(folder))
+              for filename in files:
+                  if filename.endswith(".md"):
+                      name_without_ext = os.path.splitext(filename)[0]
+                      items.append({
+                          "id": filename,
+                          "name": name_without_ext
+                      })
+
+          # Struttura del JSON: verifica se la tua app si aspetta "dataSheet" o "dataSheets"
+          data = {
+              "dataSheet": items
+          }
+
+          with open(output_file, "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+
+          print(f"Generato con successo {output_file} con {len(items)} elementi.")
+          EOF
+
+      - name: Commit e Push su GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add DataSheet.json
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica rilevata in DataSheet.json"
+          else
+            git commit -m "Auto: aggiornato DataSheet.json [skip ci]"
+            git push
+          fi
