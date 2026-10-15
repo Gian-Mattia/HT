@@ -154,8 +154,8 @@ Nel presente manuale sono utilizzati i seguenti simboli:
 
 | Simbolo | Descrizione |
 | :---: | :--- |
-| ![Attenzione](data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>) | Attenzione: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento, ai suoi componenti o creare situazioni pericolose per l'operatore. |
-| ![Pericolo alta tensione](data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M11 21h-1l1-7H7.5c-.58 0-.57-.32-.38-.66.19-.34.05-.08.07-.12C8.48 10.94 10.42 7.54 13.01 3h1l-1 7h3.5c.49 0 .56.33.47.51l-.07.15C14.9 14.86 12.95 18.4 11 21z"/></svg>) | Pericolo alta tensione: rischi di shock elettrici. |
+| ⚠️ | Attenzione: attenersi alle istruzioni riportate nel manuale; un uso improprio potrebbe causare danni allo strumento, ai suoi componenti o creare situazioni pericolose per l'operatore. |
+| ⚠️ | Pericolo alta tensione: rischi di shock elettrici. |
 | 回 | Doppio isolamento |
 | ∿ | Tensione o corrente AC |
 | ⎓ | Tensione o corrente DC |
