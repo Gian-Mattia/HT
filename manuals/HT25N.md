@@ -5,7 +5,6 @@
 <!-- Total Chunks: 1 | Generated via High-Fidelity PDFtoMD Parser -->
 
 <!-- Chunk 1/1: Pagine 1-11 -->
-# HT25N - Manuale d'Uso
 
 ## Indice
 - [1. Precauzioni e Misure di Sicurezza](#1-precauzioni-e-misure-di-sicurezza)
