@@ -6,7 +6,6 @@
 
 <!-- Chunk 1/5: Pagine 1-24 -->
 <!-- PAGE: 1 -->
-# EASYTEST - COMBI519
 ## Manuale d’uso
 
 © Copyright HT ITALIA 2025 Versione IT 2.03 - 30/04/2025
