@@ -8,12 +8,10 @@
 <!-- PAGE: 1 -->
 © Copyright HT ITALIA 2024 Versione IT 3.01 - 02/12/2024
 
-FULLTEST3
 
 Manuale d'uso
 
 <!-- PAGE: 2 -->
-FULLTEST3
 
 ## Indice
 
@@ -73,9 +71,7 @@ FULLTEST3
     - [6.8.3. Condizioni di Trigger](#683-condizioni-di-trigger)
     - [6.8.4. Situazioni anomale](#684-situazioni-anomale)
   - [6.9. Test funzionali (POWER)](#69-test-funzionali-power)
-
-<!-- PAGE: 3 -->
-- [6.9.1. Situazioni anomale](#691-situazioni-anomale)
+    - [6.9.1. Situazioni anomale](#691-situazioni-anomale)
   - [6.10. Senso ciclico delle fasi (PHASESEQ)](#610-senso-ciclico-delle-fasi-phaseseq)
     - [6.10.1. Situazioni anomale](#6101-situazioni-anomale)
   - [6.11. Misura di Corrente con uso di trasduttore a pinza (ICLAMP)](#611-misura-di-corrente-con-uso-di-trasduttore-a-pinza-iclamp)
