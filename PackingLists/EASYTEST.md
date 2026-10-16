@@ -1,5 +1,3 @@
-# EASYTEST
-
 <!-- Document: EASYTEST -->
 <!-- Language: it | Version: 1.0 -->
 
