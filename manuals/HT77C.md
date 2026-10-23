@@ -1,11 +1,6 @@
-# HT77C
-
 <!-- Document: HT77C -->
 <!-- Language: it | Version: 2.0 -->
-<!-- Total Chunks: 1 | Generated via High-Fidelity PDFtoMD Parser -->
 
-<!-- Chunk 1/1: Pagine 1-15 -->
-<!-- PAGE: 1 -->
 # HT77C
 
 © Copyright HT ITALIA 2025 Versione IT 2.02 - 30/06/2025  
@@ -371,8 +366,8 @@ Protezione da sovraccarichi: 60Arms
 | 6mA (*) | 0.001mA | ± (2.0%lett.+5cifre) (**) | ± (1.0%lett.+5cifre) | ± (2.5%lett.+5cifre) |
 | 60mA | 0.01mA | ± (2.0%lett.+5cifre) (**) | ± (1.0%lett.+5cifre) | ± (2.5%lett.+5cifre) |
 | 600mA | 0.1mA | ± (2.0%lett.+5cifre) (**) | ± (1.0%lett.+5cifre) | ± (2.5%lett.+5cifre) |
-| 6A | 0.001A | ± (2.0%lettura+5cifre) | ± (2.0%lettura+5cifre) | |
-| 60A | 0.01A | ± (2.0%lettura+5cifre) | ± (2.0%lettura+5cifre) | |
+| 6A | 0.001A | ± (2.0%lettura+5cifre) | ± (2.0%lettura+5cifre) | ± (2.5%lett.+5cifre) |
+| 60A | 0.01A | ± (2.0%lettura+5cifre) | ± (2.0%lettura+5cifre) | ± (2.5%lett.+5cifre) |
 
 (*) Lettura minima: 10µA ; (**) Risposta in frequenza: 15Hz ÷ 50Hz. Per frequenza <30Hz aggiungere 3%lettura  
 Errore di posizionamento non al centro del toroide: ±1%lettura  
