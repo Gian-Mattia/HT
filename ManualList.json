@@ -22,8 +22,13 @@
     },
     {
       "id": "HT79.md",
-      "name": "HT79",
-      "description": "Manuale per la pinza amperometrica TRMS per misure di corrente AC/DC HT79."
+      "name": "HT79, HT79PRO",
+      "description": "Pinza amperometrica AC/DC TRMS per misura di correnti disperse."
+    },
+    {
+      "id": "HT77C.md",
+      "name": "HT77C, HT77CPRO",
+      "description": "Pinza amperometrica AC per misura di correnti di dispersione da 10μA a 60A."
     },
     {
       "id": "IRONMETER.md",
@@ -48,7 +53,7 @@
     {
       "id": "FAMIGLIAGX.md",
       "name": "MACROTESTG3, MACROTESTG2, MACROTESTG1, COMBIG2, COMBIG3, SUPERCOMBI, MACROEVTEST",
-      "description": "Il modello MT-300 è equivalente al modello MACROEVTEST. I modelli COMBITEST425EV e COMBIG2PLUS sono equivalenti al modello COMBIG2. Il modello COMBITEST425 è equivalente al modello SUPERCOMBI"
+      "description": "I modelli COMBITEST425EV e COMBIG2PLUS sono equivalenti al modello COMBIG2. Il modello COMBITEST425 è equivalente al modello SUPERCOMBI"
     },
     {
       "id": "NEPTUNE.md",
