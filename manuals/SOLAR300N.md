@@ -3739,6 +3739,7 @@ Massimo numero di anomalie registrabili: 20000
 FS = fondo scala della pinza  
 Misura effettuata tramite Pinza con Uscita = 1VDC quando la pinza è soggetta alla corrente nominale.  
 I valori di corrente < 0.1% del FS sono azzerati
+Le letture negative vengono automaticamente convertite in positive.
 
 <!-- PAGE: 151 -->
 #### Corrente AC (tramite trasduttore a pinza esterno STD)
